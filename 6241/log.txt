@@ -1,0 +1,165 @@
+2018-09-01 21:55:55,691 INFO  DownloadService - Downloading "https://github.com/kngfrhzs/Interaction-Cards-Layout/archive/master.zip", attempt 3
+2018-09-01 21:55:56,483 INFO  DownloadService - Downloaded https://github.com/kngfrhzs/Interaction-Cards-Layout/archive/master.zip, attempt 3
+2018-09-01 21:55:56,483 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/master.zip": 404 KB
+2018-09-01 21:55:56,483 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 21:55:56,484 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/master.zip: true
+2018-09-01 21:55:56,484 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src'.
+2018-09-01 21:55:56,518 INFO  FullProcessService - Size of directory with sources: 702 KB
+2018-09-01 21:55:56,519 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src]
+2018-09-01 21:55:56,544 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/.git/
+
+2018-09-01 21:55:56,548 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/gradlew
+2018-09-01 21:55:56,552 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/cardhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/build.gradle
+2018-09-01 21:55:56,556 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/cardhelper/build.gradle
+2018-09-01 21:55:56,556 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 21:55:56,557 INFO  ProjectFixService - Fixing project...
+2018-09-01 21:55:56,569 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/app/local.properties
+2018-09-01 21:55:56,569 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-01 21:55:56,570 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/cardhelper/local.properties
+2018-09-01 21:55:56,571 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/cardhelper/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-01 21:55:56,571 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/local.properties
+2018-09-01 21:55:56,572 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-01 21:55:56,572 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-01 21:55:56,573 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-01 21:55:56,574 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 21:55:56,574 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 21:55:56,574 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 21:56:10,349 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-09-01 21:56:10,349 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-01 21:56:10,349 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-01 21:56:34,098 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:app:prepareComAndroidSupportAppcompatV72531Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportRecyclerviewV72220Library
+:app:prepareComAndroidSupportSupportCompat2531Library
+:app:prepareComAndroidSupportSupportCoreUi2531Library
+:app:prepareComAndroidSupportSupportCoreUtils2531Library
+:app:prepareComAndroidSupportSupportFragment2531Library
+:app:prepareComAndroidSupportSupportMediaCompat2531Library
+:app:prepareComAndroidSupportSupportV42531Library
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library
+:app:prepareComGithubKsoichiroAndroidObservablescrollview160Library
+:cardhelper:preBuild UP-TO-DATE
+:cardhelper:preReleaseBuild UP-TO-DATE
+:cardhelper:checkReleaseManifest
+:cardhelper:preDebugAndroidTestBuild UP-TO-DATE
+:cardhelper:preDebugBuild UP-TO-DATE
+:cardhelper:preDebugUnitTestBuild UP-TO-DATE
+:cardhelper:preReleaseUnitTestBuild UP-TO-DATE
+:cardhelper:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:cardhelper:prepareComAndroidSupportAppcompatV72531Library
+:cardhelper:prepareComAndroidSupportRecyclerviewV72220Library
+:cardhelper:prepareComAndroidSupportSupportCompat2531Library
+:cardhelper:prepareComAndroidSupportSupportCoreUi2531Library
+:cardhelper:prepareComAndroidSupportSupportCoreUtils2531Library
+:cardhelper:prepareComAndroidSupportSupportFragment2531Library
+:cardhelper:prepareComAndroidSupportSupportMediaCompat2531Library
+:cardhelper:prepareComAndroidSupportSupportV42531Library
+:cardhelper:prepareComAndroidSupportSupportVectorDrawable2531Library
+:cardhelper:prepareComGithubKsoichiroAndroidObservablescrollview160Library
+:cardhelper:prepareReleaseDependencies
+:cardhelper:compileReleaseAidl
+:cardhelper:compileReleaseNdk UP-TO-DATE
+:cardhelper:compileLint
+:cardhelper:copyReleaseLint UP-TO-DATE
+:cardhelper:compileReleaseRenderscript
+:cardhelper:generateReleaseBuildConfig
+:cardhelper:generateReleaseResValues
+:cardhelper:generateReleaseResources
+:cardhelper:mergeReleaseResources
+:cardhelper:processReleaseManifest
+:cardhelper:processReleaseResources
+:cardhelper:generateReleaseSources
+:cardhelper:incrementalReleaseJavaCompilationSafeguard
+:cardhelper:javaPreCompileRelease
+:cardhelper:compileReleaseJavaWithJavac
+:cardhelper:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:cardhelper:extractReleaseAnnotations
+:cardhelper:mergeReleaseShaders
+:cardhelper:compileReleaseShaders
+:cardhelper:generateReleaseAssets
+:cardhelper:mergeReleaseAssets
+:cardhelper:mergeReleaseProguardFiles
+:cardhelper:packageReleaseRenderscript UP-TO-DATE
+:cardhelper:packageReleaseResources
+:cardhelper:processReleaseJavaRes UP-TO-DATE
+:cardhelper:transformResourcesWithMergeJavaResForRelease
+:cardhelper:transformClassesAndResourcesWithSyncLibJarsForRelease
+:cardhelper:mergeReleaseJniLibFolders
+:cardhelper:transformNativeLibsWithMergeJniLibsForRelease
+:cardhelper:transformNativeLibsWithStripDebugSymbolForRelease
+:cardhelper:transformNativeLibsWithSyncJniLibsForRelease
+:cardhelper:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 23.098 secs
+
+2018-09-01 21:56:34,230 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813755687-0/src/Interaction-Cards-Layout-master/app/build/outputs/apk/app-debug.apk

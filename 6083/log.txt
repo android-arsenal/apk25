@@ -1,0 +1,166 @@
+2018-10-22 10:49:12,946 INFO  DownloadService - Downloading "https://github.com/broakenmedia/MultiContactPicker/archive/master.zip", attempt 3
+2018-10-22 10:49:15,277 INFO  DownloadService - Downloaded https://github.com/broakenmedia/MultiContactPicker/archive/master.zip, attempt 3
+2018-10-22 10:49:15,277 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/master.zip": 172 KB
+2018-10-22 10:49:15,277 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-22 10:49:15,283 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/master.zip: true
+2018-10-22 10:49:15,283 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src'.
+2018-10-22 10:49:15,308 INFO  FullProcessService - Size of directory with sources: 223 KB
+2018-10-22 10:49:15,308 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src]
+2018-10-22 10:49:15,336 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/.git/
+
+2018-10-22 10:49:15,339 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/gradlew
+2018-10-22 10:49:15,342 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/multicontactpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/build.gradle
+2018-10-22 10:49:15,345 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/multicontactpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/settings.gradle
+2018-10-22 10:49:15,345 INFO  ProjectBuildService - Remote scripts: none
+2018-10-22 10:49:15,345 INFO  ProjectFixService - Fixing project...
+2018-10-22 10:49:15,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/app/local.properties
+2018-10-22 10:49:15,353 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-10-22 10:49:15,353 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/multicontactpicker/local.properties
+2018-10-22 10:49:15,354 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/multicontactpicker/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-10-22 10:49:15,354 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/local.properties
+2018-10-22 10:49:15,355 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-10-22 10:49:15,355 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-10-22 10:49:15,356 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-10-22 10:49:15,356 INFO  ProjectFixService - Project was maybe fixed
+2018-10-22 10:49:15,356 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-22 10:49:15,356 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-22 10:49:21,142 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-10-22 10:49:21,142 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-22 10:49:21,142 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-22 10:49:50,458 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:multicontactpicker:preBuild UP-TO-DATE
+:multicontactpicker:preDebugBuild UP-TO-DATE
+:multicontactpicker:checkDebugManifest
+:multicontactpicker:processDebugManifest
+:app:preDebugBuild
+:multicontactpicker:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:multicontactpicker:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:multicontactpicker:compileDebugRenderscript
+:multicontactpicker:generateDebugResValues
+:multicontactpicker:generateDebugResources
+:multicontactpicker:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:multicontactpicker:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:multicontactpicker:generateDebugBuildConfig
+:multicontactpicker:prepareLintJar
+:multicontactpicker:generateDebugSources
+:multicontactpicker:javaPreCompileDebug
+:multicontactpicker:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/multicontactpicker/src/main/java/com/wafflecopter/multicontactpicker/RxContacts/RxContacts.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:multicontactpicker:processDebugJavaRes NO-SOURCE
+:multicontactpicker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:multicontactpicker:mergeDebugShaders
+:multicontactpicker:compileDebugShaders
+:multicontactpicker:generateDebugAssets
+:multicontactpicker:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:multicontactpicker:compileDebugNdk NO-SOURCE
+:multicontactpicker:mergeDebugJniLibFolders
+:multicontactpicker:transformNativeLibsWithMergeJniLibsForDebug
+:multicontactpicker:transformNativeLibsWithStripDebugSymbolForDebug
+:multicontactpicker:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:multicontactpicker:preReleaseBuild UP-TO-DATE
+:multicontactpicker:checkReleaseManifest
+:multicontactpicker:processReleaseManifest
+:app:preReleaseBuild
+:multicontactpicker:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:multicontactpicker:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:multicontactpicker:compileReleaseRenderscript
+:multicontactpicker:generateReleaseResValues
+:multicontactpicker:generateReleaseResources
+:multicontactpicker:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:multicontactpicker:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:multicontactpicker:generateReleaseBuildConfig
+:multicontactpicker:generateReleaseSources
+:multicontactpicker:javaPreCompileRelease
+:multicontactpicker:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/multicontactpicker/src/main/java/com/wafflecopter/multicontactpicker/RxContacts/RxContacts.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:multicontactpicker:processReleaseJavaRes NO-SOURCE
+:multicontactpicker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/78ad58f17598e045cfb6f4c2fbc0b6f4/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:multicontactpicker:mergeReleaseShaders
+:multicontactpicker:compileReleaseShaders
+:multicontactpicker:generateReleaseAssets
+:multicontactpicker:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:multicontactpicker:compileReleaseNdk NO-SOURCE
+:multicontactpicker:mergeReleaseJniLibFolders
+:multicontactpicker:transformNativeLibsWithMergeJniLibsForRelease
+:multicontactpicker:transformNativeLibsWithStripDebugSymbolForRelease
+:multicontactpicker:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 29s
+90 actionable tasks: 90 executed
+
+2018-10-22 10:49:50,565 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/app/build/outputs/apk/debug/app-debug.apk

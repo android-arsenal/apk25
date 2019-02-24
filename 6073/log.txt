@@ -1,0 +1,202 @@
+2018-09-02 17:33:17,102 INFO  DownloadService - Downloading "https://github.com/fcannizzaro/kson/archive/master.zip", attempt 3
+2018-09-02 17:33:17,921 INFO  DownloadService - Downloaded https://github.com/fcannizzaro/kson/archive/master.zip, attempt 3
+2018-09-02 17:33:17,921 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/master.zip": 59 KB
+2018-09-02 17:33:17,921 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-02 17:33:17,921 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/master.zip: true
+2018-09-02 17:33:17,921 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src'.
+2018-09-02 17:33:17,928 INFO  FullProcessService - Size of directory with sources: 68 KB
+2018-09-02 17:33:17,928 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src]
+2018-09-02 17:33:17,974 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/.git/
+
+2018-09-02 17:33:17,975 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/gradlew
+2018-09-02 17:33:17,976 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/build.gradle
+2018-09-02 17:33:17,978 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/settings.gradle
+2018-09-02 17:33:17,978 INFO  ProjectBuildService - Remote scripts: none
+2018-09-02 17:33:17,978 INFO  ProjectFixService - Fixing project...
+2018-09-02 17:33:17,982 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/library/local.properties
+2018-09-02 17:33:17,982 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/library/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-02 17:33:17,983 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/local.properties
+2018-09-02 17:33:17,983 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-rc-1-all.zip
+2018-09-02 17:33:17,983 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-02 17:33:17,984 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-02 17:33:17,984 INFO  ProjectFixService - Project was maybe fixed
+2018-09-02 17:33:17,984 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 17:33:17,984 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 17:33:39,050 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-02 17:33:39,050 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-02 17:33:39,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-02 17:33:52,943 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':library' is deprecated. Use 'implementation' instead.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:compileDebugAidl
+:library:compileDebugNdk NO-SOURCE
+:library:compileLint
+:library:copyDebugLint NO-SOURCE
+:library:compileDebugRenderscript
+:library:checkDebugManifest
+:library:generateDebugBuildConfig
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library:platformAttrExtractor
+:library:processDebugManifest
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:library:mergeDebugConsumerProguardFiles
+:library:packageDebugRenderscript NO-SOURCE
+:library:processDebugJavaRes NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithSyncJniLibsForDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseAidl
+:library:compileReleaseNdk NO-SOURCE
+:library:copyReleaseLint NO-SOURCE
+:library:compileReleaseRenderscript
+:library:checkReleaseManifest
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseConsumerProguardFiles
+:library:packageReleaseRenderscript NO-SOURCE
+:library:processReleaseJavaRes NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:mergeReleaseResources
+:library:verifyReleaseResources
+:library:processDebugResources
+:library:compileDebugKotlin
+Using kotlin incremental compilation
+:library:generateDebugSources
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac
+:library:extractDebugAnnotations
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
+:library:processReleaseResources
+:library:compileReleaseKotlin
+Using kotlin incremental compilation
+:library:generateReleaseSources
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:extractReleaseAnnotations
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:bundleRelease
+:library:compileReleaseSources
+:library:assembleRelease
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL in 13s
+50 actionable tasks: 50 executed
+Exception in thread "Thread-24" java.lang.NoClassDefFoundError: com/android/builder/internal/aapt/v2/AaptV2Jni$TempDirCache$RecursiveDelete
+	at com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache.lambda$getCachedDirectory$0(AaptV2Jni.java:252)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache$RecursiveDelete
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 2 more
+
+2018-09-02 17:33:52,958 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 17:33:52,958 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 17:33:59,965 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-09-02 17:33:59,965 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-02 17:33:59,965 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884397099-0/src/kson-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-02 17:34:06,994 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':library' is deprecated. Use 'implementation' instead.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:compileDebugAidl UP-TO-DATE
+:library:compileDebugNdk NO-SOURCE
+:library:compileLint UP-TO-DATE
+:library:copyDebugLint NO-SOURCE
+:library:compileDebugRenderscript UP-TO-DATE
+:library:checkDebugManifest UP-TO-DATE
+:library:generateDebugBuildConfig UP-TO-DATE
+:library:generateDebugResValues UP-TO-DATE
+:library:generateDebugResources UP-TO-DATE
+:library:packageDebugResources UP-TO-DATE
+:library:platformAttrExtractor UP-TO-DATE
+:library:processDebugManifest UP-TO-DATE
+:library:processDebugResources UP-TO-DATE
+:library:compileDebugKotlin UP-TO-DATE
+:library:generateDebugSources UP-TO-DATE
+:library:javaPreCompileDebug UP-TO-DATE
+:library:compileDebugJavaWithJavac UP-TO-DATE
+:library:extractDebugAnnotations UP-TO-DATE
+:library:mergeDebugShaders UP-TO-DATE
+:library:compileDebugShaders UP-TO-DATE
+:library:generateDebugAssets UP-TO-DATE
+:library:mergeDebugAssets UP-TO-DATE
+:library:mergeDebugConsumerProguardFiles UP-TO-DATE
+:library:packageDebugRenderscript NO-SOURCE
+:library:processDebugJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:library:mergeDebugJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:library:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:library:bundleDebug UP-TO-DATE
+:library:compileDebugSources UP-TO-DATE
+:library:assembleDebug UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseNdk NO-SOURCE
+:library:copyReleaseLint NO-SOURCE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:checkReleaseManifest UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:compileReleaseKotlin UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:javaPreCompileRelease UP-TO-DATE
+:library:compileReleaseJavaWithJavac UP-TO-DATE
+:library:extractReleaseAnnotations UP-TO-DATE
+:library:mergeReleaseShaders UP-TO-DATE
+:library:compileReleaseShaders UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:library:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:library:packageReleaseRenderscript NO-SOURCE
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:library:mergeReleaseJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:library:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:library:bundleRelease UP-TO-DATE
+:library:compileReleaseSources UP-TO-DATE
+:library:mergeReleaseResources UP-TO-DATE
+:library:verifyReleaseResources UP-TO-DATE
+:library:assembleRelease UP-TO-DATE
+:library:assemble UP-TO-DATE
+:library:build
+
+BUILD SUCCESSFUL in 6s
+50 actionable tasks: 50 up-to-date
+
+2018-09-02 17:34:07,006 ERROR FullProcessService - Project build has not produced APK file
+2018-09-02 17:34:07,018 ERROR FullProcessService - Could not find generated or existed APK file

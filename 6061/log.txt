@@ -1,0 +1,565 @@
+2018-09-02 18:44:20,324 INFO  DownloadService - Downloading "https://github.com/Credntia/AndroidVisionPipeline/archive/master.zip", attempt 3
+2018-09-02 18:44:21,013 INFO  DownloadService - Downloaded https://github.com/Credntia/AndroidVisionPipeline/archive/master.zip, attempt 3
+2018-09-02 18:44:21,013 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/master.zip": 169 KB
+2018-09-02 18:44:21,013 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-02 18:44:21,015 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/master.zip: true
+2018-09-02 18:44:21,015 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src'.
+2018-09-02 18:44:21,044 INFO  FullProcessService - Size of directory with sources: 236 KB
+2018-09-02 18:44:21,044 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src]
+2018-09-02 18:44:21,069 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/.git/
+
+2018-09-02 18:44:21,074 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/gradlew
+2018-09-02 18:44:21,080 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/build.gradle
+2018-09-02 18:44:21,085 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/settings.gradle
+2018-09-02 18:44:21,085 INFO  ProjectBuildService - Remote scripts: none
+2018-09-02 18:44:21,085 INFO  ProjectFixService - Fixing project...
+2018-09-02 18:44:21,099 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/local.properties
+2018-09-02 18:44:21,099 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-09-02 18:44:21,100 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/sample/local.properties
+2018-09-02 18:44:21,101 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-09-02 18:44:21,102 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/local.properties
+2018-09-02 18:44:21,103 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-09-02 18:44:21,103 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-09-02 18:44:21,105 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-09-02 18:44:21,105 INFO  ProjectFixService - Project was maybe fixed
+2018-09-02 18:44:21,105 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 18:44:21,106 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 18:44:34,984 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-09-02 18:44:34,984 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-02 18:44:34,984 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-02 18:44:57,912 INFO  SysUtils - Configuration on demand is an incubating feature.
+:mobilevision-pipeline:preBuild UP-TO-DATE
+:mobilevision-pipeline:preDebugBuild UP-TO-DATE
+:mobilevision-pipeline:compileDebugAidl
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-vision/15.0.1/play-services-vision-15.0.1.pom
+Download https://jcenter.bintray.com/com/google/android/gms/play-services-vision-common/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-vision-common/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-vision-common/15.0.1/play-services-vision-common-15.0.1.pom
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-clearcut/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-phenotype/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-vision/15.0.1/play-services-vision-15.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-vision-common/15.0.1/play-services-vision-common-15.0.1.aar
+:mobilevision-pipeline:compileDebugRenderscript
+:mobilevision-pipeline:checkDebugManifest
+:mobilevision-pipeline:generateDebugBuildConfig
+:mobilevision-pipeline:generateDebugResValues
+:mobilevision-pipeline:generateDebugResources
+:mobilevision-pipeline:packageDebugResources
+:mobilevision-pipeline:platformAttrExtractor
+:mobilevision-pipeline:processDebugManifest
+:mobilevision-pipeline:prepareLintJar
+:mobilevision-pipeline:javaPreCompileDebug
+:mobilevision-pipeline:mergeDebugConsumerProguardFiles
+:mobilevision-pipeline:mergeDebugShaders
+:mobilevision-pipeline:compileDebugShaders
+:mobilevision-pipeline:generateDebugAssets
+:mobilevision-pipeline:packageDebugAssets
+:mobilevision-pipeline:packageDebugRenderscript NO-SOURCE
+:mobilevision-pipeline:processDebugJavaRes NO-SOURCE
+:mobilevision-pipeline:compileDebugNdk NO-SOURCE
+:mobilevision-pipeline:mergeDebugJniLibFolders
+:mobilevision-pipeline:transformNativeLibsWithMergeJniLibsForDebug
+:mobilevision-pipeline:transformNativeLibsWithStripDebugSymbolForDebug
+:mobilevision-pipeline:transformNativeLibsWithSyncJniLibsForDebug
+:mobilevision-pipeline:preReleaseBuild UP-TO-DATE
+:mobilevision-pipeline:compileReleaseAidl
+:mobilevision-pipeline:compileReleaseRenderscript
+:mobilevision-pipeline:checkReleaseManifest
+:mobilevision-pipeline:generateReleaseBuildConfig
+:mobilevision-pipeline:generateReleaseResValues
+:mobilevision-pipeline:generateReleaseResources
+:mobilevision-pipeline:packageReleaseResources
+:mobilevision-pipeline:processReleaseManifest
+:mobilevision-pipeline:javaPreCompileRelease
+:mobilevision-pipeline:mergeReleaseConsumerProguardFiles
+:mobilevision-pipeline:mergeReleaseShaders
+:mobilevision-pipeline:compileReleaseShaders
+:mobilevision-pipeline:generateReleaseAssets
+:mobilevision-pipeline:packageReleaseAssets
+:mobilevision-pipeline:packageReleaseRenderscript NO-SOURCE
+:mobilevision-pipeline:processReleaseJavaRes NO-SOURCE
+:mobilevision-pipeline:compileReleaseNdk NO-SOURCE
+:mobilevision-pipeline:mergeReleaseJniLibFolders
+:mobilevision-pipeline:transformNativeLibsWithMergeJniLibsForRelease
+:mobilevision-pipeline:transformNativeLibsWithStripDebugSymbolForRelease
+:mobilevision-pipeline:transformNativeLibsWithSyncJniLibsForRelease
+:mobilevision-pipeline:mergeReleaseResources
+:mobilevision-pipeline:verifyReleaseResources
+:mobilevision-pipeline:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:29: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:30: error: package android.support.annotation does not exist
+import android.support.annotation.RequiresPermission;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:31: error: package android.support.annotation does not exist
+import android.support.annotation.StringDef;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:38: error: package com.google.android.gms.common.images does not exist
+import com.google.android.gms.common.images.Size;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:39: error: package com.google.android.gms.vision does not exist
+import com.google.android.gms.vision.Detector;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:40: error: package com.google.android.gms.vision does not exist
+import com.google.android.gms.vision.Frame;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:137: error: cannot find symbol
+    private Size mPreviewSize;
+            ^
+  symbol:   class Size
+  location: class CameraSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:447: error: cannot find symbol
+    public Size getPreviewSize() {
+           ^
+  symbol:   class Size
+  location: class CameraSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:1070: error: cannot find symbol
+    private byte[] createPreviewBuffer(Size previewSize) {
+                                       ^
+  symbol:   class Size
+  location: class CameraSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:1118: error: cannot find symbol
+        private Detector<?> mDetector;
+                ^
+  symbol:   class Detector
+  location: class CameraSource.FrameProcessingRunnable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:1130: error: cannot find symbol
+        FrameProcessingRunnable(Detector<?> detector) {
+                                ^
+  symbol:   class Detector
+  location: class CameraSource.FrameProcessingRunnable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:911: error: cannot find symbol
+        private Size mPreview;
+                ^
+  symbol:   class Size
+  location: class SizePair
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:912: error: cannot find symbol
+        private Size mPicture;
+                ^
+  symbol:   class Size
+  location: class SizePair
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:922: error: cannot find symbol
+        public Size previewSize() {
+               ^
+  symbol:   class Size
+  location: class SizePair
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:927: error: cannot find symbol
+        public Size pictureSize() {
+               ^
+  symbol:   class Size
+  location: class SizePair
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:99: error: cannot find symbol
+    @StringDef({
+     ^
+  symbol:   class StringDef
+  location: class CameraSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:111: error: cannot find symbol
+    @StringDef({
+     ^
+  symbol:   class StringDef
+  location: class CameraSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:177: error: cannot find symbol
+        private final Detector<?> mDetector;
+                      ^
+  symbol:   class Detector
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:184: error: cannot find symbol
+        public Builder(Context context, Detector<?> detector) {
+                                        ^
+  symbol:   class Detector
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSourcePreview.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.RequiresPermission;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSourcePreview.java:28: error: package com.google.android.gms.common.images does not exist
+import com.google.android.gms.common.images.Size;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:341: error: cannot find symbol
+    @RequiresPermission(Manifest.permission.CAMERA)
+     ^
+  symbol:   class RequiresPermission
+  location: class CameraSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:375: error: cannot find symbol
+    @RequiresPermission(Manifest.permission.CAMERA)
+     ^
+  symbol:   class RequiresPermission
+  location: class CameraSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:527: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class CameraSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:567: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class CameraSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:614: error: cannot find symbol
+    public void autoFocus(@Nullable AutoFocusCallback cb) {
+                           ^
+  symbol:   class Nullable
+  location: class CameraSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:650: error: cannot find symbol
+    public boolean setAutoFocusMoveCallback(@Nullable AutoFocusMoveCallback cb) {
+                                             ^
+  symbol:   class Nullable
+  location: class CameraSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSourcePreview.java:63: error: cannot find symbol
+    @RequiresPermission(Manifest.permission.CAMERA)
+     ^
+  symbol:   class RequiresPermission
+  location: class CameraSourcePreview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSourcePreview.java:78: error: cannot find symbol
+    @RequiresPermission(Manifest.permission.CAMERA)
+     ^
+  symbol:   class RequiresPermission
+  location: class CameraSourcePreview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSourcePreview.java:97: error: cannot find symbol
+    @RequiresPermission(Manifest.permission.CAMERA)
+     ^
+  symbol:   class RequiresPermission
+  location: class CameraSourcePreview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:342: warning: no @return
+    public CameraSource start() throws IOException {
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:376: warning: no @return
+    public CameraSource start(SurfaceHolder surfaceHolder) throws IOException {
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:395: error: self-closing element not allowed
+     * <p/>
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:398: error: self-closing element not allowed
+     * <p/>
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:455: warning: no @return
+    public int getCameraFacing() {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:600: error: self-closing element not allowed
+     * <p/>
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:600: warning: empty <p> tag
+     * <p/>
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:606: error: self-closing element not allowed
+     * <p/>
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:606: warning: empty <p> tag
+     * <p/>
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:61: error: reference not found
+ * {@link com.google.android.gms.vision.Detector}.  This receives preview frames from the camera at
+          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:64: error: self-closing element not allowed
+ * <p/>
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:72: error: self-closing element not allowed
+ * <p/>
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:306: error: self-closing element not allowed
+     * <p/>
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:306: warning: empty <p> tag
+     * <p/>
+       ^
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class StringDef not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class StringDef not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class StringDef not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class StringDef not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:295: error: self-closing element not allowed
+         * <p/>
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:200: warning: no @param for fps
+        public Builder setRequestedFps(float fps) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:200: warning: no @return
+        public Builder setRequestedFps(float fps) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:224: warning: no @param for width
+        public Builder setRequestedPreviewSize(int width, int height) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:224: warning: no @param for height
+        public Builder setRequestedPreviewSize(int width, int height) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:224: warning: no @return
+        public Builder setRequestedPreviewSize(int width, int height) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:241: warning: no @param for facing
+        public Builder setFacing(int facing) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:241: warning: no @return
+        public Builder setFacing(int facing) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:252: warning: no @return
+        public CameraSource build() {
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:184: warning: no @param for context
+        public Builder(Context context, Detector<?> detector) {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:184: warning: no @param for detector
+        public Builder(Context context, Detector<?> detector) {
+               ^
+javadoc: warning - Class StringDef not found.
+javadoc: warning - Class StringDef not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java:283: warning: no @param for data
+        void onPictureTaken(byte[] data);
+             ^
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/GraphicOverlay.java:87: warning: no @param for horizontal
+        public float scaleX(float horizontal) {
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/GraphicOverlay.java:87: warning: no @return
+        public float scaleX(float horizontal) {
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/GraphicOverlay.java:94: warning: no @param for vertical
+        public float scaleY(float vertical) {
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/GraphicOverlay.java:94: warning: no @return
+        public float scaleY(float vertical) {
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/GraphicOverlay.java:102: warning: no @param for x
+        public float translateX(float x) {
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/GraphicOverlay.java:102: warning: no @return
+        public float translateX(float x) {
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/GraphicOverlay.java:114: warning: no @param for y
+        public float translateY(float y) {
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/GraphicOverlay.java:114: warning: no @return
+        public float translateY(float y) {
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/FrameGraphic.java:10: error: malformed HTML
+ * Created by Mehedi Hasan Khan <mehedi.mailing@gmail.com> on 12/27/16.
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/FrameGraphic.java:10: error: bad use of '>'
+ * Created by Mehedi Hasan Khan <mehedi.mailing@gmail.com> on 12/27/16.
+                                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/GraphicOverlay.java:141: warning: no @param for graphic
+    public void add(T graphic) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/GraphicOverlay.java:154: warning: no @param for graphic
+    public void remove(T graphic) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/GraphicOverlay.java:201: warning: no @param for previewWidth
+    public void setCameraInfo(int previewWidth, int previewHeight, int facing) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/GraphicOverlay.java:201: warning: no @param for previewHeight
+    public void setCameraInfo(int previewWidth, int previewHeight, int facing) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/GraphicOverlay.java:201: warning: no @param for facing
+    public void setCameraInfo(int previewWidth, int previewHeight, int facing) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/GraphicOverlay.java:32: warning: empty <p> tag
+ * </p>
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/GraphicOverlay.java:36: warning: empty <p> tag
+ * </p>
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/Util.java:24: error: malformed HTML
+ * Created by Mehedi Hasan Khan <mehedi.mailing@gmail.com> on 8/10/17.
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/Util.java:24: error: bad use of '>'
+ * Created by Mehedi Hasan Khan <mehedi.mailing@gmail.com> on 8/10/17.
+                                                         ^
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+javadoc: warning - Class RequiresPermission not found.
+
+13 errors
+100 warnings
+:mobilevision-pipeline:javadocJar
+:mobilevision-pipeline:sourcesJar
+:mobilevision-pipeline:generateDebugRFile
+:mobilevision-pipeline:generateDebugSources
+:mobilevision-pipeline:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mobilevision-pipeline:extractDebugAnnotations
+:mobilevision-pipeline:transformResourcesWithMergeJavaResForDebug
+:mobilevision-pipeline:transformClassesAndResourcesWithSyncLibJarsForDebug
+:mobilevision-pipeline:bundleDebug
+:mobilevision-pipeline:compileDebugSources
+:mobilevision-pipeline:assembleDebug
+:mobilevision-pipeline:generateReleaseRFile
+:mobilevision-pipeline:generateReleaseSources
+:mobilevision-pipeline:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/src/main/java/online/devliving/mobilevisionpipeline/camera/CameraSource.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:mobilevision-pipeline:extractReleaseAnnotations
+:mobilevision-pipeline:transformResourcesWithMergeJavaResForRelease
+:mobilevision-pipeline:transformClassesAndResourcesWithSyncLibJarsForRelease
+:mobilevision-pipeline:bundleRelease
+:mobilevision-pipeline:compileReleaseSources
+:mobilevision-pipeline:assembleRelease
+:mobilevision-pipeline:assemble
+:mobilevision-pipeline:build
+
+BUILD SUCCESSFUL in 22s
+51 actionable tasks: 51 executed
+
+2018-09-02 18:44:57,925 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 18:44:57,925 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 18:45:04,445 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-02 18:45:04,445 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-02 18:45:04,445 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-02 18:45:37,474 INFO  SysUtils - Configuration on demand is an incubating feature.
+:mobilevision-pipeline:preBuild UP-TO-DATE
+:mobilevision-pipeline:preDebugBuild UP-TO-DATE
+:mobilevision-pipeline:compileDebugAidl UP-TO-DATE
+:mobilevision-pipeline:compileDebugRenderscript UP-TO-DATE
+:mobilevision-pipeline:checkDebugManifest UP-TO-DATE
+:mobilevision-pipeline:generateDebugBuildConfig UP-TO-DATE
+:mobilevision-pipeline:generateDebugResValues UP-TO-DATE
+:mobilevision-pipeline:generateDebugResources UP-TO-DATE
+:mobilevision-pipeline:packageDebugResources UP-TO-DATE
+:mobilevision-pipeline:platformAttrExtractor UP-TO-DATE
+:mobilevision-pipeline:processDebugManifest UP-TO-DATE
+:mobilevision-pipeline:generateDebugRFile UP-TO-DATE
+:mobilevision-pipeline:prepareLintJar UP-TO-DATE
+:mobilevision-pipeline:generateDebugSources UP-TO-DATE
+:mobilevision-pipeline:javaPreCompileDebug UP-TO-DATE
+:mobilevision-pipeline:compileDebugJavaWithJavac UP-TO-DATE
+:mobilevision-pipeline:processDebugJavaRes NO-SOURCE
+:mobilevision-pipeline:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl
+:mobilevision-pipeline:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/sample/src/main/java/online/devliving/mobilevisionpipelinesample/FaceTrackerActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:mobilevision-pipeline:mergeDebugShaders UP-TO-DATE
+:mobilevision-pipeline:compileDebugShaders UP-TO-DATE
+:mobilevision-pipeline:generateDebugAssets UP-TO-DATE
+:mobilevision-pipeline:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:mobilevision-pipeline:compileDebugNdk NO-SOURCE
+:mobilevision-pipeline:mergeDebugJniLibFolders UP-TO-DATE
+:mobilevision-pipeline:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:mobilevision-pipeline:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:mobilevision-pipeline:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:mobilevision-pipeline:preReleaseBuild UP-TO-DATE
+:mobilevision-pipeline:compileReleaseAidl UP-TO-DATE
+:mobilevision-pipeline:compileReleaseRenderscript UP-TO-DATE
+:mobilevision-pipeline:checkReleaseManifest UP-TO-DATE
+:mobilevision-pipeline:generateReleaseBuildConfig UP-TO-DATE
+:mobilevision-pipeline:generateReleaseResValues UP-TO-DATE
+:mobilevision-pipeline:generateReleaseResources UP-TO-DATE
+:mobilevision-pipeline:packageReleaseResources UP-TO-DATE
+:mobilevision-pipeline:processReleaseManifest UP-TO-DATE
+:mobilevision-pipeline:generateReleaseRFile UP-TO-DATE
+:mobilevision-pipeline:generateReleaseSources UP-TO-DATE
+:mobilevision-pipeline:javaPreCompileRelease UP-TO-DATE
+:mobilevision-pipeline:compileReleaseJavaWithJavac UP-TO-DATE
+:mobilevision-pipeline:processReleaseJavaRes NO-SOURCE
+:mobilevision-pipeline:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:preReleaseBuild
+:sample:compileReleaseAidl
+:mobilevision-pipeline:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/sample/src/main/java/online/devliving/mobilevisionpipelinesample/FaceTrackerActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:mobilevision-pipeline:mergeReleaseShaders UP-TO-DATE
+:mobilevision-pipeline:compileReleaseShaders UP-TO-DATE
+:mobilevision-pipeline:generateReleaseAssets UP-TO-DATE
+:mobilevision-pipeline:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:mobilevision-pipeline:compileReleaseNdk NO-SOURCE
+:mobilevision-pipeline:mergeReleaseJniLibFolders UP-TO-DATE
+:mobilevision-pipeline:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:mobilevision-pipeline:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:mobilevision-pipeline:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 32s
+91 actionable tasks: 57 executed, 34 up-to-date
+
+2018-09-02 18:45:37,548 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888660320-0/src/AndroidVisionPipeline-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

@@ -1,0 +1,193 @@
+2018-09-01 22:52:50,525 INFO  DownloadService - Downloading "https://github.com/DenisMondon/EasyAnimatedVectorDrawable/archive/master.zip", attempt 3
+2018-09-01 22:52:53,945 INFO  DownloadService - Downloaded https://github.com/DenisMondon/EasyAnimatedVectorDrawable/archive/master.zip, attempt 3
+2018-09-01 22:52:53,946 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/master.zip": 551 KB
+2018-09-01 22:52:53,946 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 22:52:53,951 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/master.zip: true
+2018-09-01 22:52:53,952 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src'.
+2018-09-01 22:52:53,976 INFO  FullProcessService - Size of directory with sources: 602 KB
+2018-09-01 22:52:53,976 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src]
+2018-09-01 22:52:53,998 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/.git/
+
+2018-09-01 22:52:54,001 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/gradlew
+2018-09-01 22:52:54,003 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/build.gradle
+2018-09-01 22:52:54,006 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/settings.gradle
+2018-09-01 22:52:54,006 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2018-09-01 22:53:54,011 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-01 22:53:54,012 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 22:53:54,012 INFO  ProjectFixService - Fixing project...
+2018-09-01 22:53:54,020 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/demo/local.properties
+2018-09-01 22:53:54,021 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-01 22:53:54,021 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-01 22:53:54,022 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/library/local.properties
+2018-09-01 22:53:54,026 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-01 22:53:54,026 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-01 22:53:54,027 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/local.properties
+2018-09-01 22:53:54,027 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-01 22:53:54,028 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-01 22:53:54,029 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-01 22:53:54,029 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-01 22:53:54,029 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 22:53:54,029 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 22:53:54,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 22:54:02,402 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-01 22:54:02,402 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-01 22:54:02,402 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-01 22:54:29,401 INFO  SysUtils - Configuration on demand is an incubating feature.
+:demo:preBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:processDebugManifest
+:demo:preDebugBuild
+:library:compileDebugAidl
+:demo:compileDebugAidl
+:library:packageDebugRenderscript NO-SOURCE
+:demo:compileDebugRenderscript
+:demo:checkDebugManifest
+:demo:generateDebugBuildConfig
+:demo:prepareLintJar
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:demo:mergeDebugResources
+:demo:createDebugCompatibleScreenManifests
+:demo:processDebugManifest
+:demo:splitsDiscoveryTaskDebug
+:library:platformAttrExtractor
+:library:generateDebugBuildConfig
+:library:prepareLintJar
+:library:javaPreCompileDebug
+:library:processDebugJavaRes NO-SOURCE
+:demo:compileDebugNdk NO-SOURCE
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:demo:mergeDebugAssets
+:demo:mergeDebugJniLibFolders
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:processDebugJavaRes NO-SOURCE
+:demo:validateSigningDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:processReleaseManifest
+:demo:preReleaseBuild
+:library:compileReleaseAidl
+:demo:compileReleaseAidl
+:library:packageReleaseRenderscript NO-SOURCE
+:demo:compileReleaseRenderscript
+:demo:checkReleaseManifest
+:demo:generateReleaseBuildConfig
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:demo:mergeReleaseResources
+:demo:createReleaseCompatibleScreenManifests
+:demo:processReleaseManifest
+:demo:splitsDiscoveryTaskRelease
+:library:generateReleaseBuildConfig
+:library:javaPreCompileRelease
+:library:processReleaseJavaRes NO-SOURCE
+:demo:compileReleaseNdk NO-SOURCE
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:demo:mergeReleaseAssets
+:library:processDebugResources
+:demo:processDebugResources
+:demo:generateDebugSources
+:library:generateDebugSources
+:library:compileDebugJavaWithJavac
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavac
+:demo:compileDebugSources
+:demo:transformClassesWithDexBuilderForDebug
+:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:packageDebug
+:demo:assembleDebug
+:library:processReleaseResources
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:library:generateReleaseSources
+:library:compileReleaseJavaWithJavac
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavac
+:demo:compileReleaseSources
+:demo:transformClassesWithPreDexForRelease
+:demo:transformDexWithDexForRelease
+:demo:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:processReleaseJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:lintVitalRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL in 26s
+88 actionable tasks: 88 executed
+
+2018-09-01 22:54:29,478 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

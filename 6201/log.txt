@@ -1,0 +1,230 @@
+2018-09-01 22:50:08,716 INFO  DownloadService - Downloading "https://github.com/Dimezis/BottomNavigationBar/archive/master.zip", attempt 3
+2018-09-01 22:50:10,763 INFO  DownloadService - Downloaded https://github.com/Dimezis/BottomNavigationBar/archive/master.zip, attempt 3
+2018-09-01 22:50:10,764 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/master.zip": 374 KB
+2018-09-01 22:50:10,764 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 22:50:10,764 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/master.zip: true
+2018-09-01 22:50:10,764 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src'.
+2018-09-01 22:50:10,791 INFO  FullProcessService - Size of directory with sources: 409 KB
+2018-09-01 22:50:10,791 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src]
+2018-09-01 22:50:10,817 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/.git/
+
+2018-09-01 22:50:10,821 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/gradlew
+2018-09-01 22:50:10,825 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/build.gradle
+2018-09-01 22:50:10,828 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/settings.gradle
+2018-09-01 22:50:10,829 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Dimezis/JCenter/master/installv1.gradle", attempt 3
+2018-09-01 22:51:10,831 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/Dimezis/JCenter/master/installv1.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-01 22:51:10,832 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Dimezis/JCenter/master/bintrayv1.gradle", attempt 3
+2018-09-01 22:52:10,834 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/Dimezis/JCenter/master/bintrayv1.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-01 22:52:10,834 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 22:52:10,834 INFO  ProjectFixService - Fixing project...
+2018-09-01 22:52:10,841 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/app/local.properties
+2018-09-01 22:52:10,842 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-01 22:52:10,842 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/bottomnavigationbar/local.properties
+2018-09-01 22:52:10,842 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-01 22:52:10,843 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/local.properties
+2018-09-01 22:52:10,843 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-01 22:52:10,843 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-01 22:52:10,844 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-01 22:52:10,844 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 22:52:10,844 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 22:52:10,844 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 22:52:20,006 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-01 22:52:20,006 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-01 22:52:20,006 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-01 22:52:42,158 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2520Library
+:app:prepareComAndroidSupportAppcompatV72520Library
+:app:prepareComAndroidSupportSupportCompat2520Library
+:app:prepareComAndroidSupportSupportCoreUi2520Library
+:app:prepareComAndroidSupportSupportCoreUtils2520Library
+:app:prepareComAndroidSupportSupportFragment2520Library
+:app:prepareComAndroidSupportSupportMediaCompat2520Library
+:app:prepareComAndroidSupportSupportV42520Library
+:app:prepareComAndroidSupportSupportVectorDrawable2520Library
+:bottomnavigationbar:preBuild UP-TO-DATE
+:bottomnavigationbar:preReleaseBuild UP-TO-DATE
+:bottomnavigationbar:checkReleaseManifest
+:bottomnavigationbar:preDebugAndroidTestBuild UP-TO-DATE
+:bottomnavigationbar:preDebugBuild UP-TO-DATE
+:bottomnavigationbar:preDebugUnitTestBuild UP-TO-DATE
+:bottomnavigationbar:preReleaseUnitTestBuild UP-TO-DATE
+:bottomnavigationbar:prepareComAndroidSupportAnimatedVectorDrawable2520Library
+:bottomnavigationbar:prepareComAndroidSupportAppcompatV72520Library
+:bottomnavigationbar:prepareComAndroidSupportSupportCompat2520Library
+:bottomnavigationbar:prepareComAndroidSupportSupportCoreUi2520Library
+:bottomnavigationbar:prepareComAndroidSupportSupportCoreUtils2520Library
+:bottomnavigationbar:prepareComAndroidSupportSupportFragment2520Library
+:bottomnavigationbar:prepareComAndroidSupportSupportMediaCompat2520Library
+:bottomnavigationbar:prepareComAndroidSupportSupportV42520Library
+:bottomnavigationbar:prepareComAndroidSupportSupportVectorDrawable2520Library
+:bottomnavigationbar:prepareReleaseDependencies
+:bottomnavigationbar:compileReleaseAidl
+:bottomnavigationbar:compileReleaseNdk UP-TO-DATE
+:bottomnavigationbar:compileLint
+:bottomnavigationbar:copyReleaseLint UP-TO-DATE
+:bottomnavigationbar:compileReleaseRenderscript
+:bottomnavigationbar:generateReleaseBuildConfig
+:bottomnavigationbar:generateReleaseResValues
+:bottomnavigationbar:generateReleaseResources
+:bottomnavigationbar:mergeReleaseResources
+:bottomnavigationbar:processReleaseManifest
+:bottomnavigationbar:processReleaseResources
+:bottomnavigationbar:generateReleaseSources
+:bottomnavigationbar:incrementalReleaseJavaCompilationSafeguard
+:bottomnavigationbar:javaPreCompileRelease
+:bottomnavigationbar:compileReleaseJavaWithJavac
+:bottomnavigationbar:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:bottomnavigationbar:extractReleaseAnnotations
+:bottomnavigationbar:mergeReleaseShaders
+:bottomnavigationbar:compileReleaseShaders
+:bottomnavigationbar:generateReleaseAssets
+:bottomnavigationbar:mergeReleaseAssets
+:bottomnavigationbar:mergeReleaseProguardFiles
+:bottomnavigationbar:packageReleaseRenderscript UP-TO-DATE
+:bottomnavigationbar:packageReleaseResources
+:bottomnavigationbar:processReleaseJavaRes UP-TO-DATE
+:bottomnavigationbar:transformResourcesWithMergeJavaResForRelease
+:bottomnavigationbar:transformClassesAndResourcesWithSyncLibJarsForRelease
+:bottomnavigationbar:mergeReleaseJniLibFolders
+:bottomnavigationbar:transformNativeLibsWithMergeJniLibsForRelease
+:bottomnavigationbar:transformNativeLibsWithStripDebugSymbolForRelease
+:bottomnavigationbar:transformNativeLibsWithSyncJniLibsForRelease
+:bottomnavigationbar:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 21.459 secs
+
+2018-09-01 22:52:42,275 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817008712-0/src/BottomNavigationBar-master/app/build/outputs/apk/app-debug.apk

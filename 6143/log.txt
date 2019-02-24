@@ -1,0 +1,319 @@
+2018-11-10 21:11:47,620 INFO  DownloadService - Downloading "https://github.com/stepstone-tech/android-material-app-rating/archive/master.zip", attempt 3
+2018-11-10 21:11:50,767 INFO  DownloadService - Downloaded https://github.com/stepstone-tech/android-material-app-rating/archive/master.zip, attempt 3
+2018-11-10 21:11:50,767 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/master.zip": 2 MB
+2018-11-10 21:11:50,767 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-10 21:11:50,773 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/master.zip: true
+2018-11-10 21:11:50,774 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src'.
+2018-11-10 21:11:50,817 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-11-10 21:11:50,817 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src]
+2018-11-10 21:11:50,836 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/.git/
+
+2018-11-10 21:11:50,839 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/gradlew
+2018-11-10 21:11:50,846 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/app-rating/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/build.gradle
+2018-11-10 21:11:50,850 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/app-rating/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/settings.gradle
+2018-11-10 21:11:50,850 INFO  ProjectBuildService - Remote scripts: none
+2018-11-10 21:11:50,851 INFO  ProjectFixService - Fixing project...
+2018-11-10 21:11:50,862 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/app-rating/local.properties
+2018-11-10 21:11:50,865 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/app-rating/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-11-10 21:11:50,866 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/app-rating/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-11-10 21:11:50,867 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/samples/local.properties
+2018-11-10 21:11:50,870 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/samples/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-11-10 21:11:50,870 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/samples/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-11-10 21:11:50,871 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/local.properties
+2018-11-10 21:11:50,872 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-11-10 21:11:50,872 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-11-10 21:11:50,875 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-11-10 21:11:50,876 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-11-10 21:11:50,877 INFO  ProjectFixService - Project was maybe fixed
+2018-11-10 21:11:50,877 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-10 21:11:50,877 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/app-rating/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-10 21:11:59,276 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-11-10 21:11:59,276 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-10 21:11:59,277 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/app-rating/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-10 21:12:27,124 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app-rating:preBuild UP-TO-DATE
+:app-rating:preDebugBuild UP-TO-DATE
+:app-rating:compileDebugAidl
+:app-rating:compileDebugRenderscript
+:app-rating:checkDebugManifest
+:app-rating:generateDebugBuildConfig
+:app-rating:generateDebugResValues
+:app-rating:generateDebugResources
+:app-rating:packageDebugResources
+:app-rating:platformAttrExtractor
+:app-rating:processDebugManifest
+:app-rating:prepareLintJar
+:app-rating:mergeDebugConsumerProguardFiles
+:app-rating:mergeDebugShaders
+:app-rating:compileDebugShaders
+:app-rating:generateDebugAssets
+:app-rating:packageDebugAssets
+:app-rating:packageDebugRenderscript NO-SOURCE
+:app-rating:processDebugJavaRes NO-SOURCE
+:app-rating:compileDebugNdk NO-SOURCE
+:app-rating:mergeDebugJniLibFolders
+:app-rating:transformNativeLibsWithMergeJniLibsForDebug
+:app-rating:transformNativeLibsWithStripDebugSymbolForDebug
+:app-rating:transformNativeLibsWithSyncJniLibsForDebug
+:app-rating:preReleaseBuild UP-TO-DATE
+:app-rating:compileReleaseAidl
+:app-rating:compileReleaseRenderscript
+:app-rating:checkReleaseManifest
+:app-rating:generateReleaseBuildConfig
+:app-rating:generateReleaseResValues
+:app-rating:generateReleaseResources
+:app-rating:packageReleaseResources
+:app-rating:processReleaseManifest
+:app-rating:mergeReleaseConsumerProguardFiles
+:app-rating:mergeReleaseShaders
+:app-rating:compileReleaseShaders
+:app-rating:generateReleaseAssets
+:app-rating:packageReleaseAssets
+:app-rating:packageReleaseRenderscript NO-SOURCE
+:app-rating:processReleaseJavaRes NO-SOURCE
+:app-rating:compileReleaseNdk NO-SOURCE
+:app-rating:mergeReleaseJniLibFolders
+:app-rating:transformNativeLibsWithMergeJniLibsForRelease
+:app-rating:transformNativeLibsWithStripDebugSymbolForRelease
+:app-rating:transformNativeLibsWithSyncJniLibsForRelease
+:app-rating:mergeReleaseResources
+:app-rating:verifyReleaseResources
+:app-rating:javadoc NO-SOURCE
+:app-rating:javadocJar
+:app-rating:sourcesJar
+:app-rating:generateDebugRFile
+:app-rating:compileDebugKotlin
+:app-rating:generateDebugSources
+:app-rating:javaPreCompileDebug
+:app-rating:compileDebugJavaWithJavac
+:app-rating:extractDebugAnnotations
+:app-rating:transformResourcesWithMergeJavaResForDebug
+:app-rating:transformClassesAndResourcesWithSyncLibJarsForDebug
+:app-rating:bundleDebug
+:app-rating:compileDebugSources
+:app-rating:assembleDebug
+:app-rating:generateReleaseRFile
+:app-rating:compileReleaseKotlin
+:app-rating:generateReleaseSources
+:app-rating:javaPreCompileRelease
+:app-rating:compileReleaseJavaWithJavac
+:app-rating:extractReleaseAnnotations
+:app-rating:transformResourcesWithMergeJavaResForRelease
+:app-rating:transformClassesAndResourcesWithSyncLibJarsForRelease
+:app-rating:bundleRelease
+:app-rating:compileReleaseSources
+:app-rating:assembleRelease
+:app-rating:assemble
+:app-rating:build
+
+BUILD SUCCESSFUL in 27s
+52 actionable tasks: 52 executed
+
+2018-11-10 21:12:27,184 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-10 21:12:27,184 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-10 21:12:33,567 INFO  ProjectTaskService - Detected possible tasks: 84
+2018-11-10 21:12:33,568 INFO  ProjectTaskService - Excluded tasks (9): mockableAndroidJar deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2018-11-10 21:12:33,568 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2018-11-10 21:13:13,969 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app-rating:preBuild UP-TO-DATE
+:app-rating:preDebugBuild UP-TO-DATE
+:app-rating:compileDebugAidl UP-TO-DATE
+:app-rating:compileDebugRenderscript UP-TO-DATE
+:app-rating:checkDebugManifest UP-TO-DATE
+:app-rating:generateDebugBuildConfig UP-TO-DATE
+:app-rating:generateDebugResValues UP-TO-DATE
+:app-rating:generateDebugResources UP-TO-DATE
+:app-rating:packageDebugResources UP-TO-DATE
+:app-rating:platformAttrExtractor UP-TO-DATE
+:app-rating:processDebugManifest UP-TO-DATE
+:app-rating:generateDebugRFile UP-TO-DATE
+:app-rating:compileDebugKotlin UP-TO-DATE
+:app-rating:prepareLintJar UP-TO-DATE
+:app-rating:generateDebugSources UP-TO-DATE
+:app-rating:javaPreCompileDebug UP-TO-DATE
+:app-rating:compileDebugJavaWithJavac UP-TO-DATE
+:app-rating:processDebugJavaRes NO-SOURCE
+:app-rating:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:samples:preBuild UP-TO-DATE
+:samples:preFirstDebugBuild
+:samples:compileFirstDebugAidl
+:app-rating:packageDebugRenderscript NO-SOURCE
+:samples:compileFirstDebugRenderscript
+:samples:checkFirstDebugManifest
+:samples:generateFirstDebugBuildConfig
+:samples:mainApkListPersistenceFirstDebug
+:samples:generateFirstDebugResValues
+:samples:generateFirstDebugResources
+:samples:mergeFirstDebugResources
+:samples:createFirstDebugCompatibleScreenManifests
+:samples:processFirstDebugManifest
+:samples:splitsDiscoveryTaskFirstDebug
+:samples:processFirstDebugResources
+:samples:compileFirstDebugKotlin
+:samples:prepareLintJar
+:samples:generateFirstDebugSources
+:samples:javaPreCompileFirstDebug
+:samples:compileFirstDebugJavaWithJavac
+:samples:compileFirstDebugNdk NO-SOURCE
+:samples:compileFirstDebugSources
+:app-rating:mergeDebugShaders UP-TO-DATE
+:app-rating:compileDebugShaders UP-TO-DATE
+:app-rating:generateDebugAssets UP-TO-DATE
+:app-rating:packageDebugAssets UP-TO-DATE
+:samples:mergeFirstDebugShaders
+:samples:compileFirstDebugShaders
+:samples:generateFirstDebugAssets
+:samples:mergeFirstDebugAssets
+:samples:transformClassesWithDexBuilderForFirstDebug
+:samples:transformDexArchiveWithExternalLibsDexMergerForFirstDebug
+:samples:transformDexArchiveWithDexMergerForFirstDebug
+:app-rating:compileDebugNdk NO-SOURCE
+:app-rating:mergeDebugJniLibFolders UP-TO-DATE
+:app-rating:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:app-rating:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:app-rating:transformNativeLibsWithIntermediateJniLibsForDebug
+:samples:mergeFirstDebugJniLibFolders
+:samples:transformNativeLibsWithMergeJniLibsForFirstDebug
+:samples:transformNativeLibsWithStripDebugSymbolForFirstDebug
+:samples:processFirstDebugJavaRes NO-SOURCE
+:samples:transformResourcesWithMergeJavaResForFirstDebug
+:samples:validateSigningFirstDebug
+:samples:packageFirstDebug
+:samples:assembleFirstDebug
+:samples:preSecondDebugBuild
+:samples:compileSecondDebugAidl
+:samples:compileSecondDebugRenderscript
+:samples:checkSecondDebugManifest
+:samples:generateSecondDebugBuildConfig
+:samples:mainApkListPersistenceSecondDebug
+:samples:generateSecondDebugResValues
+:samples:generateSecondDebugResources
+:samples:mergeSecondDebugResources
+:samples:createSecondDebugCompatibleScreenManifests
+:samples:processSecondDebugManifest
+:samples:splitsDiscoveryTaskSecondDebug
+:samples:processSecondDebugResources
+:samples:compileSecondDebugKotlin
+:samples:generateSecondDebugSources
+:samples:javaPreCompileSecondDebug
+:samples:compileSecondDebugJavaWithJavac
+:samples:compileSecondDebugNdk NO-SOURCE
+:samples:compileSecondDebugSources
+:samples:mergeSecondDebugShaders
+:samples:compileSecondDebugShaders
+:samples:generateSecondDebugAssets
+:samples:mergeSecondDebugAssets
+:samples:transformClassesWithDexBuilderForSecondDebug
+:samples:transformDexArchiveWithExternalLibsDexMergerForSecondDebug
+:samples:transformDexArchiveWithDexMergerForSecondDebug
+:samples:mergeSecondDebugJniLibFolders
+:samples:transformNativeLibsWithMergeJniLibsForSecondDebug
+:samples:transformNativeLibsWithStripDebugSymbolForSecondDebug
+:samples:processSecondDebugJavaRes NO-SOURCE
+:samples:transformResourcesWithMergeJavaResForSecondDebug
+:samples:validateSigningSecondDebug
+:samples:packageSecondDebug
+:samples:assembleSecondDebug
+:samples:assembleDebug
+:app-rating:preReleaseBuild UP-TO-DATE
+:app-rating:compileReleaseAidl UP-TO-DATE
+:app-rating:compileReleaseRenderscript UP-TO-DATE
+:app-rating:checkReleaseManifest UP-TO-DATE
+:app-rating:generateReleaseBuildConfig UP-TO-DATE
+:app-rating:generateReleaseResValues UP-TO-DATE
+:app-rating:generateReleaseResources UP-TO-DATE
+:app-rating:packageReleaseResources UP-TO-DATE
+:app-rating:processReleaseManifest UP-TO-DATE
+:app-rating:generateReleaseRFile UP-TO-DATE
+:app-rating:compileReleaseKotlin UP-TO-DATE
+:app-rating:generateReleaseSources UP-TO-DATE
+:app-rating:javaPreCompileRelease UP-TO-DATE
+:app-rating:compileReleaseJavaWithJavac UP-TO-DATE
+:app-rating:processReleaseJavaRes NO-SOURCE
+:app-rating:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:samples:preFirstReleaseBuild
+:samples:compileFirstReleaseAidl
+:app-rating:packageReleaseRenderscript NO-SOURCE
+:samples:compileFirstReleaseRenderscript
+:samples:checkFirstReleaseManifest
+:samples:generateFirstReleaseBuildConfig
+:samples:mainApkListPersistenceFirstRelease
+:samples:generateFirstReleaseResValues
+:samples:generateFirstReleaseResources
+:samples:mergeFirstReleaseResources
+:samples:createFirstReleaseCompatibleScreenManifests
+:samples:processFirstReleaseManifest
+:samples:splitsDiscoveryTaskFirstRelease
+:samples:processFirstReleaseResources
+:samples:compileFirstReleaseKotlin
+:samples:generateFirstReleaseSources
+:samples:javaPreCompileFirstRelease
+:samples:compileFirstReleaseJavaWithJavac
+:samples:compileFirstReleaseNdk NO-SOURCE
+:samples:compileFirstReleaseSources
+:samples:lintVitalFirstRelease
+:app-rating:mergeReleaseShaders UP-TO-DATE
+:app-rating:compileReleaseShaders UP-TO-DATE
+:app-rating:generateReleaseAssets UP-TO-DATE
+:app-rating:packageReleaseAssets UP-TO-DATE
+:samples:mergeFirstReleaseShaders
+:samples:compileFirstReleaseShaders
+:samples:generateFirstReleaseAssets
+:samples:mergeFirstReleaseAssets
+:samples:transformClassesWithDexBuilderForFirstRelease
+:samples:transformDexArchiveWithExternalLibsDexMergerForFirstRelease
+:samples:transformDexArchiveWithDexMergerForFirstRelease
+:app-rating:compileReleaseNdk NO-SOURCE
+:app-rating:mergeReleaseJniLibFolders UP-TO-DATE
+:app-rating:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:app-rating:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:app-rating:transformNativeLibsWithIntermediateJniLibsForRelease
+:samples:mergeFirstReleaseJniLibFolders
+:samples:transformNativeLibsWithMergeJniLibsForFirstRelease
+:samples:transformNativeLibsWithStripDebugSymbolForFirstRelease
+:samples:processFirstReleaseJavaRes NO-SOURCE
+:samples:transformResourcesWithMergeJavaResForFirstRelease
+:samples:packageFirstRelease
+:samples:assembleFirstRelease
+:samples:preSecondReleaseBuild
+:samples:compileSecondReleaseAidl
+:samples:compileSecondReleaseRenderscript
+:samples:checkSecondReleaseManifest
+:samples:generateSecondReleaseBuildConfig
+:samples:mainApkListPersistenceSecondRelease
+:samples:generateSecondReleaseResValues
+:samples:generateSecondReleaseResources
+:samples:mergeSecondReleaseResources
+:samples:createSecondReleaseCompatibleScreenManifests
+:samples:processSecondReleaseManifest
+:samples:splitsDiscoveryTaskSecondRelease
+:samples:processSecondReleaseResources
+:samples:compileSecondReleaseKotlin
+:samples:generateSecondReleaseSources
+:samples:javaPreCompileSecondRelease
+:samples:compileSecondReleaseJavaWithJavac
+:samples:compileSecondReleaseNdk NO-SOURCE
+:samples:compileSecondReleaseSources
+:samples:lintVitalSecondRelease
+:samples:mergeSecondReleaseShaders
+:samples:compileSecondReleaseShaders
+:samples:generateSecondReleaseAssets
+:samples:mergeSecondReleaseAssets
+:samples:transformClassesWithDexBuilderForSecondRelease
+:samples:transformDexArchiveWithExternalLibsDexMergerForSecondRelease
+:samples:transformDexArchiveWithDexMergerForSecondRelease
+:samples:mergeSecondReleaseJniLibFolders
+:samples:transformNativeLibsWithMergeJniLibsForSecondRelease
+:samples:transformNativeLibsWithStripDebugSymbolForSecondRelease
+:samples:processSecondReleaseJavaRes NO-SOURCE
+:samples:transformResourcesWithMergeJavaResForSecondRelease
+:samples:packageSecondRelease
+:samples:assembleSecondRelease
+:samples:assembleRelease
+:samples:assemble
+:samples:build
+
+BUILD SUCCESSFUL in 39s
+149 actionable tasks: 113 executed, 36 up-to-date
+
+2018-11-10 21:13:14,150 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859107615-0/src/android-material-app-rating-master/samples/build/outputs/apk/first/release/samples-first-release-unsigned.apk

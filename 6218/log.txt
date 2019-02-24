@@ -1,0 +1,273 @@
+2018-09-01 22:24:35,043 INFO  DownloadService - Downloading "https://github.com/ezaquarii/EzPermission/archive/master.zip", attempt 3
+2018-09-01 22:24:36,004 INFO  DownloadService - Downloaded https://github.com/ezaquarii/EzPermission/archive/master.zip, attempt 3
+2018-09-01 22:24:36,004 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/master.zip": 236 KB
+2018-09-01 22:24:36,004 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 22:24:36,010 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/master.zip: true
+2018-09-01 22:24:36,010 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src'.
+2018-09-01 22:24:36,032 INFO  FullProcessService - Size of directory with sources: 283 KB
+2018-09-01 22:24:36,032 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src]
+2018-09-01 22:24:36,050 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/.git/
+
+2018-09-01 22:24:36,053 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/gradlew
+2018-09-01 22:24:36,056 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/build.gradle
+2018-09-01 22:24:36,058 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/build.gradle
+2018-09-01 22:24:36,059 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 22:24:36,059 INFO  ProjectFixService - Fixing project...
+2018-09-01 22:24:36,065 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/library/local.properties
+2018-09-01 22:24:36,065 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/library/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-01 22:24:36,065 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/local.properties
+2018-09-01 22:24:36,066 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2018-09-01 22:24:36,066 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/local.properties
+2018-09-01 22:24:36,066 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-01 22:24:36,066 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-01 22:24:36,067 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-01 22:24:36,067 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 22:24:36,067 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 22:24:36,067 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 22:24:42,951 INFO  ProjectTaskService - Detected possible tasks: 76
+2018-09-01 22:24:42,951 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-01 22:24:42,951 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-01 22:24:53,968 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':library' is deprecated. Use 'implementation' instead.
+Configuration 'provided' in project ':library' is deprecated. Use 'compileOnly' instead.
+Configuration 'testCompile' in project ':library' is deprecated. Use 'testImplementation' instead.
+Configuration 'androidTestCompile' in project ':library' is deprecated. Use 'androidTestImplementation' instead.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:compileDebugAidl
+:library:compileDebugNdk NO-SOURCE
+:library:compileDebugRenderscript
+:library:checkDebugManifest
+:library:generateDebugBuildConfig
+:library:prepareLintJar
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library:platformAttrExtractor
+:library:processDebugManifest
+:library:javaPreCompileDebug
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:library:mergeDebugConsumerProguardFiles
+:library:packageDebugRenderscript NO-SOURCE
+:library:processDebugJavaRes NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithSyncJniLibsForDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseAidl
+:library:compileReleaseNdk NO-SOURCE
+:library:compileReleaseRenderscript
+:library:checkReleaseManifest
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:javaPreCompileRelease
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseConsumerProguardFiles
+:library:packageReleaseRenderscript NO-SOURCE
+:library:processReleaseJavaRes NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:mergeReleaseResources
+:library:verifyReleaseResources
+:library:processDebugResources
+:library:generateDebugSources
+:library:compileDebugJavaWithJavac
+:library:extractDebugAnnotations
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJavaWithJavac
+:library:extractReleaseAnnotations
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:bundleRelease
+:library:compileReleaseSources
+:library:assembleRelease
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL in 10s
+48 actionable tasks: 48 executed
+
+2018-09-01 22:24:53,977 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 22:24:53,977 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 22:25:00,278 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-01 22:25:00,278 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-01 22:25:00,278 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-01 22:25:35,659 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':sample-kotlin' is deprecated. Use 'implementation' instead.
+Configuration 'compile' in project ':library' is deprecated. Use 'implementation' instead.
+Configuration 'provided' in project ':library' is deprecated. Use 'compileOnly' instead.
+Configuration 'testCompile' in project ':library' is deprecated. Use 'testImplementation' instead.
+Configuration 'androidTestCompile' in project ':library' is deprecated. Use 'androidTestImplementation' instead.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:compileDebugAidl UP-TO-DATE
+:library:compileDebugRenderscript UP-TO-DATE
+:library:checkDebugManifest UP-TO-DATE
+:library:generateDebugBuildConfig UP-TO-DATE
+:library:prepareLintJar UP-TO-DATE
+:library:generateDebugResValues UP-TO-DATE
+:library:generateDebugResources UP-TO-DATE
+:library:packageDebugResources UP-TO-DATE
+:library:platformAttrExtractor UP-TO-DATE
+:library:processDebugManifest UP-TO-DATE
+:library:processDebugResources UP-TO-DATE
+:library:generateDebugSources UP-TO-DATE
+:library:javaPreCompileDebug UP-TO-DATE
+:library:compileDebugJavaWithJavac UP-TO-DATE
+:library:processDebugJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample-kotlin:preBuild UP-TO-DATE
+:sample-kotlin:preDebugBuild
+:sample-kotlin:compileDebugAidl
+:library:packageDebugRenderscript NO-SOURCE
+:sample-kotlin:compileDebugRenderscript
+:sample-kotlin:checkDebugManifest
+:sample-kotlin:generateDebugBuildConfig
+:sample-kotlin:generateDebugResValues
+:sample-kotlin:generateDebugResources
+:sample-kotlin:mergeDebugResources
+:sample-kotlin:createDebugCompatibleScreenManifests
+:sample-kotlin:processDebugManifest
+:sample-kotlin:splitsDiscoveryTaskDebug
+:sample-kotlin:processDebugResources
+:sample-kotlin:compileDebugKotlin
+Using Kotlin incremental compilation
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (70, 30): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (74, 30): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (95, 63): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (95, 71): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (96, 58): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (96, 66): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (107, 46): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (107, 54): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (108, 49): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (108, 57): Parameter 'i' is never used, could be renamed to _
+:sample-kotlin:prepareLintJar
+:sample-kotlin:generateDebugSources
+:sample-kotlin:javaPreCompileDebug
+:sample-kotlin:compileDebugJavaWithJavac
+:sample-kotlin:compileDebugNdk NO-SOURCE
+:sample-kotlin:compileDebugSources
+:library:mergeDebugShaders UP-TO-DATE
+:library:compileDebugShaders UP-TO-DATE
+:library:generateDebugAssets UP-TO-DATE
+:library:mergeDebugAssets UP-TO-DATE
+:sample-kotlin:mergeDebugShaders
+:sample-kotlin:compileDebugShaders
+:sample-kotlin:generateDebugAssets
+:sample-kotlin:mergeDebugAssets
+:sample-kotlin:transformClassesWithDexBuilderForDebug
+:sample-kotlin:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample-kotlin:transformDexArchiveWithDexMergerForDebug
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample-kotlin:mergeDebugJniLibFolders
+:sample-kotlin:transformNativeLibsWithMergeJniLibsForDebug
+:sample-kotlin:transformNativeLibsWithStripDebugSymbolForDebug
+:sample-kotlin:processDebugJavaRes NO-SOURCE
+:sample-kotlin:transformResourcesWithMergeJavaResForDebug
+:sample-kotlin:validateSigningDebug
+:sample-kotlin:packageDebug
+:sample-kotlin:assembleDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:checkReleaseManifest UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:javaPreCompileRelease UP-TO-DATE
+:library:compileReleaseJavaWithJavac UP-TO-DATE
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample-kotlin:preReleaseBuild
+:sample-kotlin:compileReleaseAidl
+:library:packageReleaseRenderscript NO-SOURCE
+:sample-kotlin:compileReleaseRenderscript
+:sample-kotlin:checkReleaseManifest
+:sample-kotlin:generateReleaseBuildConfig
+:sample-kotlin:generateReleaseResValues
+:sample-kotlin:generateReleaseResources
+:sample-kotlin:mergeReleaseResources
+:sample-kotlin:createReleaseCompatibleScreenManifests
+:sample-kotlin:processReleaseManifest
+:sample-kotlin:splitsDiscoveryTaskRelease
+:sample-kotlin:processReleaseResources
+:sample-kotlin:compileReleaseKotlin
+Using Kotlin incremental compilation
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (70, 30): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (74, 30): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (95, 63): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (95, 71): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (96, 58): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (96, 66): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (107, 46): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (107, 54): Parameter 'i' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (108, 49): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/src/main/java/com/ezaquarii/ezpermission/sample/MainActivity.kt: (108, 57): Parameter 'i' is never used, could be renamed to _
+:sample-kotlin:generateReleaseSources
+:sample-kotlin:javaPreCompileRelease
+:sample-kotlin:compileReleaseJavaWithJavac
+:sample-kotlin:compileReleaseNdk NO-SOURCE
+:sample-kotlin:compileReleaseSources
+:library:mergeReleaseShaders UP-TO-DATE
+:library:compileReleaseShaders UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:sample-kotlin:mergeReleaseShaders
+:sample-kotlin:compileReleaseShaders
+:sample-kotlin:generateReleaseAssets
+:sample-kotlin:mergeReleaseAssets
+:sample-kotlin:transformClassesWithPreDexForRelease
+:sample-kotlin:transformDexWithDexForRelease
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample-kotlin:mergeReleaseJniLibFolders
+:sample-kotlin:transformNativeLibsWithMergeJniLibsForRelease
+:sample-kotlin:transformNativeLibsWithStripDebugSymbolForRelease
+:sample-kotlin:processReleaseJavaRes NO-SOURCE
+:sample-kotlin:transformResourcesWithMergeJavaResForRelease
+:sample-kotlin:packageRelease
+:sample-kotlin:lintVitalRelease
+Download https://jcenter.bintray.com/org/mockito/mockito-android/2.8.47/mockito-android-2.8.47.pom
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.8.47/mockito-core-2.8.47.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-android/1.6.14/byte-buddy-android-1.6.14.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-android/1.6.14/byte-buddy-android-1.6.14.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-android/2.8.47/mockito-android-2.8.47.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.8.47/mockito-core-2.8.47.jar
+:sample-kotlin:assembleRelease
+:sample-kotlin:assemble
+:sample-kotlin:build
+
+BUILD SUCCESSFUL in 34s
+90 actionable tasks: 56 executed, 34 up-to-date
+
+2018-09-01 22:25:35,724 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815475035-0/src/EzPermission-master/sample-kotlin/build/outputs/apk/release/sample-kotlin-release-unsigned.apk

@@ -1,0 +1,167 @@
+2019-01-16 13:35:54,534 INFO  DownloadService - Downloading "https://github.com/samanzamani/PersianDate/archive/master.zip", attempt 3
+2019-01-16 13:35:59,367 INFO  DownloadService - Downloaded https://github.com/samanzamani/PersianDate/archive/master.zip, attempt 3
+2019-01-16 13:35:59,368 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/master.zip": 1 MB
+2019-01-16 13:35:59,368 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-16 13:35:59,375 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/master.zip: true
+2019-01-16 13:35:59,375 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src'.
+2019-01-16 13:35:59,494 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-01-16 13:35:59,494 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src]
+2019-01-16 13:35:59,517 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/.git/
+
+2019-01-16 13:35:59,530 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/gradlew
+2019-01-16 13:35:59,543 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/persiandate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/lib/build.gradle
+2019-01-16 13:35:59,555 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/persiandate/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/persiandate/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/persiandate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/settings.gradle
+2019-01-16 13:35:59,556 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-01-16 13:36:00,239 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-01-16 13:36:00,239 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-01-16 13:36:00,239 INFO  ProjectFixService - Fixing project...
+2019-01-16 13:36:00,256 INFO  ManifestFixService - Found manifest(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/persiandate/build/tmp/releaseAndroidSourcesJar/MANIFEST.MF /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/persiandate/build/tmp/releaseAndroidJavadocsJar/MANIFEST.MF
+2019-01-16 13:36:00,275 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/app/local.properties
+2019-01-16 13:36:00,276 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-01-16 13:36:00,276 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/persiandate/local.properties
+2019-01-16 13:36:00,276 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/persiandate/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=25,minSdkVersion=2,targetSdkVersion=25]
+2019-01-16 13:36:00,277 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/local.properties
+2019-01-16 13:36:00,277 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-01-16 13:36:00,277 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-01-16 13:36:00,278 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-01-16 13:36:00,279 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/lib/local.properties
+2019-01-16 13:36:00,279 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/lib/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-01-16 13:36:00,279 INFO  ProjectFixService - Project was maybe fixed
+2019-01-16 13:36:00,279 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-16 13:36:00,279 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-16 13:36:08,863 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-16 13:36:08,863 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-16 13:36:08,864 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-16 13:36:46,692 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:persiandate:preBuild UP-TO-DATE
+:persiandate:preDebugBuild UP-TO-DATE
+:persiandate:checkDebugManifest
+:persiandate:processDebugManifest
+:app:preDebugBuild
+:persiandate:compileDebugAidl
+:app:compileDebugAidl
+:persiandate:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:persiandate:compileDebugRenderscript
+:persiandate:generateDebugResValues
+:persiandate:generateDebugResources
+:persiandate:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:persiandate:platformAttrExtractor
+:persiandate:generateDebugBuildConfig
+:persiandate:prepareLintJar
+:persiandate:javaPreCompileDebug
+:persiandate:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:persiandate:mergeDebugShaders
+:persiandate:compileDebugShaders
+:persiandate:generateDebugAssets
+:persiandate:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:persiandate:compileDebugNdk NO-SOURCE
+:persiandate:mergeDebugJniLibFolders
+:persiandate:transformNativeLibsWithMergeJniLibsForDebug
+:persiandate:transformNativeLibsWithStripDebugSymbolForDebug
+:persiandate:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:persiandate:preReleaseBuild UP-TO-DATE
+:persiandate:checkReleaseManifest
+:persiandate:processReleaseManifest
+:app:preReleaseBuild
+:persiandate:compileReleaseAidl
+:app:compileReleaseAidl
+:persiandate:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:persiandate:compileReleaseRenderscript
+:persiandate:generateReleaseResValues
+:persiandate:generateReleaseResources
+:persiandate:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:persiandate:generateReleaseBuildConfig
+:persiandate:javaPreCompileRelease
+:persiandate:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:persiandate:mergeReleaseShaders
+:persiandate:compileReleaseShaders
+:persiandate:generateReleaseAssets
+:persiandate:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:persiandate:compileReleaseNdk NO-SOURCE
+:persiandate:mergeReleaseJniLibFolders
+:persiandate:transformNativeLibsWithMergeJniLibsForRelease
+:persiandate:transformNativeLibsWithStripDebugSymbolForRelease
+:persiandate:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:persiandate:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:persiandate:generateDebugSources
+:persiandate:compileDebugJavaWithJavac
+:persiandate:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:persiandate:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:persiandate:generateReleaseSources
+:persiandate:compileReleaseJavaWithJavac
+:persiandate:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 37s
+91 actionable tasks: 91 executed
+
+2019-01-16 13:36:46,788 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620554526-0/src/PersianDate-master/app/build/outputs/apk/debug/app-debug.apk

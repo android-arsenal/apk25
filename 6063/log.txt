@@ -1,0 +1,267 @@
+2018-09-02 18:42:27,176 INFO  DownloadService - Downloading "https://github.com/hypeapps/NoiseView/archive/master.zip", attempt 3
+2018-09-02 18:42:30,786 INFO  DownloadService - Downloaded https://github.com/hypeapps/NoiseView/archive/master.zip, attempt 3
+2018-09-02 18:42:30,786 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/master.zip": 3 MB
+2018-09-02 18:42:30,786 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-02 18:42:30,793 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/master.zip: true
+2018-09-02 18:42:30,793 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src'.
+2018-09-02 18:42:30,844 INFO  FullProcessService - Size of directory with sources: 4 MB
+2018-09-02 18:42:30,844 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src]
+2018-09-02 18:42:30,866 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/.git/
+
+2018-09-02 18:42:30,868 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/gradlew
+2018-09-02 18:42:30,871 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/noiseview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/build.gradle
+2018-09-02 18:42:30,874 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/noiseview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/settings.gradle
+2018-09-02 18:42:30,875 INFO  ProjectBuildService - Remote scripts: none
+2018-09-02 18:42:30,875 INFO  ProjectFixService - Fixing project...
+2018-09-02 18:42:30,882 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/noiseview/local.properties
+2018-09-02 18:42:30,885 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/noiseview/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2018-09-02 18:42:30,885 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/noiseview/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2018-09-02 18:42:30,886 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/sample/local.properties
+2018-09-02 18:42:30,889 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/sample/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2018-09-02 18:42:30,889 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/sample/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2018-09-02 18:42:30,891 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/local.properties
+2018-09-02 18:42:30,892 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-rc-1-all.zip
+2018-09-02 18:42:30,892 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-02 18:42:30,893 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2018-09-02 18:42:30,893 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2018-09-02 18:42:30,894 INFO  ProjectFixService - Project was maybe fixed
+2018-09-02 18:42:30,894 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 18:42:30,894 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/noiseview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 18:42:54,073 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-09-02 18:42:54,074 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-02 18:42:54,074 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/noiseview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-02 18:43:20,448 INFO  SysUtils - Configuration on demand is an incubating feature.
+:noiseview:preBuild UP-TO-DATE
+:noiseview:preDebugBuild UP-TO-DATE
+:noiseview:compileDebugAidl
+:noiseview:compileDebugNdk NO-SOURCE
+:noiseview:compileLint
+:noiseview:copyDebugLint NO-SOURCE
+:noiseview:compileDebugRenderscript
+:noiseview:checkDebugManifest
+:noiseview:generateDebugBuildConfig
+:noiseview:generateDebugResValues
+:noiseview:generateDebugResources
+:noiseview:packageDebugResources
+:noiseview:platformAttrExtractor
+:noiseview:processDebugManifest
+:noiseview:mergeDebugShaders
+:noiseview:compileDebugShaders
+:noiseview:generateDebugAssets
+:noiseview:mergeDebugAssets
+:noiseview:mergeDebugConsumerProguardFiles
+:noiseview:packageDebugRenderscript NO-SOURCE
+:noiseview:processDebugJavaRes NO-SOURCE
+:noiseview:mergeDebugJniLibFolders
+:noiseview:transformNativeLibsWithMergeJniLibsForDebug
+:noiseview:transformNativeLibsWithStripDebugSymbolForDebug
+:noiseview:transformNativeLibsWithSyncJniLibsForDebug
+:noiseview:preReleaseBuild UP-TO-DATE
+:noiseview:compileReleaseAidl
+:noiseview:compileReleaseNdk NO-SOURCE
+:noiseview:copyReleaseLint NO-SOURCE
+:noiseview:compileReleaseRenderscript
+:noiseview:checkReleaseManifest
+:noiseview:generateReleaseBuildConfig
+:noiseview:generateReleaseResValues
+:noiseview:generateReleaseResources
+:noiseview:packageReleaseResources
+:noiseview:processReleaseManifest
+:noiseview:mergeReleaseShaders
+:noiseview:compileReleaseShaders
+:noiseview:generateReleaseAssets
+:noiseview:mergeReleaseAssets
+:noiseview:mergeReleaseConsumerProguardFiles
+:noiseview:packageReleaseRenderscript NO-SOURCE
+:noiseview:processReleaseJavaRes NO-SOURCE
+:noiseview:mergeReleaseJniLibFolders
+:noiseview:transformNativeLibsWithMergeJniLibsForRelease
+:noiseview:transformNativeLibsWithStripDebugSymbolForRelease
+:noiseview:transformNativeLibsWithSyncJniLibsForRelease
+:noiseview:mergeReleaseResources
+:noiseview:verifyReleaseResources
+:noiseview:javadoc SKIPPED
+:noiseview:javadocJar
+:noiseview:sourcesJar
+:noiseview:processDebugResources
+:noiseview:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.1.4/kotlin-stdlib-jre7-1.1.4.jar
+Using kotlin incremental compilation
+:noiseview:generateDebugSources
+:noiseview:javaPreCompileDebug
+:noiseview:compileDebugJavaWithJavac
+:noiseview:extractDebugAnnotations
+:noiseview:transformResourcesWithMergeJavaResForDebug
+:noiseview:transformClassesAndResourcesWithSyncLibJarsForDebug
+:noiseview:bundleDebug
+:noiseview:compileDebugSources
+:noiseview:assembleDebug
+:noiseview:processReleaseResources
+:noiseview:compileReleaseKotlin
+Using kotlin incremental compilation
+:noiseview:generateReleaseSources
+:noiseview:javaPreCompileRelease
+:noiseview:compileReleaseJavaWithJavac
+:noiseview:extractReleaseAnnotations
+:noiseview:transformResourcesWithMergeJavaResForRelease
+:noiseview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:noiseview:bundleRelease
+:noiseview:compileReleaseSources
+:noiseview:assembleRelease
+:noiseview:assemble
+:noiseview:build
+
+BUILD SUCCESSFUL in 25s
+52 actionable tasks: 52 executed
+Exception in thread "Thread-24" java.lang.NoClassDefFoundError: com/android/builder/internal/aapt/v2/AaptV2Jni$TempDirCache$RecursiveDelete
+	at com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache.lambda$getCachedDirectory$0(AaptV2Jni.java:252)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache$RecursiveDelete
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 2 more
+
+2018-09-02 18:43:20,498 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 18:43:20,498 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 18:43:28,967 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-02 18:43:28,967 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-02 18:43:28,968 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-02 18:44:05,756 INFO  SysUtils - Configuration on demand is an incubating feature.
+:noiseview:preBuild UP-TO-DATE
+:noiseview:preDebugBuild UP-TO-DATE
+:noiseview:compileDebugAidl UP-TO-DATE
+:noiseview:compileDebugRenderscript UP-TO-DATE
+:noiseview:checkDebugManifest UP-TO-DATE
+:noiseview:generateDebugBuildConfig UP-TO-DATE
+:noiseview:generateDebugResValues UP-TO-DATE
+:noiseview:generateDebugResources UP-TO-DATE
+:noiseview:packageDebugResources UP-TO-DATE
+:noiseview:platformAttrExtractor UP-TO-DATE
+:noiseview:processDebugManifest UP-TO-DATE
+:noiseview:processDebugResources UP-TO-DATE
+:noiseview:compileDebugKotlin UP-TO-DATE
+:noiseview:generateDebugSources UP-TO-DATE
+:noiseview:javaPreCompileDebug UP-TO-DATE
+:noiseview:compileDebugJavaWithJavac UP-TO-DATE
+:noiseview:processDebugJavaRes NO-SOURCE
+:noiseview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl
+:noiseview:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:compileDebugKotlin
+Using kotlin incremental compilation
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:noiseview:mergeDebugShaders UP-TO-DATE
+:noiseview:compileDebugShaders UP-TO-DATE
+:noiseview:generateDebugAssets UP-TO-DATE
+:noiseview:mergeDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:noiseview:compileDebugNdk NO-SOURCE
+:noiseview:mergeDebugJniLibFolders UP-TO-DATE
+:noiseview:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:noiseview:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:noiseview:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:noiseview:preReleaseBuild UP-TO-DATE
+:noiseview:compileReleaseAidl UP-TO-DATE
+:noiseview:compileReleaseRenderscript UP-TO-DATE
+:noiseview:checkReleaseManifest UP-TO-DATE
+:noiseview:generateReleaseBuildConfig UP-TO-DATE
+:noiseview:generateReleaseResValues UP-TO-DATE
+:noiseview:generateReleaseResources UP-TO-DATE
+:noiseview:packageReleaseResources UP-TO-DATE
+:noiseview:processReleaseManifest UP-TO-DATE
+:noiseview:processReleaseResources UP-TO-DATE
+:noiseview:compileReleaseKotlin UP-TO-DATE
+:noiseview:generateReleaseSources UP-TO-DATE
+:noiseview:javaPreCompileRelease UP-TO-DATE
+:noiseview:compileReleaseJavaWithJavac UP-TO-DATE
+:noiseview:processReleaseJavaRes NO-SOURCE
+:noiseview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:preReleaseBuild
+:sample:compileReleaseAidl
+:noiseview:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:compileReleaseKotlin
+Using kotlin incremental compilation
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalReleaseCouldn't find or register Kotlin UAST plugin:org.jetbrains.uast.kotlin.KotlinUastLanguagePlugin
+
+:noiseview:mergeReleaseShaders UP-TO-DATE
+:noiseview:compileReleaseShaders UP-TO-DATE
+:noiseview:generateReleaseAssets UP-TO-DATE
+:noiseview:mergeReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithPreDexForRelease
+:sample:transformDexWithDexForRelease
+:noiseview:compileReleaseNdk NO-SOURCE
+:noiseview:mergeReleaseJniLibFolders UP-TO-DATE
+:noiseview:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:noiseview:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:noiseview:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 35s
+89 actionable tasks: 54 executed, 35 up-to-date
+Exception in thread "Thread-23" java.lang.NoClassDefFoundError: com/android/builder/internal/aapt/v2/AaptV2Jni$TempDirCache$RecursiveDelete
+	at com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache.lambda$getCachedDirectory$0(AaptV2Jni.java:252)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache$RecursiveDelete
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 2 more
+
+2018-09-02 18:44:05,865 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888547173-0/src/NoiseView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

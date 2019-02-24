@@ -1,0 +1,112 @@
+2018-12-12 12:07:26,925 INFO  DownloadService - Downloading "https://github.com/rasoulmiri/Skeleton/archive/master.zip", attempt 3
+2018-12-12 12:08:27,668 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-12-12 12:08:28,548 INFO  GithubDownloadService - Default branch of this repository: master
+2018-12-12 12:08:28,549 INFO  DownloadService - Downloading "https://github.com/rasoulmiri/Skeleton/archive/master.zip", attempt 3
+2018-12-12 12:09:29,952 DEBUG FullProcessService - Repository https://github.com/rasoulmiri/Skeleton available: true
+2018-12-12 12:09:29,952 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-12-12 12:09:29,952 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/rasoulmiri/Skeleton, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src]
+2018-12-12 12:09:46,647 INFO  SysUtils - 
+2018-12-12 12:09:46,656 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/.git": true
+2018-12-12 12:09:46,661 INFO  FullProcessService - Size of directory with sources: 6 MB
+2018-12-12 12:09:46,661 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src]
+2018-12-12 12:09:46,680 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/.git/
+
+2018-12-12 12:09:46,684 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/gradlew
+2018-12-12 12:09:46,688 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/build.gradle
+2018-12-12 12:09:46,692 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/settings.gradle
+2018-12-12 12:09:46,692 INFO  ProjectBuildService - Remote scripts: none
+2018-12-12 12:09:46,692 INFO  ProjectFixService - Fixing project...
+2018-12-12 12:09:46,701 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/library/local.properties
+2018-12-12 12:09:46,702 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2018-12-12 12:09:46,702 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/sample/local.properties
+2018-12-12 12:09:46,702 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2018-12-12 12:09:46,703 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/local.properties
+2018-12-12 12:09:46,703 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-12 12:09:46,704 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-12 12:09:46,704 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2018-12-12 12:09:46,705 INFO  ProjectFixService - Project was maybe fixed
+2018-12-12 12:09:46,705 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-12 12:09:46,705 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-12 12:09:52,596 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-12-12 12:09:52,596 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-12 12:09:52,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-12 12:10:08,783 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:compileDebugAidl NO-SOURCE
+:library:compileDebugRenderscript
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/maven-metadata.xml
+Download https://maven.google.com/com/android/support/appcompat-v7/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/maven-metadata.xml
+Download https://maven.google.com/com/android/support/cardview-v7/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/maven-metadata.xml
+Download https://maven.google.com/com/android/support/design/maven-metadata.xml
+:library:checkDebugManifest
+:library:generateDebugBuildConfig
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library:processDebugManifest
+:library:generateDebugRFile
+:library:prepareLintJar
+:library:generateDebugSources
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac
+:library:extractDebugAnnotations
+:library:mergeDebugConsumerProguardFiles
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:packageDebugAssets
+:library:packageDebugRenderscript NO-SOURCE
+:library:processDebugJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithSyncJniLibsForDebug
+:library:bundleDebugAar
+:library:compileDebugSources
+:library:assembleDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseAidl NO-SOURCE
+:library:compileReleaseRenderscript
+:library:checkReleaseManifest
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:generateReleaseRFile
+:library:generateReleaseSources
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:extractReleaseAnnotations
+:library:mergeReleaseConsumerProguardFiles
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:library:packageReleaseRenderscript NO-SOURCE
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:bundleReleaseAar
+:library:compileReleaseSources
+:library:mergeReleaseResources
+:library:verifyReleaseResources
+:library:assembleRelease
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL in 15s
+45 actionable tasks: 45 executed
+
+2018-12-12 12:10:08,846 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/demoFile/sample.apk

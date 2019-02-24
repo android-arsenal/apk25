@@ -1,0 +1,222 @@
+2017-09-16 15:44:33,610 INFO  DownloadService - Downloading "https://github.com/NoNews/NoPermission/archive/master.zip", attempt 3
+2017-09-16 15:44:34,750 INFO  DownloadService - Downloaded https://github.com/NoNews/NoPermission/archive/master.zip, attempt 3
+2017-09-16 15:44:34,750 INFO  DownloadService - Size of file "/tmp/1505576673606-0/master.zip": 65 KB
+2017-09-16 15:44:34,750 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2017-09-16 15:44:34,751 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/1505576673606-0/master.zip: true
+2017-09-16 15:44:34,751 DEBUG ZipUtil - Extracting '/tmp/1505576673606-0/master.zip' into '/tmp/1505576673606-0/src'.
+2017-09-16 15:44:34,756 INFO  FullProcessService - Size of directory with sources: 81 KB
+2017-09-16 15:44:34,756 INFO  SysUtils - Execute command: [git, init, /tmp/1505576673606-0/src]
+2017-09-16 15:44:34,784 INFO  SysUtils - Initialized empty Git repository in /tmp/1505576673606-0/src/.git/
+
+2017-09-16 15:44:34,786 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/1505576673606-0/src/NoPermission-master/gradlew
+2017-09-16 15:44:34,788 INFO  ProjectBuildService - Build script(s): /tmp/1505576673606-0/src/NoPermission-master/library/build.gradle /tmp/1505576673606-0/src/NoPermission-master/build.gradle
+2017-09-16 15:44:34,789 INFO  ProjectBuildService - All script(s): /tmp/1505576673606-0/src/NoPermission-master/library/build.gradle /tmp/1505576673606-0/src/NoPermission-master/build.gradle /tmp/1505576673606-0/src/NoPermission-master/settings.gradle
+2017-09-16 15:44:34,790 INFO  ProjectBuildService - Remote scripts: none
+2017-09-16 15:44:34,790 INFO  ProjectFixService - Fixing project...
+2017-09-16 15:44:34,794 INFO  LocalPropertiesFixService - Created fake /tmp/1505576673606-0/src/NoPermission-master/library/local.properties
+2017-09-16 15:44:34,795 INFO  ProjectFixService - Build info for "/tmp/1505576673606-0/src/NoPermission-master/library/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2017-09-16 15:44:34,795 INFO  LocalPropertiesFixService - Created fake /tmp/1505576673606-0/src/NoPermission-master/local.properties
+2017-09-16 15:44:34,796 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2017-09-16 15:44:34,796 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2017-09-16 15:44:34,798 INFO  ProjectFixService - Build info for "/tmp/1505576673606-0/src/NoPermission-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2017-09-16 15:44:34,798 INFO  ProjectFixService - Project was maybe fixed
+2017-09-16 15:44:34,798 INFO  ProjectTaskService - Detecting possible tasks...
+2017-09-16 15:44:34,798 INFO  SysUtils - Execute command: [/tmp/1505576673606-0/src/NoPermission-master/gradlew, -b, /tmp/1505576673606-0/src/NoPermission-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2017-09-16 15:44:43,887 INFO  ProjectTaskService - Detected possible tasks: 75
+2017-09-16 15:44:43,887 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2017-09-16 15:44:43,888 INFO  SysUtils - Execute command: [/tmp/1505576673606-0/src/NoPermission-master/gradlew, -b, /tmp/1505576673606-0/src/NoPermission-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2017-09-16 15:44:56,177 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:library:prepareComAndroidSupportAppcompatV72531Library
+:library:prepareComAndroidSupportSupportCompat2531Library
+:library:prepareComAndroidSupportSupportCoreUi2531Library
+:library:prepareComAndroidSupportSupportCoreUtils2531Library
+:library:prepareComAndroidSupportSupportFragment2531Library
+:library:prepareComAndroidSupportSupportMediaCompat2531Library
+:library:prepareComAndroidSupportSupportV42531Library
+:library:prepareComAndroidSupportSupportVectorDrawable2531Library
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugNdk UP-TO-DATE
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:mergeDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:incrementalDebugJavaCompilationSafeguard
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac
+:library:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:library:extractDebugAnnotations
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:library:mergeDebugProguardFiles
+:library:packageDebugRenderscript UP-TO-DATE
+:library:packageDebugResources
+:library:processDebugJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithSyncJniLibsForDebug
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseNdk UP-TO-DATE
+:library:copyReleaseLint UP-TO-DATE
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:library:extractReleaseAnnotations
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:bundleRelease
+:library:compileReleaseSources
+:library:assembleRelease
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.097 secs
+
+2017-09-16 15:44:56,201 INFO  ProjectTaskService - Detecting possible tasks...
+2017-09-16 15:44:56,202 INFO  SysUtils - Execute command: [/tmp/1505576673606-0/src/NoPermission-master/gradlew, -b, /tmp/1505576673606-0/src/NoPermission-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2017-09-16 15:45:02,955 INFO  ProjectTaskService - Detected possible tasks: 75
+2017-09-16 15:45:02,955 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2017-09-16 15:45:02,956 INFO  SysUtils - Execute command: [/tmp/1505576673606-0/src/NoPermission-master/gradlew, -b, /tmp/1505576673606-0/src/NoPermission-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2017-09-16 15:45:10,220 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:library:prepareComAndroidSupportAppcompatV72531Library
+:library:prepareComAndroidSupportSupportCompat2531Library
+:library:prepareComAndroidSupportSupportCoreUi2531Library
+:library:prepareComAndroidSupportSupportCoreUtils2531Library
+:library:prepareComAndroidSupportSupportFragment2531Library
+:library:prepareComAndroidSupportSupportMediaCompat2531Library
+:library:prepareComAndroidSupportSupportV42531Library
+:library:prepareComAndroidSupportSupportVectorDrawable2531Library
+:library:prepareDebugDependencies
+:library:compileDebugAidl UP-TO-DATE
+:library:compileDebugNdk UP-TO-DATE
+:library:compileLint UP-TO-DATE
+:library:copyDebugLint UP-TO-DATE
+:library:compileDebugRenderscript UP-TO-DATE
+:library:generateDebugBuildConfig UP-TO-DATE
+:library:generateDebugResValues UP-TO-DATE
+:library:generateDebugResources UP-TO-DATE
+:library:mergeDebugResources UP-TO-DATE
+:library:processDebugManifest UP-TO-DATE
+:library:processDebugResources UP-TO-DATE
+:library:generateDebugSources UP-TO-DATE
+:library:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac UP-TO-DATE
+:library:extractDebugAnnotations UP-TO-DATE
+:library:mergeDebugShaders UP-TO-DATE
+:library:compileDebugShaders UP-TO-DATE
+:library:generateDebugAssets UP-TO-DATE
+:library:mergeDebugAssets UP-TO-DATE
+:library:mergeDebugProguardFiles UP-TO-DATE
+:library:packageDebugRenderscript UP-TO-DATE
+:library:packageDebugResources UP-TO-DATE
+:library:processDebugJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:library:mergeDebugJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:library:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:library:bundleDebug UP-TO-DATE
+:library:compileDebugSources UP-TO-DATE
+:library:assembleDebug UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:copyReleaseLint UP-TO-DATE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:mergeReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac UP-TO-DATE
+:library:extractReleaseAnnotations UP-TO-DATE
+:library:mergeReleaseShaders UP-TO-DATE
+:library:compileReleaseShaders UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:library:mergeReleaseProguardFiles UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:library:mergeReleaseJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:library:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:library:bundleRelease UP-TO-DATE
+:library:compileReleaseSources UP-TO-DATE
+:library:assembleRelease UP-TO-DATE
+:library:assemble UP-TO-DATE
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.057 secs
+
+2017-09-16 15:45:10,240 ERROR FullProcessService - Project build has not produced APK file
+2017-09-16 15:45:10,259 ERROR FullProcessService - Could not find generated or existed APK file

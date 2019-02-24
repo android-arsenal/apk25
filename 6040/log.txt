@@ -1,0 +1,599 @@
+2018-12-02 16:42:49,747 INFO  DownloadService - Downloading "https://github.com/santalu/diagonal-imageview/archive/master.zip", attempt 3
+2018-12-02 16:42:54,347 INFO  DownloadService - Downloaded https://github.com/santalu/diagonal-imageview/archive/master.zip, attempt 3
+2018-12-02 16:42:54,347 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/master.zip": 1 MB
+2018-12-02 16:42:54,347 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-02 16:42:54,353 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/master.zip: true
+2018-12-02 16:42:54,353 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src'.
+2018-12-02 16:42:54,378 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-12-02 16:42:54,378 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src]
+2018-12-02 16:42:54,396 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/.git/
+
+2018-12-02 16:42:54,398 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/gradlew
+2018-12-02 16:42:54,401 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/diagonalimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/build.gradle
+2018-12-02 16:42:54,404 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/diagonalimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/settings.gradle
+2018-12-02 16:42:54,404 INFO  ProjectBuildService - Remote scripts: none
+2018-12-02 16:42:54,404 INFO  ProjectFixService - Fixing project...
+2018-12-02 16:42:54,411 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/app/local.properties
+2018-12-02 16:42:54,412 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-02 16:42:54,412 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-02 16:42:54,413 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/diagonalimageview/local.properties
+2018-12-02 16:42:54,414 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/diagonalimageview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-02 16:42:54,414 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/diagonalimageview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-02 16:42:54,415 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/local.properties
+2018-12-02 16:42:54,415 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2018-12-02 16:42:54,416 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2018-12-02 16:42:54,416 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-02 16:42:54,417 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-12-02 16:42:54,417 INFO  ProjectFixService - Project was maybe fixed
+2018-12-02 16:42:54,417 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-02 16:42:54,417 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-02 16:43:01,035 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-02 16:43:01,035 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-02 16:43:01,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-02 16:43:49,832 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with JetifyTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with IdentityTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with ExtractAarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with ExtractAarTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.10) with JetifyTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.10) with IdentityTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with ExtractAarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with ExtractAarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with ExtractAarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with ExtractAarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with ExtractAarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with ExtractAarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.10) with JetifyTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.10) with IdentityTransform
+> Transform core.aar (androidx.core:core:1.0.1) with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with JetifyTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with JetifyTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with ExtractAarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with ExtractAarTransform
+> Task :app:preBuild UP-TO-DATE
+> Task :diagonalimageview:preBuild UP-TO-DATE
+> Task :diagonalimageview:preDebugBuild UP-TO-DATE
+> Task :diagonalimageview:checkDebugManifest
+> Task :diagonalimageview:processDebugManifest
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with AarTransform
+> Task :diagonalimageview:packageDebugRenderscript NO-SOURCE
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with LibrarySymbolTableTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with LibrarySymbolTableTransform
+> Transform print.aar (androidx.print:print:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with LibrarySymbolTableTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with LibrarySymbolTableTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with LibrarySymbolTableTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with LibrarySymbolTableTransform
+> Transform core.aar (androidx.core:core:1.0.1) with LibrarySymbolTableTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with LibrarySymbolTableTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with LibrarySymbolTableTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with LibrarySymbolTableTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with LibrarySymbolTableTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with LibrarySymbolTableTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with LibrarySymbolTableTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with LibrarySymbolTableTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with LibrarySymbolTableTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with LibrarySymbolTableTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with LibrarySymbolTableTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with LibrarySymbolTableTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with LibrarySymbolTableTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with LibrarySymbolTableTransform
+> Task :app:mainApkListPersistenceDebug
+> Task :diagonalimageview:compileDebugAidl NO-SOURCE
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Task :app:generateDebugResValues
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.10) with JetifyTransform
+> Task :diagonalimageview:compileDebugRenderscript
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.10) with IdentityTransform
+> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.2.1-4818971) with Aapt2Extractor
+> Task :diagonalimageview:generateDebugResValues
+> Task :app:checkDebugClasspath
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:generateDebugResources
+> Task :diagonalimageview:generateDebugResources
+> Task :diagonalimageview:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:splitsDiscoveryTaskDebug
+> Task :diagonalimageview:generateDebugRFile
+> Task :app:processDebugResources
+> Task :diagonalimageview:generateDebugBuildConfig
+> Task :diagonalimageview:compileDebugKotlin
+> Task :diagonalimageview:prepareLintJar
+> Task :diagonalimageview:generateDebugSources
+> Task :diagonalimageview:javaPreCompileDebug
+> Task :diagonalimageview:compileDebugJavaWithJavac
+> Task :diagonalimageview:processDebugJavaRes NO-SOURCE
+> Task :diagonalimageview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :diagonalimageview:mergeDebugShaders
+> Task :diagonalimageview:compileDebugShaders
+> Task :diagonalimageview:generateDebugAssets
+> Task :diagonalimageview:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.10) with IdentityTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with IdentityTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.10) with IdentityTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with AarTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.10) with IdentityTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Task :app:mergeDebugJniLibFolders
+> Task :diagonalimageview:compileDebugNdk NO-SOURCE
+> Task :diagonalimageview:mergeDebugJniLibFolders
+> Task :diagonalimageview:transformNativeLibsWithMergeJniLibsForDebug
+> Task :diagonalimageview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :diagonalimageview:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:checkDebugLibraries
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:validateSigningDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:checkReleaseClasspath
+> Task :diagonalimageview:preReleaseBuild UP-TO-DATE
+> Task :diagonalimageview:checkReleaseManifest
+> Task :diagonalimageview:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :diagonalimageview:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :diagonalimageview:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :diagonalimageview:compileReleaseRenderscript
+> Task :diagonalimageview:generateReleaseResValues
+> Task :diagonalimageview:generateReleaseResources
+> Task :diagonalimageview:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:splitsDiscoveryTaskRelease
+> Task :diagonalimageview:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :diagonalimageview:generateReleaseBuildConfig
+> Task :diagonalimageview:compileReleaseKotlin
+> Task :diagonalimageview:generateReleaseSources
+> Task :diagonalimageview:javaPreCompileRelease
+> Task :diagonalimageview:compileReleaseJavaWithJavac
+> Task :diagonalimageview:processReleaseJavaRes NO-SOURCE
+> Task :diagonalimageview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform gridlayout.aar (androidx.gridlayout:gridlayout:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Task :app:mergeReleaseShaders
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/bbaa7495fe11a06b3788a57ce8b3a475/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :diagonalimageview:mergeReleaseShaders
+> Task :diagonalimageview:compileReleaseShaders
+> Task :diagonalimageview:generateReleaseAssets
+> Task :diagonalimageview:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :diagonalimageview:compileReleaseNdk NO-SOURCE
+> Task :diagonalimageview:mergeReleaseJniLibFolders
+> Task :diagonalimageview:transformNativeLibsWithMergeJniLibsForRelease
+> Task :diagonalimageview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :diagonalimageview:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:checkReleaseLibraries
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 48s
+94 actionable tasks: 94 executed
+
+2018-12-02 16:43:49,939 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743769745-0/src/diagonal-imageview-master/app/build/outputs/apk/debug/app-debug.apk

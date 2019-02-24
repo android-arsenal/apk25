@@ -1,0 +1,501 @@
+2018-12-02 16:47:02,962 INFO  DownloadService - Downloading "https://github.com/akaita/RxJava2Debug/archive/master.zip", attempt 3
+2018-12-02 16:47:04,741 INFO  DownloadService - Downloaded https://github.com/akaita/RxJava2Debug/archive/master.zip, attempt 3
+2018-12-02 16:47:04,742 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/master.zip": 1 MB
+2018-12-02 16:47:04,742 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-02 16:47:04,747 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/master.zip: true
+2018-12-02 16:47:04,747 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src'.
+2018-12-02 16:47:04,789 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-12-02 16:47:04,789 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src]
+2018-12-02 16:47:04,808 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/.git/
+
+2018-12-02 16:47:04,812 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/gradlew
+2018-12-02 16:47:04,817 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/build.gradle
+2018-12-02 16:47:04,821 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/gradle/maven.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/settings.gradle
+2018-12-02 16:47:04,822 INFO  ProjectBuildService - Remote scripts: none
+2018-12-02 16:47:04,822 INFO  ProjectFixService - Fixing project...
+2018-12-02 16:47:04,833 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/app/local.properties
+2018-12-02 16:47:04,834 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-12-02 16:47:04,835 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-12-02 16:47:04,836 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/local.properties
+2018-12-02 16:47:04,836 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-12-02 16:47:04,837 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-12-02 16:47:04,839 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-12-02 16:47:04,839 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-12-02 16:47:04,840 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/local.properties
+2018-12-02 16:47:04,840 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14-bin.zip
+2018-12-02 16:47:04,843 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-12-02 16:47:04,843 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-12-02 16:47:04,843 INFO  ProjectFixService - Project was maybe fixed
+2018-12-02 16:47:04,844 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-02 16:47:04,844 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-02 16:47:19,996 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-12-02 16:47:19,996 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-12-02 16:47:19,996 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-12-02 16:47:19,996 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-12-02 16:47:26,579 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-02 16:47:26,579 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':app'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:69)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:103)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:49)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:651)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:133)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:265)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:173)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:128)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:71)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:51)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:58)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:33)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:287)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:260)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:441)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:284)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:410)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:459)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:89)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1718)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantScope(ApplicationTaskManager.java:226)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:545)
+	at com.android.build.gradle.internal.VariantManager.lambda$createAndroidTasks$1(VariantManager.java:355)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:351)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$5(BasePlugin.java:641)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:636)
+	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
+	... 85 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s
+
+2018-12-02 16:47:26,587 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-02 16:47:26,587 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-02 16:47:33,382 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-12-02 16:47:33,382 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-12-02 16:47:33,382 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-12-02 16:47:33,382 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/example-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-12-02 16:47:40,131 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-02 16:47:40,131 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':app'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:82)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:69)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:103)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:49)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:651)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:133)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:265)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:173)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:128)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:71)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:51)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:58)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:33)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:287)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:260)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mips64el-linux-android
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getDefaultToolchainVersion(DefaultNdkInfo.java:441)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getToolchainPath(DefaultNdkInfo.java:284)
+	at com.android.build.gradle.internal.ndk.DefaultNdkInfo.getStripExecutable(DefaultNdkInfo.java:410)
+	at com.android.build.gradle.internal.ndk.NdkHandler.getStripExecutable(NdkHandler.java:459)
+	at com.android.build.gradle.internal.transforms.StripDebugSymbolTransform.<init>(StripDebugSymbolTransform.java:89)
+	at com.android.build.gradle.internal.TaskManager.createStripNativeLibraryTask(TaskManager.java:1718)
+	at com.android.build.gradle.internal.ApplicationTaskManager.createTasksForVariantScope(ApplicationTaskManager.java:226)
+	at com.android.build.gradle.internal.VariantManager.createTasksForVariantData(VariantManager.java:545)
+	at com.android.build.gradle.internal.VariantManager.lambda$createAndroidTasks$1(VariantManager.java:355)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.internal.VariantManager.createAndroidTasks(VariantManager.java:351)
+	at com.android.build.gradle.BasePlugin.lambda$createAndroidTasks$5(BasePlugin.java:641)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:636)
+	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
+	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
+	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
+	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
+	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
+	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
+	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
+	... 85 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s
+
+2018-12-02 16:47:40,138 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-02 16:47:40,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-02 16:47:50,115 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-12-02 16:47:50,115 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-12-02 16:47:50,116 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-12-02 16:48:02,170 INFO  SysUtils - Configuration on demand is an incubating feature.
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:processResources UP-TO-DATE
+:classes
+:jar
+:javadocJar
+:sourcesJar
+:signArchives SKIPPED
+:assemble
+:jacocoTestReport SKIPPED
+:pmdMain
+Download https://repo1.maven.org/maven2/net/sourceforge/pmd/pmd-java/5.4.2/pmd-java-5.4.2.jar
+Download https://repo1.maven.org/maven2/net/sourceforge/pmd/pmd-core/5.4.2/pmd-core-5.4.2.jar
+31 PMD rule violations were found. See the report at: file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/build/reports/pmd/main.html
+:pmdPrint
+Listing first 100 PMD violations
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.4.2" timestamp="2018-12-02T16:47:59.699">
+<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/src/main/java/com/akaita/java/rxjava2debug/ExceptionUtils.java">
+<violation beginline="25" endline="74" begincolumn="22" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.akaita.java.rxjava2debug" class="ExceptionUtils" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="46" endline="46" begincolumn="13" endcolumn="23" rule="UseCollectionIsEmpty" ruleset="Design" package="com.akaita.java.rxjava2debug" class="ExceptionUtils" method="reverseAndCollapseCauses" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/design.html#UseCollectionIsEmpty" priority="3">
+Substitute calls to size() == 0 (or size() != 0, size() &gt; 0, size() &lt; 1) with calls to isEmpty()
+</violation>
+</file>
+<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/src/main/java/com/akaita/java/rxjava2debug/RxJava2Debug.java">
+<violation beginline="27" endline="97" begincolumn="27" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.akaita.java.rxjava2debug" class="RxJava2Debug" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/src/main/java/com/akaita/java/rxjava2debug/StackTraceUtils.java">
+<violation beginline="28" endline="90" begincolumn="23" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="com.akaita.java.rxjava2debug" class="StackTraceUtils" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="59" endline="59" begincolumn="16" endcolumn="59" rule="OptimizableToArrayCall" ruleset="Design" package="com.akaita.java.rxjava2debug" class="StackTraceUtils" method="parseStackTrace" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/design.html#OptimizableToArrayCall" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+<violation beginline="65" endline="65" begincolumn="13" endcolumn="90" rule="IfStmtsMustUseBraces" ruleset="Braces" package="com.akaita.java.rxjava2debug" class="StackTraceUtils" method="startsWithAny" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+</file>
+<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/src/main/java/com/akaita/java/rxjava2debug/extensions/CompletableOnAssemblyCallable.java">
+<violation beginline="46" endline="46" begincolumn="33" endcolumn="41" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" package="com.akaita.java.rxjava2debug.extensions" class="CompletableOnAssemblyCallable" method="call" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="49" endline="49" begincolumn="18" endcolumn="26" rule="AvoidCatchingGenericException" ruleset="Strict Exceptions" package="com.akaita.java.rxjava2debug.extensions" class="CompletableOnAssemblyCallable" method="call" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#AvoidCatchingGenericException" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+</file>
+<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/src/main/java/com/akaita/java/rxjava2debug/extensions/FlowableOnAssembly.java">
+<violation beginline="81" endline="81" begincolumn="32" endcolumn="40" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" package="com.akaita.java.rxjava2debug.extensions" class="FlowableOnAssembly$OnAssemblySubscriber" method="poll" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="123" endline="123" begincolumn="32" endcolumn="40" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" package="com.akaita.java.rxjava2debug.extensions" class="FlowableOnAssembly$OnAssemblyConditionalSubscriber" method="poll" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+</file>
+<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/src/main/java/com/akaita/java/rxjava2debug/extensions/FlowableOnAssemblyCallable.java">
+<violation beginline="55" endline="55" begincolumn="28" endcolumn="36" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" package="com.akaita.java.rxjava2debug.extensions" class="FlowableOnAssemblyCallable" method="call" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="58" endline="58" begincolumn="18" endcolumn="26" rule="AvoidCatchingGenericException" ruleset="Strict Exceptions" package="com.akaita.java.rxjava2debug.extensions" class="FlowableOnAssemblyCallable" method="call" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#AvoidCatchingGenericException" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+</file>
+<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/src/main/java/com/akaita/java/rxjava2debug/extensions/MaybeOnAssemblyCallable.java">
+<violation beginline="48" endline="48" begincolumn="28" endcolumn="36" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" package="com.akaita.java.rxjava2debug.extensions" class="MaybeOnAssemblyCallable" method="call" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="51" endline="51" begincolumn="18" endcolumn="26" rule="AvoidCatchingGenericException" ruleset="Strict Exceptions" package="com.akaita.java.rxjava2debug.extensions" class="MaybeOnAssemblyCallable" method="call" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#AvoidCatchingGenericException" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+</file>
+<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/src/main/java/com/akaita/java/rxjava2debug/extensions/ObservableOnAssembly.java">
+<violation beginline="75" endline="75" begincolumn="32" endcolumn="40" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" package="com.akaita.java.rxjava2debug.extensions" class="ObservableOnAssembly$OnAssemblyObserver" method="poll" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+</file>
+<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/src/main/java/com/akaita/java/rxjava2debug/extensions/ObservableOnAssemblyCallable.java">
+<violation beginline="48" endline="48" begincolumn="28" endcolumn="36" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" package="com.akaita.java.rxjava2debug.extensions" class="ObservableOnAssemblyCallable" method="call" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="51" endline="51" begincolumn="18" endcolumn="26" rule="AvoidCatchingGenericException" ruleset="Strict Exceptions" package="com.akaita.java.rxjava2debug.extensions" class="ObservableOnAssemblyCallable" method="call" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#AvoidCatchingGenericException" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+</file>
+<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/src/main/java/com/akaita/java/rxjava2debug/extensions/RxJavaAssemblyException.java">
+<violation beginline="35" endline="35" begincolumn="23" endcolumn="23" rule="InsufficientStringBufferDeclaration" ruleset="String and StringBuffer" package="com.akaita.java.rxjava2debug.extensions" class="RxJavaAssemblyException" method="buildStackTrace" variable="b" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strings.html#InsufficientStringBufferDeclaration" priority="3">
+StringBuffer constructor is initialized with size 16, but has at least 42 characters appended.
+</violation>
+<violation beginline="86" endline="90" begincolumn="9" endcolumn="9" rule="SimplifyBooleanReturns" ruleset="Design" package="com.akaita.java.rxjava2debug.extensions" class="RxJavaAssemblyException" method="filter" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/design.html#SimplifyBooleanReturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+<violation beginline="104" endline="109" begincolumn="25" endcolumn="5" rule="AvoidSynchronizedAtMethodLevel" ruleset="Design" package="com.akaita.java.rxjava2debug.extensions" class="RxJavaAssemblyException" method="fillInStackTrace" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/design.html#AvoidSynchronizedAtMethodLevel" priority="3">
+Use block level rather than method level synchronization
+</violation>
+</file>
+<file name="/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543744022958-0/src/RxJava2Debug-master/rxjava2debug/src/main/java/com/akaita/java/rxjava2debug/extensions/RxJavaAssemblyTracking.java">
+<violation beginline="39" endline="39" begincolumn="32" endcolumn="35" rule="VariableNamingConventions" ruleset="Naming" package="com.akaita.java.rxjava2debug.extensions" class="RxJavaAssemblyTracking" variable="lock" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Variables that are final and static should be all capitals, 'lock' is not all capitals.
+</violation>
+<violation beginline="55" endline="55" begincolumn="58" endcolumn="66" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" package="com.akaita.java.rxjava2debug.extensions" class="RxJavaAssemblyTracking" method="apply" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="68" endline="68" begincolumn="80" endcolumn="88" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" package="com.akaita.java.rxjava2debug.extensions" class="RxJavaAssemblyTracking" method="apply" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="75" endline="75" begincolumn="62" endcolumn="70" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" package="com.akaita.java.rxjava2debug.extensions" class="RxJavaAssemblyTracking" method="apply" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="88" endline="88" begincolumn="84" endcolumn="92" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" package="com.akaita.java.rxjava2debug.extensions" class="RxJavaAssemblyTracking" method="apply" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="95" endline="95" begincolumn="54" endcolumn="62" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" package="com.akaita.java.rxjava2debug.extensions" class="RxJavaAssemblyTracking" method="apply" externalInfoUrl="https://pmd.github.io/pmd-5.4.2/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 11.327 secs
+
+2018-12-02 16:48:02,179 ERROR FullProcessService - Project build has not produced APK file
+2018-12-02 16:48:02,187 ERROR FullProcessService - Could not find generated or existed APK file

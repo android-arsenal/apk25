@@ -1,0 +1,510 @@
+2019-01-19 21:14:52,202 INFO  DownloadService - Downloading "https://github.com/dkzwm/SmoothRefreshLayout/archive/master.zip", attempt 3
+2019-01-19 21:14:59,428 INFO  DownloadService - Downloaded https://github.com/dkzwm/SmoothRefreshLayout/archive/master.zip, attempt 3
+2019-01-19 21:14:59,428 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/master.zip": 17 MB
+2019-01-19 21:14:59,428 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 21:14:59,429 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/master.zip: true
+2019-01-19 21:14:59,429 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src'.
+2019-01-19 21:14:59,637 INFO  FullProcessService - Size of directory with sources: 19 MB
+2019-01-19 21:14:59,637 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src]
+2019-01-19 21:14:59,661 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/.git/
+
+2019-01-19 21:14:59,669 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/gradlew
+2019-01-19 21:14:59,679 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-classics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-horizontal/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-material/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-two-level/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-util/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/build.gradle
+2019-01-19 21:14:59,687 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-classics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-two-level/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-util/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-horizontal/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-material/build.gradle
+2019-01-19 21:14:59,688 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 21:14:59,688 INFO  ProjectFixService - Fixing project...
+2019-01-19 21:14:59,709 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/app/local.properties
+2019-01-19 21:14:59,715 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-01-19 21:14:59,715 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-19 21:14:59,717 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/core/local.properties
+2019-01-19 21:14:59,723 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-01-19 21:14:59,723 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-19 21:14:59,724 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-classics/local.properties
+2019-01-19 21:14:59,731 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-classics/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-01-19 21:14:59,731 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-classics/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-19 21:14:59,733 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-horizontal/local.properties
+2019-01-19 21:14:59,739 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-horizontal/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-01-19 21:14:59,739 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-horizontal/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-19 21:14:59,740 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-material/local.properties
+2019-01-19 21:14:59,746 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-material/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-01-19 21:14:59,746 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-material/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-19 21:14:59,749 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-two-level/local.properties
+2019-01-19 21:14:59,755 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-two-level/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-01-19 21:14:59,756 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-two-level/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-19 21:14:59,757 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-util/local.properties
+2019-01-19 21:14:59,763 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-util/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-01-19 21:14:59,763 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-util/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-19 21:14:59,764 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/local.properties
+2019-01-19 21:14:59,765 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-01-19 21:14:59,765 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-01-19 21:14:59,772 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-01-19 21:14:59,772 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-19 21:14:59,773 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 21:14:59,773 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 21:14:59,773 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 21:15:17,952 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-01-19 21:15:17,952 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 21:15:17,952 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 21:16:22,654 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :core:preBuild UP-TO-DATE
+> Task :core:preDebugBuild UP-TO-DATE
+> Task :core:checkDebugManifest
+> Task :core:processDebugManifest
+> Task :ext-classics:preBuild UP-TO-DATE
+> Task :ext-classics:preDebugBuild UP-TO-DATE
+> Task :ext-classics:checkDebugManifest
+> Task :ext-classics:processDebugManifest
+> Task :ext-horizontal:preBuild UP-TO-DATE
+> Task :ext-horizontal:preDebugBuild UP-TO-DATE
+> Task :ext-horizontal:checkDebugManifest
+> Task :ext-horizontal:processDebugManifest
+> Task :ext-material:preBuild UP-TO-DATE
+> Task :ext-material:preDebugBuild UP-TO-DATE
+> Task :ext-material:checkDebugManifest
+> Task :ext-material:processDebugManifest
+> Task :ext-two-level:preBuild UP-TO-DATE
+> Task :ext-two-level:preDebugBuild UP-TO-DATE
+> Task :ext-two-level:checkDebugManifest
+> Task :ext-two-level:processDebugManifest
+> Task :ext-util:preBuild UP-TO-DATE
+> Task :ext-util:preDebugBuild UP-TO-DATE
+> Task :ext-util:checkDebugManifest
+> Task :ext-util:processDebugManifest
+> Task :app:preDebugBuild
+> Task :core:compileDebugAidl NO-SOURCE
+> Task :ext-classics:compileDebugAidl NO-SOURCE
+> Task :ext-horizontal:compileDebugAidl NO-SOURCE
+> Task :ext-material:compileDebugAidl NO-SOURCE
+> Task :ext-two-level:compileDebugAidl NO-SOURCE
+> Task :ext-util:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :core:packageDebugRenderscript NO-SOURCE
+> Task :ext-classics:packageDebugRenderscript NO-SOURCE
+> Task :ext-horizontal:packageDebugRenderscript NO-SOURCE
+> Task :ext-material:packageDebugRenderscript NO-SOURCE
+> Task :ext-two-level:packageDebugRenderscript NO-SOURCE
+> Task :ext-util:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :core:compileDebugRenderscript
+> Task :core:generateDebugBuildConfig
+> Task :core:generateDebugResValues
+> Task :core:generateDebugResources
+> Task :core:packageDebugResources
+> Task :core:generateDebugRFile
+> Task :core:prepareLintJar
+> Task :core:generateDebugSources
+> Task :core:javaPreCompileDebug
+
+> Task :core:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/core/src/main/java/me/dkzwm/widget/srl/utils/ScrollCompat.java uses or overrides a deprecated API.
+> Task :core:processDebugJavaRes NO-SOURCE
+
+Note: Recompile with -Xlint:deprecation for details.
+> Task :core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :ext-classics:compileDebugRenderscript
+> Task :ext-classics:generateDebugBuildConfig
+> Task :ext-classics:generateDebugResValues
+> Task :ext-classics:generateDebugResources
+> Task :ext-classics:packageDebugResources
+> Task :ext-classics:generateDebugRFile
+> Task :ext-classics:prepareLintJar
+> Task :ext-classics:generateDebugSources
+> Task :ext-classics:javaPreCompileDebug
+> Task :ext-classics:compileDebugJavaWithJavac
+> Task :ext-classics:processDebugJavaRes NO-SOURCE
+> Task :ext-classics:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :ext-horizontal:compileDebugRenderscript
+> Task :ext-horizontal:generateDebugBuildConfig
+> Task :ext-horizontal:generateDebugResValues
+> Task :ext-horizontal:generateDebugResources
+> Task :ext-horizontal:packageDebugResources
+> Task :ext-horizontal:generateDebugRFile
+> Task :ext-horizontal:prepareLintJar
+> Task :ext-horizontal:generateDebugSources
+> Task :ext-horizontal:javaPreCompileDebug
+
+> Task :ext-horizontal:compileDebugJavaWithJavac
+
+> Task :ext-horizontal:processDebugJavaRes NO-SOURCE
+> Task :ext-horizontal:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-horizontal/src/main/java/me/dkzwm/widget/srl/utils/HorizontalScrollCompat.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+> Task :ext-material:compileDebugRenderscript
+> Task :ext-material:generateDebugBuildConfig
+> Task :ext-material:generateDebugResValues
+> Task :ext-material:generateDebugResources
+> Task :ext-material:packageDebugResources
+> Task :ext-material:generateDebugRFile
+> Task :ext-material:prepareLintJar
+> Task :ext-material:generateDebugSources
+> Task :ext-material:javaPreCompileDebug
+> Task :ext-material:compileDebugJavaWithJavac
+> Task :ext-material:processDebugJavaRes NO-SOURCE
+> Task :ext-material:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :ext-two-level:compileDebugRenderscript
+> Task :ext-two-level:generateDebugBuildConfig
+> Task :ext-two-level:generateDebugResValues
+> Task :ext-two-level:generateDebugResources
+> Task :ext-two-level:packageDebugResources
+> Task :ext-two-level:generateDebugRFile
+> Task :ext-two-level:prepareLintJar
+> Task :ext-two-level:generateDebugSources
+> Task :ext-two-level:javaPreCompileDebug
+> Task :ext-two-level:compileDebugJavaWithJavac
+> Task :ext-two-level:processDebugJavaRes NO-SOURCE
+> Task :ext-two-level:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :ext-util:compileDebugRenderscript
+> Task :ext-util:generateDebugBuildConfig
+> Task :ext-util:generateDebugResValues
+> Task :ext-util:generateDebugResources
+> Task :ext-util:packageDebugResources
+> Task :ext-util:generateDebugRFile
+> Task :ext-util:prepareLintJar
+> Task :ext-util:generateDebugSources
+> Task :ext-util:javaPreCompileDebug
+
+> Task :ext-util:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-util/src/main/java/me/dkzwm/widget/srl/utils/AutoRefreshUtil.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :ext-util:processDebugJavaRes NO-SOURCE
+> Task :ext-util:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: compiler-4.8.0.jar (com.github.bumptech.glide:compiler:4.8.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :core:mergeDebugShaders
+> Task :core:compileDebugShaders
+> Task :core:generateDebugAssets
+> Task :core:packageDebugAssets
+> Task :ext-classics:mergeDebugShaders
+> Task :ext-classics:compileDebugShaders
+> Task :ext-classics:generateDebugAssets
+> Task :ext-classics:packageDebugAssets
+> Task :ext-horizontal:mergeDebugShaders
+> Task :ext-horizontal:compileDebugShaders
+> Task :ext-horizontal:generateDebugAssets
+> Task :ext-horizontal:packageDebugAssets
+> Task :ext-material:mergeDebugShaders
+> Task :ext-material:compileDebugShaders
+> Task :ext-material:generateDebugAssets
+> Task :ext-material:packageDebugAssets
+> Task :ext-two-level:mergeDebugShaders
+> Task :ext-two-level:compileDebugShaders
+> Task :ext-two-level:generateDebugAssets
+> Task :ext-two-level:packageDebugAssets
+> Task :ext-util:mergeDebugShaders
+> Task :ext-util:compileDebugShaders
+> Task :ext-util:generateDebugAssets
+> Task :ext-util:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :ext-util:createFullJarDebug
+> Transform full.jar (project :ext-util) with IdentityTransform
+> Task :ext-material:createFullJarDebug
+> Transform full.jar (project :ext-material) with IdentityTransform
+> Task :ext-classics:createFullJarDebug
+> Transform full.jar (project :ext-classics) with IdentityTransform
+> Task :ext-horizontal:createFullJarDebug
+> Transform full.jar (project :ext-horizontal) with IdentityTransform
+> Task :ext-two-level:createFullJarDebug
+> Transform full.jar (project :ext-two-level) with IdentityTransform
+> Task :core:createFullJarDebug
+> Transform full.jar (project :core) with IdentityTransform
+> Transform full.jar (project :ext-util) with DexingTransform
+> Transform full.jar (project :ext-two-level) with DexingTransform
+> Transform full.jar (project :ext-classics) with DexingTransform
+> Transform full.jar (project :ext-horizontal) with DexingTransform
+> Transform full.jar (project :ext-material) with DexingTransform
+> Task :app:mergeExtDexDebug
+> Transform full.jar (project :core) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :core:compileDebugNdk NO-SOURCE
+> Task :core:mergeDebugJniLibFolders
+> Task :core:transformNativeLibsWithMergeJniLibsForDebug
+> Task :core:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :core:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :ext-classics:compileDebugNdk NO-SOURCE
+> Task :ext-classics:mergeDebugJniLibFolders
+> Task :ext-classics:transformNativeLibsWithMergeJniLibsForDebug
+> Task :ext-classics:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :ext-classics:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :ext-horizontal:compileDebugNdk NO-SOURCE
+> Task :ext-horizontal:mergeDebugJniLibFolders
+> Task :ext-horizontal:transformNativeLibsWithMergeJniLibsForDebug
+> Task :ext-horizontal:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :ext-horizontal:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :ext-material:compileDebugNdk NO-SOURCE
+> Task :ext-material:mergeDebugJniLibFolders
+> Task :ext-material:transformNativeLibsWithMergeJniLibsForDebug
+> Task :ext-material:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :ext-material:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :ext-two-level:compileDebugNdk NO-SOURCE
+> Task :ext-two-level:mergeDebugJniLibFolders
+> Task :ext-two-level:transformNativeLibsWithMergeJniLibsForDebug
+> Task :ext-two-level:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :ext-two-level:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :ext-util:compileDebugNdk NO-SOURCE
+> Task :ext-util:mergeDebugJniLibFolders
+> Task :ext-util:transformNativeLibsWithMergeJniLibsForDebug
+> Task :ext-util:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :ext-util:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :core:preReleaseBuild UP-TO-DATE
+> Task :core:checkReleaseManifest
+> Task :core:processReleaseManifest
+> Task :ext-classics:preReleaseBuild UP-TO-DATE
+> Task :ext-classics:checkReleaseManifest
+> Task :ext-classics:processReleaseManifest
+> Task :ext-horizontal:preReleaseBuild UP-TO-DATE
+> Task :ext-horizontal:checkReleaseManifest
+> Task :ext-horizontal:processReleaseManifest
+> Task :ext-material:preReleaseBuild UP-TO-DATE
+> Task :ext-material:checkReleaseManifest
+> Task :ext-material:processReleaseManifest
+> Task :ext-two-level:preReleaseBuild UP-TO-DATE
+> Task :ext-two-level:checkReleaseManifest
+> Task :ext-two-level:processReleaseManifest
+> Task :ext-util:preReleaseBuild UP-TO-DATE
+> Task :ext-util:checkReleaseManifest
+> Task :ext-util:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :core:compileReleaseAidl NO-SOURCE
+> Task :ext-classics:compileReleaseAidl NO-SOURCE
+> Task :ext-horizontal:compileReleaseAidl NO-SOURCE
+> Task :ext-material:compileReleaseAidl NO-SOURCE
+> Task :ext-two-level:compileReleaseAidl NO-SOURCE
+> Task :ext-util:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :core:packageReleaseRenderscript NO-SOURCE
+> Task :ext-classics:packageReleaseRenderscript NO-SOURCE
+> Task :ext-horizontal:packageReleaseRenderscript NO-SOURCE
+> Task :ext-material:packageReleaseRenderscript NO-SOURCE
+> Task :ext-two-level:packageReleaseRenderscript NO-SOURCE
+> Task :ext-util:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :core:compileReleaseRenderscript
+> Task :core:generateReleaseBuildConfig
+> Task :core:generateReleaseResValues
+> Task :core:generateReleaseResources
+> Task :core:packageReleaseResources
+> Task :core:generateReleaseRFile
+> Task :core:generateReleaseSources
+> Task :core:javaPreCompileRelease
+
+> Task :core:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/core/src/main/java/me/dkzwm/widget/srl/utils/ScrollCompat.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :core:processReleaseJavaRes NO-SOURCE
+> Task :core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :ext-classics:compileReleaseRenderscript
+> Task :ext-classics:generateReleaseBuildConfig
+> Task :ext-classics:generateReleaseResValues
+> Task :ext-classics:generateReleaseResources
+> Task :ext-classics:packageReleaseResources
+> Task :ext-classics:generateReleaseRFile
+> Task :ext-classics:generateReleaseSources
+> Task :ext-classics:javaPreCompileRelease
+> Task :ext-classics:compileReleaseJavaWithJavac
+> Task :ext-classics:processReleaseJavaRes NO-SOURCE
+> Task :ext-classics:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :ext-horizontal:compileReleaseRenderscript
+> Task :ext-horizontal:generateReleaseBuildConfig
+> Task :ext-horizontal:generateReleaseResValues
+> Task :ext-horizontal:generateReleaseResources
+> Task :ext-horizontal:packageReleaseResources
+> Task :ext-horizontal:generateReleaseRFile
+> Task :ext-horizontal:generateReleaseSources
+> Task :ext-horizontal:javaPreCompileRelease
+
+> Task :ext-horizontal:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-horizontal/src/main/java/me/dkzwm/widget/srl/utils/HorizontalScrollCompat.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :ext-horizontal:processReleaseJavaRes NO-SOURCE
+> Task :ext-horizontal:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :ext-material:compileReleaseRenderscript
+> Task :ext-material:generateReleaseBuildConfig
+> Task :ext-material:generateReleaseResValues
+> Task :ext-material:generateReleaseResources
+> Task :ext-material:packageReleaseResources
+> Task :ext-material:generateReleaseRFile
+> Task :ext-material:generateReleaseSources
+> Task :ext-material:javaPreCompileRelease
+> Task :ext-material:compileReleaseJavaWithJavac
+> Task :ext-material:processReleaseJavaRes NO-SOURCE
+> Task :ext-material:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :ext-two-level:compileReleaseRenderscript
+> Task :ext-two-level:generateReleaseBuildConfig
+> Task :ext-two-level:generateReleaseResValues
+> Task :ext-two-level:generateReleaseResources
+> Task :ext-two-level:packageReleaseResources
+> Task :ext-two-level:generateReleaseRFile
+> Task :ext-two-level:generateReleaseSources
+> Task :ext-two-level:javaPreCompileRelease
+> Task :ext-two-level:compileReleaseJavaWithJavac
+> Task :ext-two-level:processReleaseJavaRes NO-SOURCE
+> Task :ext-two-level:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :ext-util:compileReleaseRenderscript
+> Task :ext-util:generateReleaseBuildConfig
+> Task :ext-util:generateReleaseResValues
+> Task :ext-util:generateReleaseResources
+> Task :ext-util:packageReleaseResources
+> Task :ext-util:generateReleaseRFile
+> Task :ext-util:generateReleaseSources
+> Task :ext-util:javaPreCompileRelease
+
+> Task :ext-util:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/ext-util/src/main/java/me/dkzwm/widget/srl/utils/AutoRefreshUtil.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :ext-util:processReleaseJavaRes NO-SOURCE
+> Task :ext-util:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+
+> Task :app:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: compiler-4.8.0.jar (com.github.bumptech.glide:compiler:4.8.0).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/67122644e699c213557a35e7f3292702/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :ext-util:createFullJarRelease
+> Transform full.jar (project :ext-util) with IdentityTransform
+> Task :ext-material:createFullJarRelease
+> Transform full.jar (project :ext-material) with IdentityTransform
+> Task :ext-classics:createFullJarRelease
+> Transform full.jar (project :ext-classics) with IdentityTransform
+> Task :ext-horizontal:createFullJarRelease
+> Transform full.jar (project :ext-horizontal) with IdentityTransform
+> Task :ext-two-level:createFullJarRelease
+> Transform full.jar (project :ext-util) with DexingTransform
+> Transform full.jar (project :ext-two-level) with IdentityTransform
+> Task :core:createFullJarRelease
+> Transform full.jar (project :core) with IdentityTransform
+> Transform full.jar (project :ext-classics) with DexingTransform
+> Transform full.jar (project :ext-two-level) with DexingTransform
+> Transform full.jar (project :ext-horizontal) with DexingTransform
+> Transform full.jar (project :ext-material) with DexingTransform
+> Task :app:mergeExtDexRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :core:mergeReleaseShaders
+> Task :core:compileReleaseShaders
+> Task :core:generateReleaseAssets
+> Transform full.jar (project :core) with DexingTransform
+> Task :core:packageReleaseAssets
+> Task :app:mergeDexRelease
+> Task :ext-classics:mergeReleaseShaders
+> Task :ext-classics:compileReleaseShaders
+> Task :ext-classics:generateReleaseAssets
+> Task :ext-classics:packageReleaseAssets
+> Task :ext-horizontal:mergeReleaseShaders
+> Task :ext-horizontal:compileReleaseShaders
+> Task :ext-horizontal:generateReleaseAssets
+> Task :ext-horizontal:packageReleaseAssets
+> Task :ext-material:mergeReleaseShaders
+> Task :ext-material:compileReleaseShaders
+> Task :ext-material:generateReleaseAssets
+> Task :ext-material:packageReleaseAssets
+> Task :ext-two-level:mergeReleaseShaders
+> Task :ext-two-level:compileReleaseShaders
+> Task :ext-two-level:generateReleaseAssets
+> Task :ext-two-level:packageReleaseAssets
+> Task :ext-util:mergeReleaseShaders
+> Task :ext-util:compileReleaseShaders
+> Task :ext-util:generateReleaseAssets
+> Task :ext-util:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :core:compileReleaseNdk NO-SOURCE
+> Task :core:mergeReleaseJniLibFolders
+> Task :core:transformNativeLibsWithMergeJniLibsForRelease
+> Task :core:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :core:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :ext-classics:compileReleaseNdk NO-SOURCE
+> Task :ext-classics:mergeReleaseJniLibFolders
+> Task :ext-classics:transformNativeLibsWithMergeJniLibsForRelease
+> Task :ext-classics:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :ext-classics:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :ext-horizontal:compileReleaseNdk NO-SOURCE
+> Task :ext-horizontal:mergeReleaseJniLibFolders
+> Task :ext-horizontal:transformNativeLibsWithMergeJniLibsForRelease
+> Task :ext-horizontal:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :ext-horizontal:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :ext-material:compileReleaseNdk NO-SOURCE
+> Task :ext-material:mergeReleaseJniLibFolders
+> Task :ext-material:transformNativeLibsWithMergeJniLibsForRelease
+> Task :ext-material:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :ext-material:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :ext-two-level:compileReleaseNdk NO-SOURCE
+> Task :ext-two-level:mergeReleaseJniLibFolders
+> Task :ext-two-level:transformNativeLibsWithMergeJniLibsForRelease
+> Task :ext-two-level:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :ext-two-level:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :ext-util:compileReleaseNdk NO-SOURCE
+> Task :ext-util:mergeReleaseJniLibFolders
+> Task :ext-util:transformNativeLibsWithMergeJniLibsForRelease
+> Task :ext-util:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :ext-util:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 1m 4s
+273 actionable tasks: 273 executed
+
+2019-01-19 21:16:22,820 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547907292198-0/src/SmoothRefreshLayout-master/app/build/outputs/apk/debug/app-debug.apk

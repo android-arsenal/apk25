@@ -1,0 +1,611 @@
+2018-09-01 22:01:24,948 INFO  DownloadService - Downloading "https://github.com/revely-inc/co.revely.gradient/archive/master.zip", attempt 3
+2018-09-01 22:01:30,945 INFO  DownloadService - Downloaded https://github.com/revely-inc/co.revely.gradient/archive/master.zip, attempt 3
+2018-09-01 22:01:30,945 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/master.zip": 11 MB
+2018-09-01 22:01:30,945 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 22:01:30,946 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/master.zip: true
+2018-09-01 22:01:30,946 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src'.
+2018-09-01 22:01:31,027 INFO  FullProcessService - Size of directory with sources: 11 MB
+2018-09-01 22:01:31,028 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src]
+2018-09-01 22:01:31,048 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/.git/
+
+2018-09-01 22:01:31,052 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/gradlew
+2018-09-01 22:01:31,055 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/gradient/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/build.gradle
+2018-09-01 22:01:31,059 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/gradient/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/settings.gradle
+2018-09-01 22:01:31,059 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2018-09-01 22:02:31,060 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-01 22:02:31,060 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2018-09-01 22:03:31,061 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-01 22:03:31,062 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 22:03:31,062 INFO  ProjectFixService - Fixing project...
+2018-09-01 22:03:31,074 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/app/local.properties
+2018-09-01 22:03:31,075 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-01 22:03:31,075 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/gradient/local.properties
+2018-09-01 22:03:31,075 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/gradient/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-01 22:03:31,076 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/local.properties
+2018-09-01 22:03:31,076 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-01 22:03:31,077 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-01 22:03:31,077 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-01 22:03:31,078 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 22:03:31,078 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 22:03:31,078 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 22:03:39,284 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-01 22:03:39,284 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-01 22:03:39,284 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-01 22:04:15,775 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-01 22:04:15,775 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:gradient:preBuild UP-TO-DATE
+:gradient:preDebugBuild UP-TO-DATE
+:gradient:checkDebugManifest
+:gradient:processDebugManifest
+:app:preDebugBuild
+:gradient:compileDebugAidl
+:app:compileDebugAidl
+:gradient:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:gradient:compileDebugRenderscript
+:gradient:generateDebugResValues
+:gradient:generateDebugResources
+:gradient:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:gradient:platformAttrExtractor
+:gradient:generateDebugBuildConfig
+:gradient:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:gradient:mergeDebugShaders
+:gradient:compileDebugShaders
+:gradient:generateDebugAssets
+:gradient:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:gradient:compileDebugNdk NO-SOURCE
+:gradient:mergeDebugJniLibFolders
+:gradient:transformNativeLibsWithMergeJniLibsForDebug
+:gradient:transformNativeLibsWithStripDebugSymbolForDebug
+:gradient:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:gradient:preReleaseBuild UP-TO-DATE
+:gradient:checkReleaseManifest
+:gradient:processReleaseManifest
+:app:preReleaseBuild
+:gradient:compileReleaseAidl
+:app:compileReleaseAidl
+:gradient:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:gradient:compileReleaseRenderscript
+:gradient:generateReleaseResValues
+:gradient:generateReleaseResources
+:gradient:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:gradient:generateReleaseBuildConfig
+:gradient:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:gradient:mergeReleaseShaders
+:gradient:compileReleaseShaders
+:gradient:generateReleaseAssets
+:gradient:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:gradient:compileReleaseNdk NO-SOURCE
+:gradient:mergeReleaseJniLibFolders
+:gradient:transformNativeLibsWithMergeJniLibsForRelease
+:gradient:transformNativeLibsWithStripDebugSymbolForRelease
+:gradient:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:prepareLintJar
+:gradient:prepareLintJar
+:gradient:processDebugResources
+:app:processDebugResources
+:gradient:compileDebugKotlin
+Using Kotlin incremental compilation
+:gradient:generateDebugSources
+:gradient:javaPreCompileDebug
+:gradient:compileDebugJavaWithJavac
+:gradient:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+Using Kotlin incremental compilation
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/app/src/main/java/co/revely/gradient/HomeActivity.kt: (21, 32): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/app/src/main/java/co/revely/gradient/HomeActivity.kt: (26, 26): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/app/src/main/java/co/revely/gradient/HomeActivity.kt: (31, 30): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/app/src/main/java/co/revely/gradient/HomeActivity.kt: (36, 27): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/app/src/main/java/co/revely/gradient/HomeActivity.kt: (41, 26): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/app/src/main/java/co/revely/gradient/HomeActivity.kt: (46, 27): Parameter 'view' is never used
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebugDex: Error converting bytecode to dex:
+Cause: com.android.dex.DexException: Multiple dex files define Lco/revely/gradient/BuildConfig;
+    UNEXPECTED TOP-LEVEL EXCEPTION:
+    com.android.dex.DexException: Multiple dex files define Lco/revely/gradient/BuildConfig;
+    
+com.android.dex.DexException: Multiple dex files define Lco/revely/gradient/BuildConfig;
+	at com.android.dx.merge.DexMerger.readSortableTypes(DexMerger.java:661)
+	at com.android.dx.merge.DexMerger.getSortedTypes(DexMerger.java:616)
+	at com.android.dx.merge.DexMerger.mergeClassDefs(DexMerger.java:598)
+	at com.android.dx.merge.DexMerger.mergeDexes(DexMerger.java:171)
+	at com.android.dx.merge.DexMerger.merge(DexMerger.java:198)
+	at com.android.builder.dexing.DexArchiveMergerCallable.call(DexArchiveMergerCallable.java:61)
+	at com.android.builder.dexing.DexArchiveMergerCallable.call(DexArchiveMergerCallable.java:36)
+	at java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1424)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:transformDexArchiveWithDexMergerForDebug'.
+> com.android.build.api.transform.TransformException: com.android.dex.DexException: Multiple dex files define Lco/revely/gradient/BuildConfig;
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:transformDexArchiveWithDexMergerForDebug'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:100)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:70)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:63)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:124)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:105)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:625)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:580)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: java.lang.RuntimeException: com.android.build.api.transform.TransformException: com.android.dex.DexException: Multiple dex files define Lco/revely/gradient/BuildConfig;
+	at com.android.builder.profile.Recorder$Block.handleException(Recorder.java:55)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:104)
+	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:213)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$IncrementalTaskAction.doExecute(DefaultTaskClassInfoStore.java:173)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:121)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:122)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:111)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:92)
+	... 27 more
+Caused by: com.android.build.api.transform.TransformException: com.android.dex.DexException: Multiple dex files define Lco/revely/gradient/BuildConfig;
+	at com.android.build.gradle.internal.transforms.DexMergerTransform.transform(DexMergerTransform.java:230)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:222)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:218)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:102)
+	... 39 more
+Caused by: com.android.dex.DexException: Multiple dex files define Lco/revely/gradient/BuildConfig;
+	at com.android.dx.merge.DexMerger.readSortableTypes(DexMerger.java:661)
+	at com.android.dx.merge.DexMerger.getSortedTypes(DexMerger.java:616)
+	at com.android.dx.merge.DexMerger.mergeClassDefs(DexMerger.java:598)
+	at com.android.dx.merge.DexMerger.mergeDexes(DexMerger.java:171)
+	at com.android.dx.merge.DexMerger.merge(DexMerger.java:198)
+	at com.android.builder.dexing.DexArchiveMergerCallable.call(DexArchiveMergerCallable.java:61)
+	at com.android.builder.dexing.DexArchiveMergerCallable.call(DexArchiveMergerCallable.java:36)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 35s
+72 actionable tasks: 72 executed
+Exception in thread "Thread-23" java.lang.NoClassDefFoundError: com/android/builder/internal/aapt/v2/AaptV2Jni$TempDirCache$RecursiveDelete
+	at com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache.lambda$getCachedDirectory$0(AaptV2Jni.java:251)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache$RecursiveDelete
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 2 more
+
+2018-09-01 22:04:15,841 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 22:04:15,841 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/gradient/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 22:04:23,693 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-09-01 22:04:23,693 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-01 22:04:23,693 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/gradient/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-01 22:04:41,258 INFO  SysUtils - Configuration on demand is an incubating feature.
+:gradient:preBuild UP-TO-DATE
+:gradient:preDebugBuild UP-TO-DATE
+:gradient:compileDebugAidl UP-TO-DATE
+:gradient:compileDebugNdk NO-SOURCE
+:gradient:compileDebugRenderscript UP-TO-DATE
+:gradient:checkDebugManifest UP-TO-DATE
+:gradient:generateDebugBuildConfig UP-TO-DATE
+:gradient:generateDebugResValues UP-TO-DATE
+:gradient:generateDebugResources UP-TO-DATE
+:gradient:packageDebugResources UP-TO-DATE
+:gradient:platformAttrExtractor UP-TO-DATE
+:gradient:processDebugManifest UP-TO-DATE
+:gradient:processDebugResources UP-TO-DATE
+:gradient:compileDebugKotlin UP-TO-DATE
+:gradient:generateDebugSources UP-TO-DATE
+:gradient:javaPreCompileDebug UP-TO-DATE
+:gradient:compileDebugJavaWithJavac UP-TO-DATE
+:gradient:extractDebugAnnotations
+:gradient:mergeDebugShaders UP-TO-DATE
+:gradient:compileDebugShaders UP-TO-DATE
+:gradient:generateDebugAssets UP-TO-DATE
+:gradient:mergeDebugAssets UP-TO-DATE
+:gradient:mergeDebugConsumerProguardFiles
+:gradient:packageDebugRenderscript NO-SOURCE
+:gradient:prepareLintJar UP-TO-DATE
+:gradient:processDebugJavaRes NO-SOURCE
+:gradient:transformResourcesWithMergeJavaResForDebug
+:gradient:transformClassesAndResourcesWithSyncLibJarsForDebug
+:gradient:mergeDebugJniLibFolders UP-TO-DATE
+:gradient:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:gradient:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:gradient:transformNativeLibsWithSyncJniLibsForDebug
+:gradient:bundleDebug
+:gradient:compileDebugSources UP-TO-DATE
+:gradient:assembleDebug
+:gradient:preReleaseBuild UP-TO-DATE
+:gradient:compileReleaseAidl UP-TO-DATE
+:gradient:compileReleaseNdk NO-SOURCE
+:gradient:compileReleaseRenderscript UP-TO-DATE
+:gradient:checkReleaseManifest UP-TO-DATE
+:gradient:generateReleaseBuildConfig UP-TO-DATE
+:gradient:generateReleaseResValues UP-TO-DATE
+:gradient:generateReleaseResources UP-TO-DATE
+:gradient:packageReleaseResources UP-TO-DATE
+:gradient:processReleaseManifest UP-TO-DATE
+:gradient:processReleaseResources
+:gradient:compileReleaseKotlin
+Using Kotlin incremental compilation
+:gradient:generateReleaseSources
+:gradient:javaPreCompileRelease
+:gradient:compileReleaseJavaWithJavac
+:gradient:extractReleaseAnnotations
+:gradient:mergeReleaseShaders UP-TO-DATE
+:gradient:compileReleaseShaders UP-TO-DATE
+:gradient:generateReleaseAssets UP-TO-DATE
+:gradient:mergeReleaseAssets UP-TO-DATE
+:gradient:mergeReleaseConsumerProguardFiles
+:gradient:packageReleaseRenderscript NO-SOURCE
+:gradient:processReleaseJavaRes NO-SOURCE
+:gradient:transformResourcesWithMergeJavaResForRelease
+:gradient:transformClassesAndResourcesWithSyncLibJarsForRelease
+:gradient:mergeReleaseJniLibFolders UP-TO-DATE
+:gradient:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:gradient:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:gradient:transformNativeLibsWithSyncJniLibsForRelease
+:gradient:bundleRelease
+:gradient:compileReleaseSources
+:gradient:mergeReleaseResources
+:gradient:verifyReleaseResources
+:gradient:assembleRelease
+:gradient:javadoc NO-SOURCE
+:gradient:javadocJar
+:gradient:sourcesJar
+:gradient:assemble
+:gradient:build
+
+BUILD SUCCESSFUL in 16s
+52 actionable tasks: 20 executed, 32 up-to-date
+Exception in thread "Thread-25" java.lang.NoClassDefFoundError: com/android/builder/internal/aapt/v2/AaptV2Jni$TempDirCache$RecursiveDelete
+	at com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache.lambda$getCachedDirectory$0(AaptV2Jni.java:251)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache$RecursiveDelete
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 2 more
+
+2018-09-01 22:04:41,355 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 22:04:41,355 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 22:04:49,250 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-09-01 22:04:49,251 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-01 22:04:49,251 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535814084945-0/src/co.revely.gradient-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-01 22:04:58,334 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-01 22:04:58,334 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:gradient:preBuild UP-TO-DATE
+:gradient:preDebugBuild UP-TO-DATE
+:gradient:checkDebugManifest UP-TO-DATE
+:gradient:processDebugManifest UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:gradient:compileDebugAidl UP-TO-DATE
+:app:compileDebugAidl UP-TO-DATE
+:gradient:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:checkDebugManifest UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:gradient:compileDebugRenderscript UP-TO-DATE
+:gradient:generateDebugResValues UP-TO-DATE
+:gradient:generateDebugResources UP-TO-DATE
+:gradient:packageDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:createDebugCompatibleScreenManifests UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:splitsDiscoveryTaskDebug UP-TO-DATE
+:gradient:platformAttrExtractor UP-TO-DATE
+:gradient:processDebugResources UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:gradient:generateDebugBuildConfig UP-TO-DATE
+:gradient:compileDebugKotlin UP-TO-DATE
+:gradient:generateDebugSources UP-TO-DATE
+:gradient:javaPreCompileDebug UP-TO-DATE
+:gradient:compileDebugJavaWithJavac UP-TO-DATE
+:gradient:processDebugJavaRes NO-SOURCE
+:gradient:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:app:compileDebugKotlin UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:javaPreCompileDebug UP-TO-DATE
+:app:compileDebugJavaWithJavac UP-TO-DATE
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources UP-TO-DATE
+:app:mergeDebugShaders UP-TO-DATE
+:app:compileDebugShaders UP-TO-DATE
+:app:generateDebugAssets UP-TO-DATE
+:gradient:mergeDebugShaders UP-TO-DATE
+:gradient:compileDebugShaders UP-TO-DATE
+:gradient:generateDebugAssets UP-TO-DATE
+:gradient:mergeDebugAssets UP-TO-DATE
+:app:mergeDebugAssets UP-TO-DATE
+:app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug UP-TO-DATE
+:app:transformDexArchiveWithDexMergerForDebugDex: Error converting bytecode to dex:
+Cause: com.android.dex.DexException: Multiple dex files define Lco/revely/gradient/BuildConfig;
+    UNEXPECTED TOP-LEVEL EXCEPTION:
+    com.android.dex.DexException: Multiple dex files define Lco/revely/gradient/BuildConfig;
+    
+com.android.dex.DexException: Multiple dex files define Lco/revely/gradient/BuildConfig;
+	at com.android.dx.merge.DexMerger.readSortableTypes(DexMerger.java:661)
+	at com.android.dx.merge.DexMerger.getSortedTypes(DexMerger.java:616)
+	at com.android.dx.merge.DexMerger.mergeClassDefs(DexMerger.java:598)
+	at com.android.dx.merge.DexMerger.mergeDexes(DexMerger.java:171)
+	at com.android.dx.merge.DexMerger.merge(DexMerger.java:198)
+	at com.android.builder.dexing.DexArchiveMergerCallable.call(DexArchiveMergerCallable.java:61)
+	at com.android.builder.dexing.DexArchiveMergerCallable.call(DexArchiveMergerCallable.java:36)
+	at java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1424)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:transformDexArchiveWithDexMergerForDebug'.
+> com.android.build.api.transform.TransformException: com.android.dex.DexException: Multiple dex files define Lco/revely/gradient/BuildConfig;
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:transformDexArchiveWithDexMergerForDebug'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:100)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:70)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:63)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:124)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:80)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:105)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:625)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:580)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: java.lang.RuntimeException: com.android.build.api.transform.TransformException: com.android.dex.DexException: Multiple dex files define Lco/revely/gradient/BuildConfig;
+	at com.android.builder.profile.Recorder$Block.handleException(Recorder.java:55)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:104)
+	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:213)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$IncrementalTaskAction.doExecute(DefaultTaskClassInfoStore.java:173)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:121)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:122)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:111)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:92)
+	... 27 more
+Caused by: com.android.build.api.transform.TransformException: com.android.dex.DexException: Multiple dex files define Lco/revely/gradient/BuildConfig;
+	at com.android.build.gradle.internal.transforms.DexMergerTransform.transform(DexMergerTransform.java:230)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:222)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:218)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:102)
+	... 39 more
+Caused by: com.android.dex.DexException: Multiple dex files define Lco/revely/gradient/BuildConfig;
+	at com.android.dx.merge.DexMerger.readSortableTypes(DexMerger.java:661)
+	at com.android.dx.merge.DexMerger.getSortedTypes(DexMerger.java:616)
+	at com.android.dx.merge.DexMerger.mergeClassDefs(DexMerger.java:598)
+	at com.android.dx.merge.DexMerger.mergeDexes(DexMerger.java:171)
+	at com.android.dx.merge.DexMerger.merge(DexMerger.java:198)
+	at com.android.builder.dexing.DexArchiveMergerCallable.call(DexArchiveMergerCallable.java:61)
+	at com.android.builder.dexing.DexArchiveMergerCallable.call(DexArchiveMergerCallable.java:36)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s
+36 actionable tasks: 1 executed, 35 up-to-date
+
+2018-09-01 22:04:58,429 ERROR FullProcessService - Project build has not produced APK file
+2018-09-01 22:04:58,519 ERROR FullProcessService - Could not find generated or existed APK file

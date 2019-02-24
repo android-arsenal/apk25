@@ -1,0 +1,245 @@
+2018-11-16 14:59:22,582 INFO  DownloadService - Downloading "https://github.com/ThanosFisherman/MayI/archive/master.zip", attempt 3
+2018-11-16 14:59:26,757 INFO  DownloadService - Downloaded https://github.com/ThanosFisherman/MayI/archive/master.zip, attempt 3
+2018-11-16 14:59:26,757 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/master.zip": 869 KB
+2018-11-16 14:59:26,757 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-16 14:59:26,763 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/master.zip: true
+2018-11-16 14:59:26,763 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src'.
+2018-11-16 14:59:26,794 INFO  FullProcessService - Size of directory with sources: 919 KB
+2018-11-16 14:59:26,794 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src]
+2018-11-16 14:59:26,810 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/.git/
+
+2018-11-16 14:59:26,814 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/gradlew
+2018-11-16 14:59:26,817 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/mayi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/build.gradle
+2018-11-16 14:59:26,820 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/mayi/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/mayi/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/mayi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/settings.gradle
+2018-11-16 14:59:26,821 INFO  ProjectBuildService - Remote scripts: none
+2018-11-16 14:59:26,821 INFO  ProjectFixService - Fixing project...
+2018-11-16 14:59:26,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/mayi/local.properties
+2018-11-16 14:59:26,832 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/mayi/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-16 14:59:26,832 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/sample/local.properties
+2018-11-16 14:59:26,835 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-16 14:59:26,835 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/local.properties
+2018-11-16 14:59:26,836 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-11-16 14:59:26,836 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-11-16 14:59:26,836 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-16 14:59:26,836 INFO  ProjectFixService - Project was maybe fixed
+2018-11-16 14:59:26,837 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 14:59:26,837 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/mayi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 14:59:32,869 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-11-16 14:59:32,869 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-16 14:59:32,870 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/mayi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-16 14:59:50,336 INFO  SysUtils - Configuration on demand is an incubating feature.
+:mayi:preBuild UP-TO-DATE
+:mayi:preDebugBuild UP-TO-DATE
+:mayi:compileDebugAidl NO-SOURCE
+:mayi:compileDebugRenderscript
+:mayi:checkDebugManifest
+:mayi:generateDebugBuildConfig
+:mayi:generateDebugResValues
+:mayi:generateDebugResources
+:mayi:packageDebugResources
+:mayi:processDebugManifest
+:mayi:generateDebugRFile
+:mayi:compileDebugKotlin
+:mayi:prepareLintJar
+:mayi:generateDebugSources
+:mayi:javaPreCompileDebug
+:mayi:compileDebugJavaWithJavac
+:mayi:extractDebugAnnotations
+:mayi:mergeDebugConsumerProguardFiles
+:mayi:mergeDebugShaders
+:mayi:compileDebugShaders
+:mayi:generateDebugAssets
+:mayi:packageDebugAssets
+:mayi:packageDebugRenderscript NO-SOURCE
+:mayi:processDebugJavaRes NO-SOURCE
+:mayi:transformResourcesWithMergeJavaResForDebug
+:mayi:transformClassesAndResourcesWithSyncLibJarsForDebug
+:mayi:compileDebugNdk NO-SOURCE
+:mayi:mergeDebugJniLibFolders
+:mayi:transformNativeLibsWithMergeJniLibsForDebug
+:mayi:transformNativeLibsWithStripDebugSymbolForDebug
+:mayi:transformNativeLibsWithSyncJniLibsForDebug
+:mayi:bundleDebugAar
+:mayi:compileDebugSources
+:mayi:assembleDebug
+:mayi:preReleaseBuild UP-TO-DATE
+:mayi:compileReleaseAidl NO-SOURCE
+:mayi:compileReleaseRenderscript
+:mayi:checkReleaseManifest
+:mayi:generateReleaseBuildConfig
+:mayi:generateReleaseResValues
+:mayi:generateReleaseResources
+:mayi:packageReleaseResources
+:mayi:processReleaseManifest
+:mayi:generateReleaseRFile
+:mayi:compileReleaseKotlin
+:mayi:generateReleaseSources
+:mayi:javaPreCompileRelease
+:mayi:compileReleaseJavaWithJavac
+:mayi:extractReleaseAnnotations
+:mayi:mergeReleaseConsumerProguardFiles
+:mayi:mergeReleaseShaders
+:mayi:compileReleaseShaders
+:mayi:generateReleaseAssets
+:mayi:packageReleaseAssets
+:mayi:packageReleaseRenderscript NO-SOURCE
+:mayi:processReleaseJavaRes NO-SOURCE
+:mayi:transformResourcesWithMergeJavaResForRelease
+:mayi:transformClassesAndResourcesWithSyncLibJarsForRelease
+:mayi:compileReleaseNdk NO-SOURCE
+:mayi:mergeReleaseJniLibFolders
+:mayi:transformNativeLibsWithMergeJniLibsForRelease
+:mayi:transformNativeLibsWithStripDebugSymbolForRelease
+:mayi:transformNativeLibsWithSyncJniLibsForRelease
+:mayi:bundleReleaseAar
+:mayi:compileReleaseSources
+:mayi:mergeReleaseResources
+:mayi:verifyReleaseResources
+:mayi:assembleRelease
+:mayi:assemble
+:mayi:build
+
+BUILD SUCCESSFUL in 16s
+47 actionable tasks: 47 executed
+
+2018-11-16 14:59:50,352 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 14:59:50,352 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 14:59:55,996 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-11-16 14:59:55,996 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-16 14:59:55,996 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-16 15:00:26,011 INFO  SysUtils - Configuration on demand is an incubating feature.
+:mayi:preBuild UP-TO-DATE
+:mayi:preDebugBuild UP-TO-DATE
+:mayi:compileDebugAidl NO-SOURCE
+:mayi:compileDebugRenderscript UP-TO-DATE
+:mayi:checkDebugManifest UP-TO-DATE
+:mayi:generateDebugBuildConfig UP-TO-DATE
+:mayi:generateDebugResValues UP-TO-DATE
+:mayi:generateDebugResources UP-TO-DATE
+:mayi:packageDebugResources UP-TO-DATE
+:mayi:processDebugManifest UP-TO-DATE
+:mayi:generateDebugRFile UP-TO-DATE
+:mayi:compileDebugKotlin UP-TO-DATE
+:mayi:prepareLintJar UP-TO-DATE
+:mayi:generateDebugSources UP-TO-DATE
+:mayi:javaPreCompileDebug UP-TO-DATE
+:mayi:compileDebugJavaWithJavac UP-TO-DATE
+:mayi:processDebugJavaRes NO-SOURCE
+:mayi:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:checkDebugClasspath
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl NO-SOURCE
+:mayi:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:compileDebugKotlin
+:sample:prepareLintJar
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:mayi:mergeDebugShaders UP-TO-DATE
+:mayi:compileDebugShaders UP-TO-DATE
+:mayi:generateDebugAssets UP-TO-DATE
+:mayi:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:mayi:compileDebugNdk NO-SOURCE
+:mayi:mergeDebugJniLibFolders UP-TO-DATE
+:mayi:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:mayi:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:mayi:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:mayi:preReleaseBuild UP-TO-DATE
+:mayi:compileReleaseAidl NO-SOURCE
+:mayi:compileReleaseRenderscript UP-TO-DATE
+:mayi:checkReleaseManifest UP-TO-DATE
+:mayi:generateReleaseBuildConfig UP-TO-DATE
+:mayi:generateReleaseResValues UP-TO-DATE
+:mayi:generateReleaseResources UP-TO-DATE
+:mayi:packageReleaseResources UP-TO-DATE
+:mayi:processReleaseManifest UP-TO-DATE
+:mayi:generateReleaseRFile UP-TO-DATE
+:mayi:compileReleaseKotlin UP-TO-DATE
+:mayi:generateReleaseSources UP-TO-DATE
+:mayi:javaPreCompileRelease UP-TO-DATE
+:mayi:compileReleaseJavaWithJavac UP-TO-DATE
+:mayi:processReleaseJavaRes NO-SOURCE
+:mayi:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:checkReleaseClasspath
+:sample:preReleaseBuild
+:sample:compileReleaseAidl NO-SOURCE
+:mayi:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:compileReleaseKotlin
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:mayi:mergeReleaseShaders UP-TO-DATE
+:mayi:compileReleaseShaders UP-TO-DATE
+:mayi:generateReleaseAssets UP-TO-DATE
+:mayi:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:mayi:compileReleaseNdk NO-SOURCE
+:mayi:mergeReleaseJniLibFolders UP-TO-DATE
+:mayi:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:mayi:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:mayi:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 29s
+94 actionable tasks: 61 executed, 33 up-to-date
+
+2018-11-16 15:00:26,094 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542355162573-0/src/MayI-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

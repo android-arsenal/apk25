@@ -1,0 +1,121 @@
+2018-11-02 14:42:23,987 INFO  DownloadService - Downloading "https://github.com/DroidsOnRoids/jspoon/archive/master.zip", attempt 3
+2018-11-02 14:42:26,371 INFO  DownloadService - Downloaded https://github.com/DroidsOnRoids/jspoon/archive/master.zip, attempt 3
+2018-11-02 14:42:26,371 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/master.zip": 187 KB
+2018-11-02 14:42:26,371 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-02 14:42:26,377 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/master.zip: true
+2018-11-02 14:42:26,377 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src'.
+2018-11-02 14:42:26,409 INFO  FullProcessService - Size of directory with sources: 249 KB
+2018-11-02 14:42:26,409 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src]
+2018-11-02 14:42:26,433 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/.git/
+
+2018-11-02 14:42:26,437 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/gradlew
+2018-11-02 14:42:26,442 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/android-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/advanced-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/jspoon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/retrofit-converter-jspoon/build.gradle
+2018-11-02 14:42:26,446 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/advanced-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/jspoon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/retrofit-converter-jspoon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/android-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/settings.gradle
+2018-11-02 14:42:26,447 INFO  ProjectBuildService - Remote scripts: none
+2018-11-02 14:42:26,447 INFO  ProjectFixService - Fixing project...
+2018-11-02 14:42:26,458 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/android-example/local.properties
+2018-11-02 14:42:26,461 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/android-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-11-02 14:42:26,461 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/android-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-11-02 14:42:26,462 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/local.properties
+2018-11-02 14:42:26,462 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4.1-all.zip
+2018-11-02 14:42:26,462 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4.1-bin.zip)
+2018-11-02 14:42:26,466 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-11-02 14:42:26,466 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-11-02 14:42:26,466 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/advanced-example/local.properties
+2018-11-02 14:42:26,469 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/advanced-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-11-02 14:42:26,469 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/advanced-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-11-02 14:42:26,470 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/jspoon/local.properties
+2018-11-02 14:42:26,473 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/jspoon/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-11-02 14:42:26,473 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/jspoon/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-11-02 14:42:26,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/retrofit-converter-jspoon/local.properties
+2018-11-02 14:42:26,478 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/retrofit-converter-jspoon/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-11-02 14:42:26,478 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/retrofit-converter-jspoon/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-11-02 14:42:26,479 INFO  ProjectFixService - Project was maybe fixed
+2018-11-02 14:42:26,479 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-02 14:42:26,479 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/android-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-02 14:42:33,587 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-11-02 14:42:33,587 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-02 14:42:33,587 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/android-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-02 14:43:01,081 INFO  SysUtils - Configuration on demand is an incubating feature.
+:android-example:preBuild UP-TO-DATE
+:android-example:preDebugBuild
+:android-example:compileDebugAidl
+:android-example:compileDebugRenderscript
+:android-example:checkDebugManifest
+:android-example:generateDebugBuildConfig
+:android-example:prepareLintJar
+:android-example:mainApkListPersistenceDebug
+:android-example:generateDebugResValues
+:android-example:generateDebugResources
+:android-example:mergeDebugResources
+:android-example:createDebugCompatibleScreenManifests
+:android-example:processDebugManifest
+:android-example:splitsDiscoveryTaskDebug
+:android-example:processDebugResources
+:android-example:generateDebugSources
+:jspoon:compileJava
+Download https://jcenter.bintray.com/org/jetbrains/annotations/16.0.2/annotations-16.0.2.jar
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+:jspoon:processResources NO-SOURCE
+:jspoon:classes
+:jspoon:jar
+:android-example:javaPreCompileDebug
+:android-example:compileDebugJavaWithJavac
+:android-example:compileDebugNdk NO-SOURCE
+:android-example:compileDebugSources
+:android-example:mergeDebugShaders
+:android-example:compileDebugShaders
+:android-example:generateDebugAssets
+:android-example:mergeDebugAssets
+:android-example:transformClassesWithDexBuilderForDebug
+:android-example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:android-example:transformDexArchiveWithDexMergerForDebug
+:android-example:mergeDebugJniLibFolders
+:android-example:transformNativeLibsWithMergeJniLibsForDebug
+:android-example:transformNativeLibsWithStripDebugSymbolForDebug
+:android-example:processDebugJavaRes NO-SOURCE
+:android-example:transformResourcesWithMergeJavaResForDebug
+:android-example:validateSigningDebug
+:android-example:packageDebug
+:android-example:assembleDebug
+:android-example:preReleaseBuild
+:android-example:compileReleaseAidl
+:android-example:compileReleaseRenderscript
+:android-example:checkReleaseManifest
+:android-example:generateReleaseBuildConfig
+:android-example:mainApkListPersistenceRelease
+:android-example:generateReleaseResValues
+:android-example:generateReleaseResources
+:android-example:mergeReleaseResources
+:android-example:createReleaseCompatibleScreenManifests
+:android-example:processReleaseManifest
+:android-example:splitsDiscoveryTaskRelease
+:android-example:processReleaseResources
+:android-example:generateReleaseSources
+:android-example:javaPreCompileRelease
+:android-example:compileReleaseJavaWithJavac
+:android-example:compileReleaseNdk NO-SOURCE
+:android-example:compileReleaseSources
+:android-example:lintVitalRelease
+:android-example:mergeReleaseShaders
+:android-example:compileReleaseShaders
+:android-example:generateReleaseAssets
+:android-example:mergeReleaseAssets
+:android-example:transformClassesWithDexBuilderForRelease
+:android-example:transformDexArchiveWithExternalLibsDexMergerForRelease
+:android-example:transformDexArchiveWithDexMergerForRelease
+:android-example:mergeReleaseJniLibFolders
+:android-example:transformNativeLibsWithMergeJniLibsForRelease
+:android-example:transformNativeLibsWithStripDebugSymbolForRelease
+:android-example:processReleaseJavaRes NO-SOURCE
+:android-example:transformResourcesWithMergeJavaResForRelease
+:android-example:packageRelease
+:android-example:assembleRelease
+:android-example:assemble
+:android-example:build
+
+BUILD SUCCESSFUL in 26s
+55 actionable tasks: 55 executed
+
+2018-11-02 14:43:01,154 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144543983-0/src/jspoon-master/android-example/build/outputs/apk/release/android-example-release-unsigned.apk

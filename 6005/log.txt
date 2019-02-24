@@ -1,0 +1,233 @@
+2018-09-02 22:18:53,350 INFO  DownloadService - Downloading "https://github.com/nileshpambhar/MultiPhotoPicker/archive/master.zip", attempt 3
+2018-09-02 22:19:54,139 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-02 22:19:55,045 INFO  GithubDownloadService - Default branch of this repository: master
+2018-09-02 22:19:55,046 INFO  DownloadService - Downloading "https://github.com/nileshpambhar/MultiPhotoPicker/archive/master.zip", attempt 3
+2018-09-02 22:20:56,624 DEBUG FullProcessService - Repository https://github.com/nileshpambhar/MultiPhotoPicker available: true
+2018-09-02 22:20:56,624 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-02 22:20:56,624 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/nileshpambhar/MultiPhotoPicker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src]
+2018-09-02 22:20:59,653 INFO  SysUtils - 
+2018-09-02 22:20:59,696 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/.git": true
+2018-09-02 22:20:59,699 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-09-02 22:20:59,700 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src]
+2018-09-02 22:20:59,717 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/.git/
+
+2018-09-02 22:20:59,720 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/gradlew
+2018-09-02 22:20:59,723 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/multiphotopicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/build.gradle
+2018-09-02 22:20:59,726 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/multiphotopicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/settings.gradle
+2018-09-02 22:20:59,726 INFO  ProjectBuildService - Remote scripts: none
+2018-09-02 22:20:59,726 INFO  ProjectFixService - Fixing project...
+2018-09-02 22:20:59,733 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/multiphotopicker/local.properties
+2018-09-02 22:20:59,734 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/multiphotopicker/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-02 22:20:59,734 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/local.properties
+2018-09-02 22:20:59,735 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-02 22:20:59,735 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-02 22:20:59,735 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-02 22:20:59,735 INFO  ProjectFixService - Project was maybe fixed
+2018-09-02 22:20:59,735 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 22:20:59,736 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/multiphotopicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 22:21:07,379 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-02 22:21:07,380 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-02 22:21:07,380 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/multiphotopicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-02 22:21:20,847 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:multiphotopicker:preBuild UP-TO-DATE
+:multiphotopicker:preDebugBuild UP-TO-DATE
+:multiphotopicker:checkDebugManifest
+:multiphotopicker:preDebugAndroidTestBuild UP-TO-DATE
+:multiphotopicker:preDebugUnitTestBuild UP-TO-DATE
+:multiphotopicker:preReleaseBuild UP-TO-DATE
+:multiphotopicker:preReleaseUnitTestBuild UP-TO-DATE
+:multiphotopicker:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:multiphotopicker:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:multiphotopicker:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:multiphotopicker:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:multiphotopicker:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:multiphotopicker:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:multiphotopicker:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:multiphotopicker:prepareComAndroidSupportSupportV42600Alpha1Library
+:multiphotopicker:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:multiphotopicker:prepareDebugDependencies
+:multiphotopicker:compileDebugAidl
+:multiphotopicker:compileDebugNdk UP-TO-DATE
+:multiphotopicker:compileLint
+:multiphotopicker:copyDebugLint UP-TO-DATE
+:multiphotopicker:compileDebugRenderscript
+:multiphotopicker:generateDebugBuildConfig
+:multiphotopicker:generateDebugResValues
+:multiphotopicker:generateDebugResources
+:multiphotopicker:mergeDebugResources
+:multiphotopicker:processDebugManifest
+:multiphotopicker:processDebugResources
+:multiphotopicker:generateDebugSources
+:multiphotopicker:incrementalDebugJavaCompilationSafeguard
+:multiphotopicker:javaPreCompileDebug
+:multiphotopicker:compileDebugJavaWithJavac
+:multiphotopicker:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/multiphotopicker/src/main/java/com/nileshp/multiphotopicker/photopicker/activity/PickImageActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:multiphotopicker:extractDebugAnnotations
+:multiphotopicker:mergeDebugShaders
+:multiphotopicker:compileDebugShaders
+:multiphotopicker:generateDebugAssets
+:multiphotopicker:mergeDebugAssets
+:multiphotopicker:mergeDebugProguardFiles
+:multiphotopicker:packageDebugRenderscript UP-TO-DATE
+:multiphotopicker:packageDebugResources
+:multiphotopicker:processDebugJavaRes UP-TO-DATE
+:multiphotopicker:transformResourcesWithMergeJavaResForDebug
+:multiphotopicker:transformClassesAndResourcesWithSyncLibJarsForDebug
+:multiphotopicker:mergeDebugJniLibFolders
+:multiphotopicker:transformNativeLibsWithMergeJniLibsForDebug
+:multiphotopicker:transformNativeLibsWithStripDebugSymbolForDebug
+:multiphotopicker:transformNativeLibsWithSyncJniLibsForDebug
+:multiphotopicker:bundleDebug
+:multiphotopicker:compileDebugSources
+:multiphotopicker:assembleDebug
+:multiphotopicker:checkReleaseManifest
+:multiphotopicker:prepareReleaseDependencies
+:multiphotopicker:compileReleaseAidl
+:multiphotopicker:compileReleaseNdk UP-TO-DATE
+:multiphotopicker:copyReleaseLint UP-TO-DATE
+:multiphotopicker:compileReleaseRenderscript
+:multiphotopicker:generateReleaseBuildConfig
+:multiphotopicker:generateReleaseResValues
+:multiphotopicker:generateReleaseResources
+:multiphotopicker:mergeReleaseResources
+:multiphotopicker:processReleaseManifest
+:multiphotopicker:processReleaseResources
+:multiphotopicker:generateReleaseSources
+:multiphotopicker:incrementalReleaseJavaCompilationSafeguard
+:multiphotopicker:javaPreCompileRelease
+:multiphotopicker:compileReleaseJavaWithJavac
+:multiphotopicker:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/multiphotopicker/src/main/java/com/nileshp/multiphotopicker/photopicker/activity/PickImageActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:multiphotopicker:extractReleaseAnnotations
+:multiphotopicker:mergeReleaseShaders
+:multiphotopicker:compileReleaseShaders
+:multiphotopicker:generateReleaseAssets
+:multiphotopicker:mergeReleaseAssets
+:multiphotopicker:mergeReleaseProguardFiles
+:multiphotopicker:packageReleaseRenderscript UP-TO-DATE
+:multiphotopicker:packageReleaseResources
+:multiphotopicker:processReleaseJavaRes UP-TO-DATE
+:multiphotopicker:transformResourcesWithMergeJavaResForRelease
+:multiphotopicker:transformClassesAndResourcesWithSyncLibJarsForRelease
+:multiphotopicker:mergeReleaseJniLibFolders
+:multiphotopicker:transformNativeLibsWithMergeJniLibsForRelease
+:multiphotopicker:transformNativeLibsWithStripDebugSymbolForRelease
+:multiphotopicker:transformNativeLibsWithSyncJniLibsForRelease
+:multiphotopicker:bundleRelease
+:multiphotopicker:compileReleaseSources
+:multiphotopicker:assembleRelease
+:multiphotopicker:assemble
+:multiphotopicker:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.8 secs
+
+2018-09-02 22:21:20,913 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 22:21:20,913 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 22:21:27,690 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-02 22:21:27,690 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-02 22:21:27,690 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535901533343-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-02 22:21:34,825 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:multiphotopicker:preBuild UP-TO-DATE
+:multiphotopicker:preDebugBuild UP-TO-DATE
+:multiphotopicker:checkDebugManifest
+:multiphotopicker:preDebugAndroidTestBuild UP-TO-DATE
+:multiphotopicker:preDebugUnitTestBuild UP-TO-DATE
+:multiphotopicker:preReleaseBuild UP-TO-DATE
+:multiphotopicker:preReleaseUnitTestBuild UP-TO-DATE
+:multiphotopicker:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:multiphotopicker:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:multiphotopicker:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:multiphotopicker:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:multiphotopicker:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:multiphotopicker:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:multiphotopicker:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:multiphotopicker:prepareComAndroidSupportSupportV42600Alpha1Library
+:multiphotopicker:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:multiphotopicker:prepareDebugDependencies
+:multiphotopicker:compileDebugAidl UP-TO-DATE
+:multiphotopicker:compileDebugNdk UP-TO-DATE
+:multiphotopicker:compileLint UP-TO-DATE
+:multiphotopicker:copyDebugLint UP-TO-DATE
+:multiphotopicker:compileDebugRenderscript UP-TO-DATE
+:multiphotopicker:generateDebugBuildConfig UP-TO-DATE
+:multiphotopicker:generateDebugResValues UP-TO-DATE
+:multiphotopicker:generateDebugResources UP-TO-DATE
+:multiphotopicker:mergeDebugResources UP-TO-DATE
+:multiphotopicker:processDebugManifest UP-TO-DATE
+:multiphotopicker:processDebugResources UP-TO-DATE
+:multiphotopicker:generateDebugSources UP-TO-DATE
+:multiphotopicker:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:multiphotopicker:javaPreCompileDebug
+:multiphotopicker:compileDebugJavaWithJavac UP-TO-DATE
+:multiphotopicker:extractDebugAnnotations UP-TO-DATE
+:multiphotopicker:mergeDebugShaders UP-TO-DATE
+:multiphotopicker:compileDebugShaders UP-TO-DATE
+:multiphotopicker:generateDebugAssets UP-TO-DATE
+:multiphotopicker:mergeDebugAssets UP-TO-DATE
+:multiphotopicker:mergeDebugProguardFiles UP-TO-DATE
+:multiphotopicker:packageDebugRenderscript UP-TO-DATE
+:multiphotopicker:packageDebugResources UP-TO-DATE
+:multiphotopicker:processDebugJavaRes UP-TO-DATE
+:multiphotopicker:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:multiphotopicker:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:multiphotopicker:mergeDebugJniLibFolders UP-TO-DATE
+:multiphotopicker:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:multiphotopicker:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:multiphotopicker:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:multiphotopicker:bundleDebug UP-TO-DATE
+:multiphotopicker:compileDebugSources UP-TO-DATE
+:multiphotopicker:assembleDebug UP-TO-DATE
+:multiphotopicker:checkReleaseManifest
+:multiphotopicker:prepareReleaseDependencies
+:multiphotopicker:compileReleaseAidl UP-TO-DATE
+:multiphotopicker:compileReleaseNdk UP-TO-DATE
+:multiphotopicker:copyReleaseLint UP-TO-DATE
+:multiphotopicker:compileReleaseRenderscript UP-TO-DATE
+:multiphotopicker:generateReleaseBuildConfig UP-TO-DATE
+:multiphotopicker:generateReleaseResValues UP-TO-DATE
+:multiphotopicker:generateReleaseResources UP-TO-DATE
+:multiphotopicker:mergeReleaseResources UP-TO-DATE
+:multiphotopicker:processReleaseManifest UP-TO-DATE
+:multiphotopicker:processReleaseResources UP-TO-DATE
+:multiphotopicker:generateReleaseSources UP-TO-DATE
+:multiphotopicker:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:multiphotopicker:javaPreCompileRelease
+:multiphotopicker:compileReleaseJavaWithJavac UP-TO-DATE
+:multiphotopicker:extractReleaseAnnotations UP-TO-DATE
+:multiphotopicker:mergeReleaseShaders UP-TO-DATE
+:multiphotopicker:compileReleaseShaders UP-TO-DATE
+:multiphotopicker:generateReleaseAssets UP-TO-DATE
+:multiphotopicker:mergeReleaseAssets UP-TO-DATE
+:multiphotopicker:mergeReleaseProguardFiles UP-TO-DATE
+:multiphotopicker:packageReleaseRenderscript UP-TO-DATE
+:multiphotopicker:packageReleaseResources UP-TO-DATE
+:multiphotopicker:processReleaseJavaRes UP-TO-DATE
+:multiphotopicker:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:multiphotopicker:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:multiphotopicker:mergeReleaseJniLibFolders UP-TO-DATE
+:multiphotopicker:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:multiphotopicker:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:multiphotopicker:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:multiphotopicker:bundleRelease UP-TO-DATE
+:multiphotopicker:compileReleaseSources UP-TO-DATE
+:multiphotopicker:assembleRelease UP-TO-DATE
+:multiphotopicker:assemble UP-TO-DATE
+:multiphotopicker:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.885 secs
+
+2018-09-02 22:21:34,883 ERROR FullProcessService - Project build has not produced APK file
+2018-09-02 22:21:34,938 ERROR FullProcessService - Could not find generated or existed APK file

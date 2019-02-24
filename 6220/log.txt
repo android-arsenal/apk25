@@ -1,0 +1,365 @@
+2018-09-01 22:20:16,972 INFO  DownloadService - Downloading "https://github.com/alexfacciorusso/DaggerViewModel/archive/master.zip", attempt 3
+2018-09-01 22:20:19,257 INFO  DownloadService - Downloaded https://github.com/alexfacciorusso/DaggerViewModel/archive/master.zip, attempt 3
+2018-09-01 22:20:19,257 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/master.zip": 202 KB
+2018-09-01 22:20:19,257 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 22:20:19,262 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/master.zip: true
+2018-09-01 22:20:19,263 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src'.
+2018-09-01 22:20:19,288 INFO  FullProcessService - Size of directory with sources: 217 KB
+2018-09-01 22:20:19,288 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src]
+2018-09-01 22:20:19,304 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/.git/
+
+2018-09-01 22:20:19,307 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/gradlew
+2018-09-01 22:20:19,311 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/daggerviewmodel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/build.gradle
+2018-09-01 22:20:19,313 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/daggerviewmodel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/settings.gradle
+2018-09-01 22:20:19,314 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2018-09-01 22:21:19,315 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-01 22:21:19,315 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2018-09-01 22:22:19,316 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-01 22:22:19,317 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 22:22:19,317 INFO  ProjectFixService - Fixing project...
+2018-09-01 22:22:19,327 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/daggerviewmodel/local.properties
+2018-09-01 22:22:19,328 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/daggerviewmodel/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-01 22:22:19,328 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/sample/local.properties
+2018-09-01 22:22:19,329 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/sample/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-01 22:22:19,329 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/local.properties
+2018-09-01 22:22:19,329 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-01 22:22:19,330 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-01 22:22:19,330 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-01 22:22:19,331 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 22:22:19,331 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 22:22:19,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/daggerviewmodel/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 22:22:29,017 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-09-01 22:22:29,017 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-01 22:22:29,018 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/daggerviewmodel/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-01 22:22:49,633 INFO  SysUtils - Configuration on demand is an incubating feature.
+:daggerviewmodel:preBuild UP-TO-DATE
+:daggerviewmodel:preDebugBuild UP-TO-DATE
+:daggerviewmodel:compileDebugAidl
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/extensions/1.0.0-alpha9-1/extensions-1.0.0-alpha9-1.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/core/runtime/1.0.0-alpha9-1/runtime-1.0.0-alpha9-1.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/extensions/1.0.0-alpha9-1/extensions-1.0.0-alpha9-1.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/core/runtime/1.0.0-alpha9-1/runtime-1.0.0-alpha9-1.aar
+:daggerviewmodel:compileDebugNdk NO-SOURCE
+:daggerviewmodel:compileDebugRenderscript
+:daggerviewmodel:checkDebugManifest
+:daggerviewmodel:generateDebugBuildConfig
+:daggerviewmodel:generateDebugResValues
+:daggerviewmodel:generateDebugResources
+:daggerviewmodel:packageDebugResources
+:daggerviewmodel:platformAttrExtractor
+:daggerviewmodel:processDebugManifest
+:daggerviewmodel:mergeDebugShaders
+:daggerviewmodel:compileDebugShaders
+:daggerviewmodel:generateDebugAssets
+:daggerviewmodel:mergeDebugAssets
+:daggerviewmodel:mergeDebugConsumerProguardFiles
+:daggerviewmodel:packageDebugRenderscript NO-SOURCE
+:daggerviewmodel:prepareLintJar
+:daggerviewmodel:processDebugJavaRes NO-SOURCE
+:daggerviewmodel:mergeDebugJniLibFolders
+:daggerviewmodel:transformNativeLibsWithMergeJniLibsForDebug
+:daggerviewmodel:transformNativeLibsWithStripDebugSymbolForDebug
+:daggerviewmodel:transformNativeLibsWithSyncJniLibsForDebug
+:daggerviewmodel:preReleaseBuild UP-TO-DATE
+:daggerviewmodel:compileReleaseAidl
+:daggerviewmodel:compileReleaseNdk NO-SOURCE
+:daggerviewmodel:compileReleaseRenderscript
+:daggerviewmodel:checkReleaseManifest
+:daggerviewmodel:generateReleaseBuildConfig
+:daggerviewmodel:generateReleaseResValues
+:daggerviewmodel:generateReleaseResources
+:daggerviewmodel:packageReleaseResources
+:daggerviewmodel:processReleaseManifest
+:daggerviewmodel:mergeReleaseShaders
+:daggerviewmodel:compileReleaseShaders
+:daggerviewmodel:generateReleaseAssets
+:daggerviewmodel:mergeReleaseAssets
+:daggerviewmodel:mergeReleaseConsumerProguardFiles
+:daggerviewmodel:packageReleaseRenderscript NO-SOURCE
+:daggerviewmodel:processReleaseJavaRes NO-SOURCE
+:daggerviewmodel:mergeReleaseJniLibFolders
+:daggerviewmodel:transformNativeLibsWithMergeJniLibsForRelease
+:daggerviewmodel:transformNativeLibsWithStripDebugSymbolForRelease
+:daggerviewmodel:transformNativeLibsWithSyncJniLibsForRelease
+:daggerviewmodel:mergeReleaseResources
+:daggerviewmodel:verifyReleaseResources
+:daggerviewmodel:javadoc SKIPPED
+:daggerviewmodel:javadocJar
+:daggerviewmodel:sourcesJar
+:daggerviewmodel:processDebugResources
+:daggerviewmodel:kaptGenerateStubsDebugKotlin
+Using kotlin incremental compilation
+:daggerviewmodel:kaptDebugKotlin
+w: warning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.lifecycle.LifecycleProcessor' less than -source '1.8'
+w: 
+
+:daggerviewmodel:compileDebugKotlin
+Using kotlin incremental compilation
+:daggerviewmodel:generateDebugSources
+:daggerviewmodel:javaPreCompileDebug
+:daggerviewmodel:compileDebugJavaWithJavac
+:daggerviewmodel:extractDebugAnnotations
+:daggerviewmodel:transformResourcesWithMergeJavaResForDebug
+:daggerviewmodel:transformClassesAndResourcesWithSyncLibJarsForDebug
+:daggerviewmodel:bundleDebug
+:daggerviewmodel:compileDebugSources
+:daggerviewmodel:assembleDebug
+:daggerviewmodel:processReleaseResources
+:daggerviewmodel:kaptGenerateStubsReleaseKotlin
+Using kotlin incremental compilation
+:daggerviewmodel:kaptReleaseKotlin
+w: warning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.lifecycle.LifecycleProcessor' less than -source '1.8'
+w: 
+
+:daggerviewmodel:compileReleaseKotlin
+Using kotlin incremental compilation
+:daggerviewmodel:generateReleaseSources
+:daggerviewmodel:javaPreCompileRelease
+:daggerviewmodel:compileReleaseJavaWithJavac
+:daggerviewmodel:extractReleaseAnnotations
+:daggerviewmodel:transformResourcesWithMergeJavaResForRelease
+:daggerviewmodel:transformClassesAndResourcesWithSyncLibJarsForRelease
+:daggerviewmodel:bundleRelease
+:daggerviewmodel:compileReleaseSources
+:daggerviewmodel:assembleRelease
+:daggerviewmodel:assemble
+:daggerviewmodel:build
+
+BUILD SUCCESSFUL in 19s
+56 actionable tasks: 56 executed
+Exception in thread "Thread-24" java.lang.NoClassDefFoundError: com/android/builder/internal/aapt/v2/AaptV2Jni$TempDirCache$RecursiveDelete
+	at com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache.lambda$getCachedDirectory$0(AaptV2Jni.java:251)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache$RecursiveDelete
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 2 more
+
+2018-09-01 22:22:49,670 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 22:22:49,671 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 22:22:57,478 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-01 22:22:57,478 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-01 22:22:57,478 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-01 22:23:34,889 INFO  SysUtils - Configuration on demand is an incubating feature.
+:daggerviewmodel:preBuild UP-TO-DATE
+:daggerviewmodel:preDebugBuild UP-TO-DATE
+:daggerviewmodel:compileDebugAidl UP-TO-DATE
+:daggerviewmodel:compileDebugRenderscript UP-TO-DATE
+:daggerviewmodel:checkDebugManifest UP-TO-DATE
+:daggerviewmodel:generateDebugBuildConfig UP-TO-DATE
+:daggerviewmodel:generateDebugResValues UP-TO-DATE
+:daggerviewmodel:generateDebugResources UP-TO-DATE
+:daggerviewmodel:packageDebugResources UP-TO-DATE
+:daggerviewmodel:platformAttrExtractor UP-TO-DATE
+:daggerviewmodel:processDebugManifest UP-TO-DATE
+:daggerviewmodel:processDebugResources UP-TO-DATE
+:daggerviewmodel:kaptGenerateStubsDebugKotlin UP-TO-DATE
+:daggerviewmodel:kaptDebugKotlin UP-TO-DATE
+:daggerviewmodel:compileDebugKotlin UP-TO-DATE
+:daggerviewmodel:generateDebugSources UP-TO-DATE
+:daggerviewmodel:javaPreCompileDebug UP-TO-DATE
+:daggerviewmodel:compileDebugJavaWithJavac UP-TO-DATE
+:daggerviewmodel:processDebugJavaRes NO-SOURCE
+:daggerviewmodel:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl
+:daggerviewmodel:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:kaptGenerateStubsDebugKotlin
+Using kotlin incremental compilation
+:sample:kaptDebugKotlin
+w: warning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.lifecycle.LifecycleProcessor' less than -source '1.8'
+w: 
+
+:sample:compileDebugKotlin
+Using kotlin incremental compilation
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:daggerviewmodel:mergeDebugShaders UP-TO-DATE
+:daggerviewmodel:compileDebugShaders UP-TO-DATE
+:daggerviewmodel:generateDebugAssets UP-TO-DATE
+:daggerviewmodel:mergeDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:daggerviewmodel:compileDebugNdk NO-SOURCE
+:daggerviewmodel:mergeDebugJniLibFolders UP-TO-DATE
+:daggerviewmodel:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:daggerviewmodel:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:daggerviewmodel:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:daggerviewmodel:preReleaseBuild UP-TO-DATE
+:daggerviewmodel:compileReleaseAidl UP-TO-DATE
+:daggerviewmodel:compileReleaseRenderscript UP-TO-DATE
+:daggerviewmodel:checkReleaseManifest UP-TO-DATE
+:daggerviewmodel:generateReleaseBuildConfig UP-TO-DATE
+:daggerviewmodel:generateReleaseResValues UP-TO-DATE
+:daggerviewmodel:generateReleaseResources UP-TO-DATE
+:daggerviewmodel:packageReleaseResources UP-TO-DATE
+:daggerviewmodel:processReleaseManifest UP-TO-DATE
+:daggerviewmodel:processReleaseResources UP-TO-DATE
+:daggerviewmodel:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+:daggerviewmodel:kaptReleaseKotlin UP-TO-DATE
+:daggerviewmodel:compileReleaseKotlin UP-TO-DATE
+:daggerviewmodel:generateReleaseSources UP-TO-DATE
+:daggerviewmodel:javaPreCompileRelease UP-TO-DATE
+:daggerviewmodel:compileReleaseJavaWithJavac UP-TO-DATE
+:daggerviewmodel:processReleaseJavaRes NO-SOURCE
+:daggerviewmodel:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:preReleaseBuild
+:sample:compileReleaseAidl
+:daggerviewmodel:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:kaptGenerateStubsReleaseKotlin
+Using kotlin incremental compilation
+:sample:kaptReleaseKotlin
+w: warning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.lifecycle.LifecycleProcessor' less than -source '1.8'
+w: 
+
+:sample:compileReleaseKotlin
+Using kotlin incremental compilation
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:daggerviewmodel:prepareLintJar UP-TO-DATE
+:daggerviewmodel:mergeReleaseShaders UP-TO-DATE
+:daggerviewmodel:compileReleaseShaders UP-TO-DATE
+:daggerviewmodel:generateReleaseAssets UP-TO-DATE
+:daggerviewmodel:mergeReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithPreDexForRelease
+:sample:transformDexWithDexForRelease
+:daggerviewmodel:compileReleaseNdk NO-SOURCE
+:daggerviewmodel:mergeReleaseJniLibFolders UP-TO-DATE
+:daggerviewmodel:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:daggerviewmodel:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:daggerviewmodel:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:prepareLintJar
+:sample:lintVitalRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 36s
+100 actionable tasks: 60 executed, 40 up-to-date
+Exception in thread "Thread-23" java.lang.NoClassDefFoundError: com/android/builder/internal/aapt/v2/AaptV2Jni$TempDirCache$RecursiveDelete
+	at com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache.lambda$getCachedDirectory$0(AaptV2Jni.java:251)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache$RecursiveDelete
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 2 more
+
+2018-09-01 22:23:34,992 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535815216968-0/src/DaggerViewModel-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

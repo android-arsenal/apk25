@@ -1,0 +1,412 @@
+2018-09-02 21:59:12,461 INFO  DownloadService - Downloading "https://github.com/Ekalips/Bapter/archive/master.zip", attempt 3
+2018-09-02 21:59:14,544 INFO  DownloadService - Downloaded https://github.com/Ekalips/Bapter/archive/master.zip, attempt 3
+2018-09-02 21:59:14,545 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/master.zip": 164 KB
+2018-09-02 21:59:14,545 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-02 21:59:14,550 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/master.zip: true
+2018-09-02 21:59:14,551 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src'.
+2018-09-02 21:59:14,587 INFO  FullProcessService - Size of directory with sources: 194 KB
+2018-09-02 21:59:14,587 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src]
+2018-09-02 21:59:14,613 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/.git/
+
+2018-09-02 21:59:14,618 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/gradlew
+2018-09-02 21:59:14,624 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/adapter-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/adapter-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/tools/build.gradle
+2018-09-02 21:59:14,631 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/adapter-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/tools/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/adapter-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build.gradle
+2018-09-02 21:59:14,632 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2018-09-02 21:59:14,740 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2018-09-02 21:59:14,740 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2018-09-02 21:59:14,846 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2018-09-02 21:59:14,846 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2018-09-02 21:59:14,846 INFO  ProjectFixService - Fixing project...
+2018-09-02 21:59:14,857 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/local.properties
+2018-09-02 21:59:14,857 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2018-09-02 21:59:14,858 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/local.properties
+2018-09-02 21:59:14,858 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-02 21:59:14,859 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-02 21:59:14,861 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2018-09-02 21:59:14,862 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/adapter-annotation/local.properties
+2018-09-02 21:59:14,865 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/adapter-annotation/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2018-09-02 21:59:14,865 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/adapter-processor/local.properties
+2018-09-02 21:59:14,868 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/adapter-processor/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2018-09-02 21:59:14,869 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/tools/local.properties
+2018-09-02 21:59:14,872 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/tools/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2018-09-02 21:59:14,872 INFO  ProjectFixService - Project was maybe fixed
+2018-09-02 21:59:14,872 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 21:59:14,872 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 21:59:39,746 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-09-02 21:59:39,746 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-02 21:59:39,746 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-02 21:59:45,934 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-02 21:59:45,934 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':annotationbindingrecyclerview'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':annotationbindingrecyclerview'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:185)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:182)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+BUILD FAILED
+
+Total time: 5.889 secs
+
+2018-09-02 21:59:45,934 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-09-02 21:59:45,935 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-09-02 22:00:15,580 INFO  SysUtils - Configuration on demand is an incubating feature.
+:annotationbindingrecyclerview:preBuild UP-TO-DATE
+:annotationbindingrecyclerview:preDebugBuild UP-TO-DATE
+:annotationbindingrecyclerview:checkDebugManifest
+:annotationbindingrecyclerview:extractProguardFiles
+:annotationbindingrecyclerview:preReleaseBuild
+:annotationbindingrecyclerview:prepareComAndroidDatabindingAdapters131Library
+:annotationbindingrecyclerview:prepareComAndroidDatabindingLibrary131Library
+:annotationbindingrecyclerview:prepareComAndroidSupportAnimatedVectorDrawable2600Library
+:annotationbindingrecyclerview:prepareComAndroidSupportAppcompatV72600Library
+:annotationbindingrecyclerview:prepareComAndroidSupportConstraintConstraintLayout102Library
+:annotationbindingrecyclerview:prepareComAndroidSupportRecyclerviewV72600Library
+:annotationbindingrecyclerview:prepareComAndroidSupportSupportCompat2600Library
+:annotationbindingrecyclerview:prepareComAndroidSupportSupportCoreUi2600Library
+:annotationbindingrecyclerview:prepareComAndroidSupportSupportCoreUtils2600Library
+:annotationbindingrecyclerview:prepareComAndroidSupportSupportFragment2600Library
+:annotationbindingrecyclerview:prepareComAndroidSupportSupportMediaCompat2600Library
+:annotationbindingrecyclerview:prepareComAndroidSupportSupportV42600Library
+:annotationbindingrecyclerview:prepareComAndroidSupportSupportVectorDrawable2600Library
+:annotationbindingrecyclerview:prepareDebugDependencies
+:annotationbindingrecyclerview:compileDebugRenderscript
+:annotationbindingrecyclerview:generateDebugResValues
+:annotationbindingrecyclerview:generateDebugResources
+:annotationbindingrecyclerview:mergeDebugResources
+:annotationbindingrecyclerview:dataBindingProcessLayoutsDebug
+:annotationbindingrecyclerview:compileDebugAidl
+:annotationbindingrecyclerview:generateDebugBuildConfig
+:annotationbindingrecyclerview:processDebugManifest
+:annotationbindingrecyclerview:processDebugResources
+:annotationbindingrecyclerview:generateDebugSources
+:annotationbindingrecyclerview:dataBindingExportBuildInfoDebug
+:annotationbindingrecyclerview:incrementalDebugJavaCompilationSafeguard
+:annotationbindingrecyclerview:javaPreCompileDebug
+:annotationbindingrecyclerview:transformClassesAndDataBindingWithDataBindingMergeArtifactsForDebug
+:annotationbindingrecyclerview:compileDebugJavaWithJavacwarning: Start processing :  Set size: 1 env: [errorRaised=false, rootElements=[com.ekalips.annotationbindingrecyclerview.MyApp, com.ekalips.annotationbindingrecyclerview.recycler_view_stuff.TestAdapter2, com.ekalips.annotationbindingrecyclerview.recycler_view_stuff.TestAdapter, com.ekalips.annotationbindingrecyclerview.MainActivity, com.ekalips.annotationbindingrecyclerview.data.TestData, android.support.coreutils.R, android.support.v7.recyclerview.R, android.support.v7.appcompat.R, android.support.compat.R, android.support.coreui.R, android.support.v4.R, android.support.fragment.R, android.support.graphics.drawable.R, android.support.graphics.drawable.animated.R, android.support.mediacompat.R, android.support.constraint.R, com.ekalips.annotationbindingrecyclerview.R, com.android.databinding.library.baseAdapters.R, com.android.databinding.library.R, com.ekalips.annotationbindingrecyclerview.BuildConfig, android.databinding.layouts.DataBindingInfo], processingOver=false]
+warning: Generating : BindingViewHolder
+warning: Parsing: TestAdapter2 package: com.ekalips.annotationbindingrecyclerview.recycler_view_stuff
+warning: Parsing: TestAdapter package: com.ekalips.annotationbindingrecyclerview.recycler_view_stuff
+warning: Processing annotation : com.ekalips.AnnotatedAdapter@45d8fc9f
+warning: Processing annotation : com.ekalips.AnnotatedAdapter@f9ad4c9
+warning: Adding user method with name : myMethod and return type : java.lang.Void
+warning: Trying to find DataBinding path
+warning: Found file path: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/generated/source/apt/debug/android/databinding/DataBinderMapper.java
+warning: Does file exists: false
+warning: File doesn't exists or reading is performed
+warning: Does file exists: true
+warning: File exists, perform first reading
+warning: Needed string:  sKeys = new String[]{
+              "_all"
+              ,"clickAdapter"
+              ,"testData"};
+warning: Does file exists: true
+warning: File doesn't exists or reading is performed
+warning: Does file exists: true
+warning: File doesn't exists or reading is performed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/generated/source/apt/debug/com/ekalips/annotationbindingrecyclerview/recycler_view_stuff/TestAdapterGenerated.java:60: warning: [unchecked] unchecked method invocation: method addAll in interface List is applied to given types
+    this.data.addAll(data);
+                    ^
+  required: Collection<? extends E>
+  found: List
+  where E is a type-variable:
+    E extends Object declared in interface List
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/generated/source/apt/debug/com/ekalips/annotationbindingrecyclerview/recycler_view_stuff/TestAdapterGenerated.java:60: warning: [unchecked] unchecked conversion
+    this.data.addAll(data);
+                     ^
+  required: Collection<? extends E>
+  found:    List
+  where E is a type-variable:
+    E extends Object declared in interface List
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/generated/source/apt/debug/com/ekalips/annotationbindingrecyclerview/recycler_view_stuff/TestAdapter2Generated.java:50: warning: [unchecked] unchecked method invocation: method addAll in interface List is applied to given types
+    this.data.addAll(data);
+                    ^
+  required: Collection<? extends E>
+  found: List
+  where E is a type-variable:
+    E extends Object declared in interface List
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/generated/source/apt/debug/com/ekalips/annotationbindingrecyclerview/recycler_view_stuff/TestAdapter2Generated.java:50: warning: [unchecked] unchecked conversion
+    this.data.addAll(data);
+                     ^
+  required: Collection<? extends E>
+  found:    List
+  where E is a type-variable:
+    E extends Object declared in interface List
+22 warnings
+
+:annotationbindingrecyclerview:compileDebugNdk UP-TO-DATE
+:annotationbindingrecyclerview:compileDebugSources
+:annotationbindingrecyclerview:mergeDebugShaders
+:annotationbindingrecyclerview:compileDebugShaders
+:annotationbindingrecyclerview:generateDebugAssets
+:annotationbindingrecyclerview:mergeDebugAssets
+:annotationbindingrecyclerview:transformClassesWithDexForDebug
+:annotationbindingrecyclerview:mergeDebugJniLibFolders
+:annotationbindingrecyclerview:transformNativeLibsWithMergeJniLibsForDebug
+:annotationbindingrecyclerview:transformNativeLibsWithStripDebugSymbolForDebug
+:annotationbindingrecyclerview:processDebugJavaRes UP-TO-DATE
+:annotationbindingrecyclerview:transformResourcesWithMergeJavaResForDebug
+:annotationbindingrecyclerview:validateSigningDebug
+:annotationbindingrecyclerview:packageDebug
+:annotationbindingrecyclerview:assembleDebug
+:annotationbindingrecyclerview:checkReleaseManifest
+:annotationbindingrecyclerview:prepareReleaseDependencies
+:annotationbindingrecyclerview:compileReleaseRenderscript
+:annotationbindingrecyclerview:generateReleaseResValues
+:annotationbindingrecyclerview:generateReleaseResources
+:annotationbindingrecyclerview:mergeReleaseResources
+:annotationbindingrecyclerview:dataBindingProcessLayoutsRelease
+:annotationbindingrecyclerview:compileReleaseAidl
+:annotationbindingrecyclerview:generateReleaseBuildConfig
+:annotationbindingrecyclerview:processReleaseManifest
+:annotationbindingrecyclerview:processReleaseResources
+:annotationbindingrecyclerview:generateReleaseSources
+:annotationbindingrecyclerview:dataBindingExportBuildInfoRelease
+:annotationbindingrecyclerview:incrementalReleaseJavaCompilationSafeguard
+:annotationbindingrecyclerview:javaPreCompileRelease
+:annotationbindingrecyclerview:transformClassesAndDataBindingWithDataBindingMergeArtifactsForRelease
+:annotationbindingrecyclerview:compileReleaseJavaWithJavacwarning: Start processing :  Set size: 1 env: [errorRaised=false, rootElements=[com.ekalips.annotationbindingrecyclerview.MyApp, com.ekalips.annotationbindingrecyclerview.recycler_view_stuff.TestAdapter2, com.ekalips.annotationbindingrecyclerview.recycler_view_stuff.TestAdapter, com.ekalips.annotationbindingrecyclerview.MainActivity, com.ekalips.annotationbindingrecyclerview.data.TestData, android.support.coreutils.R, android.support.v7.recyclerview.R, android.support.v7.appcompat.R, android.support.compat.R, android.support.coreui.R, android.support.v4.R, android.support.fragment.R, android.support.graphics.drawable.R, android.support.graphics.drawable.animated.R, android.support.mediacompat.R, android.support.constraint.R, com.ekalips.annotationbindingrecyclerview.R, com.android.databinding.library.baseAdapters.R, com.android.databinding.library.R, com.ekalips.annotationbindingrecyclerview.BuildConfig, android.databinding.layouts.DataBindingInfo], processingOver=false]
+warning: Generating : BindingViewHolder
+warning: Parsing: TestAdapter2 package: com.ekalips.annotationbindingrecyclerview.recycler_view_stuff
+warning: Parsing: TestAdapter package: com.ekalips.annotationbindingrecyclerview.recycler_view_stuff
+warning: Processing annotation : com.ekalips.AnnotatedAdapter@6e5fa6ee
+warning: Processing annotation : com.ekalips.AnnotatedAdapter@3529912c
+warning: Adding user method with name : myMethod and return type : java.lang.Void
+warning: Trying to find DataBinding path
+warning: Found file path: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/generated/source/apt/release/android/databinding/DataBinderMapper.java
+warning: Does file exists: false
+warning: File doesn't exists or reading is performed
+warning: Does file exists: true
+warning: File exists, perform first reading
+warning: Needed string:  sKeys = new String[]{
+              "_all"
+              ,"clickAdapter"
+              ,"testData"};
+warning: Does file exists: true
+warning: File doesn't exists or reading is performed
+warning: Does file exists: true
+warning: File doesn't exists or reading is performed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/generated/source/apt/release/com/ekalips/annotationbindingrecyclerview/recycler_view_stuff/TestAdapterGenerated.java:60: warning: [unchecked] unchecked method invocation: method addAll in interface List is applied to given types
+    this.data.addAll(data);
+                    ^
+  required: Collection<? extends E>
+  found: List
+  where E is a type-variable:
+    E extends Object declared in interface List
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/generated/source/apt/release/com/ekalips/annotationbindingrecyclerview/recycler_view_stuff/TestAdapterGenerated.java:60: warning: [unchecked] unchecked conversion
+    this.data.addAll(data);
+                     ^
+  required: Collection<? extends E>
+  found:    List
+  where E is a type-variable:
+    E extends Object declared in interface List
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/generated/source/apt/release/com/ekalips/annotationbindingrecyclerview/recycler_view_stuff/TestAdapter2Generated.java:50: warning: [unchecked] unchecked method invocation: method addAll in interface List is applied to given types
+    this.data.addAll(data);
+                    ^
+  required: Collection<? extends E>
+  found: List
+  where E is a type-variable:
+    E extends Object declared in interface List
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/generated/source/apt/release/com/ekalips/annotationbindingrecyclerview/recycler_view_stuff/TestAdapter2Generated.java:50: warning: [unchecked] unchecked conversion
+    this.data.addAll(data);
+                     ^
+  required: Collection<? extends E>
+  found:    List
+  where E is a type-variable:
+    E extends Object declared in interface List
+22 warnings
+
+:annotationbindingrecyclerview:compileReleaseNdk UP-TO-DATE
+:annotationbindingrecyclerview:compileReleaseSources
+:annotationbindingrecyclerview:lintVitalRelease
+:annotationbindingrecyclerview:mergeReleaseShaders
+:annotationbindingrecyclerview:compileReleaseShaders
+:annotationbindingrecyclerview:generateReleaseAssets
+:annotationbindingrecyclerview:mergeReleaseAssets
+:annotationbindingrecyclerview:processReleaseJavaRes UP-TO-DATE
+:annotationbindingrecyclerview:transformResourcesWithMergeJavaResForRelease
+:annotationbindingrecyclerview:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.3.2
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.3.3/eb3399988a52099b0127e27fb5bed666eca86ace/baseLibrary-2.3.3.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/396cbc89b4e795efaf20fbc5830a71590c7261fd/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/c721ae4bac2b6fc35959636fafec8fa4361b025a/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.ekalips/adapter-annotation/0.1.1/fa7b2701cb69a7b32a9a83508615f269995acd1b/adapter-annotation-0.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/f1b7c30d1b75e950aeef05dcce293bce34da3df9/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/304728a5e5ff64fbebada66f2528e07177654a14/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/a78b2b8bc085dcc594da82b07755f06081215db5/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/aa3b4675569f591ea2b7f378ab325ac0b9a6f0d5/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/80d1c64c0bd59b3d06ba6f4d744292046561eb15/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/56ceb6646aa1a385a42b6fbfd3335191554d05d6/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/9f2af652e12676f5ca9a35f490c8308ee8d8ebf4/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/c142b4d9d1b84b5b98118fb5bbd80ac61e7af75a/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/be2d1a63bea8e9c6e4a37e96d404202f1d6c9b20/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/13402e08b67e13594b86b6944dca75b7ebcc2205/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.0/db09a97f4f0db8892c1a0111a4b966f97920d082/support-annotations-26.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/dc521c5b7433ca9938d886fb82692d1e07f163f9/output/jars/classes.jar] (filtered)
+Reading program directory [/Users/vbauer/.android/build-cache/56ceb6646aa1a385a42b6fbfd3335191554d05d6/output/data-binding] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/intermediates/classes/release] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-26/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Ignoring unused library classes...
+  Original number of library classes: 4590
+  Final number of library classes:    1124
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 1964
+  Final number of program classes:    804
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/outputs/mapping/release/mapping.txt]...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/intermediates/transforms/proguard/release/jars/3/1f/main.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.3.3/eb3399988a52099b0127e27fb5bed666eca86ace/baseLibrary-2.3.3.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/396cbc89b4e795efaf20fbc5830a71590c7261fd/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/c721ae4bac2b6fc35959636fafec8fa4361b025a/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.ekalips/adapter-annotation/0.1.1/fa7b2701cb69a7b32a9a83508615f269995acd1b/adapter-annotation-0.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/f1b7c30d1b75e950aeef05dcce293bce34da3df9/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/304728a5e5ff64fbebada66f2528e07177654a14/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/a78b2b8bc085dcc594da82b07755f06081215db5/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/aa3b4675569f591ea2b7f378ab325ac0b9a6f0d5/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/80d1c64c0bd59b3d06ba6f4d744292046561eb15/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/56ceb6646aa1a385a42b6fbfd3335191554d05d6/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/9f2af652e12676f5ca9a35f490c8308ee8d8ebf4/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/c142b4d9d1b84b5b98118fb5bbd80ac61e7af75a/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/be2d1a63bea8e9c6e4a37e96d404202f1d6c9b20/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/13402e08b67e13594b86b6944dca75b7ebcc2205/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.0/db09a97f4f0db8892c1a0111a4b966f97920d082/support-annotations-26.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/dc521c5b7433ca9938d886fb82692d1e07f163f9/output/jars/classes.jar] (filtered)
+  Copying resources from program directory [/Users/vbauer/.android/build-cache/56ceb6646aa1a385a42b6fbfd3335191554d05d6/output/data-binding] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/intermediates/classes/release] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/outputs/mapping/release/dump.txt]...
+:annotationbindingrecyclerview:transformClassesWithDexForRelease
+:annotationbindingrecyclerview:mergeReleaseJniLibFolders
+:annotationbindingrecyclerview:transformNativeLibsWithMergeJniLibsForRelease
+:annotationbindingrecyclerview:transformNativeLibsWithStripDebugSymbolForRelease
+:annotationbindingrecyclerview:packageRelease
+:annotationbindingrecyclerview:assembleRelease
+:annotationbindingrecyclerview:assemble
+:annotationbindingrecyclerview:lint
+Ran lint on variant release: 4 issues found
+Ran lint on variant debug: 4 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/reports/lint-results.xml
+:annotationbindingrecyclerview:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:annotationbindingrecyclerview:javaPreCompileDebugUnitTest
+:annotationbindingrecyclerview:preDebugUnitTestBuild UP-TO-DATE
+:annotationbindingrecyclerview:prepareDebugUnitTestDependencies
+:annotationbindingrecyclerview:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:annotationbindingrecyclerview:processDebugUnitTestJavaRes UP-TO-DATE
+:annotationbindingrecyclerview:compileDebugUnitTestSources UP-TO-DATE
+:annotationbindingrecyclerview:mockableAndroidJar
+:annotationbindingrecyclerview:assembleDebugUnitTest
+:annotationbindingrecyclerview:testDebugUnitTest UP-TO-DATE
+:annotationbindingrecyclerview:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:annotationbindingrecyclerview:javaPreCompileReleaseUnitTest
+:annotationbindingrecyclerview:preReleaseUnitTestBuild
+:annotationbindingrecyclerview:prepareReleaseUnitTestDependencies
+:annotationbindingrecyclerview:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:annotationbindingrecyclerview:processReleaseUnitTestJavaRes UP-TO-DATE
+:annotationbindingrecyclerview:compileReleaseUnitTestSources UP-TO-DATE
+:annotationbindingrecyclerview:assembleReleaseUnitTest
+:annotationbindingrecyclerview:testReleaseUnitTest UP-TO-DATE
+:annotationbindingrecyclerview:test UP-TO-DATE
+:annotationbindingrecyclerview:check
+:annotationbindingrecyclerview:build
+
+BUILD SUCCESSFUL
+
+Total time: 28.956 secs
+
+2018-09-02 22:00:15,674 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900352452-0/src/Bapter-master/annotationbindingrecyclerview/build/outputs/apk/annotationbindingrecyclerview-debug.apk

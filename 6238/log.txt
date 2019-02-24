@@ -1,0 +1,162 @@
+2018-10-08 17:16:03,961 INFO  DownloadService - Downloading "https://github.com/bosphere/Android-FileLogger/archive/master.zip", attempt 3
+2018-10-08 17:16:04,650 INFO  DownloadService - Downloaded https://github.com/bosphere/Android-FileLogger/archive/master.zip, attempt 3
+2018-10-08 17:16:04,651 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/master.zip": 145 KB
+2018-10-08 17:16:04,651 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-08 17:16:04,651 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/master.zip: true
+2018-10-08 17:16:04,651 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src'.
+2018-10-08 17:16:04,667 INFO  FullProcessService - Size of directory with sources: 167 KB
+2018-10-08 17:16:04,667 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src]
+2018-10-08 17:16:04,685 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/.git/
+
+2018-10-08 17:16:04,687 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/gradlew
+2018-10-08 17:16:04,690 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/filelogger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/build.gradle
+2018-10-08 17:16:04,693 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/filelogger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/settings.gradle
+2018-10-08 17:16:04,693 INFO  ProjectBuildService - Remote scripts: none
+2018-10-08 17:16:04,693 INFO  ProjectFixService - Fixing project...
+2018-10-08 17:16:04,702 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/app/local.properties
+2018-10-08 17:16:04,702 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-08 17:16:04,703 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/filelogger/local.properties
+2018-10-08 17:16:04,704 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/filelogger/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
+2018-10-08 17:16:04,704 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/local.properties
+2018-10-08 17:16:04,705 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-10-08 17:16:04,705 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-10-08 17:16:04,706 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-10-08 17:16:04,706 INFO  ProjectFixService - Project was maybe fixed
+2018-10-08 17:16:04,706 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-08 17:16:04,707 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-08 17:16:22,951 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-10-08 17:16:22,951 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-08 17:16:22,951 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-08 17:17:23,380 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:filelogger:preBuild UP-TO-DATE
+:filelogger:preDebugBuild UP-TO-DATE
+:filelogger:checkDebugManifest
+:filelogger:processDebugManifest
+:app:preDebugBuild
+:filelogger:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:filelogger:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:filelogger:compileDebugRenderscript
+:filelogger:generateDebugResValues
+:filelogger:generateDebugResources
+:filelogger:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:filelogger:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:filelogger:generateDebugBuildConfig
+:filelogger:prepareLintJar
+:filelogger:generateDebugSources
+:filelogger:javaPreCompileDebug
+:filelogger:compileDebugJavaWithJavac
+:filelogger:processDebugJavaRes NO-SOURCE
+:filelogger:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:filelogger:mergeDebugShaders
+:filelogger:compileDebugShaders
+:filelogger:generateDebugAssets
+:filelogger:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:filelogger:compileDebugNdk NO-SOURCE
+:filelogger:mergeDebugJniLibFolders
+:filelogger:transformNativeLibsWithMergeJniLibsForDebug
+:filelogger:transformNativeLibsWithStripDebugSymbolForDebug
+:filelogger:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:filelogger:preReleaseBuild UP-TO-DATE
+:filelogger:checkReleaseManifest
+:filelogger:processReleaseManifest
+:app:preReleaseBuild
+:filelogger:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:filelogger:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:filelogger:compileReleaseRenderscript
+:filelogger:generateReleaseResValues
+:filelogger:generateReleaseResources
+:filelogger:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:filelogger:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:filelogger:generateReleaseBuildConfig
+:filelogger:generateReleaseSources
+:filelogger:javaPreCompileRelease
+:filelogger:compileReleaseJavaWithJavac
+:filelogger:processReleaseJavaRes NO-SOURCE
+:filelogger:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/7ed8f0228f7b9cee2ec766401c6354fb/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:filelogger:mergeReleaseShaders
+:filelogger:compileReleaseShaders
+:filelogger:generateReleaseAssets
+:filelogger:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:filelogger:compileReleaseNdk NO-SOURCE
+:filelogger:mergeReleaseJniLibFolders
+:filelogger:transformNativeLibsWithMergeJniLibsForRelease
+:filelogger:transformNativeLibsWithStripDebugSymbolForRelease
+:filelogger:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 0s
+90 actionable tasks: 90 executed
+
+2018-10-08 17:17:23,470 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538993763958-0/src/Android-FileLogger-master/app/build/outputs/apk/debug/app-debug.apk

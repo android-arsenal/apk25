@@ -1,0 +1,945 @@
+2017-08-08 07:55:21,037 INFO  DownloadService - Downloading "https://github.com/S64/android-navigation-bar-view/archive/master.zip", attempt 3
+2017-08-08 07:55:23,576 INFO  DownloadService - Downloaded https://github.com/S64/android-navigation-bar-view/archive/master.zip, attempt 3
+2017-08-08 07:55:23,577 INFO  DownloadService - Size of file "/tmp/1502178920932-0/master.zip": 362 KB
+2017-08-08 07:55:23,577 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2017-08-08 07:55:23,592 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/1502178920932-0/master.zip: true
+2017-08-08 07:55:23,593 DEBUG ZipUtil - Extracting '/tmp/1502178920932-0/master.zip' into '/tmp/1502178920932-0/src'.
+2017-08-08 07:55:23,640 INFO  FullProcessService - Size of directory with sources: 455 KB
+2017-08-08 07:55:23,646 INFO  SysUtils - Execute command: [git, init, /tmp/1502178920932-0/src]
+2017-08-08 07:55:23,706 INFO  SysUtils - Initialized empty Git repository in /tmp/1502178920932-0/src/.git/
+
+2017-08-08 07:55:23,725 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/1502178920932-0/src/android-navigation-bar-view-master/gradlew
+2017-08-08 07:55:23,738 INFO  ProjectBuildService - Build script(s): /tmp/1502178920932-0/src/android-navigation-bar-view-master/example/build.gradle /tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/build.gradle /tmp/1502178920932-0/src/android-navigation-bar-view-master/build.gradle
+2017-08-08 07:55:23,746 INFO  ProjectBuildService - All script(s): /tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/build.gradle /tmp/1502178920932-0/src/android-navigation-bar-view-master/build.gradle /tmp/1502178920932-0/src/android-navigation-bar-view-master/settings.gradle /tmp/1502178920932-0/src/android-navigation-bar-view-master/example/build.gradle
+2017-08-08 07:55:23,748 INFO  ProjectBuildService - Remote scripts: none
+2017-08-08 07:55:23,749 INFO  ProjectFixService - Fixing project...
+2017-08-08 07:55:23,795 INFO  AndroidToolsService - ANDROID_HOME: /root/Applications/android-sdk
+2017-08-08 07:55:23,795 INFO  AndroidToolsService - NDK_HOME: null
+2017-08-08 07:55:23,798 INFO  AndroidToolsService - Available build tools: 25.0.3 25.0.0 23.0.2 26.0.0 25.0.2 19.1.0 24.0.3 20.0.0 22.0.0 21.0.1 24.0.1 24.0.0 25.0.1 21.1.1 21.1.2 24.0.2 22.0.1 23.0.1 23.0.3
+2017-08-08 07:55:23,800 INFO  AndroidToolsService - Available build tools after clean up: 19.1.0 20.0.0 21.0.1 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0
+2017-08-08 07:55:23,802 INFO  AndroidToolsService - Available platforms: 13 23 9 18 15 24 14 8 16 7 26 22 25 10 11 17 19 20 12 21
+2017-08-08 07:55:23,803 INFO  AndroidToolsService - Available platforms after clean up: 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+2017-08-08 07:55:23,804 INFO  LocalPropertiesFixService - Created fake /tmp/1502178920932-0/src/android-navigation-bar-view-master/example/local.properties
+2017-08-08 07:55:23,817 INFO  ProjectFixService - Build info for "/tmp/1502178920932-0/src/android-navigation-bar-view-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2017-08-08 07:55:23,819 INFO  ProjectFixService - Fixed build info for "/tmp/1502178920932-0/src/android-navigation-bar-view-master/example/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=26,targetSdkVersion=26]
+2017-08-08 07:55:23,821 INFO  LocalPropertiesFixService - Created fake /tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/local.properties
+2017-08-08 07:55:23,826 INFO  ProjectFixService - Build info for "/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2017-08-08 07:55:23,826 INFO  ProjectFixService - Fixed build info for "/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=26,targetSdkVersion=26]
+2017-08-08 07:55:23,827 INFO  LocalPropertiesFixService - Created fake /tmp/1502178920932-0/src/android-navigation-bar-view-master/local.properties
+2017-08-08 07:55:23,833 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2017-08-08 07:55:23,833 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2017-08-08 07:55:23,837 INFO  ProjectFixService - Build info for "/tmp/1502178920932-0/src/android-navigation-bar-view-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2017-08-08 07:55:23,838 INFO  ProjectFixService - Fixed build info for "/tmp/1502178920932-0/src/android-navigation-bar-view-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=26,targetSdkVersion=26]
+2017-08-08 07:55:23,839 INFO  ProjectFixService - Project was maybe fixed
+2017-08-08 07:55:23,841 INFO  ProjectTaskService - Detecting possible tasks...
+2017-08-08 07:55:23,842 INFO  SysUtils - Execute command: [/tmp/1502178920932-0/src/android-navigation-bar-view-master/gradlew, -b, /tmp/1502178920932-0/src/android-navigation-bar-view-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2017-08-08 07:55:30,238 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2017-08-08 07:55:30,238 INFO  ProjectTaskService - Detected possible tasks: 0
+2017-08-08 07:55:30,239 INFO  ProjectTaskService - Excluded tasks (0): none
+2017-08-08 07:55:30,239 INFO  SysUtils - Execute command: [/tmp/1502178920932-0/src/android-navigation-bar-view-master/gradlew, -b, /tmp/1502178920932-0/src/android-navigation-bar-view-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2017-08-08 07:55:36,041 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:72)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:46)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:200)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:127)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$0(BuildProcessorServiceImpl.java:110)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-08 07:55:36,042 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/tmp/1502178920932-0/src/android-navigation-bar-view-master/example/build.gradle' line: 35
+
+* What went wrong:
+A problem occurred evaluating project ':example'.
+> path may not be null or empty string. path='null'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating project ':example'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:181)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:185)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:182)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.IllegalArgumentException: path may not be null or empty string. path='null'
+	at org.gradle.api.internal.file.BaseDirFileResolver.doResolve(BaseDirFileResolver.java:72)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:79)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:61)
+	at org.gradle.api.internal.file.DefaultFileOperations.file(DefaultFileOperations.java:76)
+	at org.gradle.api.internal.project.DefaultProject.file(DefaultProject.java:767)
+	at org.gradle.groovy.scripts.DefaultScript.file(DefaultScript.java:129)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:382)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
+	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:453)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:405)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
+	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:453)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:405)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
+	at build_c50dlytj6yli778vvi82hf33m$_run_closure1$_closure5$_closure7.doCall(/tmp/1502178920932-0/src/android-navigation-bar-view-master/example/build.gradle:35)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$1.execute(ConfigureUtil.java:123)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:64)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:57)
+	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:40)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:68)
+	at build_c50dlytj6yli778vvi82hf33m$_run_closure1$_closure5.doCall(/tmp/1502178920932-0/src/android-navigation-bar-view-master/example/build.gradle:34)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
+	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:148)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:74)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:29)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:104)
+	at org.gradle.util.ConfigureUtil$1.execute(ConfigureUtil.java:123)
+	at com.android.build.gradle.BaseExtension.signingConfigs(BaseExtension.java:393)
+	at com.android.build.gradle.AppExtension_Decorated.signingConfigs(Unknown Source)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:382)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
+	at build_c50dlytj6yli778vvi82hf33m$_run_closure1.doCall(/tmp/1502178920932-0/src/android-navigation-bar-view-master/example/build.gradle:23)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$1.execute(ConfigureUtil.java:123)
+	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:145)
+	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
+	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.invokeMethod(DefaultConvention.java:215)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
+	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
+	at build_c50dlytj6yli778vvi82hf33m.run(/tmp/1502178920932-0/src/android-navigation-bar-view-master/example/build.gradle:4)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 67 more
+
+
+BUILD FAILED
+
+Total time: 5.577 secs
+
+2017-08-08 07:55:36,050 INFO  ProjectTaskService - Detecting possible tasks...
+2017-08-08 07:55:36,050 INFO  SysUtils - Execute command: [/tmp/1502178920932-0/src/android-navigation-bar-view-master/gradlew, -b, /tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2017-08-08 07:55:52,271 INFO  ProjectTaskService - Detected possible tasks: 69
+2017-08-08 07:55:52,272 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2017-08-08 07:55:52,272 INFO  SysUtils - Execute command: [/tmp/1502178920932-0/src/android-navigation-bar-view-master/gradlew, -b, /tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2017-08-08 07:56:08,860 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:navigationbarview:preBuild UP-TO-DATE
+:navigationbarview:preDebugBuild UP-TO-DATE
+:navigationbarview:checkDebugManifest
+:navigationbarview:preDebugAndroidTestBuild UP-TO-DATE
+:navigationbarview:preDebugUnitTestBuild UP-TO-DATE
+:navigationbarview:preReleaseBuild UP-TO-DATE
+:navigationbarview:preReleaseUnitTestBuild UP-TO-DATE
+:navigationbarview:prepareComAndroidSupportAnimatedVectorDrawable2501Library
+:navigationbarview:prepareComAndroidSupportAppcompatV72501Library
+:navigationbarview:prepareComAndroidSupportDesign2501Library
+:navigationbarview:prepareComAndroidSupportRecyclerviewV72501Library
+:navigationbarview:prepareComAndroidSupportSupportCompat2501Library
+:navigationbarview:prepareComAndroidSupportSupportCoreUi2501Library
+:navigationbarview:prepareComAndroidSupportSupportCoreUtils2501Library
+:navigationbarview:prepareComAndroidSupportSupportFragment2501Library
+:navigationbarview:prepareComAndroidSupportSupportMediaCompat2501Library
+:navigationbarview:prepareComAndroidSupportSupportV42501Library
+:navigationbarview:prepareComAndroidSupportSupportVectorDrawable2501Library
+:navigationbarview:prepareComAndroidSupportTransition2501Library
+:navigationbarview:prepareJpS64AndroidRadiobuttonextendedCore020Library
+:navigationbarview:prepareDebugDependencies
+:navigationbarview:compileDebugAidl
+:navigationbarview:compileDebugNdk UP-TO-DATE
+:navigationbarview:compileLint
+:navigationbarview:copyDebugLint UP-TO-DATE
+:navigationbarview:compileDebugRenderscript
+:navigationbarview:generateDebugBuildConfig
+:navigationbarview:generateDebugResValues
+:navigationbarview:generateDebugResources
+:navigationbarview:mergeDebugResources
+:navigationbarview:processDebugManifest
+:navigationbarview:processDebugResources
+:navigationbarview:generateDebugSources
+:navigationbarview:incrementalDebugJavaCompilationSafeguard
+:navigationbarview:javaPreCompileDebug
+:navigationbarview:compileDebugJavaWithJavac
+:navigationbarview:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:navigationbarview:extractDebugAnnotations
+:navigationbarview:mergeDebugShaders
+:navigationbarview:compileDebugShaders
+:navigationbarview:generateDebugAssets
+:navigationbarview:mergeDebugAssets
+:navigationbarview:mergeDebugProguardFiles
+:navigationbarview:packageDebugRenderscript UP-TO-DATE
+:navigationbarview:packageDebugResources
+:navigationbarview:processDebugJavaRes UP-TO-DATE
+:navigationbarview:transformResourcesWithMergeJavaResForDebug
+:navigationbarview:transformClassesAndResourcesWithSyncLibJarsForDebug
+:navigationbarview:mergeDebugJniLibFolders
+:navigationbarview:transformNativeLibsWithMergeJniLibsForDebug
+:navigationbarview:transformNativeLibsWithStripDebugSymbolForDebug
+:navigationbarview:transformNativeLibsWithSyncJniLibsForDebug
+:navigationbarview:bundleDebug
+:navigationbarview:compileDebugSources
+:navigationbarview:assembleDebug
+:navigationbarview:checkReleaseManifest
+:navigationbarview:prepareReleaseDependencies
+:navigationbarview:compileReleaseAidl
+:navigationbarview:compileReleaseNdk UP-TO-DATE
+:navigationbarview:copyReleaseLint UP-TO-DATE
+:navigationbarview:compileReleaseRenderscript
+:navigationbarview:generateReleaseBuildConfig
+:navigationbarview:generateReleaseResValues
+:navigationbarview:generateReleaseResources
+:navigationbarview:mergeReleaseResources
+:navigationbarview:processReleaseManifest
+:navigationbarview:processReleaseResources
+:navigationbarview:generateReleaseSources
+:navigationbarview:incrementalReleaseJavaCompilationSafeguard
+:navigationbarview:javaPreCompileRelease
+:navigationbarview:compileReleaseJavaWithJavac
+:navigationbarview:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:navigationbarview:extractReleaseAnnotations
+:navigationbarview:mergeReleaseShaders
+:navigationbarview:compileReleaseShaders
+:navigationbarview:generateReleaseAssets
+:navigationbarview:mergeReleaseAssets
+:navigationbarview:mergeReleaseProguardFiles
+:navigationbarview:packageReleaseRenderscript UP-TO-DATE
+:navigationbarview:packageReleaseResources
+:navigationbarview:processReleaseJavaRes UP-TO-DATE
+:navigationbarview:transformResourcesWithMergeJavaResForRelease
+:navigationbarview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:navigationbarview:mergeReleaseJniLibFolders
+:navigationbarview:transformNativeLibsWithMergeJniLibsForRelease
+:navigationbarview:transformNativeLibsWithStripDebugSymbolForRelease
+:navigationbarview:transformNativeLibsWithSyncJniLibsForRelease
+:navigationbarview:bundleRelease
+:navigationbarview:compileReleaseSources
+:navigationbarview:assembleRelease
+:navigationbarview:javadoc/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsNavigationBarItem.java:23: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsNavigationBarItem.java:24: error: package android.support.annotation does not exist
+import android.support.annotation.DrawableRes;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsNavigationBarItem.java:25: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsNavigationBarItem.java:26: error: package android.support.v4.graphics.drawable does not exist
+import android.support.v4.graphics.drawable.DrawableCompat;
+                                           ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsNavigationBarItem.java:27: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.AppCompatImageView;
+                                ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/INavigationBarItem.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/INavigationBarItem.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.IdRes;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/INavigationBarItem.java:22: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsBadgeNavigationBarItem.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsBadgeNavigationBarItem.java:22: error: package android.support.v4.content does not exist
+import android.support.v4.content.ContextCompat;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsBadgeNavigationBarItem.java:23: error: package android.support.v4.content.res does not exist
+import android.support.v4.content.res.ResourcesCompat;
+                                     ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsBadgeNavigationBarItem.java:24: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewCompat;
+                              ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsBadgeNavigationBarItem.java:25: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.AppCompatTextView;
+                                ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsBadgeNavigationBarItem.java:32: error: cannot find symbol
+import jp.s64.android.navigationbarview.R;
+                                       ^
+  symbol:   class R
+  location: package jp.s64.android.navigationbarview
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsBadgeNavigationBarItem.java:36: error: cannot find symbol
+    protected AppCompatTextView mBadge;
+              ^
+  symbol:   class AppCompatTextView
+  location: class AbsBadgeNavigationBarItem
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:25: error: package android.support.annotation does not exist
+import android.support.annotation.AttrRes;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:26: error: package android.support.annotation does not exist
+import android.support.annotation.IdRes;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:27: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:28: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:29: error: package android.support.annotation does not exist
+import android.support.annotation.RequiresApi;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:30: error: package android.support.annotation does not exist
+import android.support.annotation.StyleRes;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:31: error: package android.support.design.widget does not exist
+import android.support.design.widget.CoordinatorLayout;
+                                    ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:32: error: package android.support.transition does not exist
+import android.support.transition.AutoTransition;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:33: error: package android.support.transition does not exist
+import android.support.transition.TransitionManager;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:34: error: package android.support.transition does not exist
+import android.support.transition.TransitionSet;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:35: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewCompat;
+                              ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:36: error: package android.support.v4.view.animation does not exist
+import android.support.v4.view.animation.FastOutSlowInInterpolator;
+                                        ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:43: error: package com.google.common.collect does not exist
+import com.google.common.collect.ImmutableList;
+                                ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:45: error: cannot find symbol
+import jp.s64.android.navigationbarview.R;
+                                       ^
+  symbol:   class R
+  location: package jp.s64.android.navigationbarview
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:49: error: package jp.s64.android.radiobuttonextended.core.widget does not exist
+import jp.s64.android.radiobuttonextended.core.widget.CompoundFrameLayoutRadioGroup;
+                                                     ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/INavigationBarView.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.IdRes;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/INavigationBarView.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/NavigationBarViewHelper.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.IdRes;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/NavigationBarViewHelper.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/NavigationBarViewHelper.java:26: error: package com.google.common.collect does not exist
+import com.google.common.collect.ImmutableList;
+                                ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/NavigationBarViewHelper.java:27: error: package com.google.common.collect does not exist
+import com.google.common.collect.Lists;
+                                ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/NavigationBarViewHelper.java:34: error: cannot find symbol
+import jp.s64.android.navigationbarview.R;
+                                       ^
+  symbol:   class R
+  location: package jp.s64.android.navigationbarview
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarItemView.java:26: error: package android.support.annotation does not exist
+import android.support.annotation.AttrRes;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarItemView.java:27: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarItemView.java:28: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarItemView.java:29: error: package android.support.annotation does not exist
+import android.support.annotation.RequiresApi;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarItemView.java:30: error: package android.support.annotation does not exist
+import android.support.annotation.StyleRes;
+                                 ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarItemView.java:31: error: package android.support.v4.view.animation does not exist
+import android.support.v4.view.animation.FastOutSlowInInterpolator;
+                                        ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarItemView.java:39: error: cannot find symbol
+import jp.s64.android.navigationbarview.R;
+                                       ^
+  symbol:   class R
+  location: package jp.s64.android.navigationbarview
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarItemView.java:42: error: package jp.s64.android.radiobuttonextended.core.widget does not exist
+import jp.s64.android.radiobuttonextended.core.widget.RadioFrameLayout;
+                                                     ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarItemView.java:44: error: cannot find symbol
+public class BottomNavigationBarItemView extends RadioFrameLayout implements INavigationBarItemView {
+                                                 ^
+  symbol: class RadioFrameLayout
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:55: error: cannot find symbol
+    private TransitionSet mTransitionSet;
+            ^
+  symbol:   class TransitionSet
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:64: error: cannot find symbol
+    private CompoundFrameLayoutRadioGroup mItemsContainer;
+            ^
+  symbol:   class CompoundFrameLayoutRadioGroup
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:65: error: package CompoundFrameLayoutRadioGroup does not exist
+    private CompoundFrameLayoutRadioGroup.OnCheckedChangeListener mCheckChanged;
+                                         ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:329: error: cannot find symbol
+    public void onItemsChanged(ImmutableList<INavigationBarItem> oldItems, ImmutableList<INavigationBarItem> newItems) {
+                               ^
+  symbol:   class ImmutableList
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:329: error: cannot find symbol
+    public void onItemsChanged(ImmutableList<INavigationBarItem> oldItems, ImmutableList<INavigationBarItem> newItems) {
+                                                                           ^
+  symbol:   class ImmutableList
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/NavigationBarViewHelper.java:174: error: cannot find symbol
+    public void onItemsChanged(ViewGroup container, ImmutableList<INavigationBarItem> oldItems, ImmutableList<INavigationBarItem> newItems) {
+                                                    ^
+  symbol:   class ImmutableList
+  location: class NavigationBarViewHelper<SELF,ITEM>
+  where SELF,ITEM are type-variables:
+    SELF extends View,INavigationBarView,IListener<ITEM> declared in class NavigationBarViewHelper
+    ITEM extends View,Checkable,INavigationBarItemView declared in class NavigationBarViewHelper
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/NavigationBarViewHelper.java:174: error: cannot find symbol
+    public void onItemsChanged(ViewGroup container, ImmutableList<INavigationBarItem> oldItems, ImmutableList<INavigationBarItem> newItems) {
+                                                                                                ^
+  symbol:   class ImmutableList
+  location: class NavigationBarViewHelper<SELF,ITEM>
+  where SELF,ITEM are type-variables:
+    SELF extends View,INavigationBarView,IListener<ITEM> declared in class NavigationBarViewHelper
+    ITEM extends View,Checkable,INavigationBarItemView declared in class NavigationBarViewHelper
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/NavigationBarViewHelper.java:263: error: cannot find symbol
+        void onItemsChanged(ImmutableList<INavigationBarItem> oldItems, ImmutableList<INavigationBarItem> newItems);
+                            ^
+  symbol:   class ImmutableList
+  location: interface IListener<ITEM>
+  where ITEM is a type-variable:
+    ITEM extends View,Checkable,INavigationBarItemView declared in interface IListener
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/NavigationBarViewHelper.java:263: error: cannot find symbol
+        void onItemsChanged(ImmutableList<INavigationBarItem> oldItems, ImmutableList<INavigationBarItem> newItems);
+                                                                        ^
+  symbol:   class ImmutableList
+  location: interface IListener<ITEM>
+  where ITEM is a type-variable:
+    ITEM extends View,Checkable,INavigationBarItemView declared in interface IListener
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:408: error: package CoordinatorLayout does not exist
+    public static class BottomBehavior extends CoordinatorLayout.Behavior<BottomNavigationBarView> {
+                                                                ^
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:418: error: cannot find symbol
+        public void onNestedPreScroll(CoordinatorLayout coordinatorLayout, BottomNavigationBarView child, View target, int dx, int dy, int[] consumed) {
+                                      ^
+  symbol:   class CoordinatorLayout
+  location: class BottomBehavior
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:430: error: cannot find symbol
+        public boolean onStartNestedScroll(CoordinatorLayout coordinatorLayout, BottomNavigationBarView child, View directTargetChild, View target, int nestedScrollAxes) {
+                                           ^
+  symbol:   class CoordinatorLayout
+  location: class BottomBehavior
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsNavigationBarItem.java:36: error: cannot find symbol
+    public View updateIcon(@Nullable View original, Context context, int width, int height, IconAnimator animator) {
+                            ^
+  symbol:   class Nullable
+  location: class AbsNavigationBarItem
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsNavigationBarItem.java:86: error: cannot find symbol
+    @DrawableRes
+     ^
+  symbol:   class DrawableRes
+  location: class AbsNavigationBarItem
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsNavigationBarItem.java:89: error: cannot find symbol
+    @ColorInt
+     ^
+  symbol:   class ColorInt
+  location: class AbsNavigationBarItem
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/INavigationBarItem.java:27: error: cannot find symbol
+    @IdRes
+     ^
+  symbol:   class IdRes
+  location: interface INavigationBarItem
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/INavigationBarItem.java:30: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: interface INavigationBarItem
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/INavigationBarItem.java:33: error: cannot find symbol
+    @ColorInt
+     ^
+  symbol:   class ColorInt
+  location: interface INavigationBarItem
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/INavigationBarItem.java:36: error: cannot find symbol
+    View updateIcon(@Nullable View original, Context context, int width, int height, IconAnimator animator);
+                     ^
+  symbol:   class Nullable
+  location: interface INavigationBarItem
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsBadgeNavigationBarItem.java:41: error: cannot find symbol
+    public View updateIcon(@Nullable View original, Context context, int width, int height, IconAnimator animator) {
+                            ^
+  symbol:   class Nullable
+  location: class AbsBadgeNavigationBarItem
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/item/AbsBadgeNavigationBarItem.java:87: error: cannot find symbol
+    public void setBadgeText(@Nullable CharSequence text) {
+                              ^
+  symbol:   class Nullable
+  location: class AbsBadgeNavigationBarItem
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:67: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:70: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:73: error: cannot find symbol
+    public BottomNavigationBarView(@NonNull Context context) {
+                                    ^
+  symbol:   class NonNull
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:78: error: cannot find symbol
+    public BottomNavigationBarView(@NonNull Context context, @Nullable AttributeSet attrs) {
+                                    ^
+  symbol:   class NonNull
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:78: error: cannot find symbol
+    public BottomNavigationBarView(@NonNull Context context, @Nullable AttributeSet attrs) {
+                                                              ^
+  symbol:   class Nullable
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:83: error: cannot find symbol
+    public BottomNavigationBarView(@NonNull Context context, @Nullable AttributeSet attrs, @AttrRes int defStyleAttr) {
+                                    ^
+  symbol:   class NonNull
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:83: error: cannot find symbol
+    public BottomNavigationBarView(@NonNull Context context, @Nullable AttributeSet attrs, @AttrRes int defStyleAttr) {
+                                                              ^
+  symbol:   class Nullable
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:83: error: cannot find symbol
+    public BottomNavigationBarView(@NonNull Context context, @Nullable AttributeSet attrs, @AttrRes int defStyleAttr) {
+                                                                                            ^
+  symbol:   class AttrRes
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:89: error: cannot find symbol
+    public BottomNavigationBarView(@NonNull Context context, @Nullable AttributeSet attrs, @AttrRes int defStyleAttr, @StyleRes int defStyleRes) {
+                                    ^
+  symbol:   class NonNull
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:89: error: cannot find symbol
+    public BottomNavigationBarView(@NonNull Context context, @Nullable AttributeSet attrs, @AttrRes int defStyleAttr, @StyleRes int defStyleRes) {
+                                                              ^
+  symbol:   class Nullable
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:89: error: cannot find symbol
+    public BottomNavigationBarView(@NonNull Context context, @Nullable AttributeSet attrs, @AttrRes int defStyleAttr, @StyleRes int defStyleRes) {
+                                                                                            ^
+  symbol:   class AttrRes
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:89: error: cannot find symbol
+    public BottomNavigationBarView(@NonNull Context context, @Nullable AttributeSet attrs, @AttrRes int defStyleAttr, @StyleRes int defStyleRes) {
+                                                                                                                       ^
+  symbol:   class StyleRes
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:88: error: cannot find symbol
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+     ^
+  symbol:   class RequiresApi
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:94: error: cannot find symbol
+    protected void init(@Nullable AttributeSet attrs, @AttrRes int defStyleAttr, @StyleRes int defStyleRes) {
+                         ^
+  symbol:   class Nullable
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:94: error: cannot find symbol
+    protected void init(@Nullable AttributeSet attrs, @AttrRes int defStyleAttr, @StyleRes int defStyleRes) {
+                                                       ^
+  symbol:   class AttrRes
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:94: error: cannot find symbol
+    protected void init(@Nullable AttributeSet attrs, @AttrRes int defStyleAttr, @StyleRes int defStyleRes) {
+                                                                                  ^
+  symbol:   class StyleRes
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:175: error: cannot find symbol
+    public void setItemLimit(@Nullable Integer min, @Nullable Integer max) {
+                              ^
+  symbol:   class Nullable
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:175: error: cannot find symbol
+    public void setItemLimit(@Nullable Integer min, @Nullable Integer max) {
+                                                     ^
+  symbol:   class Nullable
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:190: error: cannot find symbol
+    public void check(@IdRes int idRes) {
+                       ^
+  symbol:   class IdRes
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:196: error: cannot find symbol
+    public View getItemView(@IdRes int idRes) {
+                             ^
+  symbol:   class IdRes
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:194: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/bottom/BottomNavigationBarView.java:207: error: cannot find symbol
+    public void setOnCheckChangedListener(@Nullable OnCheckChangeListener listener) {
+                                           ^
+  symbol:   class Nullable
+  location: class BottomNavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/INavigationBarView.java:37: error: cannot find symbol
+    void setItemLimit(@Nullable Integer min, @Nullable Integer max);
+                       ^
+  symbol:   class Nullable
+  location: interface INavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/INavigationBarView.java:37: error: cannot find symbol
+    void setItemLimit(@Nullable Integer min, @Nullable Integer max);
+                                              ^
+  symbol:   class Nullable
+  location: interface INavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/INavigationBarView.java:43: error: cannot find symbol
+    void check(@IdRes int idRes);
+                ^
+  symbol:   class IdRes
+  location: interface INavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/INavigationBarView.java:46: error: cannot find symbol
+    View getItemView(@IdRes int idRes);
+                      ^
+  symbol:   class IdRes
+  location: interface INavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/INavigationBarView.java:45: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: interface INavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/INavigationBarView.java:48: error: cannot find symbol
+    void setOnCheckChangedListener(@Nullable OnCheckChangeListener listener);
+                                    ^
+  symbol:   class Nullable
+  location: interface INavigationBarView
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/NavigationBarViewHelper.java:52: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class NavigationBarViewHelper<SELF,ITEM>
+  where SELF,ITEM are type-variables:
+    SELF extends View,INavigationBarView,IListener<ITEM> declared in class NavigationBarViewHelper
+    ITEM extends View,Checkable,INavigationBarItemView declared in class NavigationBarViewHelper
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/NavigationBarViewHelper.java:55: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class NavigationBarViewHelper<SELF,ITEM>
+  where SELF,ITEM are type-variables:
+    SELF extends View,INavigationBarView,IListener<ITEM> declared in class NavigationBarViewHelper
+    ITEM extends View,Checkable,INavigationBarItemView declared in class NavigationBarViewHelper
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/NavigationBarViewHelper.java:58: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class NavigationBarViewHelper<SELF,ITEM>
+  where SELF,ITEM are type-variables:
+    SELF extends View,INavigationBarView,IListener<ITEM> declared in class NavigationBarViewHelper
+    ITEM extends View,Checkable,INavigationBarItemView declared in class NavigationBarViewHelper
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/NavigationBarViewHelper.java:61: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class NavigationBarViewHelper<SELF,ITEM>
+  where SELF,ITEM are type-variables:
+    SELF extends View,INavigationBarView,IListener<ITEM> declared in class NavigationBarViewHelper
+    ITEM extends View,Checkable,INavigationBarItemView declared in class NavigationBarViewHelper
+/tmp/1502178920932-0/src/android-navigation-bar-view-master/navigationbarview/src/main/java/jp/s64/android/navigationbarview/view/NavigationBarViewHelper.java:123: error: cannot find symbol
+    public void setItemLimit(@Nullable Integer min, @Nullable Integer max) {
+                              ^
+  symbol:   class Nullable
+  location: class NavigationBarViewHelper<SELF,ITEM>
+  where SELF,ITEM are type-variables:
+    SELF extends View,INavigationBarView,IListener<ITEM> declared in class NavigationBarViewHelper
+    ITEM extends View,Checkable,INavigationBarItemView declared in class NavigationBarViewHelper
+
+100 warnings
+:navigationbarview:javadocJar
+:navigationbarview:sourcesJar
+:navigationbarview:assemble
+:navigationbarview:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.396 secs
+
+2017-08-08 07:56:08,906 INFO  ProjectTaskService - Detecting possible tasks...
+2017-08-08 07:56:08,907 INFO  SysUtils - Execute command: [/tmp/1502178920932-0/src/android-navigation-bar-view-master/gradlew, -b, /tmp/1502178920932-0/src/android-navigation-bar-view-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2017-08-08 07:56:14,569 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2017-08-08 07:56:14,570 INFO  ProjectTaskService - Detected possible tasks: 0
+2017-08-08 07:56:14,571 INFO  ProjectTaskService - Excluded tasks (0): none
+2017-08-08 07:56:14,571 INFO  SysUtils - Execute command: [/tmp/1502178920932-0/src/android-navigation-bar-view-master/gradlew, -b, /tmp/1502178920932-0/src/android-navigation-bar-view-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2017-08-08 07:56:20,348 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:72)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:46)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:200)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:127)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$0(BuildProcessorServiceImpl.java:110)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-08 07:56:20,349 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/tmp/1502178920932-0/src/android-navigation-bar-view-master/example/build.gradle' line: 35
+
+* What went wrong:
+A problem occurred evaluating project ':example'.
+> path may not be null or empty string. path='null'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating project ':example'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:181)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:185)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:182)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.IllegalArgumentException: path may not be null or empty string. path='null'
+	at org.gradle.api.internal.file.BaseDirFileResolver.doResolve(BaseDirFileResolver.java:72)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:79)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:61)
+	at org.gradle.api.internal.file.DefaultFileOperations.file(DefaultFileOperations.java:76)
+	at org.gradle.api.internal.project.DefaultProject.file(DefaultProject.java:767)
+	at org.gradle.groovy.scripts.DefaultScript.file(DefaultScript.java:129)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:382)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
+	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:453)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:405)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
+	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:453)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:405)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
+	at build_c50dlytj6yli778vvi82hf33m$_run_closure1$_closure5$_closure7.doCall(/tmp/1502178920932-0/src/android-navigation-bar-view-master/example/build.gradle:35)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$1.execute(ConfigureUtil.java:123)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:64)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:57)
+	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:40)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:68)
+	at build_c50dlytj6yli778vvi82hf33m$_run_closure1$_closure5.doCall(/tmp/1502178920932-0/src/android-navigation-bar-view-master/example/build.gradle:34)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
+	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:148)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:74)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:29)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:104)
+	at org.gradle.util.ConfigureUtil$1.execute(ConfigureUtil.java:123)
+	at com.android.build.gradle.BaseExtension.signingConfigs(BaseExtension.java:393)
+	at com.android.build.gradle.AppExtension_Decorated.signingConfigs(Unknown Source)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:382)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
+	at build_c50dlytj6yli778vvi82hf33m$_run_closure1.doCall(/tmp/1502178920932-0/src/android-navigation-bar-view-master/example/build.gradle:23)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$1.execute(ConfigureUtil.java:123)
+	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:145)
+	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
+	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.invokeMethod(DefaultConvention.java:215)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
+	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
+	at build_c50dlytj6yli778vvi82hf33m.run(/tmp/1502178920932-0/src/android-navigation-bar-view-master/example/build.gradle:4)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 67 more
+
+
+BUILD FAILED
+
+Total time: 5.543 secs
+
+2017-08-08 07:56:20,412 ERROR FullProcessService - Project build has not produced APK file
+2017-08-08 07:56:20,443 ERROR FullProcessService - Could not find generated or existed APK file

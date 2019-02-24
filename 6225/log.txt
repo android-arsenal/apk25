@@ -1,0 +1,280 @@
+2019-01-16 13:31:04,357 INFO  DownloadService - Downloading "https://github.com/gilgoldzweig/Kotlinify/archive/master.zip", attempt 3
+2019-01-16 13:31:05,226 INFO  DownloadService - Downloaded https://github.com/gilgoldzweig/Kotlinify/archive/master.zip, attempt 3
+2019-01-16 13:31:05,226 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/master.zip": 306 KB
+2019-01-16 13:31:05,226 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-16 13:31:05,232 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/master.zip: true
+2019-01-16 13:31:05,232 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src'.
+2019-01-16 13:31:05,272 INFO  FullProcessService - Size of directory with sources: 995 KB
+2019-01-16 13:31:05,272 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src]
+2019-01-16 13:31:05,289 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/.git/
+
+2019-01-16 13:31:05,296 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/gradlew
+2019-01-16 13:31:05,304 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/jackson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/reactive/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/timber/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/build.gradle
+2019-01-16 13:31:05,311 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/reactive/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/timber/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/jackson/build.gradle
+2019-01-16 13:31:05,311 INFO  ProjectBuildService - Remote scripts: none
+2019-01-16 13:31:05,311 INFO  ProjectFixService - Fixing project...
+2019-01-16 13:31:05,326 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/app/local.properties
+2019-01-16 13:31:05,327 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-01-16 13:31:05,327 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/local.properties
+2019-01-16 13:31:05,327 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-16 13:31:05,328 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/jackson/local.properties
+2019-01-16 13:31:05,328 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/jackson/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-16 13:31:05,328 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/reactive/local.properties
+2019-01-16 13:31:05,329 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/reactive/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-16 13:31:05,329 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/timber/local.properties
+2019-01-16 13:31:05,330 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/timber/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-16 13:31:05,330 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/local.properties
+2019-01-16 13:31:05,330 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-01-16 13:31:05,330 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-01-16 13:31:05,331 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-16 13:31:05,331 INFO  ProjectFixService - Project was maybe fixed
+2019-01-16 13:31:05,331 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-16 13:31:05,332 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-16 13:31:13,055 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-16 13:31:13,055 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-16 13:31:13,055 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-16 13:32:27,263 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:core:preBuild UP-TO-DATE
+:core:preDebugBuild UP-TO-DATE
+:core:checkDebugManifest
+:core:processDebugManifest
+:timber:preBuild UP-TO-DATE
+:timber:preDebugBuild UP-TO-DATE
+:timber:checkDebugManifest
+:timber:processDebugManifest
+:app:preDebugBuild
+:core:compileDebugAidl
+:timber:compileDebugAidl
+:app:compileDebugAidl
+:core:packageDebugRenderscript NO-SOURCE
+:timber:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:core:compileDebugRenderscript
+:core:generateDebugResValues
+:core:generateDebugResources
+:core:packageDebugResources
+:timber:compileDebugRenderscript
+:timber:generateDebugResValues
+:timber:generateDebugResources
+:timber:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:core:platformAttrExtractor
+:timber:platformAttrExtractor
+:core:generateDebugBuildConfig
+:core:prepareLintJar
+:core:processDebugJavaRes NO-SOURCE
+:timber:generateDebugBuildConfig
+:timber:prepareLintJar
+:timber:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:core:mergeDebugShaders
+:core:compileDebugShaders
+:core:generateDebugAssets
+:core:packageDebugAssets
+:timber:mergeDebugShaders
+:timber:compileDebugShaders
+:timber:generateDebugAssets
+:timber:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:core:compileDebugNdk NO-SOURCE
+:core:mergeDebugJniLibFolders
+:core:transformNativeLibsWithMergeJniLibsForDebug
+:core:transformNativeLibsWithStripDebugSymbolForDebug
+:core:transformNativeLibsWithIntermediateJniLibsForDebug
+:timber:compileDebugNdk NO-SOURCE
+:timber:mergeDebugJniLibFolders
+:timber:transformNativeLibsWithMergeJniLibsForDebug
+:timber:transformNativeLibsWithStripDebugSymbolForDebug
+:timber:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:core:preReleaseBuild UP-TO-DATE
+:core:checkReleaseManifest
+:core:processReleaseManifest
+:timber:preReleaseBuild UP-TO-DATE
+:timber:checkReleaseManifest
+:timber:processReleaseManifest
+:app:preReleaseBuild
+:core:compileReleaseAidl
+:timber:compileReleaseAidl
+:app:compileReleaseAidl
+:core:packageReleaseRenderscript NO-SOURCE
+:timber:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:core:compileReleaseRenderscript
+:core:generateReleaseResValues
+:core:generateReleaseResources
+:core:packageReleaseResources
+:timber:compileReleaseRenderscript
+:timber:generateReleaseResValues
+:timber:generateReleaseResources
+:timber:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:core:generateReleaseBuildConfig
+:core:processReleaseJavaRes NO-SOURCE
+:timber:generateReleaseBuildConfig
+:timber:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:core:mergeReleaseShaders
+:core:compileReleaseShaders
+:core:generateReleaseAssets
+:core:packageReleaseAssets
+:timber:mergeReleaseShaders
+:timber:compileReleaseShaders
+:timber:generateReleaseAssets
+:timber:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:core:compileReleaseNdk NO-SOURCE
+:core:mergeReleaseJniLibFolders
+:core:transformNativeLibsWithMergeJniLibsForRelease
+:core:transformNativeLibsWithStripDebugSymbolForRelease
+:core:transformNativeLibsWithIntermediateJniLibsForRelease
+:timber:compileReleaseNdk NO-SOURCE
+:timber:mergeReleaseJniLibFolders
+:timber:transformNativeLibsWithMergeJniLibsForRelease
+:timber:transformNativeLibsWithStripDebugSymbolForRelease
+:timber:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:timber:generateDebugRFile
+:timber:compileDebugKotlin
+:timber:generateDebugSources
+:timber:javaPreCompileDebug
+:timber:compileDebugJavaWithJavac
+:timber:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:timber:generateReleaseRFile
+:timber:compileReleaseKotlin
+:timber:generateReleaseSources
+:timber:javaPreCompileRelease
+:timber:compileReleaseJavaWithJavac
+:timber:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:core:generateDebugRFile
+:app:processDebugResources
+:core:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (34, 87): Unchecked cast: Array<(out) Parcelable!>! to Array<T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (41, 20): Conditional branch result of type String is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (43, 21): Conditional branch result of type Int is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (45, 21): Conditional branch result of type Long is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (47, 20): Conditional branch result of type Boolean is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (49, 21): Conditional branch result of type Float is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (51, 25): Conditional branch result of type Parcelable is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (53, 25): Conditional branch result of type Array<Parcelable> is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (55, 25): Conditional branch result of type Array<out String> is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (57, 15): Unchecked cast: Any to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (126, 32): Unchecked cast: Any to Array<Parcelable>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (128, 32): Unchecked cast: Any to kotlin.collections.ArrayList<Parcelable> /* = java.util.ArrayList<Parcelable> */
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/BundlifyDelegate.kt: (12, 57): Unchecked cast: Any to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/context/ContextExtension.kt: (49, 40): Parameter 'type' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/notifications/Notification.kt: (19, 38): Parameter 'channelId' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/notifications/Notification.kt: (20, 9): 'constructor Builder(Context!)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/notifications/Notification.kt: (84, 52): Parameter 'notificationId' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/preferences/GlobalSharedPreferences.kt: (73, 25): Conditional branch result of type String is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/preferences/GlobalSharedPreferences.kt: (75, 25): Conditional branch result of type Int is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/preferences/GlobalSharedPreferences.kt: (77, 25): Conditional branch result of type Long is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/preferences/GlobalSharedPreferences.kt: (79, 25): Conditional branch result of type Boolean is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/preferences/GlobalSharedPreferences.kt: (81, 25): Conditional branch result of type Float is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/preferences/GlobalSharedPreferences.kt: (83, 25): Conditional branch result of type MutableSet<String>? is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/preferences/GlobalSharedPreferences.kt: (83, 56): Unchecked cast: T to Set<String>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/preferences/GlobalSharedPreferences.kt: (88, 19): Unchecked cast: Any? to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/resources/ResourcesExtensions.kt: (17, 13): Extension is shadowed by a member: public final fun getDrawable(p0: Int): Drawable!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/streams/StreamsExtensions.kt: (9, 17): Extension is shadowed by a member: public open fun toString(): String
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/views/ViewsExtensions.kt: (86, 16): Parameter 'width' is never used
+:core:generateDebugSources
+:core:javaPreCompileDebug
+:core:compileDebugJavaWithJavac
+:core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 2 methods.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:core:generateReleaseRFile
+:app:processReleaseResources
+:core:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (34, 87): Unchecked cast: Array<(out) Parcelable!>! to Array<T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (41, 20): Conditional branch result of type String is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (43, 21): Conditional branch result of type Int is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (45, 21): Conditional branch result of type Long is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (47, 20): Conditional branch result of type Boolean is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (49, 21): Conditional branch result of type Float is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (51, 25): Conditional branch result of type Parcelable is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (53, 25): Conditional branch result of type Array<Parcelable> is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (55, 25): Conditional branch result of type Array<out String> is implicitly cast to Any
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (57, 15): Unchecked cast: Any to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (126, 32): Unchecked cast: Any to Array<Parcelable>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/Bundlify.kt: (128, 32): Unchecked cast: Any to kotlin.collections.ArrayList<Parcelable> /* = java.util.ArrayList<Parcelable> */
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/bundles/BundlifyDelegate.kt: (12, 57): Unchecked cast: Any to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/context/ContextExtension.kt: (49, 40): Parameter 'type' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/notifications/Notification.kt: (19, 38): Parameter 'channelId' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/notifications/Notification.kt: (20, 9): 'constructor Builder(Context!)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/notifications/Notification.kt: (84, 52): Parameter 'notificationId' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/preferences/GlobalSharedPreferences.kt: (73, 25): Conditional branch result of type String is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/preferences/GlobalSharedPreferences.kt: (75, 25): Conditional branch result of type Int is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/preferences/GlobalSharedPreferences.kt: (77, 25): Conditional branch result of type Long is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/preferences/GlobalSharedPreferences.kt: (79, 25): Conditional branch result of type Boolean is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/preferences/GlobalSharedPreferences.kt: (81, 25): Conditional branch result of type Float is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/preferences/GlobalSharedPreferences.kt: (83, 25): Conditional branch result of type MutableSet<String>? is implicitly cast to Any?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/preferences/GlobalSharedPreferences.kt: (83, 56): Unchecked cast: T to Set<String>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/preferences/GlobalSharedPreferences.kt: (88, 19): Unchecked cast: Any? to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/resources/ResourcesExtensions.kt: (17, 13): Extension is shadowed by a member: public final fun getDrawable(p0: Int): Drawable!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/streams/StreamsExtensions.kt: (9, 17): Extension is shadowed by a member: public open fun toString(): String
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/core/src/main/java/goldzweigapps/com/core/views/ViewsExtensions.kt: (86, 16): Parameter 'width' is never used
+:core:generateReleaseSources
+:core:javaPreCompileRelease
+:core:compileReleaseJavaWithJavac
+:core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 13s
+135 actionable tasks: 135 executed
+
+2019-01-16 13:32:27,372 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620264354-0/src/Kotlinify-master/app/build/outputs/apk/debug/app-debug.apk

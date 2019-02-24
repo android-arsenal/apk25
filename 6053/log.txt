@@ -1,0 +1,181 @@
+2018-09-02 18:49:20,854 INFO  DownloadService - Downloading "https://github.com/MarcinMoskala/ArcSeekBar/archive/master.zip", attempt 3
+2018-09-02 18:49:21,354 INFO  DownloadService - Downloaded https://github.com/MarcinMoskala/ArcSeekBar/archive/master.zip, attempt 3
+2018-09-02 18:49:21,354 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/master.zip": 282 KB
+2018-09-02 18:49:21,354 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-02 18:49:21,360 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/master.zip: true
+2018-09-02 18:49:21,361 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src'.
+2018-09-02 18:49:21,383 INFO  FullProcessService - Size of directory with sources: 310 KB
+2018-09-02 18:49:21,383 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src]
+2018-09-02 18:49:21,399 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/.git/
+
+2018-09-02 18:49:21,402 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/gradlew
+2018-09-02 18:49:21,405 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/build.gradle
+2018-09-02 18:49:21,408 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/settings.gradle
+2018-09-02 18:49:21,408 INFO  ProjectBuildService - Remote scripts: none
+2018-09-02 18:49:21,408 INFO  ProjectFixService - Fixing project...
+2018-09-02 18:49:21,415 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/app/local.properties
+2018-09-02 18:49:21,415 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-02 18:49:21,416 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/lib/local.properties
+2018-09-02 18:49:21,417 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/lib/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-02 18:49:21,417 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/local.properties
+2018-09-02 18:49:21,417 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-02 18:49:21,418 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-02 18:49:21,418 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-02 18:49:21,418 INFO  ProjectFixService - Project was maybe fixed
+2018-09-02 18:49:21,418 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 18:49:21,418 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 18:49:29,096 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-02 18:49:29,097 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-02 18:49:29,097 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-02 18:50:17,474 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'compile' in project ':lib' is deprecated. Use 'implementation' instead.
+:app:preBuild UP-TO-DATE
+:lib:preBuild UP-TO-DATE
+:lib:preDebugBuild UP-TO-DATE
+:lib:checkDebugManifest
+:lib:processDebugManifest
+:app:preDebugBuild
+:lib:compileDebugAidl
+:app:compileDebugAidl
+:lib:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:lib:compileDebugRenderscript
+:lib:generateDebugResValues
+:lib:generateDebugResources
+:lib:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:lib:platformAttrExtractor
+:lib:generateDebugBuildConfig
+:lib:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:lib:mergeDebugShaders
+:lib:compileDebugShaders
+:lib:generateDebugAssets
+:lib:mergeDebugAssets
+:app:mergeDebugAssets
+:app:extractTryWithResourcesSupportJarDebug
+:app:mergeDebugJniLibFolders
+:lib:compileDebugNdk NO-SOURCE
+:lib:mergeDebugJniLibFolders
+:lib:transformNativeLibsWithMergeJniLibsForDebug
+:lib:transformNativeLibsWithStripDebugSymbolForDebug
+:lib:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:lib:preReleaseBuild UP-TO-DATE
+:lib:checkReleaseManifest
+:lib:processReleaseManifest
+:app:preReleaseBuild
+:lib:compileReleaseAidl
+:app:compileReleaseAidl
+:lib:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:lib:compileReleaseRenderscript
+:lib:generateReleaseResValues
+:lib:generateReleaseResources
+:lib:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:lib:generateReleaseBuildConfig
+:lib:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:lib:mergeReleaseShaders
+:lib:compileReleaseShaders
+:lib:generateReleaseAssets
+:lib:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:extractTryWithResourcesSupportJarRelease
+:app:mergeReleaseJniLibFolders
+:lib:compileReleaseNdk NO-SOURCE
+:lib:mergeReleaseJniLibFolders
+:lib:transformNativeLibsWithMergeJniLibsForRelease
+:lib:transformNativeLibsWithStripDebugSymbolForRelease
+:lib:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:prepareLintJar
+:lib:prepareLintJar
+:lib:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:lib:compileDebugKotlin
+Using kotlin incremental compilation
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/lib/src/main/java/com/marcinmoskala/arcseekbar/ArcSeekBar.kt: (69, 93): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/lib/src/main/java/com/marcinmoskala/arcseekbar/ArcSeekBar.kt: (84, 46): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/lib/src/main/java/com/marcinmoskala/arcseekbar/ArcSeekBar.kt: (89, 46): 'getColor(Int): Int' is deprecated. Deprecated in Java
+:lib:generateDebugSources
+:lib:javaPreCompileDebug
+:lib:compileDebugJavaWithJavac
+:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:lib:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:lib:compileReleaseKotlin
+Using kotlin incremental compilation
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/lib/src/main/java/com/marcinmoskala/arcseekbar/ArcSeekBar.kt: (69, 93): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/lib/src/main/java/com/marcinmoskala/arcseekbar/ArcSeekBar.kt: (84, 46): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/lib/src/main/java/com/marcinmoskala/arcseekbar/ArcSeekBar.kt: (89, 46): 'getColor(Int): Int' is deprecated. Deprecated in Java
+:lib:generateReleaseSources
+:lib:javaPreCompileRelease
+:lib:compileReleaseJavaWithJavac
+:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:transformClassesWithStackFramesFixerForRelease
+:app:transformClassesWithDesugarForRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:lintVitalRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 47s
+96 actionable tasks: 96 executed
+Exception in thread "Thread-23" java.lang.NoClassDefFoundError: com/android/builder/internal/aapt/v2/AaptV2Jni$TempDirCache$RecursiveDelete
+	at com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache.lambda$getCachedDirectory$0(AaptV2Jni.java:251)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache$RecursiveDelete
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 2 more
+
+2018-09-02 18:50:17,550 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535888960850-0/src/ArcSeekBar-master/app/build/outputs/apk/debug/app-debug.apk

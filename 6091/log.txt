@@ -1,0 +1,160 @@
+2018-09-02 15:39:36,336 INFO  DownloadService - Downloading "https://github.com/JackDinealKIM/SelectableTextView/archive/master.zip", attempt 3
+2018-09-02 15:39:36,868 INFO  DownloadService - Downloaded https://github.com/JackDinealKIM/SelectableTextView/archive/master.zip, attempt 3
+2018-09-02 15:39:36,868 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/master.zip": 200 KB
+2018-09-02 15:39:36,868 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-02 15:39:36,870 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/master.zip: true
+2018-09-02 15:39:36,870 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src'.
+2018-09-02 15:39:36,889 INFO  FullProcessService - Size of directory with sources: 225 KB
+2018-09-02 15:39:36,889 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src]
+2018-09-02 15:39:36,905 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/.git/
+
+2018-09-02 15:39:36,908 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-09-02 15:39:36,908 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-09-02 15:39:36,911 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/selectabletextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/build.gradle
+2018-09-02 15:39:36,914 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/selectabletextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/build.gradle
+2018-09-02 15:39:36,914 INFO  ProjectBuildService - Remote scripts: none
+2018-09-02 15:39:36,914 INFO  ProjectFixService - Fixing project...
+2018-09-02 15:39:36,922 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/app/local.properties
+2018-09-02 15:39:36,922 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-02 15:39:36,923 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/selectabletextview/local.properties
+2018-09-02 15:39:36,923 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/selectabletextview/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-02 15:39:36,924 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/local.properties
+2018-09-02 15:39:36,925 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-02 15:39:36,925 INFO  ProjectFixService - Project was maybe fixed
+2018-09-02 15:39:36,925 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 15:39:36,925 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 15:39:36,929 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2018-09-02 15:39:36,929 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-09-02 15:39:36,929 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-09-02 15:39:36,929 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-09-02 15:39:36,934 ERROR SysUtils - Could not process external command
+java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at org.apache.commons.exec.launcher.Java13CommandLauncher.exec(Java13CommandLauncher.java:61)
+	at org.apache.commons.exec.DefaultExecutor.launch(DefaultExecutor.java:279)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:336)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 29 common frames omitted
+2018-09-02 15:39:36,934 INFO  SysUtils - 
+2018-09-02 15:39:36,937 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 15:39:36,937 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/selectabletextview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 15:39:36,941 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2018-09-02 15:39:36,941 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-09-02 15:39:36,942 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-09-02 15:39:36,942 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/selectabletextview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-09-02 15:39:36,946 ERROR SysUtils - Could not process external command
+java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at org.apache.commons.exec.launcher.Java13CommandLauncher.exec(Java13CommandLauncher.java:61)
+	at org.apache.commons.exec.DefaultExecutor.launch(DefaultExecutor.java:279)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:336)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 29 common frames omitted
+2018-09-02 15:39:36,946 INFO  SysUtils - 
+2018-09-02 15:39:36,949 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 15:39:36,949 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 15:39:36,953 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2018-09-02 15:39:36,953 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-09-02 15:39:36,953 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-09-02 15:39:36,953 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535877576334-0/src/SelectableTextView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-09-02 15:39:36,957 ERROR SysUtils - Could not process external command
+java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at java.base/java.lang.Runtime.exec(Runtime.java:635)
+	at org.apache.commons.exec.launcher.Java13CommandLauncher.exec(Java13CommandLauncher.java:61)
+	at org.apache.commons.exec.DefaultExecutor.launch(DefaultExecutor.java:279)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:336)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 29 common frames omitted
+2018-09-02 15:39:36,958 INFO  SysUtils - 
+2018-09-02 15:39:36,961 ERROR FullProcessService - Project build has not produced APK file
+2018-09-02 15:39:36,964 ERROR FullProcessService - Could not find generated or existed APK file

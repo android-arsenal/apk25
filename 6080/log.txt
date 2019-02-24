@@ -1,0 +1,161 @@
+2018-09-02 17:27:12,853 INFO  DownloadService - Downloading "https://github.com/chemickypes/CustomFontText/archive/master.zip", attempt 3
+2018-09-02 17:27:13,739 INFO  DownloadService - Downloaded https://github.com/chemickypes/CustomFontText/archive/master.zip, attempt 3
+2018-09-02 17:27:13,740 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/master.zip": 817 KB
+2018-09-02 17:27:13,740 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-02 17:27:13,745 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/master.zip: true
+2018-09-02 17:27:13,746 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src'.
+2018-09-02 17:27:13,786 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-09-02 17:27:13,786 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src]
+2018-09-02 17:27:13,803 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/.git/
+
+2018-09-02 17:27:13,807 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/gradlew
+2018-09-02 17:27:13,811 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/customfont.library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/build.gradle
+2018-09-02 17:27:13,815 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/customfont.library/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/customfont.library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/settings.gradle
+2018-09-02 17:27:13,816 INFO  ProjectBuildService - Remote scripts: none
+2018-09-02 17:27:13,816 INFO  ProjectFixService - Fixing project...
+2018-09-02 17:27:13,828 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/app/local.properties
+2018-09-02 17:27:13,828 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-02 17:27:13,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/customfont.library/local.properties
+2018-09-02 17:27:13,829 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/customfont.library/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-02 17:27:13,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/local.properties
+2018-09-02 17:27:13,830 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-02 17:27:13,830 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-02 17:27:13,831 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-02 17:27:13,832 INFO  ProjectFixService - Project was maybe fixed
+2018-09-02 17:27:13,832 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 17:27:13,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 17:27:23,811 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-02 17:27:23,811 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-02 17:27:23,811 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-02 17:27:39,496 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:app:prepareComAndroidSupportAppcompatV72531Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportSupportCompat2531Library
+:app:prepareComAndroidSupportSupportCoreUi2531Library
+:app:prepareComAndroidSupportSupportCoreUtils2531Library
+:app:prepareComAndroidSupportSupportFragment2531Library
+:app:prepareComAndroidSupportSupportMediaCompat2531Library
+:app:prepareComAndroidSupportSupportV42531Library
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library
+:customfont.library:preBuild UP-TO-DATE
+:customfont.library:preReleaseBuild UP-TO-DATE
+:customfont.library:checkReleaseManifest
+:customfont.library:preDebugAndroidTestBuild UP-TO-DATE
+:customfont.library:preDebugBuild UP-TO-DATE
+:customfont.library:preDebugUnitTestBuild UP-TO-DATE
+:customfont.library:preReleaseUnitTestBuild UP-TO-DATE
+:customfont.library:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:customfont.library:prepareComAndroidSupportAppcompatV72531Library
+:customfont.library:prepareComAndroidSupportSupportCompat2531Library
+:customfont.library:prepareComAndroidSupportSupportCoreUi2531Library
+:customfont.library:prepareComAndroidSupportSupportCoreUtils2531Library
+:customfont.library:prepareComAndroidSupportSupportFragment2531Library
+:customfont.library:prepareComAndroidSupportSupportMediaCompat2531Library
+:customfont.library:prepareComAndroidSupportSupportV42531Library
+:customfont.library:prepareComAndroidSupportSupportVectorDrawable2531Library
+:customfont.library:prepareReleaseDependencies
+:customfont.library:compileReleaseAidl
+:customfont.library:compileReleaseNdk UP-TO-DATE
+:customfont.library:compileLint
+:customfont.library:copyReleaseLint UP-TO-DATE
+:customfont.library:compileReleaseRenderscript
+:customfont.library:generateReleaseBuildConfig
+:customfont.library:generateReleaseResValues
+:customfont.library:generateReleaseResources
+:customfont.library:mergeReleaseResources
+:customfont.library:processReleaseManifest
+:customfont.library:processReleaseResources
+:customfont.library:generateReleaseSources
+:customfont.library:incrementalReleaseJavaCompilationSafeguard
+:customfont.library:javaPreCompileRelease
+:customfont.library:compileReleaseJavaWithJavac
+:customfont.library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:customfont.library:extractReleaseAnnotations
+:customfont.library:mergeReleaseShaders
+:customfont.library:compileReleaseShaders
+:customfont.library:generateReleaseAssets
+:customfont.library:mergeReleaseAssets
+:customfont.library:mergeReleaseProguardFiles
+:customfont.library:packageReleaseRenderscript UP-TO-DATE
+:customfont.library:packageReleaseResources
+:customfont.library:processReleaseJavaRes UP-TO-DATE
+:customfont.library:transformResourcesWithMergeJavaResForRelease
+:customfont.library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:customfont.library:mergeReleaseJniLibFolders
+:customfont.library:transformNativeLibsWithMergeJniLibsForRelease
+:customfont.library:transformNativeLibsWithStripDebugSymbolForRelease
+:customfont.library:transformNativeLibsWithSyncJniLibsForRelease
+:customfont.library:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 15.395 secs
+
+2018-09-02 17:27:39,572 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535884032845-0/src/CustomFontText-master/app/build/outputs/apk/app-debug.apk

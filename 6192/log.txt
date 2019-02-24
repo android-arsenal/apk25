@@ -1,0 +1,109 @@
+2019-01-08 18:22:54,322 INFO  DownloadService - Downloading "https://github.com/RohitSurwase/API-Calling-Flow/archive/master.zip", attempt 3
+2019-01-08 18:22:56,943 INFO  DownloadService - Downloaded https://github.com/RohitSurwase/API-Calling-Flow/archive/master.zip, attempt 3
+2019-01-08 18:22:56,943 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/master.zip": 864 KB
+2019-01-08 18:22:56,943 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-08 18:22:56,949 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/master.zip: true
+2019-01-08 18:22:56,949 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src'.
+2019-01-08 18:22:56,986 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-08 18:22:56,986 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src]
+2019-01-08 18:22:57,008 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/.git/
+
+2019-01-08 18:22:57,012 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/gradlew
+2019-01-08 18:22:57,015 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/example-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/ignore-dummy-module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/build.gradle
+2019-01-08 18:22:57,018 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/example-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/ignore-dummy-module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/settings.gradle
+2019-01-08 18:22:57,018 INFO  ProjectBuildService - Remote scripts: none
+2019-01-08 18:22:57,019 INFO  ProjectFixService - Fixing project...
+2019-01-08 18:22:57,026 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/api-calling-flow/local.properties
+2019-01-08 18:22:57,027 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-08 18:22:57,028 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-08 18:22:57,028 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/example-app/local.properties
+2019-01-08 18:22:57,029 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/example-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-08 18:22:57,029 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/example-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-08 18:22:57,030 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/ignore-dummy-module/local.properties
+2019-01-08 18:22:57,031 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/ignore-dummy-module/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-08 18:22:57,031 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/ignore-dummy-module/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-08 18:22:57,032 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/local.properties
+2019-01-08 18:22:57,032 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-08 18:22:57,033 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-08 18:22:57,034 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-08 18:22:57,034 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-01-08 18:22:57,035 INFO  ProjectFixService - Project was maybe fixed
+2019-01-08 18:22:57,035 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-08 18:22:57,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-08 18:23:03,466 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-01-08 18:23:03,466 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-08 18:23:03,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-08 18:23:17,305 INFO  SysUtils - Configuration on demand is an incubating feature.
+:api-calling-flow:preBuild UP-TO-DATE
+:api-calling-flow:preDebugBuild UP-TO-DATE
+:api-calling-flow:compileDebugAidl NO-SOURCE
+:api-calling-flow:compileDebugRenderscript
+:api-calling-flow:checkDebugManifest
+:api-calling-flow:generateDebugBuildConfig
+:api-calling-flow:generateDebugResValues
+:api-calling-flow:generateDebugResources
+:api-calling-flow:packageDebugResources
+:api-calling-flow:processDebugManifest
+:api-calling-flow:generateDebugRFile
+:api-calling-flow:prepareLintJar
+:api-calling-flow:generateDebugSources
+:api-calling-flow:javaPreCompileDebug
+:api-calling-flow:compileDebugJavaWithJavac
+:api-calling-flow:extractDebugAnnotations
+:api-calling-flow:mergeDebugConsumerProguardFiles
+:api-calling-flow:mergeDebugShaders
+:api-calling-flow:compileDebugShaders
+:api-calling-flow:generateDebugAssets
+:api-calling-flow:packageDebugAssets
+:api-calling-flow:packageDebugRenderscript NO-SOURCE
+:api-calling-flow:processDebugJavaRes NO-SOURCE
+:api-calling-flow:transformResourcesWithMergeJavaResForDebug
+:api-calling-flow:transformClassesAndResourcesWithSyncLibJarsForDebug
+:api-calling-flow:compileDebugNdk NO-SOURCE
+:api-calling-flow:mergeDebugJniLibFolders
+:api-calling-flow:transformNativeLibsWithMergeJniLibsForDebug
+:api-calling-flow:transformNativeLibsWithStripDebugSymbolForDebug
+:api-calling-flow:transformNativeLibsWithSyncJniLibsForDebug
+:api-calling-flow:bundleDebugAar
+:api-calling-flow:compileDebugSources
+:api-calling-flow:assembleDebug
+:api-calling-flow:preReleaseBuild UP-TO-DATE
+:api-calling-flow:compileReleaseAidl NO-SOURCE
+:api-calling-flow:compileReleaseRenderscript
+:api-calling-flow:checkReleaseManifest
+:api-calling-flow:generateReleaseBuildConfig
+:api-calling-flow:generateReleaseResValues
+:api-calling-flow:generateReleaseResources
+:api-calling-flow:packageReleaseResources
+:api-calling-flow:processReleaseManifest
+:api-calling-flow:generateReleaseRFile
+:api-calling-flow:generateReleaseSources
+:api-calling-flow:javaPreCompileRelease
+:api-calling-flow:compileReleaseJavaWithJavac
+:api-calling-flow:extractReleaseAnnotations
+:api-calling-flow:mergeReleaseConsumerProguardFiles
+:api-calling-flow:mergeReleaseShaders
+:api-calling-flow:compileReleaseShaders
+:api-calling-flow:generateReleaseAssets
+:api-calling-flow:packageReleaseAssets
+:api-calling-flow:packageReleaseRenderscript NO-SOURCE
+:api-calling-flow:processReleaseJavaRes NO-SOURCE
+:api-calling-flow:transformResourcesWithMergeJavaResForRelease
+:api-calling-flow:transformClassesAndResourcesWithSyncLibJarsForRelease
+:api-calling-flow:compileReleaseNdk NO-SOURCE
+:api-calling-flow:mergeReleaseJniLibFolders
+:api-calling-flow:transformNativeLibsWithMergeJniLibsForRelease
+:api-calling-flow:transformNativeLibsWithStripDebugSymbolForRelease
+:api-calling-flow:transformNativeLibsWithSyncJniLibsForRelease
+:api-calling-flow:bundleReleaseAar
+:api-calling-flow:compileReleaseSources
+:api-calling-flow:mergeReleaseResources
+:api-calling-flow:verifyReleaseResources
+:api-calling-flow:assembleRelease
+:api-calling-flow:assemble
+:api-calling-flow:build
+
+BUILD SUCCESSFUL in 13s
+45 actionable tasks: 45 executed
+
+2019-01-08 18:23:17,359 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/api-calling-flow-example.apk

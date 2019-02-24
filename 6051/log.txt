@@ -1,0 +1,500 @@
+2018-09-02 18:50:29,182 INFO  DownloadService - Downloading "https://github.com/gtomato/carouselview/archive/master.zip", attempt 3
+2018-09-02 18:50:31,437 INFO  DownloadService - Downloaded https://github.com/gtomato/carouselview/archive/master.zip, attempt 3
+2018-09-02 18:50:31,437 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/master.zip": 289 KB
+2018-09-02 18:50:31,437 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-02 18:50:31,438 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/master.zip: true
+2018-09-02 18:50:31,438 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src'.
+2018-09-02 18:50:31,486 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-09-02 18:50:31,486 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src]
+2018-09-02 18:50:31,505 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/.git/
+
+2018-09-02 18:50:31,509 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/gradlew
+2018-09-02 18:50:31,514 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/build.gradle
+2018-09-02 18:50:31,518 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/settings.gradle
+2018-09-02 18:50:31,519 INFO  ProjectBuildService - Remote scripts: none
+2018-09-02 18:50:31,519 INFO  ProjectFixService - Fixing project...
+2018-09-02 18:50:31,529 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/local.properties
+2018-09-02 18:50:31,530 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=21,minSdkVersion=11,targetSdkVersion=21]
+2018-09-02 18:50:31,530 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/demo/local.properties
+2018-09-02 18:50:31,531 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/demo/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=23]
+2018-09-02 18:50:31,531 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/local.properties
+2018-09-02 18:50:31,532 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-02 18:50:31,532 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-02 18:50:31,532 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=23]
+2018-09-02 18:50:31,533 INFO  ProjectFixService - Project was maybe fixed
+2018-09-02 18:50:31,533 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 18:50:31,533 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 18:50:40,267 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-09-02 18:50:40,267 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-02 18:50:40,267 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-02 18:50:54,952 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:carouselview:preBuild UP-TO-DATE
+:carouselview:preDebugBuild UP-TO-DATE
+:carouselview:checkDebugManifest
+:carouselview:preDebugAndroidTestBuild UP-TO-DATE
+:carouselview:preDebugUnitTestBuild UP-TO-DATE
+:carouselview:preReleaseBuild UP-TO-DATE
+:carouselview:preReleaseUnitTestBuild UP-TO-DATE
+:carouselview:prepareComAndroidSupportAppcompatV72103Library
+:carouselview:prepareComAndroidSupportRecyclerviewV72103Library
+:carouselview:prepareComAndroidSupportSupportV42103Library
+:carouselview:prepareDebugDependencies
+:carouselview:compileDebugAidl
+:carouselview:compileDebugNdk UP-TO-DATE
+:carouselview:compileLint
+:carouselview:copyDebugLint UP-TO-DATE
+:carouselview:compileDebugRenderscript
+:carouselview:generateDebugBuildConfig
+:carouselview:generateDebugResValues
+:carouselview:generateDebugResources
+:carouselview:mergeDebugResources
+:carouselview:processDebugManifest
+:carouselview:processDebugResources
+:carouselview:generateDebugSources
+:carouselview:incrementalDebugJavaCompilationSafeguard
+:carouselview:javaPreCompileDebug
+:carouselview:compileDebugJavaWithJavac
+:carouselview:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:carouselview:extractDebugAnnotations
+:carouselview:mergeDebugShaders
+:carouselview:compileDebugShaders
+:carouselview:generateDebugAssets
+:carouselview:mergeDebugAssets
+:carouselview:mergeDebugProguardFiles
+:carouselview:packageDebugRenderscript UP-TO-DATE
+:carouselview:packageDebugResources
+:carouselview:processDebugJavaRes UP-TO-DATE
+:carouselview:transformResourcesWithMergeJavaResForDebug
+:carouselview:transformClassesAndResourcesWithSyncLibJarsForDebug
+:carouselview:mergeDebugJniLibFolders
+:carouselview:transformNativeLibsWithMergeJniLibsForDebug
+:carouselview:transformNativeLibsWithStripDebugSymbolForDebug
+:carouselview:transformNativeLibsWithSyncJniLibsForDebug
+:carouselview:bundleDebug
+:carouselview:compileDebugSources
+:carouselview:assembleDebug
+:carouselview:checkReleaseManifest
+:carouselview:prepareReleaseDependencies
+:carouselview:compileReleaseAidl
+:carouselview:compileReleaseNdk UP-TO-DATE
+:carouselview:copyReleaseLint UP-TO-DATE
+:carouselview:compileReleaseRenderscript
+:carouselview:generateReleaseBuildConfig
+:carouselview:generateReleaseResValues
+:carouselview:generateReleaseResources
+:carouselview:mergeReleaseResources
+:carouselview:processReleaseManifest
+:carouselview:processReleaseResources
+:carouselview:generateReleaseSources
+:carouselview:incrementalReleaseJavaCompilationSafeguard
+:carouselview:javaPreCompileRelease
+:carouselview:compileReleaseJavaWithJavac
+:carouselview:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:carouselview:extractReleaseAnnotations
+:carouselview:mergeReleaseShaders
+:carouselview:compileReleaseShaders
+:carouselview:generateReleaseAssets
+:carouselview:mergeReleaseAssets
+:carouselview:mergeReleaseProguardFiles
+:carouselview:packageReleaseRenderscript UP-TO-DATE
+:carouselview:packageReleaseResources
+:carouselview:processReleaseJavaRes UP-TO-DATE
+:carouselview:transformResourcesWithMergeJavaResForRelease
+:carouselview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:carouselview:mergeReleaseJniLibFolders
+:carouselview:transformNativeLibsWithMergeJniLibsForRelease
+:carouselview:transformNativeLibsWithStripDebugSymbolForRelease
+:carouselview:transformNativeLibsWithSyncJniLibsForRelease
+:carouselview:bundleRelease
+:carouselview:compileReleaseSources
+:carouselview:assembleRelease
+:carouselview:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:4: error: package android.support.v4.view does not exist
+import android.support.v4.view.MotionEventCompat;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:5: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:25: error: cannot find symbol
+public class CarouselView extends RecyclerView {
+                                  ^
+  symbol: class RecyclerView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:9: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:10: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:11: error: package android.support.v7.widget.RecyclerView does not exist
+import android.support.v7.widget.RecyclerView.LayoutManager;
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:31: error: package RecyclerView does not exist
+public class CarouselLayoutManager extends RecyclerView.LayoutManager {
+                                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:42: error: package RecyclerView does not exist
+	private RecyclerView.OnScrollListener mInternalOnScrollListener = new RecyclerView.OnScrollListener() {
+	                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:171: error: cannot find symbol
+	public final void setLayoutManager(LayoutManager layout) {
+	                                   ^
+  symbol:   class LayoutManager
+  location: class CarouselView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:448: error: package RecyclerView does not exist
+	public void setOnScrollListener(RecyclerView.OnScrollListener listener) {
+	                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:52: error: cannot find symbol
+	@Nullable private RecyclerView mRecyclerView = null;
+	                  ^
+  symbol:   class RecyclerView
+  location: class CarouselLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:230: error: package RecyclerView does not exist
+	public RecyclerView.LayoutParams generateDefaultLayoutParams() {
+	                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:306: error: package RecyclerView does not exist
+	public int scrollHorizontallyBy(int dx, RecyclerView.Recycler recycler, RecyclerView.State state) {
+	                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:306: error: package RecyclerView does not exist
+	public int scrollHorizontallyBy(int dx, RecyclerView.Recycler recycler, RecyclerView.State state) {
+	                                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:347: error: package RecyclerView does not exist
+	public void onMeasure(RecyclerView.Recycler recycler, RecyclerView.State state, int widthSpec, int heightSpec) {
+	                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:347: error: package RecyclerView does not exist
+	public void onMeasure(RecyclerView.Recycler recycler, RecyclerView.State state, int widthSpec, int heightSpec) {
+	                                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:363: error: package RecyclerView does not exist
+	void adjustHostDimension(RecyclerView.Recycler recycler, RecyclerView.State state, int widthSpec, int heightSpec) {
+	                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:363: error: package RecyclerView does not exist
+	void adjustHostDimension(RecyclerView.Recycler recycler, RecyclerView.State state, int widthSpec, int heightSpec) {
+	                                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:421: error: package RecyclerView does not exist
+	private void measureChildSize(RecyclerView.Recycler recycler) {
+	                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:500: error: package RecyclerView does not exist
+	public void onLayoutChildren(RecyclerView.Recycler recycler, RecyclerView.State state) {
+	                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:500: error: package RecyclerView does not exist
+	public void onLayoutChildren(RecyclerView.Recycler recycler, RecyclerView.State state) {
+	                                                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:570: error: package RecyclerView does not exist
+	private void fillChildrenView(RecyclerView.Recycler recycler, RecyclerView.State state) {
+	                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:570: error: package RecyclerView does not exist
+	private void fillChildrenView(RecyclerView.Recycler recycler, RecyclerView.State state) {
+	                                                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:682: error: package RecyclerView does not exist
+	private void drawChild(final int position, MultiSparseArray<View> viewCache, RecyclerView.Recycler recycler, RecyclerView.State state) {
+	                                                                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:682: error: package RecyclerView does not exist
+	private void drawChild(final int position, MultiSparseArray<View> viewCache, RecyclerView.Recycler recycler, RecyclerView.State state) {
+	                                                                                                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:751: error: cannot find symbol
+	public void smoothScrollToPosition(final RecyclerView recyclerView, final RecyclerView.State state,
+	                                         ^
+  symbol:   class RecyclerView
+  location: class CarouselLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:751: error: package RecyclerView does not exist
+	public void smoothScrollToPosition(final RecyclerView recyclerView, final RecyclerView.State state,
+	                                                                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:814: error: package RecyclerView does not exist
+	public void onAdapterChanged(RecyclerView.Adapter oldAdapter, RecyclerView.Adapter newAdapter) {
+	                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:814: error: package RecyclerView does not exist
+	public void onAdapterChanged(RecyclerView.Adapter oldAdapter, RecyclerView.Adapter newAdapter) {
+	                                                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:820: error: cannot find symbol
+	public void onItemsChanged(RecyclerView recyclerView) {
+	                           ^
+  symbol:   class RecyclerView
+  location: class CarouselLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:826: error: cannot find symbol
+	public void onItemsUpdated(RecyclerView recyclerView, int positionStart, int itemCount) {
+	                           ^
+  symbol:   class RecyclerView
+  location: class CarouselLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:837: error: cannot find symbol
+	public void onItemsAdded(RecyclerView recyclerView, int positionStart, int itemCount) {
+	                         ^
+  symbol:   class RecyclerView
+  location: class CarouselLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:843: error: cannot find symbol
+	public void onItemsRemoved(RecyclerView recyclerView, int positionStart, int itemCount) {
+	                           ^
+  symbol:   class RecyclerView
+  location: class CarouselLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:849: error: cannot find symbol
+	public void onItemsMoved(RecyclerView recyclerView, int from, int to, int itemCount) {
+	                         ^
+  symbol:   class RecyclerView
+  location: class CarouselLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:855: error: cannot find symbol
+	public void onAttachedToWindow(RecyclerView view) {
+	                               ^
+  symbol:   class RecyclerView
+  location: class CarouselLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:861: error: cannot find symbol
+	public void onDetachedFromWindow(RecyclerView view, RecyclerView.Recycler recycler) {
+	                                 ^
+  symbol:   class RecyclerView
+  location: class CarouselLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:861: error: package RecyclerView does not exist
+	public void onDetachedFromWindow(RecyclerView view, RecyclerView.Recycler recycler) {
+	                                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:800: error: cannot find symbol
+		void onItemClick(Adapter adapter, View view, int position, int adapterPosition);
+		                 ^
+  symbol:   class Adapter
+  location: interface OnItemClickListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:814: error: cannot find symbol
+		void onItemSelected(CarouselView carouselView, int position, int adapterPosition, Adapter adapter);
+		                                                                                  ^
+  symbol:   class Adapter
+  location: interface OnItemSelectedListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:823: error: cannot find symbol
+		void onItemDeselected(CarouselView carouselView, int position, int adapterPosition, Adapter adapter);
+		                                                                                    ^
+  symbol:   class Adapter
+  location: interface OnItemSelectedListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/transformer/FlatMerryGoRoundTransformer.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.FloatRange;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/transformer/FlatMerryGoRoundTransformer.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.IntRange;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/transformer/CoverFlowViewTransformer.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.FloatRange;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:52: error: cannot find symbol
+	@Nullable private RecyclerView mRecyclerView = null;
+	 ^
+  symbol:   class Nullable
+  location: class CarouselLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:890: error: cannot find symbol
+	@Nullable
+	 ^
+  symbol:   class Nullable
+  location: class CarouselLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/transformer/FlatMerryGoRoundTransformer.java:45: error: cannot find symbol
+    public void setNumPies(@IntRange(from = 1) int numPies) {
+                            ^
+  symbol:   class IntRange
+  location: class FlatMerryGoRoundTransformer
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/transformer/FlatMerryGoRoundTransformer.java:54: error: cannot find symbol
+    public void setHorizontalViewPort(@FloatRange(from = 0.0, to = 1.0, fromInclusive = false) double horizontalViewPort) {
+                                       ^
+  symbol:   class FloatRange
+  location: class FlatMerryGoRoundTransformer
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/transformer/FlatMerryGoRoundTransformer.java:70: error: cannot find symbol
+    public void setFarAlpha(@FloatRange(from = 0.0, to = 1.0) double farAlpha) {
+                             ^
+  symbol:   class FloatRange
+  location: class FlatMerryGoRoundTransformer
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/transformer/CoverFlowViewTransformer.java:59: error: cannot find symbol
+    public void setYProjection(@FloatRange(from = 0.0, to = 90.0) double yProjectionDegree) {
+                                ^
+  symbol:   class FloatRange
+  location: class CoverFlowViewTransformer
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:96: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:121: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:129: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:142: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:152: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:161: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:170: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:179: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:197: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:205: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:214: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:224: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:256: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:283: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:291: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:299: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:338: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:544: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:557: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:891: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/manager/CarouselLayoutManager.java:901: warning - Tag @see: can't find post(Runnable) in com.gtomato.android.ui.widget.CarouselView
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:217: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:227: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:237: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:246: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:255: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:273: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:320: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:344: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:368: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:627: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:635: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:655: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:684: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:171: warning - @hide is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:448: warning - @hide is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:549: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:536: warning - Tag @see: can't find setParameter(Parameter, float) in com.gtomato.android.ui.widget.CarouselView.DisplayMode
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:766: warning - Tag @link: can't find SCROLL_STATE_IDLE in com.gtomato.android.ui.widget.CarouselView.OnScrollListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:766: warning - Tag @link: can't find SCROLL_STATE_DRAGGING in com.gtomato.android.ui.widget.CarouselView.OnScrollListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:766: warning - Tag @link: can't find SCROLL_STATE_SETTLING in com.gtomato.android.ui.widget.CarouselView.OnScrollListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:839: warning - Tag @see: can't find setDrawOrder(DrawOrder) in com.gtomato.android.ui.manager.CarouselLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/carouselview/src/main/java/com/gtomato/android/ui/widget/CarouselView.java:839: warning - Tag @see: can't find setScroller(Scroller) in com.gtomato.android.ui.manager.CarouselLayoutManager
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class IntRange not found.
+javadoc: warning - Class FloatRange not found.
+javadoc: warning - Class FloatRange not found.
+
+100 warnings
+:carouselview:javadocJar
+:carouselview:sourcesJar
+:carouselview:signArchives SKIPPED
+:carouselview:assemble
+:carouselview:build
+
+BUILD SUCCESSFUL
+
+Total time: 14.424 secs
+
+2018-09-02 18:50:55,022 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 18:50:55,022 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 18:51:03,811 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-09-02 18:51:03,811 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-02 18:51:03,811 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-02 18:51:23,592 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:carouselview:preBuild UP-TO-DATE
+:carouselview:preReleaseBuild UP-TO-DATE
+:carouselview:checkReleaseManifest
+:carouselview:preDebugAndroidTestBuild UP-TO-DATE
+:carouselview:preDebugBuild UP-TO-DATE
+:carouselview:preDebugUnitTestBuild UP-TO-DATE
+:carouselview:preReleaseUnitTestBuild UP-TO-DATE
+:carouselview:prepareComAndroidSupportAppcompatV72103Library
+:carouselview:prepareComAndroidSupportRecyclerviewV72103Library
+:carouselview:prepareComAndroidSupportSupportV42103Library
+:carouselview:prepareReleaseDependencies
+:carouselview:compileReleaseAidl UP-TO-DATE
+:carouselview:compileReleaseNdk UP-TO-DATE
+:carouselview:compileLint UP-TO-DATE
+:carouselview:copyReleaseLint UP-TO-DATE
+:carouselview:compileReleaseRenderscript UP-TO-DATE
+:carouselview:generateReleaseBuildConfig UP-TO-DATE
+:carouselview:generateReleaseResValues UP-TO-DATE
+:carouselview:generateReleaseResources UP-TO-DATE
+:carouselview:mergeReleaseResources UP-TO-DATE
+:carouselview:processReleaseManifest UP-TO-DATE
+:carouselview:processReleaseResources UP-TO-DATE
+:carouselview:generateReleaseSources UP-TO-DATE
+:carouselview:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:carouselview:javaPreCompileRelease
+:carouselview:compileReleaseJavaWithJavac UP-TO-DATE
+:carouselview:extractReleaseAnnotations UP-TO-DATE
+:carouselview:mergeReleaseShaders UP-TO-DATE
+:carouselview:compileReleaseShaders UP-TO-DATE
+:carouselview:generateReleaseAssets UP-TO-DATE
+:carouselview:mergeReleaseAssets UP-TO-DATE
+:carouselview:mergeReleaseProguardFiles UP-TO-DATE
+:carouselview:packageReleaseRenderscript UP-TO-DATE
+:carouselview:packageReleaseResources UP-TO-DATE
+:carouselview:processReleaseJavaRes UP-TO-DATE
+:carouselview:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:carouselview:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:carouselview:mergeReleaseJniLibFolders UP-TO-DATE
+:carouselview:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:carouselview:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:carouselview:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:carouselview:bundleRelease UP-TO-DATE
+:demo:preBuild UP-TO-DATE
+:demo:preDebugBuild UP-TO-DATE
+:demo:checkDebugManifest
+:demo:preReleaseBuild UP-TO-DATE
+:demo:prepareComAndroidSupportAnimatedVectorDrawable2510Library
+:demo:prepareComAndroidSupportAppcompatV72510Library
+:demo:prepareComAndroidSupportDesign2510Library
+:demo:prepareComAndroidSupportRecyclerviewV72510Library
+:demo:prepareComAndroidSupportSupportCompat2510Library
+:demo:prepareComAndroidSupportSupportCoreUi2510Library
+:demo:prepareComAndroidSupportSupportCoreUtils2510Library
+:demo:prepareComAndroidSupportSupportFragment2510Library
+:demo:prepareComAndroidSupportSupportMediaCompat2510Library
+:demo:prepareComAndroidSupportSupportV42510Library
+:demo:prepareComAndroidSupportSupportVectorDrawable2510Library
+:demo:prepareComAndroidSupportTransition2510Library
+:demo:prepareDebugDependencies
+:demo:compileDebugAidl
+:demo:compileDebugRenderscript
+:demo:generateDebugBuildConfig
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:demo:mergeDebugResources
+:demo:processDebugManifest
+:demo:processDebugResources
+:demo:generateDebugSources
+:demo:incrementalDebugJavaCompilationSafeguard
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavac
+:demo:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/demo/src/main/java/com/gtomato/android/demo/carouselviewdemo/ConfigRecyclerAdapter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:demo:compileDebugNdk UP-TO-DATE
+:demo:compileDebugSources
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:demo:mergeDebugAssets
+:demo:transformClassesWithDexForDebug
+:demo:mergeDebugJniLibFolders
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:processDebugJavaRes UP-TO-DATE
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:validateSigningDebug
+:demo:packageDebug
+:demo:assembleDebug
+:demo:checkReleaseManifest
+:demo:prepareReleaseDependencies
+:demo:compileReleaseAidl
+:demo:compileReleaseRenderscript
+:demo:generateReleaseBuildConfig
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:demo:mergeReleaseResources
+:demo:processReleaseManifest
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:demo:incrementalReleaseJavaCompilationSafeguard
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavac
+:demo:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/demo/src/main/java/com/gtomato/android/demo/carouselviewdemo/ConfigRecyclerAdapter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:demo:compileReleaseNdk UP-TO-DATE
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:demo:mergeReleaseAssets
+:demo:transformClassesWithDexForRelease
+:demo:mergeReleaseJniLibFolders
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:processReleaseJavaRes UP-TO-DATE
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL
+
+Total time: 19.504 secs
+
+2018-09-02 18:51:23,714 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535889029178-0/src/carouselview-master/demo/build/outputs/apk/demo-release-unsigned.apk

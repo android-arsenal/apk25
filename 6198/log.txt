@@ -1,0 +1,319 @@
+2018-09-01 22:55:38,827 INFO  DownloadService - Downloading "https://github.com/JustKiddingBaby/SupportFragment/archive/master.zip", attempt 3
+2018-09-01 22:55:44,517 INFO  DownloadService - Downloaded https://github.com/JustKiddingBaby/SupportFragment/archive/master.zip, attempt 3
+2018-09-01 22:55:44,517 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/master.zip": 13 MB
+2018-09-01 22:55:44,517 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 22:55:44,525 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/master.zip: true
+2018-09-01 22:55:44,525 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src'.
+2018-09-01 22:55:44,672 INFO  FullProcessService - Size of directory with sources: 13 MB
+2018-09-01 22:55:44,672 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src]
+2018-09-01 22:55:44,688 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/.git/
+
+2018-09-01 22:55:44,697 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/gradlew
+2018-09-01 22:55:44,706 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/commonLib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/supportFragment/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/build.gradle
+2018-09-01 22:55:44,715 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/commonLib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/supportFragment/build.gradle
+2018-09-01 22:55:44,715 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 22:55:44,715 INFO  ProjectFixService - Fixing project...
+2018-09-01 22:55:44,734 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/app/local.properties
+2018-09-01 22:55:44,737 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-01 22:55:44,737 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-01 22:55:44,738 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/commonLib/local.properties
+2018-09-01 22:55:44,743 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/commonLib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-01 22:55:44,744 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/commonLib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-01 22:55:44,745 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/supportFragment/local.properties
+2018-09-01 22:55:44,748 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/supportFragment/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-01 22:55:44,748 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/supportFragment/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-01 22:55:44,749 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/local.properties
+2018-09-01 22:55:44,750 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-01 22:55:44,750 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-01 22:55:44,753 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-01 22:55:44,753 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-01 22:55:44,753 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 22:55:44,754 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 22:55:44,754 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 22:56:26,457 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-09-01 22:56:26,459 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-01 22:56:26,459 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-01 22:57:15,727 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAlibabaArouterApi1211Library
+:app:prepareComAndroidDatabindingAdapters131Library
+:app:prepareComAndroidDatabindingLibrary131Library
+:app:prepareComAndroidSupportAnimatedVectorDrawable2400Library
+:app:prepareComAndroidSupportAppcompatV72400Library
+:app:prepareComAndroidSupportDesign2400Library
+:app:preDebugAndroidTestBuild UP-TO-DATE
+:app:prepareComAndroidSupportMultidex101Library
+:app:prepareComAndroidSupportRecyclerviewV72400Library
+:app:prepareComAndroidSupportSupportCompat2520Library
+:app:prepareComAndroidSupportSupportCoreUi2520Library
+:app:prepareComAndroidSupportSupportCoreUtils2520Library
+:app:prepareComAndroidSupportSupportFragment2520Library
+:app:prepareComAndroidSupportSupportMediaCompat2520Library
+:app:prepareComAndroidSupportSupportV42520Library
+:app:prepareComAndroidSupportSupportVectorDrawable2400Library
+:app:prepareComJustkiddingbabySlidemenu101Library
+:app:prepareDeHdodenhofCircleimageview210Library
+:app:prepareOrgSimpleAndroideventbus1051Library
+:commonLib:preBuild UP-TO-DATE
+:commonLib:preReleaseBuild UP-TO-DATE
+:commonLib:checkReleaseManifest
+:commonLib:preDebugAndroidTestBuild UP-TO-DATE
+:commonLib:preDebugBuild UP-TO-DATE
+:commonLib:preDebugUnitTestBuild UP-TO-DATE
+:commonLib:preReleaseUnitTestBuild UP-TO-DATE
+:commonLib:prepareComAlibabaArouterApi1211Library
+:commonLib:prepareComAndroidDatabindingAdapters131Library
+:commonLib:prepareComAndroidDatabindingLibrary131Library
+:commonLib:prepareComAndroidSupportAppcompatV72301Library
+:commonLib:prepareComAndroidSupportMultidex101Library
+:commonLib:prepareComAndroidSupportSupportCompat2520Library
+:commonLib:prepareComAndroidSupportSupportCoreUi2520Library
+:commonLib:prepareComAndroidSupportSupportCoreUtils2520Library
+:commonLib:prepareComAndroidSupportSupportFragment2520Library
+:commonLib:prepareComAndroidSupportSupportMediaCompat2520Library
+:commonLib:prepareComAndroidSupportSupportV42520Library
+:commonLib:prepareOrgSimpleAndroideventbus1051Library
+:supportFragment:preBuild UP-TO-DATE
+:supportFragment:preReleaseBuild UP-TO-DATE
+:supportFragment:checkReleaseManifest
+:supportFragment:preDebugAndroidTestBuild UP-TO-DATE
+:supportFragment:preDebugBuild UP-TO-DATE
+:supportFragment:preDebugUnitTestBuild UP-TO-DATE
+:supportFragment:preReleaseUnitTestBuild UP-TO-DATE
+:supportFragment:prepareComAndroidSupportAppcompatV72301Library
+:supportFragment:prepareComAndroidSupportMultidex101Library
+:supportFragment:prepareComAndroidSupportSupportV42301Library
+:supportFragment:prepareReleaseDependencies
+:supportFragment:compileReleaseAidl
+:supportFragment:compileReleaseNdk UP-TO-DATE
+:supportFragment:compileLint
+:supportFragment:copyReleaseLint UP-TO-DATE
+:supportFragment:compileReleaseRenderscript
+:supportFragment:generateReleaseBuildConfig
+:supportFragment:generateReleaseResValues
+:supportFragment:generateReleaseResources
+:supportFragment:mergeReleaseResources
+:supportFragment:processReleaseManifest
+:supportFragment:processReleaseResources
+:supportFragment:generateReleaseSources
+:supportFragment:incrementalReleaseJavaCompilationSafeguard
+:supportFragment:javaPreCompileRelease
+:supportFragment:compileReleaseJavaWithJavac
+:supportFragment:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:supportFragment:extractReleaseAnnotations
+:supportFragment:mergeReleaseShaders
+:supportFragment:compileReleaseShaders
+:supportFragment:generateReleaseAssets
+:supportFragment:mergeReleaseAssets
+:supportFragment:mergeReleaseProguardFiles
+:supportFragment:packageReleaseRenderscript UP-TO-DATE
+:supportFragment:packageReleaseResources
+:supportFragment:processReleaseJavaRes UP-TO-DATE
+:supportFragment:transformResourcesWithMergeJavaResForRelease
+:supportFragment:transformClassesAndResourcesWithSyncLibJarsForRelease
+:supportFragment:mergeReleaseJniLibFolders
+:supportFragment:transformNativeLibsWithMergeJniLibsForRelease
+:supportFragment:transformNativeLibsWithStripDebugSymbolForRelease
+:supportFragment:transformNativeLibsWithSyncJniLibsForRelease
+:supportFragment:bundleRelease
+:commonLib:prepareReleaseDependencies
+:commonLib:compileReleaseAidl
+:commonLib:compileReleaseNdk UP-TO-DATE
+:commonLib:compileLint
+:commonLib:copyReleaseLint UP-TO-DATE
+:commonLib:compileReleaseRenderscript
+:commonLib:generateReleaseResValues
+:commonLib:generateReleaseResources
+:commonLib:mergeReleaseResources
+:commonLib:dataBindingProcessLayoutsRelease
+:commonLib:generateReleaseBuildConfig
+:commonLib:processReleaseManifest
+:commonLib:processReleaseResources
+:commonLib:generateReleaseSources
+:commonLib:dataBindingExportBuildInfoRelease
+:commonLib:greendaoPrepare
+:commonLib:greendao
+:commonLib:incrementalReleaseJavaCompilationSafeguard
+:commonLib:javaPreCompileRelease
+:commonLib:transformClassesAndDataBindingWithDataBindingMergeArtifactsForRelease
+:commonLib:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:commonLib:extractReleaseAnnotations
+:commonLib:mergeReleaseShaders
+:commonLib:compileReleaseShaders
+:commonLib:generateReleaseAssets
+:commonLib:mergeReleaseAssets
+:commonLib:mergeReleaseProguardFiles
+:commonLib:packageReleaseRenderscript UP-TO-DATE
+:commonLib:packageReleaseResources
+:commonLib:processReleaseJavaRes UP-TO-DATE
+:commonLib:transformResourcesWithMergeJavaResForRelease
+:commonLib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:commonLib:mergeReleaseJniLibFolders
+:commonLib:transformNativeLibsWithMergeJniLibsForRelease
+:commonLib:transformNativeLibsWithStripDebugSymbolForRelease
+:commonLib:transformNativeLibsWithSyncJniLibsForRelease
+:commonLib:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugRenderscript
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:dataBindingProcessLayoutsDebug
+:app:compileDebugAidl
+:app:generateDebugBuildConfig
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:dataBindingExportBuildInfoDebug
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:transformClassesAndDataBindingWithDataBindingMergeArtifactsForDebug
+:app:compileDebugJavaWithJavacNote: ARouter::Compiler >>> AutowiredProcessor init. <<<
+Note: ARouter::Compiler The user has configuration the module name, it was [app]
+Note: ARouter::Compiler >>> InterceptorProcessor init. <<<
+Note: ARouter::Compiler The user has configuration the module name, it was [app]
+Note: ARouter::Compiler >>> RouteProcessor init. <<<
+Note: ARouter::Compiler >>> Found routes, start... <<<
+Note: ARouter::Compiler >>> Found routes, size is 13 <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.auth.areaCode.AreaCodeDialogFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = auth, path = /auth/areaCode <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.auth.register.RegisterFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = auth, path = /auth/register <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.auth.account.AccountFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = auth, path = /auth/account <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.auth.login.LoginFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = auth, path = /auth/login <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.auth.verCode.VerCodeFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = auth, path = /auth/verCode <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.user.chat.ChatListFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = user, path = /user/chat/list <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.user.friends.FriendsListFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = user, path = /user/friends/list <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.main.menu.right.SlideMenuRightFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = app, path = /app/main/slide/right <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.main.menu.left.SlideMenuLeftFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = app, path = /app/main/slide/left <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.main.radar.RadarSearchFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = app, path = /app/main/radar <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.main.MainFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = app, path = /app/main <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.onboarding.OnBoardingPlaceHolderFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = onBoarding, path = /onBoarding/placeholder <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.onboarding.OnBoardingFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = onBoarding, path = /onBoarding/content <<<
+Note: ARouter::Compiler >>> Generated group: app<<<
+Note: ARouter::Compiler >>> Generated group: auth<<<
+Note: ARouter::Compiler >>> Generated group: onBoarding<<<
+Note: ARouter::Compiler >>> Generated group: user<<<
+Note: ARouter::Compiler >>> Generated provider map, name is ARouter$$Providers$$app <<<
+Note: ARouter::Compiler >>> Generated root, name is ARouter$$Root$$app <<<
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/app/src/main/java/com/jkb/supportfragment/demo/business/auth/areaCode/AreaCodeDialogFragment.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithJarMergingForDebug
+:app:transformClassesWithMultidexlistForDebug
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseRenderscript
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:dataBindingProcessLayoutsRelease
+:app:compileReleaseAidl
+:app:generateReleaseBuildConfig
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:dataBindingExportBuildInfoRelease
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:transformClassesAndDataBindingWithDataBindingMergeArtifactsForRelease
+:app:compileReleaseJavaWithJavacNote: ARouter::Compiler >>> AutowiredProcessor init. <<<
+Note: ARouter::Compiler The user has configuration the module name, it was [app]
+Note: ARouter::Compiler >>> InterceptorProcessor init. <<<
+Note: ARouter::Compiler The user has configuration the module name, it was [app]
+Note: ARouter::Compiler >>> RouteProcessor init. <<<
+Note: ARouter::Compiler >>> Found routes, start... <<<
+Note: ARouter::Compiler >>> Found routes, size is 13 <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.auth.areaCode.AreaCodeDialogFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = auth, path = /auth/areaCode <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.auth.register.RegisterFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = auth, path = /auth/register <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.auth.account.AccountFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = auth, path = /auth/account <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.auth.login.LoginFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = auth, path = /auth/login <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.auth.verCode.VerCodeFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = auth, path = /auth/verCode <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.user.chat.ChatListFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = user, path = /user/chat/list <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.user.friends.FriendsListFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = user, path = /user/friends/list <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.main.menu.right.SlideMenuRightFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = app, path = /app/main/slide/right <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.main.menu.left.SlideMenuLeftFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = app, path = /app/main/slide/left <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.main.radar.RadarSearchFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = app, path = /app/main/radar <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.main.MainFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = app, path = /app/main <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.onboarding.OnBoardingPlaceHolderFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = onBoarding, path = /onBoarding/placeholder <<<
+Note: ARouter::Compiler >>> Found fragment route: com.jkb.supportfragment.demo.business.onboarding.OnBoardingFragment <<<
+Note: ARouter::Compiler >>> Start categories, group = onBoarding, path = /onBoarding/content <<<
+Note: ARouter::Compiler >>> Generated group: app<<<
+Note: ARouter::Compiler >>> Generated group: auth<<<
+Note: ARouter::Compiler >>> Generated group: onBoarding<<<
+Note: ARouter::Compiler >>> Generated group: user<<<
+Note: ARouter::Compiler >>> Generated provider map, name is ARouter$$Providers$$app <<<
+Note: ARouter::Compiler >>> Generated root, name is ARouter$$Root$$app <<<
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/app/src/main/java/com/jkb/supportfragment/demo/business/auth/areaCode/AreaCodeDialogFragment.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithJarMergingForRelease
+:app:transformClassesWithMultidexlistForRelease
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:validateSigningRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 48.801 secs
+
+2018-09-01 22:57:15,905 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817338824-0/src/SupportFragment-master/app/build/outputs/apk/app-debug.apk

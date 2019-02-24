@@ -1,0 +1,174 @@
+2018-12-09 18:38:10,205 INFO  DownloadService - Downloading "https://github.com/RafalManka/ScrollCalendar/archive/master.zip", attempt 3
+2018-12-09 18:38:10,906 INFO  DownloadService - Downloaded https://github.com/RafalManka/ScrollCalendar/archive/master.zip, attempt 3
+2018-12-09 18:38:10,906 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/master.zip": 544 KB
+2018-12-09 18:38:10,906 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-09 18:38:10,911 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/master.zip: true
+2018-12-09 18:38:10,912 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src'.
+2018-12-09 18:38:10,953 INFO  FullProcessService - Size of directory with sources: 784 KB
+2018-12-09 18:38:10,953 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src]
+2018-12-09 18:38:10,971 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/.git/
+
+2018-12-09 18:38:10,975 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/gradlew
+2018-12-09 18:38:10,981 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/scrollcalendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/build.gradle
+2018-12-09 18:38:10,987 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/scrollcalendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/settings.gradle
+2018-12-09 18:38:10,988 INFO  ProjectBuildService - Remote scripts: none
+2018-12-09 18:38:10,988 INFO  ProjectFixService - Fixing project...
+2018-12-09 18:38:11,000 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/examples/local.properties
+2018-12-09 18:38:11,000 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/examples/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-12-09 18:38:11,001 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/scrollcalendar/local.properties
+2018-12-09 18:38:11,001 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/scrollcalendar/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-09 18:38:11,002 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/local.properties
+2018-12-09 18:38:11,003 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-12-09 18:38:11,003 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-12-09 18:38:11,004 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-09 18:38:11,004 INFO  ProjectFixService - Project was maybe fixed
+2018-12-09 18:38:11,004 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-09 18:38:11,005 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-09 18:38:18,498 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-12-09 18:38:18,498 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-09 18:38:18,498 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-09 18:38:54,390 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation' and 'androidTestApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:examples:preBuild UP-TO-DATE
+:scrollcalendar:preBuild UP-TO-DATE
+:scrollcalendar:preDebugBuild UP-TO-DATE
+:scrollcalendar:checkDebugManifest
+:scrollcalendar:processDebugManifest
+:examples:preDebugBuild
+:scrollcalendar:compileDebugAidl
+:examples:compileDebugAidl
+:scrollcalendar:packageDebugRenderscript NO-SOURCE
+:examples:compileDebugRenderscript
+:examples:checkDebugManifest
+:examples:generateDebugBuildConfig
+:examples:prepareLintJar
+:examples:mainApkListPersistenceDebug
+:examples:generateDebugResValues
+:examples:generateDebugResources
+:scrollcalendar:compileDebugRenderscript
+:scrollcalendar:generateDebugResValues
+:scrollcalendar:generateDebugResources
+:scrollcalendar:packageDebugResources
+:examples:mergeDebugResources
+:examples:createDebugCompatibleScreenManifests
+:examples:processDebugManifest
+:examples:splitsDiscoveryTaskDebug
+:scrollcalendar:platformAttrExtractor
+:scrollcalendar:generateDebugBuildConfig
+:scrollcalendar:prepareLintJar
+:scrollcalendar:javaPreCompileDebug
+:scrollcalendar:processDebugJavaRes NO-SOURCE
+:examples:compileDebugNdk NO-SOURCE
+:examples:mergeDebugShaders
+:examples:compileDebugShaders
+:examples:generateDebugAssets
+:scrollcalendar:mergeDebugShaders
+:scrollcalendar:compileDebugShaders
+:scrollcalendar:generateDebugAssets
+:scrollcalendar:packageDebugAssets
+:examples:mergeDebugAssets
+:examples:mergeDebugJniLibFolders
+:scrollcalendar:compileDebugNdk NO-SOURCE
+:scrollcalendar:mergeDebugJniLibFolders
+:scrollcalendar:transformNativeLibsWithMergeJniLibsForDebug
+:scrollcalendar:transformNativeLibsWithStripDebugSymbolForDebug
+:scrollcalendar:transformNativeLibsWithIntermediateJniLibsForDebug
+:examples:processDebugJavaRes NO-SOURCE
+:examples:validateSigningDebug
+:scrollcalendar:preReleaseBuild UP-TO-DATE
+:scrollcalendar:checkReleaseManifest
+:scrollcalendar:processReleaseManifest
+:examples:preReleaseBuild
+:scrollcalendar:compileReleaseAidl
+:examples:compileReleaseAidl
+:scrollcalendar:packageReleaseRenderscript NO-SOURCE
+:examples:compileReleaseRenderscript
+:examples:checkReleaseManifest
+:examples:generateReleaseBuildConfig
+:examples:mainApkListPersistenceRelease
+:examples:generateReleaseResValues
+:examples:generateReleaseResources
+:scrollcalendar:compileReleaseRenderscript
+:scrollcalendar:generateReleaseResValues
+:scrollcalendar:generateReleaseResources
+:scrollcalendar:packageReleaseResources
+:examples:mergeReleaseResources
+:examples:createReleaseCompatibleScreenManifests
+:examples:processReleaseManifest
+:examples:splitsDiscoveryTaskRelease
+:scrollcalendar:generateReleaseBuildConfig
+:scrollcalendar:javaPreCompileRelease
+:scrollcalendar:processReleaseJavaRes NO-SOURCE
+:examples:compileReleaseNdk NO-SOURCE
+:examples:mergeReleaseShaders
+:examples:compileReleaseShaders
+:examples:generateReleaseAssets
+:scrollcalendar:mergeReleaseShaders
+:scrollcalendar:compileReleaseShaders
+:scrollcalendar:generateReleaseAssets
+:scrollcalendar:packageReleaseAssets
+:examples:mergeReleaseAssets
+:examples:mergeReleaseJniLibFolders
+:scrollcalendar:compileReleaseNdk NO-SOURCE
+:scrollcalendar:mergeReleaseJniLibFolders
+:scrollcalendar:transformNativeLibsWithMergeJniLibsForRelease
+:scrollcalendar:transformNativeLibsWithStripDebugSymbolForRelease
+:scrollcalendar:transformNativeLibsWithIntermediateJniLibsForRelease
+:examples:processReleaseJavaRes NO-SOURCE
+:scrollcalendar:generateDebugRFile
+:examples:processDebugResources
+:examples:generateDebugSources
+:scrollcalendar:generateDebugSources
+:scrollcalendar:compileDebugJavaWithJavac
+:scrollcalendar:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:examples:javaPreCompileDebug
+:examples:compileDebugJavaWithJavac
+:examples:compileDebugSources
+:examples:transformClassesWithDexBuilderForDebug
+:examples:transformDexArchiveWithExternalLibsDexMergerForDebug
+:examples:transformDexArchiveWithDexMergerForDebug
+:examples:transformNativeLibsWithMergeJniLibsForDebug
+:examples:transformNativeLibsWithStripDebugSymbolForDebug
+:examples:transformResourcesWithMergeJavaResForDebug
+:examples:packageDebug
+:examples:assembleDebug
+:scrollcalendar:generateReleaseRFile
+:examples:processReleaseResources
+:examples:generateReleaseSources
+:scrollcalendar:generateReleaseSources
+:scrollcalendar:compileReleaseJavaWithJavac
+:scrollcalendar:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:examples:javaPreCompileRelease
+:examples:compileReleaseJavaWithJavac
+:examples:compileReleaseSources
+:examples:lintVitalRelease
+:examples:transformClassesWithDexBuilderForRelease
+:examples:transformDexArchiveWithExternalLibsDexMergerForRelease
+:examples:transformDexArchiveWithDexMergerForRelease
+:examples:transformNativeLibsWithMergeJniLibsForRelease
+:examples:transformNativeLibsWithStripDebugSymbolForRelease
+:examples:transformResourcesWithMergeJavaResForRelease
+:examples:packageRelease
+:examples:assembleRelease
+:examples:assemble
+:examples:build
+
+BUILD SUCCESSFUL in 35s
+91 actionable tasks: 91 executed
+
+2018-12-09 18:38:54,487 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544355490202-0/src/ScrollCalendar-master/examples/build/outputs/apk/release/examples-release-unsigned.apk

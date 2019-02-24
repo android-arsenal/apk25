@@ -1,0 +1,582 @@
+2018-12-13 11:21:34,774 INFO  DownloadService - Downloading "https://github.com/yuriy-budiyev/code-scanner/archive/master.zip", attempt 3
+2018-12-13 11:21:35,419 INFO  DownloadService - Downloaded https://github.com/yuriy-budiyev/code-scanner/archive/master.zip, attempt 3
+2018-12-13 11:21:35,419 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/master.zip": 156 KB
+2018-12-13 11:21:35,419 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-13 11:21:35,420 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/master.zip: true
+2018-12-13 11:21:35,420 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src'.
+2018-12-13 11:21:35,436 INFO  FullProcessService - Size of directory with sources: 257 KB
+2018-12-13 11:21:35,436 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src]
+2018-12-13 11:21:35,453 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/.git/
+
+2018-12-13 11:21:35,456 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/gradlew
+2018-12-13 11:21:35,458 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/build.gradle
+2018-12-13 11:21:35,460 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/build.gradle
+2018-12-13 11:21:35,461 INFO  ProjectBuildService - Remote scripts: none
+2018-12-13 11:21:35,461 INFO  ProjectFixService - Fixing project...
+2018-12-13 11:21:35,466 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/local.properties
+2018-12-13 11:21:35,467 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-13 11:21:35,467 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-13 11:21:35,468 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2018-12-13 11:21:35,468 INFO  ProjectFixService - Project was maybe fixed
+2018-12-13 11:21:35,468 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-13 11:21:35,468 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-13 11:21:42,904 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-12-13 11:21:42,904 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-13 11:21:42,904 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-13 11:21:59,472 INFO  SysUtils - Configuration on demand is an incubating feature.
+:preBuild UP-TO-DATE
+:preDebugBuild UP-TO-DATE
+:compileDebugAidl NO-SOURCE
+:compileDebugRenderscript
+:checkDebugManifest
+:generateDebugBuildConfig
+:generateDebugResValues
+:generateDebugResources
+:packageDebugResources
+:processDebugManifest
+:generateDebugRFile
+:prepareLintJar
+:generateDebugSources
+:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/google/zxing/core/3.3.3/core-3.3.3.jar
+:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:extractDebugAnnotations
+:mergeDebugConsumerProguardFiles
+:mergeDebugShaders
+:compileDebugShaders
+:generateDebugAssets
+:packageDebugAssets
+:packageDebugRenderscript NO-SOURCE
+:processDebugJavaRes NO-SOURCE
+:transformResourcesWithMergeJavaResForDebug
+:transformClassesAndResourcesWithSyncLibJarsForDebug
+:compileDebugNdk NO-SOURCE
+:mergeDebugJniLibFolders
+:transformNativeLibsWithMergeJniLibsForDebug
+:transformNativeLibsWithStripDebugSymbolForDebug
+:transformNativeLibsWithSyncJniLibsForDebug
+:bundleDebugAar
+:compileDebugSources
+:assembleDebug
+:preReleaseBuild UP-TO-DATE
+:compileReleaseAidl NO-SOURCE
+:compileReleaseRenderscript
+:checkReleaseManifest
+:generateReleaseBuildConfig
+:generateReleaseResValues
+:generateReleaseResources
+:packageReleaseResources
+:processReleaseManifest
+:generateReleaseRFile
+:generateReleaseSources
+:javaPreCompileRelease
+:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:extractReleaseAnnotations
+:mergeReleaseConsumerProguardFiles
+:mergeReleaseShaders
+:compileReleaseShaders
+:generateReleaseAssets
+:packageReleaseAssets
+:packageReleaseRenderscript NO-SOURCE
+:processReleaseJavaRes NO-SOURCE
+:transformResourcesWithMergeJavaResForRelease
+:transformClassesAndResourcesWithSyncLibJarsForRelease
+:compileReleaseNdk NO-SOURCE
+:mergeReleaseJniLibFolders
+:transformNativeLibsWithMergeJniLibsForRelease
+:transformNativeLibsWithStripDebugSymbolForRelease
+:transformNativeLibsWithSyncJniLibsForRelease
+:bundleReleaseAar
+:compileReleaseSources
+:mergeReleaseResources
+:verifyReleaseResources
+:assembleRelease
+:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/DecoderWrapper.java:28: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Decoder.java:32: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Decoder.java:33: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Decoder.java:34: error: package com.google.zxing does not exist
+import com.google.zxing.BarcodeFormat;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Decoder.java:35: error: package com.google.zxing does not exist
+import com.google.zxing.DecodeHintType;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Decoder.java:36: error: package com.google.zxing does not exist
+import com.google.zxing.MultiFormatReader;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Decoder.java:37: error: package com.google.zxing does not exist
+import com.google.zxing.ReaderException;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Decoder.java:38: error: package com.google.zxing does not exist
+import com.google.zxing.Result;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Decoder.java:41: error: cannot find symbol
+    private final MultiFormatReader mReader;
+                  ^
+  symbol:   class MultiFormatReader
+  location: class Decoder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Decoder.java:44: error: cannot find symbol
+    private final Map<DecodeHintType, Object> mHints;
+                      ^
+  symbol:   class DecodeHintType
+  location: class Decoder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/DecodeCallback.java:30: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/DecodeCallback.java:31: error: cannot find symbol
+import androidx.annotation.WorkerThread;
+                          ^
+  symbol:   class WorkerThread
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/DecodeCallback.java:32: error: package com.google.zxing does not exist
+import com.google.zxing.Result;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/DecodeTask.java:26: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/DecodeTask.java:27: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/DecodeTask.java:28: error: package com.google.zxing does not exist
+import com.google.zxing.MultiFormatReader;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/DecodeTask.java:29: error: package com.google.zxing does not exist
+import com.google.zxing.PlanarYUVLuminanceSource;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/DecodeTask.java:30: error: package com.google.zxing does not exist
+import com.google.zxing.ReaderException;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/DecodeTask.java:31: error: package com.google.zxing does not exist
+import com.google.zxing.Result;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Decoder.java:51: error: cannot find symbol
+            @NonNull final List<BarcodeFormat> formats, @Nullable final DecodeCallback callback) {
+                                ^
+  symbol:   class BarcodeFormat
+  location: class Decoder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Decoder.java:62: error: cannot find symbol
+    public void setFormats(@NonNull final List<BarcodeFormat> formats) {
+                                               ^
+  symbol:   class BarcodeFormat
+  location: class Decoder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/DecodeCallback.java:49: error: cannot find symbol
+    void onDecoded(@NonNull Result result);
+                            ^
+  symbol:   class Result
+  location: interface DecodeCallback
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Rect.java:28: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/DecodeTask.java:57: error: cannot find symbol
+    public Result decode(@NonNull final MultiFormatReader reader) throws ReaderException {
+                                        ^
+  symbol:   class MultiFormatReader
+  location: class DecodeTask
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/DecodeTask.java:57: error: cannot find symbol
+    public Result decode(@NonNull final MultiFormatReader reader) throws ReaderException {
+           ^
+  symbol:   class Result
+  location: class DecodeTask
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/DecodeTask.java:57: error: cannot find symbol
+    public Result decode(@NonNull final MultiFormatReader reader) throws ReaderException {
+                                                                         ^
+  symbol:   class ReaderException
+  location: class DecodeTask
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/ViewFinderView.java:32: error: cannot find symbol
+import androidx.annotation.ColorInt;
+                          ^
+  symbol:   class ColorInt
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/ViewFinderView.java:33: error: cannot find symbol
+import androidx.annotation.FloatRange;
+                          ^
+  symbol:   class FloatRange
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/ViewFinderView.java:34: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/ViewFinderView.java:35: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/ViewFinderView.java:36: error: cannot find symbol
+import androidx.annotation.Px;
+                          ^
+  symbol:   class Px
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScannerView.java:38: error: cannot find symbol
+import androidx.annotation.AttrRes;
+                          ^
+  symbol:   class AttrRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScannerView.java:39: error: cannot find symbol
+import androidx.annotation.ColorInt;
+                          ^
+  symbol:   class ColorInt
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScannerView.java:40: error: cannot find symbol
+import androidx.annotation.FloatRange;
+                          ^
+  symbol:   class FloatRange
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScannerView.java:41: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScannerView.java:42: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScannerView.java:43: error: cannot find symbol
+import androidx.annotation.Px;
+                          ^
+  symbol:   class Px
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScannerView.java:44: error: cannot find symbol
+import androidx.annotation.RequiresApi;
+                          ^
+  symbol:   class RequiresApi
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScannerView.java:45: error: cannot find symbol
+import androidx.annotation.StyleRes;
+                          ^
+  symbol:   class StyleRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScanner.java:42: error: cannot find symbol
+import androidx.annotation.MainThread;
+                          ^
+  symbol:   class MainThread
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScanner.java:43: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScanner.java:44: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScanner.java:45: error: package com.google.zxing does not exist
+import com.google.zxing.BarcodeFormat;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScanner.java:60: error: cannot find symbol
+    public static final List<BarcodeFormat> ALL_FORMATS =
+                             ^
+  symbol:   class BarcodeFormat
+  location: class CodeScanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScanner.java:66: error: cannot find symbol
+    public static final List<BarcodeFormat> ONE_DIMENSIONAL_FORMATS = Collections.unmodifiableList(
+                             ^
+  symbol:   class BarcodeFormat
+  location: class CodeScanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScanner.java:75: error: cannot find symbol
+    public static final List<BarcodeFormat> TWO_DIMENSIONAL_FORMATS = Collections.unmodifiableList(
+                             ^
+  symbol:   class BarcodeFormat
+  location: class CodeScanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScanner.java:89: error: cannot find symbol
+    private static final List<BarcodeFormat> DEFAULT_FORMATS = ALL_FORMATS;
+                              ^
+  symbol:   class BarcodeFormat
+  location: class CodeScanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScanner.java:109: error: cannot find symbol
+    private volatile List<BarcodeFormat> mFormats = DEFAULT_FORMATS;
+                          ^
+  symbol:   class BarcodeFormat
+  location: class CodeScanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/ErrorCallback.java:30: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/ErrorCallback.java:31: error: cannot find symbol
+import androidx.annotation.WorkerThread;
+                          ^
+  symbol:   class WorkerThread
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScanner.java:212: error: cannot find symbol
+    public List<BarcodeFormat> getFormats() {
+                ^
+  symbol:   class BarcodeFormat
+  location: class CodeScanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScanner.java:226: error: cannot find symbol
+    public void setFormats(@NonNull final List<BarcodeFormat> formats) {
+                                               ^
+  symbol:   class BarcodeFormat
+  location: class CodeScanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Utils.java:39: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Utils.java:40: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Utils.java:41: error: package com.google.zxing does not exist
+import com.google.zxing.BinaryBitmap;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Utils.java:42: error: package com.google.zxing does not exist
+import com.google.zxing.LuminanceSource;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Utils.java:43: error: package com.google.zxing does not exist
+import com.google.zxing.MultiFormatReader;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Utils.java:44: error: package com.google.zxing does not exist
+import com.google.zxing.NotFoundException;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Utils.java:45: error: package com.google.zxing does not exist
+import com.google.zxing.ReaderException;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Utils.java:46: error: package com.google.zxing does not exist
+import com.google.zxing.Result;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Utils.java:47: error: package com.google.zxing.common does not exist
+import com.google.zxing.common.HybridBinarizer;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Utils.java:339: error: cannot find symbol
+    public static Result decodeLuminanceSource(@NonNull final MultiFormatReader reader,
+                                                              ^
+  symbol:   class MultiFormatReader
+  location: class Utils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Utils.java:340: error: cannot find symbol
+            @NonNull final LuminanceSource luminanceSource) throws ReaderException {
+                           ^
+  symbol:   class LuminanceSource
+  location: class Utils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Utils.java:339: error: cannot find symbol
+    public static Result decodeLuminanceSource(@NonNull final MultiFormatReader reader,
+                  ^
+  symbol:   class Result
+  location: class Utils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/Utils.java:340: error: cannot find symbol
+            @NonNull final LuminanceSource luminanceSource) throws ReaderException {
+                                                                   ^
+  symbol:   class ReaderException
+  location: class Utils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScannerException.java:28: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScannerException.java:29: error: cannot find symbol
+import androidx.annotation.RequiresApi;
+                          ^
+  symbol:   class RequiresApi
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:35: error: cannot find symbol
+import androidx.annotation.IntDef;
+                          ^
+  symbol:   class IntDef
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:36: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:37: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:38: error: package com.google.zxing does not exist
+import com.google.zxing.BarcodeFormat;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:39: error: package com.google.zxing does not exist
+import com.google.zxing.DecodeHintType;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:40: error: package com.google.zxing does not exist
+import com.google.zxing.EncodeHintType;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:41: error: package com.google.zxing does not exist
+import com.google.zxing.MultiFormatReader;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:42: error: package com.google.zxing does not exist
+import com.google.zxing.MultiFormatWriter;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:43: error: package com.google.zxing does not exist
+import com.google.zxing.PlanarYUVLuminanceSource;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:44: error: package com.google.zxing does not exist
+import com.google.zxing.RGBLuminanceSource;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:45: error: package com.google.zxing does not exist
+import com.google.zxing.ReaderException;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:46: error: package com.google.zxing does not exist
+import com.google.zxing.Result;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:47: error: package com.google.zxing does not exist
+import com.google.zxing.WriterException;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:48: error: package com.google.zxing.common does not exist
+import com.google.zxing.common.BitMatrix;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:69: error: cannot find symbol
+    public static Result decodeBitmap(@NonNull final Bitmap bitmap) {
+                  ^
+  symbol:   class Result
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:83: error: cannot find symbol
+            @Nullable final Map<DecodeHintType, ?> hints) {
+                                ^
+  symbol:   class DecodeHintType
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:82: error: cannot find symbol
+    public static Result decodeBitmap(@NonNull final Bitmap bitmap,
+                  ^
+  symbol:   class Result
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:102: error: cannot find symbol
+    public static Result decodeRgb(@NonNull final int[] pixels, final int width, final int height) {
+                  ^
+  symbol:   class Result
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:119: error: cannot find symbol
+            @Nullable final Map<DecodeHintType, ?> hints) {
+                                ^
+  symbol:   class DecodeHintType
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:118: error: cannot find symbol
+    public static Result decodeRgb(@NonNull final int[] pixels, final int width, final int height,
+                  ^
+  symbol:   class Result
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:139: error: cannot find symbol
+    public static Result decodeYuv(@NonNull final byte[] pixels, final int width,
+                  ^
+  symbol:   class Result
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:160: error: cannot find symbol
+            @Nullable final Map<DecodeHintType, ?> hints) {
+                                ^
+  symbol:   class DecodeHintType
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:158: error: cannot find symbol
+    public static Result decodeYuv(@NonNull final byte[] pixels, final int width, final int height,
+                  ^
+  symbol:   class Result
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:194: error: cannot find symbol
+            @NonNull final BarcodeFormat format, final int width, final int height) {
+                           ^
+  symbol:   class BarcodeFormat
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:193: error: cannot find symbol
+    public static BitMatrix encodeBitMatrix(@NonNull final String content,
+                  ^
+  symbol:   class BitMatrix
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:212: error: cannot find symbol
+            @NonNull final BarcodeFormat format, final int width, final int height,
+                           ^
+  symbol:   class BarcodeFormat
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:213: error: cannot find symbol
+            @Nullable final Map<EncodeHintType, ?> hints) {
+                                ^
+  symbol:   class EncodeHintType
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:211: error: cannot find symbol
+    public static BitMatrix encodeBitMatrix(@NonNull final String content,
+                  ^
+  symbol:   class BitMatrix
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:239: error: cannot find symbol
+            @NonNull final BarcodeFormat format, final int width, final int height) {
+                           ^
+  symbol:   class BarcodeFormat
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:256: error: cannot find symbol
+            @NonNull final BarcodeFormat format, final int width, final int height,
+                           ^
+  symbol:   class BarcodeFormat
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:257: error: cannot find symbol
+            @Nullable final Map<EncodeHintType, ?> hints) {
+                                ^
+  symbol:   class EncodeHintType
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:275: error: cannot find symbol
+    public static Bitmap createBitmap(@NonNull final BitMatrix matrix) {
+                                                     ^
+  symbol:   class BitMatrix
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:288: error: cannot find symbol
+    private static MultiFormatReader createReader(@Nullable final Map<DecodeHintType, ?> hints) {
+                                                                      ^
+  symbol:   class DecodeHintType
+  location: class BarcodeUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:79: error: reference not found
+     * @see DecodeHintType
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:114: error: reference not found
+     * @see DecodeHintType
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:154: error: reference not found
+     * @see DecodeHintType
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:190: error: reference not found
+     * @see BitMatrix
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:207: error: reference not found
+     * @see EncodeHintType
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:208: error: reference not found
+     * @see BitMatrix
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:252: error: reference not found
+     * @see EncodeHintType
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/BarcodeUtils.java:271: error: reference not found
+     * @see BitMatrix
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScanner.java:220: error: reference not found
+     * @see BarcodeFormat
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544674894772-0/src/code-scanner-master/src/main/java/com/budiyev/android/codescanner/CodeScanner.java:53: error: reference not found
+ * @see BarcodeFormat
+        ^
+
+10 errors
+100 warnings
+:javadocJar
+:sourcesJar
+:assemble
+:build
+
+BUILD SUCCESSFUL in 16s
+48 actionable tasks: 48 executed
+
+2018-12-13 11:21:59,488 ERROR FullProcessService - Project build has not produced APK file
+2018-12-13 11:21:59,503 ERROR FullProcessService - Could not find generated or existed APK file
