@@ -1,274 +1,593 @@
-2018-09-01 21:50:43,769 INFO  DownloadService - Downloading "https://github.com/hadiidbouk/ChartProgressBar/archive/master.zip", attempt 3
-2018-09-01 21:50:46,201 INFO  DownloadService - Downloaded https://github.com/hadiidbouk/ChartProgressBar/archive/master.zip, attempt 3
-2018-09-01 21:50:46,202 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/master.zip": 156 KB
-2018-09-01 21:50:46,202 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-01 21:50:46,202 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/master.zip: true
-2018-09-01 21:50:46,202 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src'.
-2018-09-01 21:50:46,224 INFO  FullProcessService - Size of directory with sources: 185 KB
-2018-09-01 21:50:46,224 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src]
-2018-09-01 21:50:46,245 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/.git/
+2019-03-12 11:58:40,827 INFO  DownloadService - Downloading "https://github.com/hadiidbouk/ChartProgressBar/archive/master.zip", attempt 3
+2019-03-12 11:58:43,654 INFO  DownloadService - Downloaded https://github.com/hadiidbouk/ChartProgressBar/archive/master.zip, attempt 3
+2019-03-12 11:58:43,654 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/master.zip": 156 KB
+2019-03-12 11:58:43,654 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-12 11:58:43,659 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/master.zip: true
+2019-03-12 11:58:43,659 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src'.
+2019-03-12 11:58:43,682 INFO  FullProcessService - Size of directory with sources: 185 KB
+2019-03-12 11:58:43,682 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src]
+2019-03-12 11:58:43,700 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/.git/
 
-2018-09-01 21:50:46,248 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/gradlew
-2018-09-01 21:50:46,251 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/charts/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/build.gradle
-2018-09-01 21:50:46,255 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/charts/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/settings.gradle
-2018-09-01 21:50:46,255 INFO  ProjectBuildService - Remote scripts: none
-2018-09-01 21:50:46,255 INFO  ProjectFixService - Fixing project...
-2018-09-01 21:50:46,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/charts/local.properties
-2018-09-01 21:50:46,265 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/charts/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-09-01 21:50:46,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/sample/local.properties
-2018-09-01 21:50:46,266 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/sample/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-09-01 21:50:46,266 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/local.properties
-2018-09-01 21:50:46,267 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-09-01 21:50:46,267 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-09-01 21:50:46,268 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-09-01 21:50:46,268 INFO  ProjectFixService - Project was maybe fixed
-2018-09-01 21:50:46,268 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-01 21:50:46,268 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/charts/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-01 21:51:05,520 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-09-01 21:51:05,520 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-09-01 21:51:05,520 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/charts/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-09-01 21:51:31,755 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation' and 'androidTestApi'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-:charts:preBuild UP-TO-DATE
-:charts:preDebugBuild UP-TO-DATE
-:charts:compileDebugAidl
-:charts:compileDebugRenderscript
-:charts:checkDebugManifest
-:charts:generateDebugBuildConfig
-:charts:generateDebugResValues
-:charts:generateDebugResources
-:charts:packageDebugResources
-:charts:platformAttrExtractor
-:charts:processDebugManifest
-:charts:prepareLintJar
-:charts:javaPreCompileDebug
-:charts:mergeDebugConsumerProguardFiles
-:charts:mergeDebugShaders
-:charts:compileDebugShaders
-:charts:generateDebugAssets
-:charts:packageDebugAssets
-:charts:packageDebugRenderscript NO-SOURCE
-:charts:processDebugJavaRes NO-SOURCE
-:charts:compileDebugNdk NO-SOURCE
-:charts:mergeDebugJniLibFolders
-:charts:transformNativeLibsWithMergeJniLibsForDebug
-:charts:transformNativeLibsWithStripDebugSymbolForDebug
-:charts:transformNativeLibsWithSyncJniLibsForDebug
-:charts:preReleaseBuild UP-TO-DATE
-:charts:compileReleaseAidl
-:charts:compileReleaseRenderscript
-:charts:checkReleaseManifest
-:charts:generateReleaseBuildConfig
-:charts:generateReleaseResValues
-:charts:generateReleaseResources
-:charts:packageReleaseResources
-:charts:processReleaseManifest
-:charts:javaPreCompileRelease
-:charts:mergeReleaseConsumerProguardFiles
-:charts:mergeReleaseShaders
-:charts:compileReleaseShaders
-:charts:generateReleaseAssets
-:charts:packageReleaseAssets
-:charts:packageReleaseRenderscript NO-SOURCE
-:charts:processReleaseJavaRes NO-SOURCE
-:charts:compileReleaseNdk NO-SOURCE
-:charts:mergeReleaseJniLibFolders
-:charts:transformNativeLibsWithMergeJniLibsForRelease
-:charts:transformNativeLibsWithStripDebugSymbolForRelease
-:charts:transformNativeLibsWithSyncJniLibsForRelease
-:charts:mergeReleaseResources
-:charts:verifyReleaseResources
-:charts:generateDebugRFile
-:charts:generateDebugSources
-:charts:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/charts/src/main/java/com/hadiidbouk/charts/ChartProgressBar.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+2019-03-12 11:58:43,703 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/gradlew
+2019-03-12 11:58:43,707 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/charts/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/build.gradle
+2019-03-12 11:58:43,710 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/charts/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/settings.gradle
+2019-03-12 11:58:43,711 INFO  ProjectBuildService - Remote scripts: none
+2019-03-12 11:58:43,711 INFO  ProjectFixService - Fixing project...
+2019-03-12 11:58:43,719 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/charts/local.properties
+2019-03-12 11:58:43,719 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/charts/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-12 11:58:43,720 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/sample/local.properties
+2019-03-12 11:58:43,720 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/sample/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-12 11:58:43,720 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/local.properties
+2019-03-12 11:58:43,721 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-12 11:58:43,721 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-12 11:58:43,722 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-12 11:58:43,722 INFO  ProjectFixService - Project was maybe fixed
+2019-03-12 11:58:43,722 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-12 11:58:43,722 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/charts/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-12 11:58:47,852 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-12 11:58:47,852 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-12 11:58:47,852 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-12 11:58:47,852 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/charts/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-12 11:58:50,363 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-12 11:58:50,363 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-:charts:extractDebugAnnotations
-:charts:transformResourcesWithMergeJavaResForDebug
-:charts:transformClassesAndResourcesWithSyncLibJarsForDebug
-:charts:bundleDebug
-:charts:compileDebugSources
-:charts:assembleDebug
-:charts:generateReleaseRFile
-:charts:generateReleaseSources
-:charts:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/charts/src/main/java/com/hadiidbouk/charts/ChartProgressBar.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+FAILURE: Build failed with an exception.
 
-:charts:extractReleaseAnnotations
-:charts:transformResourcesWithMergeJavaResForRelease
-:charts:transformClassesAndResourcesWithSyncLibJarsForRelease
-:charts:bundleRelease
-:charts:compileReleaseSources
-:charts:assembleRelease
-:charts:assemble
-:charts:build
+* What went wrong:
+A problem occurred configuring root project 'ChartProgressBar-Android-master'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.1).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/build/manifest-merger/26.1.1/manifest-merger-26.1.1.jar
+   > Could not find ddmlib.jar (com.android.tools.ddms:ddmlib:26.1.1).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/26.1.1/ddmlib-26.1.1.jar
+   > Could not find dvlib.jar (com.android.tools:dvlib:26.1.1).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/dvlib/26.1.1/dvlib-26.1.1.jar
+   > Could not find common.jar (com.android.tools:common:26.1.1).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/common/26.1.1/common-26.1.1.jar
 
-BUILD SUCCESSFUL in 25s
-48 actionable tasks: 48 executed
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
-2018-09-01 21:51:31,791 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-01 21:51:31,791 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-01 21:51:38,201 INFO  ProjectTaskService - Detected possible tasks: 68
-2018-09-01 21:51:38,202 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-09-01 21:51:38,202 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-09-01 21:52:08,650 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation' and 'androidTestApi'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: The specified Android SDK Build Tools version (27.0.1) is ignored, as it is below the minimum supported version (27.0.3) for Android Gradle Plugin 3.1.1.
-Android SDK Build Tools 27.0.3 will be used.
-To suppress this warning, remove "buildToolsVersion '27.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
-WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation' and 'androidTestApi'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-:charts:preBuild UP-TO-DATE
-:charts:preDebugBuild UP-TO-DATE
-:charts:compileDebugAidl UP-TO-DATE
-:charts:compileDebugRenderscript UP-TO-DATE
-:charts:checkDebugManifest UP-TO-DATE
-:charts:generateDebugBuildConfig UP-TO-DATE
-:charts:generateDebugResValues UP-TO-DATE
-:charts:generateDebugResources UP-TO-DATE
-:charts:packageDebugResources UP-TO-DATE
-:charts:platformAttrExtractor UP-TO-DATE
-:charts:processDebugManifest UP-TO-DATE
-:charts:generateDebugRFile UP-TO-DATE
-:charts:prepareLintJar UP-TO-DATE
-:charts:generateDebugSources UP-TO-DATE
-:charts:javaPreCompileDebug UP-TO-DATE
-:charts:compileDebugJavaWithJavac UP-TO-DATE
-:charts:processDebugJavaRes NO-SOURCE
-:charts:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:sample:preBuild UP-TO-DATE
-:sample:preDebugBuild
-:sample:compileDebugAidl
-:charts:packageDebugRenderscript NO-SOURCE
-:sample:compileDebugRenderscript
-:sample:checkDebugManifest
-:sample:generateDebugBuildConfig
-:sample:prepareLintJar
-:sample:mainApkListPersistenceDebug
-:sample:generateDebugResValues
-:sample:generateDebugResources
-:sample:mergeDebugResources
-:sample:createDebugCompatibleScreenManifests
-:sample:processDebugManifest
-:sample:splitsDiscoveryTaskDebug
-:sample:processDebugResources
-:sample:generateDebugSources
-:sample:javaPreCompileDebug
-:sample:compileDebugJavaWithJavac
-:sample:compileDebugNdk NO-SOURCE
-:sample:compileDebugSources
-:charts:mergeDebugShaders UP-TO-DATE
-:charts:compileDebugShaders UP-TO-DATE
-:charts:generateDebugAssets UP-TO-DATE
-:charts:packageDebugAssets UP-TO-DATE
-:sample:mergeDebugShaders
-:sample:compileDebugShaders
-:sample:generateDebugAssets
-:sample:mergeDebugAssets
-:sample:transformClassesWithDexBuilderForDebug
-:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-:sample:transformDexArchiveWithDexMergerForDebug
-:charts:compileDebugNdk NO-SOURCE
-:charts:mergeDebugJniLibFolders UP-TO-DATE
-:charts:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:charts:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:charts:transformNativeLibsWithIntermediateJniLibsForDebug
-:sample:mergeDebugJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForDebug
-:sample:transformNativeLibsWithStripDebugSymbolForDebug
-:sample:processDebugJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForDebug
-:sample:validateSigningDebug
-:sample:packageDebug
-:sample:assembleDebug
-:charts:preReleaseBuild UP-TO-DATE
-:charts:compileReleaseAidl UP-TO-DATE
-:charts:compileReleaseRenderscript UP-TO-DATE
-:charts:checkReleaseManifest UP-TO-DATE
-:charts:generateReleaseBuildConfig UP-TO-DATE
-:charts:generateReleaseResValues UP-TO-DATE
-:charts:generateReleaseResources UP-TO-DATE
-:charts:packageReleaseResources UP-TO-DATE
-:charts:processReleaseManifest UP-TO-DATE
-:charts:generateReleaseRFile UP-TO-DATE
-:charts:generateReleaseSources UP-TO-DATE
-:charts:javaPreCompileRelease UP-TO-DATE
-:charts:compileReleaseJavaWithJavac UP-TO-DATE
-:charts:processReleaseJavaRes NO-SOURCE
-:charts:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:sample:preReleaseBuild
-:sample:compileReleaseAidl
-:charts:packageReleaseRenderscript NO-SOURCE
-:sample:compileReleaseRenderscript
-:sample:checkReleaseManifest
-:sample:generateReleaseBuildConfig
-:sample:mainApkListPersistenceRelease
-:sample:generateReleaseResValues
-:sample:generateReleaseResources
-:sample:mergeReleaseResources
-:sample:createReleaseCompatibleScreenManifests
-:sample:processReleaseManifest
-:sample:splitsDiscoveryTaskRelease
-:sample:processReleaseResources
-:sample:generateReleaseSources
-:sample:javaPreCompileRelease
-:sample:compileReleaseJavaWithJavac
-:sample:compileReleaseNdk NO-SOURCE
-:sample:compileReleaseSources
-:sample:lintVitalRelease
-:charts:mergeReleaseShaders UP-TO-DATE
-:charts:compileReleaseShaders UP-TO-DATE
-:charts:generateReleaseAssets UP-TO-DATE
-:charts:packageReleaseAssets UP-TO-DATE
-:sample:mergeReleaseShaders
-:sample:compileReleaseShaders
-:sample:generateReleaseAssets
-:sample:mergeReleaseAssets
-:sample:transformClassesWithDexBuilderForRelease
-:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
-:sample:transformDexArchiveWithDexMergerForRelease
-:charts:compileReleaseNdk NO-SOURCE
-:charts:mergeReleaseJniLibFolders UP-TO-DATE
-:charts:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:charts:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:charts:transformNativeLibsWithIntermediateJniLibsForRelease
-:sample:mergeReleaseJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForRelease
-:sample:transformNativeLibsWithStripDebugSymbolForRelease
-:sample:processReleaseJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForRelease
-:sample:packageRelease
-:sample:assembleRelease
-:sample:assemble
-:sample:build
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'ChartProgressBar-Android-master'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:66)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:249)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:167)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:126)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':classpath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:918)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1600(DefaultConfiguration.java:116)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:892)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:404)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:68)
+	at org.gradle.internal.classpath.DefaultClassPath.<init>(DefaultClassPath.java:48)
+	at org.gradle.api.internal.initialization.DefaultScriptClassPathResolver.resolveClassPath(DefaultScriptClassPathResolver.java:39)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:72)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:204)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:82)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:179)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:64)
+	... 70 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/tools/build/manifest-merger/26.1.1/manifest-merger-26.1.1.jar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 
-BUILD SUCCESSFUL in 29s
-91 actionable tasks: 57 executed, 34 up-to-date
 
-2018-09-01 21:52:08,744 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535813443765-0/src/ChartProgressBar-Android-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s
+
+2019-03-12 11:58:50,367 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-12 11:58:50,367 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-12 11:58:52,914 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-12 11:58:52,914 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-12 11:58:52,914 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-12 11:58:52,915 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-12 11:58:55,606 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-12 11:58:55,606 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'ChartProgressBar-Android-master'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.1).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/build/manifest-merger/26.1.1/manifest-merger-26.1.1.jar
+   > Could not find ddmlib.jar (com.android.tools.ddms:ddmlib:26.1.1).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/26.1.1/ddmlib-26.1.1.jar
+   > Could not find dvlib.jar (com.android.tools:dvlib:26.1.1).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/dvlib/26.1.1/dvlib-26.1.1.jar
+   > Could not find common.jar (com.android.tools:common:26.1.1).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/common/26.1.1/common-26.1.1.jar
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'ChartProgressBar-Android-master'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:66)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:249)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:167)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:126)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':classpath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:918)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1600(DefaultConfiguration.java:116)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:892)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:404)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:68)
+	at org.gradle.internal.classpath.DefaultClassPath.<init>(DefaultClassPath.java:48)
+	at org.gradle.api.internal.initialization.DefaultScriptClassPathResolver.resolveClassPath(DefaultScriptClassPathResolver.java:39)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:72)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:204)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:82)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:179)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:64)
+	... 70 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/tools/build/manifest-merger/26.1.1/manifest-merger-26.1.1.jar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s
+
+2019-03-12 11:58:55,610 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-12 11:58:55,610 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-12 11:58:57,975 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-12 11:58:57,975 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-12 11:58:57,975 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-12 11:58:57,975 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366720818-0/src/ChartProgressBar-Android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-12 11:59:00,696 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-12 11:59:00,697 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'ChartProgressBar-Android-master'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.1).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/build/manifest-merger/26.1.1/manifest-merger-26.1.1.jar
+   > Could not find ddmlib.jar (com.android.tools.ddms:ddmlib:26.1.1).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/26.1.1/ddmlib-26.1.1.jar
+   > Could not find dvlib.jar (com.android.tools:dvlib:26.1.1).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/dvlib/26.1.1/dvlib-26.1.1.jar
+   > Could not find common.jar (com.android.tools:common:26.1.1).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/common/26.1.1/common-26.1.1.jar
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'ChartProgressBar-Android-master'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:66)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:249)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:167)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:126)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':classpath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:918)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1600(DefaultConfiguration.java:116)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:892)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:404)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:68)
+	at org.gradle.internal.classpath.DefaultClassPath.<init>(DefaultClassPath.java:48)
+	at org.gradle.api.internal.initialization.DefaultScriptClassPathResolver.resolveClassPath(DefaultScriptClassPathResolver.java:39)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:72)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:204)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:82)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:179)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:64)
+	... 70 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/tools/build/manifest-merger/26.1.1/manifest-merger-26.1.1.jar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s
+
+2019-03-12 11:59:00,701 ERROR FullProcessService - Project build has not produced APK file
+2019-03-12 11:59:00,705 ERROR FullProcessService - Could not find generated or existed APK file
