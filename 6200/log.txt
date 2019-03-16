@@ -1,84 +1,164 @@
-2018-09-01 22:52:50,525 INFO  DownloadService - Downloading "https://github.com/DenisMondon/EasyAnimatedVectorDrawable/archive/master.zip", attempt 3
-2018-09-01 22:52:53,945 INFO  DownloadService - Downloaded https://github.com/DenisMondon/EasyAnimatedVectorDrawable/archive/master.zip, attempt 3
-2018-09-01 22:52:53,946 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/master.zip": 551 KB
-2018-09-01 22:52:53,946 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-01 22:52:53,951 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/master.zip: true
-2018-09-01 22:52:53,952 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src'.
-2018-09-01 22:52:53,976 INFO  FullProcessService - Size of directory with sources: 602 KB
-2018-09-01 22:52:53,976 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src]
-2018-09-01 22:52:53,998 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/.git/
+2019-03-16 17:29:44,947 INFO  DownloadService - Downloading "https://github.com/DenisMondon/EasyAnimatedVectorDrawable/archive/master.zip", attempt 3
+2019-03-16 17:29:46,062 INFO  DownloadService - Downloaded https://github.com/DenisMondon/EasyAnimatedVectorDrawable/archive/master.zip, attempt 3
+2019-03-16 17:29:46,062 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/master.zip": 551 KB
+2019-03-16 17:29:46,062 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-16 17:29:46,067 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/master.zip: true
+2019-03-16 17:29:46,068 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src'.
+2019-03-16 17:29:46,088 INFO  FullProcessService - Size of directory with sources: 600 KB
+2019-03-16 17:29:46,089 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src]
+2019-03-16 17:29:46,109 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/.git/
 
-2018-09-01 22:52:54,001 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/gradlew
-2018-09-01 22:52:54,003 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/build.gradle
-2018-09-01 22:52:54,006 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/settings.gradle
-2018-09-01 22:52:54,006 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2018-09-01 22:53:54,011 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle"
-org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
-	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
-	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
-	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+2019-03-16 17:29:46,112 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/gradlew
+2019-03-16 17:29:46,115 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/build.gradle
+2019-03-16 17:29:46,118 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/settings.gradle
+2019-03-16 17:29:46,118 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-03-16 17:29:46,218 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-03-16 17:29:46,218 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-03-16 17:29:46,218 INFO  ProjectFixService - Fixing project...
+2019-03-16 17:29:46,226 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/demo/local.properties
+2019-03-16 17:29:46,228 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 17:29:46,228 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 17:29:46,229 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/library/local.properties
+2019-03-16 17:29:46,232 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 17:29:46,232 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 17:29:46,233 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/local.properties
+2019-03-16 17:29:46,234 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-16 17:29:46,234 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-16 17:29:46,235 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 17:29:46,236 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 17:29:46,236 INFO  ProjectFixService - Project was maybe fixed
+2019-03-16 17:29:46,236 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 17:29:46,237 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 17:29:53,955 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-03-16 17:29:53,955 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-16 17:29:53,955 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-16 17:30:00,567 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-09-01 22:53:54,012 INFO  ProjectBuildService - Remote scripts: none
-2018-09-01 22:53:54,012 INFO  ProjectFixService - Fixing project...
-2018-09-01 22:53:54,020 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/demo/local.properties
-2018-09-01 22:53:54,021 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-09-01 22:53:54,021 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-09-01 22:53:54,022 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/library/local.properties
-2018-09-01 22:53:54,026 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-09-01 22:53:54,026 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-09-01 22:53:54,027 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/local.properties
-2018-09-01 22:53:54,027 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-09-01 22:53:54,028 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-09-01 22:53:54,029 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-09-01 22:53:54,029 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-09-01 22:53:54,029 INFO  ProjectFixService - Project was maybe fixed
-2018-09-01 22:53:54,029 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-01 22:53:54,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-01 22:54:02,402 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-09-01 22:54:02,402 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-09-01 22:54:02,402 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-09-01 22:54:29,401 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-16 17:30:00,567 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'androidJavadocs' not found in project ':demo'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in project ':demo'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:286)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:181)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:136)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:285)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:258)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:251)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:185)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s
+
+2019-03-16 17:30:00,568 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-03-16 17:30:00,568 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-16 17:30:54,579 INFO  SysUtils - Configuration on demand is an incubating feature.
+:demo:checkDebugClasspath
+Download https://jcenter.bintray.com/com/wnafee/vector-compat/1.0.5/vector-compat-1.0.5.pom
+Download https://jcenter.bintray.com/com/wnafee/vector-compat/1.0.5/vector-compat-1.0.5.aar
 :demo:preBuild UP-TO-DATE
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
 :library:checkDebugManifest
 :library:processDebugManifest
 :demo:preDebugBuild
-:library:compileDebugAidl
-:demo:compileDebugAidl
+:library:compileDebugAidl NO-SOURCE
+:demo:compileDebugAidl NO-SOURCE
 :library:packageDebugRenderscript NO-SOURCE
 :demo:compileDebugRenderscript
 :demo:checkDebugManifest
 :demo:generateDebugBuildConfig
-:demo:prepareLintJar
+:demo:mainApkListPersistenceDebug
 :demo:generateDebugResValues
 :demo:generateDebugResources
 :library:compileDebugRenderscript
@@ -89,38 +169,68 @@ org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connect
 :demo:createDebugCompatibleScreenManifests
 :demo:processDebugManifest
 :demo:splitsDiscoveryTaskDebug
-:library:platformAttrExtractor
+:library:generateDebugRFile
+:demo:processDebugResources
 :library:generateDebugBuildConfig
+:library:compileDebugKotlin
 :library:prepareLintJar
+:library:generateDebugSources
 :library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac
 :library:processDebugJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:compileDebugKotlin
+:demo:prepareLintJar
+:demo:generateDebugSources
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavac
 :demo:compileDebugNdk NO-SOURCE
+:demo:compileDebugSources
 :demo:mergeDebugShaders
 :demo:compileDebugShaders
 :demo:generateDebugAssets
 :library:mergeDebugShaders
 :library:compileDebugShaders
 :library:generateDebugAssets
-:library:mergeDebugAssets
+:library:packageDebugAssets
 :demo:mergeDebugAssets
+:demo:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
 :demo:mergeDebugJniLibFolders
 :library:compileDebugNdk NO-SOURCE
 :library:mergeDebugJniLibFolders
 :library:transformNativeLibsWithMergeJniLibsForDebug
 :library:transformNativeLibsWithStripDebugSymbolForDebug
 :library:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:checkDebugLibraries
 :demo:processDebugJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForDebug
 :demo:validateSigningDebug
+:demo:packageDebug
+:demo:assembleDebug
+:demo:checkReleaseClasspath
 :library:preReleaseBuild UP-TO-DATE
 :library:checkReleaseManifest
 :library:processReleaseManifest
 :demo:preReleaseBuild
-:library:compileReleaseAidl
-:demo:compileReleaseAidl
+:library:compileReleaseAidl NO-SOURCE
+:demo:compileReleaseAidl NO-SOURCE
 :library:packageReleaseRenderscript NO-SOURCE
 :demo:compileReleaseRenderscript
 :demo:checkReleaseManifest
 :demo:generateReleaseBuildConfig
+:demo:mainApkListPersistenceRelease
 :demo:generateReleaseResValues
 :demo:generateReleaseResources
 :library:compileReleaseRenderscript
@@ -131,46 +241,33 @@ org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connect
 :demo:createReleaseCompatibleScreenManifests
 :demo:processReleaseManifest
 :demo:splitsDiscoveryTaskRelease
+:library:generateReleaseRFile
+:demo:processReleaseResources
 :library:generateReleaseBuildConfig
+:library:compileReleaseKotlin
+:library:generateReleaseSources
 :library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
 :library:processReleaseJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:compileReleaseKotlin
+:demo:generateReleaseSources
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavac
 :demo:compileReleaseNdk NO-SOURCE
+:demo:compileReleaseSources
+:demo:lintVitalRelease SKIPPED
 :demo:mergeReleaseShaders
 :demo:compileReleaseShaders
 :demo:generateReleaseAssets
 :library:mergeReleaseShaders
 :library:compileReleaseShaders
 :library:generateReleaseAssets
-:library:mergeReleaseAssets
+:library:packageReleaseAssets
 :demo:mergeReleaseAssets
-:library:processDebugResources
-:demo:processDebugResources
-:demo:generateDebugSources
-:library:generateDebugSources
-:library:compileDebugJavaWithJavac
-:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:demo:javaPreCompileDebug
-:demo:compileDebugJavaWithJavac
-:demo:compileDebugSources
-:demo:transformClassesWithDexBuilderForDebug
-:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
-:demo:transformDexArchiveWithDexMergerForDebug
-:demo:transformNativeLibsWithMergeJniLibsForDebug
-:demo:transformNativeLibsWithStripDebugSymbolForDebug
-:demo:transformResourcesWithMergeJavaResForDebug
-:demo:packageDebug
-:demo:assembleDebug
-:library:processReleaseResources
-:demo:processReleaseResources
-:demo:generateReleaseSources
-:library:generateReleaseSources
-:library:compileReleaseJavaWithJavac
-:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:demo:javaPreCompileRelease
-:demo:compileReleaseJavaWithJavac
-:demo:compileReleaseSources
-:demo:transformClassesWithPreDexForRelease
-:demo:transformDexWithDexForRelease
+:demo:transformClassesWithDexBuilderForRelease
+:demo:transformDexArchiveWithExternalLibsDexMergerForRelease
+:demo:transformDexArchiveWithDexMergerForRelease
 :demo:mergeReleaseJniLibFolders
 :library:compileReleaseNdk NO-SOURCE
 :library:mergeReleaseJniLibFolders
@@ -179,15 +276,36 @@ org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connect
 :library:transformNativeLibsWithIntermediateJniLibsForRelease
 :demo:transformNativeLibsWithMergeJniLibsForRelease
 :demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:checkReleaseLibraries
 :demo:processReleaseJavaRes NO-SOURCE
 :demo:transformResourcesWithMergeJavaResForRelease
 :demo:packageRelease
-:demo:lintVitalRelease
 :demo:assembleRelease
 :demo:assemble
+:demo:lint
+Ran lint on variant debug: 1 issues found
+Ran lint on variant release: 1 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/demo/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/demo/build/reports/lint-results.xml
+:demo:compileDebugUnitTestKotlin
+:demo:generateDebugUnitTestSources
+:demo:preDebugUnitTestBuild UP-TO-DATE
+:demo:javaPreCompileDebugUnitTest
+:demo:compileDebugUnitTestJavaWithJavac NO-SOURCE
+:demo:processDebugUnitTestJavaRes NO-SOURCE
+:demo:testDebugUnitTest NO-SOURCE
+:demo:compileReleaseUnitTestKotlin
+:demo:generateReleaseUnitTestSources
+:demo:preReleaseUnitTestBuild UP-TO-DATE
+:demo:javaPreCompileReleaseUnitTest
+:demo:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+:demo:processReleaseUnitTestJavaRes NO-SOURCE
+:demo:testReleaseUnitTest NO-SOURCE
+:demo:test UP-TO-DATE
+:demo:check
 :demo:build
 
-BUILD SUCCESSFUL in 26s
-88 actionable tasks: 88 executed
+BUILD SUCCESSFUL in 53s
+98 actionable tasks: 98 executed
 
-2018-09-01 22:54:29,478 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535817170517-0/src/easy-animated-vector-drawable-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2019-03-16 17:30:54,679 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732184944-0/src/easy-animated-vector-drawable-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
