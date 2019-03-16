@@ -1,34 +1,34 @@
-2018-09-02 22:03:03,241 INFO  DownloadService - Downloading "https://github.com/nidhinvv/BubbleAlert/archive/master.zip", attempt 3
-2018-09-02 22:03:06,367 INFO  DownloadService - Downloaded https://github.com/nidhinvv/BubbleAlert/archive/master.zip, attempt 3
-2018-09-02 22:03:06,367 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/master.zip": 3 MB
-2018-09-02 22:03:06,367 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-02 22:03:06,369 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/master.zip: true
-2018-09-02 22:03:06,369 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src'.
-2018-09-02 22:03:06,434 INFO  FullProcessService - Size of directory with sources: 3 MB
-2018-09-02 22:03:06,434 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src]
-2018-09-02 22:03:06,450 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/.git/
+2019-03-16 18:47:34,093 INFO  DownloadService - Downloading "https://github.com/nidhinvv/BubbleAlert/archive/master.zip", attempt 3
+2019-03-16 18:47:38,273 INFO  DownloadService - Downloaded https://github.com/nidhinvv/BubbleAlert/archive/master.zip, attempt 3
+2019-03-16 18:47:38,274 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/master.zip": 3 MB
+2019-03-16 18:47:38,274 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-16 18:47:38,275 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/master.zip: true
+2019-03-16 18:47:38,275 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src'.
+2019-03-16 18:47:38,349 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-03-16 18:47:38,349 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src]
+2019-03-16 18:47:38,380 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/.git/
 
-2018-09-02 22:03:06,456 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/gradlew
-2018-09-02 22:03:06,461 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/bubblealertlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/build.gradle
-2018-09-02 22:03:06,465 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/bubblealertlib/build.gradle
-2018-09-02 22:03:06,466 INFO  ProjectBuildService - Remote scripts: none
-2018-09-02 22:03:06,466 INFO  ProjectFixService - Fixing project...
-2018-09-02 22:03:06,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/app/local.properties
-2018-09-02 22:03:06,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-09-02 22:03:06,479 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/bubblealertlib/local.properties
-2018-09-02 22:03:06,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/bubblealertlib/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-09-02 22:03:06,480 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/local.properties
-2018-09-02 22:03:06,480 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-09-02 22:03:06,480 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-09-02 22:03:06,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2018-09-02 22:03:06,481 INFO  ProjectFixService - Project was maybe fixed
-2018-09-02 22:03:06,481 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-02 22:03:06,482 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-02 22:03:08,853 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-02 22:03:08,853 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-02 22:03:08,853 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-02 22:03:08,853 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-02 22:03:10,798 ERROR SysUtils - Could not process external command
+2019-03-16 18:47:38,386 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/gradlew
+2019-03-16 18:47:38,392 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/bubblealertlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/build.gradle
+2019-03-16 18:47:38,397 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/bubblealertlib/build.gradle
+2019-03-16 18:47:38,398 INFO  ProjectBuildService - Remote scripts: none
+2019-03-16 18:47:38,398 INFO  ProjectFixService - Fixing project...
+2019-03-16 18:47:38,411 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/app/local.properties
+2019-03-16 18:47:38,411 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-03-16 18:47:38,412 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/bubblealertlib/local.properties
+2019-03-16 18:47:38,412 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/bubblealertlib/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-03-16 18:47:38,413 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/local.properties
+2019-03-16 18:47:38,413 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-03-16 18:47:38,414 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-03-16 18:47:38,415 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-03-16 18:47:38,415 INFO  ProjectFixService - Project was maybe fixed
+2019-03-16 18:47:38,415 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 18:47:38,415 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 18:47:41,293 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-16 18:47:41,293 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-16 18:47:41,293 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-16 18:47:41,294 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-16 18:47:43,318 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,27 +41,26 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-09-02 22:03:10,798 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-16 18:47:43,318 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/build.gradle' line: 5
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/build.gradle' line: 5
 
 * What went wrong:
 A problem occurred evaluating root project 'BubbleAlert-master'.
@@ -127,7 +126,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 Caused by: org.gradle.internal.metaobject.AbstractDynamicObject$CustomMessageMissingMethodException: Could not find method google() for arguments [] on repository container.
 	at org.gradle.internal.metaobject.AbstractDynamicObject.methodMissingException(AbstractDynamicObject.java:182)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:89)
-	at build_94ccf5ik9rt5pi5d0l47deppn$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/build.gradle:5)
+	at build_17t3xr89dgcwqiri4l20k9fng$_run_closure1$_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/build.gradle:5)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:136)
@@ -138,20 +137,20 @@ Caused by: org.gradle.internal.metaobject.AbstractDynamicObject$CustomMessageMis
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:382)
 	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_94ccf5ik9rt5pi5d0l47deppn$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/build.gradle:4)
+	at build_17t3xr89dgcwqiri4l20k9fng$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/build.gradle:4)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
 	at org.gradle.api.internal.project.DefaultProject.buildscript(DefaultProject.java:1010)
 	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:42)
 	at org.gradle.api.Script$buildscript.callCurrent(Unknown Source)
-	at build_94ccf5ik9rt5pi5d0l47deppn.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/build.gradle:3)
+	at build_17t3xr89dgcwqiri4l20k9fng.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 51 more
 
 
 BUILD FAILED
 
-Total time: 1.768 secs
+Total time: 1.888 secs
 
-2018-09-02 22:03:10,805 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535900583233-0/src/BubbleAlert-master/APK/BubbleAlert.apk
+2019-03-16 18:47:43,324 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736854085-0/src/BubbleAlert-master/APK/BubbleAlert.apk

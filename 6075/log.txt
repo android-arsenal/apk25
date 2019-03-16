@@ -1,246 +1,280 @@
-2019-01-22 19:21:15,286 INFO  DownloadService - Downloading "https://github.com/yuyakaido/CardStackView/archive/master.zip", attempt 3
-2019-01-22 19:21:28,528 INFO  DownloadService - Downloaded https://github.com/yuyakaido/CardStackView/archive/master.zip, attempt 3
-2019-01-22 19:21:28,529 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/master.zip": 23 MB
-2019-01-22 19:21:28,529 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-22 19:21:28,536 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/master.zip: true
-2019-01-22 19:21:28,536 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src'.
-2019-01-22 19:21:28,732 INFO  FullProcessService - Size of directory with sources: 23 MB
-2019-01-22 19:21:28,732 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src]
-2019-01-22 19:21:28,756 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/.git/
+2019-03-16 18:42:36,859 INFO  DownloadService - Downloading "https://github.com/yuyakaido/CardStackView/archive/master.zip", attempt 3
+2019-03-16 18:42:55,128 INFO  DownloadService - Downloaded https://github.com/yuyakaido/CardStackView/archive/master.zip, attempt 3
+2019-03-16 18:42:55,129 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/master.zip": 23 MB
+2019-03-16 18:42:55,129 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-16 18:42:55,131 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/master.zip: true
+2019-03-16 18:42:55,131 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src'.
+2019-03-16 18:42:55,335 INFO  FullProcessService - Size of directory with sources: 23 MB
+2019-03-16 18:42:55,335 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src]
+2019-03-16 18:42:55,358 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/.git/
 
-2019-01-22 19:21:28,760 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/gradlew
-2019-01-22 19:21:28,764 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/cardstackview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/build.gradle
-2019-01-22 19:21:28,767 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/cardstackview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/settings.gradle
-2019-01-22 19:21:28,768 INFO  ProjectBuildService - Remote scripts: none
-2019-01-22 19:21:28,768 INFO  ProjectFixService - Fixing project...
-2019-01-22 19:21:28,777 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/cardstackview/local.properties
-2019-01-22 19:21:28,778 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/cardstackview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-22 19:21:28,778 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/cardstackview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-22 19:21:28,779 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/sample/local.properties
-2019-01-22 19:21:28,780 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-22 19:21:28,780 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-22 19:21:28,781 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/local.properties
-2019-01-22 19:21:28,782 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-01-22 19:21:28,783 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-01-22 19:21:28,784 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-22 19:21:28,784 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-22 19:21:28,785 INFO  ProjectFixService - Project was maybe fixed
-2019-01-22 19:21:28,785 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-22 19:21:28,785 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/cardstackview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-22 19:21:37,416 INFO  ProjectTaskService - Detected possible tasks: 76
-2019-01-22 19:21:37,416 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-22 19:21:37,416 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/cardstackview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-22 19:21:49,421 INFO  SysUtils - Configuration on demand is an incubating feature.
-:cardstackview:preBuild UP-TO-DATE
-:cardstackview:preDebugBuild UP-TO-DATE
-:cardstackview:compileDebugAidl
-:cardstackview:compileDebugRenderscript
-:cardstackview:checkDebugManifest
-:cardstackview:generateDebugBuildConfig
-:cardstackview:generateDebugResValues
-:cardstackview:generateDebugResources
-:cardstackview:packageDebugResources
-:cardstackview:platformAttrExtractor
-:cardstackview:processDebugManifest
-:cardstackview:prepareLintJar
-:cardstackview:javaPreCompileDebug
-:cardstackview:mergeDebugConsumerProguardFiles
-:cardstackview:mergeDebugShaders
-:cardstackview:compileDebugShaders
-:cardstackview:generateDebugAssets
-:cardstackview:packageDebugAssets
-:cardstackview:packageDebugRenderscript NO-SOURCE
-:cardstackview:processDebugJavaRes NO-SOURCE
-:cardstackview:compileDebugNdk NO-SOURCE
-:cardstackview:mergeDebugJniLibFolders
-:cardstackview:transformNativeLibsWithMergeJniLibsForDebug
-:cardstackview:transformNativeLibsWithStripDebugSymbolForDebug
-:cardstackview:transformNativeLibsWithSyncJniLibsForDebug
-:cardstackview:preReleaseBuild UP-TO-DATE
-:cardstackview:compileReleaseAidl
-:cardstackview:compileReleaseRenderscript
-:cardstackview:checkReleaseManifest
-:cardstackview:generateReleaseBuildConfig
-:cardstackview:generateReleaseResValues
-:cardstackview:generateReleaseResources
-:cardstackview:packageReleaseResources
-:cardstackview:processReleaseManifest
-:cardstackview:javaPreCompileRelease
-:cardstackview:mergeReleaseConsumerProguardFiles
-:cardstackview:mergeReleaseShaders
-:cardstackview:compileReleaseShaders
-:cardstackview:generateReleaseAssets
-:cardstackview:packageReleaseAssets
-:cardstackview:packageReleaseRenderscript NO-SOURCE
-:cardstackview:processReleaseJavaRes NO-SOURCE
-:cardstackview:compileReleaseNdk NO-SOURCE
-:cardstackview:mergeReleaseJniLibFolders
-:cardstackview:transformNativeLibsWithMergeJniLibsForRelease
-:cardstackview:transformNativeLibsWithStripDebugSymbolForRelease
-:cardstackview:transformNativeLibsWithSyncJniLibsForRelease
-:cardstackview:mergeReleaseResources
-:cardstackview:verifyReleaseResources
-:cardstackview:generateDebugRFile
-:cardstackview:generateDebugSources
-:cardstackview:compileDebugJavaWithJavac
-:cardstackview:extractDebugAnnotations
-:cardstackview:transformResourcesWithMergeJavaResForDebug
-:cardstackview:transformClassesAndResourcesWithSyncLibJarsForDebug
-:cardstackview:bundleDebug
-:cardstackview:compileDebugSources
-:cardstackview:assembleDebug
-:cardstackview:generateReleaseRFile
-:cardstackview:generateReleaseSources
-:cardstackview:compileReleaseJavaWithJavac
-:cardstackview:extractReleaseAnnotations
-:cardstackview:transformResourcesWithMergeJavaResForRelease
-:cardstackview:transformClassesAndResourcesWithSyncLibJarsForRelease
-:cardstackview:bundleRelease
-:cardstackview:compileReleaseSources
-:cardstackview:assembleRelease
-:cardstackview:assemble
-:cardstackview:build
+2019-03-16 18:42:55,362 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/gradlew
+2019-03-16 18:42:55,366 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/cardstackview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/build.gradle
+2019-03-16 18:42:55,369 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/cardstackview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/settings.gradle
+2019-03-16 18:42:55,370 INFO  ProjectBuildService - Remote scripts: none
+2019-03-16 18:42:55,370 INFO  ProjectFixService - Fixing project...
+2019-03-16 18:42:55,378 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/cardstackview/local.properties
+2019-03-16 18:42:55,379 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/cardstackview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 18:42:55,379 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/cardstackview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 18:42:55,380 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/sample/local.properties
+2019-03-16 18:42:55,381 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 18:42:55,381 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 18:42:55,382 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/local.properties
+2019-03-16 18:42:55,383 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-16 18:42:55,383 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-16 18:42:55,385 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 18:42:55,385 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 18:42:55,385 INFO  ProjectFixService - Project was maybe fixed
+2019-03-16 18:42:55,385 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 18:42:55,386 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/cardstackview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 18:43:04,937 INFO  ProjectTaskService - Detected possible tasks: 83
+2019-03-16 18:43:04,938 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-16 18:43:04,938 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/cardstackview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-16 18:43:16,970 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :cardstackview
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+> Task :cardstackview:preBuild UP-TO-DATE
+> Task :cardstackview:preDebugBuild UP-TO-DATE
+> Task :cardstackview:compileDebugAidl NO-SOURCE
+> Task :cardstackview:compileDebugRenderscript
+> Task :cardstackview:checkDebugManifest
+> Task :cardstackview:generateDebugBuildConfig
+> Task :cardstackview:generateDebugResValues
+> Task :cardstackview:generateDebugResources
+> Task :cardstackview:packageDebugResources
+> Task :cardstackview:processDebugManifest
+> Task :cardstackview:generateDebugRFile
+> Task :cardstackview:prepareLintJar
+> Task :cardstackview:generateDebugSources
+> Task :cardstackview:javaPreCompileDebug
+> Task :cardstackview:compileDebugJavaWithJavac
+> Task :cardstackview:extractDebugAnnotations
+> Task :cardstackview:mergeDebugConsumerProguardFiles
+> Task :cardstackview:mergeDebugShaders
+> Task :cardstackview:compileDebugShaders
+> Task :cardstackview:generateDebugAssets
+> Task :cardstackview:packageDebugAssets
+> Task :cardstackview:packageDebugRenderscript NO-SOURCE
+> Task :cardstackview:processDebugJavaRes NO-SOURCE
+> Task :cardstackview:transformResourcesWithMergeJavaResForDebug
+> Task :cardstackview:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :cardstackview:compileDebugNdk NO-SOURCE
+> Task :cardstackview:mergeDebugJniLibFolders
+> Task :cardstackview:transformNativeLibsWithMergeJniLibsForDebug
+> Task :cardstackview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :cardstackview:transformNativeLibsWithSyncJniLibsForDebug
+> Task :cardstackview:bundleDebugAar
+> Task :cardstackview:compileDebugSources
+> Task :cardstackview:assembleDebug
+> Task :cardstackview:preReleaseBuild UP-TO-DATE
+> Task :cardstackview:compileReleaseAidl NO-SOURCE
+> Task :cardstackview:compileReleaseRenderscript
+> Task :cardstackview:checkReleaseManifest
+> Task :cardstackview:generateReleaseBuildConfig
+> Task :cardstackview:generateReleaseResValues
+> Task :cardstackview:generateReleaseResources
+> Task :cardstackview:packageReleaseResources
+> Task :cardstackview:processReleaseManifest
+> Task :cardstackview:generateReleaseRFile
+> Task :cardstackview:generateReleaseSources
+> Task :cardstackview:javaPreCompileRelease
+> Task :cardstackview:compileReleaseJavaWithJavac
+> Task :cardstackview:extractReleaseAnnotations
+> Task :cardstackview:mergeReleaseConsumerProguardFiles
+> Task :cardstackview:mergeReleaseShaders
+> Task :cardstackview:compileReleaseShaders
+> Task :cardstackview:generateReleaseAssets
+> Task :cardstackview:packageReleaseAssets
+> Task :cardstackview:packageReleaseRenderscript NO-SOURCE
+> Task :cardstackview:processReleaseJavaRes NO-SOURCE
+> Task :cardstackview:transformResourcesWithMergeJavaResForRelease
+> Task :cardstackview:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :cardstackview:compileReleaseNdk NO-SOURCE
+> Task :cardstackview:mergeReleaseJniLibFolders
+> Task :cardstackview:transformNativeLibsWithMergeJniLibsForRelease
+> Task :cardstackview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :cardstackview:transformNativeLibsWithSyncJniLibsForRelease
+> Task :cardstackview:bundleReleaseAar
+> Task :cardstackview:compileReleaseSources
+> Task :cardstackview:mergeReleaseResources
+> Task :cardstackview:verifyReleaseResources
+> Task :cardstackview:assembleRelease
+> Task :cardstackview:assemble
+> Task :cardstackview:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 11s
-48 actionable tasks: 48 executed
+45 actionable tasks: 45 executed
 
-2019-01-22 19:21:49,461 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-22 19:21:49,461 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-22 19:21:56,134 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-22 19:21:56,134 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-22 19:21:56,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-22 19:22:41,735 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-sample: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.github.bumptech.glide:compiler:4.8.0' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
-:cardstackview:preBuild UP-TO-DATE
-:cardstackview:preDebugBuild UP-TO-DATE
-:cardstackview:compileDebugAidl UP-TO-DATE
-:cardstackview:compileDebugRenderscript UP-TO-DATE
-:cardstackview:checkDebugManifest UP-TO-DATE
-:cardstackview:generateDebugBuildConfig UP-TO-DATE
-:cardstackview:generateDebugResValues UP-TO-DATE
-:cardstackview:generateDebugResources UP-TO-DATE
-:cardstackview:packageDebugResources UP-TO-DATE
-:cardstackview:platformAttrExtractor UP-TO-DATE
-:cardstackview:processDebugManifest UP-TO-DATE
-:cardstackview:generateDebugRFile UP-TO-DATE
-:cardstackview:prepareLintJar UP-TO-DATE
-:cardstackview:generateDebugSources UP-TO-DATE
-:cardstackview:javaPreCompileDebug UP-TO-DATE
-:cardstackview:compileDebugJavaWithJavac UP-TO-DATE
-:cardstackview:processDebugJavaRes NO-SOURCE
-:cardstackview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:sample:preBuild UP-TO-DATE
-:sample:preDebugBuild
-Download https://jcenter.bintray.com/com/makeramen/roundedimageview/2.3.0/roundedimageview-2.3.0.aar
-:sample:compileDebugAidl
-:cardstackview:packageDebugRenderscript NO-SOURCE
-:sample:compileDebugRenderscript
-:sample:checkDebugManifest
-:sample:generateDebugBuildConfig
-:sample:mainApkListPersistenceDebug
-:sample:generateDebugResValues
-:sample:generateDebugResources
-:sample:mergeDebugResources
-:sample:createDebugCompatibleScreenManifests
-:sample:processDebugManifest
-:sample:splitsDiscoveryTaskDebug
-:sample:processDebugResources
-:sample:compileDebugKotlin
-:sample:prepareLintJar
-:sample:generateDebugSources
-:sample:javaPreCompileDebug
-:sample:compileDebugJavaWithJavac
-:sample:compileDebugNdk NO-SOURCE
-:sample:compileDebugSources
-:cardstackview:mergeDebugShaders UP-TO-DATE
-:cardstackview:compileDebugShaders UP-TO-DATE
-:cardstackview:generateDebugAssets UP-TO-DATE
-:cardstackview:packageDebugAssets UP-TO-DATE
-:sample:mergeDebugShaders
-:sample:compileDebugShaders
-:sample:generateDebugAssets
-:sample:mergeDebugAssets
-:sample:transformClassesWithDexBuilderForDebug
-:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-:sample:transformDexArchiveWithDexMergerForDebug
-:cardstackview:compileDebugNdk NO-SOURCE
-:cardstackview:mergeDebugJniLibFolders UP-TO-DATE
-:cardstackview:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:cardstackview:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:cardstackview:transformNativeLibsWithIntermediateJniLibsForDebug
-:sample:mergeDebugJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForDebug
-:sample:transformNativeLibsWithStripDebugSymbolForDebug
-:sample:processDebugJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForDebug
-:sample:validateSigningDebug
-:sample:packageDebug
-:sample:assembleDebug
-:cardstackview:preReleaseBuild UP-TO-DATE
-:cardstackview:compileReleaseAidl UP-TO-DATE
-:cardstackview:compileReleaseRenderscript UP-TO-DATE
-:cardstackview:checkReleaseManifest UP-TO-DATE
-:cardstackview:generateReleaseBuildConfig UP-TO-DATE
-:cardstackview:generateReleaseResValues UP-TO-DATE
-:cardstackview:generateReleaseResources UP-TO-DATE
-:cardstackview:packageReleaseResources UP-TO-DATE
-:cardstackview:processReleaseManifest UP-TO-DATE
-:cardstackview:generateReleaseRFile UP-TO-DATE
-:cardstackview:generateReleaseSources UP-TO-DATE
-:cardstackview:javaPreCompileRelease UP-TO-DATE
-:cardstackview:compileReleaseJavaWithJavac UP-TO-DATE
-:cardstackview:processReleaseJavaRes NO-SOURCE
-:cardstackview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:sample:preReleaseBuild
-:sample:compileReleaseAidl
-:cardstackview:packageReleaseRenderscript NO-SOURCE
-:sample:compileReleaseRenderscript
-:sample:checkReleaseManifest
-:sample:generateReleaseBuildConfig
-:sample:mainApkListPersistenceRelease
-:sample:generateReleaseResValues
-:sample:generateReleaseResources
-:sample:mergeReleaseResources
-:sample:createReleaseCompatibleScreenManifests
-:sample:processReleaseManifest
-:sample:splitsDiscoveryTaskRelease
-:sample:processReleaseResources
-:sample:compileReleaseKotlin
-:sample:generateReleaseSources
-:sample:javaPreCompileRelease
-:sample:compileReleaseJavaWithJavac
-:sample:compileReleaseNdk NO-SOURCE
-:sample:compileReleaseSources
-:sample:lintVitalRelease
-:cardstackview:mergeReleaseShaders UP-TO-DATE
-:cardstackview:compileReleaseShaders UP-TO-DATE
-:cardstackview:generateReleaseAssets UP-TO-DATE
-:cardstackview:packageReleaseAssets UP-TO-DATE
-:sample:mergeReleaseShaders
-:sample:compileReleaseShaders
-:sample:generateReleaseAssets
-:sample:mergeReleaseAssets
-:sample:transformClassesWithDexBuilderForRelease
-:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
-:sample:transformDexArchiveWithDexMergerForRelease
-:cardstackview:compileReleaseNdk NO-SOURCE
-:cardstackview:mergeReleaseJniLibFolders UP-TO-DATE
-:cardstackview:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:cardstackview:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:cardstackview:transformNativeLibsWithIntermediateJniLibsForRelease
-:sample:mergeReleaseJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForRelease
-:sample:transformNativeLibsWithStripDebugSymbolForRelease
-:sample:processReleaseJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForRelease
-:sample:packageRelease
-:sample:assembleRelease
-:sample:assemble
-:sample:build
+2019-03-16 18:43:17,004 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 18:43:17,004 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 18:43:24,486 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-16 18:43:24,486 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-16 18:43:24,487 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-16 18:44:26,272 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-BUILD SUCCESSFUL in 44s
-93 actionable tasks: 59 executed, 34 up-to-date
+> Configure project :cardstackview
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
 
-2019-01-22 19:22:41,857 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548159675282-0/src/CardStackView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+> Task :cardstackview:preBuild UP-TO-DATE
+> Task :cardstackview:preDebugBuild UP-TO-DATE
+> Task :cardstackview:compileDebugAidl NO-SOURCE
+> Task :cardstackview:compileDebugRenderscript UP-TO-DATE
+> Task :cardstackview:checkDebugManifest UP-TO-DATE
+> Task :cardstackview:generateDebugBuildConfig UP-TO-DATE
+> Task :cardstackview:generateDebugResValues UP-TO-DATE
+> Task :cardstackview:generateDebugResources UP-TO-DATE
+> Task :cardstackview:packageDebugResources UP-TO-DATE
+> Task :cardstackview:processDebugManifest UP-TO-DATE
+> Task :cardstackview:generateDebugRFile UP-TO-DATE
+> Task :cardstackview:prepareLintJar UP-TO-DATE
+> Task :cardstackview:generateDebugSources UP-TO-DATE
+> Task :cardstackview:javaPreCompileDebug UP-TO-DATE
+> Task :cardstackview:compileDebugJavaWithJavac UP-TO-DATE
+> Task :cardstackview:processDebugJavaRes NO-SOURCE
+> Task :cardstackview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :cardstackview:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:kaptGenerateStubsDebugKotlin
+> Task :sample:kaptDebugKotlin
+> Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Task :cardstackview:mergeDebugShaders UP-TO-DATE
+> Task :cardstackview:compileDebugShaders UP-TO-DATE
+> Task :cardstackview:generateDebugAssets UP-TO-DATE
+> Task :cardstackview:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :cardstackview:createFullJarDebug
+> Transform full.jar (project :cardstackview) with IdentityTransform
+> Task :sample:mergeExtDexDebug
+> Transform full.jar (project :cardstackview) with DexingTransform
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:mergeDexDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :cardstackview:compileDebugNdk NO-SOURCE
+> Task :cardstackview:mergeDebugJniLibFolders UP-TO-DATE
+> Task :cardstackview:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :cardstackview:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :cardstackview:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :cardstackview:preReleaseBuild UP-TO-DATE
+> Task :cardstackview:compileReleaseAidl NO-SOURCE
+> Task :cardstackview:compileReleaseRenderscript UP-TO-DATE
+> Task :cardstackview:checkReleaseManifest UP-TO-DATE
+> Task :cardstackview:generateReleaseBuildConfig UP-TO-DATE
+> Task :cardstackview:generateReleaseResValues UP-TO-DATE
+> Task :cardstackview:generateReleaseResources UP-TO-DATE
+> Task :cardstackview:packageReleaseResources UP-TO-DATE
+> Task :cardstackview:processReleaseManifest UP-TO-DATE
+> Task :cardstackview:generateReleaseRFile UP-TO-DATE
+> Task :cardstackview:generateReleaseSources UP-TO-DATE
+> Task :cardstackview:javaPreCompileRelease UP-TO-DATE
+> Task :cardstackview:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :cardstackview:processReleaseJavaRes NO-SOURCE
+> Task :cardstackview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :cardstackview:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:kaptGenerateStubsReleaseKotlin
+> Task :sample:kaptReleaseKotlin
+> Task :sample:compileReleaseKotlin
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseNdk NO-SOURCE
+> Task :sample:compileReleaseSources
+> Task :sample:lintVitalRelease
+> Task :cardstackview:createFullJarRelease
+> Transform full.jar (project :cardstackview) with IdentityTransform
+> Task :sample:mergeExtDexRelease
+> Transform full.jar (project :cardstackview) with DexingTransform
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:mergeDexRelease
+> Task :cardstackview:mergeReleaseShaders UP-TO-DATE
+> Task :cardstackview:compileReleaseShaders UP-TO-DATE
+> Task :cardstackview:generateReleaseAssets UP-TO-DATE
+> Task :cardstackview:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :cardstackview:compileReleaseNdk NO-SOURCE
+> Task :cardstackview:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :cardstackview:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :cardstackview:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :cardstackview:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 0s
+94 actionable tasks: 63 executed, 31 up-to-date
+
+2019-03-16 18:44:26,393 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736556855-0/src/CardStackView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
