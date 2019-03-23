@@ -1,166 +1,233 @@
-2019-03-16 17:40:14,664 INFO  DownloadService - Downloading "https://github.com/noties/Markwon/archive/master.zip", attempt 3
-2019-03-16 17:40:17,071 INFO  DownloadService - Downloaded https://github.com/noties/Markwon/archive/master.zip, attempt 3
-2019-03-16 17:40:17,071 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/master.zip": 812 KB
-2019-03-16 17:40:17,071 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-16 17:40:17,072 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/master.zip: true
-2019-03-16 17:40:17,072 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src'.
-2019-03-16 17:40:17,182 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-03-16 17:40:17,182 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src]
-2019-03-16 17:40:17,200 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/.git/
+2019-03-23 22:57:31,831 INFO  DownloadService - Downloading "https://github.com/noties/Markwon/archive/master.zip", attempt 3
+2019-03-23 22:57:32,915 INFO  DownloadService - Downloaded https://github.com/noties/Markwon/archive/master.zip, attempt 3
+2019-03-23 22:57:32,916 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/master.zip": 989 KB
+2019-03-23 22:57:32,916 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-23 22:57:32,923 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/master.zip: true
+2019-03-23 22:57:32,923 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src'.
+2019-03-23 22:57:33,066 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-03-23 22:57:33,066 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src]
+2019-03-23 22:57:33,084 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/.git/
 
-2019-03-16 17:40:17,212 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/gradlew
-2019-03-16 17:40:17,224 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-html-parser-api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-html-parser-impl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-image-loader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-syntax-highlight/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/sample-custom-extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/sample-latex-math/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/build.gradle
-2019-03-16 17:40:17,236 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-syntax-highlight/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/sample-custom-extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-html-parser-impl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-image-loader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/sample-latex-math/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-html-parser-api/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/settings.gradle
-2019-03-16 17:40:17,237 INFO  ProjectBuildService - Remote scripts: none
-2019-03-16 17:40:17,237 INFO  ProjectFixService - Fixing project...
-2019-03-16 17:40:17,269 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/app/local.properties
-2019-03-16 17:40:17,272 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-03-16 17:40:17,273 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-16 17:40:17,274 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-html-parser-api/local.properties
-2019-03-16 17:40:17,278 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-html-parser-api/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-03-16 17:40:17,278 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-html-parser-api/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-16 17:40:17,279 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-html-parser-impl/local.properties
-2019-03-16 17:40:17,283 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-html-parser-impl/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-03-16 17:40:17,283 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-html-parser-impl/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-16 17:40:17,284 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-image-loader/local.properties
-2019-03-16 17:40:17,288 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-image-loader/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-03-16 17:40:17,288 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-image-loader/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-16 17:40:17,289 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-syntax-highlight/local.properties
-2019-03-16 17:40:17,293 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-syntax-highlight/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-03-16 17:40:17,293 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-syntax-highlight/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-16 17:40:17,294 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-view/local.properties
-2019-03-16 17:40:17,299 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-view/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-03-16 17:40:17,299 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-view/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-16 17:40:17,300 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon/local.properties
-2019-03-16 17:40:17,303 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-03-16 17:40:17,303 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-16 17:40:17,304 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/sample-custom-extension/local.properties
-2019-03-16 17:40:17,308 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/sample-custom-extension/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-03-16 17:40:17,308 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/sample-custom-extension/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-16 17:40:17,309 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/sample-latex-math/local.properties
-2019-03-16 17:40:17,313 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/sample-latex-math/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-03-16 17:40:17,313 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/sample-latex-math/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-16 17:40:17,314 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/local.properties
-2019-03-16 17:40:17,315 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
-2019-03-16 17:40:17,315 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
-2019-03-16 17:40:17,319 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-03-16 17:40:17,319 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-03-16 17:40:17,320 INFO  ProjectFixService - Project was maybe fixed
-2019-03-16 17:40:17,320 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-16 17:40:17,320 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-16 17:40:25,249 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-03-16 17:40:25,249 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-16 17:40:25,249 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-16 17:40:57,790 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :app:checkDebugClasspath
+2019-03-23 22:57:33,101 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/gradlew
+2019-03-23 22:57:33,120 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-latex/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-strikethrough/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-tables/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-tasklist/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-html/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-image-gif/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-image-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-image-svg/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-recycler-table/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-recycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-syntax-highlight/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-test-span/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/build.gradle
+2019-03-23 22:57:33,137 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-syntax-highlight/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-image-gif/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-tasklist/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-tables/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-recycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-strikethrough/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-latex/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-image-svg/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-image-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-recycler-table/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-html/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-test-span/build.gradle
+2019-03-23 22:57:33,138 INFO  ProjectBuildService - Remote scripts: none
+2019-03-23 22:57:33,138 INFO  ProjectFixService - Fixing project...
+2019-03-23 22:57:33,184 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/app/local.properties
+2019-03-23 22:57:33,193 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:57:33,193 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:57:33,194 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-core/local.properties
+2019-03-23 22:57:33,202 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:57:33,202 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:57:33,203 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-latex/local.properties
+2019-03-23 22:57:33,211 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-latex/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:57:33,211 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-latex/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:57:33,212 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-strikethrough/local.properties
+2019-03-23 22:57:33,219 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-strikethrough/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:57:33,219 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-strikethrough/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:57:33,224 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-tables/local.properties
+2019-03-23 22:57:33,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-tables/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:57:33,230 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-tables/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:57:33,231 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-tasklist/local.properties
+2019-03-23 22:57:33,238 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-tasklist/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:57:33,239 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-tasklist/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:57:33,240 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-html/local.properties
+2019-03-23 22:57:33,247 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-html/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:57:33,247 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-html/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:57:33,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-image-gif/local.properties
+2019-03-23 22:57:33,255 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-image-gif/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:57:33,255 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-image-gif/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:57:33,256 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-image-okhttp/local.properties
+2019-03-23 22:57:33,263 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-image-okhttp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:57:33,263 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-image-okhttp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:57:33,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-image-svg/local.properties
+2019-03-23 22:57:33,271 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-image-svg/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:57:33,271 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-image-svg/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:57:33,273 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-recycler-table/local.properties
+2019-03-23 22:57:33,279 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-recycler-table/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:57:33,280 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-recycler-table/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:57:33,281 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-recycler/local.properties
+2019-03-23 22:57:33,288 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-recycler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:57:33,288 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-recycler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:57:33,290 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-syntax-highlight/local.properties
+2019-03-23 22:57:33,297 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-syntax-highlight/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:57:33,297 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-syntax-highlight/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:57:33,298 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-test-span/local.properties
+2019-03-23 22:57:33,305 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-test-span/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:57:33,306 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-test-span/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:57:33,307 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/sample/local.properties
+2019-03-23 22:57:33,313 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:57:33,313 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:57:33,314 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/local.properties
+2019-03-23 22:57:33,315 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-03-23 22:57:33,315 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-03-23 22:57:33,322 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:57:33,322 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:57:33,324 INFO  ProjectFixService - Project was maybe fixed
+2019-03-23 22:57:33,324 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-23 22:57:33,324 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-23 22:57:41,895 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-23 22:57:41,895 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-23 22:57:41,895 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-23 22:58:12,865 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
-> Task :markwon:preBuild UP-TO-DATE
-> Task :markwon:preDebugBuild UP-TO-DATE
-> Task :markwon:checkDebugManifest
-> Task :markwon:processDebugManifest
-> Task :markwon-html-parser-api:preBuild UP-TO-DATE
-> Task :markwon-html-parser-api:preDebugBuild UP-TO-DATE
-> Task :markwon-html-parser-api:checkDebugManifest
-> Task :markwon-html-parser-api:processDebugManifest
-> Task :markwon-html-parser-impl:preBuild UP-TO-DATE
-> Task :markwon-html-parser-impl:preDebugBuild UP-TO-DATE
-> Task :markwon-html-parser-impl:checkDebugManifest
-> Task :markwon-html-parser-impl:processDebugManifest
-> Task :markwon-image-loader:preBuild UP-TO-DATE
-> Task :markwon-image-loader:preDebugBuild UP-TO-DATE
-> Task :markwon-image-loader:checkDebugManifest
-> Task :markwon-image-loader:processDebugManifest
+> Task :markwon-core:preBuild UP-TO-DATE
+> Task :markwon-core:preDebugBuild UP-TO-DATE
+> Task :markwon-core:checkDebugManifest
+> Task :markwon-core:processDebugManifest
+> Task :markwon-ext-strikethrough:preBuild UP-TO-DATE
+> Task :markwon-ext-strikethrough:preDebugBuild UP-TO-DATE
+> Task :markwon-ext-strikethrough:checkDebugManifest
+> Task :markwon-ext-strikethrough:processDebugManifest
+> Task :markwon-ext-tables:preBuild UP-TO-DATE
+> Task :markwon-ext-tables:preDebugBuild UP-TO-DATE
+> Task :markwon-ext-tables:checkDebugManifest
+> Task :markwon-ext-tables:processDebugManifest
+> Task :markwon-ext-tasklist:preBuild UP-TO-DATE
+> Task :markwon-ext-tasklist:preDebugBuild UP-TO-DATE
+> Task :markwon-ext-tasklist:checkDebugManifest
+> Task :markwon-ext-tasklist:processDebugManifest
+> Task :markwon-html:preBuild UP-TO-DATE
+> Task :markwon-html:preDebugBuild UP-TO-DATE
+> Task :markwon-html:checkDebugManifest
+> Task :markwon-html:processDebugManifest
+> Task :markwon-image-gif:preBuild UP-TO-DATE
+> Task :markwon-image-gif:preDebugBuild UP-TO-DATE
+> Task :markwon-image-gif:checkDebugManifest
+> Task :markwon-image-gif:processDebugManifest
+> Task :markwon-image-svg:preBuild UP-TO-DATE
+> Task :markwon-image-svg:preDebugBuild UP-TO-DATE
+> Task :markwon-image-svg:checkDebugManifest
+> Task :markwon-image-svg:processDebugManifest
 > Task :markwon-syntax-highlight:preBuild UP-TO-DATE
 > Task :markwon-syntax-highlight:preDebugBuild UP-TO-DATE
 > Task :markwon-syntax-highlight:checkDebugManifest
 > Task :markwon-syntax-highlight:processDebugManifest
 > Task :app:preDebugBuild
-> Task :markwon-html-parser-api:compileDebugAidl NO-SOURCE
-> Task :markwon-html-parser-impl:compileDebugAidl NO-SOURCE
-> Task :markwon:compileDebugAidl NO-SOURCE
-> Task :markwon-image-loader:compileDebugAidl NO-SOURCE
+> Task :markwon-core:compileDebugAidl NO-SOURCE
+> Task :markwon-ext-strikethrough:compileDebugAidl NO-SOURCE
+> Task :markwon-ext-tables:compileDebugAidl NO-SOURCE
+> Task :markwon-ext-tasklist:compileDebugAidl NO-SOURCE
+> Task :markwon-html:compileDebugAidl NO-SOURCE
+> Task :markwon-image-gif:compileDebugAidl NO-SOURCE
+> Task :markwon-image-svg:compileDebugAidl NO-SOURCE
 > Task :markwon-syntax-highlight:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :markwon:packageDebugRenderscript NO-SOURCE
-> Task :markwon-html-parser-api:packageDebugRenderscript NO-SOURCE
-> Task :markwon-html-parser-impl:packageDebugRenderscript NO-SOURCE
-> Task :markwon-image-loader:packageDebugRenderscript NO-SOURCE
+> Task :markwon-core:packageDebugRenderscript NO-SOURCE
+> Task :markwon-ext-strikethrough:packageDebugRenderscript NO-SOURCE
+> Task :markwon-ext-tables:packageDebugRenderscript NO-SOURCE
+> Task :markwon-ext-tasklist:packageDebugRenderscript NO-SOURCE
+> Task :markwon-html:packageDebugRenderscript NO-SOURCE
+> Task :markwon-image-gif:packageDebugRenderscript NO-SOURCE
+> Task :markwon-image-svg:packageDebugRenderscript NO-SOURCE
 > Task :markwon-syntax-highlight:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:prepareLintJar
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :markwon:compileDebugRenderscript
-> Task :markwon:generateDebugResValues
-> Task :markwon:generateDebugResources
-> Task :markwon:packageDebugResources
-> Task :markwon-html-parser-api:compileDebugRenderscript
-> Task :markwon-html-parser-api:generateDebugResValues
-> Task :markwon-html-parser-api:generateDebugResources
-> Task :markwon-html-parser-api:packageDebugResources
-> Task :markwon-html-parser-impl:compileDebugRenderscript
-> Task :markwon-html-parser-impl:generateDebugResValues
-> Task :markwon-html-parser-impl:generateDebugResources
-> Task :markwon-html-parser-impl:packageDebugResources
-> Task :markwon-image-loader:compileDebugRenderscript
-> Task :markwon-image-loader:generateDebugResValues
-> Task :markwon-image-loader:generateDebugResources
-> Task :markwon-image-loader:packageDebugResources
+> Task :app:generateDebugSources
+> Task :markwon-core:compileDebugRenderscript
+> Task :markwon-core:generateDebugBuildConfig SKIPPED
+> Task :markwon-core:generateDebugResValues
+> Task :markwon-core:generateDebugResources
+> Task :markwon-core:packageDebugResources
+> Task :markwon-core:generateDebugRFile
+> Task :markwon-core:prepareLintJar
+> Task :markwon-core:generateDebugSources
+> Task :markwon-core:javaPreCompileDebug
+
+> Task :markwon-core:compileDebugJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :markwon-core:processDebugJavaRes NO-SOURCE
+> Task :markwon-core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :markwon-ext-strikethrough:compileDebugRenderscript
+> Task :markwon-ext-strikethrough:generateDebugBuildConfig SKIPPED
+> Task :markwon-ext-strikethrough:generateDebugResValues
+> Task :markwon-ext-strikethrough:generateDebugResources
+> Task :markwon-ext-strikethrough:packageDebugResources
+> Task :markwon-ext-strikethrough:generateDebugRFile
+> Task :markwon-ext-strikethrough:prepareLintJar
+> Task :markwon-ext-strikethrough:generateDebugSources
+> Task :markwon-ext-strikethrough:javaPreCompileDebug
+> Task :markwon-ext-strikethrough:compileDebugJavaWithJavac
+> Task :markwon-ext-strikethrough:processDebugJavaRes NO-SOURCE
+> Task :markwon-ext-strikethrough:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :markwon-ext-tables:compileDebugRenderscript
+> Task :markwon-ext-tables:generateDebugBuildConfig SKIPPED
+> Task :markwon-ext-tables:generateDebugResValues
+> Task :markwon-ext-tables:generateDebugResources
+> Task :markwon-ext-tables:packageDebugResources
+> Task :markwon-ext-tables:generateDebugRFile
+> Task :markwon-ext-tables:prepareLintJar
+> Task :markwon-ext-tables:generateDebugSources
+> Task :markwon-ext-tables:javaPreCompileDebug
+
+> Task :markwon-ext-tables:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-tables/src/main/java/ru/noties/markwon/ext/tables/TableRowSpan.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :markwon-ext-tables:processDebugJavaRes NO-SOURCE
+> Task :markwon-ext-tables:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :markwon-ext-tasklist:compileDebugRenderscript
+> Task :markwon-ext-tasklist:generateDebugBuildConfig SKIPPED
+> Task :markwon-ext-tasklist:generateDebugResValues
+> Task :markwon-ext-tasklist:generateDebugResources
+> Task :markwon-ext-tasklist:packageDebugResources
+> Task :markwon-ext-tasklist:generateDebugRFile
+> Task :markwon-ext-tasklist:prepareLintJar
+> Task :markwon-ext-tasklist:generateDebugSources
+> Task :markwon-ext-tasklist:javaPreCompileDebug
+> Task :markwon-ext-tasklist:compileDebugJavaWithJavac
+> Task :markwon-ext-tasklist:processDebugJavaRes NO-SOURCE
+> Task :markwon-ext-tasklist:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :markwon-html:compileDebugRenderscript
+> Task :markwon-html:generateDebugBuildConfig SKIPPED
+> Task :markwon-html:generateDebugResValues
+> Task :markwon-html:generateDebugResources
+> Task :markwon-html:packageDebugResources
+> Task :markwon-html:generateDebugRFile
+> Task :markwon-html:prepareLintJar
+> Task :markwon-html:generateDebugSources
+> Task :markwon-html:javaPreCompileDebug
+
+> Task :markwon-html:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-html/src/main/java/ru/noties/markwon/html/jsoup/nodes/CommonMarkEntities.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :markwon-html:processDebugJavaRes NO-SOURCE
+> Task :markwon-html:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :markwon-image-gif:compileDebugRenderscript
+> Task :markwon-image-gif:generateDebugBuildConfig SKIPPED
+> Task :markwon-image-gif:generateDebugResValues
+> Task :markwon-image-gif:generateDebugResources
+> Task :markwon-image-gif:packageDebugResources
+> Task :markwon-image-gif:generateDebugRFile
+> Task :markwon-image-gif:prepareLintJar
+> Task :markwon-image-gif:generateDebugSources
+> Task :markwon-image-gif:javaPreCompileDebug
+> Task :markwon-image-gif:compileDebugJavaWithJavac
+> Task :markwon-image-gif:processDebugJavaRes NO-SOURCE
+> Task :markwon-image-gif:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :markwon-image-svg:compileDebugRenderscript
+> Task :markwon-image-svg:generateDebugBuildConfig SKIPPED
+> Task :markwon-image-svg:generateDebugResValues
+> Task :markwon-image-svg:generateDebugResources
+> Task :markwon-image-svg:packageDebugResources
+> Task :markwon-image-svg:generateDebugRFile
+> Task :markwon-image-svg:prepareLintJar
+> Task :markwon-image-svg:generateDebugSources
+> Task :markwon-image-svg:javaPreCompileDebug
+> Task :markwon-image-svg:compileDebugJavaWithJavac
+> Task :markwon-image-svg:processDebugJavaRes NO-SOURCE
+> Task :markwon-image-svg:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 > Task :markwon-syntax-highlight:compileDebugRenderscript
+> Task :markwon-syntax-highlight:generateDebugBuildConfig SKIPPED
 > Task :markwon-syntax-highlight:generateDebugResValues
 > Task :markwon-syntax-highlight:generateDebugResources
 > Task :markwon-syntax-highlight:packageDebugResources
-> Task :app:mergeDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:splitsDiscoveryTaskDebug
-> Task :markwon-html-parser-api:generateDebugRFile
-> Task :markwon-html-parser-impl:generateDebugRFile
-> Task :markwon:generateDebugRFile
-> Task :markwon-image-loader:generateDebugRFile
 > Task :markwon-syntax-highlight:generateDebugRFile
-> Task :app:processDebugResources
-> Task :app:generateDebugSources
-> Task :markwon:generateDebugBuildConfig SKIPPED
-> Task :markwon:prepareLintJar
-> Task :markwon:generateDebugSources
-> Task :markwon-html-parser-api:generateDebugBuildConfig SKIPPED
-> Task :markwon-html-parser-api:prepareLintJar
-> Task :markwon-html-parser-api:generateDebugSources
-> Task :markwon-html-parser-api:javaPreCompileDebug
-> Task :markwon-html-parser-api:compileDebugJavaWithJavac
-> Task :markwon-html-parser-api:processDebugJavaRes NO-SOURCE
-> Task :markwon-html-parser-api:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :markwon-html-parser-impl:generateDebugBuildConfig SKIPPED
-> Task :markwon-html-parser-impl:prepareLintJar
-> Task :markwon-html-parser-impl:generateDebugSources
-> Task :markwon-html-parser-impl:javaPreCompileDebug
-
-> Task :markwon-html-parser-impl:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-html-parser-impl/src/main/java/ru/noties/markwon/html/impl/jsoup/nodes/CommonMarkEntities.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-> Task :markwon-html-parser-impl:processDebugJavaRes NO-SOURCE
-> Task :markwon-html-parser-impl:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :markwon:javaPreCompileDebug
-
-> Task :markwon:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon/src/main/java/ru/noties/markwon/DrawablesScheduler.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-> Task :markwon:processDebugJavaRes NO-SOURCE
-> Task :markwon:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :markwon-image-loader:generateDebugBuildConfig SKIPPED
-> Task :markwon-image-loader:prepareLintJar
-> Task :markwon-image-loader:generateDebugSources
-> Task :markwon-image-loader:javaPreCompileDebug
-> Task :markwon-image-loader:compileDebugJavaWithJavac
-> Task :markwon-image-loader:processDebugJavaRes NO-SOURCE
-> Task :markwon-image-loader:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :markwon-syntax-highlight:generateDebugBuildConfig SKIPPED
 > Task :markwon-syntax-highlight:prepareLintJar
 > Task :markwon-syntax-highlight:generateDebugSources
 > Task :markwon-syntax-highlight:javaPreCompileDebug
@@ -168,65 +235,125 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :markwon-syntax-highlight:processDebugJavaRes NO-SOURCE
 > Task :markwon-syntax-highlight:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 > Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac
-Note: [prism4j-bundler] Processing took: 673 ms
-Note: [prism4j-bundler] Processing took: 0 ms
-Note: Some input files use or override a deprecated API.
+Gradle may disable incremental compilation as the following annotation processors are not incremental: prism4j-bundler-1.1.0.jar (ru.noties:prism4j-bundler:1.1.0), dagger-compiler-2.10.jar (com.google.dagger:dagger-compiler:2.10).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: [prism4j-bundler] Processing took: 687 ms
+Note: [prism4j-bundler] Processing took: 1 ms
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/app/src/main/java/ru/noties/markwon/gif/GifAwarePlugin.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/app/src/main/java/ru/noties/markwon/Views.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
 
 > Task :app:compileDebugNdk NO-SOURCE
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
-> Task :markwon:mergeDebugShaders
-> Task :markwon:compileDebugShaders
-> Task :markwon:generateDebugAssets
-> Task :markwon:packageDebugAssets
-> Task :markwon-html-parser-api:mergeDebugShaders
-> Task :markwon-html-parser-api:compileDebugShaders
-> Task :markwon-html-parser-api:generateDebugAssets
-> Task :markwon-html-parser-api:packageDebugAssets
-> Task :markwon-html-parser-impl:mergeDebugShaders
-> Task :markwon-html-parser-impl:compileDebugShaders
-> Task :markwon-html-parser-impl:generateDebugAssets
-> Task :markwon-html-parser-impl:packageDebugAssets
-> Task :markwon-image-loader:mergeDebugShaders
-> Task :markwon-image-loader:compileDebugShaders
-> Task :markwon-image-loader:generateDebugAssets
-> Task :markwon-image-loader:packageDebugAssets
+> Task :markwon-core:mergeDebugShaders
+> Task :markwon-core:compileDebugShaders
+> Task :markwon-core:generateDebugAssets
+> Task :markwon-core:packageDebugAssets
+> Task :markwon-ext-strikethrough:mergeDebugShaders
+> Task :markwon-ext-strikethrough:compileDebugShaders
+> Task :markwon-ext-strikethrough:generateDebugAssets
+> Task :markwon-ext-strikethrough:packageDebugAssets
+> Task :markwon-ext-tables:mergeDebugShaders
+> Task :markwon-ext-tables:compileDebugShaders
+> Task :markwon-ext-tables:generateDebugAssets
+> Task :markwon-ext-tables:packageDebugAssets
+> Task :markwon-ext-tasklist:mergeDebugShaders
+> Task :markwon-ext-tasklist:compileDebugShaders
+> Task :markwon-ext-tasklist:generateDebugAssets
+> Task :markwon-ext-tasklist:packageDebugAssets
+> Task :markwon-html:mergeDebugShaders
+> Task :markwon-html:compileDebugShaders
+> Task :markwon-html:generateDebugAssets
+> Task :markwon-html:packageDebugAssets
+> Task :markwon-image-gif:mergeDebugShaders
+> Task :markwon-image-gif:compileDebugShaders
+> Task :markwon-image-gif:generateDebugAssets
+> Task :markwon-image-gif:packageDebugAssets
+> Task :markwon-image-svg:mergeDebugShaders
+> Task :markwon-image-svg:compileDebugShaders
+> Task :markwon-image-svg:generateDebugAssets
+> Task :markwon-image-svg:packageDebugAssets
 > Task :markwon-syntax-highlight:mergeDebugShaders
 > Task :markwon-syntax-highlight:compileDebugShaders
 > Task :markwon-syntax-highlight:generateDebugAssets
 > Task :markwon-syntax-highlight:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :markwon-core:createFullJarDebug
+> Transform full.jar (project :markwon-core) with IdentityTransform
+> Task :markwon-syntax-highlight:createFullJarDebug
+> Transform full.jar (project :markwon-syntax-highlight) with IdentityTransform
+> Task :markwon-image-svg:createFullJarDebug
+> Transform full.jar (project :markwon-image-svg) with IdentityTransform
+> Task :markwon-image-gif:createFullJarDebug
+> Transform full.jar (project :markwon-image-gif) with IdentityTransform
+> Task :markwon-html:createFullJarDebug
+> Transform full.jar (project :markwon-html) with IdentityTransform
+> Task :markwon-ext-tasklist:createFullJarDebug
+> Transform full.jar (project :markwon-ext-tasklist) with IdentityTransform
+> Task :markwon-ext-tables:createFullJarDebug
+> Transform full.jar (project :markwon-ext-tables) with IdentityTransform
+> Task :markwon-ext-strikethrough:createFullJarDebug
+> Transform full.jar (project :markwon-ext-strikethrough) with IdentityTransform
+> Transform full.jar (project :markwon-image-svg) with DexingTransform
+> Transform full.jar (project :markwon-image-gif) with DexingTransform
+> Transform full.jar (project :markwon-ext-strikethrough) with DexingTransform
+> Transform full.jar (project :markwon-syntax-highlight) with DexingTransform
+> Transform full.jar (project :markwon-ext-tasklist) with DexingTransform
+> Transform full.jar (project :markwon-ext-tables) with DexingTransform
+> Transform full.jar (project :markwon-core) with DexingTransform
+> Transform full.jar (project :markwon-html) with DexingTransform
+> Task :app:mergeExtDexDebug
 > Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :markwon:compileDebugNdk NO-SOURCE
-> Task :markwon:mergeDebugJniLibFolders
-> Task :markwon:transformNativeLibsWithMergeJniLibsForDebug
-> Task :markwon:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :markwon:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :markwon-html-parser-api:compileDebugNdk NO-SOURCE
-> Task :markwon-html-parser-api:mergeDebugJniLibFolders
-> Task :markwon-html-parser-api:transformNativeLibsWithMergeJniLibsForDebug
-> Task :markwon-html-parser-api:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :markwon-html-parser-api:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :markwon-html-parser-impl:compileDebugNdk NO-SOURCE
-> Task :markwon-html-parser-impl:mergeDebugJniLibFolders
-> Task :markwon-html-parser-impl:transformNativeLibsWithMergeJniLibsForDebug
-> Task :markwon-html-parser-impl:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :markwon-html-parser-impl:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :markwon-image-loader:compileDebugNdk NO-SOURCE
-> Task :markwon-image-loader:mergeDebugJniLibFolders
-> Task :markwon-image-loader:transformNativeLibsWithMergeJniLibsForDebug
-> Task :markwon-image-loader:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :markwon-image-loader:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :markwon-core:compileDebugNdk NO-SOURCE
+> Task :markwon-core:mergeDebugJniLibFolders
+> Task :markwon-core:transformNativeLibsWithMergeJniLibsForDebug
+> Task :markwon-core:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :markwon-core:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :markwon-ext-strikethrough:compileDebugNdk NO-SOURCE
+> Task :markwon-ext-strikethrough:mergeDebugJniLibFolders
+> Task :markwon-ext-strikethrough:transformNativeLibsWithMergeJniLibsForDebug
+> Task :markwon-ext-strikethrough:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :markwon-ext-strikethrough:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :markwon-ext-tables:compileDebugNdk NO-SOURCE
+> Task :markwon-ext-tables:mergeDebugJniLibFolders
+> Task :markwon-ext-tables:transformNativeLibsWithMergeJniLibsForDebug
+> Task :markwon-ext-tables:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :markwon-ext-tables:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :markwon-ext-tasklist:compileDebugNdk NO-SOURCE
+> Task :markwon-ext-tasklist:mergeDebugJniLibFolders
+> Task :markwon-ext-tasklist:transformNativeLibsWithMergeJniLibsForDebug
+> Task :markwon-ext-tasklist:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :markwon-ext-tasklist:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :markwon-html:compileDebugNdk NO-SOURCE
+> Task :markwon-html:mergeDebugJniLibFolders
+> Task :markwon-html:transformNativeLibsWithMergeJniLibsForDebug
+> Task :markwon-html:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :markwon-html:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :markwon-image-gif:compileDebugNdk NO-SOURCE
+> Task :markwon-image-gif:mergeDebugJniLibFolders
+> Task :markwon-image-gif:transformNativeLibsWithMergeJniLibsForDebug
+> Task :markwon-image-gif:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :markwon-image-gif:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :markwon-image-svg:compileDebugNdk NO-SOURCE
+> Task :markwon-image-svg:mergeDebugJniLibFolders
+> Task :markwon-image-svg:transformNativeLibsWithMergeJniLibsForDebug
+> Task :markwon-image-svg:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :markwon-image-svg:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :markwon-syntax-highlight:compileDebugNdk NO-SOURCE
 > Task :markwon-syntax-highlight:mergeDebugJniLibFolders
 > Task :markwon-syntax-highlight:transformNativeLibsWithMergeJniLibsForDebug
@@ -235,181 +362,281 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
 
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
-> Task :app:checkDebugLibraries
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:validateSigningDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :app:checkReleaseClasspath
-> Task :markwon:preReleaseBuild UP-TO-DATE
-> Task :markwon:checkReleaseManifest
-> Task :markwon:processReleaseManifest
-> Task :markwon-html-parser-api:preReleaseBuild UP-TO-DATE
-> Task :markwon-html-parser-api:checkReleaseManifest
-> Task :markwon-html-parser-api:processReleaseManifest
-> Task :markwon-html-parser-impl:preReleaseBuild UP-TO-DATE
-> Task :markwon-html-parser-impl:checkReleaseManifest
-> Task :markwon-html-parser-impl:processReleaseManifest
-> Task :markwon-image-loader:preReleaseBuild UP-TO-DATE
-> Task :markwon-image-loader:checkReleaseManifest
-> Task :markwon-image-loader:processReleaseManifest
+> Task :markwon-core:preReleaseBuild UP-TO-DATE
+> Task :markwon-core:checkReleaseManifest
+> Task :markwon-core:processReleaseManifest
+> Task :markwon-ext-strikethrough:preReleaseBuild UP-TO-DATE
+> Task :markwon-ext-strikethrough:checkReleaseManifest
+> Task :markwon-ext-strikethrough:processReleaseManifest
+> Task :markwon-ext-tables:preReleaseBuild UP-TO-DATE
+> Task :markwon-ext-tables:checkReleaseManifest
+> Task :markwon-ext-tables:processReleaseManifest
+> Task :markwon-ext-tasklist:preReleaseBuild UP-TO-DATE
+> Task :markwon-ext-tasklist:checkReleaseManifest
+> Task :markwon-ext-tasklist:processReleaseManifest
+> Task :markwon-html:preReleaseBuild UP-TO-DATE
+> Task :markwon-html:checkReleaseManifest
+> Task :markwon-html:processReleaseManifest
+> Task :markwon-image-gif:preReleaseBuild UP-TO-DATE
+> Task :markwon-image-gif:checkReleaseManifest
+> Task :markwon-image-gif:processReleaseManifest
+> Task :markwon-image-svg:preReleaseBuild UP-TO-DATE
+> Task :markwon-image-svg:checkReleaseManifest
+> Task :markwon-image-svg:processReleaseManifest
 > Task :markwon-syntax-highlight:preReleaseBuild UP-TO-DATE
 > Task :markwon-syntax-highlight:checkReleaseManifest
 > Task :markwon-syntax-highlight:processReleaseManifest
 > Task :app:preReleaseBuild
-> Task :markwon-html-parser-api:compileReleaseAidl NO-SOURCE
-> Task :markwon-html-parser-impl:compileReleaseAidl NO-SOURCE
-> Task :markwon:compileReleaseAidl NO-SOURCE
-> Task :markwon-image-loader:compileReleaseAidl NO-SOURCE
+> Task :markwon-core:compileReleaseAidl NO-SOURCE
+> Task :markwon-ext-strikethrough:compileReleaseAidl NO-SOURCE
+> Task :markwon-ext-tables:compileReleaseAidl NO-SOURCE
+> Task :markwon-ext-tasklist:compileReleaseAidl NO-SOURCE
+> Task :markwon-html:compileReleaseAidl NO-SOURCE
+> Task :markwon-image-gif:compileReleaseAidl NO-SOURCE
+> Task :markwon-image-svg:compileReleaseAidl NO-SOURCE
 > Task :markwon-syntax-highlight:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
-> Task :markwon:packageReleaseRenderscript NO-SOURCE
-> Task :markwon-html-parser-api:packageReleaseRenderscript NO-SOURCE
-> Task :markwon-html-parser-impl:packageReleaseRenderscript NO-SOURCE
-> Task :markwon-image-loader:packageReleaseRenderscript NO-SOURCE
+> Task :markwon-core:packageReleaseRenderscript NO-SOURCE
+> Task :markwon-ext-strikethrough:packageReleaseRenderscript NO-SOURCE
+> Task :markwon-ext-tables:packageReleaseRenderscript NO-SOURCE
+> Task :markwon-ext-tasklist:packageReleaseRenderscript NO-SOURCE
+> Task :markwon-html:packageReleaseRenderscript NO-SOURCE
+> Task :markwon-image-gif:packageReleaseRenderscript NO-SOURCE
+> Task :markwon-image-svg:packageReleaseRenderscript NO-SOURCE
 > Task :markwon-syntax-highlight:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
-> Task :markwon:compileReleaseRenderscript
-> Task :markwon:generateReleaseResValues
-> Task :markwon:generateReleaseResources
-> Task :markwon:packageReleaseResources
-> Task :markwon-html-parser-api:compileReleaseRenderscript
-> Task :markwon-html-parser-api:generateReleaseResValues
-> Task :markwon-html-parser-api:generateReleaseResources
-> Task :markwon-html-parser-api:packageReleaseResources
-> Task :markwon-html-parser-impl:compileReleaseRenderscript
-> Task :markwon-html-parser-impl:generateReleaseResValues
-> Task :markwon-html-parser-impl:generateReleaseResources
-> Task :markwon-html-parser-impl:packageReleaseResources
-> Task :markwon-image-loader:compileReleaseRenderscript
-> Task :markwon-image-loader:generateReleaseResValues
-> Task :markwon-image-loader:generateReleaseResources
-> Task :markwon-image-loader:packageReleaseResources
+> Task :app:generateReleaseSources
+> Task :markwon-core:compileReleaseRenderscript
+> Task :markwon-core:generateReleaseBuildConfig SKIPPED
+> Task :markwon-core:generateReleaseResValues
+> Task :markwon-core:generateReleaseResources
+> Task :markwon-core:packageReleaseResources
+> Task :markwon-core:generateReleaseRFile
+> Task :markwon-core:generateReleaseSources
+> Task :markwon-core:javaPreCompileRelease
+
+> Task :markwon-core:compileReleaseJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :markwon-core:processReleaseJavaRes NO-SOURCE
+> Task :markwon-core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :markwon-ext-strikethrough:compileReleaseRenderscript
+> Task :markwon-ext-strikethrough:generateReleaseBuildConfig SKIPPED
+> Task :markwon-ext-strikethrough:generateReleaseResValues
+> Task :markwon-ext-strikethrough:generateReleaseResources
+> Task :markwon-ext-strikethrough:packageReleaseResources
+> Task :markwon-ext-strikethrough:generateReleaseRFile
+> Task :markwon-ext-strikethrough:generateReleaseSources
+> Task :markwon-ext-strikethrough:javaPreCompileRelease
+> Task :markwon-ext-strikethrough:compileReleaseJavaWithJavac
+> Task :markwon-ext-strikethrough:processReleaseJavaRes NO-SOURCE
+> Task :markwon-ext-strikethrough:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :markwon-ext-tables:compileReleaseRenderscript
+> Task :markwon-ext-tables:generateReleaseBuildConfig SKIPPED
+> Task :markwon-ext-tables:generateReleaseResValues
+> Task :markwon-ext-tables:generateReleaseResources
+> Task :markwon-ext-tables:packageReleaseResources
+> Task :markwon-ext-tables:generateReleaseRFile
+> Task :markwon-ext-tables:generateReleaseSources
+> Task :markwon-ext-tables:javaPreCompileRelease
+
+> Task :markwon-ext-tables:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-ext-tables/src/main/java/ru/noties/markwon/ext/tables/TableRowSpan.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :markwon-ext-tables:processReleaseJavaRes NO-SOURCE
+> Task :markwon-ext-tables:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :markwon-ext-tasklist:compileReleaseRenderscript
+> Task :markwon-ext-tasklist:generateReleaseBuildConfig SKIPPED
+> Task :markwon-ext-tasklist:generateReleaseResValues
+> Task :markwon-ext-tasklist:generateReleaseResources
+> Task :markwon-ext-tasklist:packageReleaseResources
+> Task :markwon-ext-tasklist:generateReleaseRFile
+> Task :markwon-ext-tasklist:generateReleaseSources
+> Task :markwon-ext-tasklist:javaPreCompileRelease
+> Task :markwon-ext-tasklist:compileReleaseJavaWithJavac
+> Task :markwon-ext-tasklist:processReleaseJavaRes NO-SOURCE
+> Task :markwon-ext-tasklist:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :markwon-html:compileReleaseRenderscript
+> Task :markwon-html:generateReleaseBuildConfig SKIPPED
+> Task :markwon-html:generateReleaseResValues
+> Task :markwon-html:generateReleaseResources
+> Task :markwon-html:packageReleaseResources
+> Task :markwon-html:generateReleaseRFile
+> Task :markwon-html:generateReleaseSources
+> Task :markwon-html:javaPreCompileRelease
+
+> Task :markwon-html:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/markwon-html/src/main/java/ru/noties/markwon/html/jsoup/nodes/CommonMarkEntities.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :markwon-html:processReleaseJavaRes NO-SOURCE
+> Task :markwon-html:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :markwon-image-gif:compileReleaseRenderscript
+> Task :markwon-image-gif:generateReleaseBuildConfig SKIPPED
+> Task :markwon-image-gif:generateReleaseResValues
+> Task :markwon-image-gif:generateReleaseResources
+> Task :markwon-image-gif:packageReleaseResources
+> Task :markwon-image-gif:generateReleaseRFile
+> Task :markwon-image-gif:generateReleaseSources
+> Task :markwon-image-gif:javaPreCompileRelease
+> Task :markwon-image-gif:compileReleaseJavaWithJavac
+> Task :markwon-image-gif:processReleaseJavaRes NO-SOURCE
+> Task :markwon-image-gif:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :markwon-image-svg:compileReleaseRenderscript
+> Task :markwon-image-svg:generateReleaseBuildConfig SKIPPED
+> Task :markwon-image-svg:generateReleaseResValues
+> Task :markwon-image-svg:generateReleaseResources
+> Task :markwon-image-svg:packageReleaseResources
+> Task :markwon-image-svg:generateReleaseRFile
+> Task :markwon-image-svg:generateReleaseSources
+> Task :markwon-image-svg:javaPreCompileRelease
+> Task :markwon-image-svg:compileReleaseJavaWithJavac
+> Task :markwon-image-svg:processReleaseJavaRes NO-SOURCE
+> Task :markwon-image-svg:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 > Task :markwon-syntax-highlight:compileReleaseRenderscript
+> Task :markwon-syntax-highlight:generateReleaseBuildConfig SKIPPED
 > Task :markwon-syntax-highlight:generateReleaseResValues
 > Task :markwon-syntax-highlight:generateReleaseResources
 > Task :markwon-syntax-highlight:packageReleaseResources
-> Task :app:mergeReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
-> Task :app:splitsDiscoveryTaskRelease
-> Task :markwon-html-parser-api:generateReleaseRFile
-> Task :markwon-html-parser-impl:generateReleaseRFile
-> Task :markwon:generateReleaseRFile
-> Task :markwon-image-loader:generateReleaseRFile
 > Task :markwon-syntax-highlight:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :app:generateReleaseSources
-> Task :markwon:generateReleaseBuildConfig SKIPPED
-> Task :markwon:generateReleaseSources
-> Task :markwon-html-parser-api:generateReleaseBuildConfig SKIPPED
-> Task :markwon-html-parser-api:generateReleaseSources
-> Task :markwon-html-parser-api:javaPreCompileRelease
-> Task :markwon-html-parser-api:compileReleaseJavaWithJavac
-> Task :markwon-html-parser-api:processReleaseJavaRes NO-SOURCE
-> Task :markwon-html-parser-api:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :markwon-html-parser-impl:generateReleaseBuildConfig SKIPPED
-> Task :markwon-html-parser-impl:generateReleaseSources
-> Task :markwon-html-parser-impl:javaPreCompileRelease
-
-> Task :markwon-html-parser-impl:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon-html-parser-impl/src/main/java/ru/noties/markwon/html/impl/jsoup/nodes/CommonMarkEntities.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-> Task :markwon-html-parser-impl:processReleaseJavaRes NO-SOURCE
-> Task :markwon-html-parser-impl:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :markwon:javaPreCompileRelease
-
-> Task :markwon:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/markwon/src/main/java/ru/noties/markwon/DrawablesScheduler.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-> Task :markwon:processReleaseJavaRes NO-SOURCE
-> Task :markwon:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :markwon-image-loader:generateReleaseBuildConfig SKIPPED
-> Task :markwon-image-loader:generateReleaseSources
-> Task :markwon-image-loader:javaPreCompileRelease
-> Task :markwon-image-loader:compileReleaseJavaWithJavac
-> Task :markwon-image-loader:processReleaseJavaRes NO-SOURCE
-> Task :markwon-image-loader:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :markwon-syntax-highlight:generateReleaseBuildConfig SKIPPED
 > Task :markwon-syntax-highlight:generateReleaseSources
 > Task :markwon-syntax-highlight:javaPreCompileRelease
 > Task :markwon-syntax-highlight:compileReleaseJavaWithJavac
 > Task :markwon-syntax-highlight:processReleaseJavaRes NO-SOURCE
 > Task :markwon-syntax-highlight:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 > Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
 
 > Task :app:compileReleaseJavaWithJavac
-Note: [prism4j-bundler] Processing took: 522 ms
+Gradle may disable incremental compilation as the following annotation processors are not incremental: prism4j-bundler-1.1.0.jar (ru.noties:prism4j-bundler:1.1.0), dagger-compiler-2.10.jar (com.google.dagger:dagger-compiler:2.10).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: [prism4j-bundler] Processing took: 590 ms
 Note: [prism4j-bundler] Processing took: 0 ms
-Note: Some input files use or override a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/app/src/main/java/ru/noties/markwon/gif/GifAwarePlugin.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/app/src/main/java/ru/noties/markwon/Views.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
 
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/8644637ab5c550b874d2670306a10f5e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/eb0b7b4dc1396907fa130a99ff95fca1/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :markwon-core:createFullJarRelease
+> Transform full.jar (project :markwon-core) with IdentityTransform
+> Task :markwon-syntax-highlight:createFullJarRelease
+> Transform full.jar (project :markwon-syntax-highlight) with IdentityTransform
+> Task :markwon-image-svg:createFullJarRelease
+> Transform full.jar (project :markwon-image-svg) with IdentityTransform
+> Task :markwon-image-gif:createFullJarRelease
+> Transform full.jar (project :markwon-image-gif) with IdentityTransform
+> Transform full.jar (project :markwon-image-svg) with DexingTransform
+> Task :markwon-html:createFullJarRelease
+> Transform full.jar (project :markwon-syntax-highlight) with DexingTransform
+> Transform full.jar (project :markwon-html) with IdentityTransform
+> Task :markwon-ext-tasklist:createFullJarRelease
+> Transform full.jar (project :markwon-ext-tasklist) with IdentityTransform
+> Transform full.jar (project :markwon-image-gif) with DexingTransform
+> Task :markwon-ext-tables:createFullJarRelease
+> Transform full.jar (project :markwon-ext-tables) with IdentityTransform
+> Task :markwon-ext-strikethrough:createFullJarRelease
+> Transform full.jar (project :markwon-ext-strikethrough) with IdentityTransform
+> Transform full.jar (project :markwon-ext-tasklist) with DexingTransform
+> Transform full.jar (project :markwon-ext-tables) with DexingTransform
+> Transform full.jar (project :markwon-core) with DexingTransform
+> Transform full.jar (project :markwon-html) with DexingTransform
+> Task :app:mergeExtDexRelease
+> Transform full.jar (project :markwon-ext-strikethrough) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
-> Task :markwon:mergeReleaseShaders
-> Task :markwon:compileReleaseShaders
-> Task :markwon:generateReleaseAssets
-> Task :markwon:packageReleaseAssets
-> Task :markwon-html-parser-api:mergeReleaseShaders
-> Task :markwon-html-parser-api:compileReleaseShaders
-> Task :markwon-html-parser-api:generateReleaseAssets
-> Task :markwon-html-parser-api:packageReleaseAssets
-> Task :markwon-html-parser-impl:mergeReleaseShaders
-> Task :markwon-html-parser-impl:compileReleaseShaders
-> Task :markwon-html-parser-impl:generateReleaseAssets
-> Task :markwon-html-parser-impl:packageReleaseAssets
-> Task :markwon-image-loader:mergeReleaseShaders
-> Task :markwon-image-loader:compileReleaseShaders
-> Task :markwon-image-loader:generateReleaseAssets
-> Task :markwon-image-loader:packageReleaseAssets
+> Task :markwon-core:mergeReleaseShaders
+> Task :markwon-core:compileReleaseShaders
+> Task :markwon-core:generateReleaseAssets
+> Task :markwon-core:packageReleaseAssets
+> Task :markwon-ext-strikethrough:mergeReleaseShaders
+> Task :markwon-ext-strikethrough:compileReleaseShaders
+> Task :markwon-ext-strikethrough:generateReleaseAssets
+> Task :markwon-ext-strikethrough:packageReleaseAssets
+> Task :markwon-ext-tables:mergeReleaseShaders
+> Task :markwon-ext-tables:compileReleaseShaders
+> Task :markwon-ext-tables:generateReleaseAssets
+> Task :markwon-ext-tables:packageReleaseAssets
+> Task :markwon-ext-tasklist:mergeReleaseShaders
+> Task :markwon-ext-tasklist:compileReleaseShaders
+> Task :markwon-ext-tasklist:generateReleaseAssets
+> Task :markwon-ext-tasklist:packageReleaseAssets
+> Task :markwon-html:mergeReleaseShaders
+> Task :markwon-html:compileReleaseShaders
+> Task :markwon-html:generateReleaseAssets
+> Task :markwon-html:packageReleaseAssets
+> Task :markwon-image-gif:mergeReleaseShaders
+> Task :markwon-image-gif:compileReleaseShaders
+> Task :markwon-image-gif:generateReleaseAssets
+> Task :markwon-image-gif:packageReleaseAssets
+> Task :markwon-image-svg:mergeReleaseShaders
+> Task :markwon-image-svg:compileReleaseShaders
+> Task :markwon-image-svg:generateReleaseAssets
+> Task :markwon-image-svg:packageReleaseAssets
 > Task :markwon-syntax-highlight:mergeReleaseShaders
 > Task :markwon-syntax-highlight:compileReleaseShaders
 > Task :markwon-syntax-highlight:generateReleaseAssets
 > Task :markwon-syntax-highlight:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :markwon:compileReleaseNdk NO-SOURCE
-> Task :markwon:mergeReleaseJniLibFolders
-> Task :markwon:transformNativeLibsWithMergeJniLibsForRelease
-> Task :markwon:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :markwon:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :markwon-html-parser-api:compileReleaseNdk NO-SOURCE
-> Task :markwon-html-parser-api:mergeReleaseJniLibFolders
-> Task :markwon-html-parser-api:transformNativeLibsWithMergeJniLibsForRelease
-> Task :markwon-html-parser-api:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :markwon-html-parser-api:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :markwon-html-parser-impl:compileReleaseNdk NO-SOURCE
-> Task :markwon-html-parser-impl:mergeReleaseJniLibFolders
-> Task :markwon-html-parser-impl:transformNativeLibsWithMergeJniLibsForRelease
-> Task :markwon-html-parser-impl:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :markwon-html-parser-impl:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :markwon-image-loader:compileReleaseNdk NO-SOURCE
-> Task :markwon-image-loader:mergeReleaseJniLibFolders
-> Task :markwon-image-loader:transformNativeLibsWithMergeJniLibsForRelease
-> Task :markwon-image-loader:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :markwon-image-loader:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :markwon-core:compileReleaseNdk NO-SOURCE
+> Task :markwon-core:mergeReleaseJniLibFolders
+> Task :markwon-core:transformNativeLibsWithMergeJniLibsForRelease
+> Task :markwon-core:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :markwon-core:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :markwon-ext-strikethrough:compileReleaseNdk NO-SOURCE
+> Task :markwon-ext-strikethrough:mergeReleaseJniLibFolders
+> Task :markwon-ext-strikethrough:transformNativeLibsWithMergeJniLibsForRelease
+> Task :markwon-ext-strikethrough:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :markwon-ext-strikethrough:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :markwon-ext-tables:compileReleaseNdk NO-SOURCE
+> Task :markwon-ext-tables:mergeReleaseJniLibFolders
+> Task :markwon-ext-tables:transformNativeLibsWithMergeJniLibsForRelease
+> Task :markwon-ext-tables:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :markwon-ext-tables:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :markwon-ext-tasklist:compileReleaseNdk NO-SOURCE
+> Task :markwon-ext-tasklist:mergeReleaseJniLibFolders
+> Task :markwon-ext-tasklist:transformNativeLibsWithMergeJniLibsForRelease
+> Task :markwon-ext-tasklist:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :markwon-ext-tasklist:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :markwon-html:compileReleaseNdk NO-SOURCE
+> Task :markwon-html:mergeReleaseJniLibFolders
+> Task :markwon-html:transformNativeLibsWithMergeJniLibsForRelease
+> Task :markwon-html:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :markwon-html:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :markwon-image-gif:compileReleaseNdk NO-SOURCE
+> Task :markwon-image-gif:mergeReleaseJniLibFolders
+> Task :markwon-image-gif:transformNativeLibsWithMergeJniLibsForRelease
+> Task :markwon-image-gif:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :markwon-image-gif:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :markwon-image-svg:compileReleaseNdk NO-SOURCE
+> Task :markwon-image-svg:mergeReleaseJniLibFolders
+> Task :markwon-image-svg:transformNativeLibsWithMergeJniLibsForRelease
+> Task :markwon-image-svg:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :markwon-image-svg:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :markwon-syntax-highlight:compileReleaseNdk NO-SOURCE
 > Task :markwon-syntax-highlight:mergeReleaseJniLibFolders
 > Task :markwon-syntax-highlight:transformNativeLibsWithMergeJniLibsForRelease
@@ -418,9 +645,8 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:transformNativeLibsWithMergeJniLibsForRelease
 
 > Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
-> Task :app:checkReleaseLibraries
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForRelease
 > Task :app:packageRelease
@@ -432,7 +658,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 32s
-220 actionable tasks: 220 executed
+BUILD SUCCESSFUL in 30s
+331 actionable tasks: 331 executed
 
-2019-03-16 17:40:57,881 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732814660-0/src/Markwon-master/app/build/outputs/apk/release/markwon-sample-2.0.1-release-unsigned.apk
+2019-03-23 22:58:12,982 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356651823-0/src/Markwon-master/app/build/outputs/apk/release/markwon-3.0.0-release-unsigned.apk
