@@ -1,75 +1,75 @@
-2019-04-05 12:34:55,734 INFO  DownloadService - Downloading "https://github.com/noties/Markwon/archive/master.zip", attempt 3
-2019-04-05 12:35:00,270 INFO  DownloadService - Downloaded https://github.com/noties/Markwon/archive/master.zip, attempt 3
-2019-04-05 12:35:00,270 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/master.zip": 989 KB
-2019-04-05 12:35:00,271 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 12:35:00,277 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/master.zip: true
-2019-04-05 12:35:00,278 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src'.
-2019-04-05 12:35:00,419 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-04-05 12:35:00,419 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src]
-2019-04-05 12:35:00,444 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/.git/
+2019-04-06 14:09:22,169 INFO  DownloadService - Downloading "https://github.com/noties/Markwon/archive/master.zip", attempt 3
+2019-04-06 14:09:23,442 INFO  DownloadService - Downloaded https://github.com/noties/Markwon/archive/master.zip, attempt 3
+2019-04-06 14:09:23,442 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/master.zip": 989 KB
+2019-04-06 14:09:23,442 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-06 14:09:23,444 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/master.zip: true
+2019-04-06 14:09:23,444 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src'.
+2019-04-06 14:09:23,681 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-04-06 14:09:23,681 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src]
+2019-04-06 14:09:23,713 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/.git/
 
-2019-04-05 12:35:00,461 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/gradlew
-2019-04-05 12:35:00,480 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-latex/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-strikethrough/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-tables/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-tasklist/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-html/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-image-gif/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-image-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-image-svg/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-recycler-table/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-recycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-syntax-highlight/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-test-span/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/build.gradle
-2019-04-05 12:35:00,497 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-syntax-highlight/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-image-gif/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-tasklist/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-tables/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-recycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-strikethrough/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-latex/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-image-svg/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-image-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-recycler-table/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-html/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-test-span/build.gradle
-2019-04-05 12:35:00,498 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 12:35:00,498 INFO  ProjectFixService - Fixing project...
-2019-04-05 12:35:00,543 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/app/local.properties
-2019-04-05 12:35:00,552 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 12:35:00,552 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 12:35:00,553 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-core/local.properties
-2019-04-05 12:35:00,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 12:35:00,560 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 12:35:00,561 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-latex/local.properties
-2019-04-05 12:35:00,567 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-latex/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 12:35:00,567 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-latex/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 12:35:00,568 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-strikethrough/local.properties
-2019-04-05 12:35:00,575 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-strikethrough/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 12:35:00,575 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-strikethrough/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 12:35:00,575 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-tables/local.properties
-2019-04-05 12:35:00,582 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-tables/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 12:35:00,582 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-tables/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 12:35:00,583 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-tasklist/local.properties
-2019-04-05 12:35:00,589 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-tasklist/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 12:35:00,589 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-tasklist/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 12:35:00,590 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-html/local.properties
-2019-04-05 12:35:00,599 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-html/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 12:35:00,599 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-html/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 12:35:00,600 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-image-gif/local.properties
-2019-04-05 12:35:00,606 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-image-gif/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 12:35:00,607 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-image-gif/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 12:35:00,607 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-image-okhttp/local.properties
-2019-04-05 12:35:00,614 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-image-okhttp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 12:35:00,614 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-image-okhttp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 12:35:00,615 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-image-svg/local.properties
-2019-04-05 12:35:00,621 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-image-svg/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 12:35:00,621 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-image-svg/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 12:35:00,622 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-recycler-table/local.properties
-2019-04-05 12:35:00,628 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-recycler-table/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 12:35:00,628 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-recycler-table/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 12:35:00,629 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-recycler/local.properties
-2019-04-05 12:35:00,635 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-recycler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 12:35:00,636 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-recycler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 12:35:00,636 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-syntax-highlight/local.properties
-2019-04-05 12:35:00,643 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-syntax-highlight/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 12:35:00,643 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-syntax-highlight/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 12:35:00,644 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-test-span/local.properties
-2019-04-05 12:35:00,650 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-test-span/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 12:35:00,650 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-test-span/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 12:35:00,651 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/sample/local.properties
-2019-04-05 12:35:00,657 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 12:35:00,657 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 12:35:00,658 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/local.properties
-2019-04-05 12:35:00,658 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
-2019-04-05 12:35:00,659 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
-2019-04-05 12:35:00,665 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 12:35:00,665 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 12:35:00,666 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 12:35:00,666 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 12:35:00,666 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 12:35:08,119 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-04-05 12:35:08,119 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-05 12:35:08,119 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-05 12:35:37,911 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 14:09:23,741 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/gradlew
+2019-04-06 14:09:23,773 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-latex/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-strikethrough/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-tables/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-tasklist/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-html/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-image-gif/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-image-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-image-svg/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-recycler-table/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-recycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-syntax-highlight/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-test-span/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/build.gradle
+2019-04-06 14:09:23,824 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-syntax-highlight/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-image-gif/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-tasklist/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-tables/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-recycler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-strikethrough/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-latex/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-image-svg/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-image-okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-recycler-table/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-html/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-test-span/build.gradle
+2019-04-06 14:09:23,827 INFO  ProjectBuildService - Remote scripts: none
+2019-04-06 14:09:23,827 INFO  ProjectFixService - Fixing project...
+2019-04-06 14:09:23,918 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/app/local.properties
+2019-04-06 14:09:23,930 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:09:23,931 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:09:23,932 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-core/local.properties
+2019-04-06 14:09:23,946 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:09:23,946 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:09:23,947 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-latex/local.properties
+2019-04-06 14:09:23,959 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-latex/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:09:23,959 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-latex/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:09:23,960 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-strikethrough/local.properties
+2019-04-06 14:09:23,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-strikethrough/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:09:23,975 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-strikethrough/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:09:23,977 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-tables/local.properties
+2019-04-06 14:09:23,991 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-tables/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:09:23,991 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-tables/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:09:23,992 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-tasklist/local.properties
+2019-04-06 14:09:24,007 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-tasklist/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:09:24,008 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-tasklist/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:09:24,009 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-html/local.properties
+2019-04-06 14:09:24,024 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-html/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:09:24,024 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-html/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:09:24,025 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-image-gif/local.properties
+2019-04-06 14:09:24,039 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-image-gif/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:09:24,039 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-image-gif/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:09:24,040 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-image-okhttp/local.properties
+2019-04-06 14:09:24,054 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-image-okhttp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:09:24,055 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-image-okhttp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:09:24,056 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-image-svg/local.properties
+2019-04-06 14:09:24,070 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-image-svg/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:09:24,073 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-image-svg/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:09:24,076 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-recycler-table/local.properties
+2019-04-06 14:09:24,090 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-recycler-table/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:09:24,090 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-recycler-table/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:09:24,092 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-recycler/local.properties
+2019-04-06 14:09:24,111 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-recycler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:09:24,112 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-recycler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:09:24,114 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-syntax-highlight/local.properties
+2019-04-06 14:09:24,126 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-syntax-highlight/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:09:24,127 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-syntax-highlight/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:09:24,128 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-test-span/local.properties
+2019-04-06 14:09:24,142 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-test-span/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:09:24,142 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-test-span/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:09:24,144 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/sample/local.properties
+2019-04-06 14:09:24,156 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:09:24,156 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:09:24,169 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/local.properties
+2019-04-06 14:09:24,170 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-04-06 14:09:24,170 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-04-06 14:09:24,183 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:09:24,183 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:09:24,185 INFO  ProjectFixService - Project was maybe fixed
+2019-04-06 14:09:24,185 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 14:09:24,186 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 14:09:34,541 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-06 14:09:34,541 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-06 14:09:34,541 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-06 14:10:02,006 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :markwon-core:preBuild UP-TO-DATE
 > Task :markwon-core:preDebugBuild UP-TO-DATE
@@ -165,7 +165,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :markwon-ext-tables:javaPreCompileDebug
 
 > Task :markwon-ext-tables:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-tables/src/main/java/ru/noties/markwon/ext/tables/TableRowSpan.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-tables/src/main/java/ru/noties/markwon/ext/tables/TableRowSpan.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :markwon-ext-tables:processDebugJavaRes NO-SOURCE
@@ -193,7 +193,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :markwon-html:javaPreCompileDebug
 
 > Task :markwon-html:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-html/src/main/java/ru/noties/markwon/html/jsoup/nodes/CommonMarkEntities.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-html/src/main/java/ru/noties/markwon/html/jsoup/nodes/CommonMarkEntities.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :markwon-html:processDebugJavaRes NO-SOURCE
@@ -246,9 +246,9 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:compileDebugJavaWithJavac
 Gradle may disable incremental compilation as the following annotation processors are not incremental: prism4j-bundler-1.1.0.jar (ru.noties:prism4j-bundler:1.1.0), dagger-compiler-2.10.jar (com.google.dagger:dagger-compiler:2.10).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
-Note: [prism4j-bundler] Processing took: 779 ms
+Note: [prism4j-bundler] Processing took: 756 ms
 Note: [prism4j-bundler] Processing took: 1 ms
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/app/src/main/java/ru/noties/markwon/gif/GifAwarePlugin.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/app/src/main/java/ru/noties/markwon/gif/GifAwarePlugin.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugNdk NO-SOURCE
@@ -290,10 +290,10 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :markwon-syntax-highlight:packageDebugAssets
 > Task :app:mergeDebugAssets
 > Task :markwon-core:createFullJarDebug
-> Transform full.jar (project :markwon-core) with IdentityTransform
 > Task :markwon-syntax-highlight:createFullJarDebug
-> Transform full.jar (project :markwon-syntax-highlight) with IdentityTransform
 > Task :markwon-image-svg:createFullJarDebug
+> Transform full.jar (project :markwon-core) with IdentityTransform
+> Transform full.jar (project :markwon-syntax-highlight) with IdentityTransform
 > Transform full.jar (project :markwon-image-svg) with IdentityTransform
 > Task :markwon-image-gif:createFullJarDebug
 > Transform full.jar (project :markwon-image-gif) with IdentityTransform
@@ -305,15 +305,15 @@ Note: Recompile with -Xlint:deprecation for details.
 > Transform full.jar (project :markwon-ext-tables) with IdentityTransform
 > Task :markwon-ext-strikethrough:createFullJarDebug
 > Transform full.jar (project :markwon-ext-strikethrough) with IdentityTransform
-> Transform full.jar (project :markwon-image-gif) with DexingTransform
 > Transform full.jar (project :markwon-image-svg) with DexingTransform
 > Transform full.jar (project :markwon-ext-strikethrough) with DexingTransform
+> Transform full.jar (project :markwon-image-gif) with DexingTransform
 > Transform full.jar (project :markwon-syntax-highlight) with DexingTransform
 > Transform full.jar (project :markwon-ext-tasklist) with DexingTransform
 > Transform full.jar (project :markwon-ext-tables) with DexingTransform
+> Task :app:mergeExtDexDebug
 > Transform full.jar (project :markwon-core) with DexingTransform
 > Transform full.jar (project :markwon-html) with DexingTransform
-> Task :app:mergeExtDexDebug
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:mergeDexDebug
 > Task :app:validateSigningDebug
@@ -362,7 +362,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
 
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
@@ -450,7 +450,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :markwon-ext-tables:javaPreCompileRelease
 
 > Task :markwon-ext-tables:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-ext-tables/src/main/java/ru/noties/markwon/ext/tables/TableRowSpan.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-ext-tables/src/main/java/ru/noties/markwon/ext/tables/TableRowSpan.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :markwon-ext-tables:processReleaseJavaRes NO-SOURCE
@@ -476,7 +476,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :markwon-html:javaPreCompileRelease
 
 > Task :markwon-html:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/markwon-html/src/main/java/ru/noties/markwon/html/jsoup/nodes/CommonMarkEntities.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/markwon-html/src/main/java/ru/noties/markwon/html/jsoup/nodes/CommonMarkEntities.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :markwon-html:processReleaseJavaRes NO-SOURCE
@@ -526,17 +526,14 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:compileReleaseJavaWithJavac
 Gradle may disable incremental compilation as the following annotation processors are not incremental: prism4j-bundler-1.1.0.jar (ru.noties:prism4j-bundler:1.1.0), dagger-compiler-2.10.jar (com.google.dagger:dagger-compiler:2.10).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
-Note: [prism4j-bundler] Processing took: 592 ms
+Note: [prism4j-bundler] Processing took: 564 ms
 Note: [prism4j-bundler] Processing took: 0 ms
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/app/src/main/java/ru/noties/markwon/gif/GifAwarePlugin.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/app/src/main/java/ru/noties/markwon/gif/GifAwarePlugin.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/eb0b7b4dc1396907fa130a99ff95fca1/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :markwon-core:createFullJarRelease
 > Transform full.jar (project :markwon-core) with IdentityTransform
 > Task :markwon-syntax-highlight:createFullJarRelease
@@ -547,23 +544,21 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Transform full.jar (project :markwon-image-gif) with IdentityTransform
 > Transform full.jar (project :markwon-image-svg) with DexingTransform
 > Task :markwon-html:createFullJarRelease
-> Transform full.jar (project :markwon-syntax-highlight) with DexingTransform
 > Transform full.jar (project :markwon-html) with IdentityTransform
 > Task :markwon-ext-tasklist:createFullJarRelease
 > Transform full.jar (project :markwon-ext-tasklist) with IdentityTransform
 > Transform full.jar (project :markwon-image-gif) with DexingTransform
 > Task :markwon-ext-tables:createFullJarRelease
 > Transform full.jar (project :markwon-ext-tables) with IdentityTransform
+> Transform full.jar (project :markwon-syntax-highlight) with DexingTransform
 > Task :markwon-ext-strikethrough:createFullJarRelease
 > Transform full.jar (project :markwon-ext-strikethrough) with IdentityTransform
-> Transform full.jar (project :markwon-ext-tables) with DexingTransform
 > Transform full.jar (project :markwon-ext-tasklist) with DexingTransform
-> Transform full.jar (project :markwon-core) with DexingTransform
-> Transform full.jar (project :markwon-html) with DexingTransform
+> Transform full.jar (project :markwon-ext-tables) with DexingTransform
 > Task :app:mergeExtDexRelease
 > Transform full.jar (project :markwon-ext-strikethrough) with DexingTransform
+> Transform full.jar (project :markwon-core) with DexingTransform
 > Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:mergeDexRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -572,7 +567,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :markwon-core:generateReleaseAssets
 > Task :markwon-core:packageReleaseAssets
 > Task :markwon-ext-strikethrough:mergeReleaseShaders
+> Transform full.jar (project :markwon-html) with DexingTransform
 > Task :markwon-ext-strikethrough:compileReleaseShaders
+> Task :app:mergeDexRelease
 > Task :markwon-ext-strikethrough:generateReleaseAssets
 > Task :markwon-ext-strikethrough:packageReleaseAssets
 > Task :markwon-ext-tables:mergeReleaseShaders
@@ -645,7 +642,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:transformNativeLibsWithMergeJniLibsForRelease
 
 > Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForRelease
@@ -658,7 +655,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 29s
+BUILD SUCCESSFUL in 26s
 331 actionable tasks: 331 executed
 
-2019-04-05 12:35:38,023 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442495731-0/src/Markwon-master/app/build/outputs/apk/release/markwon-3.0.0-release-unsigned.apk
+2019-04-06 14:10:02,120 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534562164-0/src/Markwon-master/app/build/outputs/apk/release/markwon-3.0.0-release-unsigned.apk
