@@ -1,38 +1,41 @@
-2019-04-29 15:03:22,130 INFO  DownloadService - Downloading "https://github.com/isuPatches/WiseFy/archive/master.zip", attempt 3
-2019-04-29 15:03:27,679 INFO  DownloadService - Downloading "https://github.com/isuPatches/WiseFy/archive/master.zip", attempt 2
-2019-04-29 15:03:33,995 INFO  DownloadService - Downloading "https://github.com/isuPatches/WiseFy/archive/master.zip", attempt 1
-2019-04-29 15:04:34,283 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-29 15:04:35,390 INFO  GithubDownloadService - Default branch of this repository: 4.x
-2019-04-29 15:04:35,390 INFO  DownloadService - Downloading "https://github.com/isuPatches/WiseFy/archive/4.x.zip", attempt 3
-2019-04-29 15:05:36,826 DEBUG FullProcessService - Repository https://github.com/isuPatches/WiseFy available: true
-2019-04-29 15:05:36,826 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-29 15:05:36,826 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/isuPatches/WiseFy, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src]
-2019-04-29 15:05:39,195 INFO  SysUtils - 
-2019-04-29 15:05:39,207 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/.git": true
-2019-04-29 15:05:39,216 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-04-29 15:05:39,216 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src]
-2019-04-29 15:05:39,233 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/.git/
+2019-05-17 11:18:51,801 INFO  DownloadService - Downloading "https://github.com/isuPatches/WiseFy/archive/master.zip", attempt 3
+2019-05-17 11:18:58,304 INFO  DownloadService - Downloading "https://github.com/isuPatches/WiseFy/archive/master.zip", attempt 2
+2019-05-17 11:19:04,315 INFO  DownloadService - Downloading "https://github.com/isuPatches/WiseFy/archive/master.zip", attempt 1
+2019-05-17 11:20:04,762 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-05-17 11:20:06,087 INFO  GithubDownloadService - Default branch of this repository: 4.x
+2019-05-17 11:20:06,087 INFO  DownloadService - Downloading "https://github.com/isuPatches/WiseFy/archive/4.x.zip", attempt 3
+2019-05-17 11:21:07,619 DEBUG FullProcessService - Repository https://github.com/isuPatches/WiseFy available: true
+2019-05-17 11:21:07,619 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-05-17 11:21:07,620 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/isuPatches/WiseFy, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src]
+2019-05-17 11:21:09,893 INFO  SysUtils - 
+2019-05-17 11:21:09,907 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/.git": true
+2019-05-17 11:21:09,920 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-05-17 11:21:09,920 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src]
+2019-05-17 11:21:09,938 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/.git/
 
-2019-04-29 15:05:39,239 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradlew
-2019-04-29 15:05:39,246 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/build.gradle
-2019-04-29 15:05:39,253 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradle/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradle/gradle-bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradle/dokka.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradle/static-analysis.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradle/code-coverage.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradle/detekt.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradle/cpd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradle/custom-tasks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradle/dexcount.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradle/gradle-bintray-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradle/ktlint.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradle/pmd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/settings.gradle
-2019-04-29 15:05:39,254 INFO  ProjectBuildService - Remote scripts: none
-2019-04-29 15:05:39,254 INFO  ProjectFixService - Fixing project...
-2019-04-29 15:05:39,271 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/local.properties
-2019-04-29 15:05:39,278 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-29 15:05:39,278 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-29 15:05:39,279 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/local.properties
-2019-04-29 15:05:39,279 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4-all.zip
-2019-04-29 15:05:39,279 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4-bin.zip)
-2019-04-29 15:05:39,290 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-29 15:05:39,290 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-29 15:05:39,291 INFO  ProjectFixService - Project was maybe fixed
-2019-04-29 15:05:39,291 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-29 15:05:39,291 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-29 15:06:13,469 INFO  ProjectTaskService - Detected possible tasks: 99
-2019-04-29 15:06:13,469 INFO  ProjectTaskService - Excluded tasks (17): pmd lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-29 15:06:13,469 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-29 15:07:13,234 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-17 11:21:09,948 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradlew
+2019-05-17 11:21:09,958 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefysample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/build.gradle
+2019-05-17 11:21:09,968 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradle/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradle/gradle-bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradle/dokka.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradle/static-analysis.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradle/code-coverage.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradle/detekt.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradle/cpd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradle/dexcount.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradle/gradle-bintray-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradle/ktlint.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradle/pmd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefysample/build.gradle
+2019-05-17 11:21:09,970 INFO  ProjectBuildService - Remote scripts: none
+2019-05-17 11:21:09,970 INFO  ProjectFixService - Fixing project...
+2019-05-17 11:21:09,999 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefy/local.properties
+2019-05-17 11:21:10,007 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefy/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-17 11:21:10,007 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefy/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-17 11:21:10,008 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefysample/local.properties
+2019-05-17 11:21:10,017 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefysample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-17 11:21:10,017 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefysample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-17 11:21:10,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/local.properties
+2019-05-17 11:21:10,018 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4-all.zip
+2019-05-17 11:21:10,019 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4-bin.zip)
+2019-05-17 11:21:10,027 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-17 11:21:10,027 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-17 11:21:10,029 INFO  ProjectFixService - Project was maybe fixed
+2019-05-17 11:21:10,029 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-17 11:21:10,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefy/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-17 11:21:28,120 INFO  ProjectTaskService - Detected possible tasks: 99
+2019-05-17 11:21:28,121 INFO  ProjectTaskService - Excluded tasks (17): pmd lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-17 11:21:28,121 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefy/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-17 11:22:14,973 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :wisefy
 user: null
@@ -53,74 +56,23 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :wisefy:generateDebugResValues
 > Task :wisefy:generateDebugResources
 > Task :wisefy:processDebugManifest
+> Task :wisefy:packageDebugResources
+> Task :wisefy:generateDebugRFile
 > Task :wisefy:prepareLintJar
+> Task :wisefy:compileDebugKotlin
 > Task :wisefy:generateDebugSources
+> Task :wisefy:javaPreCompileDebug
+> Task :wisefy:compileDebugJavaWithJavac
+> Task :wisefy:extractDebugAnnotations
 > Task :wisefy:mergeDebugConsumerProguardFiles
 > Task :wisefy:mergeDebugShaders
 > Task :wisefy:compileDebugShaders
-> Task :wisefy:packageDebugResources
-> Task :wisefy:generateDebugRFile
 > Task :wisefy:generateDebugAssets
 > Task :wisefy:packageDebugAssets
 > Task :wisefy:packageDebugRenderscript NO-SOURCE
 > Task :wisefy:prepareLintJarForPublish
-> Task :wisefy:processDebugJavaRes NO-SOURCE
-> Task :wisefy:mergeDebugJniLibFolders
-> Task :wisefy:transformNativeLibsWithMergeJniLibsForDebug
-> Task :wisefy:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :wisefy:transformNativeLibsWithSyncJniLibsForDebug
-> Task :wisefy:preReleaseBuild
-> Task :wisefy:compileReleaseAidl NO-SOURCE
-> Task :wisefy:compileReleaseRenderscript NO-SOURCE
-> Task :wisefy:checkReleaseManifest
-> Task :wisefy:generateReleaseBuildConfig
-> Task :wisefy:generateReleaseResValues
-> Task :wisefy:generateReleaseResources
-> Task :wisefy:packageReleaseResources
-> Task :wisefy:processReleaseManifest
-> Task :wisefy:generateReleaseRFile
-> Task :wisefy:generateReleaseSources
-> Task :wisefy:mergeReleaseConsumerProguardFiles
-> Task :wisefy:mergeReleaseShaders
-> Task :wisefy:compileReleaseShaders
-> Task :wisefy:generateReleaseAssets
-> Task :wisefy:packageReleaseAssets
-> Task :wisefy:packageReleaseRenderscript NO-SOURCE
-> Task :wisefy:processReleaseJavaRes NO-SOURCE
-> Task :wisefy:mergeReleaseJniLibFolders
-> Task :wisefy:transformNativeLibsWithMergeJniLibsForRelease
-> Task :wisefy:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :wisefy:transformNativeLibsWithSyncJniLibsForRelease
-> Task :wisefy:mergeReleaseResources
-> Task :wisefy:verifyReleaseResources
-> Task :wisefy:sourcesJar
-
-> Task :wisefy:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/WiseFy.kt: (1082, 21): 'startScan(): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/WiseFy.kt: (1121, 29): 'startScan(): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/WiseFy.kt: (1503, 51): 'getter for isRoaming: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/WiseFyConnection.kt: (105, 78): 'getter for isAvailable: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/WiseFyConnection.kt: (173, 34): 'getter for typeName: String!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/WiseFySearch.kt: (87, 25): 'startScan(): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/WiseFySearch.kt: (146, 21): 'startScan(): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/WiseFySearch.kt: (248, 21): 'startScan(): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (40, 71): 'WPA: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (43, 83): 'TKIP: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (44, 77): 'WEP40: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (45, 77): 'WEP104: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (68, 23): 'wepKeys: Array<(out) String!>!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (71, 71): 'WPA: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (73, 81): 'SHARED: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (75, 83): 'TKIP: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (76, 77): 'WEP40: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (77, 77): 'WEP104: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (104, 83): 'TKIP: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (107, 71): 'WPA: Int' is deprecated. Deprecated in Java
-
-> Task :wisefy:javaPreCompileDebug
-> Task :wisefy:compileDebugJavaWithJavac
-> Task :wisefy:extractDebugAnnotations
 > Task :wisefy:jacocoDebug
+> Task :wisefy:processDebugJavaRes NO-SOURCE
 > Task :wisefy:transformResourcesWithMergeJavaResForDebug
 
 > Task :wisefy:transformClassesAndResourcesWithR8ForDebug
@@ -131,35 +83,36 @@ Current version is: 1.4.77 (build b74371231cb896b02f83285efb055b7c00ff64d8 from 
 
 
 > Task :wisefy:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :wisefy:mergeDebugJniLibFolders
+> Task :wisefy:transformNativeLibsWithMergeJniLibsForDebug
+> Task :wisefy:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :wisefy:transformNativeLibsWithSyncJniLibsForDebug
 > Task :wisefy:bundleDebugAar
+> Task :wisefy:mergeDebugResources
 > Task :wisefy:compileDebugSources
 > Task :wisefy:assembleDebug
-
+> Task :wisefy:preReleaseBuild
+> Task :wisefy:compileReleaseAidl NO-SOURCE
+> Task :wisefy:compileReleaseRenderscript NO-SOURCE
+> Task :wisefy:checkReleaseManifest
+> Task :wisefy:generateReleaseBuildConfig
+> Task :wisefy:generateReleaseResValues
+> Task :wisefy:generateReleaseResources
+> Task :wisefy:packageReleaseResources
+> Task :wisefy:processReleaseManifest
+> Task :wisefy:generateReleaseRFile
 > Task :wisefy:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/WiseFy.kt: (1082, 21): 'startScan(): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/WiseFy.kt: (1121, 29): 'startScan(): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/WiseFy.kt: (1503, 51): 'getter for isRoaming: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/WiseFyConnection.kt: (105, 78): 'getter for isAvailable: Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/WiseFyConnection.kt: (173, 34): 'getter for typeName: String!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/WiseFySearch.kt: (87, 25): 'startScan(): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/WiseFySearch.kt: (146, 21): 'startScan(): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/WiseFySearch.kt: (248, 21): 'startScan(): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (40, 71): 'WPA: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (43, 83): 'TKIP: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (44, 77): 'WEP40: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (45, 77): 'WEP104: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (68, 23): 'wepKeys: Array<(out) String!>!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (71, 71): 'WPA: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (73, 81): 'SHARED: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (75, 83): 'TKIP: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (76, 77): 'WEP40: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (77, 77): 'WEP104: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (104, 83): 'TKIP: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/wisefy/src/main/java/com/isupatches/wisefy/utils/WifiConfigurationUtil.kt: (107, 71): 'WPA: Int' is deprecated. Deprecated in Java
-
+> Task :wisefy:generateReleaseSources
 > Task :wisefy:javaPreCompileRelease
 > Task :wisefy:compileReleaseJavaWithJavac
 > Task :wisefy:extractReleaseAnnotations
+> Task :wisefy:mergeReleaseConsumerProguardFiles
+> Task :wisefy:mergeReleaseShaders
+> Task :wisefy:compileReleaseShaders
+> Task :wisefy:generateReleaseAssets
+> Task :wisefy:packageReleaseAssets
+> Task :wisefy:packageReleaseRenderscript NO-SOURCE
+> Task :wisefy:processReleaseJavaRes NO-SOURCE
 > Task :wisefy:transformResourcesWithMergeJavaResForRelease
 
 > Task :wisefy:transformClassesAndResourcesWithR8ForRelease
@@ -170,131 +123,138 @@ Current version is: 1.4.77 (build b74371231cb896b02f83285efb055b7c00ff64d8 from 
 
 
 > Task :wisefy:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :wisefy:mergeReleaseJniLibFolders
+> Task :wisefy:transformNativeLibsWithMergeJniLibsForRelease
+> Task :wisefy:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :wisefy:transformNativeLibsWithSyncJniLibsForRelease
 > Task :wisefy:bundleReleaseAar
+> Task :wisefy:mergeReleaseResources
 > Task :wisefy:compileReleaseSources
+> Task :wisefy:verifyReleaseResources
 > Task :wisefy:assembleRelease
 
 > Task :wisefy:dokka
-Can't find node by signature `com.isupatches.wisefy.logging.WiseFyLogger$configureWiseFyLoggerImplementation(kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy.Brains$getSmarts() (WiseFy.kt:235)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String) (WiseFy.kt:255)
-Can't find node by signature `com.isupatches.wisefy.utils$generateOpenNetworkConfiguration(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String) (WiseFy.kt:255)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String) (WiseFy.kt:255)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:279)
-Can't find node by signature `com.isupatches.wisefy.utils$generateOpenNetworkConfiguration(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:279)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:279)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:279)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String) (WiseFy.kt:318)
-Can't find node by signature `com.isupatches.wisefy.utils$generateWEPNetworkConfiguration(kotlin.String, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String) (WiseFy.kt:318)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String) (WiseFy.kt:318)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:343)
-Can't find node by signature `com.isupatches.wisefy.utils$generateWEPNetworkConfiguration(kotlin.String, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:343)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:343)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:343)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String) (WiseFy.kt:383)
-Can't find node by signature `com.isupatches.wisefy.utils$generateWPA2NetworkConfiguration(kotlin.String, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String) (WiseFy.kt:383)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String) (WiseFy.kt:383)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:408)
-Can't find node by signature `com.isupatches.wisefy.utils$generateWPA2NetworkConfiguration(kotlin.String, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:408)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:408)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:408)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$connectToNetworkWithId(kotlin.Int)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int) (WiseFy.kt:488)
-Can't find node by signature `com.isupatches.wisefy.WiseFyConnection$waitToConnectToSSID(kotlin.String, kotlin.Int)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int) (WiseFy.kt:488)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$connectToNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int) (WiseFy.kt:488)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int) (WiseFy.kt:488)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$connectToNetworkWithId(kotlin.Int)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:525)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:525)
-Can't find node by signature `com.isupatches.wisefy.WiseFyConnection$waitToConnectToSSID(kotlin.String, kotlin.Int)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:525)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$connectToNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:525)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:525)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$disableWifiChecks()`, referenced at com.isupatches.wisefy.WiseFy$disableWifi() (WiseFy.kt:578)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$disableWifi(com.isupatches.wisefy.callbacks.DisableWifiCallbacks) (WiseFy.kt:595)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$disableWifiChecks()`, referenced at com.isupatches.wisefy.WiseFy$disableWifi(com.isupatches.wisefy.callbacks.DisableWifiCallbacks) (WiseFy.kt:595)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$disconnectFromCurrentNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$disconnectFromCurrentNetwork() (WiseFy.kt:630)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$disconnectFromCurrentNetwork(com.isupatches.wisefy.callbacks.DisconnectFromCurrentNetworkCallbacks) (WiseFy.kt:646)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$enableWifiChecks()`, referenced at com.isupatches.wisefy.WiseFy$enableWifi() (WiseFy.kt:717)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$enableWifi(com.isupatches.wisefy.callbacks.EnableWifiCallbacks) (WiseFy.kt:734)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$enableWifiChecks()`, referenced at com.isupatches.wisefy.WiseFy$enableWifi(com.isupatches.wisefy.callbacks.EnableWifiCallbacks) (WiseFy.kt:734)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getCurrentNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetwork() (WiseFy.kt:769)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetwork(com.isupatches.wisefy.callbacks.GetCurrentNetworkCallbacks) (WiseFy.kt:793)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getCurrentNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetwork(com.isupatches.wisefy.callbacks.GetCurrentNetworkCallbacks) (WiseFy.kt:793)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getCurrentNetworkInfoChecks()`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetworkInfo() (WiseFy.kt:827)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetworkInfo(com.isupatches.wisefy.callbacks.GetCurrentNetworkInfoCallbacks) (WiseFy.kt:848)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getCurrentNetworkInfoChecks()`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetworkInfo(com.isupatches.wisefy.callbacks.GetCurrentNetworkInfoCallbacks) (WiseFy.kt:848)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getFrequency(com.isupatches.wisefy.callbacks.GetFrequencyCallbacks) (WiseFy.kt:903)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getFrequency(android.net.wifi.WifiInfo, com.isupatches.wisefy.callbacks.GetFrequencyCallbacks) (WiseFy.kt:954)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getIPChecks()`, referenced at com.isupatches.wisefy.WiseFy$getIP() (WiseFy.kt:983)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getIP(com.isupatches.wisefy.callbacks.GetIPCallbacks) (WiseFy.kt:1013)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getIPChecks()`, referenced at com.isupatches.wisefy.WiseFy$getIP(com.isupatches.wisefy.callbacks.GetIPCallbacks) (WiseFy.kt:1013)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getNearbyAccessPointsChecks()`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean) (WiseFy.kt:1052)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$removeEntriesWithLowerSignalStrength(kotlin.collections.List((android.net.wifi.ScanResult)))`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean) (WiseFy.kt:1052)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean, com.isupatches.wisefy.callbacks.GetNearbyAccessPointsCallbacks) (WiseFy.kt:1090)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getNearbyAccessPointsChecks()`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean, com.isupatches.wisefy.callbacks.GetNearbyAccessPointsCallbacks) (WiseFy.kt:1090)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$removeEntriesWithLowerSignalStrength(kotlin.collections.List((android.net.wifi.ScanResult)))`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean, com.isupatches.wisefy.callbacks.GetNearbyAccessPointsCallbacks) (WiseFy.kt:1090)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getRSSIChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int) (WiseFy.kt:1133)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int) (WiseFy.kt:1133)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int, com.isupatches.wisefy.callbacks.GetRSSICallbacks) (WiseFy.kt:1163)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getRSSIChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int, com.isupatches.wisefy.callbacks.GetRSSICallbacks) (WiseFy.kt:1163)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int, com.isupatches.wisefy.callbacks.GetRSSICallbacks) (WiseFy.kt:1163)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworkChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String) (WiseFy.kt:1211)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String) (WiseFy.kt:1211)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworkCallbacks) (WiseFy.kt:1234)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworkChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworkCallbacks) (WiseFy.kt:1234)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworkCallbacks) (WiseFy.kt:1234)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworksChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks() (WiseFy.kt:1272)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworksMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks() (WiseFy.kt:1272)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1293)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworksChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1293)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworksMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1293)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworksChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String) (WiseFy.kt:1330)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworksMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String) (WiseFy.kt:1330)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1353)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworksChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1353)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworksMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1353)
-Can't find node by signature `com.isupatches.wisefy.WiseFyConnection$isNetworkConnectedAndMatchesType(android.net.NetworkInfo, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToMobileNetwork() (WiseFy.kt:1403)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceConnectedToMobileNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToMobileNetwork() (WiseFy.kt:1403)
-Can't find node by signature `com.isupatches.wisefy.WiseFyConnection$isNetworkConnected(android.net.NetworkInfo)`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToMobileOrWifiNetwork() (WiseFy.kt:1423)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceConnectedToMobileOrWifiNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToMobileOrWifiNetwork() (WiseFy.kt:1423)
-Can't find node by signature `com.isupatches.wisefy.WiseFyConnection$isCurrentNetworkConnectedToSSID(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToSSID(kotlin.String) (WiseFy.kt:1442)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceConnectedToSSIDChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToSSID(kotlin.String) (WiseFy.kt:1442)
-Can't find node by signature `com.isupatches.wisefy.WiseFyConnection$isNetworkConnectedAndMatchesType(android.net.NetworkInfo, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToWifiNetwork() (WiseFy.kt:1462)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceConnectedToWifiNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToWifiNetwork() (WiseFy.kt:1462)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceRoamingChecks()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceRoaming() (WiseFy.kt:1482)
-Can't find node by signature `com.isupatches.wisefy.logging.WiseFyLogger$isLoggingEnabled()`, referenced at com.isupatches.wisefy.WiseFy$isLoggingEnabled() (WiseFy.kt:1506)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkEAP(android.net.wifi.ScanResult) (WiseFy.kt:1567)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkPSK(android.net.wifi.ScanResult) (WiseFy.kt:1585)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isNetworkSavedChecks()`, referenced at com.isupatches.wisefy.WiseFy$isNetworkSaved(kotlin.String) (WiseFy.kt:1603)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$isNetworkASavedConfiguration(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkSaved(kotlin.String) (WiseFy.kt:1603)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkWEP(android.net.wifi.ScanResult) (WiseFy.kt:1656)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkWPA(android.net.wifi.ScanResult) (WiseFy.kt:1674)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkWPA2(android.net.wifi.ScanResult) (WiseFy.kt:1692)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isWifiEnabledChecks()`, referenced at com.isupatches.wisefy.WiseFy$isWifiEnabled() (WiseFy.kt:1710)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$removeNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String) (WiseFy.kt:1725)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$removeNetworkCheck(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String) (WiseFy.kt:1725)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String) (WiseFy.kt:1725)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$removeNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String, com.isupatches.wisefy.callbacks.RemoveNetworkCallbacks) (WiseFy.kt:1757)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String, com.isupatches.wisefy.callbacks.RemoveNetworkCallbacks) (WiseFy.kt:1757)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$removeNetworkCheck(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String, com.isupatches.wisefy.callbacks.RemoveNetworkCallbacks) (WiseFy.kt:1757)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String, com.isupatches.wisefy.callbacks.RemoveNetworkCallbacks) (WiseFy.kt:1757)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForAccessPointChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean) (WiseFy.kt:1800)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean) (WiseFy.kt:1800)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointCallbacks) (WiseFy.kt:1832)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForAccessPointChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointCallbacks) (WiseFy.kt:1832)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointCallbacks) (WiseFy.kt:1832)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForAccessPointsChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean) (WiseFy.kt:1880)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findAccessPointsMatchingRegex(kotlin.String, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean) (WiseFy.kt:1880)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointsCallbacks) (WiseFy.kt:1907)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForAccessPointsChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointsCallbacks) (WiseFy.kt:1907)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findAccessPointsMatchingRegex(kotlin.String, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointsCallbacks) (WiseFy.kt:1907)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForSSIDChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int) (WiseFy.kt:1953)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int) (WiseFy.kt:1953)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.SearchForSSIDCallbacks) (WiseFy.kt:1981)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForSSIDChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.SearchForSSIDCallbacks) (WiseFy.kt:1981)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.SearchForSSIDCallbacks) (WiseFy.kt:1981)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForSSIDsChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String) (WiseFy.kt:2021)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSSIDsMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String) (WiseFy.kt:2021)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String, com.isupatches.wisefy.callbacks.SearchForSSIDsCallbacks) (WiseFy.kt:2043)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForSSIDsChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String, com.isupatches.wisefy.callbacks.SearchForSSIDsCallbacks) (WiseFy.kt:2043)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSSIDsMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String, com.isupatches.wisefy.callbacks.SearchForSSIDsCallbacks) (WiseFy.kt:2043)
+Can't find node by signature `com.isupatches.wisefy.logging.WiseFyLogger$configureWiseFyLoggerImplementation(kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy.Brains$getSmarts() (WiseFy.kt:269)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$init()`, referenced at com.isupatches.wisefy.WiseFy.Brains$getSmarts() (WiseFy.kt:269)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String) (WiseFy.kt:294)
+Can't find node by signature `com.isupatches.wisefy.utils$generateOpenNetworkConfiguration(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String) (WiseFy.kt:294)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String) (WiseFy.kt:294)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:318)
+Can't find node by signature `com.isupatches.wisefy.utils$generateOpenNetworkConfiguration(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:318)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:318)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:318)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String) (WiseFy.kt:357)
+Can't find node by signature `com.isupatches.wisefy.utils$generateWEPNetworkConfiguration(kotlin.String, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String) (WiseFy.kt:357)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String) (WiseFy.kt:357)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkWithPasswordAsync(kotlin.String, kotlin.String, kotlin.Function0((android.net.wifi.WifiConfiguration)), com.isupatches.wisefy.callbacks.AddNetworkCallbacks)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:384)
+Can't find node by signature `com.isupatches.wisefy.utils$generateWEPNetworkConfiguration(kotlin.String, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:384)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:384)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String) (WiseFy.kt:421)
+Can't find node by signature `com.isupatches.wisefy.utils$generateWPA2NetworkConfiguration(kotlin.String, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String) (WiseFy.kt:421)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String) (WiseFy.kt:421)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkWithPasswordAsync(kotlin.String, kotlin.String, kotlin.Function0((android.net.wifi.WifiConfiguration)), com.isupatches.wisefy.callbacks.AddNetworkCallbacks)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:446)
+Can't find node by signature `com.isupatches.wisefy.utils$generateWPA2NetworkConfiguration(kotlin.String, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:446)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:446)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$connectToNetworkWithId(kotlin.Int)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int) (WiseFy.kt:521)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$waitToConnectToSSID(kotlin.String, kotlin.Int)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int) (WiseFy.kt:521)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$connectToNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int) (WiseFy.kt:521)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int) (WiseFy.kt:521)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$connectToNetworkWithId(kotlin.Int)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:558)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:558)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$waitToConnectToSSID(kotlin.String, kotlin.Int)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:558)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$connectToNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:558)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:558)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$disableWifiChecks()`, referenced at com.isupatches.wisefy.WiseFy$disableWifi() (WiseFy.kt:611)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$disableWifi(com.isupatches.wisefy.callbacks.DisableWifiCallbacks) (WiseFy.kt:628)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$disableWifiChecks()`, referenced at com.isupatches.wisefy.WiseFy$disableWifi(com.isupatches.wisefy.callbacks.DisableWifiCallbacks) (WiseFy.kt:628)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$disconnectFromCurrentNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$disconnectFromCurrentNetwork() (WiseFy.kt:663)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$disconnectFromCurrentNetwork(com.isupatches.wisefy.callbacks.DisconnectFromCurrentNetworkCallbacks) (WiseFy.kt:679)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$destroy()`, referenced at com.isupatches.wisefy.WiseFy$dump() (WiseFy.kt:713)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$enableWifiChecks()`, referenced at com.isupatches.wisefy.WiseFy$enableWifi() (WiseFy.kt:755)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$enableWifi(com.isupatches.wisefy.callbacks.EnableWifiCallbacks) (WiseFy.kt:772)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$enableWifiChecks()`, referenced at com.isupatches.wisefy.WiseFy$enableWifi(com.isupatches.wisefy.callbacks.EnableWifiCallbacks) (WiseFy.kt:772)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getCurrentNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetwork() (WiseFy.kt:807)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetwork(com.isupatches.wisefy.callbacks.GetCurrentNetworkCallbacks) (WiseFy.kt:831)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getCurrentNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetwork(com.isupatches.wisefy.callbacks.GetCurrentNetworkCallbacks) (WiseFy.kt:831)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getCurrentNetworkInfoChecks()`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetworkInfo() (WiseFy.kt:873)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetworkInfo(com.isupatches.wisefy.callbacks.GetCurrentNetworkInfoCallbacks) (WiseFy.kt:894)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getCurrentNetworkInfoChecks()`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetworkInfo(com.isupatches.wisefy.callbacks.GetCurrentNetworkInfoCallbacks) (WiseFy.kt:894)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getFrequency(com.isupatches.wisefy.callbacks.GetFrequencyCallbacks) (WiseFy.kt:957)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getFrequency(android.net.wifi.WifiInfo, com.isupatches.wisefy.callbacks.GetFrequencyCallbacks) (WiseFy.kt:1008)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getIPChecks()`, referenced at com.isupatches.wisefy.WiseFy$getIP() (WiseFy.kt:1037)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getIP(com.isupatches.wisefy.callbacks.GetIPCallbacks) (WiseFy.kt:1067)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getIPChecks()`, referenced at com.isupatches.wisefy.WiseFy$getIP(com.isupatches.wisefy.callbacks.GetIPCallbacks) (WiseFy.kt:1067)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$getNearbyAccessPoints(kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean) (WiseFy.kt:1106)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getNearbyAccessPointsChecks()`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean) (WiseFy.kt:1106)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean, com.isupatches.wisefy.callbacks.GetNearbyAccessPointsCallbacks) (WiseFy.kt:1140)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$getNearbyAccessPoints(kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean, com.isupatches.wisefy.callbacks.GetNearbyAccessPointsCallbacks) (WiseFy.kt:1140)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getNearbyAccessPointsChecks()`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean, com.isupatches.wisefy.callbacks.GetNearbyAccessPointsCallbacks) (WiseFy.kt:1140)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getRSSIChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int) (WiseFy.kt:1184)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int) (WiseFy.kt:1184)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int, com.isupatches.wisefy.callbacks.GetRSSICallbacks) (WiseFy.kt:1214)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getRSSIChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int, com.isupatches.wisefy.callbacks.GetRSSICallbacks) (WiseFy.kt:1214)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int, com.isupatches.wisefy.callbacks.GetRSSICallbacks) (WiseFy.kt:1214)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworkChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String) (WiseFy.kt:1262)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String) (WiseFy.kt:1262)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworkCallbacks) (WiseFy.kt:1285)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworkChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworkCallbacks) (WiseFy.kt:1285)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworkCallbacks) (WiseFy.kt:1285)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworksChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks() (WiseFy.kt:1323)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworksMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks() (WiseFy.kt:1323)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1344)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworksChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1344)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworksMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1344)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworksChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String) (WiseFy.kt:1381)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworksMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String) (WiseFy.kt:1381)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1404)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworksChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1404)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworksMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1404)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$isDeviceConnectedToMobileNetwork()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToMobileNetwork() (WiseFy.kt:1454)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceConnectedToMobileNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToMobileNetwork() (WiseFy.kt:1454)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$isNetworkConnected()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToMobileOrWifiNetwork() (WiseFy.kt:1475)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceConnectedToMobileOrWifiNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToMobileOrWifiNetwork() (WiseFy.kt:1475)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$isCurrentNetworkConnectedToSSID(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToSSID(kotlin.String) (WiseFy.kt:1493)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceConnectedToSSIDChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToSSID(kotlin.String) (WiseFy.kt:1493)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$isDeviceConnectedToWifiNetwork()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToWifiNetwork() (WiseFy.kt:1513)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceConnectedToWifiNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToWifiNetwork() (WiseFy.kt:1513)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$isDeviceRoaming()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceRoaming() (WiseFy.kt:1535)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceRoamingChecks()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceRoaming() (WiseFy.kt:1535)
+Can't find node by signature `com.isupatches.wisefy.logging.WiseFyLogger$isLoggingEnabled()`, referenced at com.isupatches.wisefy.WiseFy$isLoggingEnabled() (WiseFy.kt:1559)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkEAP(android.net.wifi.ScanResult) (WiseFy.kt:1620)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkPSK(android.net.wifi.ScanResult) (WiseFy.kt:1638)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isNetworkSavedChecks()`, referenced at com.isupatches.wisefy.WiseFy$isNetworkSaved(kotlin.String) (WiseFy.kt:1656)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$isNetworkASavedConfiguration(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkSaved(kotlin.String) (WiseFy.kt:1656)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkWEP(android.net.wifi.ScanResult) (WiseFy.kt:1709)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkWPA(android.net.wifi.ScanResult) (WiseFy.kt:1727)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkWPA2(android.net.wifi.ScanResult) (WiseFy.kt:1745)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isWifiEnabledChecks()`, referenced at com.isupatches.wisefy.WiseFy$isWifiEnabled() (WiseFy.kt:1763)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$removeNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String) (WiseFy.kt:1778)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$removeNetworkCheck(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String) (WiseFy.kt:1778)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String) (WiseFy.kt:1778)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$removeNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String, com.isupatches.wisefy.callbacks.RemoveNetworkCallbacks) (WiseFy.kt:1810)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String, com.isupatches.wisefy.callbacks.RemoveNetworkCallbacks) (WiseFy.kt:1810)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$removeNetworkCheck(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String, com.isupatches.wisefy.callbacks.RemoveNetworkCallbacks) (WiseFy.kt:1810)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String, com.isupatches.wisefy.callbacks.RemoveNetworkCallbacks) (WiseFy.kt:1810)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForAccessPointChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean) (WiseFy.kt:1853)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean) (WiseFy.kt:1853)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointCallbacks) (WiseFy.kt:1885)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForAccessPointChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointCallbacks) (WiseFy.kt:1885)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointCallbacks) (WiseFy.kt:1885)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForAccessPointsChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean) (WiseFy.kt:1933)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findAccessPointsMatchingRegex(kotlin.String, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean) (WiseFy.kt:1933)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointsCallbacks) (WiseFy.kt:1960)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForAccessPointsChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointsCallbacks) (WiseFy.kt:1960)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findAccessPointsMatchingRegex(kotlin.String, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointsCallbacks) (WiseFy.kt:1960)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForSSIDChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int) (WiseFy.kt:2006)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int) (WiseFy.kt:2006)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.SearchForSSIDCallbacks) (WiseFy.kt:2034)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForSSIDChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.SearchForSSIDCallbacks) (WiseFy.kt:2034)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.SearchForSSIDCallbacks) (WiseFy.kt:2034)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForSSIDsChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String) (WiseFy.kt:2074)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSSIDsMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String) (WiseFy.kt:2074)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String, com.isupatches.wisefy.callbacks.SearchForSSIDsCallbacks) (WiseFy.kt:2096)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForSSIDsChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String, com.isupatches.wisefy.callbacks.SearchForSSIDsCallbacks) (WiseFy.kt:2096)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSSIDsMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String, com.isupatches.wisefy.callbacks.SearchForSSIDsCallbacks) (WiseFy.kt:2096)
 Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks`, referenced at com.isupatches.wisefy.callbacks.BaseCallback$wisefyFailure(kotlin.Int) (BaseCallback.kt:29)
 Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks`, referenced at com.isupatches.wisefy.callbacks.BaseCallback$wisefyFailure(kotlin.Int) (BaseCallback.kt:29)
 Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks`, referenced at com.isupatches.wisefy.callbacks.BaseCallback$wisefyFailure(kotlin.Int) (BaseCallback.kt:29)
@@ -337,129 +297,131 @@ Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks`, referenced
 Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks`, referenced at com.isupatches.wisefy.callbacks.BaseCallback$wisefyFailure(kotlin.Int) (BaseCallback.kt:29)
 Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks`, referenced at com.isupatches.wisefy.callbacks.BaseCallback$wisefyFailure(kotlin.Int) (BaseCallback.kt:29)
 Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks`, referenced at com.isupatches.wisefy.callbacks.BaseCallback$wisefyFailure(kotlin.Int) (BaseCallback.kt:29)
-Can't find node by signature `com.isupatches.wisefy.logging.WiseFyLogger$configureWiseFyLoggerImplementation(kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy.Brains$getSmarts() (WiseFy.kt:235)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String) (WiseFy.kt:255)
-Can't find node by signature `com.isupatches.wisefy.utils$generateOpenNetworkConfiguration(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String) (WiseFy.kt:255)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String) (WiseFy.kt:255)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:279)
-Can't find node by signature `com.isupatches.wisefy.utils$generateOpenNetworkConfiguration(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:279)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:279)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:279)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String) (WiseFy.kt:318)
-Can't find node by signature `com.isupatches.wisefy.utils$generateWEPNetworkConfiguration(kotlin.String, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String) (WiseFy.kt:318)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String) (WiseFy.kt:318)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:343)
-Can't find node by signature `com.isupatches.wisefy.utils$generateWEPNetworkConfiguration(kotlin.String, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:343)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:343)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:343)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String) (WiseFy.kt:383)
-Can't find node by signature `com.isupatches.wisefy.utils$generateWPA2NetworkConfiguration(kotlin.String, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String) (WiseFy.kt:383)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String) (WiseFy.kt:383)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:408)
-Can't find node by signature `com.isupatches.wisefy.utils$generateWPA2NetworkConfiguration(kotlin.String, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:408)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:408)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:408)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$connectToNetworkWithId(kotlin.Int)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int) (WiseFy.kt:488)
-Can't find node by signature `com.isupatches.wisefy.WiseFyConnection$waitToConnectToSSID(kotlin.String, kotlin.Int)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int) (WiseFy.kt:488)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$connectToNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int) (WiseFy.kt:488)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int) (WiseFy.kt:488)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$connectToNetworkWithId(kotlin.Int)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:525)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:525)
-Can't find node by signature `com.isupatches.wisefy.WiseFyConnection$waitToConnectToSSID(kotlin.String, kotlin.Int)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:525)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$connectToNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:525)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:525)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$disableWifiChecks()`, referenced at com.isupatches.wisefy.WiseFy$disableWifi() (WiseFy.kt:578)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$disableWifi(com.isupatches.wisefy.callbacks.DisableWifiCallbacks) (WiseFy.kt:595)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$disableWifiChecks()`, referenced at com.isupatches.wisefy.WiseFy$disableWifi(com.isupatches.wisefy.callbacks.DisableWifiCallbacks) (WiseFy.kt:595)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$disconnectFromCurrentNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$disconnectFromCurrentNetwork() (WiseFy.kt:630)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$disconnectFromCurrentNetwork(com.isupatches.wisefy.callbacks.DisconnectFromCurrentNetworkCallbacks) (WiseFy.kt:646)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$enableWifiChecks()`, referenced at com.isupatches.wisefy.WiseFy$enableWifi() (WiseFy.kt:717)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$enableWifi(com.isupatches.wisefy.callbacks.EnableWifiCallbacks) (WiseFy.kt:734)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$enableWifiChecks()`, referenced at com.isupatches.wisefy.WiseFy$enableWifi(com.isupatches.wisefy.callbacks.EnableWifiCallbacks) (WiseFy.kt:734)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getCurrentNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetwork() (WiseFy.kt:769)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetwork(com.isupatches.wisefy.callbacks.GetCurrentNetworkCallbacks) (WiseFy.kt:793)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getCurrentNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetwork(com.isupatches.wisefy.callbacks.GetCurrentNetworkCallbacks) (WiseFy.kt:793)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getCurrentNetworkInfoChecks()`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetworkInfo() (WiseFy.kt:827)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetworkInfo(com.isupatches.wisefy.callbacks.GetCurrentNetworkInfoCallbacks) (WiseFy.kt:848)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getCurrentNetworkInfoChecks()`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetworkInfo(com.isupatches.wisefy.callbacks.GetCurrentNetworkInfoCallbacks) (WiseFy.kt:848)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getFrequency(com.isupatches.wisefy.callbacks.GetFrequencyCallbacks) (WiseFy.kt:903)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getFrequency(android.net.wifi.WifiInfo, com.isupatches.wisefy.callbacks.GetFrequencyCallbacks) (WiseFy.kt:954)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getIPChecks()`, referenced at com.isupatches.wisefy.WiseFy$getIP() (WiseFy.kt:983)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getIP(com.isupatches.wisefy.callbacks.GetIPCallbacks) (WiseFy.kt:1013)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getIPChecks()`, referenced at com.isupatches.wisefy.WiseFy$getIP(com.isupatches.wisefy.callbacks.GetIPCallbacks) (WiseFy.kt:1013)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getNearbyAccessPointsChecks()`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean) (WiseFy.kt:1052)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$removeEntriesWithLowerSignalStrength(kotlin.collections.List((android.net.wifi.ScanResult)))`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean) (WiseFy.kt:1052)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean, com.isupatches.wisefy.callbacks.GetNearbyAccessPointsCallbacks) (WiseFy.kt:1090)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getNearbyAccessPointsChecks()`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean, com.isupatches.wisefy.callbacks.GetNearbyAccessPointsCallbacks) (WiseFy.kt:1090)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$removeEntriesWithLowerSignalStrength(kotlin.collections.List((android.net.wifi.ScanResult)))`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean, com.isupatches.wisefy.callbacks.GetNearbyAccessPointsCallbacks) (WiseFy.kt:1090)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getRSSIChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int) (WiseFy.kt:1133)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int) (WiseFy.kt:1133)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int, com.isupatches.wisefy.callbacks.GetRSSICallbacks) (WiseFy.kt:1163)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getRSSIChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int, com.isupatches.wisefy.callbacks.GetRSSICallbacks) (WiseFy.kt:1163)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int, com.isupatches.wisefy.callbacks.GetRSSICallbacks) (WiseFy.kt:1163)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworkChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String) (WiseFy.kt:1211)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String) (WiseFy.kt:1211)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworkCallbacks) (WiseFy.kt:1234)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworkChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworkCallbacks) (WiseFy.kt:1234)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworkCallbacks) (WiseFy.kt:1234)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworksChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks() (WiseFy.kt:1272)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworksMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks() (WiseFy.kt:1272)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1293)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworksChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1293)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworksMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1293)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworksChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String) (WiseFy.kt:1330)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworksMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String) (WiseFy.kt:1330)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1353)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworksChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1353)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworksMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1353)
-Can't find node by signature `com.isupatches.wisefy.WiseFyConnection$isNetworkConnectedAndMatchesType(android.net.NetworkInfo, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToMobileNetwork() (WiseFy.kt:1403)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceConnectedToMobileNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToMobileNetwork() (WiseFy.kt:1403)
-Can't find node by signature `com.isupatches.wisefy.WiseFyConnection$isNetworkConnected(android.net.NetworkInfo)`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToMobileOrWifiNetwork() (WiseFy.kt:1423)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceConnectedToMobileOrWifiNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToMobileOrWifiNetwork() (WiseFy.kt:1423)
-Can't find node by signature `com.isupatches.wisefy.WiseFyConnection$isCurrentNetworkConnectedToSSID(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToSSID(kotlin.String) (WiseFy.kt:1442)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceConnectedToSSIDChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToSSID(kotlin.String) (WiseFy.kt:1442)
-Can't find node by signature `com.isupatches.wisefy.WiseFyConnection$isNetworkConnectedAndMatchesType(android.net.NetworkInfo, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToWifiNetwork() (WiseFy.kt:1462)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceConnectedToWifiNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToWifiNetwork() (WiseFy.kt:1462)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceRoamingChecks()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceRoaming() (WiseFy.kt:1482)
-Can't find node by signature `com.isupatches.wisefy.logging.WiseFyLogger$isLoggingEnabled()`, referenced at com.isupatches.wisefy.WiseFy$isLoggingEnabled() (WiseFy.kt:1506)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkEAP(android.net.wifi.ScanResult) (WiseFy.kt:1567)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkPSK(android.net.wifi.ScanResult) (WiseFy.kt:1585)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isNetworkSavedChecks()`, referenced at com.isupatches.wisefy.WiseFy$isNetworkSaved(kotlin.String) (WiseFy.kt:1603)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$isNetworkASavedConfiguration(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkSaved(kotlin.String) (WiseFy.kt:1603)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkWEP(android.net.wifi.ScanResult) (WiseFy.kt:1656)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkWPA(android.net.wifi.ScanResult) (WiseFy.kt:1674)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkWPA2(android.net.wifi.ScanResult) (WiseFy.kt:1692)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isWifiEnabledChecks()`, referenced at com.isupatches.wisefy.WiseFy$isWifiEnabled() (WiseFy.kt:1710)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$removeNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String) (WiseFy.kt:1725)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$removeNetworkCheck(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String) (WiseFy.kt:1725)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String) (WiseFy.kt:1725)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$removeNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String, com.isupatches.wisefy.callbacks.RemoveNetworkCallbacks) (WiseFy.kt:1757)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String, com.isupatches.wisefy.callbacks.RemoveNetworkCallbacks) (WiseFy.kt:1757)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$removeNetworkCheck(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String, com.isupatches.wisefy.callbacks.RemoveNetworkCallbacks) (WiseFy.kt:1757)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String, com.isupatches.wisefy.callbacks.RemoveNetworkCallbacks) (WiseFy.kt:1757)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForAccessPointChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean) (WiseFy.kt:1800)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean) (WiseFy.kt:1800)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointCallbacks) (WiseFy.kt:1832)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForAccessPointChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointCallbacks) (WiseFy.kt:1832)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointCallbacks) (WiseFy.kt:1832)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForAccessPointsChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean) (WiseFy.kt:1880)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findAccessPointsMatchingRegex(kotlin.String, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean) (WiseFy.kt:1880)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointsCallbacks) (WiseFy.kt:1907)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForAccessPointsChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointsCallbacks) (WiseFy.kt:1907)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findAccessPointsMatchingRegex(kotlin.String, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointsCallbacks) (WiseFy.kt:1907)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForSSIDChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int) (WiseFy.kt:1953)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int) (WiseFy.kt:1953)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.SearchForSSIDCallbacks) (WiseFy.kt:1981)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForSSIDChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.SearchForSSIDCallbacks) (WiseFy.kt:1981)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.SearchForSSIDCallbacks) (WiseFy.kt:1981)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForSSIDsChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String) (WiseFy.kt:2021)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSSIDsMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String) (WiseFy.kt:2021)
-Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String, com.isupatches.wisefy.callbacks.SearchForSSIDsCallbacks) (WiseFy.kt:2043)
-Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForSSIDsChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String, com.isupatches.wisefy.callbacks.SearchForSSIDsCallbacks) (WiseFy.kt:2043)
-Can't find node by signature `com.isupatches.wisefy.WiseFySearch$findSSIDsMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String, com.isupatches.wisefy.callbacks.SearchForSSIDsCallbacks) (WiseFy.kt:2043)
+Can't find node by signature `com.isupatches.wisefy.logging.WiseFyLogger$configureWiseFyLoggerImplementation(kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy.Brains$getSmarts() (WiseFy.kt:269)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$init()`, referenced at com.isupatches.wisefy.WiseFy.Brains$getSmarts() (WiseFy.kt:269)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String) (WiseFy.kt:294)
+Can't find node by signature `com.isupatches.wisefy.utils$generateOpenNetworkConfiguration(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String) (WiseFy.kt:294)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String) (WiseFy.kt:294)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:318)
+Can't find node by signature `com.isupatches.wisefy.utils$generateOpenNetworkConfiguration(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:318)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:318)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addOpenNetwork(kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:318)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String) (WiseFy.kt:357)
+Can't find node by signature `com.isupatches.wisefy.utils$generateWEPNetworkConfiguration(kotlin.String, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String) (WiseFy.kt:357)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String) (WiseFy.kt:357)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkWithPasswordAsync(kotlin.String, kotlin.String, kotlin.Function0((android.net.wifi.WifiConfiguration)), com.isupatches.wisefy.callbacks.AddNetworkCallbacks)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:384)
+Can't find node by signature `com.isupatches.wisefy.utils$generateWEPNetworkConfiguration(kotlin.String, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:384)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$addWEPNetwork(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:384)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String) (WiseFy.kt:421)
+Can't find node by signature `com.isupatches.wisefy.utils$generateWPA2NetworkConfiguration(kotlin.String, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String) (WiseFy.kt:421)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$addNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String) (WiseFy.kt:421)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$addNetworkWithPasswordAsync(kotlin.String, kotlin.String, kotlin.Function0((android.net.wifi.WifiConfiguration)), com.isupatches.wisefy.callbacks.AddNetworkCallbacks)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:446)
+Can't find node by signature `com.isupatches.wisefy.utils$generateWPA2NetworkConfiguration(kotlin.String, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:446)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$addWPA2Network(kotlin.String, kotlin.String, com.isupatches.wisefy.callbacks.AddNetworkCallbacks) (WiseFy.kt:446)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$connectToNetworkWithId(kotlin.Int)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int) (WiseFy.kt:521)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$waitToConnectToSSID(kotlin.String, kotlin.Int)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int) (WiseFy.kt:521)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$connectToNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int) (WiseFy.kt:521)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int) (WiseFy.kt:521)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$connectToNetworkWithId(kotlin.Int)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:558)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:558)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$waitToConnectToSSID(kotlin.String, kotlin.Int)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:558)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$connectToNetworkPrechecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:558)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$connectToNetwork(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.ConnectToNetworkCallbacks) (WiseFy.kt:558)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$disableWifiChecks()`, referenced at com.isupatches.wisefy.WiseFy$disableWifi() (WiseFy.kt:611)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$disableWifi(com.isupatches.wisefy.callbacks.DisableWifiCallbacks) (WiseFy.kt:628)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$disableWifiChecks()`, referenced at com.isupatches.wisefy.WiseFy$disableWifi(com.isupatches.wisefy.callbacks.DisableWifiCallbacks) (WiseFy.kt:628)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$disconnectFromCurrentNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$disconnectFromCurrentNetwork() (WiseFy.kt:663)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$disconnectFromCurrentNetwork(com.isupatches.wisefy.callbacks.DisconnectFromCurrentNetworkCallbacks) (WiseFy.kt:679)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$destroy()`, referenced at com.isupatches.wisefy.WiseFy$dump() (WiseFy.kt:713)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$enableWifiChecks()`, referenced at com.isupatches.wisefy.WiseFy$enableWifi() (WiseFy.kt:755)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$enableWifi(com.isupatches.wisefy.callbacks.EnableWifiCallbacks) (WiseFy.kt:772)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$enableWifiChecks()`, referenced at com.isupatches.wisefy.WiseFy$enableWifi(com.isupatches.wisefy.callbacks.EnableWifiCallbacks) (WiseFy.kt:772)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getCurrentNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetwork() (WiseFy.kt:807)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetwork(com.isupatches.wisefy.callbacks.GetCurrentNetworkCallbacks) (WiseFy.kt:831)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getCurrentNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetwork(com.isupatches.wisefy.callbacks.GetCurrentNetworkCallbacks) (WiseFy.kt:831)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getCurrentNetworkInfoChecks()`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetworkInfo() (WiseFy.kt:873)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetworkInfo(com.isupatches.wisefy.callbacks.GetCurrentNetworkInfoCallbacks) (WiseFy.kt:894)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getCurrentNetworkInfoChecks()`, referenced at com.isupatches.wisefy.WiseFy$getCurrentNetworkInfo(com.isupatches.wisefy.callbacks.GetCurrentNetworkInfoCallbacks) (WiseFy.kt:894)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getFrequency(com.isupatches.wisefy.callbacks.GetFrequencyCallbacks) (WiseFy.kt:957)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getFrequency(android.net.wifi.WifiInfo, com.isupatches.wisefy.callbacks.GetFrequencyCallbacks) (WiseFy.kt:1008)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getIPChecks()`, referenced at com.isupatches.wisefy.WiseFy$getIP() (WiseFy.kt:1037)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getIP(com.isupatches.wisefy.callbacks.GetIPCallbacks) (WiseFy.kt:1067)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getIPChecks()`, referenced at com.isupatches.wisefy.WiseFy$getIP(com.isupatches.wisefy.callbacks.GetIPCallbacks) (WiseFy.kt:1067)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$getNearbyAccessPoints(kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean) (WiseFy.kt:1106)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getNearbyAccessPointsChecks()`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean) (WiseFy.kt:1106)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean, com.isupatches.wisefy.callbacks.GetNearbyAccessPointsCallbacks) (WiseFy.kt:1140)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$getNearbyAccessPoints(kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean, com.isupatches.wisefy.callbacks.GetNearbyAccessPointsCallbacks) (WiseFy.kt:1140)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getNearbyAccessPointsChecks()`, referenced at com.isupatches.wisefy.WiseFy$getNearbyAccessPoints(kotlin.Boolean, com.isupatches.wisefy.callbacks.GetNearbyAccessPointsCallbacks) (WiseFy.kt:1140)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getRSSIChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int) (WiseFy.kt:1184)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int) (WiseFy.kt:1184)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int, com.isupatches.wisefy.callbacks.GetRSSICallbacks) (WiseFy.kt:1214)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getRSSIChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int, com.isupatches.wisefy.callbacks.GetRSSICallbacks) (WiseFy.kt:1214)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$getRSSI(kotlin.String, kotlin.Boolean, kotlin.Int, com.isupatches.wisefy.callbacks.GetRSSICallbacks) (WiseFy.kt:1214)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworkChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String) (WiseFy.kt:1262)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String) (WiseFy.kt:1262)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworkCallbacks) (WiseFy.kt:1285)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworkChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworkCallbacks) (WiseFy.kt:1285)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetwork(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworkCallbacks) (WiseFy.kt:1285)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworksChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks() (WiseFy.kt:1323)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworksMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks() (WiseFy.kt:1323)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1344)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworksChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1344)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworksMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1344)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworksChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String) (WiseFy.kt:1381)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworksMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String) (WiseFy.kt:1381)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1404)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$getSavedNetworksChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1404)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworksMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$getSavedNetworks(kotlin.String, com.isupatches.wisefy.callbacks.GetSavedNetworksCallbacks) (WiseFy.kt:1404)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$isDeviceConnectedToMobileNetwork()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToMobileNetwork() (WiseFy.kt:1454)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceConnectedToMobileNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToMobileNetwork() (WiseFy.kt:1454)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$isNetworkConnected()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToMobileOrWifiNetwork() (WiseFy.kt:1475)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceConnectedToMobileOrWifiNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToMobileOrWifiNetwork() (WiseFy.kt:1475)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$isCurrentNetworkConnectedToSSID(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToSSID(kotlin.String) (WiseFy.kt:1493)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceConnectedToSSIDChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToSSID(kotlin.String) (WiseFy.kt:1493)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$isDeviceConnectedToWifiNetwork()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToWifiNetwork() (WiseFy.kt:1513)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceConnectedToWifiNetworkChecks()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceConnectedToWifiNetwork() (WiseFy.kt:1513)
+Can't find node by signature `com.isupatches.wisefy.connection.WiseFyConnection$isDeviceRoaming()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceRoaming() (WiseFy.kt:1535)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isDeviceRoamingChecks()`, referenced at com.isupatches.wisefy.WiseFy$isDeviceRoaming() (WiseFy.kt:1535)
+Can't find node by signature `com.isupatches.wisefy.logging.WiseFyLogger$isLoggingEnabled()`, referenced at com.isupatches.wisefy.WiseFy$isLoggingEnabled() (WiseFy.kt:1559)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkEAP(android.net.wifi.ScanResult) (WiseFy.kt:1620)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkPSK(android.net.wifi.ScanResult) (WiseFy.kt:1638)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isNetworkSavedChecks()`, referenced at com.isupatches.wisefy.WiseFy$isNetworkSaved(kotlin.String) (WiseFy.kt:1656)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$isNetworkASavedConfiguration(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkSaved(kotlin.String) (WiseFy.kt:1656)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkWEP(android.net.wifi.ScanResult) (WiseFy.kt:1709)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkWPA(android.net.wifi.ScanResult) (WiseFy.kt:1727)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$containsCapability(android.net.wifi.ScanResult, kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$isNetworkWPA2(android.net.wifi.ScanResult) (WiseFy.kt:1745)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$isWifiEnabledChecks()`, referenced at com.isupatches.wisefy.WiseFy$isWifiEnabled() (WiseFy.kt:1763)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$removeNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String) (WiseFy.kt:1778)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$removeNetworkCheck(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String) (WiseFy.kt:1778)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String) (WiseFy.kt:1778)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$removeNetworkConfiguration(android.net.wifi.WifiConfiguration)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String, com.isupatches.wisefy.callbacks.RemoveNetworkCallbacks) (WiseFy.kt:1810)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String, com.isupatches.wisefy.callbacks.RemoveNetworkCallbacks) (WiseFy.kt:1810)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$removeNetworkCheck(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String, com.isupatches.wisefy.callbacks.RemoveNetworkCallbacks) (WiseFy.kt:1810)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSavedNetworkByRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$removeNetwork(kotlin.String, com.isupatches.wisefy.callbacks.RemoveNetworkCallbacks) (WiseFy.kt:1810)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForAccessPointChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean) (WiseFy.kt:1853)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean) (WiseFy.kt:1853)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointCallbacks) (WiseFy.kt:1885)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForAccessPointChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointCallbacks) (WiseFy.kt:1885)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoint(kotlin.String, kotlin.Int, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointCallbacks) (WiseFy.kt:1885)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForAccessPointsChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean) (WiseFy.kt:1933)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findAccessPointsMatchingRegex(kotlin.String, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean) (WiseFy.kt:1933)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointsCallbacks) (WiseFy.kt:1960)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForAccessPointsChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointsCallbacks) (WiseFy.kt:1960)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findAccessPointsMatchingRegex(kotlin.String, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForAccessPoints(kotlin.String, kotlin.Boolean, com.isupatches.wisefy.callbacks.SearchForAccessPointsCallbacks) (WiseFy.kt:1960)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForSSIDChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int) (WiseFy.kt:2006)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int) (WiseFy.kt:2006)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.SearchForSSIDCallbacks) (WiseFy.kt:2034)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForSSIDChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.SearchForSSIDCallbacks) (WiseFy.kt:2034)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findAccessPointByRegex(kotlin.String, kotlin.Int, kotlin.Boolean)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSID(kotlin.String, kotlin.Int, com.isupatches.wisefy.callbacks.SearchForSSIDCallbacks) (WiseFy.kt:2034)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForSSIDsChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String) (WiseFy.kt:2074)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSSIDsMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String) (WiseFy.kt:2074)
+Can't find node by signature `com.isupatches.wisefy.WiseFy$runOnWiseFyThread(java.lang.Runnable)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String, com.isupatches.wisefy.callbacks.SearchForSSIDsCallbacks) (WiseFy.kt:2096)
+Can't find node by signature `com.isupatches.wisefy.WiseFyPrechecks$searchForSSIDsChecks(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String, com.isupatches.wisefy.callbacks.SearchForSSIDsCallbacks) (WiseFy.kt:2096)
+Can't find node by signature `com.isupatches.wisefy.search.WiseFySearch$findSSIDsMatchingRegex(kotlin.String)`, referenced at com.isupatches.wisefy.WiseFy$searchForSSIDs(kotlin.String, com.isupatches.wisefy.callbacks.SearchForSSIDsCallbacks) (WiseFy.kt:2096)
 
 > Task :wisefy:javadoc NO-SOURCE
 > Task :wisefy:javadocJar
+> Task :wisefy:sourcesJar
 > Task :wisefy:assemble
 > Task :wisefy:build
 
@@ -467,15 +429,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 58s
-53 actionable tasks: 53 executed
+BUILD SUCCESSFUL in 46s
+54 actionable tasks: 54 executed
 
-2019-04-29 15:07:13,264 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-29 15:07:13,264 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-29 15:07:20,600 INFO  ProjectTaskService - Detected possible tasks: 114
-2019-04-29 15:07:20,600 INFO  ProjectTaskService - Excluded tasks (17): pmd lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-29 15:07:20,600 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556525002127-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-29 15:07:29,638 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-17 11:22:15,014 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-17 11:22:15,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefysample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-17 11:22:23,324 INFO  ProjectTaskService - Detected possible tasks: 93
+2019-05-17 11:22:23,324 INFO  ProjectTaskService - Excluded tasks (19): pmd lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-17 11:22:23,325 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefysample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-17 11:24:03,757 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :wisefy
 user: null
@@ -495,34 +457,67 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :wisefy:generateDebugBuildConfig UP-TO-DATE
 > Task :wisefy:generateDebugResValues UP-TO-DATE
 > Task :wisefy:generateDebugResources UP-TO-DATE
-> Task :wisefy:processDebugManifest UP-TO-DATE
 > Task :wisefy:packageDebugResources UP-TO-DATE
+> Task :wisefy:processDebugManifest UP-TO-DATE
 > Task :wisefy:generateDebugRFile UP-TO-DATE
 > Task :wisefy:compileDebugKotlin UP-TO-DATE
 > Task :wisefy:prepareLintJar UP-TO-DATE
 > Task :wisefy:generateDebugSources UP-TO-DATE
 > Task :wisefy:javaPreCompileDebug UP-TO-DATE
 > Task :wisefy:compileDebugJavaWithJavac UP-TO-DATE
-> Task :wisefy:extractDebugAnnotations UP-TO-DATE
-> Task :wisefy:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :wisefy:bundleLibCompileDebug
+> Task :wisefysample:preBuild UP-TO-DATE
+> Task :wisefysample:preDebugBuild
+> Task :wisefysample:compileDebugAidl NO-SOURCE
+> Task :wisefy:packageDebugRenderscript NO-SOURCE
+> Task :wisefysample:checkDebugManifest
+> Task :wisefysample:compileDebugRenderscript NO-SOURCE
+> Task :wisefysample:generateDebugBuildConfig
+> Task :wisefysample:mainApkListPersistenceDebug
+> Task :wisefysample:generateDebugResValues
+> Task :wisefysample:generateDebugResources
+> Task :wisefysample:mergeDebugResources
+> Task :wisefysample:createDebugCompatibleScreenManifests
+> Task :wisefysample:processDebugManifest
+> Task :wisefysample:processDebugResources
+> Task :wisefysample:kaptGenerateStubsDebugKotlin
+> Task :wisefysample:kaptDebugKotlin
+> Task :wisefysample:compileDebugKotlin
+> Task :wisefysample:prepareLintJar
+> Task :wisefysample:generateDebugSources
+> Task :wisefysample:javaPreCompileDebug
+
+> Task :wisefysample:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefysample/build/generated/source/kapt/debug/com/isupatches/wisefysample/DaggerMainApplication_MainApplicationComponent.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :wisefysample:compileDebugSources
 > Task :wisefy:mergeDebugShaders UP-TO-DATE
 > Task :wisefy:compileDebugShaders UP-TO-DATE
 > Task :wisefy:generateDebugAssets UP-TO-DATE
 > Task :wisefy:packageDebugAssets UP-TO-DATE
-> Task :wisefy:packageDebugRenderscript NO-SOURCE
-> Task :wisefy:prepareLintJarForPublish UP-TO-DATE
-> Task :wisefy:jacocoDebug UP-TO-DATE
+> Task :wisefysample:mergeDebugShaders
+> Task :wisefysample:compileDebugShaders
+> Task :wisefysample:generateDebugAssets
+> Task :wisefysample:mergeDebugAssets
 > Task :wisefy:processDebugJavaRes NO-SOURCE
-> Task :wisefy:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
-> Task :wisefy:transformClassesAndResourcesWithR8ForDebug UP-TO-DATE
-> Task :wisefy:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :wisefy:bundleLibResDebug
+> Task :wisefy:jacocoDebug UP-TO-DATE
+> Task :wisefy:bundleLibRuntimeDebug
+> Task :wisefy:createFullJarDebug
+> Task :wisefysample:checkDebugDuplicateClasses
+> Task :wisefysample:transformClassesWithDexBuilderForDebug
+> Task :wisefysample:validateSigningDebug
+> Task :wisefysample:signingConfigWriterDebug
 > Task :wisefy:mergeDebugJniLibFolders UP-TO-DATE
 > Task :wisefy:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
 > Task :wisefy:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-> Task :wisefy:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
-> Task :wisefy:bundleDebugAar UP-TO-DATE
-> Task :wisefy:compileDebugSources UP-TO-DATE
-> Task :wisefy:assembleDebug UP-TO-DATE
+> Task :wisefy:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :wisefysample:mergeDebugJniLibFolders
+> Task :wisefysample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :wisefysample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :wisefysample:processDebugJavaRes NO-SOURCE
+> Task :wisefysample:transformResourcesWithMergeJavaResForDebug
 > Task :wisefy:preReleaseBuild UP-TO-DATE
 > Task :wisefy:compileReleaseAidl NO-SOURCE
 > Task :wisefy:compileReleaseRenderscript NO-SOURCE
@@ -537,39 +532,77 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :wisefy:generateReleaseSources UP-TO-DATE
 > Task :wisefy:javaPreCompileRelease UP-TO-DATE
 > Task :wisefy:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :wisefy:extractReleaseAnnotations UP-TO-DATE
-> Task :wisefy:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :wisefy:bundleLibCompileRelease
+> Task :wisefysample:preReleaseBuild
+> Task :wisefysample:compileReleaseAidl NO-SOURCE
+> Task :wisefy:packageReleaseRenderscript NO-SOURCE
+> Task :wisefysample:compileReleaseRenderscript NO-SOURCE
+> Task :wisefysample:checkReleaseManifest
+> Task :wisefysample:generateReleaseBuildConfig
+> Task :wisefysample:mainApkListPersistenceRelease
+> Task :wisefysample:generateReleaseResValues
+> Task :wisefysample:generateReleaseResources
+> Task :wisefysample:mergeReleaseResources
+> Task :wisefysample:createReleaseCompatibleScreenManifests
+> Task :wisefysample:processReleaseManifest
+> Task :wisefysample:processReleaseResources
+> Task :wisefysample:kaptGenerateStubsReleaseKotlin
+> Task :wisefysample:mergeExtDexDebug
+> Task :wisefysample:mergeDexDebug
+> Task :wisefysample:packageDebug
+> Task :wisefysample:assembleDebug
+> Task :wisefysample:kaptReleaseKotlin
+> Task :wisefysample:compileReleaseKotlin
+> Task :wisefysample:generateReleaseSources
+> Task :wisefysample:javaPreCompileRelease
+
+> Task :wisefysample:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefysample/build/generated/source/kapt/release/com/isupatches/wisefysample/DaggerMainApplication_MainApplicationComponent.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :wisefysample:compileReleaseSources
+> Task :wisefy:prepareLintJarForPublish UP-TO-DATE
+
+> Task :wisefysample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/41ae46bc73c2bdd2ce86c263e008048c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/7b6d504a380fe09f79302ae65011ee6c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :wisefy:processReleaseJavaRes NO-SOURCE
+> Task :wisefy:bundleLibResRelease
+> Task :wisefy:bundleLibRuntimeRelease
+> Task :wisefy:createFullJarRelease
+> Task :wisefysample:checkReleaseDuplicateClasses
+> Task :wisefysample:transformClassesWithDexBuilderForRelease
 > Task :wisefy:mergeReleaseShaders UP-TO-DATE
 > Task :wisefy:compileReleaseShaders UP-TO-DATE
 > Task :wisefy:generateReleaseAssets UP-TO-DATE
 > Task :wisefy:packageReleaseAssets UP-TO-DATE
-> Task :wisefy:packageReleaseRenderscript NO-SOURCE
-> Task :wisefy:processReleaseJavaRes NO-SOURCE
-> Task :wisefy:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
-> Task :wisefy:transformClassesAndResourcesWithR8ForRelease UP-TO-DATE
-> Task :wisefy:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :wisefysample:mergeReleaseShaders
+> Task :wisefysample:compileReleaseShaders
+> Task :wisefysample:generateReleaseAssets
+> Task :wisefysample:mergeReleaseAssets
+> Task :wisefysample:signingConfigWriterRelease
 > Task :wisefy:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :wisefy:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
 > Task :wisefy:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-> Task :wisefy:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
-> Task :wisefy:bundleReleaseAar UP-TO-DATE
-> Task :wisefy:compileReleaseSources UP-TO-DATE
-> Task :wisefy:mergeReleaseResources UP-TO-DATE
-> Task :wisefy:verifyReleaseResources
-> Task :wisefy:assembleRelease
-> Task :wisefy:dokka UP-TO-DATE
-> Task :wisefy:javadoc NO-SOURCE
-> Task :wisefy:javadocJar
-> Task :wisefy:sourcesJar
-> Task :wisefy:assemble
-> Task :wisefy:build
+> Task :wisefy:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :wisefysample:mergeReleaseJniLibFolders
+> Task :wisefysample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :wisefysample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :wisefysample:processReleaseJavaRes NO-SOURCE
+> Task :wisefysample:transformResourcesWithMergeJavaResForRelease
+> Task :wisefysample:mergeExtDexRelease
+> Task :wisefysample:mergeDexRelease
+> Task :wisefysample:packageRelease
+> Task :wisefysample:assembleRelease
+> Task :wisefysample:assemble
+> Task :wisefysample:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 8s
-53 actionable tasks: 3 executed, 50 up-to-date
+BUILD SUCCESSFUL in 1m 39s
+101 actionable tasks: 67 executed, 34 up-to-date
 
-2019-04-29 15:07:29,665 ERROR FullProcessService - Project build has not produced APK file
-2019-04-29 15:07:29,687 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-17 11:24:03,915 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066731793-0/src/wisefysample/build/outputs/apk/release/wisefysample-release-unsigned.apk
