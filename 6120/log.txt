@@ -1,112 +1,114 @@
-2018-12-12 12:07:26,925 INFO  DownloadService - Downloading "https://github.com/rasoulmiri/Skeleton/archive/master.zip", attempt 3
-2018-12-12 12:08:27,668 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-12 12:08:28,548 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-12 12:08:28,549 INFO  DownloadService - Downloading "https://github.com/rasoulmiri/Skeleton/archive/master.zip", attempt 3
-2018-12-12 12:09:29,952 DEBUG FullProcessService - Repository https://github.com/rasoulmiri/Skeleton available: true
-2018-12-12 12:09:29,952 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-12 12:09:29,952 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/rasoulmiri/Skeleton, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src]
-2018-12-12 12:09:46,647 INFO  SysUtils - 
-2018-12-12 12:09:46,656 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/.git": true
-2018-12-12 12:09:46,661 INFO  FullProcessService - Size of directory with sources: 6 MB
-2018-12-12 12:09:46,661 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src]
-2018-12-12 12:09:46,680 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/.git/
+2019-05-26 18:57:45,384 INFO  DownloadService - Downloading "https://github.com/rasoulmiri/Skeleton/archive/master.zip", attempt 3
+2019-05-26 18:57:51,294 INFO  DownloadService - Downloaded https://github.com/rasoulmiri/Skeleton/archive/master.zip, attempt 3
+2019-05-26 18:57:51,295 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/master.zip": 6 MB
+2019-05-26 18:57:51,295 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-26 18:57:51,302 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/master.zip: true
+2019-05-26 18:57:51,303 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src'.
+2019-05-26 18:57:51,375 INFO  FullProcessService - Size of directory with sources: 7 MB
+2019-05-26 18:57:51,375 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src]
+2019-05-26 18:57:51,390 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/.git/
 
-2018-12-12 12:09:46,684 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/gradlew
-2018-12-12 12:09:46,688 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/build.gradle
-2018-12-12 12:09:46,692 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/settings.gradle
-2018-12-12 12:09:46,692 INFO  ProjectBuildService - Remote scripts: none
-2018-12-12 12:09:46,692 INFO  ProjectFixService - Fixing project...
-2018-12-12 12:09:46,701 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/library/local.properties
-2018-12-12 12:09:46,702 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2018-12-12 12:09:46,702 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/sample/local.properties
-2018-12-12 12:09:46,702 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2018-12-12 12:09:46,703 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/local.properties
-2018-12-12 12:09:46,703 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-12 12:09:46,704 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-12 12:09:46,704 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2018-12-12 12:09:46,705 INFO  ProjectFixService - Project was maybe fixed
-2018-12-12 12:09:46,705 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-12 12:09:46,705 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-12 12:09:52,596 INFO  ProjectTaskService - Detected possible tasks: 65
-2018-12-12 12:09:52,596 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-12 12:09:52,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-12 12:10:08,783 INFO  SysUtils - Configuration on demand is an incubating feature.
-:library:preBuild UP-TO-DATE
-:library:preDebugBuild UP-TO-DATE
-:library:compileDebugAidl NO-SOURCE
-:library:compileDebugRenderscript
-Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/maven-metadata.xml
-Download https://maven.google.com/com/android/support/appcompat-v7/maven-metadata.xml
-Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/maven-metadata.xml
-Download https://maven.google.com/com/android/support/cardview-v7/maven-metadata.xml
-Download https://dl.google.com/dl/android/maven2/com/android/support/design/maven-metadata.xml
-Download https://maven.google.com/com/android/support/design/maven-metadata.xml
-:library:checkDebugManifest
-:library:generateDebugBuildConfig
-:library:generateDebugResValues
-:library:generateDebugResources
-:library:packageDebugResources
-:library:processDebugManifest
-:library:generateDebugRFile
-:library:prepareLintJar
-:library:generateDebugSources
-:library:javaPreCompileDebug
-:library:compileDebugJavaWithJavac
-:library:extractDebugAnnotations
-:library:mergeDebugConsumerProguardFiles
-:library:mergeDebugShaders
-:library:compileDebugShaders
-:library:generateDebugAssets
-:library:packageDebugAssets
-:library:packageDebugRenderscript NO-SOURCE
-:library:processDebugJavaRes NO-SOURCE
-:library:transformResourcesWithMergeJavaResForDebug
-:library:transformClassesAndResourcesWithSyncLibJarsForDebug
-:library:compileDebugNdk NO-SOURCE
-:library:mergeDebugJniLibFolders
-:library:transformNativeLibsWithMergeJniLibsForDebug
-:library:transformNativeLibsWithStripDebugSymbolForDebug
-:library:transformNativeLibsWithSyncJniLibsForDebug
-:library:bundleDebugAar
-:library:compileDebugSources
-:library:assembleDebug
-:library:preReleaseBuild UP-TO-DATE
-:library:compileReleaseAidl NO-SOURCE
-:library:compileReleaseRenderscript
-:library:checkReleaseManifest
-:library:generateReleaseBuildConfig
-:library:generateReleaseResValues
-:library:generateReleaseResources
-:library:packageReleaseResources
-:library:processReleaseManifest
-:library:generateReleaseRFile
-:library:generateReleaseSources
-:library:javaPreCompileRelease
-:library:compileReleaseJavaWithJavac
-:library:extractReleaseAnnotations
-:library:mergeReleaseConsumerProguardFiles
-:library:mergeReleaseShaders
-:library:compileReleaseShaders
-:library:generateReleaseAssets
-:library:packageReleaseAssets
-:library:packageReleaseRenderscript NO-SOURCE
-:library:processReleaseJavaRes NO-SOURCE
-:library:transformResourcesWithMergeJavaResForRelease
-:library:transformClassesAndResourcesWithSyncLibJarsForRelease
-:library:compileReleaseNdk NO-SOURCE
-:library:mergeReleaseJniLibFolders
-:library:transformNativeLibsWithMergeJniLibsForRelease
-:library:transformNativeLibsWithStripDebugSymbolForRelease
-:library:transformNativeLibsWithSyncJniLibsForRelease
-:library:bundleReleaseAar
-:library:compileReleaseSources
-:library:mergeReleaseResources
-:library:verifyReleaseResources
-:library:assembleRelease
-:library:assemble
-:library:build
+2019-05-26 18:57:51,394 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/gradlew
+2019-05-26 18:57:51,397 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/build.gradle
+2019-05-26 18:57:51,400 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/settings.gradle
+2019-05-26 18:57:51,401 INFO  ProjectBuildService - Remote scripts: none
+2019-05-26 18:57:51,401 INFO  ProjectFixService - Fixing project...
+2019-05-26 18:57:51,408 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/library/local.properties
+2019-05-26 18:57:51,409 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-26 18:57:51,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/sample/local.properties
+2019-05-26 18:57:51,409 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-26 18:57:51,410 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/local.properties
+2019-05-26 18:57:51,410 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-26 18:57:51,410 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-26 18:57:51,411 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-05-26 18:57:51,411 INFO  ProjectFixService - Project was maybe fixed
+2019-05-26 18:57:51,411 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-26 18:57:51,411 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-26 18:58:01,135 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-05-26 18:58:01,135 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-26 18:58:01,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-26 18:58:16,913 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :library:preBuild UP-TO-DATE
+> Task :library:preDebugBuild UP-TO-DATE
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:checkDebugManifest
+> Task :library:generateDebugBuildConfig
+> Task :library:generateDebugResValues
+> Task :library:generateDebugResources
+> Task :library:packageDebugResources
+> Task :library:processDebugManifest
+> Task :library:generateDebugRFile
+> Task :library:prepareLintJar
+> Task :library:generateDebugSources
+> Task :library:javaPreCompileDebug
+
+> Task :library:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/library/src/main/java/io/rmiri/skeleton/SkeletonViewGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :library:extractDebugAnnotations
+> Task :library:mergeDebugConsumerProguardFiles
+> Task :library:mergeDebugShaders
+> Task :library:compileDebugShaders
+> Task :library:generateDebugAssets
+> Task :library:packageDebugAssets
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :library:prepareLintJarForPublish
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:transformResourcesWithMergeJavaResForDebug
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :library:mergeDebugJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForDebug
+> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :library:transformNativeLibsWithSyncJniLibsForDebug
+> Task :library:bundleDebugAar
+> Task :library:compileDebugSources
+> Task :library:assembleDebug
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :library:compileReleaseRenderscript NO-SOURCE
+> Task :library:checkReleaseManifest
+> Task :library:generateReleaseBuildConfig
+> Task :library:generateReleaseResValues
+> Task :library:generateReleaseResources
+> Task :library:packageReleaseResources
+> Task :library:processReleaseManifest
+> Task :library:generateReleaseRFile
+> Task :library:generateReleaseSources
+> Task :library:javaPreCompileRelease
+
+> Task :library:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/library/src/main/java/io/rmiri/skeleton/SkeletonViewGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :library:extractReleaseAnnotations
+> Task :library:mergeReleaseConsumerProguardFiles
+> Task :library:mergeReleaseShaders
+> Task :library:compileReleaseShaders
+> Task :library:generateReleaseAssets
+> Task :library:packageReleaseAssets
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:transformResourcesWithMergeJavaResForRelease
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :library:mergeReleaseJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForRelease
+> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :library:transformNativeLibsWithSyncJniLibsForRelease
+> Task :library:bundleReleaseAar
+> Task :library:compileReleaseSources
+> Task :library:mergeReleaseResources
+> Task :library:verifyReleaseResources
+> Task :library:assembleRelease
+> Task :library:assemble
+> Task :library:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 15s
-45 actionable tasks: 45 executed
+44 actionable tasks: 44 executed
 
-2018-12-12 12:10:08,846 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591246921-0/src/demoFile/sample.apk
+2019-05-26 18:58:16,951 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871865377-0/src/Skeleton-master/demoFile/sample.apk

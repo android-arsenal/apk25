@@ -1,33 +1,33 @@
-2019-03-23 22:58:17,388 INFO  DownloadService - Downloading "https://github.com/dariopellegrini/Spike/archive/master.zip", attempt 3
-2019-03-23 22:58:17,912 INFO  DownloadService - Downloaded https://github.com/dariopellegrini/Spike/archive/master.zip, attempt 3
-2019-03-23 22:58:17,912 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/master.zip": 264 KB
-2019-03-23 22:58:17,912 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-23 22:58:17,918 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/master.zip: true
-2019-03-23 22:58:17,918 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src'.
-2019-03-23 22:58:17,951 INFO  FullProcessService - Size of directory with sources: 322 KB
-2019-03-23 22:58:17,951 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src]
-2019-03-23 22:58:17,974 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/.git/
+2019-05-26 18:56:18,958 INFO  DownloadService - Downloading "https://github.com/dariopellegrini/Spike/archive/master.zip", attempt 3
+2019-05-26 18:56:19,504 INFO  DownloadService - Downloaded https://github.com/dariopellegrini/Spike/archive/master.zip, attempt 3
+2019-05-26 18:56:19,505 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/master.zip": 264 KB
+2019-05-26 18:56:19,505 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-26 18:56:19,505 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/master.zip: true
+2019-05-26 18:56:19,506 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src'.
+2019-05-26 18:56:19,535 INFO  FullProcessService - Size of directory with sources: 322 KB
+2019-05-26 18:56:19,536 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src]
+2019-05-26 18:56:19,580 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/.git/
 
-2019-03-23 22:58:17,979 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/gradlew
-2019-03-23 22:58:17,984 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/spike/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/build.gradle
-2019-03-23 22:58:17,989 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/spike/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/settings.gradle
-2019-03-23 22:58:17,990 INFO  ProjectBuildService - Remote scripts: none
-2019-03-23 22:58:17,990 INFO  ProjectFixService - Fixing project...
-2019-03-23 22:58:18,000 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/local.properties
-2019-03-23 22:58:18,001 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=18,targetSdkVersion=26]
-2019-03-23 22:58:18,002 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/spike/local.properties
-2019-03-23 22:58:18,002 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/spike/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-03-23 22:58:18,003 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/local.properties
-2019-03-23 22:58:18,003 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-23 22:58:18,004 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-23 22:58:18,005 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=18,targetSdkVersion=26]
-2019-03-23 22:58:18,005 INFO  ProjectFixService - Project was maybe fixed
-2019-03-23 22:58:18,005 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-23 22:58:18,005 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-23 22:58:25,169 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-23 22:58:25,170 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-23 22:58:25,170 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-23 22:58:52,291 ERROR SysUtils - Could not process external command
+2019-05-26 18:56:19,584 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/gradlew
+2019-05-26 18:56:19,587 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/spike/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/build.gradle
+2019-05-26 18:56:19,590 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/spike/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/settings.gradle
+2019-05-26 18:56:19,590 INFO  ProjectBuildService - Remote scripts: none
+2019-05-26 18:56:19,590 INFO  ProjectFixService - Fixing project...
+2019-05-26 18:56:19,599 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/local.properties
+2019-05-26 18:56:19,600 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=18,targetSdkVersion=26]
+2019-05-26 18:56:19,600 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/spike/local.properties
+2019-05-26 18:56:19,601 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/spike/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-05-26 18:56:19,602 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/local.properties
+2019-05-26 18:56:19,602 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-05-26 18:56:19,603 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-05-26 18:56:19,604 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=26,minSdkVersion=18,targetSdkVersion=26]
+2019-05-26 18:56:19,604 INFO  ProjectFixService - Project was maybe fixed
+2019-05-26 18:56:19,604 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-26 18:56:19,604 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-26 18:56:27,793 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-26 18:56:27,793 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-26 18:56:27,793 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-26 18:57:05,840 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -40,21 +40,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-23 22:58:52,291 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-26 18:57:05,840 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :spike:preBuild UP-TO-DATE
 > Task :spike:preDebugBuild UP-TO-DATE
@@ -82,10 +82,10 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :spike:generateDebugBuildConfig
 
 > Task :spike:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/SpikeProvider.kt: (136, 92): Unchecked cast: Any? to S
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/SpikeProvider.kt: (155, 92): Unchecked cast: Any? to E
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/network/SpikeNetwork.kt: (37, 21): Parameter 'multipartEntities' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/network/SpikeNetwork.kt: (73, 13): The value 'currentURL.removeSuffix("&")' assigned to 'var currentURL: String defined in com.dariopellegrini.spike.network.SpikeNetwork.multipartRequest' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/SpikeProvider.kt: (136, 92): Unchecked cast: Any? to S
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/SpikeProvider.kt: (155, 92): Unchecked cast: Any? to E
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/network/SpikeNetwork.kt: (37, 21): Parameter 'multipartEntities' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/network/SpikeNetwork.kt: (73, 13): The value 'currentURL.removeSuffix("&")' assigned to 'var currentURL: String defined in com.dariopellegrini.spike.network.SpikeNetwork.multipartRequest' is never used
 
 > Task :spike:prepareLintJar
 > Task :spike:generateDebugSources
@@ -95,18 +95,18 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/
 > Task :spike:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (25, 21): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (37, 40): Parameter 'response' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (37, 50): Parameter 'header' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (40, 37): Parameter 'response' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (40, 47): Parameter 'header' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (70, 40): Parameter 'response' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (70, 50): Parameter 'header' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (101, 32): Parameter 'response' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (101, 42): Parameter 'header' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (104, 30): Parameter 'response' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (104, 40): Parameter 'header' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/TVMazeAPI.kt: (113, 19): Parameter 'errorResult' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (25, 21): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (37, 40): Parameter 'response' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (37, 50): Parameter 'header' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (40, 37): Parameter 'response' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (40, 47): Parameter 'header' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (70, 40): Parameter 'response' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (70, 50): Parameter 'header' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (101, 32): Parameter 'response' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (101, 42): Parameter 'header' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (104, 30): Parameter 'response' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/MainActivity.kt: (104, 40): Parameter 'header' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spike/TVMazeAPI.kt: (113, 19): Parameter 'errorResult' is never used, could be renamed to _
 
 > Task :app:prepareLintJar
 > Task :app:generateDebugSources
@@ -125,14 +125,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/
 > Task :spike:createFullJarDebug
 > Transform full.jar (project :spike) with IdentityTransform
 > Task :app:mergeExtDexDebug
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
-> Task :app:mergeDebugJniLibFolders
-> Task :spike:compileDebugNdk NO-SOURCE
-> Task :spike:mergeDebugJniLibFolders
 > Transform full.jar (project :spike) with DexingTransform
-> Task :spike:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformClassesWithDexBuilderForDebug
 D8: Program type already present: com.dariopellegrini.spike.BuildConfig
 
 > Task :app:mergeDexDebug FAILED
@@ -332,15 +326,15 @@ Caused by: com.android.tools.r8.utils.AbortException: Error: Program type alread
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 26s
-41 actionable tasks: 41 executed
+BUILD FAILED in 37s
+36 actionable tasks: 36 executed
 
-2019-03-23 22:58:52,340 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-23 22:58:52,340 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/spike/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-23 22:58:59,105 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-03-23 22:58:59,105 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-23 22:58:59,105 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/spike/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-23 22:59:16,433 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-26 18:57:05,874 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-26 18:57:05,891 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/spike/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-26 18:57:12,237 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-05-26 18:57:12,237 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-26 18:57:12,237 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/spike/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-26 18:57:29,773 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :spike:preBuild UP-TO-DATE
 > Task :spike:preDebugBuild UP-TO-DATE
 > Task :spike:compileDebugAidl NO-SOURCE
@@ -368,8 +362,8 @@ BUILD FAILED in 26s
 > Task :spike:transformResourcesWithMergeJavaResForDebug
 > Task :spike:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :spike:compileDebugNdk NO-SOURCE
-> Task :spike:mergeDebugJniLibFolders UP-TO-DATE
-> Task :spike:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :spike:mergeDebugJniLibFolders
+> Task :spike:transformNativeLibsWithMergeJniLibsForDebug
 > Task :spike:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :spike:transformNativeLibsWithSyncJniLibsForDebug
 > Task :spike:bundleDebugAar
@@ -387,10 +381,10 @@ BUILD FAILED in 26s
 > Task :spike:generateReleaseRFile
 
 > Task :spike:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/SpikeProvider.kt: (136, 92): Unchecked cast: Any? to S
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/SpikeProvider.kt: (155, 92): Unchecked cast: Any? to E
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/network/SpikeNetwork.kt: (37, 21): Parameter 'multipartEntities' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/network/SpikeNetwork.kt: (73, 13): The value 'currentURL.removeSuffix("&")' assigned to 'var currentURL: String defined in com.dariopellegrini.spike.network.SpikeNetwork.multipartRequest' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/SpikeProvider.kt: (136, 92): Unchecked cast: Any? to S
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/SpikeProvider.kt: (155, 92): Unchecked cast: Any? to E
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/network/SpikeNetwork.kt: (37, 21): Parameter 'multipartEntities' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/network/SpikeNetwork.kt: (73, 13): The value 'currentURL.removeSuffix("&")' assigned to 'var currentURL: String defined in com.dariopellegrini.spike.network.SpikeNetwork.multipartRequest' is never used
 
 > Task :spike:generateReleaseSources
 > Task :spike:javaPreCompileRelease
@@ -418,15 +412,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/
 > Task :spike:assemble
 > Task :spike:build
 
-BUILD SUCCESSFUL in 16s
-47 actionable tasks: 31 executed, 16 up-to-date
+BUILD SUCCESSFUL in 17s
+47 actionable tasks: 33 executed, 14 up-to-date
 
-2019-03-23 22:59:16,485 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-23 22:59:16,485 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-23 22:59:23,373 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-03-23 22:59:23,374 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-23 22:59:23,374 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356697384-0/src/Spike-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-23 22:59:31,821 ERROR SysUtils - Could not process external command
+2019-05-26 18:57:29,810 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-26 18:57:29,810 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-26 18:57:36,951 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-05-26 18:57:36,951 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-26 18:57:36,951 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558871778949-0/src/Spike-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-26 18:57:45,040 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -439,21 +433,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-23 22:59:31,821 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-26 18:57:45,041 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :spike:preBuild UP-TO-DATE
 > Task :spike:preDebugBuild UP-TO-DATE
@@ -705,8 +699,8 @@ Caused by: com.android.tools.r8.utils.AbortException: Error: Program type alread
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 8s
+BUILD FAILED in 7s
 36 actionable tasks: 1 executed, 35 up-to-date
 
-2019-03-23 22:59:31,874 ERROR FullProcessService - Project build has not produced APK file
-2019-03-23 22:59:31,924 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-26 18:57:45,080 ERROR FullProcessService - Project build has not produced APK file
+2019-05-26 18:57:45,112 ERROR FullProcessService - Could not find generated or existed APK file
