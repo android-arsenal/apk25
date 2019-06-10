@@ -1,172 +1,166 @@
-2019-03-16 17:35:54,095 INFO  DownloadService - Downloading "https://github.com/HITGIF/TextFieldBoxes/archive/master.zip", attempt 3
-2019-03-16 17:35:55,364 INFO  DownloadService - Downloaded https://github.com/HITGIF/TextFieldBoxes/archive/master.zip, attempt 3
-2019-03-16 17:35:55,364 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/master.zip": 931 KB
-2019-03-16 17:35:55,364 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-16 17:35:55,370 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/master.zip: true
-2019-03-16 17:35:55,370 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src'.
-2019-03-16 17:35:55,417 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-03-16 17:35:55,417 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src]
-2019-03-16 17:35:55,438 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/.git/
+2019-06-10 13:32:36,039 INFO  DownloadService - Downloading "https://github.com/HITGIF/TextFieldBoxes/archive/master.zip", attempt 3
+2019-06-10 13:32:37,133 INFO  DownloadService - Downloaded https://github.com/HITGIF/TextFieldBoxes/archive/master.zip, attempt 3
+2019-06-10 13:32:37,133 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/master.zip": 933 KB
+2019-06-10 13:32:37,134 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-10 13:32:37,136 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/master.zip: true
+2019-06-10 13:32:37,136 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src'.
+2019-06-10 13:32:37,172 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-06-10 13:32:37,172 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src]
+2019-06-10 13:32:37,188 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/.git/
 
-2019-03-16 17:35:55,443 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/gradlew
-2019-03-16 17:35:55,447 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/textfieldboxes/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/build.gradle
-2019-03-16 17:35:55,452 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/textfieldboxes/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/settings.gradle
-2019-03-16 17:35:55,452 INFO  ProjectBuildService - Remote scripts: none
-2019-03-16 17:35:55,452 INFO  ProjectFixService - Fixing project...
-2019-03-16 17:35:55,462 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/sample/local.properties
-2019-03-16 17:35:55,463 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-03-16 17:35:55,464 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/textfieldboxes/local.properties
-2019-03-16 17:35:55,464 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/textfieldboxes/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-03-16 17:35:55,465 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/local.properties
-2019-03-16 17:35:55,465 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-03-16 17:35:55,466 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-03-16 17:35:55,467 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-03-16 17:35:55,467 INFO  ProjectFixService - Project was maybe fixed
-2019-03-16 17:35:55,467 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-16 17:35:55,467 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-16 17:36:02,577 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-03-16 17:36:02,577 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-16 17:36:02,577 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-16 17:36:34,692 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation' and 'androidTestApi'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-:sample:preBuild UP-TO-DATE
-:textfieldboxes:preBuild UP-TO-DATE
-:textfieldboxes:preDebugBuild UP-TO-DATE
-:textfieldboxes:checkDebugManifest
-:textfieldboxes:processDebugManifest
-:sample:preDebugBuild
-:textfieldboxes:compileDebugAidl
-:sample:compileDebugAidl
-:textfieldboxes:packageDebugRenderscript NO-SOURCE
-:sample:compileDebugRenderscript
-:sample:checkDebugManifest
-:sample:generateDebugBuildConfig
-:sample:prepareLintJar
-:sample:mainApkListPersistenceDebug
-:sample:generateDebugResValues
-:sample:generateDebugResources
-:textfieldboxes:compileDebugRenderscript
-:textfieldboxes:generateDebugResValues
-:textfieldboxes:generateDebugResources
-:textfieldboxes:packageDebugResources
-:sample:mergeDebugResources
-:sample:createDebugCompatibleScreenManifests
-:sample:processDebugManifest
-:sample:splitsDiscoveryTaskDebug
-:textfieldboxes:platformAttrExtractor
-:textfieldboxes:generateDebugBuildConfig
-:textfieldboxes:prepareLintJar
-:textfieldboxes:javaPreCompileDebug
-:textfieldboxes:processDebugJavaRes NO-SOURCE
-:sample:compileDebugNdk NO-SOURCE
-:sample:mergeDebugShaders
-:sample:compileDebugShaders
-:sample:generateDebugAssets
-:textfieldboxes:mergeDebugShaders
-:textfieldboxes:compileDebugShaders
-:textfieldboxes:generateDebugAssets
-:textfieldboxes:packageDebugAssets
-:sample:mergeDebugAssets
-:sample:mergeDebugJniLibFolders
-:textfieldboxes:compileDebugNdk NO-SOURCE
-:textfieldboxes:mergeDebugJniLibFolders
-:textfieldboxes:transformNativeLibsWithMergeJniLibsForDebug
-:textfieldboxes:transformNativeLibsWithStripDebugSymbolForDebug
-:textfieldboxes:transformNativeLibsWithIntermediateJniLibsForDebug
-:sample:processDebugJavaRes NO-SOURCE
-:sample:validateSigningDebug
-:textfieldboxes:preReleaseBuild UP-TO-DATE
-:textfieldboxes:checkReleaseManifest
-:textfieldboxes:processReleaseManifest
-:sample:preReleaseBuild
-:textfieldboxes:compileReleaseAidl
-:sample:compileReleaseAidl
-:textfieldboxes:packageReleaseRenderscript NO-SOURCE
-:sample:compileReleaseRenderscript
-:sample:checkReleaseManifest
-:sample:generateReleaseBuildConfig
-:sample:mainApkListPersistenceRelease
-:sample:generateReleaseResValues
-:sample:generateReleaseResources
-:textfieldboxes:compileReleaseRenderscript
-:textfieldboxes:generateReleaseResValues
-:textfieldboxes:generateReleaseResources
-:textfieldboxes:packageReleaseResources
-:sample:mergeReleaseResources
-:sample:createReleaseCompatibleScreenManifests
-:sample:processReleaseManifest
-:sample:splitsDiscoveryTaskRelease
-:textfieldboxes:generateReleaseBuildConfig
-:textfieldboxes:javaPreCompileRelease
-:textfieldboxes:processReleaseJavaRes NO-SOURCE
-:sample:compileReleaseNdk NO-SOURCE
-:sample:mergeReleaseShaders
-:sample:compileReleaseShaders
-:sample:generateReleaseAssets
-:textfieldboxes:mergeReleaseShaders
-:textfieldboxes:compileReleaseShaders
-:textfieldboxes:generateReleaseAssets
-:textfieldboxes:packageReleaseAssets
-:sample:mergeReleaseAssets
-:sample:mergeReleaseJniLibFolders
-:textfieldboxes:compileReleaseNdk NO-SOURCE
-:textfieldboxes:mergeReleaseJniLibFolders
-:textfieldboxes:transformNativeLibsWithMergeJniLibsForRelease
-:textfieldboxes:transformNativeLibsWithStripDebugSymbolForRelease
-:textfieldboxes:transformNativeLibsWithIntermediateJniLibsForRelease
-:sample:processReleaseJavaRes NO-SOURCE
-:textfieldboxes:generateDebugRFile
-:sample:processDebugResources
-:sample:generateDebugSources
-:textfieldboxes:generateDebugSources
-:textfieldboxes:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/textfieldboxes/src/main/java/studio/carbonylgroup/textfieldboxes/TextFieldBoxes.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+2019-06-10 13:32:37,192 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/gradlew
+2019-06-10 13:32:37,195 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/textfieldboxes/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/build.gradle
+2019-06-10 13:32:37,199 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/textfieldboxes/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/settings.gradle
+2019-06-10 13:32:37,199 INFO  ProjectBuildService - Remote scripts: none
+2019-06-10 13:32:37,199 INFO  ProjectFixService - Fixing project...
+2019-06-10 13:32:37,208 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/sample/local.properties
+2019-06-10 13:32:37,208 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-10 13:32:37,208 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/textfieldboxes/local.properties
+2019-06-10 13:32:37,209 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/textfieldboxes/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-10 13:32:37,209 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/local.properties
+2019-06-10 13:32:37,209 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-06-10 13:32:37,210 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-06-10 13:32:37,210 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-06-10 13:32:37,211 INFO  ProjectFixService - Project was maybe fixed
+2019-06-10 13:32:37,211 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-10 13:32:37,211 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-10 13:32:43,237 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-10 13:32:43,237 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-10 13:32:43,237 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-10 13:33:20,886 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :sample:preBuild UP-TO-DATE
+> Task :textfieldboxes:preBuild UP-TO-DATE
+> Task :textfieldboxes:preDebugBuild UP-TO-DATE
+> Task :textfieldboxes:checkDebugManifest
+> Task :textfieldboxes:processDebugManifest
+> Task :sample:preDebugBuild
+> Task :textfieldboxes:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :textfieldboxes:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :textfieldboxes:compileDebugRenderscript NO-SOURCE
+> Task :textfieldboxes:generateDebugBuildConfig
+> Task :textfieldboxes:generateDebugResValues
+> Task :textfieldboxes:generateDebugResources
+> Task :textfieldboxes:packageDebugResources
+> Task :textfieldboxes:generateDebugRFile
+> Task :textfieldboxes:prepareLintJar
+> Task :textfieldboxes:generateDebugSources
+> Task :textfieldboxes:javaPreCompileDebug
+> Task :textfieldboxes:compileDebugJavaWithJavac
+> Task :textfieldboxes:bundleLibCompileDebug
+> Task :sample:javaPreCompileDebug
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :textfieldboxes:mergeDebugShaders
+> Task :textfieldboxes:compileDebugShaders
+> Task :textfieldboxes:generateDebugAssets
+> Task :textfieldboxes:packageDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :textfieldboxes:processDebugJavaRes NO-SOURCE
+> Task :textfieldboxes:bundleLibResDebug
+> Task :textfieldboxes:bundleLibRuntimeDebug
+> Task :textfieldboxes:createFullJarDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeExtDexDebug
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:mergeDexDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :textfieldboxes:mergeDebugJniLibFolders
+> Task :textfieldboxes:transformNativeLibsWithMergeJniLibsForDebug
+> Task :textfieldboxes:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :textfieldboxes:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :textfieldboxes:preReleaseBuild UP-TO-DATE
+> Task :textfieldboxes:checkReleaseManifest
+> Task :textfieldboxes:processReleaseManifest
+> Task :sample:preReleaseBuild
+> Task :textfieldboxes:compileReleaseAidl NO-SOURCE
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :textfieldboxes:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:generateReleaseSources
+> Task :textfieldboxes:compileReleaseRenderscript NO-SOURCE
+> Task :textfieldboxes:generateReleaseBuildConfig
+> Task :textfieldboxes:generateReleaseResValues
+> Task :textfieldboxes:generateReleaseResources
+> Task :textfieldboxes:packageReleaseResources
+> Task :textfieldboxes:generateReleaseRFile
+> Task :textfieldboxes:generateReleaseSources
+> Task :textfieldboxes:javaPreCompileRelease
+> Task :textfieldboxes:compileReleaseJavaWithJavac
+> Task :textfieldboxes:bundleLibCompileRelease
+> Task :sample:javaPreCompileRelease
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :textfieldboxes:prepareLintJarForPublish
+> Task :sample:lintVitalRelease
+> Task :textfieldboxes:processReleaseJavaRes NO-SOURCE
+> Task :textfieldboxes:bundleLibResRelease
+> Task :textfieldboxes:bundleLibRuntimeRelease
+> Task :textfieldboxes:createFullJarRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:mergeExtDexRelease
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:mergeDexRelease
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :textfieldboxes:mergeReleaseShaders
+> Task :textfieldboxes:compileReleaseShaders
+> Task :textfieldboxes:generateReleaseAssets
+> Task :textfieldboxes:packageReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :textfieldboxes:mergeReleaseJniLibFolders
+> Task :textfieldboxes:transformNativeLibsWithMergeJniLibsForRelease
+> Task :textfieldboxes:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :textfieldboxes:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
 
-:textfieldboxes:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:sample:javaPreCompileDebug
-:sample:compileDebugJavaWithJavac
-:sample:compileDebugSources
-:sample:transformClassesWithDexBuilderForDebug
-:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-:sample:transformDexArchiveWithDexMergerForDebug
-:sample:transformNativeLibsWithMergeJniLibsForDebug
-:sample:transformNativeLibsWithStripDebugSymbolForDebug
-:sample:transformResourcesWithMergeJavaResForDebug
-:sample:packageDebug
-:sample:assembleDebug
-:textfieldboxes:generateReleaseRFile
-:sample:processReleaseResources
-:sample:generateReleaseSources
-:textfieldboxes:generateReleaseSources
-:textfieldboxes:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/textfieldboxes/src/main/java/studio/carbonylgroup/textfieldboxes/TextFieldBoxes.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-:textfieldboxes:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:sample:javaPreCompileRelease
-:sample:compileReleaseJavaWithJavac
-:sample:compileReleaseSources
-:sample:lintVitalRelease
-:sample:transformClassesWithDexBuilderForRelease
-:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
-:sample:transformDexArchiveWithDexMergerForRelease
-:sample:transformNativeLibsWithMergeJniLibsForRelease
-:sample:transformNativeLibsWithStripDebugSymbolForRelease
-:sample:transformResourcesWithMergeJavaResForRelease
-:sample:packageRelease
-:sample:assembleRelease
-:sample:assemble
-:sample:build
-
-BUILD SUCCESSFUL in 31s
+BUILD SUCCESSFUL in 37s
 91 actionable tasks: 91 executed
 
-2019-03-16 17:36:34,783 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732554087-0/src/TextFieldBoxes-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-06-10 13:33:20,947 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148356035-0/src/TextFieldBoxes-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
