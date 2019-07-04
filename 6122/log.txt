@@ -1,166 +1,169 @@
-2019-04-23 12:37:12,690 INFO  DownloadService - Downloading "https://github.com/AviranAbady/CookieBar2/archive/master.zip", attempt 3
-2019-04-23 12:37:13,902 INFO  DownloadService - Downloaded https://github.com/AviranAbady/CookieBar2/archive/master.zip, attempt 3
-2019-04-23 12:37:13,902 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/master.zip": 314 KB
-2019-04-23 12:37:13,902 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-23 12:37:13,905 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/master.zip: true
-2019-04-23 12:37:13,905 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src'.
-2019-04-23 12:37:13,935 INFO  FullProcessService - Size of directory with sources: 355 KB
-2019-04-23 12:37:13,935 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src]
-2019-04-23 12:37:13,954 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/.git/
+2019-07-05 02:34:49,432 INFO  DownloadService - Downloading "https://github.com/AviranAbady/CookieBar2/archive/master.zip", attempt 3
+2019-07-05 02:34:50,146 INFO  DownloadService - Downloaded https://github.com/AviranAbady/CookieBar2/archive/master.zip, attempt 3
+2019-07-05 02:34:50,147 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/master.zip": 316 KB
+2019-07-05 02:34:50,147 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 02:34:50,148 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/master.zip: true
+2019-07-05 02:34:50,149 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src'.
+2019-07-05 02:34:50,172 INFO  FullProcessService - Size of directory with sources: 360 KB
+2019-07-05 02:34:50,172 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src]
+2019-07-05 02:34:50,187 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/.git/
 
-2019-04-23 12:37:13,958 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/gradlew
-2019-04-23 12:37:13,962 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/cookiebar2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/build.gradle
-2019-04-23 12:37:13,965 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/cookiebar2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/settings.gradle
-2019-04-23 12:37:13,965 INFO  ProjectBuildService - Remote scripts: none
-2019-04-23 12:37:13,965 INFO  ProjectFixService - Fixing project...
-2019-04-23 12:37:13,974 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/app/local.properties
-2019-04-23 12:37:13,974 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-23 12:37:13,975 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/cookiebar2/local.properties
-2019-04-23 12:37:13,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/cookiebar2/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-23 12:37:13,975 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/local.properties
-2019-04-23 12:37:13,976 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-04-23 12:37:13,976 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-04-23 12:37:13,977 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-23 12:37:13,977 INFO  ProjectFixService - Project was maybe fixed
-2019-04-23 12:37:13,977 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-23 12:37:13,977 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-23 12:37:21,410 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-04-23 12:37:21,411 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-23 12:37:21,411 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-23 12:37:52,651 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:checkDebugClasspath
-:app:preBuild UP-TO-DATE
-:cookiebar2:preBuild UP-TO-DATE
-:cookiebar2:preDebugBuild UP-TO-DATE
-:cookiebar2:checkDebugManifest
-:cookiebar2:processDebugManifest
-:app:preDebugBuild
-:cookiebar2:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:cookiebar2:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:prepareLintJar
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:cookiebar2:compileDebugRenderscript
-:cookiebar2:generateDebugResValues
-:cookiebar2:generateDebugResources
-:cookiebar2:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:cookiebar2:generateDebugRFile
-:app:processDebugResources
-:app:generateDebugSources
-:cookiebar2:generateDebugBuildConfig
-:cookiebar2:prepareLintJar
-:cookiebar2:generateDebugSources
-:cookiebar2:javaPreCompileDebug
-:cookiebar2:compileDebugJavaWithJavac
-:cookiebar2:processDebugJavaRes NO-SOURCE
-:cookiebar2:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/app/src/main/java/org/aviran/cookiebarsample/MainActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+2019-07-05 02:34:50,190 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/gradlew
+2019-07-05 02:34:50,193 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/cookiebar2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/build.gradle
+2019-07-05 02:34:50,195 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/cookiebar2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/settings.gradle
+2019-07-05 02:34:50,195 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 02:34:50,195 INFO  ProjectFixService - Fixing project...
+2019-07-05 02:34:50,201 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/app/local.properties
+2019-07-05 02:34:50,201 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 02:34:50,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/cookiebar2/local.properties
+2019-07-05 02:34:50,202 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/cookiebar2/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 02:34:50,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/local.properties
+2019-07-05 02:34:50,203 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-05 02:34:50,203 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-05 02:34:50,203 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 02:34:50,203 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 02:34:50,203 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 02:34:50,203 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 02:34:56,617 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-05 02:34:56,617 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 02:34:56,617 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 02:35:32,863 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :cookiebar2:preBuild UP-TO-DATE
+> Task :cookiebar2:preDebugBuild UP-TO-DATE
+> Task :cookiebar2:checkDebugManifest
+> Task :cookiebar2:processDebugManifest
+> Task :app:preDebugBuild
+> Task :cookiebar2:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :cookiebar2:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :cookiebar2:compileDebugRenderscript NO-SOURCE
+> Task :cookiebar2:generateDebugBuildConfig
+> Task :cookiebar2:generateDebugResValues
+> Task :cookiebar2:generateDebugResources
+> Task :cookiebar2:packageDebugResources
+> Task :cookiebar2:generateDebugRFile
+> Task :cookiebar2:prepareLintJar
+> Task :cookiebar2:generateDebugSources
+> Task :cookiebar2:javaPreCompileDebug
+> Task :cookiebar2:compileDebugJavaWithJavac
+> Task :cookiebar2:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :cookiebar2:mergeDebugShaders
+> Task :cookiebar2:compileDebugShaders
+> Task :cookiebar2:generateDebugAssets
+> Task :cookiebar2:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :cookiebar2:processDebugJavaRes NO-SOURCE
+> Task :cookiebar2:bundleLibResDebug
+> Task :cookiebar2:bundleLibRuntimeDebug
+> Task :cookiebar2:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeExtDexDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :cookiebar2:mergeDebugJniLibFolders
+> Task :cookiebar2:transformNativeLibsWithMergeJniLibsForDebug
+> Task :cookiebar2:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :cookiebar2:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :cookiebar2:preReleaseBuild UP-TO-DATE
+> Task :cookiebar2:checkReleaseManifest
+> Task :cookiebar2:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :cookiebar2:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :cookiebar2:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :cookiebar2:compileReleaseRenderscript NO-SOURCE
+> Task :cookiebar2:generateReleaseBuildConfig
+> Task :cookiebar2:generateReleaseResValues
+> Task :cookiebar2:generateReleaseResources
+> Task :cookiebar2:packageReleaseResources
+> Task :cookiebar2:generateReleaseRFile
+> Task :cookiebar2:generateReleaseSources
+> Task :cookiebar2:javaPreCompileRelease
+> Task :cookiebar2:compileReleaseJavaWithJavac
+> Task :cookiebar2:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :cookiebar2:prepareLintJarForPublish
 
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:cookiebar2:mergeDebugShaders
-:cookiebar2:compileDebugShaders
-:cookiebar2:generateDebugAssets
-:cookiebar2:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:cookiebar2:compileDebugNdk NO-SOURCE
-:cookiebar2:mergeDebugJniLibFolders
-:cookiebar2:transformNativeLibsWithMergeJniLibsForDebug
-:cookiebar2:transformNativeLibsWithStripDebugSymbolForDebug
-:cookiebar2:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:cookiebar2:preReleaseBuild UP-TO-DATE
-:cookiebar2:checkReleaseManifest
-:cookiebar2:processReleaseManifest
-:app:preReleaseBuild
-:cookiebar2:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:cookiebar2:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:cookiebar2:compileReleaseRenderscript
-:cookiebar2:generateReleaseResValues
-:cookiebar2:generateReleaseResources
-:cookiebar2:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:cookiebar2:generateReleaseRFile
-:app:processReleaseResources
-:app:generateReleaseSources
-:cookiebar2:generateReleaseBuildConfig
-:cookiebar2:generateReleaseSources
-:cookiebar2:javaPreCompileRelease
-:cookiebar2:compileReleaseJavaWithJavac
-:cookiebar2:processReleaseJavaRes NO-SOURCE
-:cookiebar2:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/app/src/main/java/org/aviran/cookiebarsample/MainActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/69c60910e6a152e4f3e7ac06296525d9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/db5b9221d355ed7c851ee40e3011ccc5/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:cookiebar2:mergeReleaseShaders
-:cookiebar2:compileReleaseShaders
-:cookiebar2:generateReleaseAssets
-:cookiebar2:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:cookiebar2:compileReleaseNdk NO-SOURCE
-:cookiebar2:mergeReleaseJniLibFolders
-:cookiebar2:transformNativeLibsWithMergeJniLibsForRelease
-:cookiebar2:transformNativeLibsWithStripDebugSymbolForRelease
-:cookiebar2:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+> Task :cookiebar2:processReleaseJavaRes NO-SOURCE
+> Task :cookiebar2:bundleLibResRelease
+> Task :cookiebar2:bundleLibRuntimeRelease
+> Task :cookiebar2:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeExtDexRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :cookiebar2:mergeReleaseShaders
+> Task :cookiebar2:compileReleaseShaders
+> Task :cookiebar2:generateReleaseAssets
+> Task :cookiebar2:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :cookiebar2:mergeReleaseJniLibFolders
+> Task :cookiebar2:transformNativeLibsWithMergeJniLibsForRelease
+> Task :cookiebar2:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :cookiebar2:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
 
-BUILD SUCCESSFUL in 30s
-90 actionable tasks: 90 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-04-23 12:37:52,755 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997832687-0/src/CookieBar2-master/app/build/outputs/apk/debug/app-debug.apk
+BUILD SUCCESSFUL in 36s
+91 actionable tasks: 91 executed
+
+2019-07-05 02:35:32,919 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268889430-0/src/CookieBar2-master/app/build/outputs/apk/debug/app-debug.apk

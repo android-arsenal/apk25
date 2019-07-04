@@ -1,84 +1,84 @@
-2019-05-17 11:14:08,715 INFO  DownloadService - Downloading "https://github.com/ravindu1024/velocity/archive/master.zip", attempt 3
-2019-05-17 11:14:11,315 INFO  DownloadService - Downloaded https://github.com/ravindu1024/velocity/archive/master.zip, attempt 3
-2019-05-17 11:14:11,315 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/master.zip": 123 KB
-2019-05-17 11:14:11,315 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-17 11:14:11,315 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/master.zip: true
-2019-05-17 11:14:11,316 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src'.
-2019-05-17 11:14:11,341 INFO  FullProcessService - Size of directory with sources: 187 KB
-2019-05-17 11:14:11,341 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src]
-2019-05-17 11:14:11,376 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/.git/
+2019-07-05 02:40:09,619 INFO  DownloadService - Downloading "https://github.com/ravindu1024/velocity/archive/master.zip", attempt 3
+2019-07-05 02:40:11,660 INFO  DownloadService - Downloaded https://github.com/ravindu1024/velocity/archive/master.zip, attempt 3
+2019-07-05 02:40:11,660 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/master.zip": 123 KB
+2019-07-05 02:40:11,660 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 02:40:11,666 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/master.zip: true
+2019-07-05 02:40:11,666 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src'.
+2019-07-05 02:40:11,686 INFO  FullProcessService - Size of directory with sources: 187 KB
+2019-07-05 02:40:11,686 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src]
+2019-07-05 02:40:11,703 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/.git/
 
-2019-05-17 11:14:11,381 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/gradlew
-2019-05-17 11:14:11,387 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/velocity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/build.gradle
-2019-05-17 11:14:11,392 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/velocity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/settings.gradle
-2019-05-17 11:14:11,392 INFO  ProjectBuildService - Remote scripts: none
-2019-05-17 11:14:11,392 INFO  ProjectFixService - Fixing project...
-2019-05-17 11:14:11,404 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/app/local.properties
-2019-05-17 11:14:11,406 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-17 11:14:11,407 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/velocity/local.properties
-2019-05-17 11:14:11,410 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/velocity/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-17 11:14:11,410 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/local.properties
-2019-05-17 11:14:11,411 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-17 11:14:11,411 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-17 11:14:11,412 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-17 11:14:11,413 INFO  ProjectFixService - Project was maybe fixed
-2019-05-17 11:14:11,413 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-17 11:14:11,413 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-17 11:14:20,935 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-17 11:14:20,935 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-17 11:14:20,935 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-17 11:15:16,805 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 02:40:11,705 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/gradlew
+2019-07-05 02:40:11,708 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/velocity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/build.gradle
+2019-07-05 02:40:11,710 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/velocity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/settings.gradle
+2019-07-05 02:40:11,710 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 02:40:11,710 INFO  ProjectFixService - Fixing project...
+2019-07-05 02:40:11,716 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/app/local.properties
+2019-07-05 02:40:11,717 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-05 02:40:11,717 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/velocity/local.properties
+2019-07-05 02:40:11,718 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/velocity/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-05 02:40:11,718 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/local.properties
+2019-07-05 02:40:11,719 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-05 02:40:11,719 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-05 02:40:11,719 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-05 02:40:11,719 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 02:40:11,719 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 02:40:11,719 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 02:40:17,821 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-05 02:40:17,822 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 02:40:17,822 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 02:40:52,492 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :velocity:preBuild UP-TO-DATE
 > Task :velocity:preDebugBuild UP-TO-DATE
 > Task :velocity:checkDebugManifest
 > Task :velocity:processDebugManifest
-> Task :velocity:compileDebugAidl NO-SOURCE
-> Task :velocity:packageDebugRenderscript NO-SOURCE
-> Task :velocity:compileDebugRenderscript NO-SOURCE
-> Task :velocity:generateDebugResValues
-> Task :velocity:generateDebugResources
-> Task :velocity:generateDebugBuildConfig
-> Task :velocity:prepareLintJar
-> Task :velocity:generateDebugSources
-> Task :velocity:javaPreCompileDebug
-> Task :app:prepareLintJar
-> Task :velocity:mergeDebugShaders
-> Task :velocity:compileDebugShaders
-> Task :velocity:generateDebugAssets
-> Task :velocity:packageDebugAssets
-> Task :velocity:processDebugJavaRes NO-SOURCE
 > Task :app:preDebugBuild
+> Task :velocity:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
+> Task :velocity:packageDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
+> Task :velocity:compileDebugRenderscript NO-SOURCE
+> Task :velocity:generateDebugResValues
+> Task :velocity:generateDebugResources
 > Task :velocity:packageDebugResources
 > Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
 > Task :velocity:generateDebugRFile
 > Task :app:processDebugResources
+> Task :velocity:generateDebugBuildConfig
+> Task :velocity:prepareLintJar
+> Task :velocity:generateDebugSources
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :velocity:mergeDebugShaders
+> Task :velocity:compileDebugShaders
+> Task :velocity:generateDebugAssets
+> Task :velocity:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :velocity:processDebugJavaRes NO-SOURCE
+> Task :velocity:javaPreCompileDebug
 > Task :velocity:compileDebugJavaWithJavac
 > Task :velocity:bundleLibCompileDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/app/src/main/java/com/rw/velocityapp/MainActivity.kt: (3, 20): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/app/src/main/java/com/rw/velocityapp/MainActivity.kt: (19, 33): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/app/src/main/java/com/rw/velocityapp/MainActivity.kt: (52, 26): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/app/src/main/java/com/rw/velocityapp/MainActivity.kt: (55, 43): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/app/src/main/java/com/rw/velocityapp/MainActivity.kt: (3, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/app/src/main/java/com/rw/velocityapp/MainActivity.kt: (19, 33): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/app/src/main/java/com/rw/velocityapp/MainActivity.kt: (52, 26): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/app/src/main/java/com/rw/velocityapp/MainActivity.kt: (55, 43): 'ProgressDialog' is deprecated. Deprecated in Java
 
-> Task :app:generateDebugSources
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
-> Task :app:mergeDebugAssets
 > Task :velocity:bundleLibResDebug
 > Task :velocity:bundleLibRuntimeDebug
 > Task :velocity:createFullJarDebug
@@ -95,6 +95,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :velocity:preReleaseBuild UP-TO-DATE
 > Task :velocity:checkReleaseManifest
 > Task :velocity:processReleaseManifest
@@ -124,10 +128,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/
 > Task :velocity:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/app/src/main/java/com/rw/velocityapp/MainActivity.kt: (3, 20): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/app/src/main/java/com/rw/velocityapp/MainActivity.kt: (19, 33): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/app/src/main/java/com/rw/velocityapp/MainActivity.kt: (52, 26): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/app/src/main/java/com/rw/velocityapp/MainActivity.kt: (55, 43): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/app/src/main/java/com/rw/velocityapp/MainActivity.kt: (3, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/app/src/main/java/com/rw/velocityapp/MainActivity.kt: (19, 33): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/app/src/main/java/com/rw/velocityapp/MainActivity.kt: (52, 26): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/app/src/main/java/com/rw/velocityapp/MainActivity.kt: (55, 43): 'ProgressDialog' is deprecated. Deprecated in Java
 
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
@@ -135,10 +139,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/
 > Task :app:compileReleaseSources
 > Task :velocity:prepareLintJarForPublish
 > Task :app:lintVitalRelease
-> Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :velocity:processReleaseJavaRes NO-SOURCE
 > Task :velocity:bundleLibResRelease
 > Task :velocity:bundleLibRuntimeRelease
@@ -174,7 +174,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 55s
+BUILD SUCCESSFUL in 34s
 93 actionable tasks: 93 executed
 
-2019-05-17 11:15:16,888 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558066448709-0/src/velocity-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-05 02:40:52,548 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269209617-0/src/velocity-master/app/build/outputs/apk/debug/app-debug.apk

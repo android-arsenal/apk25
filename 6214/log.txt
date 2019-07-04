@@ -1,39 +1,39 @@
-2019-06-10 13:31:37,223 INFO  DownloadService - Downloading "https://github.com/solkin/minion-android/archive/master.zip", attempt 3
-2019-06-10 13:31:39,625 INFO  DownloadService - Downloaded https://github.com/solkin/minion-android/archive/master.zip, attempt 3
-2019-06-10 13:31:39,625 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/master.zip": 277 KB
-2019-06-10 13:31:39,625 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-10 13:31:39,631 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/master.zip: true
-2019-06-10 13:31:39,631 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src'.
-2019-06-10 13:31:39,659 INFO  FullProcessService - Size of directory with sources: 346 KB
-2019-06-10 13:31:39,659 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src]
-2019-06-10 13:31:39,684 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/.git/
+2019-07-05 02:29:14,595 INFO  DownloadService - Downloading "https://github.com/solkin/minion-android/archive/master.zip", attempt 3
+2019-07-05 02:29:15,281 INFO  DownloadService - Downloaded https://github.com/solkin/minion-android/archive/master.zip, attempt 3
+2019-07-05 02:29:15,282 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/master.zip": 277 KB
+2019-07-05 02:29:15,282 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 02:29:15,288 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/master.zip: true
+2019-07-05 02:29:15,288 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src'.
+2019-07-05 02:29:15,316 INFO  FullProcessService - Size of directory with sources: 347 KB
+2019-07-05 02:29:15,316 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src]
+2019-07-05 02:29:15,332 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/.git/
 
-2019-06-10 13:31:39,687 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/gradlew
-2019-06-10 13:31:39,691 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/minion/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/build.gradle
-2019-06-10 13:31:39,694 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/minion/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/settings.gradle
-2019-06-10 13:31:39,694 INFO  ProjectBuildService - Remote scripts: none
-2019-06-10 13:31:39,694 INFO  ProjectFixService - Fixing project...
-2019-06-10 13:31:39,702 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/app/local.properties
-2019-06-10 13:31:39,703 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-06-10 13:31:39,703 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-06-10 13:31:39,704 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/minion/local.properties
-2019-06-10 13:31:39,705 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/minion/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-06-10 13:31:39,705 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/minion/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-06-10 13:31:39,706 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/local.properties
-2019-06-10 13:31:39,706 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-06-10 13:31:39,706 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-06-10 13:31:39,708 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-06-10 13:31:39,708 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-06-10 13:31:39,708 INFO  ProjectFixService - Project was maybe fixed
-2019-06-10 13:31:39,708 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-10 13:31:39,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-10 13:31:47,790 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-10 13:31:47,790 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-10 13:31:47,790 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-10 13:32:24,844 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 02:29:15,335 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/gradlew
+2019-07-05 02:29:15,339 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/minion/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/build.gradle
+2019-07-05 02:29:15,342 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/minion/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/settings.gradle
+2019-07-05 02:29:15,342 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 02:29:15,342 INFO  ProjectFixService - Fixing project...
+2019-07-05 02:29:15,350 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/app/local.properties
+2019-07-05 02:29:15,351 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 02:29:15,351 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 02:29:15,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/minion/local.properties
+2019-07-05 02:29:15,353 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/minion/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 02:29:15,353 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/minion/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 02:29:15,354 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/local.properties
+2019-07-05 02:29:15,354 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-05 02:29:15,354 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-05 02:29:15,356 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 02:29:15,356 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 02:29:15,356 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 02:29:15,356 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 02:29:15,357 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 02:29:20,972 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-05 02:29:20,972 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 02:29:20,972 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 02:29:53,245 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :minion
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/local.properties
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/local.properties
 
 > Task :app:preBuild UP-TO-DATE
 > Task :minion:preBuild UP-TO-DATE
@@ -41,21 +41,21 @@
 > Task :minion:checkDebugManifest
 > Task :minion:processDebugManifest
 > Task :minion:compileDebugAidl NO-SOURCE
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :minion:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
 > Task :app:prepareLintJar
+> Task :app:generateDebugSources
 > Task :minion:compileDebugRenderscript NO-SOURCE
 > Task :minion:generateDebugBuildConfig
 > Task :minion:generateDebugResValues
 > Task :minion:generateDebugResources
-> Task :app:preDebugBuild
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:generateDebugBuildConfig
-> Task :app:generateDebugSources
+> Task :minion:prepareLintJar
 > Task :minion:packageDebugResources
 > Task :minion:generateDebugRFile
-> Task :minion:prepareLintJar
 > Task :minion:generateDebugSources
 > Task :minion:javaPreCompileDebug
 > Task :minion:compileDebugJavaWithJavac
@@ -64,13 +64,13 @@
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:mergeDebugResources
 > Task :app:processDebugManifest
 > Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/app/src/main/java/com/tomclaw/minion/demo/utils/PleaseWaitTask.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/app/src/main/java/com/tomclaw/minion/demo/utils/PleaseWaitTask.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugSources
@@ -135,7 +135,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:processReleaseResources
 
 > Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/app/src/main/java/com/tomclaw/minion/demo/utils/PleaseWaitTask.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/app/src/main/java/com/tomclaw/minion/demo/utils/PleaseWaitTask.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseSources
@@ -185,7 +185,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 36s
+BUILD SUCCESSFUL in 31s
 90 actionable tasks: 90 executed
 
-2019-06-10 13:32:24,915 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148297215-0/src/minion-android-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-05 02:29:53,316 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268554592-0/src/minion-android-master/app/build/outputs/apk/debug/app-debug.apk

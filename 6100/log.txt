@@ -1,43 +1,72 @@
-2019-06-10 13:34:22,447 INFO  DownloadService - Downloading "https://github.com/natario1/CameraView/archive/master.zip", attempt 3
-2019-06-10 13:34:23,579 INFO  DownloadService - Downloaded https://github.com/natario1/CameraView/archive/master.zip, attempt 3
-2019-06-10 13:34:23,579 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/master.zip": 907 KB
-2019-06-10 13:34:23,579 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-10 13:34:23,586 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/master.zip: true
-2019-06-10 13:34:23,586 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src'.
-2019-06-10 13:34:23,643 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-06-10 13:34:23,643 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src]
-2019-06-10 13:34:23,659 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/.git/
+2019-07-05 02:36:38,799 INFO  DownloadService - Downloading "https://github.com/natario1/CameraView/archive/master.zip", attempt 3
+2019-07-05 02:36:39,819 INFO  DownloadService - Downloaded https://github.com/natario1/CameraView/archive/master.zip, attempt 3
+2019-07-05 02:36:39,820 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/master.zip": 931 KB
+2019-07-05 02:36:39,820 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 02:36:39,826 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/master.zip: true
+2019-07-05 02:36:39,826 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src'.
+2019-07-05 02:36:39,887 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-05 02:36:39,887 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src]
+2019-07-05 02:36:39,903 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/.git/
 
-2019-06-10 13:34:23,663 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/gradlew
-2019-06-10 13:34:23,668 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/cameraview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/build.gradle
-2019-06-10 13:34:23,672 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/cameraview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/settings.gradle
-2019-06-10 13:34:23,672 INFO  ProjectBuildService - Remote scripts: none
-2019-06-10 13:34:23,672 INFO  ProjectFixService - Fixing project...
-2019-06-10 13:34:23,681 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/cameraview/local.properties
-2019-06-10 13:34:23,683 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/cameraview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-06-10 13:34:23,683 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/cameraview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-06-10 13:34:23,685 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/demo/local.properties
-2019-06-10 13:34:23,687 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-06-10 13:34:23,687 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-06-10 13:34:23,688 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/local.properties
-2019-06-10 13:34:23,688 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
-2019-06-10 13:34:23,688 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
-2019-06-10 13:34:23,689 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-06-10 13:34:23,689 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-06-10 13:34:23,690 INFO  ProjectFixService - Project was maybe fixed
-2019-06-10 13:34:23,690 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-10 13:34:23,690 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/cameraview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-10 13:34:30,758 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-06-10 13:34:30,758 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-06-10 13:34:30,758 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/cameraview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-06-10 13:34:46,425 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 02:36:39,908 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/gradlew
+2019-07-05 02:36:39,913 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/build.gradle
+2019-07-05 02:36:39,917 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/settings.gradle
+2019-07-05 02:36:39,918 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 02:36:39,918 INFO  ProjectFixService - Fixing project...
+2019-07-05 02:36:39,928 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/local.properties
+2019-07-05 02:36:39,930 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 02:36:39,930 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 02:36:39,931 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/demo/local.properties
+2019-07-05 02:36:39,933 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 02:36:39,933 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 02:36:39,933 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/local.properties
+2019-07-05 02:36:39,934 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-07-05 02:36:39,934 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-07-05 02:36:39,935 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 02:36:39,935 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-05 02:36:39,935 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 02:36:39,935 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 02:36:39,935 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 02:36:47,571 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-05 02:36:47,571 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-05 02:36:47,571 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-05 02:37:04,087 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-05 02:37:04,087 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with JetifyTransform
 > Task :cameraview:preBuild UP-TO-DATE
 > Task :cameraview:preDebugBuild UP-TO-DATE
 > Transform annotation.jar (androidx.annotation:annotation:1.0.1) with JetifyTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0-alpha01) with JetifyTransform
 > Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with ExtractAarTransform
 > Task :cameraview:checkDebugManifest
 > Transform annotation.jar (androidx.annotation:annotation:1.0.1) with IdentityTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0-alpha01) with IdentityTransform
 > Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
 > Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
 > Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
@@ -53,18 +82,31 @@
 > Task :cameraview:generateDebugRFile
 > Task :cameraview:prepareLintJar
 > Task :cameraview:generateDebugSources
+> Task :cameraview:javaPreCompileDebug
+
+> Task :cameraview:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :cameraview:extractDebugAnnotations
 > Task :cameraview:mergeDebugConsumerProguardFiles
 > Task :cameraview:mergeDebugShaders
 > Task :cameraview:compileDebugShaders
 > Task :cameraview:generateDebugAssets
 > Task :cameraview:packageDebugAssets
 > Task :cameraview:packageDebugRenderscript NO-SOURCE
+> Task :cameraview:transformClassesWithJacocoForDebug
 > Task :cameraview:processDebugJavaRes NO-SOURCE
+> Task :cameraview:transformResourcesWithMergeJavaResForDebug
+> Task :cameraview:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :cameraview:compileDebugNdk NO-SOURCE
 > Task :cameraview:mergeDebugJniLibFolders
 > Task :cameraview:transformNativeLibsWithMergeJniLibsForDebug
 > Task :cameraview:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :cameraview:transformNativeLibsWithSyncJniLibsForDebug
+> Task :cameraview:bundleDebugAar
+> Task :cameraview:compileDebugSources
+> Task :cameraview:assembleDebug
 > Task :cameraview:preReleaseBuild UP-TO-DATE
 > Task :cameraview:compileReleaseAidl NO-SOURCE
 > Task :cameraview:compileReleaseRenderscript
@@ -76,36 +118,6 @@
 > Task :cameraview:processReleaseManifest
 > Task :cameraview:generateReleaseRFile
 > Task :cameraview:generateReleaseSources
-> Task :cameraview:mergeReleaseConsumerProguardFiles
-> Task :cameraview:mergeReleaseShaders
-> Task :cameraview:compileReleaseShaders
-> Task :cameraview:generateReleaseAssets
-> Task :cameraview:packageReleaseAssets
-> Task :cameraview:packageReleaseRenderscript NO-SOURCE
-> Task :cameraview:processReleaseJavaRes NO-SOURCE
-> Task :cameraview:compileReleaseNdk NO-SOURCE
-> Task :cameraview:mergeReleaseJniLibFolders
-> Task :cameraview:transformNativeLibsWithMergeJniLibsForRelease
-> Task :cameraview:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :cameraview:transformNativeLibsWithSyncJniLibsForRelease
-> Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0-alpha01) with JetifyTransform
-> Task :cameraview:sourcesJar
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0-alpha01) with IdentityTransform
-> Task :cameraview:mergeReleaseResources
-> Task :cameraview:javaPreCompileDebug
-
-> Task :cameraview:compileDebugJavaWithJavac
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :cameraview:extractDebugAnnotations
-> Task :cameraview:transformClassesWithJacocoForDebug
-> Task :cameraview:transformResourcesWithMergeJavaResForDebug
-> Task :cameraview:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :cameraview:bundleDebugAar
-> Task :cameraview:compileDebugSources
-> Task :cameraview:assembleDebug
 > Task :cameraview:javaPreCompileRelease
 
 > Task :cameraview:compileReleaseJavaWithJavac
@@ -113,158 +125,588 @@ Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :cameraview:extractReleaseAnnotations
+> Task :cameraview:mergeReleaseConsumerProguardFiles
+> Task :cameraview:mergeReleaseShaders
+> Task :cameraview:compileReleaseShaders
+> Task :cameraview:generateReleaseAssets
+> Task :cameraview:packageReleaseAssets
+> Task :cameraview:packageReleaseRenderscript NO-SOURCE
+> Task :cameraview:processReleaseJavaRes NO-SOURCE
 > Task :cameraview:transformResourcesWithMergeJavaResForRelease
 > Task :cameraview:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :cameraview:compileReleaseNdk NO-SOURCE
+> Task :cameraview:mergeReleaseJniLibFolders
+> Task :cameraview:transformNativeLibsWithMergeJniLibsForRelease
+> Task :cameraview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :cameraview:transformNativeLibsWithSyncJniLibsForRelease
 > Task :cameraview:bundleReleaseAar
 > Task :cameraview:compileReleaseSources
-> Task :cameraview:verifyReleaseResources
-> Task :cameraview:assembleRelease
+> Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
+
 > Task :cameraview:javadoc
-> Task :cameraview:javadocJar
-> Task :cameraview:assemble
-> Task :cameraview:build
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/OutputBufferPool.java:6: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.Pool;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/OutputBufferPool.java:14: error: cannot find symbol
+class OutputBufferPool extends Pool<OutputBuffer> {
+                               ^
+  symbol: class Pool
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoder.java:13: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.WorkerHandler;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/AudioMediaEncoder.java:16: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.WorkerHandler;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoder.java:43: error: cannot find symbol
+    protected WorkerHandler mWorker;
+              ^
+  symbol:   class WorkerHandler
+  location: class MediaEncoder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/ByteBufferPool.java:3: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.Pool;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/ByteBufferPool.java:10: error: cannot find symbol
+class ByteBufferPool extends Pool<ByteBuffer> {
+                             ^
+  symbol: class Pool
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/InputBufferPool.java:3: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.Pool;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/InputBufferPool.java:8: error: cannot find symbol
+class InputBufferPool extends Pool<InputBuffer> {
+                              ^
+  symbol: class Pool
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:8: error: package com.otaliastudios.cameraview.internal.egl does not exist
+import com.otaliastudios.cameraview.internal.egl.EglCore;
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:9: error: package com.otaliastudios.cameraview.internal.egl does not exist
+import com.otaliastudios.cameraview.internal.egl.EglViewport;
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:10: error: package com.otaliastudios.cameraview.internal.egl does not exist
+import com.otaliastudios.cameraview.internal.egl.EglWindowSurface;
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:11: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.Pool;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:50: error: cannot find symbol
+    private EglCore mEglCore;
+            ^
+  symbol:   class EglCore
+  location: class TextureMediaEncoder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:51: error: cannot find symbol
+    private EglWindowSurface mWindow;
+            ^
+  symbol:   class EglWindowSurface
+  location: class TextureMediaEncoder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:52: error: cannot find symbol
+    private EglViewport mViewport;
+            ^
+  symbol:   class EglViewport
+  location: class TextureMediaEncoder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:53: error: cannot find symbol
+    private Pool<TextureFrame> mFramePool = new Pool<>(100, new Pool.Factory<TextureFrame>() {
+            ^
+  symbol:   class Pool
+  location: class TextureMediaEncoder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/FullVideoRecorder.java:11: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.CamcorderProfiles;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera1Engine.java:30: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.CropHelper;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera1Engine.java:31: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.Task;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:17: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.Task;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:18: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.WorkerHandler;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/CameraPreview.java:13: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.Task;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera1Engine.java:81: error: cannot find symbol
+    private void schedule(@Nullable final Task<Void> task, final boolean ensureAvailable, final Runnable action) {
+                                          ^
+  symbol:   class Task
+  location: class Camera1Engine
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:80: error: cannot find symbol
+    protected WorkerHandler mHandler;
+              ^
+  symbol:   class WorkerHandler
+  location: class CameraEngine
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:123: error: cannot find symbol
+    @VisibleForTesting(otherwise = VisibleForTesting.PROTECTED) Task<Void> mZoomTask = new Task<>();
+                                                                ^
+  symbol:   class Task
+  location: class CameraEngine
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:124: error: cannot find symbol
+    @VisibleForTesting(otherwise = VisibleForTesting.PROTECTED) Task<Void> mExposureCorrectionTask = new Task<>();
+                                                                ^
+  symbol:   class Task
+  location: class CameraEngine
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:125: error: cannot find symbol
+    @VisibleForTesting(otherwise = VisibleForTesting.PROTECTED) Task<Void> mFlashTask = new Task<>();
+                                                                ^
+  symbol:   class Task
+  location: class CameraEngine
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:126: error: cannot find symbol
+    @VisibleForTesting(otherwise = VisibleForTesting.PROTECTED) Task<Void> mWhiteBalanceTask = new Task<>();
+                                                                ^
+  symbol:   class Task
+  location: class CameraEngine
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:127: error: cannot find symbol
+    @VisibleForTesting(otherwise = VisibleForTesting.PROTECTED) Task<Void> mHdrTask = new Task<>();
+                                                                ^
+  symbol:   class Task
+  location: class CameraEngine
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:128: error: cannot find symbol
+    @VisibleForTesting(otherwise = VisibleForTesting.PROTECTED) Task<Void> mLocationTask = new Task<>();
+                                                                ^
+  symbol:   class Task
+  location: class CameraEngine
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:129: error: cannot find symbol
+    @VisibleForTesting(otherwise = VisibleForTesting.PROTECTED) Task<Void> mStartVideoTask = new Task<>();
+                                                                ^
+  symbol:   class Task
+  location: class CameraEngine
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:130: error: cannot find symbol
+    @VisibleForTesting(otherwise = VisibleForTesting.PROTECTED) Task<Void> mPlaySoundsTask = new Task<>();
+                                                                ^
+  symbol:   class Task
+  location: class CameraEngine
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/CameraPreview.java:49: error: cannot find symbol
+    @VisibleForTesting Task<Void> mCropTask = new Task<>();
+                       ^
+  symbol:   class Task
+  location: class CameraPreview<T,Output>
+  where T,Output are type-variables:
+    T extends View declared in class CameraPreview
+    Output extends Object declared in class CameraPreview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/CameraPreview.java:243: error: cannot find symbol
+    protected void crop(@NonNull Task<Void> task) {
+                                 ^
+  symbol:   class Task
+  location: class CameraPreview<T,Output>
+  where T,Output are type-variables:
+    T extends View declared in class CameraPreview
+    Output extends Object declared in class CameraPreview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/GlCameraPreview.java:16: error: cannot find symbol
+import com.otaliastudios.cameraview.R;
+                                   ^
+  symbol:   class R
+  location: package com.otaliastudios.cameraview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/GlCameraPreview.java:17: error: package com.otaliastudios.cameraview.internal.egl does not exist
+import com.otaliastudios.cameraview.internal.egl.EglViewport;
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/GlCameraPreview.java:18: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.Task;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/GlCameraPreview.java:66: error: cannot find symbol
+    private EglViewport mOutputViewport;
+            ^
+  symbol:   class EglViewport
+  location: class GlCameraPreview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/GlCameraPreview.java:259: error: cannot find symbol
+    protected void crop(@NonNull Task<Void> task) {
+                                 ^
+  symbol:   class Task
+  location: class GlCameraPreview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:56: error: package com.otaliastudios.cameraview.internal does not exist
+import com.otaliastudios.cameraview.internal.GridLinesLayout;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:57: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.CropHelper;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:58: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.OrientationHelper;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:59: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.WorkerHandler;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:1660: error: package OrientationHelper does not exist
+    class CameraCallbacks implements CameraEngine.Callback, OrientationHelper.Callback {
+                                                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:107: error: cannot find symbol
+    private OrientationHelper mOrientationHelper;
+            ^
+  symbol:   class OrientationHelper
+  location: class CameraView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:116: error: cannot find symbol
+    GridLinesLayout mGridLinesLayout;
+    ^
+  symbol:   class GridLinesLayout
+  location: class CameraView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/gesture/TapGestureLayout.java:16: error: cannot find symbol
+import com.otaliastudios.cameraview.R;
+                                   ^
+  symbol:   class R
+  location: package com.otaliastudios.cameraview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:127: error: cannot find symbol
+    private WorkerHandler mFrameProcessorsHandler;
+            ^
+  symbol:   class WorkerHandler
+  location: class CameraView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/markers/DefaultAutoFocusMarker.java:11: error: cannot find symbol
+import com.otaliastudios.cameraview.R;
+                                   ^
+  symbol:   class R
+  location: package com.otaliastudios.cameraview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/markers/MarkerParser.java:6: error: cannot find symbol
+import com.otaliastudios.cameraview.R;
+                                   ^
+  symbol:   class R
+  location: package com.otaliastudios.cameraview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/FullPictureRecorder.java:7: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.ExifHelper;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotPictureRecorder.java:20: error: package com.otaliastudios.cameraview.internal.egl does not exist
+import com.otaliastudios.cameraview.internal.egl.EglCore;
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotPictureRecorder.java:21: error: package com.otaliastudios.cameraview.internal.egl does not exist
+import com.otaliastudios.cameraview.internal.egl.EglViewport;
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotPictureRecorder.java:22: error: package com.otaliastudios.cameraview.internal.egl does not exist
+import com.otaliastudios.cameraview.internal.egl.EglWindowSurface;
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotPictureRecorder.java:23: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.CropHelper;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotPictureRecorder.java:24: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.RotationHelper;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotPictureRecorder.java:25: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.WorkerHandler;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/controls/ControlParser.java:6: error: cannot find symbol
+import com.otaliastudios.cameraview.R;
+                                   ^
+  symbol:   class R
+  location: package com.otaliastudios.cameraview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/gesture/GestureParser.java:5: error: cannot find symbol
+import com.otaliastudios.cameraview.R;
+                                   ^
+  symbol:   class R
+  location: package com.otaliastudios.cameraview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/SurfaceCameraPreview.java:13: error: cannot find symbol
+import com.otaliastudios.cameraview.R;
+                                   ^
+  symbol:   class R
+  location: package com.otaliastudios.cameraview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/TextureCameraPreview.java:13: error: cannot find symbol
+import com.otaliastudios.cameraview.R;
+                                   ^
+  symbol:   class R
+  location: package com.otaliastudios.cameraview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/TextureCameraPreview.java:14: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.Task;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/TextureCameraPreview.java:94: error: cannot find symbol
+    protected void crop(final @NonNull Task<Void> task) {
+                                       ^
+  symbol:   class Task
+  location: class TextureCameraPreview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/size/SizeSelectorParser.java:5: error: cannot find symbol
+import com.otaliastudios.cameraview.R;
+                                   ^
+  symbol:   class R
+  location: package com.otaliastudios.cameraview
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraUtils.java:14: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.ExifHelper;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraUtils.java:15: error: package com.otaliastudios.cameraview.internal.utils does not exist
+import com.otaliastudios.cameraview.internal.utils.WorkerHandler;
+                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/frame/FrameManager.java:116: warning: no @param for data
+    public Frame getFrame(@NonNull byte[] data, long time, int rotation, @NonNull Size previewSize, int previewFormat) {
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/frame/FrameManager.java:116: warning: no @param for time
+    public Frame getFrame(@NonNull byte[] data, long time, int rotation, @NonNull Size previewSize, int previewFormat) {
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/frame/FrameManager.java:116: warning: no @param for rotation
+    public Frame getFrame(@NonNull byte[] data, long time, int rotation, @NonNull Size previewSize, int previewFormat) {
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/frame/FrameManager.java:116: warning: no @param for previewSize
+    public Frame getFrame(@NonNull byte[] data, long time, int rotation, @NonNull Size previewSize, int previewFormat) {
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/frame/FrameManager.java:116: warning: no @param for previewFormat
+    public Frame getFrame(@NonNull byte[] data, long time, int rotation, @NonNull Size previewSize, int previewFormat) {
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/CameraPreview.java:236: error: bad use of '>'
+     * Here we must crop the visible part by applying a > 1 scale to one of our
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/CameraPreview.java:243: warning: no @param for task
+    protected void crop(@NonNull Task<Void> task) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/GlCameraPreview.java:54: error: bad HTML entity
+ *   - We have a GL rich texture to be drawn (in the given method & thread).
+                                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotPictureRecorder.java:54: warning: no @param for stub
+    public SnapshotPictureRecorder(
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotPictureRecorder.java:54: warning: no @param for engine
+    public SnapshotPictureRecorder(
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotPictureRecorder.java:54: warning: no @param for preview
+    public SnapshotPictureRecorder(
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotPictureRecorder.java:54: warning: no @param for camera
+    public SnapshotPictureRecorder(
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotPictureRecorder.java:54: warning: no @param for outputRatio
+    public SnapshotPictureRecorder(
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:619: warning: no @param for reference
+    public final Size getUncroppedSnapshotSize(int reference) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:619: warning: no @return
+    public final Size getUncroppedSnapshotSize(int reference) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:654: warning: no @return
+    protected final Size computeCaptureSize() {
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraOptions.java:314: error: reference not found
+     * {@link GestureAction#FOCUS} or {@link GestureAction#FOCUS_WITH_MARKER}
+              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraOptions.java:314: error: reference not found
+     * {@link GestureAction#FOCUS} or {@link GestureAction#FOCUS_WITH_MARKER}
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraOptions.java:320: warning - Tag @link: can't find FOCUS in com.otaliastudios.cameraview.gesture.GestureAction
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraOptions.java:320: warning - Tag @link: can't find FOCUS_WITH_MARKER in com.otaliastudios.cameraview.gesture.GestureAction
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoder.java:208: warning: no @param for holder
+    protected void acquireInputBuffer(@NonNull InputBuffer holder) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoder.java:247: warning: no @param for drainAll
+    protected void drainOutput(boolean drainAll) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoder.java:216: warning: no @param for buffer
+    protected void encodeInputBuffer(InputBuffer buffer) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoder.java:189: warning: no @param for holder
+    protected boolean tryAcquireInputBuffer(@NonNull InputBuffer holder) {
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoder.java:189: warning: no @return
+    protected boolean tryAcquireInputBuffer(@NonNull InputBuffer holder) {
+                      ^
+4 errors
+88 warnings
 
-BUILD SUCCESSFUL in 15s
-49 actionable tasks: 49 executed
+> Task :cameraview:javadoc FAILED
 
-2019-06-10 13:34:46,447 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-10 13:34:46,447 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-10 13:34:51,564 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-06-10 13:34:51,564 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-10 13:34:51,565 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-10 13:35:21,083 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Transform savedstate-common.jar (androidx.savedstate:savedstate-common:1.0.0-alpha01) with JetifyTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with JetifyTransform
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':cameraview:javadoc'.
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/build/tmp/javadoc/javadoc.options'
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':cameraview:javadoc'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
+	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/cameraview/build/tmp/javadoc/javadoc.options'
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:58)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
+	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:157)
+	at org.gradle.api.tasks.javadoc.Javadoc.generate(Javadoc.java:145)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:801)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:768)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:131)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:120)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:99)
+	... 31 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/bin/javadoc'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:395)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:37)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:53)
+	... 48 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 16s
+45 actionable tasks: 45 executed
+
+2019-07-05 02:37:04,110 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 02:37:04,110 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 02:37:09,174 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-05 02:37:09,174 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 02:37:09,174 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 02:37:34,428 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with JetifyTransform
 > Transform annotation.jar (androidx.annotation:annotation:1.1.0-alpha01) with JetifyTransform
-> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform listenablefuture.jar (com.google.guava:listenablefuture:1.0) with JetifyTransform
+> Transform savedstate-common.jar (androidx.savedstate:savedstate-common:1.0.0-alpha01) with JetifyTransform
 > Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
 > Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
-> Transform listenablefuture.jar (com.google.guava:listenablefuture:1.0) with JetifyTransform
-> Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with JetifyTransform
-> Transform savedstate-common.jar (androidx.savedstate:savedstate-common:1.0.0-alpha01) with IdentityTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
 > Transform listenablefuture.jar (com.google.guava:listenablefuture:1.0) with IdentityTransform
+> Transform savedstate-common.jar (androidx.savedstate:savedstate-common:1.0.0-alpha01) with IdentityTransform
 > Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.1.0-alpha01) with IdentityTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.1.0-alpha01) with IdentityTransform
 > Transform concurrent-futures.jar (androidx.concurrent:concurrent-futures:1.0.0-alpha02) with JetifyTransform
 > Transform concurrent-futures.jar (androidx.concurrent:concurrent-futures:1.0.0-alpha02) with IdentityTransform
 > Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
 > Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with ExtractAarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
 > Transform print.aar (androidx.print:print:1.0.0) with ExtractAarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with ExtractAarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with ExtractAarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with ExtractAarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
 > Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
 > Transform print.aar (androidx.print:print:1.0.0) with AarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with AarTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
 > Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0-alpha01) with JetifyTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with JetifyTransform
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
-> Transform collection.jar (androidx.collection:collection:1.1.0-alpha02) with JetifyTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
 > Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0-alpha01) with IdentityTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform collection.jar (androidx.collection:collection:1.1.0-alpha02) with JetifyTransform
 > Transform collection.jar (androidx.collection:collection:1.1.0-alpha02) with IdentityTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
 > Transform core.aar (androidx.core:core:1.1.0-alpha04) with JetifyTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with ExtractAarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with ExtractAarTransform
 > Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0-alpha04) with JetifyTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha04) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
 > Transform transition.aar (androidx.transition:transition:1.0.1) with JetifyTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with JetifyTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0-alpha04) with ExtractAarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0-alpha04) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with JetifyTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with ExtractAarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with JetifyTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
 > Transform transition.aar (androidx.transition:transition:1.0.1) with ExtractAarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with ExtractAarTransform
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-alpha01) with JetifyTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha04) with ExtractAarTransform
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-alpha01) with ExtractAarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with ExtractAarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-alpha01) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with ExtractAarTransform
 > Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-alpha01) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with JetifyTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with JetifyTransform
-> Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with JetifyTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with ExtractAarTransform
-> Transform material.aar (com.google.android.material:material:1.1.0-alpha03) with JetifyTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha04) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with ExtractAarTransform
+> Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with JetifyTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with JetifyTransform
+> Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with ExtractAarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with ExtractAarTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.1) with JetifyTransform
-> Transform core.aar (androidx.core:core:1.1.0-alpha04) with ExtractAarTransform
-> Task :cameraview:preBuild UP-TO-DATE
-> Transform annotation.jar (androidx.annotation:annotation:1.0.1) with IdentityTransform
-> Task :cameraview:preDebugBuild UP-TO-DATE
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha03) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.1) with JetifyTransform
 > Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
 > Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with AarTransform
-> Task :cameraview:checkDebugManifest UP-TO-DATE
-> Task :cameraview:compileDebugAidl NO-SOURCE
-> Task :cameraview:compileDebugRenderscript UP-TO-DATE
+> Transform core.aar (androidx.core:core:1.1.0-alpha04) with ExtractAarTransform
 > Transform material.aar (com.google.android.material:material:1.1.0-alpha03) with ExtractAarTransform
+> Task :cameraview:preBuild UP-TO-DATE
+> Transform annotation.jar (androidx.annotation:annotation:1.0.1) with IdentityTransform
+> Task :cameraview:preDebugBuild UP-TO-DATE
+> Task :cameraview:compileDebugAidl NO-SOURCE
+> Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
+> Task :cameraview:checkDebugManifest UP-TO-DATE
+> Task :cameraview:compileDebugRenderscript UP-TO-DATE
 > Task :cameraview:generateDebugBuildConfig UP-TO-DATE
 > Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with LibrarySymbolTableTransform
 > Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.2.1-4818971) with Aapt2Extractor
 > Task :cameraview:generateDebugResValues UP-TO-DATE
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha03) with AarTransform
 > Task :cameraview:generateDebugResources UP-TO-DATE
 > Transform core.aar (androidx.core:core:1.1.0-alpha04) with AarTransform
 > Task :cameraview:packageDebugResources UP-TO-DATE
 > Task :cameraview:processDebugManifest UP-TO-DATE
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with ExtractAarTransform
 > Task :cameraview:generateDebugRFile UP-TO-DATE
 > Task :cameraview:prepareLintJar UP-TO-DATE
 > Task :cameraview:generateDebugSources UP-TO-DATE
 > Task :cameraview:javaPreCompileDebug UP-TO-DATE
-> Transform material.aar (com.google.android.material:material:1.1.0-alpha03) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with ExtractAarTransform
 > Task :cameraview:compileDebugJavaWithJavac UP-TO-DATE
 > Task :cameraview:processDebugJavaRes NO-SOURCE
 > Task :cameraview:transformClassesWithJacocoForDebug UP-TO-DATE
@@ -277,100 +719,100 @@ BUILD SUCCESSFUL in 15s
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
 > Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.1.0-alpha04) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha04) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
 > Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0-alpha04) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha04) with AarTransform
 > Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
 > Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
 > Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with AarTransform
 > Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-alpha01) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.1.0-alpha03) with AarTransform
 > Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
 > Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
 > Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha03) with AarTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
 > Transform core.aar (androidx.core:core:1.1.0-alpha04) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
 > Transform activity.aar (androidx.activity:activity:1.0.0-alpha04) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
 > Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-alpha01) with AarTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with AarTransform
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with AarTransform
 > Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with AarTransform
 > Transform material.aar (com.google.android.material:material:1.1.0-alpha03) with AarTransform
-> Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with AarTransform
 > Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with AarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
 > Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with AarTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with AarTransform
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
 > Transform core.aar (androidx.core:core:1.1.0-alpha04) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
 > Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
 > Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
 > Transform activity.aar (androidx.activity:activity:1.0.0-alpha04) with AarTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
 > Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
 > Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with AarTransform
 > Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with AarTransform
 > Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-alpha01) with AarTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with AarTransform
 > Task :demo:preBuild UP-TO-DATE
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with AarTransform
-> Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with AarTransform
 > Transform material.aar (com.google.android.material:material:1.1.0-alpha03) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with AarTransform
 > Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with AarTransform
+> Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with AarTransform
 > Transform print.aar (androidx.print:print:1.0.0) with AarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
@@ -382,57 +824,57 @@ BUILD SUCCESSFUL in 15s
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
 > Transform core.aar (androidx.core:core:1.1.0-alpha04) with AarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform activity.aar (androidx.activity:activity:1.0.0-alpha04) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
 > Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha04) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
 > Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
 > Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with AarTransform
 > Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
 > Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-alpha01) with AarTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with AarTransform
 > Transform material.aar (com.google.android.material:material:1.1.0-alpha03) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with AarTransform
 > Task :cameraview:packageDebugRenderscript NO-SOURCE
 > Task :demo:prepareLintJar
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with LibrarySymbolTableTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
 > Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with LibrarySymbolTableTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with LibrarySymbolTableTransform
 > Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with LibrarySymbolTableTransform
 > Transform print.aar (androidx.print:print:1.0.0) with LibrarySymbolTableTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with LibrarySymbolTableTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with LibrarySymbolTableTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with LibrarySymbolTableTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with LibrarySymbolTableTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
 > Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with LibrarySymbolTableTransform
-> Transform core.aar (androidx.core:core:1.1.0-alpha04) with LibrarySymbolTableTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with LibrarySymbolTableTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with LibrarySymbolTableTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with LibrarySymbolTableTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with LibrarySymbolTableTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with LibrarySymbolTableTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with LibrarySymbolTableTransform
 > Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with LibrarySymbolTableTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with LibrarySymbolTableTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha04) with LibrarySymbolTableTransform
 > Transform activity.aar (androidx.activity:activity:1.0.0-alpha04) with LibrarySymbolTableTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with LibrarySymbolTableTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with LibrarySymbolTableTransform
-> Transform transition.aar (androidx.transition:transition:1.0.1) with LibrarySymbolTableTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with LibrarySymbolTableTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with LibrarySymbolTableTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with LibrarySymbolTableTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-alpha01) with LibrarySymbolTableTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with LibrarySymbolTableTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with LibrarySymbolTableTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with LibrarySymbolTableTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with LibrarySymbolTableTransform
 > Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with LibrarySymbolTableTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with LibrarySymbolTableTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with LibrarySymbolTableTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with LibrarySymbolTableTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-alpha01) with LibrarySymbolTableTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with LibrarySymbolTableTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with LibrarySymbolTableTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with LibrarySymbolTableTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with LibrarySymbolTableTransform
 > Transform material.aar (com.google.android.material:material:1.1.0-alpha03) with LibrarySymbolTableTransform
 > Task :demo:mainApkListPersistenceDebug
@@ -440,14 +882,14 @@ BUILD SUCCESSFUL in 15s
 > Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with AarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with AarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
 > Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with AarTransform
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
 > Transform core.aar (androidx.core:core:1.1.0-alpha04) with AarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
@@ -457,9 +899,9 @@ BUILD SUCCESSFUL in 15s
 > Transform activity.aar (androidx.activity:activity:1.0.0-alpha04) with AarTransform
 > Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
 > Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
 > Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with AarTransform
 > Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
 > Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-alpha01) with AarTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
@@ -473,19 +915,19 @@ BUILD SUCCESSFUL in 15s
 > Task :demo:createDebugCompatibleScreenManifests
 > Task :demo:splitsDiscoveryTaskDebug
 > Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with AarTransform
 > Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with AarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
 > Transform core.aar (androidx.core:core:1.1.0-alpha04) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with AarTransform
 > Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
 > Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
 > Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
@@ -503,38 +945,21 @@ BUILD SUCCESSFUL in 15s
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with AarTransform
 > Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with AarTransform
 > Transform material.aar (com.google.android.material:material:1.1.0-alpha03) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with AarTransform
 > Task :cameraview:mergeDebugShaders UP-TO-DATE
 > Task :cameraview:compileDebugShaders UP-TO-DATE
 > Task :cameraview:generateDebugAssets UP-TO-DATE
 > Task :cameraview:packageDebugAssets UP-TO-DATE
 > Task :demo:mergeDebugShaders
-> Task :demo:compileDebugShaders
-> Task :demo:generateDebugAssets
 
 > Transform org.jacoco.agent-runtime.jar (org.jacoco:org.jacoco.agent:0.7.9) with JetifyTransform
 ERROR: [TAG] Failed to resolve variable '${project.groupId}'
 
-> Task :demo:mergeDebugAssets
-> Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with AarTransform
+> Task :demo:compileDebugShaders
+> Task :demo:generateDebugAssets
 > Transform org.jacoco.agent-runtime.jar (org.jacoco:org.jacoco.agent:0.7.9) with IdentityTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.1.0-alpha04) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Task :demo:mergeDebugAssets
 > Task :demo:checkDebugClasspath
 > Task :demo:preDebugBuild
 > Task :demo:compileDebugAidl NO-SOURCE
@@ -549,7 +974,7 @@ ERROR: [TAG] Failed to resolve variable '${project.groupId}'
 > Task :demo:javaPreCompileDebug
 
 > Task :demo:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/demo/src/main/java/com/otaliastudios/cameraview/demo/ControlView.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/demo/src/main/java/com/otaliastudios/cameraview/demo/ControlView.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :demo:compileDebugNdk NO-SOURCE
@@ -557,35 +982,12 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :demo:transformClassesWithDexBuilderForDebug
 > Task :demo:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :demo:transformDexArchiveWithDexMergerForDebug
-> Transform activity.aar (androidx.activity:activity:1.0.0-alpha04) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with AarTransform
-> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-alpha01) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform listenablefuture.jar (com.google.guava:listenablefuture:1.0) with IdentityTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.1.0-alpha01) with IdentityTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
-> Transform savedstate-common.jar (androidx.savedstate:savedstate-common:1.0.0-alpha01) with IdentityTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
-> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with AarTransform
-> Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with AarTransform
-> Transform material.aar (com.google.android.material:material:1.1.0-alpha03) with AarTransform
-> Transform concurrent-futures.jar (androidx.concurrent:concurrent-futures:1.0.0-alpha02) with IdentityTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with AarTransform
-> Transform collection.jar (androidx.collection:collection:1.1.0-alpha02) with IdentityTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with AarTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0-alpha01) with IdentityTransform
 > Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with AarTransform
 > Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
 > Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
@@ -608,12 +1010,52 @@ Note: Recompile with -Xlint:unchecked for details.
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-alpha01) with AarTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform listenablefuture.jar (com.google.guava:listenablefuture:1.0) with IdentityTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with AarTransform
+> Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
+> Transform savedstate-common.jar (androidx.savedstate:savedstate-common:1.0.0-alpha01) with IdentityTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.1.0-alpha01) with IdentityTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.1.0-alpha03) with AarTransform
+> Transform concurrent-futures.jar (androidx.concurrent:concurrent-futures:1.0.0-alpha02) with IdentityTransform
+> Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform collection.jar (androidx.collection:collection:1.1.0-alpha02) with IdentityTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.1.0-alpha01) with IdentityTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.1.0-alpha04) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform activity.aar (androidx.activity:activity:1.0.0-alpha04) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.1.0-alpha01) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.1) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-alpha01) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
 > Transform org.jacoco.agent-runtime.jar (org.jacoco:org.jacoco.agent:0.7.9) with IdentityTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with AarTransform
 > Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
-> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with AarTransform
 > Transform material.aar (com.google.android.material:material:1.1.0-alpha03) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with AarTransform
 > Task :cameraview:compileDebugNdk NO-SOURCE
 > Task :cameraview:mergeDebugJniLibFolders UP-TO-DATE
 > Task :cameraview:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
@@ -662,21 +1104,21 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :demo:javaPreCompileRelease
 
 > Task :demo:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/demo/src/main/java/com/otaliastudios/cameraview/demo/ControlView.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/demo/src/main/java/com/otaliastudios/cameraview/demo/ControlView.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :demo:compileReleaseNdk NO-SOURCE
 > Task :demo:compileReleaseSources
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
 > Transform savedstate-bundle.aar (androidx.savedstate:savedstate-bundle:1.0.0-alpha01) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
 > Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
 > Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02) with AarTransform
 > Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
 > Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with AarTransform
 > Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01) with AarTransform
 > Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
 > Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
 > Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
@@ -695,19 +1137,19 @@ Note: Recompile with -Xlint:unchecked for details.
 > Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.1.0-alpha01) with AarTransform
 > Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
 > Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Task :cameraview:mergeReleaseShaders UP-TO-DATE
+> Task :cameraview:compileReleaseShaders UP-TO-DATE
+> Task :cameraview:generateReleaseAssets UP-TO-DATE
 > Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
 > Transform fragment.aar (androidx.fragment:fragment:1.1.0-alpha04) with AarTransform
 > Transform exifinterface.aar (androidx.exifinterface:exifinterface:1.0.0) with AarTransform
 > Transform appcompat.aar (androidx.appcompat:appcompat:1.1.0-alpha02) with AarTransform
 > Transform material.aar (com.google.android.material:material:1.1.0-alpha03) with AarTransform
-> Task :cameraview:mergeReleaseShaders UP-TO-DATE
+> Task :cameraview:packageReleaseAssets UP-TO-DATE
 
 > Task :demo:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/464847e386af065c8ed691529347d89d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :cameraview:compileReleaseShaders UP-TO-DATE
-> Task :cameraview:generateReleaseAssets UP-TO-DATE
-> Task :cameraview:packageReleaseAssets UP-TO-DATE
 > Task :demo:mergeReleaseShaders
 > Task :demo:compileReleaseShaders
 > Task :demo:generateReleaseAssets
@@ -731,7 +1173,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :demo:assemble
 > Task :demo:build
 
-BUILD SUCCESSFUL in 29s
+BUILD SUCCESSFUL in 24s
 91 actionable tasks: 59 executed, 32 up-to-date
 
-2019-06-10 13:35:21,156 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560148462439-0/src/CameraView-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2019-07-05 02:37:34,502 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268998797-0/src/CameraView-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

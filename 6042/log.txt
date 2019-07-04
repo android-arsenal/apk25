@@ -1,32 +1,32 @@
-2019-04-29 15:02:43,484 INFO  DownloadService - Downloading "https://github.com/charlieAndroidDev/Instagram4Android/archive/master.zip", attempt 3
-2019-04-29 15:02:45,758 INFO  DownloadService - Downloaded https://github.com/charlieAndroidDev/Instagram4Android/archive/master.zip, attempt 3
-2019-04-29 15:02:45,758 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/master.zip": 230 KB
-2019-04-29 15:02:45,758 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-29 15:02:45,764 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/master.zip: true
-2019-04-29 15:02:45,764 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src'.
-2019-04-29 15:02:45,800 INFO  FullProcessService - Size of directory with sources: 483 KB
-2019-04-29 15:02:45,800 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src]
-2019-04-29 15:02:45,817 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/.git/
+2019-07-05 02:41:04,549 INFO  DownloadService - Downloading "https://github.com/charlieAndroidDev/Instagram4Android/archive/master.zip", attempt 3
+2019-07-05 02:41:05,607 INFO  DownloadService - Downloaded https://github.com/charlieAndroidDev/Instagram4Android/archive/master.zip, attempt 3
+2019-07-05 02:41:05,607 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/master.zip": 230 KB
+2019-07-05 02:41:05,607 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 02:41:05,613 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/master.zip: true
+2019-07-05 02:41:05,613 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src'.
+2019-07-05 02:41:05,645 INFO  FullProcessService - Size of directory with sources: 483 KB
+2019-07-05 02:41:05,645 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src]
+2019-07-05 02:41:05,661 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/.git/
 
-2019-04-29 15:02:45,821 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/gradlew
-2019-04-29 15:02:45,825 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/build.gradle
-2019-04-29 15:02:45,828 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/settings.gradle
-2019-04-29 15:02:45,829 INFO  ProjectBuildService - Remote scripts: none
-2019-04-29 15:02:45,829 INFO  ProjectFixService - Fixing project...
-2019-04-29 15:02:45,838 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/app/local.properties
-2019-04-29 15:02:45,838 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/app/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-04-29 15:02:45,839 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/local.properties
-2019-04-29 15:02:45,839 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-04-29 15:02:45,839 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-04-29 15:02:45,840 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-04-29 15:02:45,840 INFO  ProjectFixService - Project was maybe fixed
-2019-04-29 15:02:45,840 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-29 15:02:45,840 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-29 15:03:05,967 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-29 15:03:05,967 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-29 15:03:05,967 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-29 15:03:05,967 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-29 15:03:11,508 ERROR SysUtils - Could not process external command
+2019-07-05 02:41:05,664 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/gradlew
+2019-07-05 02:41:05,667 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/build.gradle
+2019-07-05 02:41:05,669 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/settings.gradle
+2019-07-05 02:41:05,670 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 02:41:05,670 INFO  ProjectFixService - Fixing project...
+2019-07-05 02:41:05,676 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/app/local.properties
+2019-07-05 02:41:05,676 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/app/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-07-05 02:41:05,676 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/local.properties
+2019-07-05 02:41:05,677 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-07-05 02:41:05,677 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-07-05 02:41:05,677 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-07-05 02:41:05,677 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 02:41:05,677 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 02:41:05,678 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 02:41:16,833 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 02:41:16,833 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 02:41:16,833 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 02:41:16,833 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 02:41:21,729 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -39,21 +39,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-29 15:03:11,508 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 02:41:21,729 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 Configuration 'provided' in project ':app' is deprecated. Use 'compileOnly' instead.
 
@@ -191,15 +191,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2019-04-29 15:03:11,514 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-29 15:03:11,514 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-29 15:03:16,765 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-29 15:03:16,765 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-29 15:03:16,765 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-29 15:03:16,765 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524963476-0/src/Instagram4Android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-29 15:03:22,088 ERROR SysUtils - Could not process external command
+2019-07-05 02:41:21,734 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 02:41:21,734 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 02:41:26,712 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 02:41:26,712 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 02:41:26,712 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 02:41:26,712 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269264542-0/src/Instagram4Android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 02:41:31,732 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -212,21 +212,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-29 15:03:22,088 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 02:41:31,732 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 Configuration 'provided' in project ':app' is deprecated. Use 'compileOnly' instead.
 
@@ -364,7 +364,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2019-04-29 15:03:22,094 ERROR FullProcessService - Project build has not produced APK file
-2019-04-29 15:03:22,098 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 02:41:31,737 ERROR FullProcessService - Project build has not produced APK file
+2019-07-05 02:41:31,740 ERROR FullProcessService - Could not find generated or existed APK file

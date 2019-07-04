@@ -1,34 +1,37 @@
-2018-10-22 10:49:12,946 INFO  DownloadService - Downloading "https://github.com/broakenmedia/MultiContactPicker/archive/master.zip", attempt 3
-2018-10-22 10:49:15,277 INFO  DownloadService - Downloaded https://github.com/broakenmedia/MultiContactPicker/archive/master.zip, attempt 3
-2018-10-22 10:49:15,277 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/master.zip": 172 KB
-2018-10-22 10:49:15,277 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-22 10:49:15,283 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/master.zip: true
-2018-10-22 10:49:15,283 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src'.
-2018-10-22 10:49:15,308 INFO  FullProcessService - Size of directory with sources: 223 KB
-2018-10-22 10:49:15,308 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src]
-2018-10-22 10:49:15,336 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/.git/
+2019-07-05 02:37:44,649 INFO  DownloadService - Downloading "https://github.com/broakenmedia/MultiContactPicker/archive/master.zip", attempt 3
+2019-07-05 02:37:46,936 INFO  DownloadService - Downloaded https://github.com/broakenmedia/MultiContactPicker/archive/master.zip, attempt 3
+2019-07-05 02:37:46,936 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/master.zip": 172 KB
+2019-07-05 02:37:46,936 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 02:37:46,942 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/master.zip: true
+2019-07-05 02:37:46,942 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src'.
+2019-07-05 02:37:46,962 INFO  FullProcessService - Size of directory with sources: 223 KB
+2019-07-05 02:37:46,962 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src]
+2019-07-05 02:37:46,977 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/.git/
 
-2018-10-22 10:49:15,339 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/gradlew
-2018-10-22 10:49:15,342 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/multicontactpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/build.gradle
-2018-10-22 10:49:15,345 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/multicontactpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/settings.gradle
-2018-10-22 10:49:15,345 INFO  ProjectBuildService - Remote scripts: none
-2018-10-22 10:49:15,345 INFO  ProjectFixService - Fixing project...
-2018-10-22 10:49:15,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/app/local.properties
-2018-10-22 10:49:15,353 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-22 10:49:15,353 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/multicontactpicker/local.properties
-2018-10-22 10:49:15,354 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/multicontactpicker/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-22 10:49:15,354 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/local.properties
-2018-10-22 10:49:15,355 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-10-22 10:49:15,355 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-10-22 10:49:15,356 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-22 10:49:15,356 INFO  ProjectFixService - Project was maybe fixed
-2018-10-22 10:49:15,356 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 10:49:15,356 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 10:49:21,142 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-10-22 10:49:21,142 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-22 10:49:21,142 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-22 10:49:50,458 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 02:37:46,980 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/gradlew
+2019-07-05 02:37:46,982 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/multicontactpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/build.gradle
+2019-07-05 02:37:46,984 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/multicontactpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/settings.gradle
+2019-07-05 02:37:46,984 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 02:37:46,984 INFO  ProjectFixService - Fixing project...
+2019-07-05 02:37:46,989 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/app/local.properties
+2019-07-05 02:37:46,990 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 02:37:46,990 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/multicontactpicker/local.properties
+2019-07-05 02:37:46,990 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/multicontactpicker/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 02:37:46,991 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/local.properties
+2019-07-05 02:37:46,991 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-07-05 02:37:46,991 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-07-05 02:37:46,992 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 02:37:46,992 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 02:37:46,992 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 02:37:46,992 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 02:37:52,627 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-05 02:37:52,627 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 02:37:52,627 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 02:38:29,036 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
+Download https://jcenter.bintray.com/com/l4digital/fastscroll/fastscroll/1.1.2/fastscroll-1.1.2.aar
+Download https://jcenter.bintray.com/com/miguelcatalan/materialsearchview/1.4.0/materialsearchview-1.4.0.aar
+Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.6/rxjava-2.1.6.jar
 :app:preBuild UP-TO-DATE
 :multicontactpicker:preBuild UP-TO-DATE
 :multicontactpicker:preDebugBuild UP-TO-DATE
@@ -60,7 +63,7 @@
 :multicontactpicker:prepareLintJar
 :multicontactpicker:generateDebugSources
 :multicontactpicker:javaPreCompileDebug
-:multicontactpicker:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/multicontactpicker/src/main/java/com/wafflecopter/multicontactpicker/RxContacts/RxContacts.java uses unchecked or unsafe operations.
+:multicontactpicker:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/multicontactpicker/src/main/java/com/wafflecopter/multicontactpicker/RxContacts/RxContacts.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :multicontactpicker:processDebugJavaRes NO-SOURCE
@@ -122,7 +125,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :multicontactpicker:generateReleaseBuildConfig
 :multicontactpicker:generateReleaseSources
 :multicontactpicker:javaPreCompileRelease
-:multicontactpicker:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/multicontactpicker/src/main/java/com/wafflecopter/multicontactpicker/RxContacts/RxContacts.java uses unchecked or unsafe operations.
+:multicontactpicker:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/multicontactpicker/src/main/java/com/wafflecopter/multicontactpicker/RxContacts/RxContacts.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :multicontactpicker:processReleaseJavaRes NO-SOURCE
@@ -160,7 +163,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 29s
+BUILD SUCCESSFUL in 36s
 90 actionable tasks: 90 executed
 
-2018-10-22 10:49:50,565 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540180152943-0/src/MultiContactPicker-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-05 02:38:29,111 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269064642-0/src/MultiContactPicker-master/app/build/outputs/apk/debug/app-debug.apk
