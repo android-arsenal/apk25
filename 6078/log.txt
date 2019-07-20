@@ -1,32 +1,32 @@
-2019-04-29 14:59:14,340 INFO  DownloadService - Downloading "https://github.com/webianks/BlueChat/archive/master.zip", attempt 3
-2019-04-29 14:59:17,826 INFO  DownloadService - Downloaded https://github.com/webianks/BlueChat/archive/master.zip, attempt 3
-2019-04-29 14:59:17,827 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/master.zip": 2 MB
-2019-04-29 14:59:17,827 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-29 14:59:17,828 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/master.zip: true
-2019-04-29 14:59:17,828 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src'.
-2019-04-29 14:59:17,881 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-04-29 14:59:17,882 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src]
-2019-04-29 14:59:17,900 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src/.git/
+2019-07-20 14:09:55,054 INFO  DownloadService - Downloading "https://github.com/webianks/BlueChat/archive/master.zip", attempt 3
+2019-07-20 14:09:59,020 INFO  DownloadService - Downloaded https://github.com/webianks/BlueChat/archive/master.zip, attempt 3
+2019-07-20 14:09:59,021 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/master.zip": 2 MB
+2019-07-20 14:09:59,021 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-20 14:09:59,022 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/master.zip: true
+2019-07-20 14:09:59,022 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src'.
+2019-07-20 14:09:59,068 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-07-20 14:09:59,068 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src]
+2019-07-20 14:09:59,088 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src/.git/
 
-2019-04-29 14:59:17,904 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src/BlueChat-master/gradlew
-2019-04-29 14:59:17,908 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src/BlueChat-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src/BlueChat-master/build.gradle
-2019-04-29 14:59:17,911 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src/BlueChat-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src/BlueChat-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src/BlueChat-master/settings.gradle
-2019-04-29 14:59:17,912 INFO  ProjectBuildService - Remote scripts: none
-2019-04-29 14:59:17,912 INFO  ProjectFixService - Fixing project...
-2019-04-29 14:59:17,921 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src/BlueChat-master/app/local.properties
-2019-04-29 14:59:17,921 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src/BlueChat-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
-2019-04-29 14:59:17,922 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src/BlueChat-master/local.properties
-2019-04-29 14:59:17,922 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-04-29 14:59:17,922 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-04-29 14:59:17,923 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src/BlueChat-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
-2019-04-29 14:59:17,923 INFO  ProjectFixService - Project was maybe fixed
-2019-04-29 14:59:17,923 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-29 14:59:17,923 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src/BlueChat-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src/BlueChat-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-29 14:59:34,272 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-29 14:59:34,272 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-29 14:59:34,272 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-29 14:59:34,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src/BlueChat-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src/BlueChat-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-29 14:59:39,800 ERROR SysUtils - Could not process external command
+2019-07-20 14:09:59,091 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src/BlueChat-master/gradlew
+2019-07-20 14:09:59,094 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src/BlueChat-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src/BlueChat-master/build.gradle
+2019-07-20 14:09:59,097 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src/BlueChat-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src/BlueChat-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src/BlueChat-master/settings.gradle
+2019-07-20 14:09:59,097 INFO  ProjectBuildService - Remote scripts: none
+2019-07-20 14:09:59,097 INFO  ProjectFixService - Fixing project...
+2019-07-20 14:09:59,105 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src/BlueChat-master/app/local.properties
+2019-07-20 14:09:59,105 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src/BlueChat-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2019-07-20 14:09:59,106 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src/BlueChat-master/local.properties
+2019-07-20 14:09:59,106 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-07-20 14:09:59,106 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-07-20 14:09:59,107 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src/BlueChat-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=26,minSdkVersion=21,targetSdkVersion=26]
+2019-07-20 14:09:59,107 INFO  ProjectFixService - Project was maybe fixed
+2019-07-20 14:09:59,107 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-20 14:09:59,107 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src/BlueChat-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src/BlueChat-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-20 14:10:16,323 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-20 14:10:16,324 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-20 14:10:16,324 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-20 14:10:16,324 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src/BlueChat-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src/BlueChat-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-20 14:10:23,004 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -39,21 +39,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-29 14:59:39,800 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-20 14:10:23,004 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -189,6 +190,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2019-04-29 14:59:39,806 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556524754338-0/src/BlueChat-master/screens/app-debug.apk
+2019-07-20 14:10:23,009 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606595045-0/src/BlueChat-master/screens/app-debug.apk
