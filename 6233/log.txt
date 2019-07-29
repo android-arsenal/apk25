@@ -1,37 +1,40 @@
-2019-01-16 13:29:40,365 INFO  DownloadService - Downloading "https://github.com/KingJA/SwitchButton/archive/master.zip", attempt 3
-2019-01-16 13:29:45,953 INFO  DownloadService - Downloaded https://github.com/KingJA/SwitchButton/archive/master.zip, attempt 3
-2019-01-16 13:29:45,953 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/master.zip": 2 MB
-2019-01-16 13:29:45,953 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-16 13:29:45,959 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/master.zip: true
-2019-01-16 13:29:45,960 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src'.
-2019-01-16 13:29:46,010 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-01-16 13:29:46,010 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src]
-2019-01-16 13:29:46,029 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/.git/
+2019-07-29 18:22:45,216 INFO  DownloadService - Downloading "https://github.com/KingJA/SwitchButton/archive/master.zip", attempt 3
+2019-07-29 18:23:46,048 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-29 18:23:47,035 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-29 18:23:47,035 INFO  DownloadService - Downloading "https://github.com/KingJA/SwitchButton/archive/master.zip", attempt 3
+2019-07-29 18:24:48,613 DEBUG FullProcessService - Repository https://github.com/KingJA/SwitchButton available: true
+2019-07-29 18:24:48,619 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-29 18:24:48,619 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/KingJA/SwitchButton, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src]
+2019-07-29 18:24:53,935 INFO  SysUtils - 
+2019-07-29 18:24:53,962 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/.git": true
+2019-07-29 18:24:53,965 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-07-29 18:24:53,965 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src]
+2019-07-29 18:24:53,980 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/.git/
 
-2019-01-16 13:29:46,032 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/gradlew
-2019-01-16 13:29:46,035 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/libk-switchbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/build.gradle
-2019-01-16 13:29:46,038 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/libk-switchbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/settings.gradle
-2019-01-16 13:29:46,038 INFO  ProjectBuildService - Remote scripts: none
-2019-01-16 13:29:46,038 INFO  ProjectFixService - Fixing project...
-2019-01-16 13:29:46,045 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/app/local.properties
-2019-01-16 13:29:46,046 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-16 13:29:46,046 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-16 13:29:46,047 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/libk-switchbutton/local.properties
-2019-01-16 13:29:46,050 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/libk-switchbutton/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-16 13:29:46,050 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/libk-switchbutton/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-16 13:29:46,052 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/local.properties
-2019-01-16 13:29:46,052 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-01-16 13:29:46,052 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-01-16 13:29:46,054 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-16 13:29:46,054 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-16 13:29:46,055 INFO  ProjectFixService - Project was maybe fixed
-2019-01-16 13:29:46,055 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-16 13:29:46,055 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-16 13:29:54,182 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-16 13:29:54,182 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-16 13:29:54,182 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-16 13:29:54,182 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-16 13:29:59,838 ERROR SysUtils - Could not process external command
+2019-07-29 18:24:53,983 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/gradlew
+2019-07-29 18:24:53,985 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/libk-switchbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/build.gradle
+2019-07-29 18:24:53,987 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/libk-switchbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/settings.gradle
+2019-07-29 18:24:53,987 INFO  ProjectBuildService - Remote scripts: none
+2019-07-29 18:24:53,987 INFO  ProjectFixService - Fixing project...
+2019-07-29 18:24:53,993 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/app/local.properties
+2019-07-29 18:24:53,994 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-29 18:24:53,994 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-29 18:24:53,995 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/libk-switchbutton/local.properties
+2019-07-29 18:24:53,997 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/libk-switchbutton/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-29 18:24:53,997 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/libk-switchbutton/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-29 18:24:53,998 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/local.properties
+2019-07-29 18:24:53,998 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-07-29 18:24:53,999 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-07-29 18:24:54,000 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-29 18:24:54,000 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-29 18:24:54,001 INFO  ProjectFixService - Project was maybe fixed
+2019-07-29 18:24:54,001 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-29 18:24:54,001 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-29 18:25:01,167 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-29 18:25:01,168 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-29 18:25:01,168 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-29 18:25:01,168 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-29 18:25:07,721 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +62,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-16 13:29:59,838 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-29 18:25:07,722 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
 
@@ -190,22 +193,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2019-01-16 13:29:59,843 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-16 13:29:59,843 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/libk-switchbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-16 13:30:07,717 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-16 13:30:07,717 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-16 13:30:07,717 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-16 13:30:07,717 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/libk-switchbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-16 13:30:14,155 ERROR SysUtils - Could not process external command
+2019-07-29 18:25:07,725 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-29 18:25:07,726 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/libk-switchbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-29 18:25:14,266 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-29 18:25:14,266 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-29 18:25:14,266 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-29 18:25:14,266 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/libk-switchbutton/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-29 18:25:20,901 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -233,7 +236,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-16 13:30:14,156 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-29 18:25:20,901 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':libk-switchbutton' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -363,7 +366,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
@@ -372,13 +375,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 6s
 
-2019-01-16 13:30:14,160 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-16 13:30:14,160 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-16 13:30:20,414 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-16 13:30:20,414 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-16 13:30:20,414 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-16 13:30:20,414 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620180357-0/src/SwitchButton-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-16 13:30:26,568 ERROR SysUtils - Could not process external command
+2019-07-29 18:25:20,904 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-29 18:25:20,904 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-29 18:25:26,578 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-29 18:25:26,578 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-29 18:25:26,579 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-29 18:25:26,579 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399365213-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-29 18:25:31,839 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -406,7 +409,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-16 13:30:26,568 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-29 18:25:31,840 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
 
@@ -537,7 +540,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
@@ -546,5 +549,5 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-01-16 13:30:26,572 ERROR FullProcessService - Project build has not produced APK file
-2019-01-16 13:30:26,576 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-29 18:25:31,843 ERROR FullProcessService - Project build has not produced APK file
+2019-07-29 18:25:31,846 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,36 +1,67 @@
-2019-07-20 14:08:17,819 INFO  DownloadService - Downloading "https://github.com/natario1/CameraView/archive/master.zip", attempt 3
-2019-07-20 14:08:19,394 INFO  DownloadService - Downloaded https://github.com/natario1/CameraView/archive/master.zip, attempt 3
-2019-07-20 14:08:19,394 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/master.zip": 1006 KB
-2019-07-20 14:08:19,394 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-20 14:08:19,401 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/master.zip: true
-2019-07-20 14:08:19,401 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src'.
-2019-07-20 14:08:19,475 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-07-20 14:08:19,475 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src]
-2019-07-20 14:08:19,493 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/.git/
+2019-07-29 18:31:30,784 INFO  DownloadService - Downloading "https://github.com/natario1/CameraView/archive/master.zip", attempt 3
+2019-07-29 18:32:31,367 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-29 18:32:32,422 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-29 18:32:32,422 INFO  DownloadService - Downloading "https://github.com/natario1/CameraView/archive/master.zip", attempt 3
+2019-07-29 18:33:34,685 DEBUG FullProcessService - Repository https://github.com/natario1/CameraView available: true
+2019-07-29 18:33:34,685 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-29 18:33:34,686 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/natario1/CameraView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src]
+2019-07-29 18:35:08,797 INFO  SysUtils - 
+2019-07-29 18:35:08,806 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/.git": true
+2019-07-29 18:35:08,814 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-07-29 18:35:08,814 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src]
+2019-07-29 18:35:08,834 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/.git/
 
-2019-07-20 14:08:19,501 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/gradlew
-2019-07-20 14:08:19,507 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/build.gradle
-2019-07-20 14:08:19,512 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/settings.gradle
-2019-07-20 14:08:19,513 INFO  ProjectBuildService - Remote scripts: none
-2019-07-20 14:08:19,513 INFO  ProjectFixService - Fixing project...
-2019-07-20 14:08:19,527 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/local.properties
-2019-07-20 14:08:19,529 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-20 14:08:19,529 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-20 14:08:19,530 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/demo/local.properties
-2019-07-20 14:08:19,532 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-20 14:08:19,532 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-20 14:08:19,533 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/local.properties
-2019-07-20 14:08:19,534 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-20 14:08:19,534 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-20 14:08:19,536 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-20 14:08:19,536 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-20 14:08:19,536 INFO  ProjectFixService - Project was maybe fixed
-2019-07-20 14:08:19,536 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-20 14:08:19,537 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-20 14:08:27,558 INFO  ProjectTaskService - Detected possible tasks: 73
-2019-07-20 14:08:27,558 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-20 14:08:27,559 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-20 14:08:52,754 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-29 18:35:08,839 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/gradlew
+2019-07-29 18:35:08,845 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/build.gradle
+2019-07-29 18:35:08,850 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/settings.gradle
+2019-07-29 18:35:08,851 INFO  ProjectBuildService - Remote scripts: none
+2019-07-29 18:35:08,851 INFO  ProjectFixService - Fixing project...
+2019-07-29 18:35:08,863 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/local.properties
+2019-07-29 18:35:08,866 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-29 18:35:08,866 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-29 18:35:08,868 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/demo/local.properties
+2019-07-29 18:35:08,870 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-29 18:35:08,871 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-29 18:35:08,871 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/local.properties
+2019-07-29 18:35:08,872 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-29 18:35:08,872 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-29 18:35:08,874 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-29 18:35:08,874 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-29 18:35:08,874 INFO  ProjectFixService - Project was maybe fixed
+2019-07-29 18:35:08,874 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-29 18:35:08,875 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-29 18:35:19,277 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-07-29 18:35:19,279 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-29 18:35:19,279 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-29 18:35:40,936 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-29 18:35:40,938 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :cameraview
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -56,25 +87,25 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :cameraview:mergeDebugJniLibFolders
 > Task :cameraview:transformNativeLibsWithMergeJniLibsForDebug
 > Task :cameraview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :cameraview:transformNativeLibsWithSyncJniLibsForDebug
+> Task :cameraview:javaPreCompileDebug
 > Task :cameraview:compileDebugAidl NO-SOURCE
 > Task :cameraview:compileDebugRenderscript NO-SOURCE
 > Task :cameraview:generateDebugResources
 > Task :cameraview:packageDebugResources
 > Task :cameraview:generateDebugRFile
 > Task :cameraview:generateDebugSources
-> Task :cameraview:javaPreCompileDebug
 
 > Task :cameraview:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :cameraview:extractDebugAnnotations
 > Task :cameraview:jacocoDebug
 > Task :cameraview:transformResourcesWithMergeJavaResForDebug
 > Task :cameraview:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :cameraview:transformNativeLibsWithSyncJniLibsForDebug
 > Task :cameraview:bundleDebugAar
 > Task :cameraview:compileDebugSources
 > Task :cameraview:assembleDebug
@@ -94,7 +125,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :cameraview:compileReleaseJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :cameraview:extractReleaseAnnotations
@@ -115,76 +146,76 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :cameraview:compileReleaseSources
 
 > Task :cameraview:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/Full2VideoRecorder.java:11: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/Full2VideoRecorder.java:11: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.CamcorderProfiles;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java:51: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java:51: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.CropHelper;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java:52: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java:52: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.ImageHelper;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java:53: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java:53: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.WorkerHandler;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:27: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:27: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.Op;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:28: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:28: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.WorkerHandler;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/CameraPreview.java:21: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/preview/CameraPreview.java:21: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.Op;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java:91: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java:91: error: cannot find symbol
     private final WorkerHandler mFrameConversionHandler;
                   ^
   symbol:   class WorkerHandler
   location: class Camera2Engine
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:153: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:153: error: cannot find symbol
     @SuppressWarnings("WeakerAccess") protected WorkerHandler mHandler;
                                                 ^
   symbol:   class WorkerHandler
   location: class CameraEngine
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraOptions.java:29: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/CameraOptions.java:29: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.CamcorderProfiles;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:205: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:205: error: cannot find symbol
     @VisibleForTesting(otherwise = VisibleForTesting.PROTECTED) Op<Void> mZoomOp = new Op<>();
                                                                 ^
   symbol:   class Op
   location: class CameraEngine
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:206: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:206: error: cannot find symbol
     @VisibleForTesting(otherwise = VisibleForTesting.PROTECTED) Op<Void> mExposureCorrectionOp = new Op<>();
                                                                 ^
   symbol:   class Op
   location: class CameraEngine
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:207: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:207: error: cannot find symbol
     @VisibleForTesting(otherwise = VisibleForTesting.PROTECTED) Op<Void> mFlashOp = new Op<>();
                                                                 ^
   symbol:   class Op
   location: class CameraEngine
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:208: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:208: error: cannot find symbol
     @VisibleForTesting(otherwise = VisibleForTesting.PROTECTED) Op<Void> mWhiteBalanceOp = new Op<>();
                                                                 ^
   symbol:   class Op
   location: class CameraEngine
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:209: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:209: error: cannot find symbol
     @VisibleForTesting(otherwise = VisibleForTesting.PROTECTED) Op<Void> mHdrOp = new Op<>();
                                                                 ^
   symbol:   class Op
   location: class CameraEngine
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:210: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:210: error: cannot find symbol
     @VisibleForTesting(otherwise = VisibleForTesting.PROTECTED) Op<Void> mLocationOp = new Op<>();
                                                                 ^
   symbol:   class Op
   location: class CameraEngine
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:211: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:211: error: cannot find symbol
     @VisibleForTesting(otherwise = VisibleForTesting.PROTECTED) Op<Void> mPlaySoundsOp = new Op<>();
                                                                 ^
   symbol:   class Op
   location: class CameraEngine
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/CameraPreview.java:58: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/preview/CameraPreview.java:58: error: cannot find symbol
     Op<Void> mCropOp = new Op<>();
     ^
   symbol:   class Op
@@ -192,7 +223,7 @@ import com.otaliastudios.cameraview.internal.utils.CamcorderProfiles;
   where T,Output are type-variables:
     T extends View declared in class CameraPreview
     Output extends Object declared in class CameraPreview
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/CameraPreview.java:293: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/preview/CameraPreview.java:293: error: cannot find symbol
     protected void crop(@NonNull Op<Void> op) {
                                  ^
   symbol:   class Op
@@ -200,211 +231,313 @@ import com.otaliastudios.cameraview.internal.utils.CamcorderProfiles;
   where T,Output are type-variables:
     T extends View declared in class CameraPreview
     Output extends Object declared in class CameraPreview
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/Full1VideoRecorder.java:10: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/Full1VideoRecorder.java:10: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.CamcorderProfiles;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera1Engine.java:37: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera1Engine.java:37: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.CropHelper;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/OutputBufferPool.java:6: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/OutputBufferPool.java:6: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.Pool;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/OutputBufferPool.java:14: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/OutputBufferPool.java:14: error: cannot find symbol
 class OutputBufferPool extends Pool<OutputBuffer> {
                                ^
   symbol: class Pool
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoder.java:14: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoder.java:14: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.WorkerHandler;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoder.java:113: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoder.java:113: error: cannot find symbol
     protected WorkerHandler mWorker;
               ^
   symbol:   class WorkerHandler
   location: class MediaEncoder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/ByteBufferPool.java:3: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/ByteBufferPool.java:3: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.Pool;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/ByteBufferPool.java:10: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/ByteBufferPool.java:10: error: cannot find symbol
 class ByteBufferPool extends Pool<ByteBuffer> {
                              ^
   symbol: class Pool
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/InputBufferPool.java:3: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/InputBufferPool.java:3: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.Pool;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/InputBufferPool.java:8: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/InputBufferPool.java:8: error: cannot find symbol
 class InputBufferPool extends Pool<InputBuffer> {
                               ^
   symbol: class Pool
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:8: error: package com.otaliastudios.cameraview.internal.egl does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:9: error: package com.otaliastudios.cameraview.internal.egl does not exist
 import com.otaliastudios.cameraview.internal.egl.EglCore;
                                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:9: error: package com.otaliastudios.cameraview.internal.egl does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:10: error: package com.otaliastudios.cameraview.internal.egl does not exist
 import com.otaliastudios.cameraview.internal.egl.EglViewport;
                                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:10: error: package com.otaliastudios.cameraview.internal.egl does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:11: error: package com.otaliastudios.cameraview.internal.egl does not exist
 import com.otaliastudios.cameraview.internal.egl.EglWindowSurface;
                                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:11: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:12: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.Pool;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:30: error: cannot find symbol
     private EglCore mEglCore;
             ^
   symbol:   class EglCore
   location: class TextureMediaEncoder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:31: error: cannot find symbol
     private EglWindowSurface mWindow;
             ^
   symbol:   class EglWindowSurface
   location: class TextureMediaEncoder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:32: error: cannot find symbol
     private EglViewport mViewport;
             ^
   symbol:   class EglViewport
   location: class TextureMediaEncoder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/TextureMediaEncoder.java:33: error: cannot find symbol
     private Pool<Frame> mFramePool = new Pool<>(100, new Pool.Factory<Frame>() {
             ^
   symbol:   class Pool
   location: class TextureMediaEncoder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/SnapshotVideoRecorder.java:16: error: package com.otaliastudios.cameraview.internal.egl does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/SnapshotVideoRecorder.java:16: error: package com.otaliastudios.cameraview.internal.egl does not exist
 import com.otaliastudios.cameraview.internal.egl.EglViewport;
                                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/GlCameraPreview.java:16: error: package com.otaliastudios.cameraview.internal.egl does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/preview/GlCameraPreview.java:16: error: package com.otaliastudios.cameraview.internal.egl does not exist
 import com.otaliastudios.cameraview.internal.egl.EglViewport;
                                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/GlCameraPreview.java:17: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/preview/GlCameraPreview.java:17: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.Op;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/GlCameraPreview.java:65: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/preview/GlCameraPreview.java:65: error: cannot find symbol
     private EglViewport mOutputViewport;
             ^
   symbol:   class EglViewport
   location: class GlCameraPreview
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/GlCameraPreview.java:248: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/preview/GlCameraPreview.java:248: error: cannot find symbol
     protected void crop(@NonNull Op<Void> op) {
                                  ^
   symbol:   class Op
   location: class GlCameraPreview
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:60: error: package com.otaliastudios.cameraview.internal does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:60: error: package com.otaliastudios.cameraview.internal does not exist
 import com.otaliastudios.cameraview.internal.GridLinesLayout;
                                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:61: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:61: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.CropHelper;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:62: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:62: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.OrientationHelper;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:63: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:63: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.WorkerHandler;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:1852: error: package OrientationHelper does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:1850: error: package OrientationHelper does not exist
             OrientationHelper.Callback,
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:115: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:115: error: cannot find symbol
     private OrientationHelper mOrientationHelper;
             ^
   symbol:   class OrientationHelper
   location: class CameraView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:129: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:129: error: cannot find symbol
     @VisibleForTesting GridLinesLayout mGridLinesLayout;
                        ^
   symbol:   class GridLinesLayout
   location: class CameraView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:140: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:140: error: cannot find symbol
     private WorkerHandler mFrameProcessorsHandler;
             ^
   symbol:   class WorkerHandler
   location: class CameraView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:22: error: package com.otaliastudios.cameraview.internal.egl does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:17: error: package com.otaliastudios.cameraview.internal.egl does not exist
+import com.otaliastudios.cameraview.internal.egl.EglBaseSurface;
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:23: error: package com.otaliastudios.cameraview.internal.egl does not exist
 import com.otaliastudios.cameraview.internal.egl.EglCore;
                                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:23: error: package com.otaliastudios.cameraview.internal.egl does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:24: error: package com.otaliastudios.cameraview.internal.egl does not exist
 import com.otaliastudios.cameraview.internal.egl.EglViewport;
                                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:24: error: package com.otaliastudios.cameraview.internal.egl does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:25: error: package com.otaliastudios.cameraview.internal.egl does not exist
 import com.otaliastudios.cameraview.internal.egl.EglWindowSurface;
                                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:25: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:26: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.CropHelper;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:26: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:27: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.WorkerHandler;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/Full1PictureRecorder.java:7: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:77: error: cannot find symbol
+    private EglViewport mViewport;
+            ^
+  symbol:   class EglViewport
+  location: class SnapshotGlPictureRecorder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/picture/Full1PictureRecorder.java:7: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.ExifHelper;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/Full2PictureRecorder.java:18: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/picture/Full2PictureRecorder.java:16: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.ExifHelper;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/Full2PictureRecorder.java:19: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/picture/Full2PictureRecorder.java:17: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.WorkerHandler;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/Snapshot1PictureRecorder.java:13: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/picture/Snapshot1PictureRecorder.java:13: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.CropHelper;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/Snapshot1PictureRecorder.java:14: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/picture/Snapshot1PictureRecorder.java:14: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.RotationHelper;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/Snapshot1PictureRecorder.java:15: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/picture/Snapshot1PictureRecorder.java:15: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.WorkerHandler;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/TextureCameraPreview.java:20: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/preview/TextureCameraPreview.java:20: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.Op;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/preview/TextureCameraPreview.java:93: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/preview/TextureCameraPreview.java:93: error: cannot find symbol
     protected void crop(final @NonNull Op<Void> op) {
                                        ^
   symbol:   class Op
   location: class TextureCameraPreview
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraUtils.java:15: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/CameraUtils.java:15: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.ExifHelper;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraUtils.java:16: error: package com.otaliastudios.cameraview.internal.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/CameraUtils.java:16: error: package com.otaliastudios.cameraview.internal.utils does not exist
 import com.otaliastudios.cameraview.internal.utils.WorkerHandler;
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:791: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:50: error: reference not found
+ * - We use glReadPixels (through {@link EglBaseSurface#saveFrameTo(Bitmap.CompressFormat)}) and save to file.
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:791: warning: no @param for <T>
     public <T extends Control> T get(@NonNull Class<T> controlClass) {
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:791: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/CameraView.java:791: warning: no @return
     public <T extends Control> T get(@NonNull Class<T> controlClass) {
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoderEngine.java:56: warning - Tag @link: can't find prepare(Controller, long) in com.otaliastudios.cameraview.video.encoding.MediaEncoder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoderEngine.java:324: warning: no @param for pool
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoderEngine.java:56: warning - Tag @link: can't find prepare(Controller, long) in com.otaliastudios.cameraview.video.encoding.MediaEncoder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoderEngine.java:324: warning: no @param for pool
         public void write(@NonNull OutputBufferPool pool, @NonNull OutputBuffer buffer) {
                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoderEngine.java:324: warning: no @param for buffer
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoderEngine.java:324: warning: no @param for buffer
         public void write(@NonNull OutputBufferPool pool, @NonNull OutputBuffer buffer) {
                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoderEngine.java:357: warning: no @param for track
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoderEngine.java:357: warning: no @param for track
         public void requestStop(int track) {
                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoderEngine.java:372: warning: no @param for track
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoderEngine.java:372: warning: no @param for track
         public void notifyStopped(int track) {
                     ^
-72 warnings
+1 error
+74 warnings
 
-> Task :cameraview:mergeReleaseResources
-> Task :cameraview:verifyReleaseResources
-> Task :cameraview:assembleRelease
-> Task :cameraview:javadocJar
-> Task :cameraview:sourcesJar
-> Task :cameraview:assemble
-> Task :cameraview:build
+> Task :cameraview:javadoc FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':cameraview:javadoc'.
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/build/tmp/javadoc/javadoc.options'
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':cameraview:javadoc'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:119)
+	at org.gradle.api.internal.tasks.execution.ResolvePreviousStateExecuter.execute(ResolvePreviousStateExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:93)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:45)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/cameraview/build/tmp/javadoc/javadoc.options'
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:58)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
+	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:158)
+	at org.gradle.api.tasks.javadoc.Javadoc.generate(Javadoc.java:146)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:704)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:671)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$2.run(ExecuteActionsTaskExecuter.java:284)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:273)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:258)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:145)
+	at org.gradle.internal.execution.impl.steps.ExecuteStep.execute(ExecuteStep.java:49)
+	at org.gradle.internal.execution.impl.steps.CancelExecutionStep.execute(CancelExecutionStep.java:34)
+	at org.gradle.internal.execution.impl.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:69)
+	at org.gradle.internal.execution.impl.steps.TimeoutStep.execute(TimeoutStep.java:49)
+	at org.gradle.internal.execution.impl.steps.CatchExceptionStep.execute(CatchExceptionStep.java:33)
+	at org.gradle.internal.execution.impl.steps.CreateOutputsStep.execute(CreateOutputsStep.java:50)
+	at org.gradle.internal.execution.impl.steps.SnapshotOutputStep.execute(SnapshotOutputStep.java:43)
+	at org.gradle.internal.execution.impl.steps.SnapshotOutputStep.execute(SnapshotOutputStep.java:29)
+	at org.gradle.internal.execution.impl.steps.CacheStep.executeWithoutCache(CacheStep.java:134)
+	at org.gradle.internal.execution.impl.steps.CacheStep.lambda$execute$3(CacheStep.java:83)
+	at org.gradle.internal.execution.impl.steps.CacheStep.execute(CacheStep.java:82)
+	at org.gradle.internal.execution.impl.steps.CacheStep.execute(CacheStep.java:36)
+	at org.gradle.internal.execution.impl.steps.PrepareCachingStep.execute(PrepareCachingStep.java:33)
+	at org.gradle.internal.execution.impl.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:38)
+	at org.gradle.internal.execution.impl.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:23)
+	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
+	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.lambda$execute$1(SkipUpToDateStep.java:91)
+	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:91)
+	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:36)
+	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:34)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:91)
+	... 32 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/bin/javadoc'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:396)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:37)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:53)
+	... 72 more
+
+
+* Get more help at https://help.gradle.org
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 24s
-48 actionable tasks: 48 executed
+BUILD FAILED in 21s
+44 actionable tasks: 44 executed
 
-2019-07-20 14:08:52,796 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-20 14:08:52,796 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-20 14:08:59,466 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-20 14:08:59,466 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-20 14:08:59,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-20 14:09:43,531 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-29 18:35:40,962 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-29 18:35:40,962 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-29 18:35:47,467 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-29 18:35:47,467 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-29 18:35:47,467 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-29 18:36:29,627 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :cameraview
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -505,11 +638,11 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :demo:mergeReleaseResources
 > Task :demo:createReleaseCompatibleScreenManifests
 > Task :demo:processReleaseManifest
+> Task :demo:processReleaseResources
 > Task :demo:mergeExtDexDebug
 > Task :demo:mergeDexDebug
 > Task :demo:packageDebug
 > Task :demo:assembleDebug
-> Task :demo:processReleaseResources
 
 > Task :demo:compileReleaseJavaWithJavac
 Note: Some input files use unchecked or unsafe operations.
@@ -519,7 +652,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :cameraview:prepareLintJarForPublish UP-TO-DATE
 
 > Task :demo:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/ec61465827f0aec7d88ac599ea4d13f9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/4514effadbf7de2c6ba4a2d70a34f679/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
 > Task :cameraview:processReleaseJavaRes NO-SOURCE
 > Task :cameraview:bundleLibResRelease
@@ -556,7 +689,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 43s
+BUILD SUCCESSFUL in 41s
 92 actionable tasks: 61 executed, 31 up-to-date
 
-2019-07-20 14:09:43,634 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563606497810-0/src/CameraView-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2019-07-29 18:36:29,717 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564399890776-0/src/demo/build/outputs/apk/release/demo-release-unsigned.apk
