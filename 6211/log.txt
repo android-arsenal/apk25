@@ -1,38 +1,38 @@
-2019-03-16 17:28:06,276 INFO  DownloadService - Downloading "https://github.com/ApplikeySolutions/CosmoCalendar/archive/master.zip", attempt 3
-2019-03-16 17:28:11,344 INFO  DownloadService - Downloaded https://github.com/ApplikeySolutions/CosmoCalendar/archive/master.zip, attempt 3
-2019-03-16 17:28:11,344 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/master.zip": 2 MB
-2019-03-16 17:28:11,344 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-16 17:28:11,349 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/master.zip: true
-2019-03-16 17:28:11,350 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src'.
-2019-03-16 17:28:11,426 INFO  FullProcessService - Size of directory with sources: 5 MB
-2019-03-16 17:28:11,427 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src]
-2019-03-16 17:28:11,450 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/.git/
+2019-08-11 20:44:48,226 INFO  DownloadService - Downloading "https://github.com/ApplikeySolutions/CosmoCalendar/archive/master.zip", attempt 3
+2019-08-11 20:44:52,016 INFO  DownloadService - Downloaded https://github.com/ApplikeySolutions/CosmoCalendar/archive/master.zip, attempt 3
+2019-08-11 20:44:52,016 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/master.zip": 2 MB
+2019-08-11 20:44:52,016 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-11 20:44:52,017 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/master.zip: true
+2019-08-11 20:44:52,017 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src'.
+2019-08-11 20:44:52,107 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-08-11 20:44:52,107 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src]
+2019-08-11 20:44:52,143 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/.git/
 
-2019-03-16 17:28:11,455 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/gradlew
-2019-03-16 17:28:11,460 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/cosmocalendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/build.gradle
-2019-03-16 17:28:11,465 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/cosmocalendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/settings.gradle
-2019-03-16 17:28:11,466 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-03-16 17:28:12,203 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-03-16 17:28:12,203 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-03-16 17:28:12,301 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-03-16 17:28:12,302 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-03-16 17:28:12,302 INFO  ProjectFixService - Fixing project...
-2019-03-16 17:28:12,317 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/cosmocalendar/local.properties
-2019-03-16 17:28:12,318 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/cosmocalendar/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=17,targetSdkVersion=25]
-2019-03-16 17:28:12,318 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/sample/local.properties
-2019-03-16 17:28:12,319 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/sample/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=17,targetSdkVersion=25]
-2019-03-16 17:28:12,319 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/local.properties
-2019-03-16 17:28:12,319 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-03-16 17:28:12,320 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-03-16 17:28:12,321 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=17,targetSdkVersion=25]
-2019-03-16 17:28:12,321 INFO  ProjectFixService - Project was maybe fixed
-2019-03-16 17:28:12,321 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-16 17:28:12,321 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/cosmocalendar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-16 17:28:20,920 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-16 17:28:20,920 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-03-16 17:28:20,921 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-03-16 17:28:20,921 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/cosmocalendar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-03-16 17:28:28,426 ERROR SysUtils - Could not process external command
+2019-08-11 20:44:52,147 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/gradlew
+2019-08-11 20:44:52,152 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/cosmocalendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/build.gradle
+2019-08-11 20:44:52,157 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/cosmocalendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/settings.gradle
+2019-08-11 20:44:52,158 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-08-11 20:44:53,238 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-08-11 20:44:53,238 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-08-11 20:44:53,479 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-08-11 20:44:53,479 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-08-11 20:44:53,479 INFO  ProjectFixService - Fixing project...
+2019-08-11 20:44:53,489 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/cosmocalendar/local.properties
+2019-08-11 20:44:53,490 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/cosmocalendar/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=17,targetSdkVersion=25]
+2019-08-11 20:44:53,490 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/sample/local.properties
+2019-08-11 20:44:53,491 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/sample/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=17,targetSdkVersion=25]
+2019-08-11 20:44:53,491 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/local.properties
+2019-08-11 20:44:53,491 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-08-11 20:44:53,492 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-08-11 20:44:53,492 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=17,targetSdkVersion=25]
+2019-08-11 20:44:53,493 INFO  ProjectFixService - Project was maybe fixed
+2019-08-11 20:44:53,493 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 20:44:53,493 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/cosmocalendar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 20:45:01,938 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-11 20:45:01,938 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-08-11 20:45:01,938 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-08-11 20:45:01,938 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/cosmocalendar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-08-11 20:45:09,092 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,14 +53,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-16 17:28:28,427 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-11 20:45:09,092 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -157,15 +157,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.202 secs
+Total time: 6.751 secs
 
-2019-03-16 17:28:28,432 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-16 17:28:28,433 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-16 17:28:36,012 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-16 17:28:36,012 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-03-16 17:28:36,012 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-03-16 17:28:36,012 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-03-16 17:28:44,017 ERROR SysUtils - Could not process external command
+2019-08-11 20:45:09,097 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 20:45:09,097 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 20:45:16,780 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-11 20:45:16,781 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-08-11 20:45:16,781 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-08-11 20:45:16,781 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-08-11 20:45:23,431 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -186,14 +186,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-16 17:28:44,017 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-11 20:45:23,431 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -368,15 +368,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.568 secs
+Total time: 6.33 secs
 
-2019-03-16 17:28:44,023 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-16 17:28:44,023 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-16 17:28:52,073 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-16 17:28:52,073 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-03-16 17:28:52,073 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-03-16 17:28:52,073 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552732086268-0/src/CosmoCalendar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-03-16 17:28:59,577 ERROR SysUtils - Could not process external command
+2019-08-11 20:45:23,436 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 20:45:23,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 20:45:30,272 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-11 20:45:30,272 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-08-11 20:45:30,272 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-08-11 20:45:30,272 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531088223-0/src/CosmoCalendar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-08-11 20:45:37,394 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -397,14 +397,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-16 17:28:59,577 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-11 20:45:37,395 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -503,7 +503,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.138 secs
+Total time: 6.801 secs
 
-2019-03-16 17:28:59,582 ERROR FullProcessService - Project build has not produced APK file
-2019-03-16 17:28:59,587 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-11 20:45:37,399 ERROR FullProcessService - Project build has not produced APK file
+2019-08-11 20:45:37,404 ERROR FullProcessService - Could not find generated or existed APK file
