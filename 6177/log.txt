@@ -1,173 +1,180 @@
-2018-09-02 00:39:50,411 INFO  DownloadService - Downloading "https://github.com/Pulimet/Indicators-Library/archive/master.zip", attempt 3
-2018-09-02 00:39:52,034 INFO  DownloadService - Downloaded https://github.com/Pulimet/Indicators-Library/archive/master.zip, attempt 3
-2018-09-02 00:39:52,034 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/master.zip": 1 MB
-2018-09-02 00:39:52,034 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-02 00:39:52,040 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/master.zip: true
-2018-09-02 00:39:52,040 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src'.
-2018-09-02 00:39:52,082 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-09-02 00:39:52,082 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src]
-2018-09-02 00:39:52,097 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/.git/
+2019-08-13 14:44:35,601 INFO  DownloadService - Downloading "https://github.com/Pulimet/Indicators-Library/archive/master.zip", attempt 3
+2019-08-13 14:45:35,602 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-13 14:45:37,172 INFO  GithubDownloadService - Default branch of this repository: master
+2019-08-13 14:45:37,173 INFO  DownloadService - Downloading "https://github.com/Pulimet/Indicators-Library/archive/master.zip", attempt 3
+2019-08-13 14:46:38,501 DEBUG FullProcessService - Repository https://github.com/Pulimet/Indicators-Library available: true
+2019-08-13 14:46:38,501 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-13 14:46:38,501 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Pulimet/Indicators-Library, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src]
+2019-08-13 14:46:42,895 INFO  SysUtils - 
+2019-08-13 14:46:42,902 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/.git": true
+2019-08-13 14:46:42,904 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-08-13 14:46:42,905 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src]
+2019-08-13 14:46:42,920 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/.git/
 
-2018-09-02 00:39:52,100 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/gradlew
-2018-09-02 00:39:52,103 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/indicators/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/build.gradle
-2018-09-02 00:39:52,106 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/indicators/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/indicators/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/indicators/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/settings.gradle
-2018-09-02 00:39:52,107 INFO  ProjectBuildService - Remote scripts: none
-2018-09-02 00:39:52,107 INFO  ProjectFixService - Fixing project...
-2018-09-02 00:39:52,115 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/app/local.properties
-2018-09-02 00:39:52,116 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-09-02 00:39:52,116 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-09-02 00:39:52,117 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/indicators/local.properties
-2018-09-02 00:39:52,118 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/indicators/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-09-02 00:39:52,118 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/indicators/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-09-02 00:39:52,119 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/local.properties
-2018-09-02 00:39:52,119 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-all.zip
-2018-09-02 00:39:52,120 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip)
-2018-09-02 00:39:52,121 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-09-02 00:39:52,121 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-09-02 00:39:52,121 INFO  ProjectFixService - Project was maybe fixed
-2018-09-02 00:39:52,121 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-02 00:39:52,122 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-02 00:39:54,539 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-02 00:39:54,539 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-02 00:39:54,539 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-02 00:39:54,539 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-02 00:39:55,850 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-02 00:39:55,850 INFO  SysUtils - Downloading https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip
+2019-08-13 14:46:42,923 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/gradlew
+2019-08-13 14:46:42,925 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/indicators/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/build.gradle
+2019-08-13 14:46:42,927 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/indicators/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/indicators/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/indicators/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/settings.gradle
+2019-08-13 14:46:42,928 INFO  ProjectBuildService - Remote scripts: none
+2019-08-13 14:46:42,928 INFO  ProjectFixService - Fixing project...
+2019-08-13 14:46:42,934 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/app/local.properties
+2019-08-13 14:46:42,935 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-08-13 14:46:42,935 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-08-13 14:46:42,936 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/indicators/local.properties
+2019-08-13 14:46:42,937 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/indicators/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-08-13 14:46:42,937 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/indicators/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-08-13 14:46:42,937 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/local.properties
+2019-08-13 14:46:42,938 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5-all.zip
+2019-08-13 14:46:42,938 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5-bin.zip)
+2019-08-13 14:46:42,939 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-08-13 14:46:42,939 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-08-13 14:46:42,940 INFO  ProjectFixService - Project was maybe fixed
+2019-08-13 14:46:42,940 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 14:46:42,940 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 14:46:56,580 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-13 14:46:56,580 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-13 14:46:56,580 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-13 14:47:47,791 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :indicators:preBuild UP-TO-DATE
+> Task :indicators:preDebugBuild UP-TO-DATE
+> Task :indicators:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :indicators:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :indicators:checkDebugManifest
+> Task :indicators:compileDebugRenderscript NO-SOURCE
+> Task :indicators:generateDebugBuildConfig
+> Task :indicators:generateDebugResValues
+> Task :indicators:generateDebugResources
+> Task :indicators:packageDebugResources
+> Task :app:mainApkListPersistenceDebug
+> Task :indicators:javaPreCompileDebug
+> Task :indicators:parseDebugLibraryResources
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :indicators:processDebugManifest
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :indicators:extractDeepLinksDebug
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :indicators:generateDebugRFile
+> Task :indicators:compileDebugJavaWithJavac
+> Task :app:processDebugResources
+> Task :indicators:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
 
-Exception in thread "main" java.io.FileNotFoundException: https://downloads.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
-	at org.gradle.wrapper.Download.downloadInternal(Download.java:58)
-	at org.gradle.wrapper.Download.download(Download.java:44)
-	at org.gradle.wrapper.Install$1.call(Install.java:61)
-	at org.gradle.wrapper.Install$1.call(Install.java:48)
-	at org.gradle.wrapper.ExclusiveFileAccessManager.access(ExclusiveFileAccessManager.java:65)
-	at org.gradle.wrapper.Install.createDist(Install.java:48)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:128)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+> Task :app:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
-2018-09-02 00:39:55,854 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-02 00:39:55,855 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/indicators/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-02 00:39:57,090 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-02 00:39:57,090 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-02 00:39:57,090 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-02 00:39:57,090 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/indicators/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-02 00:39:58,271 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-02 00:39:58,271 INFO  SysUtils - Downloading https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :indicators:mergeDebugShaders
+> Task :indicators:compileDebugShaders
+> Task :indicators:generateDebugAssets
+> Task :indicators:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :indicators:processDebugJavaRes NO-SOURCE
+> Task :indicators:bundleLibResDebug
+> Task :indicators:bundleLibRuntimeDebug
+> Task :indicators:createFullJarDebug
+> Task :app:dexBuilderDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :indicators:mergeDebugJniLibFolders
+> Task :indicators:mergeDebugNativeLibs
+> Task :indicators:stripDebugDebugSymbols
+> Task :indicators:copyDebugJniLibsProjectOnly
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :indicators:preReleaseBuild UP-TO-DATE
+> Task :indicators:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :indicators:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :indicators:compileReleaseRenderscript NO-SOURCE
+> Task :indicators:checkReleaseManifest
+> Task :indicators:generateReleaseBuildConfig
+> Task :indicators:generateReleaseResValues
+> Task :indicators:generateReleaseResources
+> Task :indicators:packageReleaseResources
+> Task :indicators:parseReleaseLibraryResources
+> Task :indicators:processReleaseManifest
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :indicators:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :indicators:generateReleaseRFile
+> Task :indicators:compileReleaseJavaWithJavac
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :indicators:extractDeepLinksRelease
+> Task :app:processReleaseManifest
+> Task :indicators:bundleLibCompileRelease
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :app:javaPreCompileRelease
 
-Exception in thread "main" java.io.FileNotFoundException: https://downloads.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
-	at org.gradle.wrapper.Download.downloadInternal(Download.java:58)
-	at org.gradle.wrapper.Download.download(Download.java:44)
-	at org.gradle.wrapper.Install$1.call(Install.java:61)
-	at org.gradle.wrapper.Install$1.call(Install.java:48)
-	at org.gradle.wrapper.ExclusiveFileAccessManager.access(ExclusiveFileAccessManager.java:65)
-	at org.gradle.wrapper.Install.createDist(Install.java:48)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:128)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+> Task :app:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
-2018-09-02 00:39:58,275 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-02 00:39:58,275 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-02 00:39:59,452 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-02 00:39:59,452 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-02 00:39:59,452 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-02 00:39:59,452 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823590408-0/src/Indicators-Library-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-02 00:40:00,676 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-02 00:40:00,677 INFO  SysUtils - Downloading https://services.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip
+> Task :app:compileReleaseSources
+> Task :app:prepareLintJar
+> Task :indicators:processReleaseJavaRes NO-SOURCE
+> Task :indicators:prepareLintJarForPublish
 
-Exception in thread "main" java.io.FileNotFoundException: https://downloads.gradle.org/distributions-snapshots/gradle-4.4-20171031235950+0000-bin.zip
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1909)
-	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
-	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:245)
-	at org.gradle.wrapper.Download.downloadInternal(Download.java:58)
-	at org.gradle.wrapper.Download.download(Download.java:44)
-	at org.gradle.wrapper.Install$1.call(Install.java:61)
-	at org.gradle.wrapper.Install$1.call(Install.java:48)
-	at org.gradle.wrapper.ExclusiveFileAccessManager.access(ExclusiveFileAccessManager.java:65)
-	at org.gradle.wrapper.Install.createDist(Install.java:48)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:128)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/93bd1393cb72fc9cdaefe21f77be89a2/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-2018-09-02 00:40:00,681 ERROR FullProcessService - Project build has not produced APK file
-2018-09-02 00:40:00,684 ERROR FullProcessService - Could not find generated or existed APK file
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:dexBuilderRelease
+> Task :indicators:bundleLibResRelease
+> Task :indicators:bundleLibRuntimeRelease
+> Task :indicators:createFullJarRelease
+> Task :app:mergeExtDexDebug
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :indicators:mergeReleaseShaders
+> Task :indicators:compileReleaseShaders
+> Task :indicators:generateReleaseAssets
+> Task :indicators:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :indicators:mergeReleaseJniLibFolders
+> Task :indicators:mergeReleaseNativeLibs
+> Task :indicators:stripReleaseDebugSymbols
+> Task :indicators:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 50s
+94 actionable tasks: 94 executed
+
+2019-08-13 14:47:47,836 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565682275598-0/src/app/build/outputs/apk/debug/app-debug.apk
