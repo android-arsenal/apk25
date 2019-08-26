@@ -1,241 +1,258 @@
-2017-08-28 18:43:15,522 INFO  DownloadService - Downloading "https://github.com/GuilhE/android-utils-lib/archive/master.zip", attempt 3
-2017-08-28 18:43:16,957 INFO  DownloadService - Downloaded https://github.com/GuilhE/android-utils-lib/archive/master.zip, attempt 3
-2017-08-28 18:43:16,957 INFO  DownloadService - Size of file "/tmp/1503945795518-0/master.zip": 137 KB
-2017-08-28 18:43:16,957 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2017-08-28 18:43:16,957 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/1503945795518-0/master.zip: true
-2017-08-28 18:43:16,958 DEBUG ZipUtil - Extracting '/tmp/1503945795518-0/master.zip' into '/tmp/1503945795518-0/src'.
-2017-08-28 18:43:16,964 INFO  FullProcessService - Size of directory with sources: 155 KB
-2017-08-28 18:43:16,964 INFO  SysUtils - Execute command: [git, init, /tmp/1503945795518-0/src]
-2017-08-28 18:43:16,980 INFO  SysUtils - Initialized empty Git repository in /tmp/1503945795518-0/src/.git/
+2019-08-26 15:53:24,246 INFO  DownloadService - Downloading "https://github.com/GuilhE/SharedPrefsUtils/archive/master.zip", attempt 3
+2019-08-26 15:53:26,580 INFO  DownloadService - Downloaded https://github.com/GuilhE/SharedPrefsUtils/archive/master.zip, attempt 3
+2019-08-26 15:53:26,580 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/master.zip": 66 KB
+2019-08-26 15:53:26,581 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-26 15:53:26,586 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/master.zip: true
+2019-08-26 15:53:26,586 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src'.
+2019-08-26 15:53:26,594 INFO  FullProcessService - Size of directory with sources: 91 KB
+2019-08-26 15:53:26,594 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src]
+2019-08-26 15:53:26,612 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/.git/
 
-2017-08-28 18:43:16,981 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/1503945795518-0/src/android-utils-lib-master/gradlew
-2017-08-28 18:43:16,983 INFO  ProjectBuildService - Build script(s): /tmp/1503945795518-0/src/android-utils-lib-master/android-utils/build.gradle /tmp/1503945795518-0/src/android-utils-lib-master/app/build.gradle /tmp/1503945795518-0/src/android-utils-lib-master/build.gradle
-2017-08-28 18:43:16,984 INFO  ProjectBuildService - All script(s): /tmp/1503945795518-0/src/android-utils-lib-master/build.gradle /tmp/1503945795518-0/src/android-utils-lib-master/settings.gradle /tmp/1503945795518-0/src/android-utils-lib-master/android-utils/build.gradle /tmp/1503945795518-0/src/android-utils-lib-master/android-utils/deploy.gradle /tmp/1503945795518-0/src/android-utils-lib-master/app/build.gradle
-2017-08-28 18:43:16,989 INFO  ProjectBuildService - Remote scripts: none
-2017-08-28 18:43:16,989 INFO  ProjectFixService - Fixing project...
-2017-08-28 18:43:16,993 INFO  LocalPropertiesFixService - Created fake /tmp/1503945795518-0/src/android-utils-lib-master/android-utils/local.properties
-2017-08-28 18:43:16,994 INFO  ProjectFixService - Build info for "/tmp/1503945795518-0/src/android-utils-lib-master/android-utils/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2017-08-28 18:43:16,994 INFO  LocalPropertiesFixService - Created fake /tmp/1503945795518-0/src/android-utils-lib-master/app/local.properties
-2017-08-28 18:43:16,995 INFO  ProjectFixService - Build info for "/tmp/1503945795518-0/src/android-utils-lib-master/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2017-08-28 18:43:16,996 INFO  LocalPropertiesFixService - Created fake /tmp/1503945795518-0/src/android-utils-lib-master/local.properties
-2017-08-28 18:43:16,996 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2017-08-28 18:43:16,996 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2017-08-28 18:43:16,997 INFO  ProjectFixService - Build info for "/tmp/1503945795518-0/src/android-utils-lib-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2017-08-28 18:43:16,997 INFO  ProjectFixService - Project was maybe fixed
-2017-08-28 18:43:16,997 INFO  ProjectTaskService - Detecting possible tasks...
-2017-08-28 18:43:16,997 INFO  SysUtils - Execute command: [/tmp/1503945795518-0/src/android-utils-lib-master/gradlew, -b, /tmp/1503945795518-0/src/android-utils-lib-master/android-utils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2017-08-28 18:43:24,551 INFO  ProjectTaskService - Detected possible tasks: 66
-2017-08-28 18:43:24,552 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2017-08-28 18:43:24,552 INFO  SysUtils - Execute command: [/tmp/1503945795518-0/src/android-utils-lib-master/gradlew, -b, /tmp/1503945795518-0/src/android-utils-lib-master/android-utils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2017-08-28 18:43:34,347 INFO  SysUtils - Configuration on demand is an incubating feature.
-Incremental java compilation is an incubating feature.
-:android-utils:preBuild UP-TO-DATE
-:android-utils:preDebugBuild UP-TO-DATE
-:android-utils:checkDebugManifest
-:android-utils:prepareDebugDependencies
-:android-utils:compileDebugAidl
-:android-utils:compileDebugNdk UP-TO-DATE
-:android-utils:compileLint
-:android-utils:copyDebugLint UP-TO-DATE
-:android-utils:mergeDebugShaders
-:android-utils:compileDebugShaders
-:android-utils:generateDebugAssets
-:android-utils:mergeDebugAssets
-:android-utils:mergeDebugProguardFiles
-:android-utils:packageDebugRenderscript UP-TO-DATE
-:android-utils:compileDebugRenderscript
-:android-utils:generateDebugResValues
-:android-utils:generateDebugResources
-:android-utils:packageDebugResources
-:android-utils:processDebugManifest
-:android-utils:generateDebugBuildConfig
-:android-utils:processDebugResources
-:android-utils:generateDebugSources
-:android-utils:incrementalDebugJavaCompilationSafeguard
-:android-utils:javaPreCompileDebug
-:android-utils:compileDebugJavaWithJavac
-:android-utils:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-:android-utils:processDebugJavaRes UP-TO-DATE
-:android-utils:transformResourcesWithMergeJavaResForDebug
-:android-utils:transformClassesAndResourcesWithSyncLibJarsForDebug
-:android-utils:mergeDebugJniLibFolders
-:android-utils:transformNativeLibsWithMergeJniLibsForDebug
-:android-utils:transformNativeLibsWithStripDebugSymbolForDebug
-:android-utils:transformNativeLibsWithSyncJniLibsForDebug
-:android-utils:bundleDebug
-:android-utils:compileDebugSources
-:android-utils:assembleDebug
-:android-utils:preReleaseBuild UP-TO-DATE
-:android-utils:checkReleaseManifest
-:android-utils:prepareReleaseDependencies
-:android-utils:compileReleaseAidl
-:android-utils:compileReleaseNdk UP-TO-DATE
-:android-utils:copyReleaseLint UP-TO-DATE
-:android-utils:mergeReleaseShaders
-:android-utils:compileReleaseShaders
-:android-utils:generateReleaseAssets
-:android-utils:mergeReleaseAssets
-:android-utils:mergeReleaseProguardFiles
-:android-utils:packageReleaseRenderscript UP-TO-DATE
-:android-utils:compileReleaseRenderscript
-:android-utils:generateReleaseResValues
-:android-utils:generateReleaseResources
-:android-utils:packageReleaseResources
-:android-utils:processReleaseManifest
-:android-utils:generateReleaseBuildConfig
-:android-utils:processReleaseResources
-:android-utils:generateReleaseSources
-:android-utils:incrementalReleaseJavaCompilationSafeguard
-:android-utils:javaPreCompileRelease
-:android-utils:compileReleaseJavaWithJavac
-:android-utils:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-:android-utils:processReleaseJavaRes UP-TO-DATE
-:android-utils:transformResourcesWithMergeJavaResForRelease
-:android-utils:transformClassesAndResourcesWithSyncLibJarsForRelease
-:android-utils:mergeReleaseJniLibFolders
-:android-utils:transformNativeLibsWithMergeJniLibsForRelease
-:android-utils:transformNativeLibsWithStripDebugSymbolForRelease
-:android-utils:transformNativeLibsWithSyncJniLibsForRelease
-:android-utils:bundleRelease
-:android-utils:compileReleaseSources
-:android-utils:assembleRelease
-:android-utils:javadoc/tmp/1503945795518-0/src/android-utils-lib-master/android-utils/src/main/java/guilhe/android/utils/SharedPrefsUtils.java:5: error: package com.google.gson does not exist
+2019-08-26 15:53:26,614 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/gradlew
+2019-08-26 15:53:26,615 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/build.gradle
+2019-08-26 15:53:26,617 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/settings.gradle
+2019-08-26 15:53:26,617 INFO  ProjectBuildService - Remote scripts: none
+2019-08-26 15:53:26,617 INFO  ProjectFixService - Fixing project...
+2019-08-26 15:53:26,622 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/local.properties
+2019-08-26 15:53:26,623 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-08-26 15:53:26,624 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-08-26 15:53:26,624 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/local.properties
+2019-08-26 15:53:26,625 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-26 15:53:26,625 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-26 15:53:26,625 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-08-26 15:53:26,626 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-08-26 15:53:26,626 INFO  ProjectFixService - Project was maybe fixed
+2019-08-26 15:53:26,626 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-26 15:53:26,626 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-26 15:53:34,035 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-08-26 15:53:34,035 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-26 15:53:34,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-26 15:53:45,051 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :SharedPrefsUtils
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.2.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Task :SharedPrefsUtils:preBuild UP-TO-DATE
+> Task :SharedPrefsUtils:preDebugBuild UP-TO-DATE
+> Task :SharedPrefsUtils:compileDebugAidl NO-SOURCE
+> Task :SharedPrefsUtils:compileDebugRenderscript NO-SOURCE
+> Task :SharedPrefsUtils:checkDebugManifest
+> Task :SharedPrefsUtils:generateDebugBuildConfig
+> Task :SharedPrefsUtils:generateDebugResValues
+> Task :SharedPrefsUtils:generateDebugResources
+> Task :SharedPrefsUtils:packageDebugResources
+> Task :SharedPrefsUtils:processDebugManifest
+> Task :SharedPrefsUtils:generateDebugRFile
+> Task :SharedPrefsUtils:prepareLintJar
+> Task :SharedPrefsUtils:generateDebugSources
+> Task :SharedPrefsUtils:javaPreCompileDebug
+> Task :SharedPrefsUtils:compileDebugJavaWithJavac
+> Task :SharedPrefsUtils:extractDebugAnnotations
+> Task :SharedPrefsUtils:mergeDebugConsumerProguardFiles
+> Task :SharedPrefsUtils:mergeDebugShaders
+> Task :SharedPrefsUtils:compileDebugShaders
+> Task :SharedPrefsUtils:generateDebugAssets
+> Task :SharedPrefsUtils:packageDebugAssets
+> Task :SharedPrefsUtils:packageDebugRenderscript NO-SOURCE
+> Task :SharedPrefsUtils:prepareLintJarForPublish
+> Task :SharedPrefsUtils:jacocoDebug
+> Task :SharedPrefsUtils:processDebugJavaRes NO-SOURCE
+> Task :SharedPrefsUtils:transformResourcesWithMergeJavaResForDebug
+> Task :SharedPrefsUtils:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :SharedPrefsUtils:mergeDebugJniLibFolders
+> Task :SharedPrefsUtils:transformNativeLibsWithMergeJniLibsForDebug
+> Task :SharedPrefsUtils:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :SharedPrefsUtils:transformNativeLibsWithSyncJniLibsForDebug
+> Task :SharedPrefsUtils:bundleDebugAar
+> Task :SharedPrefsUtils:compileDebugSources
+> Task :SharedPrefsUtils:assembleDebug
+> Task :SharedPrefsUtils:preReleaseBuild UP-TO-DATE
+> Task :SharedPrefsUtils:compileReleaseAidl NO-SOURCE
+> Task :SharedPrefsUtils:compileReleaseRenderscript NO-SOURCE
+> Task :SharedPrefsUtils:checkReleaseManifest
+> Task :SharedPrefsUtils:generateReleaseBuildConfig
+> Task :SharedPrefsUtils:generateReleaseResValues
+> Task :SharedPrefsUtils:generateReleaseResources
+> Task :SharedPrefsUtils:packageReleaseResources
+> Task :SharedPrefsUtils:processReleaseManifest
+> Task :SharedPrefsUtils:generateReleaseRFile
+> Task :SharedPrefsUtils:generateReleaseSources
+> Task :SharedPrefsUtils:javaPreCompileRelease
+> Task :SharedPrefsUtils:compileReleaseJavaWithJavac
+> Task :SharedPrefsUtils:extractReleaseAnnotations
+> Task :SharedPrefsUtils:mergeReleaseConsumerProguardFiles
+> Task :SharedPrefsUtils:mergeReleaseShaders
+> Task :SharedPrefsUtils:compileReleaseShaders
+> Task :SharedPrefsUtils:generateReleaseAssets
+> Task :SharedPrefsUtils:packageReleaseAssets
+> Task :SharedPrefsUtils:packageReleaseRenderscript NO-SOURCE
+> Task :SharedPrefsUtils:processReleaseJavaRes NO-SOURCE
+> Task :SharedPrefsUtils:transformResourcesWithMergeJavaResForRelease
+> Task :SharedPrefsUtils:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :SharedPrefsUtils:mergeReleaseJniLibFolders
+> Task :SharedPrefsUtils:transformNativeLibsWithMergeJniLibsForRelease
+> Task :SharedPrefsUtils:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :SharedPrefsUtils:transformNativeLibsWithSyncJniLibsForRelease
+> Task :SharedPrefsUtils:bundleReleaseAar
+> Task :SharedPrefsUtils:compileReleaseSources
+> Task :SharedPrefsUtils:mergeReleaseResources
+> Task :SharedPrefsUtils:verifyReleaseResources
+> Task :SharedPrefsUtils:assembleRelease
+
+> Task :SharedPrefsUtils:javadoc
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:5: error: package com.google.gson does not exist
 import com.google.gson.Gson;
                       ^
-/tmp/1503945795518-0/src/android-utils-lib-master/android-utils/src/main/java/guilhe/android/utils/SharedPrefsUtils.java:6: error: package com.google.gson does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:6: error: package com.google.gson does not exist
 import com.google.gson.JsonParseException;
                       ^
-/tmp/1503945795518-0/src/android-utils-lib-master/android-utils/src/main/java/guilhe/android/utils/SharedPrefsUtils.java:7: error: package com.google.gson does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:7: error: package com.google.gson does not exist
 import com.google.gson.JsonSyntaxException;
                       ^
-/tmp/1503945795518-0/src/android-utils-lib-master/android-utils/src/main/java/guilhe/android/utils/SharedPrefsUtils.java:8: error: package com.google.gson.reflect does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:8: error: package com.google.gson.reflect does not exist
 import com.google.gson.reflect.TypeToken;
                               ^
-/tmp/1503945795518-0/src/android-utils-lib-master/android-utils/src/main/java/guilhe/android/utils/SharedPrefsUtils.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:42: error: cannot find symbol
     public static boolean putObject(SharedPreferences prefs, String key, Object object, Gson gson) {
                                                                                         ^
   symbol:   class Gson
   location: class SharedPrefsUtils
-/tmp/1503945795518-0/src/android-utils-lib-master/android-utils/src/main/java/guilhe/android/utils/SharedPrefsUtils.java:69: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:66: error: cannot find symbol
     public static <T> T getObject(SharedPreferences prefs, String key, TypeToken<T> type, T defaultValue) {
                                                                        ^
   symbol:   class TypeToken
   location: class SharedPrefsUtils
-/tmp/1503945795518-0/src/android-utils-lib-master/android-utils/src/main/java/guilhe/android/utils/SharedPrefsUtils.java:84: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:81: error: cannot find symbol
     public static <T> T getObject(SharedPreferences prefs, String key, TypeToken<T> type, T defaultValue, Gson gson) {
                                                                        ^
   symbol:   class TypeToken
   location: class SharedPrefsUtils
-/tmp/1503945795518-0/src/android-utils-lib-master/android-utils/src/main/java/guilhe/android/utils/SharedPrefsUtils.java:84: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:81: error: cannot find symbol
     public static <T> T getObject(SharedPreferences prefs, String key, TypeToken<T> type, T defaultValue, Gson gson) {
                                                                                                           ^
   symbol:   class Gson
   location: class SharedPrefsUtils
-/tmp/1503945795518-0/src/android-utils-lib-master/android-utils/src/main/java/guilhe/android/utils/SharedPrefsUtils.java:126: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:123: error: cannot find symbol
     public static <T> T getObject(SharedPreferences prefs, String key, Class<T> object, T defaultValue, Gson gson) {
                                                                                                         ^
   symbol:   class Gson
   location: class SharedPrefsUtils
-/tmp/1503945795518-0/src/android-utils-lib-master/android-utils/src/main/java/guilhe/android/utils/SharedPrefsUtils.java:152: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:149: error: cannot find symbol
     private static boolean assertNotNull(SharedPreferences prefs, String key, Object object, Gson gson) {
                                                                                              ^
   symbol:   class Gson
   location: class SharedPrefsUtils
-/tmp/1503945795518-0/src/android-utils-lib-master/android-utils/src/main/java/guilhe/android/utils/SharedPrefsUtils.java:69: warning - Tag @link: can't find getObject(SharedPreferences, String, Class, T) in guilhe.android.utils.SharedPrefsUtils
-/tmp/1503945795518-0/src/android-utils-lib-master/android-utils/src/main/java/guilhe/android/utils/SharedPrefsUtils.java:84: warning - Tag @link: can't find getObject(SharedPreferences, String, Class, T) in guilhe.android.utils.SharedPrefsUtils
-/tmp/1503945795518-0/src/android-utils-lib-master/android-utils/src/main/java/guilhe/android/utils/SharedPrefsUtils.java:126: warning - Tag @link: can't find getObject(SharedPreferences, String, TypeToken, T, Gson) in guilhe.android.utils.SharedPrefsUtils
-
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:66: warning - Tag @link: can't find getObject(SharedPreferences, String, Class, T) in com.github.guilhe.sharedprefsutils.SharedPrefsUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:81: warning - Tag @link: can't find getObject(SharedPreferences, String, Class, T) in com.github.guilhe.sharedprefsutils.SharedPrefsUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:123: warning - Tag @link: can't find getObject(SharedPreferences, String, TypeToken, T, Gson) in com.github.guilhe.sharedprefsutils.SharedPrefsUtils
 13 warnings
-:android-utils:javadocJar
-:android-utils:sourcesJar
-:android-utils:assemble
-:android-utils:build
 
-BUILD SUCCESSFUL
+> Task :SharedPrefsUtils:javadocJar
+> Task :SharedPrefsUtils:sourcesJar
+> Task :SharedPrefsUtils:assemble
+> Task :SharedPrefsUtils:build
 
-Total time: 9.623 secs
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2017-08-28 18:43:34,351 INFO  ProjectTaskService - Detecting possible tasks...
-2017-08-28 18:43:34,352 INFO  SysUtils - Execute command: [/tmp/1503945795518-0/src/android-utils-lib-master/gradlew, -b, /tmp/1503945795518-0/src/android-utils-lib-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2017-08-28 18:43:41,421 INFO  ProjectTaskService - Detected possible tasks: 65
-2017-08-28 18:43:41,421 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2017-08-28 18:43:41,421 INFO  SysUtils - Execute command: [/tmp/1503945795518-0/src/android-utils-lib-master/gradlew, -b, /tmp/1503945795518-0/src/android-utils-lib-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2017-08-28 18:43:56,907 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:preBuild UP-TO-DATE
-:app:preDebugBuild UP-TO-DATE
-:app:checkDebugManifest
-:app:preReleaseBuild UP-TO-DATE
-:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
-:app:prepareComAndroidSupportAppcompatV72531Library
-:app:prepareComAndroidSupportSupportCompat2531Library
-:app:prepareComAndroidSupportSupportCoreUi2531Library
-:app:prepareComAndroidSupportSupportCoreUtils2531Library
-:app:prepareComAndroidSupportSupportFragment2531Library
-:app:prepareComAndroidSupportSupportMediaCompat2531Library
-:app:prepareComAndroidSupportSupportV42531Library
-:app:prepareComAndroidSupportSupportVectorDrawable2531Library
-:app:prepareDebugDependencies
-:app:compileDebugAidl
-:app:compileDebugRenderscript
-:app:generateDebugBuildConfig
-:app:generateDebugResValues
-:app:generateDebugResources
-:app:mergeDebugResources
-:app:processDebugManifest
-:app:processDebugResources
-:app:generateDebugSources
-:app:incrementalDebugJavaCompilationSafeguard
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugNdk UP-TO-DATE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexForDebug
-:app:mergeDebugJniLibFolders
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:processDebugJavaRes UP-TO-DATE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseManifest
-:app:prepareReleaseDependencies
-:app:compileReleaseAidl
-:app:compileReleaseRenderscript
-:app:generateReleaseBuildConfig
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:app:mergeReleaseResources
-:app:processReleaseManifest
-:app:processReleaseResources
-:app:generateReleaseSources
-:app:incrementalReleaseJavaCompilationSafeguard
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk UP-TO-DATE
-:app:compileReleaseSources
-:app:lintVitalRelease
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexForRelease
-:app:mergeReleaseJniLibFolders
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:processReleaseJavaRes UP-TO-DATE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+BUILD SUCCESSFUL in 10s
+48 actionable tasks: 48 executed
 
-BUILD SUCCESSFUL
+2019-08-26 15:53:45,062 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-26 15:53:45,062 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-26 15:53:52,413 INFO  ProjectTaskService - Detected possible tasks: 79
+2019-08-26 15:53:52,414 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-26 15:53:52,414 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566809604238-0/src/SharedPrefsUtils-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-26 15:53:59,606 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-Total time: 15.275 secs
+> Configure project :SharedPrefsUtils
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.2.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
 
-2017-08-28 18:43:56,928 INFO  FullProcessService - Found APK file: /tmp/1503945795518-0/src/android-utils-lib-master/app/build/outputs/apk/app-debug.apk
+> Task :assemble UP-TO-DATE
+> Task :build
+> Task :SharedPrefsUtils:preBuild UP-TO-DATE
+> Task :SharedPrefsUtils:preDebugBuild UP-TO-DATE
+> Task :SharedPrefsUtils:compileDebugAidl NO-SOURCE
+> Task :SharedPrefsUtils:compileDebugRenderscript NO-SOURCE
+> Task :SharedPrefsUtils:checkDebugManifest UP-TO-DATE
+> Task :SharedPrefsUtils:generateDebugBuildConfig UP-TO-DATE
+> Task :SharedPrefsUtils:generateDebugResValues UP-TO-DATE
+> Task :SharedPrefsUtils:generateDebugResources UP-TO-DATE
+> Task :SharedPrefsUtils:packageDebugResources UP-TO-DATE
+> Task :SharedPrefsUtils:processDebugManifest UP-TO-DATE
+> Task :SharedPrefsUtils:generateDebugRFile UP-TO-DATE
+> Task :SharedPrefsUtils:prepareLintJar UP-TO-DATE
+> Task :SharedPrefsUtils:generateDebugSources UP-TO-DATE
+> Task :SharedPrefsUtils:javaPreCompileDebug UP-TO-DATE
+> Task :SharedPrefsUtils:compileDebugJavaWithJavac UP-TO-DATE
+> Task :SharedPrefsUtils:extractDebugAnnotations UP-TO-DATE
+> Task :SharedPrefsUtils:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :SharedPrefsUtils:mergeDebugShaders UP-TO-DATE
+> Task :SharedPrefsUtils:compileDebugShaders UP-TO-DATE
+> Task :SharedPrefsUtils:generateDebugAssets UP-TO-DATE
+> Task :SharedPrefsUtils:packageDebugAssets UP-TO-DATE
+> Task :SharedPrefsUtils:packageDebugRenderscript NO-SOURCE
+> Task :SharedPrefsUtils:prepareLintJarForPublish UP-TO-DATE
+> Task :SharedPrefsUtils:jacocoDebug UP-TO-DATE
+> Task :SharedPrefsUtils:processDebugJavaRes NO-SOURCE
+> Task :SharedPrefsUtils:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :SharedPrefsUtils:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :SharedPrefsUtils:mergeDebugJniLibFolders UP-TO-DATE
+> Task :SharedPrefsUtils:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :SharedPrefsUtils:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :SharedPrefsUtils:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :SharedPrefsUtils:bundleDebugAar UP-TO-DATE
+> Task :SharedPrefsUtils:compileDebugSources UP-TO-DATE
+> Task :SharedPrefsUtils:assembleDebug UP-TO-DATE
+> Task :SharedPrefsUtils:preReleaseBuild UP-TO-DATE
+> Task :SharedPrefsUtils:compileReleaseAidl NO-SOURCE
+> Task :SharedPrefsUtils:compileReleaseRenderscript NO-SOURCE
+> Task :SharedPrefsUtils:checkReleaseManifest UP-TO-DATE
+> Task :SharedPrefsUtils:generateReleaseBuildConfig UP-TO-DATE
+> Task :SharedPrefsUtils:generateReleaseResValues UP-TO-DATE
+> Task :SharedPrefsUtils:generateReleaseResources UP-TO-DATE
+> Task :SharedPrefsUtils:packageReleaseResources UP-TO-DATE
+> Task :SharedPrefsUtils:processReleaseManifest UP-TO-DATE
+> Task :SharedPrefsUtils:generateReleaseRFile UP-TO-DATE
+> Task :SharedPrefsUtils:generateReleaseSources UP-TO-DATE
+> Task :SharedPrefsUtils:javaPreCompileRelease UP-TO-DATE
+> Task :SharedPrefsUtils:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :SharedPrefsUtils:extractReleaseAnnotations UP-TO-DATE
+> Task :SharedPrefsUtils:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :SharedPrefsUtils:mergeReleaseShaders UP-TO-DATE
+> Task :SharedPrefsUtils:compileReleaseShaders UP-TO-DATE
+> Task :SharedPrefsUtils:generateReleaseAssets UP-TO-DATE
+> Task :SharedPrefsUtils:packageReleaseAssets UP-TO-DATE
+> Task :SharedPrefsUtils:packageReleaseRenderscript NO-SOURCE
+> Task :SharedPrefsUtils:processReleaseJavaRes NO-SOURCE
+> Task :SharedPrefsUtils:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :SharedPrefsUtils:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :SharedPrefsUtils:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :SharedPrefsUtils:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :SharedPrefsUtils:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :SharedPrefsUtils:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :SharedPrefsUtils:bundleReleaseAar UP-TO-DATE
+> Task :SharedPrefsUtils:compileReleaseSources UP-TO-DATE
+> Task :SharedPrefsUtils:mergeReleaseResources UP-TO-DATE
+> Task :SharedPrefsUtils:verifyReleaseResources UP-TO-DATE
+> Task :SharedPrefsUtils:assembleRelease UP-TO-DATE
+> Task :SharedPrefsUtils:javadoc UP-TO-DATE
+> Task :SharedPrefsUtils:javadocJar UP-TO-DATE
+> Task :SharedPrefsUtils:sourcesJar UP-TO-DATE
+> Task :SharedPrefsUtils:assemble UP-TO-DATE
+> Task :SharedPrefsUtils:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 7s
+48 actionable tasks: 48 up-to-date
+
+2019-08-26 15:53:59,617 ERROR FullProcessService - Project build has not produced APK file
+2019-08-26 15:53:59,626 ERROR FullProcessService - Could not find generated or existed APK file
