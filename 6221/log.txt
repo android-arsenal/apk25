@@ -1,32 +1,32 @@
-2019-07-05 02:28:53,000 INFO  DownloadService - Downloading "https://github.com/Arjun-sna/Android-AudioRecorder-App/archive/master.zip", attempt 3
-2019-07-05 02:28:55,153 INFO  DownloadService - Downloaded https://github.com/Arjun-sna/Android-AudioRecorder-App/archive/master.zip, attempt 3
-2019-07-05 02:28:55,154 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/master.zip": 263 KB
-2019-07-05 02:28:55,154 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-05 02:28:55,159 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/master.zip: true
-2019-07-05 02:28:55,160 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src'.
-2019-07-05 02:28:55,201 INFO  FullProcessService - Size of directory with sources: 415 KB
-2019-07-05 02:28:55,202 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src]
-2019-07-05 02:28:55,218 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/.git/
+2019-09-03 16:01:01,680 INFO  DownloadService - Downloading "https://github.com/Arjun-sna/Android-AudioRecorder-App/archive/master.zip", attempt 3
+2019-09-03 16:01:02,249 INFO  DownloadService - Downloaded https://github.com/Arjun-sna/Android-AudioRecorder-App/archive/master.zip, attempt 3
+2019-09-03 16:01:02,249 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/master.zip": 263 KB
+2019-09-03 16:01:02,249 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-03 16:01:02,254 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/master.zip: true
+2019-09-03 16:01:02,255 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src'.
+2019-09-03 16:01:02,291 INFO  FullProcessService - Size of directory with sources: 415 KB
+2019-09-03 16:01:02,291 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src]
+2019-09-03 16:01:02,307 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/.git/
 
-2019-07-05 02:28:55,221 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/gradlew
-2019-07-05 02:28:55,225 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/build.gradle
-2019-07-05 02:28:55,228 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/settings.gradle
-2019-07-05 02:28:55,228 INFO  ProjectBuildService - Remote scripts: none
-2019-07-05 02:28:55,228 INFO  ProjectFixService - Fixing project...
-2019-07-05 02:28:55,235 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/app/local.properties
-2019-07-05 02:28:55,236 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-07-05 02:28:55,236 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/local.properties
-2019-07-05 02:28:55,236 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-07-05 02:28:55,237 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-07-05 02:28:55,237 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-07-05 02:28:55,238 INFO  ProjectFixService - Project was maybe fixed
-2019-07-05 02:28:55,238 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 02:28:55,238 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 02:29:00,271 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-05 02:29:00,271 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-05 02:29:00,271 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-05 02:29:00,271 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-05 02:29:05,017 ERROR SysUtils - Could not process external command
+2019-09-03 16:01:02,310 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/gradlew
+2019-09-03 16:01:02,314 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/build.gradle
+2019-09-03 16:01:02,317 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/settings.gradle
+2019-09-03 16:01:02,317 INFO  ProjectBuildService - Remote scripts: none
+2019-09-03 16:01:02,318 INFO  ProjectFixService - Fixing project...
+2019-09-03 16:01:02,326 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/app/local.properties
+2019-09-03 16:01:02,326 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-09-03 16:01:02,327 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/local.properties
+2019-09-03 16:01:02,327 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-09-03 16:01:02,329 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-09-03 16:01:02,330 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-09-03 16:01:02,330 INFO  ProjectFixService - Project was maybe fixed
+2019-09-03 16:01:02,330 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 16:01:02,330 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 16:01:08,166 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-03 16:01:08,167 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-03 16:01:08,167 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-03 16:01:08,167 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-03 16:01:14,029 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,14 +47,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-05 02:29:05,017 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-03 16:01:14,030 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 Configuration 'debugCompile' in project ':app' is deprecated. Use 'debugImplementation' instead.
 Configuration 'releaseCompile' in project ':app' is deprecated. Use 'releaseImplementation' instead.
@@ -193,15 +193,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2019-07-05 02:29:05,021 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 02:29:05,021 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 02:29:09,722 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-05 02:29:09,722 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-05 02:29:09,722 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-05 02:29:09,722 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268532996-0/src/Android-AudioRecorder-App-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-05 02:29:14,556 ERROR SysUtils - Could not process external command
+2019-09-03 16:01:14,034 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 16:01:14,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 16:01:20,643 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-03 16:01:20,643 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-03 16:01:20,643 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-03 16:01:20,643 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501261677-0/src/Android-AudioRecorder-App-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-03 16:01:27,091 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -222,14 +222,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-05 02:29:14,556 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-03 16:01:27,091 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 Configuration 'debugCompile' in project ':app' is deprecated. Use 'debugImplementation' instead.
 Configuration 'releaseCompile' in project ':app' is deprecated. Use 'releaseImplementation' instead.
@@ -361,14 +361,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 6s
 
-2019-07-05 02:29:14,560 ERROR FullProcessService - Project build has not produced APK file
-2019-07-05 02:29:14,564 ERROR FullProcessService - Could not find generated or existed APK file
+2019-09-03 16:01:27,096 ERROR FullProcessService - Project build has not produced APK file
+2019-09-03 16:01:27,101 ERROR FullProcessService - Could not find generated or existed APK file
