@@ -1,39 +1,31 @@
-2019-09-03 16:20:29,645 INFO  DownloadService - Downloading "https://github.com/GuilhE/SharedPrefsUtils/archive/master.zip", attempt 3
-2019-09-03 16:20:32,209 INFO  DownloadService - Downloaded https://github.com/GuilhE/SharedPrefsUtils/archive/master.zip, attempt 3
-2019-09-03 16:20:32,210 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/master.zip": 66 KB
-2019-09-03 16:20:32,210 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-03 16:20:32,211 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/master.zip: true
-2019-09-03 16:20:32,211 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src'.
-2019-09-03 16:20:32,217 INFO  FullProcessService - Size of directory with sources: 91 KB
-2019-09-03 16:20:32,217 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src]
-2019-09-03 16:20:32,236 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/.git/
+2019-10-05 19:28:07,127 INFO  DownloadService - Downloading "https://github.com/GuilhE/SharedPrefsUtils/archive/master.zip", attempt 3
+2019-10-05 19:28:08,958 INFO  DownloadService - Downloaded https://github.com/GuilhE/SharedPrefsUtils/archive/master.zip, attempt 3
+2019-10-05 19:28:08,959 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/master.zip": 66 KB
+2019-10-05 19:28:08,959 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-05 19:28:08,959 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/master.zip: true
+2019-10-05 19:28:08,960 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src'.
+2019-10-05 19:28:08,971 INFO  FullProcessService - Size of directory with sources: 91 KB
+2019-10-05 19:28:08,971 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src]
+2019-10-05 19:28:08,995 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/.git/
 
-2019-09-03 16:20:32,237 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/gradlew
-2019-09-03 16:20:32,238 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/build.gradle
-2019-09-03 16:20:32,239 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/settings.gradle
-2019-09-03 16:20:32,240 INFO  ProjectBuildService - Remote scripts: none
-2019-09-03 16:20:32,240 INFO  ProjectFixService - Fixing project...
-2019-09-03 16:20:32,244 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/local.properties
-2019-09-03 16:20:32,246 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-03 16:20:32,246 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-03 16:20:32,247 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/local.properties
-2019-09-03 16:20:32,247 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-09-03 16:20:32,247 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-09-03 16:20:32,248 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-03 16:20:32,248 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-03 16:20:32,249 INFO  ProjectFixService - Project was maybe fixed
-2019-09-03 16:20:32,249 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-03 16:20:32,249 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-03 16:20:42,381 INFO  ProjectTaskService - Detected possible tasks: 76
-2019-09-03 16:20:42,381 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-09-03 16:20:42,381 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-09-03 16:20:53,822 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :SharedPrefsUtils
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.2.
-Android SDK Build Tools 28.0.3 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
-
+2019-10-05 19:28:08,996 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/gradlew
+2019-10-05 19:28:08,998 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/build.gradle
+2019-10-05 19:28:08,999 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/settings.gradle
+2019-10-05 19:28:09,000 INFO  ProjectBuildService - Remote scripts: none
+2019-10-05 19:28:09,000 INFO  ProjectFixService - Fixing project...
+2019-10-05 19:28:09,006 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/local.properties
+2019-10-05 19:28:09,008 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-05 19:28:09,009 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/local.properties
+2019-10-05 19:28:09,009 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-10-05 19:28:09,010 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-10-05 19:28:09,011 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-05 19:28:09,011 INFO  ProjectFixService - Project was maybe fixed
+2019-10-05 19:28:09,011 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-05 19:28:09,011 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-05 19:28:20,583 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-10-05 19:28:20,583 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-05 19:28:20,584 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-05 19:28:35,471 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :SharedPrefsUtils:preBuild UP-TO-DATE
 > Task :SharedPrefsUtils:preDebugBuild UP-TO-DATE
 > Task :SharedPrefsUtils:compileDebugAidl NO-SOURCE
@@ -102,51 +94,51 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :SharedPrefsUtils:assembleRelease
 
 > Task :SharedPrefsUtils:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:5: error: package com.google.gson does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:5: error: package com.google.gson does not exist
 import com.google.gson.Gson;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:6: error: package com.google.gson does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:6: error: package com.google.gson does not exist
 import com.google.gson.JsonParseException;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:7: error: package com.google.gson does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:7: error: package com.google.gson does not exist
 import com.google.gson.JsonSyntaxException;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:8: error: package com.google.gson.reflect does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:8: error: package com.google.gson.reflect does not exist
 import com.google.gson.reflect.TypeToken;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:42: error: cannot find symbol
     public static boolean putObject(SharedPreferences prefs, String key, Object object, Gson gson) {
                                                                                         ^
   symbol:   class Gson
   location: class SharedPrefsUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:66: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:66: error: cannot find symbol
     public static <T> T getObject(SharedPreferences prefs, String key, TypeToken<T> type, T defaultValue) {
                                                                        ^
   symbol:   class TypeToken
   location: class SharedPrefsUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:81: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:81: error: cannot find symbol
     public static <T> T getObject(SharedPreferences prefs, String key, TypeToken<T> type, T defaultValue, Gson gson) {
                                                                        ^
   symbol:   class TypeToken
   location: class SharedPrefsUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:81: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:81: error: cannot find symbol
     public static <T> T getObject(SharedPreferences prefs, String key, TypeToken<T> type, T defaultValue, Gson gson) {
                                                                                                           ^
   symbol:   class Gson
   location: class SharedPrefsUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:123: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:123: error: cannot find symbol
     public static <T> T getObject(SharedPreferences prefs, String key, Class<T> object, T defaultValue, Gson gson) {
                                                                                                         ^
   symbol:   class Gson
   location: class SharedPrefsUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:149: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:149: error: cannot find symbol
     private static boolean assertNotNull(SharedPreferences prefs, String key, Object object, Gson gson) {
                                                                                              ^
   symbol:   class Gson
   location: class SharedPrefsUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:66: warning - Tag @link: can't find getObject(SharedPreferences, String, Class, T) in com.github.guilhe.sharedprefsutils.SharedPrefsUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:81: warning - Tag @link: can't find getObject(SharedPreferences, String, Class, T) in com.github.guilhe.sharedprefsutils.SharedPrefsUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:123: warning - Tag @link: can't find getObject(SharedPreferences, String, TypeToken, T, Gson) in com.github.guilhe.sharedprefsutils.SharedPrefsUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:66: warning - Tag @link: can't find getObject(SharedPreferences, String, Class, T) in com.github.guilhe.sharedprefsutils.SharedPrefsUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:81: warning - Tag @link: can't find getObject(SharedPreferences, String, Class, T) in com.github.guilhe.sharedprefsutils.SharedPrefsUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/SharedPrefsUtils/src/main/java/com/github/guilhe/sharedprefsutils/SharedPrefsUtils.java:123: warning - Tag @link: can't find getObject(SharedPreferences, String, TypeToken, T, Gson) in com.github.guilhe.sharedprefsutils.SharedPrefsUtils
 13 warnings
 
 > Task :SharedPrefsUtils:javadocJar
@@ -158,21 +150,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 14s
 48 actionable tasks: 48 executed
 
-2019-09-03 16:20:53,834 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-03 16:20:53,835 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-03 16:21:00,769 INFO  ProjectTaskService - Detected possible tasks: 79
-2019-09-03 16:21:00,770 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-09-03 16:21:00,770 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567502429642-0/src/SharedPrefsUtils-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-09-03 16:21:08,764 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :SharedPrefsUtils
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.2.
-Android SDK Build Tools 28.0.3 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
-
+2019-10-05 19:28:35,481 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-05 19:28:35,481 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-05 19:28:44,520 INFO  ProjectTaskService - Detected possible tasks: 78
+2019-10-05 19:28:44,520 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-05 19:28:44,521 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570278487124-0/src/SharedPrefsUtils-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-05 19:28:53,572 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :assemble UP-TO-DATE
 > Task :build
 > Task :SharedPrefsUtils:preBuild UP-TO-DATE
@@ -239,20 +225,20 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :SharedPrefsUtils:bundleReleaseAar UP-TO-DATE
 > Task :SharedPrefsUtils:compileReleaseSources UP-TO-DATE
 > Task :SharedPrefsUtils:mergeReleaseResources UP-TO-DATE
-> Task :SharedPrefsUtils:verifyReleaseResources UP-TO-DATE
-> Task :SharedPrefsUtils:assembleRelease UP-TO-DATE
+> Task :SharedPrefsUtils:verifyReleaseResources
+> Task :SharedPrefsUtils:assembleRelease
 > Task :SharedPrefsUtils:javadoc UP-TO-DATE
 > Task :SharedPrefsUtils:javadocJar UP-TO-DATE
 > Task :SharedPrefsUtils:sourcesJar UP-TO-DATE
-> Task :SharedPrefsUtils:assemble UP-TO-DATE
+> Task :SharedPrefsUtils:assemble
 > Task :SharedPrefsUtils:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 7s
-48 actionable tasks: 48 up-to-date
+BUILD SUCCESSFUL in 8s
+48 actionable tasks: 1 executed, 47 up-to-date
 
-2019-09-03 16:21:08,775 ERROR FullProcessService - Project build has not produced APK file
-2019-09-03 16:21:08,785 ERROR FullProcessService - Could not find generated or existed APK file
+2019-10-05 19:28:53,581 ERROR FullProcessService - Project build has not produced APK file
+2019-10-05 19:28:53,591 ERROR FullProcessService - Could not find generated or existed APK file
