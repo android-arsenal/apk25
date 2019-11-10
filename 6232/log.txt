@@ -1,112 +1,93 @@
-2019-09-26 18:01:46,337 INFO  DownloadService - Downloading "https://github.com/hugocbpassos/waterfall-toolbar/archive/master.zip", attempt 3
-2019-09-26 18:01:51,664 INFO  DownloadService - Downloaded https://github.com/hugocbpassos/waterfall-toolbar/archive/master.zip, attempt 3
-2019-09-26 18:01:51,665 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/master.zip": 5 MB
-2019-09-26 18:01:51,665 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-26 18:01:51,666 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/master.zip: true
-2019-09-26 18:01:51,666 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src'.
-2019-09-26 18:01:51,726 INFO  FullProcessService - Size of directory with sources: 5 MB
-2019-09-26 18:01:51,726 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src]
-2019-09-26 18:01:51,746 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/.git/
+2019-11-10 21:24:01,682 INFO  DownloadService - Downloading "https://github.com/hugocbpassos/waterfall-toolbar/archive/master.zip", attempt 3
+2019-11-10 21:24:07,128 INFO  DownloadService - Downloaded https://github.com/hugocbpassos/waterfall-toolbar/archive/master.zip, attempt 3
+2019-11-10 21:24:07,128 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/master.zip": 5 MB
+2019-11-10 21:24:07,128 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-10 21:24:07,130 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/master.zip: true
+2019-11-10 21:24:07,130 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src'.
+2019-11-10 21:24:07,196 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-11-10 21:24:07,197 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src]
+2019-11-10 21:24:07,235 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/.git/
 
-2019-09-26 18:01:51,749 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/gradlew
-2019-09-26 18:01:51,752 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/build.gradle
-2019-09-26 18:01:51,755 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/settings.gradle
-2019-09-26 18:01:51,755 INFO  ProjectBuildService - Remote scripts: none
-2019-09-26 18:01:51,755 INFO  ProjectFixService - Fixing project...
-2019-09-26 18:01:51,762 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/app/local.properties
-2019-09-26 18:01:51,762 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-09-26 18:01:51,762 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-09-26 18:01:51,763 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/library/local.properties
-2019-09-26 18:01:51,764 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-09-26 18:01:51,764 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-09-26 18:01:51,765 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/local.properties
-2019-09-26 18:01:51,766 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-09-26 18:01:51,766 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-09-26 18:01:51,767 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-09-26 18:01:51,768 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-09-26 18:01:51,768 INFO  ProjectFixService - Project was maybe fixed
-2019-09-26 18:01:51,768 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-26 18:01:51,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-26 18:01:58,926 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-26 18:01:58,926 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-26 18:01:58,926 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-26 18:03:10,249 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :library
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-
+2019-11-10 21:24:07,238 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/gradlew
+2019-11-10 21:24:07,241 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/build.gradle
+2019-11-10 21:24:07,244 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/settings.gradle
+2019-11-10 21:24:07,244 INFO  ProjectBuildService - Remote scripts: none
+2019-11-10 21:24:07,244 INFO  ProjectFixService - Fixing project...
+2019-11-10 21:24:07,253 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/app/local.properties
+2019-11-10 21:24:07,254 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-11-10 21:24:07,255 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-11-10 21:24:07,256 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/library/local.properties
+2019-11-10 21:24:07,257 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-11-10 21:24:07,257 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-11-10 21:24:07,258 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/local.properties
+2019-11-10 21:24:07,259 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-11-10 21:24:07,259 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-11-10 21:24:07,260 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-11-10 21:24:07,260 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-11-10 21:24:07,261 INFO  ProjectFixService - Project was maybe fixed
+2019-11-10 21:24:07,261 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 21:24:07,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 21:24:16,302 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-11-10 21:24:16,302 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-10 21:24:16,302 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-10 21:25:34,607 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
-> Task :library:checkDebugManifest
-> Task :library:processDebugManifest
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :library:generateDebugResValues
-> Task :library:generateDebugBuildConfig
-> Task :library:prepareLintJar
-> Task :app:prepareLintJar
-> Task :library:mergeDebugShaders
-> Task :library:compileDebugShaders
-> Task :library:generateDebugAssets
-> Task :library:packageDebugAssets
-> Task :library:compileDebugAidl NO-SOURCE
-> Task :library:compileDebugRenderscript NO-SOURCE
-> Task :library:generateDebugResources
-> Task :library:packageDebugResources
-> Task :library:generateDebugRFile
-> Task :library:compileDebugKotlin
-> Task :library:generateDebugSources
-> Task :library:javaPreCompileDebug
-> Task :app:preDebugBuild
-> Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :app:mergeDebugResources
+> Task :library:generateDebugResValues
 > Task :app:createDebugCompatibleScreenManifests
+> Task :library:checkDebugManifest
+> Task :library:generateDebugBuildConfig
+> Task :library:processDebugManifest
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:mergeDebugShaders
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:generateDebugResources
+> Task :library:packageDebugResources
 > Task :app:processDebugManifest
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :library:mergeDebugShaders
+> Task :library:compileDebugShaders
+> Task :library:generateDebugAssets
+> Task :library:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:mergeDebugResources
+> Task :library:parseDebugLibraryResources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
+> Task :library:generateDebugRFile
 > Task :app:processDebugResources
+> Task :library:compileDebugKotlin
+> Task :library:javaPreCompileDebug
 > Task :library:compileDebugJavaWithJavac
+> Task :library:bundleLibResDebug
 > Task :library:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
-> Task :app:generateDebugSources
+> Task :library:bundleLibRuntimeDebug
+> Task :library:createFullJarDebug
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
-> Task :app:mergeDebugAssets
+> Task :app:mergeDebugJavaResource
+> Task :app:desugarDebugFileDependencies
+> Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
-> Task :library:bundleLibRuntimeDebug
-> Task :app:checkDebugDuplicateClasses
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :app:transformDexArchiveWithDexMergerForDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :library:processDebugJavaRes NO-SOURCE
-> Task :library:bundleLibResDebug
 > Task :library:mergeDebugJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForDebug
-> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :library:preReleaseBuild UP-TO-DATE
-> Task :library:checkReleaseManifest
-> Task :library:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :library:packageReleaseRenderscript NO-SOURCE
@@ -120,28 +101,43 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
-> Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :library:checkReleaseManifest
+> Task :library:processReleaseManifest
 > Task :app:processReleaseManifest
+> Task :library:generateReleaseBuildConfig
+> Task :library:parseReleaseLibraryResources
+> Task :library:mergeDebugNativeLibs
+> Task :library:stripDebugDebugSymbols
+> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeReleaseResources
 > Task :library:generateReleaseRFile
 > Task :app:processReleaseResources
-> Task :library:generateReleaseBuildConfig
 > Task :library:compileReleaseKotlin
-> Task :library:generateReleaseSources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :library:javaPreCompileRelease
 > Task :library:compileReleaseJavaWithJavac
 > Task :library:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
-> Task :app:generateReleaseSources
+> Task :app:prepareLintJar
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :library:prepareLintJarForPublish
+> Task :library:bundleLibRuntimeRelease
+> Task :library:bundleLibResRelease
+> Task :library:createFullJarRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :library:prepareLintJarForPublish
-> Task :app:mergeReleaseShaders
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e7cc4bf98aceebd44e8a7643ab91cd9f/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:desugarReleaseFileDependencies
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
 > Task :library:mergeReleaseShaders
@@ -149,23 +145,18 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :library:generateReleaseAssets
 > Task :library:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :app:signingConfigWriterRelease
-> Task :app:checkReleaseDuplicateClasses
-> Task :library:bundleLibRuntimeRelease
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :app:transformDexArchiveWithDexMergerForRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:bundleLibResRelease
-> Task :library:mergeReleaseJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForRelease
-> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :library:mergeReleaseJniLibFolders
+> Task :library:mergeReleaseNativeLibs
+> Task :library:stripReleaseDebugSymbols
+> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
@@ -173,9 +164,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 10s
-93 actionable tasks: 93 executed
+BUILD SUCCESSFUL in 1m 17s
+96 actionable tasks: 96 executed
 
-2019-09-26 18:03:10,314 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495706332-0/src/waterfall-toolbar-master/app/build/outputs/apk/debug/app-debug.apk
+2019-11-10 21:25:34,690 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573395841677-0/src/waterfall-toolbar-master/app/build/outputs/apk/debug/app-debug.apk
