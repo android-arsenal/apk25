@@ -1,37 +1,37 @@
-2018-12-12 20:00:36,599 INFO  DownloadService - Downloading "https://github.com/florent37/RxGps/archive/master.zip", attempt 3
-2018-12-12 20:00:38,322 INFO  DownloadService - Downloaded https://github.com/florent37/RxGps/archive/master.zip, attempt 3
-2018-12-12 20:00:38,323 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/master.zip": 179 KB
-2018-12-12 20:00:38,323 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-12 20:00:38,323 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/master.zip: true
-2018-12-12 20:00:38,323 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src'.
-2018-12-12 20:00:38,345 INFO  FullProcessService - Size of directory with sources: 252 KB
-2018-12-12 20:00:38,345 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src]
-2018-12-12 20:00:38,363 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/.git/
+2020-01-01 21:42:52,381 INFO  DownloadService - Downloading "https://github.com/florent37/RxGps/archive/master.zip", attempt 3
+2020-01-01 21:42:53,050 INFO  DownloadService - Downloaded https://github.com/florent37/RxGps/archive/master.zip, attempt 3
+2020-01-01 21:42:53,050 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/master.zip": 179 KB
+2020-01-01 21:42:53,050 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-01 21:42:53,050 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/master.zip: true
+2020-01-01 21:42:53,050 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src'.
+2020-01-01 21:42:53,075 INFO  FullProcessService - Size of directory with sources: 252 KB
+2020-01-01 21:42:53,075 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src]
+2020-01-01 21:42:53,095 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/.git/
 
-2018-12-12 20:00:38,367 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/gradlew
-2018-12-12 20:00:38,370 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/build.gradle
-2018-12-12 20:00:38,373 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/settings.gradle
-2018-12-12 20:00:38,374 INFO  ProjectBuildService - Remote scripts: none
-2018-12-12 20:00:38,374 INFO  ProjectFixService - Fixing project...
-2018-12-12 20:00:38,383 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/app/local.properties
-2018-12-12 20:00:38,386 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/app/build.gradle": [buildToolsVersion=26.1.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-12-12 20:00:38,386 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/app/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-12 20:00:38,387 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/local.properties
-2018-12-12 20:00:38,390 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/build.gradle": [buildToolsVersion=26.1.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-12-12 20:00:38,390 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-12 20:00:38,391 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/local.properties
-2018-12-12 20:00:38,391 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-12-12 20:00:38,392 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-12-12 20:00:38,393 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/build.gradle": [buildToolsVersion=26.1.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-12-12 20:00:38,393 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-12 20:00:38,394 INFO  ProjectFixService - Project was maybe fixed
-2018-12-12 20:00:38,394 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-12 20:00:38,394 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-12 20:00:45,587 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-12 20:00:45,588 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-12 20:00:45,588 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-12 20:00:45,588 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-12 20:00:50,535 ERROR SysUtils - Could not process external command
+2020-01-01 21:42:53,098 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/gradlew
+2020-01-01 21:42:53,100 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/build.gradle
+2020-01-01 21:42:53,102 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/settings.gradle
+2020-01-01 21:42:53,103 INFO  ProjectBuildService - Remote scripts: none
+2020-01-01 21:42:53,103 INFO  ProjectFixService - Fixing project...
+2020-01-01 21:42:53,109 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/app/local.properties
+2020-01-01 21:42:53,112 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/app/build.gradle": [buildToolsVersion=26.1.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2020-01-01 21:42:53,113 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/app/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-01-01 21:42:53,113 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/local.properties
+2020-01-01 21:42:53,116 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/build.gradle": [buildToolsVersion=26.1.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2020-01-01 21:42:53,116 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-01-01 21:42:53,117 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/local.properties
+2020-01-01 21:42:53,118 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2020-01-01 21:42:53,118 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2020-01-01 21:42:53,120 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/build.gradle": [buildToolsVersion=26.1.0,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2020-01-01 21:42:53,120 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-01-01 21:42:53,120 INFO  ProjectFixService - Project was maybe fixed
+2020-01-01 21:42:53,120 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-01 21:42:53,121 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-01 21:43:00,529 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-01 21:43:00,529 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-01 21:43:00,529 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-01 21:43:00,530 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-01 21:43:05,848 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -50,21 +50,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-12 20:00:50,535 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-01 21:43:05,848 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/app/build.gradle' line: 5
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/app/build.gradle' line: 5
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -177,7 +177,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:83)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:61)
 	at org.gradle.api.internal.project.DefaultProject_Decorated.getProperty(Unknown Source)
-	at build_bmv25knqzzrfbvpwu2bvep582$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/app/build.gradle:5)
+	at build_4bw8wa7lnyhu0kxogr4u6g5s7$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/app/build.gradle:5)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -192,21 +192,21 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:134)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:83)
-	at build_bmv25knqzzrfbvpwu2bvep582.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/app/build.gradle:3)
+	at build_4bw8wa7lnyhu0kxogr4u6g5s7.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/app/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 97 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2018-12-12 20:00:50,540 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-12 20:00:50,540 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-12 20:00:56,808 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-12 20:00:56,808 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-12 20:00:56,808 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-12 20:01:16,745 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-01 21:43:05,851 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-01 21:43:05,852 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-01 21:43:12,558 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-01-01 21:43:12,559 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-01 21:43:12,559 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-01 21:43:34,975 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 :rxgps:preBuild UP-TO-DATE
@@ -216,8 +216,12 @@ Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-ser
 Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-basement/maven-metadata.xml
 Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-places-placereport/maven-metadata.xml
 Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-tasks/maven-metadata.xml
-Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-location/15.0.1/play-services-location-15.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-base/15.0.1/play-services-base-15.0.1.aar
+Download https://jcenter.bintray.com/com/tbruyelle/rxpermissions2/rxpermissions/0.9.5/rxpermissions-0.9.5.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-basement/15.0.1/play-services-basement-15.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-tasks/15.0.1/play-services-tasks-15.0.1.aar
 Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-places-placereport/15.0.1/play-services-places-placereport-15.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-location/15.0.1/play-services-location-15.0.1.aar
 :rxgps:compileDebugRenderscript
 :rxgps:checkDebugManifest
 :rxgps:generateDebugBuildConfig
@@ -265,416 +269,416 @@ Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.1.14/rxjava-2
 :rxgps:transformNativeLibsWithSyncJniLibsForRelease
 :rxgps:mergeReleaseResources
 :rxgps:verifyReleaseResources
-:rxgps:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:9: error: package com.google.android.gms.common does not exist
+:rxgps:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:9: error: package com.google.android.gms.common does not exist
 import com.google.android.gms.common.ConnectionResult;
                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:10: error: package com.google.android.gms.common does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:10: error: package com.google.android.gms.common does not exist
 import com.google.android.gms.common.GoogleApiAvailability;
                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:11: error: package com.google.android.gms.location does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:11: error: package com.google.android.gms.location does not exist
 import com.google.android.gms.location.LocationRequest;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:12: error: package com.tbruyelle.rxpermissions2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:12: error: package com.tbruyelle.rxpermissions2 does not exist
 import com.tbruyelle.rxpermissions2.RxPermissions;
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:17: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:17: error: package io.reactivex does not exist
 import io.reactivex.Maybe;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:18: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:18: error: package io.reactivex does not exist
 import io.reactivex.MaybeSource;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:19: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:19: error: package io.reactivex does not exist
 import io.reactivex.Observable;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:20: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:20: error: package io.reactivex does not exist
 import io.reactivex.ObservableEmitter;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:21: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:21: error: package io.reactivex does not exist
 import io.reactivex.ObservableOnSubscribe;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:22: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:22: error: package io.reactivex does not exist
 import io.reactivex.ObservableSource;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:23: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:23: error: package io.reactivex does not exist
 import io.reactivex.SingleSource;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:24: error: package io.reactivex.annotations does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:24: error: package io.reactivex.annotations does not exist
 import io.reactivex.annotations.NonNull;
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:25: error: package io.reactivex.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:25: error: package io.reactivex.functions does not exist
 import io.reactivex.functions.Function;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/RxLocation.java:4: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/RxLocation.java:4: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:32: error: cannot find symbol
     private final RxPermissions rxPermissions;
                   ^
   symbol:   class RxPermissions
   location: class RxGps
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:51: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:51: error: cannot find symbol
     private Observable<Location> location(LocationRequest locationRequest, String... permissions) {
                                           ^
   symbol:   class LocationRequest
   location: class RxGps
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:51: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:51: error: cannot find symbol
     private Observable<Location> location(LocationRequest locationRequest, String... permissions) {
             ^
   symbol:   class Observable
   location: class RxGps
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:67: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:67: error: cannot find symbol
     private Observable<Boolean> request(String... permissions) {
             ^
   symbol:   class Observable
   location: class RxGps
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:80: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:80: error: cannot find symbol
     public Observable<Location> locationHight() {
            ^
   symbol:   class Observable
   location: class RxGps
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:88: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:88: error: cannot find symbol
     public Observable<Location> locationLowPower() {
            ^
   symbol:   class Observable
   location: class RxGps
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:96: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:96: error: cannot find symbol
     public Observable<Location> locationBalancedPowerAcuracy() {
            ^
   symbol:   class Observable
   location: class RxGps
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:103: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:103: error: cannot find symbol
     public Observable<Location> locationNoPower() {
            ^
   symbol:   class Observable
   location: class RxGps
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:110: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:110: error: cannot find symbol
     public Maybe<Location> lastLocation() {
            ^
   symbol:   class Maybe
   location: class RxGps
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:127: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:127: error: cannot find symbol
     public Maybe<Location> lastLocationIfExists() {
            ^
   symbol:   class Maybe
   location: class RxGps
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:154: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:154: error: cannot find symbol
     private Observable<Boolean> checkPlayServicesAvailable() {
             ^
   symbol:   class Observable
   location: class RxGps
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:174: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/github/florent37/rxgps/RxGps.java:174: error: cannot find symbol
     public Maybe<Address> geocoding(Location location) {
            ^
   symbol:   class Maybe
   location: class RxGps
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:4: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:4: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:5: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:5: error: package android.support.annotation does not exist
 import android.support.annotation.RequiresPermission;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:7: error: package com.google.android.gms.common.api does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:7: error: package com.google.android.gms.common.api does not exist
 import com.google.android.gms.common.api.Status;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:11: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:11: error: package io.reactivex does not exist
 import io.reactivex.Single;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:7: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:7: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:8: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:8: error: package android.support.annotation does not exist
 import android.support.annotation.RequiresPermission;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:10: error: package com.google.android.gms.common.api does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:10: error: package com.google.android.gms.common.api does not exist
 import com.google.android.gms.common.api.Status;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:11: error: package com.google.android.gms.location does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:11: error: package com.google.android.gms.location does not exist
 import com.google.android.gms.location.LocationRequest;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:15: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:15: error: package io.reactivex does not exist
 import io.reactivex.BackpressureStrategy;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:16: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:16: error: package io.reactivex does not exist
 import io.reactivex.Flowable;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:17: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:17: error: package io.reactivex does not exist
 import io.reactivex.Maybe;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:18: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:18: error: package io.reactivex does not exist
 import io.reactivex.Observable;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:19: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:19: error: package io.reactivex does not exist
 import io.reactivex.Single;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geocoding.java:7: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geocoding.java:7: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geocoding.java:12: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geocoding.java:12: error: package io.reactivex does not exist
 import io.reactivex.Maybe;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geocoding.java:13: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geocoding.java:13: error: package io.reactivex does not exist
 import io.reactivex.Single;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geocoding.java:14: error: package io.reactivex.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geocoding.java:14: error: package io.reactivex.functions does not exist
 import io.reactivex.functions.Function;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geofencing.java:5: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geofencing.java:5: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geofencing.java:6: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geofencing.java:6: error: package android.support.annotation does not exist
 import android.support.annotation.RequiresPermission;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geofencing.java:8: error: package com.google.android.gms.common.api does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geofencing.java:8: error: package com.google.android.gms.common.api does not exist
 import com.google.android.gms.common.api.Status;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geofencing.java:9: error: package com.google.android.gms.location does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geofencing.java:9: error: package com.google.android.gms.location does not exist
 import com.google.android.gms.location.GeofencingRequest;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geofencing.java:14: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/Geofencing.java:14: error: package io.reactivex does not exist
 import io.reactivex.Single;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/LocationSettings.java:3: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/LocationSettings.java:3: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/LocationSettings.java:5: error: package com.google.android.gms.location does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/LocationSettings.java:5: error: package com.google.android.gms.location does not exist
 import com.google.android.gms.location.LocationRequest;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/LocationSettings.java:6: error: package com.google.android.gms.location does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/LocationSettings.java:6: error: package com.google.android.gms.location does not exist
 import com.google.android.gms.location.LocationSettingsRequest;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/LocationSettings.java:7: error: package com.google.android.gms.location does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/LocationSettings.java:7: error: package com.google.android.gms.location does not exist
 import com.google.android.gms.location.LocationSettingsResult;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/LocationSettings.java:11: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/LocationSettings.java:11: error: package io.reactivex does not exist
 import io.reactivex.Completable;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/LocationSettings.java:12: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/LocationSettings.java:12: error: package io.reactivex does not exist
 import io.reactivex.Single;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/LocationSettings.java:13: error: package io.reactivex.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/LocationSettings.java:13: error: package io.reactivex.functions does not exist
 import io.reactivex.functions.Function;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:38: error: cannot find symbol
     public Single<Status> requestUpdates(long detectionIntervalMillis, @NonNull PendingIntent pendingIntent) {
            ^
   symbol:   class Single
   location: class ActivityRecognition
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:38: error: cannot find symbol
     public Single<Status> requestUpdates(long detectionIntervalMillis, @NonNull PendingIntent pendingIntent) {
                   ^
   symbol:   class Status
   location: class ActivityRecognition
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:43: error: cannot find symbol
     public Single<Status> requestUpdates(long detectionIntervalMillis, @NonNull PendingIntent pendingIntent, long timeoutTime, @NonNull TimeUnit timeoutUnit) {
            ^
   symbol:   class Single
   location: class ActivityRecognition
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:43: error: cannot find symbol
     public Single<Status> requestUpdates(long detectionIntervalMillis, @NonNull PendingIntent pendingIntent, long timeoutTime, @NonNull TimeUnit timeoutUnit) {
                   ^
   symbol:   class Status
   location: class ActivityRecognition
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:47: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:47: error: cannot find symbol
     private Single<Status> requestUpdatesInternal(long detectionIntervalMillis, PendingIntent pendingIntent, Long timeout, TimeUnit timeUnit) {
             ^
   symbol:   class Single
   location: class ActivityRecognition
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:47: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:47: error: cannot find symbol
     private Single<Status> requestUpdatesInternal(long detectionIntervalMillis, PendingIntent pendingIntent, Long timeout, TimeUnit timeUnit) {
                    ^
   symbol:   class Status
   location: class ActivityRecognition
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:54: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:54: error: cannot find symbol
     public Single<Status> removeUpdates(@NonNull PendingIntent pendingIntent) {
            ^
   symbol:   class Single
   location: class ActivityRecognition
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:54: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:54: error: cannot find symbol
     public Single<Status> removeUpdates(@NonNull PendingIntent pendingIntent) {
                   ^
   symbol:   class Status
   location: class ActivityRecognition
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:59: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:59: error: cannot find symbol
     public Single<Status> removeUpdates(@NonNull PendingIntent pendingIntent, long timeoutTime, @NonNull TimeUnit timeoutUnit) {
            ^
   symbol:   class Single
   location: class ActivityRecognition
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:59: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:59: error: cannot find symbol
     public Single<Status> removeUpdates(@NonNull PendingIntent pendingIntent, long timeoutTime, @NonNull TimeUnit timeoutUnit) {
                   ^
   symbol:   class Status
   location: class ActivityRecognition
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:63: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:63: error: cannot find symbol
     private Single<Status> removeUpdatesInternal(PendingIntent pendingIntent, Long timeout, TimeUnit timeUnit) {
             ^
   symbol:   class Single
   location: class ActivityRecognition
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:63: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/ActivityRecognition.java:63: error: cannot find symbol
     private Single<Status> removeUpdatesInternal(PendingIntent pendingIntent, Long timeout, TimeUnit timeUnit) {
                    ^
   symbol:   class Status
   location: class ActivityRecognition
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:45: error: cannot find symbol
     public Single<Status> flush() {
            ^
   symbol:   class Single
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:45: error: cannot find symbol
     public Single<Status> flush() {
                   ^
   symbol:   class Status
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:49: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:49: error: cannot find symbol
     public Single<Status> flush(long timeoutTime, @NonNull TimeUnit timeoutUnit) {
            ^
   symbol:   class Single
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:49: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:49: error: cannot find symbol
     public Single<Status> flush(long timeoutTime, @NonNull TimeUnit timeoutUnit) {
                   ^
   symbol:   class Status
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:53: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:53: error: cannot find symbol
     private Single<Status> flushInternal(Long timeoutTime, TimeUnit timeoutUnit) {
             ^
   symbol:   class Single
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:53: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:53: error: cannot find symbol
     private Single<Status> flushInternal(Long timeoutTime, TimeUnit timeoutUnit) {
                    ^
   symbol:   class Status
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:61: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:61: error: cannot find symbol
     public Maybe<Location> lastLocation() {
            ^
   symbol:   class Maybe
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:69: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:69: error: cannot find symbol
     public Single<Boolean> isLocationAvailable() {
            ^
   symbol:   class Single
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:77: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:77: error: cannot find symbol
     public Observable<Location> updates(@NonNull LocationRequest locationRequest) {
                                                  ^
   symbol:   class LocationRequest
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:77: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:77: error: cannot find symbol
     public Observable<Location> updates(@NonNull LocationRequest locationRequest) {
            ^
   symbol:   class Observable
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:82: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:82: error: cannot find symbol
     public Observable<Location> updates(@NonNull LocationRequest locationRequest, long timeoutTime, @NonNull TimeUnit timeoutUnit) {
                                                  ^
   symbol:   class LocationRequest
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:82: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:82: error: cannot find symbol
     public Observable<Location> updates(@NonNull LocationRequest locationRequest, long timeoutTime, @NonNull TimeUnit timeoutUnit) {
            ^
   symbol:   class Observable
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:87: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:87: error: cannot find symbol
     public Observable<Location> updates(@NonNull LocationRequest locationRequest, @NonNull Looper looper) {
                                                  ^
   symbol:   class LocationRequest
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:87: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:87: error: cannot find symbol
     public Observable<Location> updates(@NonNull LocationRequest locationRequest, @NonNull Looper looper) {
            ^
   symbol:   class Observable
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:92: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:92: error: cannot find symbol
     public Observable<Location> updates(@NonNull LocationRequest locationRequest, @NonNull Looper looper, long timeoutTime, @NonNull TimeUnit timeoutUnit) {
                                                  ^
   symbol:   class LocationRequest
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:92: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:92: error: cannot find symbol
     public Observable<Location> updates(@NonNull LocationRequest locationRequest, @NonNull Looper looper, long timeoutTime, @NonNull TimeUnit timeoutUnit) {
            ^
   symbol:   class Observable
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:97: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:97: error: cannot find symbol
     public Flowable<Location> updates(@NonNull LocationRequest locationRequest, BackpressureStrategy backpressureStrategy) {
                                                ^
   symbol:   class LocationRequest
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:97: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:97: error: cannot find symbol
     public Flowable<Location> updates(@NonNull LocationRequest locationRequest, BackpressureStrategy backpressureStrategy) {
                                                                                 ^
   symbol:   class BackpressureStrategy
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:97: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:97: error: cannot find symbol
     public Flowable<Location> updates(@NonNull LocationRequest locationRequest, BackpressureStrategy backpressureStrategy) {
            ^
   symbol:   class Flowable
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:102: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:102: error: cannot find symbol
     public Flowable<Location> updates(@NonNull LocationRequest locationRequest, long timeoutTime, @NonNull TimeUnit timeoutUnit, BackpressureStrategy backpressureStrategy) {
                                                ^
   symbol:   class LocationRequest
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:102: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:102: error: cannot find symbol
     public Flowable<Location> updates(@NonNull LocationRequest locationRequest, long timeoutTime, @NonNull TimeUnit timeoutUnit, BackpressureStrategy backpressureStrategy) {
                                                                                                                                  ^
   symbol:   class BackpressureStrategy
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:102: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:102: error: cannot find symbol
     public Flowable<Location> updates(@NonNull LocationRequest locationRequest, long timeoutTime, @NonNull TimeUnit timeoutUnit, BackpressureStrategy backpressureStrategy) {
            ^
   symbol:   class Flowable
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:107: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:107: error: cannot find symbol
     public Flowable<Location> updates(@NonNull LocationRequest locationRequest, @NonNull Looper looper, BackpressureStrategy backpressureStrategy) {
                                                ^
   symbol:   class LocationRequest
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:107: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:107: error: cannot find symbol
     public Flowable<Location> updates(@NonNull LocationRequest locationRequest, @NonNull Looper looper, BackpressureStrategy backpressureStrategy) {
                                                                                                         ^
   symbol:   class BackpressureStrategy
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:107: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:107: error: cannot find symbol
     public Flowable<Location> updates(@NonNull LocationRequest locationRequest, @NonNull Looper looper, BackpressureStrategy backpressureStrategy) {
            ^
   symbol:   class Flowable
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:112: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:112: error: cannot find symbol
     public Flowable<Location> updates(@NonNull LocationRequest locationRequest, @NonNull Looper looper, long timeoutTime, @NonNull TimeUnit timeoutUnit, BackpressureStrategy backpressureStrategy) {
                                                ^
   symbol:   class LocationRequest
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:112: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:112: error: cannot find symbol
     public Flowable<Location> updates(@NonNull LocationRequest locationRequest, @NonNull Looper looper, long timeoutTime, @NonNull TimeUnit timeoutUnit, BackpressureStrategy backpressureStrategy) {
                                                                                                                                                          ^
   symbol:   class BackpressureStrategy
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:112: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:112: error: cannot find symbol
     public Flowable<Location> updates(@NonNull LocationRequest locationRequest, @NonNull Looper looper, long timeoutTime, @NonNull TimeUnit timeoutUnit, BackpressureStrategy backpressureStrategy) {
            ^
   symbol:   class Flowable
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:116: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:116: error: cannot find symbol
     private Flowable<Location> updatesInternal(LocationRequest locationRequest, Looper looper, Long timeoutTime, TimeUnit timeoutUnit, BackpressureStrategy backpressureStrategy) {
                                                ^
   symbol:   class LocationRequest
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:116: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:116: error: cannot find symbol
     private Flowable<Location> updatesInternal(LocationRequest locationRequest, Looper looper, Long timeoutTime, TimeUnit timeoutUnit, BackpressureStrategy backpressureStrategy) {
                                                                                                                                        ^
   symbol:   class BackpressureStrategy
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:116: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:116: error: cannot find symbol
     private Flowable<Location> updatesInternal(LocationRequest locationRequest, Looper looper, Long timeoutTime, TimeUnit timeoutUnit, BackpressureStrategy backpressureStrategy) {
             ^
   symbol:   class Flowable
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:124: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:124: error: cannot find symbol
     public Single<Status> requestUpdates(@NonNull LocationRequest locationRequest, @NonNull PendingIntent pendingIntent) {
                                                   ^
   symbol:   class LocationRequest
   location: class FusedLocation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:124: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/rxgps/src/main/java/com/patloew/rxlocation/FusedLocation.java:124: error: cannot find symbol
     public Single<Status> requestUpdates(@NonNull LocationRequest locationRequest, @NonNull PendingIntent pendingIntent) {
            ^
   symbol:   class Single
@@ -712,16 +716,16 @@ Note: Recompile with -Xlint:unchecked for details.
 :rxgps:assemble
 :rxgps:build
 
-BUILD SUCCESSFUL in 19s
+BUILD SUCCESSFUL in 22s
 51 actionable tasks: 51 executed
 
-2018-12-12 20:01:16,780 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-12 20:01:16,780 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-12 20:01:21,528 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-12 20:01:21,528 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-12 20:01:21,528 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-12 20:01:21,528 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-12 20:01:26,238 ERROR SysUtils - Could not process external command
+2020-01-01 21:43:35,013 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-01 21:43:35,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-01 21:43:43,425 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-01 21:43:43,425 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-01 21:43:43,425 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-01 21:43:43,425 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-01 21:43:48,668 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -740,21 +744,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-12 20:01:26,239 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-01 21:43:48,668 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/app/build.gradle' line: 5
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/app/build.gradle' line: 5
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -867,7 +871,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getMissingProperty(AbstractDynamicObject.java:83)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:61)
 	at org.gradle.api.internal.project.DefaultProject_Decorated.getProperty(Unknown Source)
-	at build_bmv25knqzzrfbvpwu2bvep582$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/app/build.gradle:5)
+	at build_4bw8wa7lnyhu0kxogr4u6g5s7$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/app/build.gradle:5)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -882,14 +886,14 @@ Caused by: groovy.lang.MissingPropertyException: Could not get unknown property 
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:134)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:83)
-	at build_bmv25knqzzrfbvpwu2bvep582.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544619636596-0/src/RxGps-master/app/build.gradle:3)
+	at build_4bw8wa7lnyhu0kxogr4u6g5s7.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889772378-0/src/RxGps-master/app/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 97 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2018-12-12 20:01:26,276 ERROR FullProcessService - Project build has not produced APK file
-2018-12-12 20:01:26,312 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-01 21:43:48,703 ERROR FullProcessService - Project build has not produced APK file
+2020-01-01 21:43:48,731 ERROR FullProcessService - Could not find generated or existed APK file

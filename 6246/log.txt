@@ -1,32 +1,32 @@
-2018-11-02 14:34:23,287 INFO  DownloadService - Downloading "https://github.com/rjsvieira/expandableConstraintLayout/archive/master.zip", attempt 3
-2018-11-02 14:34:24,742 INFO  DownloadService - Downloaded https://github.com/rjsvieira/expandableConstraintLayout/archive/master.zip, attempt 3
-2018-11-02 14:34:24,742 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/master.zip": 1 MB
-2018-11-02 14:34:24,742 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-02 14:34:24,743 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/master.zip: true
-2018-11-02 14:34:24,743 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src'.
-2018-11-02 14:34:24,760 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-11-02 14:34:24,760 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src]
-2018-11-02 14:34:24,779 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/.git/
+2020-01-01 21:36:05,697 INFO  DownloadService - Downloading "https://github.com/rjsvieira/expandableConstraintLayout/archive/master.zip", attempt 3
+2020-01-01 21:36:09,005 INFO  DownloadService - Downloaded https://github.com/rjsvieira/expandableConstraintLayout/archive/master.zip, attempt 3
+2020-01-01 21:36:09,006 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/master.zip": 1 MB
+2020-01-01 21:36:09,006 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-01 21:36:09,011 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/master.zip: true
+2020-01-01 21:36:09,012 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src'.
+2020-01-01 21:36:09,030 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-01-01 21:36:09,031 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src]
+2020-01-01 21:36:09,051 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/.git/
 
-2018-11-02 14:34:24,780 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/gradlew
-2018-11-02 14:34:24,782 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/expconslayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/build.gradle
-2018-11-02 14:34:24,783 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/expconslayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/settings.gradle
-2018-11-02 14:34:24,784 INFO  ProjectBuildService - Remote scripts: none
-2018-11-02 14:34:24,784 INFO  ProjectFixService - Fixing project...
-2018-11-02 14:34:24,788 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/expconslayout/local.properties
-2018-11-02 14:34:24,788 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/expconslayout/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-11-02 14:34:24,789 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/local.properties
-2018-11-02 14:34:24,789 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-11-02 14:34:24,789 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-11-02 14:34:24,790 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-11-02 14:34:24,790 INFO  ProjectFixService - Project was maybe fixed
-2018-11-02 14:34:24,790 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-02 14:34:24,790 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/expconslayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-02 14:34:27,020 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-02 14:34:27,020 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-02 14:34:27,020 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-02 14:34:27,021 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/expconslayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-02 14:34:28,972 ERROR SysUtils - Could not process external command
+2020-01-01 21:36:09,053 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/gradlew
+2020-01-01 21:36:09,055 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/expconslayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/build.gradle
+2020-01-01 21:36:09,057 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/expconslayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/settings.gradle
+2020-01-01 21:36:09,057 INFO  ProjectBuildService - Remote scripts: none
+2020-01-01 21:36:09,057 INFO  ProjectFixService - Fixing project...
+2020-01-01 21:36:09,061 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/expconslayout/local.properties
+2020-01-01 21:36:09,062 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/expconslayout/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-01 21:36:09,062 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/local.properties
+2020-01-01 21:36:09,063 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2020-01-01 21:36:09,063 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2020-01-01 21:36:09,064 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-01 21:36:09,064 INFO  ProjectFixService - Project was maybe fixed
+2020-01-01 21:36:09,064 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-01 21:36:09,064 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/expconslayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-01 21:36:11,968 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-01 21:36:11,968 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-01 21:36:11,968 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-01 21:36:11,968 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/expconslayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-01 21:36:14,294 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -39,26 +39,27 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-02 14:34:28,972 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-01 21:36:14,295 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/expconslayout/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/expconslayout/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating root project 'expconslayout'.
@@ -160,7 +161,7 @@ Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.an
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
-	at build_155nzggr7yaobrly2evj6lhas.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/expconslayout/build.gradle:1)
+	at build_5zus8hp137o99baoeblwy0tjq.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/expconslayout/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 81 more
 
@@ -170,14 +171,14 @@ Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.an
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 1s
+BUILD FAILED in 2s
 
-2018-11-02 14:34:28,974 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-02 14:34:28,974 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-02 14:34:32,053 INFO  ProjectTaskService - Detected possible tasks: 23
-2018-11-02 14:34:32,053 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-02 14:34:32,053 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144063284-0/src/expandableConstraintLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-02 14:34:35,504 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-01 21:36:14,297 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-01 21:36:14,297 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-01 21:36:17,906 INFO  ProjectTaskService - Detected possible tasks: 23
+2020-01-01 21:36:17,907 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-01 21:36:17,907 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577889365693-0/src/expandableConstraintLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-01 21:36:20,916 INFO  SysUtils - Configuration on demand is an incubating feature.
 :buildEnvironment
 
 ------------------------------------------------------------
@@ -380,8 +381,8 @@ classpath
 
 A web-based, searchable dependency report is available by adding the --scan option.
 
-BUILD SUCCESSFUL in 3s
+BUILD SUCCESSFUL in 2s
 1 actionable task: 1 executed
 
-2018-11-02 14:34:35,507 ERROR FullProcessService - Project build has not produced APK file
-2018-11-02 14:34:35,509 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-01 21:36:20,918 ERROR FullProcessService - Project build has not produced APK file
+2020-01-01 21:36:20,920 ERROR FullProcessService - Could not find generated or existed APK file
