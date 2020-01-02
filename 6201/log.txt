@@ -1,36 +1,37 @@
-2019-07-05 02:30:39,094 INFO  DownloadService - Downloading "https://github.com/Dimezis/BottomNavigationBar/archive/master.zip", attempt 3
-2019-07-05 02:30:39,795 INFO  DownloadService - Downloaded https://github.com/Dimezis/BottomNavigationBar/archive/master.zip, attempt 3
-2019-07-05 02:30:39,795 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/master.zip": 375 KB
-2019-07-05 02:30:39,796 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-05 02:30:39,801 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/master.zip: true
-2019-07-05 02:30:39,802 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src'.
-2019-07-05 02:30:39,821 INFO  FullProcessService - Size of directory with sources: 413 KB
-2019-07-05 02:30:39,821 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src]
-2019-07-05 02:30:39,838 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/.git/
+2020-01-02 19:44:15,932 INFO  DownloadService - Downloading "https://github.com/Dimezis/BottomNavigationBar/archive/master.zip", attempt 3
+2020-01-02 19:44:17,010 INFO  DownloadService - Downloaded https://github.com/Dimezis/BottomNavigationBar/archive/master.zip, attempt 3
+2020-01-02 19:44:17,010 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/master.zip": 375 KB
+2020-01-02 19:44:17,010 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-02 19:44:17,011 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/master.zip: true
+2020-01-02 19:44:17,011 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src'.
+2020-01-02 19:44:17,037 INFO  FullProcessService - Size of directory with sources: 413 KB
+2020-01-02 19:44:17,037 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src]
+2020-01-02 19:44:17,062 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/.git/
 
-2019-07-05 02:30:39,841 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/gradlew
-2019-07-05 02:30:39,843 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/build.gradle
-2019-07-05 02:30:39,846 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/settings.gradle
-2019-07-05 02:30:39,846 INFO  ProjectBuildService - Remote scripts: none
-2019-07-05 02:30:39,846 INFO  ProjectFixService - Fixing project...
-2019-07-05 02:30:39,852 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/app/local.properties
-2019-07-05 02:30:39,853 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-05 02:30:39,853 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-05 02:30:39,854 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/local.properties
-2019-07-05 02:30:39,855 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-05 02:30:39,855 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-05 02:30:39,856 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/local.properties
-2019-07-05 02:30:39,856 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-07-05 02:30:39,856 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-07-05 02:30:39,857 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-05 02:30:39,857 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-05 02:30:39,857 INFO  ProjectFixService - Project was maybe fixed
-2019-07-05 02:30:39,857 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 02:30:39,858 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 02:30:45,880 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-05 02:30:45,880 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-05 02:30:45,881 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-05 02:30:51,893 ERROR SysUtils - Could not process external command
+2020-01-02 19:44:17,068 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/gradlew
+2020-01-02 19:44:17,075 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/build.gradle
+2020-01-02 19:44:17,079 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/settings.gradle
+2020-01-02 19:44:17,079 INFO  ProjectBuildService - Remote scripts: none
+2020-01-02 19:44:17,079 INFO  ProjectFixService - Fixing project...
+2020-01-02 19:44:17,088 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/app/local.properties
+2020-01-02 19:44:17,089 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-02 19:44:17,089 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-02 19:44:17,091 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/local.properties
+2020-01-02 19:44:17,092 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-02 19:44:17,093 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-02 19:44:17,094 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/local.properties
+2020-01-02 19:44:17,094 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-02 19:44:17,095 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-02 19:44:17,097 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-02 19:44:17,097 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-02 19:44:17,098 INFO  ProjectFixService - Project was maybe fixed
+2020-01-02 19:44:17,098 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 19:44:17,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 19:44:25,911 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-02 19:44:25,911 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-02 19:44:25,911 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-02 19:44:26,885 INFO  VirusProcessorServiceImpl - Queued project 6203 to scan viruses
+2020-01-02 19:44:32,480 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -49,16 +50,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-05 02:30:51,893 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 19:44:32,480 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :bottomnavigationbar
 fatal: No names found, cannot describe anything.
@@ -66,7 +67,7 @@ fatal: No names found, cannot describe anything.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle' line: 12
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle' line: 12
 
 * What went wrong:
 A problem occurred evaluating project ':bottomnavigationbar'.
@@ -241,7 +242,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.process.internal.DefaultExecActionFactory.exec(DefaultExecActionFactory.java:136)
 	at org.gradle.groovy.scripts.DefaultScript.exec(DefaultScript.java:260)
 	at org.gradle.api.Script$exec$1.callCurrent(Unknown Source)
-	at build_98be1rxjvmybnxciqg26v56k4.getVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:12)
+	at build_3anvawcb30vhm6xkf3tduk9fe.getVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:12)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:128)
@@ -254,7 +255,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_98be1rxjvmybnxciqg26v56k4$_run_closure8$_closure14$_closure15.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:76)
+	at build_3anvawcb30vhm6xkf3tduk9fe$_run_closure8$_closure14$_closure15.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:76)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -262,7 +263,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.api.internal.AbstractPolymorphicDomainObjectContainer.create(AbstractPolymorphicDomainObjectContainer.java:66)
 	at org.gradle.api.internal.PolymorphicDomainObjectContainerConfigureDelegate._configure(PolymorphicDomainObjectContainerConfigureDelegate.java:44)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:65)
-	at build_98be1rxjvmybnxciqg26v56k4$_run_closure8$_closure14.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:70)
+	at build_3anvawcb30vhm6xkf3tduk9fe$_run_closure8$_closure14.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:70)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
@@ -277,7 +278,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:56)
-	at build_98be1rxjvmybnxciqg26v56k4$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:69)
+	at build_3anvawcb30vhm6xkf3tduk9fe$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:69)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -292,22 +293,22 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:132)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:81)
-	at build_98be1rxjvmybnxciqg26v56k4.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:68)
+	at build_3anvawcb30vhm6xkf3tduk9fe.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:68)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 157 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 6s
 
-2019-07-05 02:30:51,897 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 02:30:51,897 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 02:30:57,047 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-05 02:30:57,047 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-05 02:30:57,047 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-05 02:30:57,047 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-05 02:31:02,107 ERROR SysUtils - Could not process external command
+2020-01-02 19:44:32,485 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 19:44:32,485 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 19:44:40,000 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-02 19:44:40,000 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-02 19:44:40,000 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-02 19:44:40,000 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-02 19:44:47,096 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -326,16 +327,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-05 02:31:02,107 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 19:44:47,097 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :bottomnavigationbar
 fatal: No names found, cannot describe anything.
@@ -343,7 +344,7 @@ fatal: No names found, cannot describe anything.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle' line: 12
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle' line: 12
 
 * What went wrong:
 A problem occurred evaluating project ':bottomnavigationbar'.
@@ -492,7 +493,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.process.internal.DefaultExecActionFactory.exec(DefaultExecActionFactory.java:136)
 	at org.gradle.groovy.scripts.DefaultScript.exec(DefaultScript.java:260)
 	at org.gradle.api.Script$exec$1.callCurrent(Unknown Source)
-	at build_98be1rxjvmybnxciqg26v56k4.getVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:12)
+	at build_3anvawcb30vhm6xkf3tduk9fe.getVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:12)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:128)
@@ -505,7 +506,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_98be1rxjvmybnxciqg26v56k4$_run_closure8$_closure14$_closure15.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:76)
+	at build_3anvawcb30vhm6xkf3tduk9fe$_run_closure8$_closure14$_closure15.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:76)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -513,7 +514,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.api.internal.AbstractPolymorphicDomainObjectContainer.create(AbstractPolymorphicDomainObjectContainer.java:66)
 	at org.gradle.api.internal.PolymorphicDomainObjectContainerConfigureDelegate._configure(PolymorphicDomainObjectContainerConfigureDelegate.java:44)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:65)
-	at build_98be1rxjvmybnxciqg26v56k4$_run_closure8$_closure14.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:70)
+	at build_3anvawcb30vhm6xkf3tduk9fe$_run_closure8$_closure14.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:70)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
@@ -528,7 +529,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:56)
-	at build_98be1rxjvmybnxciqg26v56k4$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:69)
+	at build_3anvawcb30vhm6xkf3tduk9fe$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:69)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -543,22 +544,22 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:132)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:81)
-	at build_98be1rxjvmybnxciqg26v56k4.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:68)
+	at build_3anvawcb30vhm6xkf3tduk9fe.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:68)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 131 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 6s
 
-2019-07-05 02:31:02,110 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 02:31:02,110 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 02:31:07,730 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-05 02:31:07,730 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-05 02:31:07,730 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-05 02:31:07,730 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-05 02:31:13,258 ERROR SysUtils - Could not process external command
+2020-01-02 19:44:47,101 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 19:44:47,101 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 19:44:54,484 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-02 19:44:54,484 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-02 19:44:54,484 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-02 19:44:54,485 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-02 19:45:02,470 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -577,16 +578,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-05 02:31:13,259 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 19:45:02,470 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :bottomnavigationbar
 fatal: No names found, cannot describe anything.
@@ -594,7 +595,7 @@ fatal: No names found, cannot describe anything.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle' line: 12
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle' line: 12
 
 * What went wrong:
 A problem occurred evaluating project ':bottomnavigationbar'.
@@ -743,7 +744,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.process.internal.DefaultExecActionFactory.exec(DefaultExecActionFactory.java:136)
 	at org.gradle.groovy.scripts.DefaultScript.exec(DefaultScript.java:260)
 	at org.gradle.api.Script$exec$1.callCurrent(Unknown Source)
-	at build_98be1rxjvmybnxciqg26v56k4.getVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:12)
+	at build_3anvawcb30vhm6xkf3tduk9fe.getVersionName(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:12)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:128)
@@ -756,7 +757,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_98be1rxjvmybnxciqg26v56k4$_run_closure8$_closure14$_closure15.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:76)
+	at build_3anvawcb30vhm6xkf3tduk9fe$_run_closure8$_closure14$_closure15.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:76)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -764,7 +765,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.api.internal.AbstractPolymorphicDomainObjectContainer.create(AbstractPolymorphicDomainObjectContainer.java:66)
 	at org.gradle.api.internal.PolymorphicDomainObjectContainerConfigureDelegate._configure(PolymorphicDomainObjectContainerConfigureDelegate.java:44)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:65)
-	at build_98be1rxjvmybnxciqg26v56k4$_run_closure8$_closure14.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:70)
+	at build_3anvawcb30vhm6xkf3tduk9fe$_run_closure8$_closure14.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:70)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
@@ -779,7 +780,7 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:56)
-	at build_98be1rxjvmybnxciqg26v56k4$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:69)
+	at build_3anvawcb30vhm6xkf3tduk9fe$_run_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:69)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -794,14 +795,14 @@ Caused by: org.gradle.process.internal.ExecException: Process 'command 'git'' fi
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:132)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:81)
-	at build_98be1rxjvmybnxciqg26v56k4.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562268639092-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:68)
+	at build_3anvawcb30vhm6xkf3tduk9fe.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969055928-0/src/BottomNavigationBar-master/bottomnavigationbar/build.gradle:68)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 131 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 7s
 
-2019-07-05 02:31:13,262 ERROR FullProcessService - Project build has not produced APK file
-2019-07-05 02:31:13,265 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-02 19:45:02,475 ERROR FullProcessService - Project build has not produced APK file
+2020-01-02 19:45:02,479 ERROR FullProcessService - Could not find generated or existed APK file

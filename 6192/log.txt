@@ -1,39 +1,39 @@
-2019-01-08 18:22:54,322 INFO  DownloadService - Downloading "https://github.com/RohitSurwase/API-Calling-Flow/archive/master.zip", attempt 3
-2019-01-08 18:22:56,943 INFO  DownloadService - Downloaded https://github.com/RohitSurwase/API-Calling-Flow/archive/master.zip, attempt 3
-2019-01-08 18:22:56,943 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/master.zip": 864 KB
-2019-01-08 18:22:56,943 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-08 18:22:56,949 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/master.zip: true
-2019-01-08 18:22:56,949 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src'.
-2019-01-08 18:22:56,986 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-01-08 18:22:56,986 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src]
-2019-01-08 18:22:57,008 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/.git/
+2020-01-02 19:54:19,144 INFO  DownloadService - Downloading "https://github.com/RohitSurwase/API-Calling-Flow/archive/master.zip", attempt 3
+2020-01-02 19:54:22,061 INFO  DownloadService - Downloaded https://github.com/RohitSurwase/API-Calling-Flow/archive/master.zip, attempt 3
+2020-01-02 19:54:22,061 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/master.zip": 864 KB
+2020-01-02 19:54:22,061 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-02 19:54:22,063 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/master.zip: true
+2020-01-02 19:54:22,063 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src'.
+2020-01-02 19:54:22,093 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-01-02 19:54:22,093 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src]
+2020-01-02 19:54:22,114 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/.git/
 
-2019-01-08 18:22:57,012 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/gradlew
-2019-01-08 18:22:57,015 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/example-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/ignore-dummy-module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/build.gradle
-2019-01-08 18:22:57,018 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/example-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/ignore-dummy-module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/settings.gradle
-2019-01-08 18:22:57,018 INFO  ProjectBuildService - Remote scripts: none
-2019-01-08 18:22:57,019 INFO  ProjectFixService - Fixing project...
-2019-01-08 18:22:57,026 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/api-calling-flow/local.properties
-2019-01-08 18:22:57,027 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-08 18:22:57,028 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-08 18:22:57,028 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/example-app/local.properties
-2019-01-08 18:22:57,029 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/example-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-08 18:22:57,029 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/example-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-08 18:22:57,030 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/ignore-dummy-module/local.properties
-2019-01-08 18:22:57,031 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/ignore-dummy-module/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-08 18:22:57,031 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/ignore-dummy-module/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-08 18:22:57,032 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/local.properties
-2019-01-08 18:22:57,032 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-01-08 18:22:57,033 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-01-08 18:22:57,034 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-08 18:22:57,034 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-01-08 18:22:57,035 INFO  ProjectFixService - Project was maybe fixed
-2019-01-08 18:22:57,035 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-08 18:22:57,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-08 18:23:03,466 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-01-08 18:23:03,466 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-08 18:23:03,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-08 18:23:17,305 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 19:54:22,117 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/gradlew
+2020-01-02 19:54:22,120 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/example-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/ignore-dummy-module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/build.gradle
+2020-01-02 19:54:22,123 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/example-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/ignore-dummy-module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/settings.gradle
+2020-01-02 19:54:22,123 INFO  ProjectBuildService - Remote scripts: none
+2020-01-02 19:54:22,123 INFO  ProjectFixService - Fixing project...
+2020-01-02 19:54:22,129 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/api-calling-flow/local.properties
+2020-01-02 19:54:22,130 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-02 19:54:22,130 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-02 19:54:22,131 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/example-app/local.properties
+2020-01-02 19:54:22,131 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/example-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-02 19:54:22,132 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/example-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-02 19:54:22,132 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/ignore-dummy-module/local.properties
+2020-01-02 19:54:22,133 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/ignore-dummy-module/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-02 19:54:22,133 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/ignore-dummy-module/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-02 19:54:22,135 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/local.properties
+2020-01-02 19:54:22,135 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2020-01-02 19:54:22,135 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2020-01-02 19:54:22,136 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-02 19:54:22,136 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-02 19:54:22,137 INFO  ProjectFixService - Project was maybe fixed
+2020-01-02 19:54:22,137 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 19:54:22,137 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 19:54:28,696 INFO  ProjectTaskService - Detected possible tasks: 65
+2020-01-02 19:54:28,696 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-02 19:54:28,696 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/api-calling-flow/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-02 19:54:41,849 INFO  SysUtils - Configuration on demand is an incubating feature.
 :api-calling-flow:preBuild UP-TO-DATE
 :api-calling-flow:preDebugBuild UP-TO-DATE
 :api-calling-flow:compileDebugAidl NO-SOURCE
@@ -103,7 +103,7 @@
 :api-calling-flow:assemble
 :api-calling-flow:build
 
-BUILD SUCCESSFUL in 13s
+BUILD SUCCESSFUL in 12s
 45 actionable tasks: 45 executed
 
-2019-01-08 18:23:17,359 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946574313-0/src/API-Calling-Flow-master/api-calling-flow-example.apk
+2020-01-02 19:54:41,896 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969659140-0/src/API-Calling-Flow-master/api-calling-flow-example.apk

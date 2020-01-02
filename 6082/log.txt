@@ -1,32 +1,32 @@
-2019-03-16 18:40:37,237 INFO  DownloadService - Downloading "https://github.com/chemickypes/HorizontalPicker/archive/master.zip", attempt 3
-2019-03-16 18:40:40,210 INFO  DownloadService - Downloaded https://github.com/chemickypes/HorizontalPicker/archive/master.zip, attempt 3
-2019-03-16 18:40:40,211 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/master.zip": 243 KB
-2019-03-16 18:40:40,211 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-16 18:40:40,216 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/master.zip: true
-2019-03-16 18:40:40,216 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src'.
-2019-03-16 18:40:40,237 INFO  FullProcessService - Size of directory with sources: 276 KB
-2019-03-16 18:40:40,237 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src]
-2019-03-16 18:40:40,258 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/.git/
+2020-01-02 20:54:46,217 INFO  DownloadService - Downloading "https://github.com/chemickypes/HorizontalPicker/archive/master.zip", attempt 3
+2020-01-02 20:54:46,860 INFO  DownloadService - Downloaded https://github.com/chemickypes/HorizontalPicker/archive/master.zip, attempt 3
+2020-01-02 20:54:46,860 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/master.zip": 243 KB
+2020-01-02 20:54:46,860 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-02 20:54:46,866 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/master.zip: true
+2020-01-02 20:54:46,866 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src'.
+2020-01-02 20:54:46,882 INFO  FullProcessService - Size of directory with sources: 276 KB
+2020-01-02 20:54:46,882 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src]
+2020-01-02 20:54:46,900 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/.git/
 
-2019-03-16 18:40:40,261 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/gradlew
-2019-03-16 18:40:40,264 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/build.gradle
-2019-03-16 18:40:40,267 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/settings.gradle
-2019-03-16 18:40:40,267 INFO  ProjectBuildService - Remote scripts: none
-2019-03-16 18:40:40,267 INFO  ProjectFixService - Fixing project...
-2019-03-16 18:40:40,274 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/app/local.properties
-2019-03-16 18:40:40,275 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2019-03-16 18:40:40,276 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/local.properties
-2019-03-16 18:40:40,276 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-03-16 18:40:40,276 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-03-16 18:40:40,277 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2019-03-16 18:40:40,277 INFO  ProjectFixService - Project was maybe fixed
-2019-03-16 18:40:40,278 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-16 18:40:40,278 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-16 18:40:47,249 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-16 18:40:47,250 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-16 18:40:47,250 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-16 18:40:47,250 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-16 18:40:54,710 ERROR SysUtils - Could not process external command
+2020-01-02 20:54:46,904 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/gradlew
+2020-01-02 20:54:46,906 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/build.gradle
+2020-01-02 20:54:46,908 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/settings.gradle
+2020-01-02 20:54:46,908 INFO  ProjectBuildService - Remote scripts: none
+2020-01-02 20:54:46,908 INFO  ProjectFixService - Fixing project...
+2020-01-02 20:54:46,913 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/app/local.properties
+2020-01-02 20:54:46,913 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2020-01-02 20:54:46,913 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/local.properties
+2020-01-02 20:54:46,914 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2020-01-02 20:54:46,914 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2020-01-02 20:54:46,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2020-01-02 20:54:46,914 INFO  ProjectFixService - Project was maybe fixed
+2020-01-02 20:54:46,914 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 20:54:46,914 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 20:54:53,054 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-02 20:54:53,055 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-02 20:54:53,055 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-02 20:54:53,055 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-02 20:54:57,696 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,16 +44,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-16 18:40:54,710 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 20:54:57,696 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -161,15 +161,16 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.103 secs
+Total time: 4.379 secs
 
-2019-03-16 18:40:54,714 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-16 18:40:54,714 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-16 18:41:01,441 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-16 18:41:01,441 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-16 18:41:01,441 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-16 18:41:01,441 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736437234-0/src/HorizontalPicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-16 18:41:08,336 ERROR SysUtils - Could not process external command
+2020-01-02 20:54:57,699 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 20:54:57,699 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 20:54:59,475 INFO  VirusProcessorServiceImpl - Queued project 6083 to scan viruses
+2020-01-02 20:55:02,543 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-02 20:55:02,543 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-02 20:55:02,543 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-02 20:55:02,543 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973286214-0/src/HorizontalPicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-02 20:55:07,176 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -187,16 +188,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-16 18:41:08,336 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 20:55:07,177 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -304,7 +305,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.528 secs
+Total time: 4.387 secs
 
-2019-03-16 18:41:08,340 ERROR FullProcessService - Project build has not produced APK file
-2019-03-16 18:41:08,344 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-02 20:55:07,179 ERROR FullProcessService - Project build has not produced APK file
+2020-01-02 20:55:07,181 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,34 +1,34 @@
-2018-09-16 16:28:33,293 INFO  DownloadService - Downloading "https://github.com/bachors/Android-WordToSpan/archive/master.zip", attempt 3
-2018-09-16 16:28:33,791 INFO  DownloadService - Downloaded https://github.com/bachors/Android-WordToSpan/archive/master.zip, attempt 3
-2018-09-16 16:28:33,791 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/master.zip": 63 KB
-2018-09-16 16:28:33,791 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-16 16:28:33,793 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/master.zip: true
-2018-09-16 16:28:33,793 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src'.
-2018-09-16 16:28:33,803 INFO  FullProcessService - Size of directory with sources: 75 KB
-2018-09-16 16:28:33,804 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src]
-2018-09-16 16:28:33,822 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/.git/
+2020-01-02 20:46:27,130 INFO  DownloadService - Downloading "https://github.com/bachors/Android-WordToSpan/archive/master.zip", attempt 3
+2020-01-02 20:46:27,654 INFO  DownloadService - Downloaded https://github.com/bachors/Android-WordToSpan/archive/master.zip, attempt 3
+2020-01-02 20:46:27,655 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/master.zip": 63 KB
+2020-01-02 20:46:27,655 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-02 20:46:27,660 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/master.zip: true
+2020-01-02 20:46:27,660 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src'.
+2020-01-02 20:46:27,669 INFO  FullProcessService - Size of directory with sources: 75 KB
+2020-01-02 20:46:27,669 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src]
+2020-01-02 20:46:27,687 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/.git/
 
-2018-09-16 16:28:33,825 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/gradlew
-2018-09-16 16:28:33,827 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/build.gradle
-2018-09-16 16:28:33,828 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/settings.gradle
-2018-09-16 16:28:33,829 INFO  ProjectBuildService - Remote scripts: none
-2018-09-16 16:28:33,829 INFO  ProjectFixService - Fixing project...
-2018-09-16 16:28:33,835 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/library/local.properties
-2018-09-16 16:28:33,835 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
-2018-09-16 16:28:33,835 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
-2018-09-16 16:28:33,836 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/local.properties
-2018-09-16 16:28:33,837 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-09-16 16:28:33,837 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-09-16 16:28:33,838 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
-2018-09-16 16:28:33,838 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
-2018-09-16 16:28:33,839 INFO  ProjectFixService - Project was maybe fixed
-2018-09-16 16:28:33,839 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-16 16:28:33,839 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-16 16:28:39,030 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-16 16:28:39,030 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-16 16:28:39,030 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-16 16:28:39,030 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-16 16:28:43,390 ERROR SysUtils - Could not process external command
+2020-01-02 20:46:27,688 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/gradlew
+2020-01-02 20:46:27,690 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/build.gradle
+2020-01-02 20:46:27,691 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/settings.gradle
+2020-01-02 20:46:27,691 INFO  ProjectBuildService - Remote scripts: none
+2020-01-02 20:46:27,691 INFO  ProjectFixService - Fixing project...
+2020-01-02 20:46:27,695 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/library/local.properties
+2020-01-02 20:46:27,695 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2020-01-02 20:46:27,695 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2020-01-02 20:46:27,696 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/local.properties
+2020-01-02 20:46:27,696 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2020-01-02 20:46:27,696 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2020-01-02 20:46:27,697 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2020-01-02 20:46:27,697 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=17,targetSdkVersion=26]
+2020-01-02 20:46:27,697 INFO  ProjectFixService - Project was maybe fixed
+2020-01-02 20:46:27,697 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 20:46:27,697 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 20:46:31,231 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-02 20:46:31,231 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-02 20:46:31,231 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-02 20:46:31,231 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-02 20:46:34,583 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,22 +41,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-09-16 16:28:43,390 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 20:46:34,583 INFO  SysUtils - Configuration on demand is an incubating feature.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 java.lang.IllegalStateException: compileSdkVersion is not specified.
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:456)
@@ -75,7 +74,7 @@ java.lang.IllegalStateException: compileSdkVersion is not specified.
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:69)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
@@ -174,7 +173,7 @@ java.lang.IllegalStateException: compileSdkVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/library/build.gradle' line: 2
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/library/build.gradle' line: 2
 
 * What went wrong:
 A problem occurred evaluating project ':library'.
@@ -292,22 +291,22 @@ Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.gi
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_1gab1i0biifeu9c6l1xal0fl2.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/library/build.gradle:2)
+	at build_7ilkm15c1ufls8al3f6oovql9.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/library/build.gradle:2)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 97 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 3s
 
-2018-09-16 16:28:43,393 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-16 16:28:43,393 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-16 16:28:47,503 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-16 16:28:47,503 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-16 16:28:47,504 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-16 16:28:47,504 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-16 16:28:51,702 ERROR SysUtils - Could not process external command
+2020-01-02 20:46:34,586 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 20:46:34,586 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 20:46:37,877 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-02 20:46:37,877 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-02 20:46:37,877 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-02 20:46:37,877 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-02 20:46:41,280 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -320,22 +319,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-09-16 16:28:51,703 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 20:46:41,280 INFO  SysUtils - Configuration on demand is an incubating feature.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 java.lang.IllegalStateException: compileSdkVersion is not specified.
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:456)
@@ -453,7 +451,7 @@ java.lang.IllegalStateException: compileSdkVersion is not specified.
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/library/build.gradle' line: 2
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/library/build.gradle' line: 2
 
 * What went wrong:
 A problem occurred evaluating project ':library'.
@@ -571,7 +569,7 @@ Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.gi
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_1gab1i0biifeu9c6l1xal0fl2.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537090113290-0/src/Android-WordToSpan-master/library/build.gradle:2)
+	at build_7ilkm15c1ufls8al3f6oovql9.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972787127-0/src/Android-WordToSpan-master/library/build.gradle:2)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 97 more
 
@@ -580,5 +578,5 @@ Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.gi
 
 BUILD FAILED in 3s
 
-2018-09-16 16:28:51,705 ERROR FullProcessService - Project build has not produced APK file
-2018-09-16 16:28:51,707 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-02 20:46:41,282 ERROR FullProcessService - Project build has not produced APK file
+2020-01-02 20:46:41,283 ERROR FullProcessService - Could not find generated or existed APK file

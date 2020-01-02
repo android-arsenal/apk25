@@ -1,37 +1,38 @@
-2019-01-25 22:42:06,111 INFO  DownloadService - Downloading "https://github.com/florent37/BubbleTab/archive/master.zip", attempt 3
-2019-01-25 22:42:07,618 INFO  DownloadService - Downloaded https://github.com/florent37/BubbleTab/archive/master.zip, attempt 3
-2019-01-25 22:42:07,618 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/master.zip": 1 MB
-2019-01-25 22:42:07,618 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-25 22:42:07,624 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/master.zip: true
-2019-01-25 22:42:07,624 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src'.
-2019-01-25 22:42:07,674 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-01-25 22:42:07,674 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src]
-2019-01-25 22:42:07,693 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/.git/
+2020-01-02 20:38:24,327 INFO  DownloadService - Downloading "https://github.com/florent37/BubbleTab/archive/master.zip", attempt 3
+2020-01-02 20:38:25,571 INFO  DownloadService - Downloaded https://github.com/florent37/BubbleTab/archive/master.zip, attempt 3
+2020-01-02 20:38:25,572 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/master.zip": 1 MB
+2020-01-02 20:38:25,572 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-02 20:38:25,578 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/master.zip: true
+2020-01-02 20:38:25,578 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src'.
+2020-01-02 20:38:25,618 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-01-02 20:38:25,618 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src]
+2020-01-02 20:38:25,636 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/.git/
 
-2019-01-25 22:42:07,698 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/gradlew
-2019-01-25 22:42:07,703 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/build.gradle
-2019-01-25 22:42:07,707 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/settings.gradle
-2019-01-25 22:42:07,707 INFO  ProjectBuildService - Remote scripts: none
-2019-01-25 22:42:07,707 INFO  ProjectFixService - Fixing project...
-2019-01-25 22:42:07,718 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/app/local.properties
-2019-01-25 22:42:07,720 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2019-01-25 22:42:07,721 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-25 22:42:07,721 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/local.properties
-2019-01-25 22:42:07,724 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2019-01-25 22:42:07,724 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-25 22:42:07,725 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/local.properties
-2019-01-25 22:42:07,725 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2019-01-25 22:42:07,726 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2019-01-25 22:42:07,727 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2019-01-25 22:42:07,727 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-25 22:42:07,728 INFO  ProjectFixService - Project was maybe fixed
-2019-01-25 22:42:07,728 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-25 22:42:07,728 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-25 22:42:16,624 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-25 22:42:16,625 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-25 22:42:16,625 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-25 22:42:16,625 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-25 22:42:24,524 ERROR SysUtils - Could not process external command
+2020-01-02 20:38:25,639 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/gradlew
+2020-01-02 20:38:25,642 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/build.gradle
+2020-01-02 20:38:25,645 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/settings.gradle
+2020-01-02 20:38:25,645 INFO  ProjectBuildService - Remote scripts: none
+2020-01-02 20:38:25,645 INFO  ProjectFixService - Fixing project...
+2020-01-02 20:38:25,653 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/app/local.properties
+2020-01-02 20:38:25,655 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2020-01-02 20:38:25,655 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-01-02 20:38:25,656 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/local.properties
+2020-01-02 20:38:25,659 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2020-01-02 20:38:25,659 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-01-02 20:38:25,660 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/local.properties
+2020-01-02 20:38:25,660 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2020-01-02 20:38:25,661 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2020-01-02 20:38:25,662 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2020-01-02 20:38:25,662 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-01-02 20:38:25,663 INFO  ProjectFixService - Project was maybe fixed
+2020-01-02 20:38:25,663 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 20:38:25,663 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 20:38:33,979 INFO  VirusProcessorServiceImpl - Queued project 6120 to scan viruses
+2020-01-02 20:39:02,636 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-02 20:39:02,636 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-02 20:39:02,636 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-02 20:39:02,636 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-02 20:39:08,725 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,21 +45,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-25 22:42:24,524 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 20:39:08,725 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -169,15 +170,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.245 secs
+Total time: 5.501 secs
 
-2019-01-25 22:42:24,530 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-25 22:42:24,530 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-25 22:42:32,096 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-25 22:42:32,096 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-25 22:42:32,097 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-25 22:42:32,097 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-25 22:42:46,987 ERROR SysUtils - Could not process external command
+2020-01-02 20:39:08,730 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 20:39:08,730 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 20:39:15,038 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-02 20:39:15,038 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-02 20:39:15,038 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-02 20:39:15,038 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-02 20:39:27,611 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -190,21 +191,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-25 22:42:46,987 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 20:39:27,611 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :bubbletab:preBuild UP-TO-DATE
 :bubbletab:preDebugBuild UP-TO-DATE
@@ -289,52 +290,52 @@ Incremental java compilation is an incubating feature.
 :bubbletab:bundleRelease
 :bubbletab:compileReleaseSources
 :bubbletab:assembleRelease
-:bubbletab:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:8: error: package android.support.annotation does not exist
+:bubbletab:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:8: error: package android.support.annotation does not exist
 import android.support.annotation.ColorInt;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:9: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:9: error: package android.support.annotation does not exist
 import android.support.annotation.DrawableRes;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:10: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:10: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:11: error: package android.support.v4.view does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:11: error: package android.support.v4.view does not exist
 import android.support.v4.view.ViewPager;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:26: error: cannot find symbol
     ViewPager viewPager;
     ^
   symbol:   class ViewPager
   location: class BubbleTab
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:31: error: package ViewPager does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:31: error: package ViewPager does not exist
     private final ViewPager.OnPageChangeListener pageChangeListener = new ViewPager.OnPageChangeListener() {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:116: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:116: error: cannot find symbol
     public void setupWithViewPager(final ViewPager viewPager) {
                                          ^
   symbol:   class ViewPager
   location: class BubbleTab
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:25: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class BubbleTab
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:228: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:228: error: cannot find symbol
         @ColorInt
          ^
   symbol:   class ColorInt
   location: class Setting
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:230: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:230: error: cannot find symbol
         @ColorInt
          ^
   symbol:   class ColorInt
   location: class Setting
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:232: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:232: error: cannot find symbol
         @ColorInt
          ^
   symbol:   class ColorInt
   location: class Setting
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:237: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/bubbletab/src/main/java/com/github/florent37/bubbletab/BubbleTab.java:237: error: cannot find symbol
         @DrawableRes
          ^
   symbol:   class DrawableRes
@@ -440,15 +441,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 14.229 secs
+Total time: 11.928 secs
 
-2019-01-25 22:42:47,082 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-25 22:42:47,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-25 22:42:55,180 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-25 22:42:55,180 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-25 22:42:55,180 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-25 22:42:55,180 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430926109-0/src/BubbleTab-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-25 22:43:03,188 ERROR SysUtils - Could not process external command
+2020-01-02 20:39:27,669 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 20:39:27,669 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 20:39:33,812 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-02 20:39:33,812 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-02 20:39:33,812 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-02 20:39:33,812 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972304325-0/src/BubbleTab-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-02 20:39:40,075 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -461,21 +462,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-25 22:43:03,188 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 20:39:40,075 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -579,14 +580,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 7.378 secs
+Total time: 5.64 secs
 
-2019-01-25 22:43:03,271 ERROR FullProcessService - Project build has not produced APK file
-2019-01-25 22:43:03,350 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-02 20:39:40,134 ERROR FullProcessService - Project build has not produced APK file
+2020-01-02 20:39:40,185 ERROR FullProcessService - Could not find generated or existed APK file

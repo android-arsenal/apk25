@@ -1,36 +1,36 @@
-2019-09-26 18:07:02,024 INFO  DownloadService - Downloading "https://github.com/dariopellegrini/Spike/archive/master.zip", attempt 3
-2019-09-26 18:07:03,855 INFO  DownloadService - Downloaded https://github.com/dariopellegrini/Spike/archive/master.zip, attempt 3
-2019-09-26 18:07:03,855 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/master.zip": 264 KB
-2019-09-26 18:07:03,855 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-26 18:07:03,856 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/master.zip: true
-2019-09-26 18:07:03,856 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src'.
-2019-09-26 18:07:03,901 INFO  FullProcessService - Size of directory with sources: 324 KB
-2019-09-26 18:07:03,901 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src]
-2019-09-26 18:07:03,931 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/.git/
+2020-01-02 20:28:49,571 INFO  DownloadService - Downloading "https://github.com/dariopellegrini/Spike/archive/master.zip", attempt 3
+2020-01-02 20:28:50,177 INFO  DownloadService - Downloaded https://github.com/dariopellegrini/Spike/archive/master.zip, attempt 3
+2020-01-02 20:28:50,177 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/master.zip": 264 KB
+2020-01-02 20:28:50,177 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-02 20:28:50,183 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/master.zip: true
+2020-01-02 20:28:50,183 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src'.
+2020-01-02 20:28:50,209 INFO  FullProcessService - Size of directory with sources: 324 KB
+2020-01-02 20:28:50,209 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src]
+2020-01-02 20:28:50,225 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/.git/
 
-2019-09-26 18:07:03,937 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/gradlew
-2019-09-26 18:07:03,944 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/spike/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/build.gradle
-2019-09-26 18:07:03,948 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/spike/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/settings.gradle
-2019-09-26 18:07:03,949 INFO  ProjectBuildService - Remote scripts: none
-2019-09-26 18:07:03,949 INFO  ProjectFixService - Fixing project...
-2019-09-26 18:07:03,963 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/local.properties
-2019-09-26 18:07:03,965 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
-2019-09-26 18:07:03,966 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
-2019-09-26 18:07:03,967 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/spike/local.properties
-2019-09-26 18:07:03,969 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/spike/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
-2019-09-26 18:07:03,969 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/spike/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
-2019-09-26 18:07:03,970 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/local.properties
-2019-09-26 18:07:03,971 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-09-26 18:07:03,971 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-09-26 18:07:03,973 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
-2019-09-26 18:07:03,973 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
-2019-09-26 18:07:03,974 INFO  ProjectFixService - Project was maybe fixed
-2019-09-26 18:07:03,974 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-26 18:07:03,974 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-26 18:07:13,768 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-26 18:07:13,768 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-26 18:07:13,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-26 18:08:09,282 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 20:28:50,228 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/gradlew
+2020-01-02 20:28:50,231 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/spike/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/build.gradle
+2020-01-02 20:28:50,234 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/spike/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/settings.gradle
+2020-01-02 20:28:50,234 INFO  ProjectBuildService - Remote scripts: none
+2020-01-02 20:28:50,234 INFO  ProjectFixService - Fixing project...
+2020-01-02 20:28:50,240 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/local.properties
+2020-01-02 20:28:50,241 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2020-01-02 20:28:50,241 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2020-01-02 20:28:50,241 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/spike/local.properties
+2020-01-02 20:28:50,242 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/spike/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2020-01-02 20:28:50,242 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/spike/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2020-01-02 20:28:50,243 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/local.properties
+2020-01-02 20:28:50,243 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-02 20:28:50,243 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-02 20:28:50,244 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2020-01-02 20:28:50,244 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
+2020-01-02 20:28:50,244 INFO  ProjectFixService - Project was maybe fixed
+2020-01-02 20:28:50,244 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 20:28:50,245 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 20:28:57,807 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-02 20:28:57,808 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-02 20:28:57,808 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-02 20:29:49,328 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :spike:preBuild UP-TO-DATE
@@ -51,10 +51,10 @@
 > Task :app:createDebugCompatibleScreenManifests
 > Task :spike:checkDebugManifest
 > Task :spike:generateDebugBuildConfig
-> Task :spike:processDebugManifest
-> Task :app:processDebugManifest
 > Task :app:mergeDebugResources
 > Task :spike:parseDebugLibraryResources
+> Task :spike:processDebugManifest
+> Task :app:processDebugManifest
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -67,10 +67,10 @@
 > Task :app:processDebugResources
 
 > Task :spike:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/SpikeProvider.kt: (136, 92): Unchecked cast: Any? to S
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/SpikeProvider.kt: (155, 92): Unchecked cast: Any? to E
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/network/SpikeNetwork.kt: (37, 21): Parameter 'multipartEntities' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/network/SpikeNetwork.kt: (73, 13): The value 'currentURL.removeSuffix("&")' assigned to 'var currentURL: String defined in com.dariopellegrini.spike.network.SpikeNetwork.multipartRequest' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/SpikeProvider.kt: (136, 92): Unchecked cast: Any? to S
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/SpikeProvider.kt: (155, 92): Unchecked cast: Any? to E
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/network/SpikeNetwork.kt: (37, 21): Parameter 'multipartEntities' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/network/SpikeNetwork.kt: (73, 13): The value 'currentURL.removeSuffix("&")' assigned to 'var currentURL: String defined in com.dariopellegrini.spike.network.SpikeNetwork.multipartRequest' is never used
 
 > Task :spike:javaPreCompileDebug
 > Task :spike:compileDebugJavaWithJavac
@@ -80,15 +80,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/
 > Task :spike:bundleLibCompileDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (26, 21): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (72, 40): Parameter 'response' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (72, 50): Parameter 'header' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (78, 21): Variable 's' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (104, 32): Parameter 'response' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (104, 42): Parameter 'header' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (107, 30): Parameter 'response' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (107, 40): Parameter 'header' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/TVMazeAPI.kt: (114, 19): Parameter 'errorResult' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (26, 21): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (72, 40): Parameter 'response' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (72, 50): Parameter 'header' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (78, 21): Variable 's' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (104, 32): Parameter 'response' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (104, 42): Parameter 'header' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (107, 30): Parameter 'response' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (107, 40): Parameter 'header' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/TVMazeAPI.kt: (114, 19): Parameter 'errorResult' is never used, could be renamed to _
 
 > Task :spike:bundleLibRuntimeDebug
 > Task :spike:createFullJarDebug
@@ -119,20 +119,20 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/
 > Task :spike:packageReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :spike:checkReleaseManifest
-> Task :spike:processReleaseManifest
-> Task :app:processReleaseManifest
 > Task :spike:mergeDebugNativeLibs
 > Task :spike:stripDebugDebugSymbols
 > Task :spike:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :spike:parseReleaseLibraryResources
+> Task :spike:processReleaseManifest
+> Task :app:processReleaseManifest
 > Task :spike:generateReleaseBuildConfig
+> Task :spike:parseReleaseLibraryResources
 > Task :spike:generateReleaseRFile
 
 > Task :spike:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/SpikeProvider.kt: (136, 92): Unchecked cast: Any? to S
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/SpikeProvider.kt: (155, 92): Unchecked cast: Any? to E
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/network/SpikeNetwork.kt: (37, 21): Parameter 'multipartEntities' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/network/SpikeNetwork.kt: (73, 13): The value 'currentURL.removeSuffix("&")' assigned to 'var currentURL: String defined in com.dariopellegrini.spike.network.SpikeNetwork.multipartRequest' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/SpikeProvider.kt: (136, 92): Unchecked cast: Any? to S
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/SpikeProvider.kt: (155, 92): Unchecked cast: Any? to E
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/network/SpikeNetwork.kt: (37, 21): Parameter 'multipartEntities' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/spike/src/main/java/com/dariopellegrini/spike/network/SpikeNetwork.kt: (73, 13): The value 'currentURL.removeSuffix("&")' assigned to 'var currentURL: String defined in com.dariopellegrini.spike.network.SpikeNetwork.multipartRequest' is never used
 
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
@@ -143,31 +143,28 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/
 > Task :spike:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (26, 21): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (72, 40): Parameter 'response' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (72, 50): Parameter 'header' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (78, 21): Variable 's' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (104, 32): Parameter 'response' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (104, 42): Parameter 'header' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (107, 30): Parameter 'response' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (107, 40): Parameter 'header' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/TVMazeAPI.kt: (114, 19): Parameter 'errorResult' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (26, 21): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (72, 40): Parameter 'response' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (72, 50): Parameter 'header' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (78, 21): Variable 's' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (104, 32): Parameter 'response' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (104, 42): Parameter 'header' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (107, 30): Parameter 'response' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/MainActivity.kt: (107, 40): Parameter 'header' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/src/main/java/com/dariopellegrini/spikeapp/TVMazeAPI.kt: (114, 19): Parameter 'errorResult' is never used, could be renamed to _
 
-> Task :app:mergeExtDexDebug
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :app:prepareLintJar
 > Task :spike:processReleaseJavaRes NO-SOURCE
 > Task :spike:bundleLibResRelease
-> Task :app:checkReleaseDuplicateClasses
 > Task :spike:prepareLintJarForPublish
 > Task :app:lintVitalRelease
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :app:checkReleaseDuplicateClasses
 > Task :spike:bundleLibRuntimeRelease
 > Task :spike:createFullJarRelease
+> Task :app:mergeExtDexDebug
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -186,6 +183,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/
 > Task :spike:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeReleaseJavaResource
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
@@ -198,7 +198,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 54s
+BUILD SUCCESSFUL in 50s
 94 actionable tasks: 94 executed
 
-2019-09-26 18:08:09,344 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569496022019-0/src/Spike-master/app/build/outputs/apk/debug/app-debug.apk
+2020-01-02 20:29:49,391 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971729569-0/src/Spike-master/app/build/outputs/apk/debug/app-debug.apk

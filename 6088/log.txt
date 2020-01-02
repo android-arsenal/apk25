@@ -1,32 +1,32 @@
-2018-11-02 14:43:08,491 INFO  DownloadService - Downloading "https://github.com/bachors/Insta-Downloader/archive/master.zip", attempt 3
-2018-11-02 14:43:09,330 INFO  DownloadService - Downloaded https://github.com/bachors/Insta-Downloader/archive/master.zip, attempt 3
-2018-11-02 14:43:09,330 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/master.zip": 152 KB
-2018-11-02 14:43:09,330 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-02 14:43:09,335 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/master.zip: true
-2018-11-02 14:43:09,336 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src'.
-2018-11-02 14:43:09,358 INFO  FullProcessService - Size of directory with sources: 195 KB
-2018-11-02 14:43:09,358 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src]
-2018-11-02 14:43:09,382 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/.git/
+2020-01-02 20:52:31,094 INFO  DownloadService - Downloading "https://github.com/bachors/Insta-Downloader/archive/master.zip", attempt 3
+2020-01-02 20:52:31,665 INFO  DownloadService - Downloaded https://github.com/bachors/Insta-Downloader/archive/master.zip, attempt 3
+2020-01-02 20:52:31,665 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/master.zip": 152 KB
+2020-01-02 20:52:31,665 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-02 20:52:31,666 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/master.zip: true
+2020-01-02 20:52:31,666 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src'.
+2020-01-02 20:52:31,680 INFO  FullProcessService - Size of directory with sources: 195 KB
+2020-01-02 20:52:31,680 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src]
+2020-01-02 20:52:31,697 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/.git/
 
-2018-11-02 14:43:09,384 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/gradlew
-2018-11-02 14:43:09,387 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/build.gradle
-2018-11-02 14:43:09,390 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/settings.gradle
-2018-11-02 14:43:09,390 INFO  ProjectBuildService - Remote scripts: none
-2018-11-02 14:43:09,390 INFO  ProjectFixService - Fixing project...
-2018-11-02 14:43:09,397 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/app/local.properties
-2018-11-02 14:43:09,397 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-11-02 14:43:09,398 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/local.properties
-2018-11-02 14:43:09,398 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-11-02 14:43:09,398 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-11-02 14:43:09,399 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-11-02 14:43:09,399 INFO  ProjectFixService - Project was maybe fixed
-2018-11-02 14:43:09,399 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-02 14:43:09,399 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-02 14:43:12,288 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-02 14:43:12,288 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-02 14:43:12,288 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-02 14:43:12,288 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-02 14:43:14,932 ERROR SysUtils - Could not process external command
+2020-01-02 20:52:31,699 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/gradlew
+2020-01-02 20:52:31,701 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/build.gradle
+2020-01-02 20:52:31,702 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/settings.gradle
+2020-01-02 20:52:31,703 INFO  ProjectBuildService - Remote scripts: none
+2020-01-02 20:52:31,703 INFO  ProjectFixService - Fixing project...
+2020-01-02 20:52:31,707 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/app/local.properties
+2020-01-02 20:52:31,707 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2020-01-02 20:52:31,707 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/local.properties
+2020-01-02 20:52:31,707 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2020-01-02 20:52:31,708 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2020-01-02 20:52:31,708 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2020-01-02 20:52:31,708 INFO  ProjectFixService - Project was maybe fixed
+2020-01-02 20:52:31,708 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 20:52:31,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 20:52:34,083 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-02 20:52:34,083 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-02 20:52:34,083 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-02 20:52:34,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-02 20:52:36,375 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,26 +44,26 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-02 14:43:14,932 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 20:52:36,376 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/app/build.gradle' line: 10
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/app/build.gradle' line: 10
 
 * What went wrong:
-Could not compile build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/app/build.gradle'.
+Could not compile build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/app/build.gradle'.
 > startup failed:
-  build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/app/build.gradle': 10: unexpected token: << @ line 10, column 1.
+  build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/app/build.gradle': 10: unexpected token: << @ line 10, column 1.
      <<<<<<< HEAD
      ^
   
@@ -74,7 +74,7 @@ Could not compile build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfz
 Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.groovy.scripts.ScriptCompilationException: Could not compile build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/app/build.gradle'.
+org.gradle.groovy.scripts.ScriptCompilationException: Could not compile build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/app/build.gradle'.
 	at org.gradle.groovy.scripts.internal.DefaultScriptCompilationHandler.wrapCompilationFailure(DefaultScriptCompilationHandler.java:192)
 	at org.gradle.groovy.scripts.internal.DefaultScriptCompilationHandler.compileScript(DefaultScriptCompilationHandler.java:137)
 	at org.gradle.groovy.scripts.internal.DefaultScriptCompilationHandler.compileToDir(DefaultScriptCompilationHandler.java:95)
@@ -208,7 +208,7 @@ org.gradle.groovy.scripts.ScriptCompilationException: Could not compile build fi
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
-build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/app/build.gradle': 10: unexpected token: << @ line 10, column 1.
+build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/app/build.gradle': 10: unexpected token: << @ line 10, column 1.
    <<<<<<< HEAD
    ^
 
@@ -222,13 +222,13 @@ build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/15411445884
 
 BUILD FAILED in 2s
 
-2018-11-02 14:43:14,936 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-02 14:43:14,936 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-02 14:43:17,501 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-02 14:43:17,501 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-02 14:43:17,501 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-02 14:43:17,501 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-02 14:43:19,998 ERROR SysUtils - Could not process external command
+2020-01-02 20:52:36,379 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 20:52:36,379 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 20:52:38,722 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-02 20:52:38,722 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-02 20:52:38,722 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-02 20:52:38,722 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-02 20:52:41,044 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -246,26 +246,26 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-02 14:43:19,998 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 20:52:41,044 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/app/build.gradle' line: 10
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/app/build.gradle' line: 10
 
 * What went wrong:
-Could not compile build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/app/build.gradle'.
+Could not compile build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/app/build.gradle'.
 > startup failed:
-  build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/app/build.gradle': 10: unexpected token: << @ line 10, column 1.
+  build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/app/build.gradle': 10: unexpected token: << @ line 10, column 1.
      <<<<<<< HEAD
      ^
   
@@ -276,7 +276,7 @@ Could not compile build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfz
 Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.groovy.scripts.ScriptCompilationException: Could not compile build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/app/build.gradle'.
+org.gradle.groovy.scripts.ScriptCompilationException: Could not compile build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/app/build.gradle'.
 	at org.gradle.groovy.scripts.internal.DefaultScriptCompilationHandler.wrapCompilationFailure(DefaultScriptCompilationHandler.java:192)
 	at org.gradle.groovy.scripts.internal.DefaultScriptCompilationHandler.compileScript(DefaultScriptCompilationHandler.java:137)
 	at org.gradle.groovy.scripts.internal.DefaultScriptCompilationHandler.compileToDir(DefaultScriptCompilationHandler.java:95)
@@ -410,7 +410,7 @@ org.gradle.groovy.scripts.ScriptCompilationException: Could not compile build fi
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
-build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541144588483-0/src/Insta-Downloader-master/app/build.gradle': 10: unexpected token: << @ line 10, column 1.
+build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973151092-0/src/Insta-Downloader-master/app/build.gradle': 10: unexpected token: << @ line 10, column 1.
    <<<<<<< HEAD
    ^
 
@@ -424,5 +424,5 @@ build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/15411445884
 
 BUILD FAILED in 2s
 
-2018-11-02 14:43:20,002 ERROR FullProcessService - Project build has not produced APK file
-2018-11-02 14:43:20,005 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-02 20:52:41,047 ERROR FullProcessService - Project build has not produced APK file
+2020-01-02 20:52:41,049 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,35 +1,187 @@
-2019-11-10 21:31:18,232 INFO  DownloadService - Downloading "https://github.com/therealshabi/AutoImageFlipper/archive/master.zip", attempt 3
-2019-11-10 21:40:47,144 DEBUG DownloadService - Error during downloading "https://github.com/therealshabi/AutoImageFlipper/archive/master.zip": org.apache.http.MalformedChunkCodingException: CRLF expected at end of chunk
-2019-11-10 21:40:47,145 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-11-10 21:40:48,697 INFO  GithubDownloadService - Default branch of this repository: master
-2019-11-10 21:40:48,697 INFO  DownloadService - Downloading "https://github.com/therealshabi/AutoImageFlipper/archive/master.zip", attempt 3
-2019-11-10 21:40:56,417 INFO  DownloadService - Downloaded https://github.com/therealshabi/AutoImageFlipper/archive/master.zip, attempt 3
-2019-11-10 21:40:56,417 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/master.zip": 14 MB
-2019-11-10 21:40:56,417 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-10 21:40:56,420 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/master.zip: true
-2019-11-10 21:40:56,420 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src'.
-2019-11-10 21:40:56,552 INFO  FullProcessService - Size of directory with sources: 16 MB
-2019-11-10 21:40:56,552 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src]
-2019-11-10 21:40:56,573 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/.git/
+2020-01-02 20:29:49,879 INFO  DownloadService - Downloading "https://github.com/therealshabi/AutoImageFlipper/archive/master.zip", attempt 3
+2020-01-02 20:30:01,249 INFO  DownloadService - Downloaded https://github.com/therealshabi/AutoImageFlipper/archive/master.zip, attempt 3
+2020-01-02 20:30:01,249 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/master.zip": 14 MB
+2020-01-02 20:30:01,249 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-02 20:30:01,251 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/master.zip: true
+2020-01-02 20:30:01,252 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src'.
+2020-01-02 20:30:01,368 INFO  FullProcessService - Size of directory with sources: 16 MB
+2020-01-02 20:30:01,368 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src]
+2020-01-02 20:30:01,387 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/.git/
 
-2019-11-10 21:40:56,576 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/gradlew
-2019-11-10 21:40:56,579 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/imageslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/build.gradle
-2019-11-10 21:40:56,583 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/imageslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/settings.gradle
-2019-11-10 21:40:56,583 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-11-10 21:40:57,573 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-11-10 21:40:57,573 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-11-10 21:40:57,573 INFO  ProjectFixService - Fixing project...
-2019-11-10 21:40:57,582 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/app/local.properties
-2019-11-10 21:40:57,582 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-11-10 21:40:57,582 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/imageslider/local.properties
-2019-11-10 21:40:57,583 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/imageslider/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-11-10 21:40:57,584 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/local.properties
-2019-11-10 21:40:57,584 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-11-10 21:40:57,584 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-11-10 21:40:57,585 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-11-10 21:40:57,585 INFO  ProjectFixService - Project was maybe fixed
-2019-11-10 21:40:57,586 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-10 21:40:57,586 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-10 21:41:05,732 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-11-10 21:41:05,733 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-10 21:41:05,733 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573396278229-0/src/AutoImageFlipper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-02 20:30:01,390 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/gradlew
+2020-01-02 20:30:01,393 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/imageslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/build.gradle
+2020-01-02 20:30:01,396 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/imageslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/settings.gradle
+2020-01-02 20:30:01,396 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2020-01-02 20:30:01,524 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2020-01-02 20:30:01,524 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2020-01-02 20:30:01,524 INFO  ProjectFixService - Fixing project...
+2020-01-02 20:30:01,534 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/app/local.properties
+2020-01-02 20:30:01,534 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-01-02 20:30:01,535 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/imageslider/local.properties
+2020-01-02 20:30:01,535 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/imageslider/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-01-02 20:30:01,535 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/local.properties
+2020-01-02 20:30:01,535 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-02 20:30:01,536 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-02 20:30:01,536 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-01-02 20:30:01,536 INFO  ProjectFixService - Project was maybe fixed
+2020-01-02 20:30:01,536 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 20:30:01,536 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 20:30:02,574 INFO  VirusProcessorServiceImpl - Queued project 6136 to scan viruses
+2020-01-02 20:30:07,282 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-01-02 20:30:07,282 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-02 20:30:07,282 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-02 20:31:03,955 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
+
+> Configure project :imageslider
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :imageslider:preBuild UP-TO-DATE
+> Task :imageslider:preDebugBuild UP-TO-DATE
+> Task :imageslider:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :imageslider:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :imageslider:generateDebugResValues
+> Task :imageslider:compileDebugRenderscript NO-SOURCE
+> Task :imageslider:generateDebugResources
+> Task :imageslider:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :imageslider:checkDebugManifest
+> Task :imageslider:processDebugManifest
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :imageslider:parseDebugLibraryResources
+> Task :imageslider:generateDebugBuildConfig
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :imageslider:mergeDebugShaders
+> Task :imageslider:compileDebugShaders
+> Task :imageslider:generateDebugAssets
+> Task :imageslider:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :imageslider:processDebugJavaRes NO-SOURCE
+> Task :imageslider:generateDebugRFile
+> Task :app:processDebugResources
+> Task :imageslider:compileDebugKotlin
+> Task :app:checkDebugDuplicateClasses
+> Task :imageslider:javaPreCompileDebug
+> Task :imageslider:compileDebugJavaWithJavac
+> Task :imageslider:bundleLibResDebug
+> Task :imageslider:bundleLibRuntimeDebug
+> Task :imageslider:createFullJarDebug
+> Task :imageslider:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeDebugJniLibFolders
+> Task :imageslider:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :imageslider:preReleaseBuild UP-TO-DATE
+> Task :imageslider:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :imageslider:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :imageslider:compileReleaseRenderscript NO-SOURCE
+> Task :imageslider:generateReleaseResValues
+> Task :imageslider:generateReleaseResources
+> Task :imageslider:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :imageslider:checkReleaseManifest
+> Task :imageslider:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :imageslider:mergeDebugNativeLibs
+> Task :imageslider:stripDebugDebugSymbols
+> Task :imageslider:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :imageslider:generateReleaseBuildConfig
+> Task :imageslider:parseReleaseLibraryResources
+> Task :app:prepareLintJar
+> Task :imageslider:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeReleaseResources
+> Task :imageslider:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :imageslider:compileReleaseKotlin
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :imageslider:prepareLintJarForPublish
+> Task :app:mergeExtDexDebug
+> Task :imageslider:javaPreCompileRelease
+> Task :imageslider:compileReleaseJavaWithJavac
+> Task :imageslider:bundleLibResRelease
+> Task :imageslider:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :imageslider:bundleLibRuntimeRelease
+> Task :imageslider:createFullJarRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/4faa3f731e041b56c2a79753a36d5e3c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :imageslider:mergeReleaseShaders
+> Task :imageslider:compileReleaseShaders
+> Task :imageslider:generateReleaseAssets
+> Task :imageslider:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :imageslider:mergeReleaseJniLibFolders
+> Task :imageslider:mergeReleaseNativeLibs
+> Task :imageslider:stripReleaseDebugSymbols
+> Task :imageslider:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 56s
+94 actionable tasks: 94 executed
+
+2020-01-02 20:31:04,028 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971789871-0/src/AutoImageFlipper-master/app/build/outputs/apk/debug/app-debug.apk

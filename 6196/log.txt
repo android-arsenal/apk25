@@ -1,36 +1,36 @@
-2018-10-22 22:47:04,513 INFO  DownloadService - Downloading "https://github.com/ParkSangGwon/TedAdHelper/archive/master.zip", attempt 3
-2018-10-22 22:47:07,148 INFO  DownloadService - Downloaded https://github.com/ParkSangGwon/TedAdHelper/archive/master.zip, attempt 3
-2018-10-22 22:47:07,148 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/master.zip": 893 KB
-2018-10-22 22:47:07,148 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-22 22:47:07,150 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/master.zip: true
-2018-10-22 22:47:07,151 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src'.
-2018-10-22 22:47:07,190 INFO  FullProcessService - Size of directory with sources: 1015 KB
-2018-10-22 22:47:07,190 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src]
-2018-10-22 22:47:07,240 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/.git/
+2020-01-02 19:50:32,652 INFO  DownloadService - Downloading "https://github.com/ParkSangGwon/TedAdHelper/archive/master.zip", attempt 3
+2020-01-02 19:50:35,211 INFO  DownloadService - Downloaded https://github.com/ParkSangGwon/TedAdHelper/archive/master.zip, attempt 3
+2020-01-02 19:50:35,211 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/master.zip": 893 KB
+2020-01-02 19:50:35,211 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-02 19:50:35,213 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/master.zip: true
+2020-01-02 19:50:35,214 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src'.
+2020-01-02 19:50:35,242 INFO  FullProcessService - Size of directory with sources: 1015 KB
+2020-01-02 19:50:35,243 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src]
+2020-01-02 19:50:35,266 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/.git/
 
-2018-10-22 22:47:07,244 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/gradlew
-2018-10-22 22:47:07,247 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/tedadhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/build.gradle
-2018-10-22 22:47:07,250 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/tedadhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/settings.gradle
-2018-10-22 22:47:07,250 INFO  ProjectBuildService - Remote scripts: none
-2018-10-22 22:47:07,250 INFO  ProjectFixService - Fixing project...
-2018-10-22 22:47:07,262 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/app/local.properties
-2018-10-22 22:47:07,265 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-22 22:47:07,265 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-22 22:47:07,267 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/tedadhelper/local.properties
-2018-10-22 22:47:07,270 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/tedadhelper/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-22 22:47:07,270 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/tedadhelper/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-22 22:47:07,272 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/local.properties
-2018-10-22 22:47:07,272 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-10-22 22:47:07,273 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-10-22 22:47:07,276 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-22 22:47:07,276 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-22 22:47:07,277 INFO  ProjectFixService - Project was maybe fixed
-2018-10-22 22:47:07,277 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 22:47:07,277 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 22:47:24,205 INFO  ProjectTaskService - Detected possible tasks: 71
-2018-10-22 22:47:24,205 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-22 22:47:24,205 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-22 22:48:38,208 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 19:50:35,269 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/gradlew
+2020-01-02 19:50:35,272 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/tedadhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/build.gradle
+2020-01-02 19:50:35,275 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/tedadhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/settings.gradle
+2020-01-02 19:50:35,275 INFO  ProjectBuildService - Remote scripts: none
+2020-01-02 19:50:35,275 INFO  ProjectFixService - Fixing project...
+2020-01-02 19:50:35,281 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/app/local.properties
+2020-01-02 19:50:35,284 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-02 19:50:35,284 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-02 19:50:35,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/tedadhelper/local.properties
+2020-01-02 19:50:35,287 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/tedadhelper/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-02 19:50:35,288 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/tedadhelper/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-02 19:50:35,288 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/local.properties
+2020-01-02 19:50:35,289 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2020-01-02 19:50:35,289 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2020-01-02 19:50:35,291 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-02 19:50:35,291 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-02 19:50:35,292 INFO  ProjectFixService - Project was maybe fixed
+2020-01-02 19:50:35,292 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 19:50:35,292 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 19:50:49,701 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-01-02 19:50:49,701 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-02 19:50:49,701 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-02 19:52:17,466 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
 It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 Warning: manifest is being parsed while tasks are generated.
@@ -42,27 +42,44 @@ Warning: manifest is being parsed while tasks are generated.
 :tedadhelper:checkDebugManifest
 :tedadhelper:processDebugManifest
 :app:preDebugBuild
-Download https://jcenter.bintray.com/com/google/ads/mediation/facebook/5.0.1.0/facebook-5.0.1.0.pom
-Download https://jcenter.bintray.com/com/facebook/android/audience-network-sdk/5.0.1/audience-network-sdk-5.0.1.pom
 Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads/maven-metadata.xml
-Download https://jcenter.bintray.com/com/google/android/gms/play-services-ads/maven-metadata.xml
-Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-core/r2.4.2/exoplayer-core-r2.4.2.pom
-Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-dash/r2.4.2/exoplayer-dash-r2.4.2.pom
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics/maven-metadata.xml
 Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-base/maven-metadata.xml
 Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-identifier/maven-metadata.xml
 Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-lite/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-basement/maven-metadata.xml
 Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-gass/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-measurement-base/maven-metadata.xml
 Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-stats/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics-impl/maven-metadata.xml
 Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-common/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-tasks/maven-metadata.xml
 Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-iid/maven-metadata.xml
 Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-iid-interop/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-base/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics/15.0.2/firebase-analytics-15.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-identifier/15.0.1/play-services-ads-identifier-15.0.1.aar
 Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-ads/15.0.0/firebase-ads-15.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/databinding/adapters/3.2.0-alpha12/adapters-3.2.0-alpha12.aar
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics-impl/15.0.2/firebase-analytics-impl-15.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-iid/15.1.0/firebase-iid-15.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-lite/15.0.1/play-services-ads-lite-15.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-gass/15.0.1/play-services-gass-15.0.1.aar
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android/1.5.1/leakcanary-android-1.5.1.aar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/gifdecoder/4.7.1/gifdecoder-4.7.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-stats/15.0.1/play-services-stats-15.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-common/15.0.1/firebase-common-15.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-iid-interop/15.0.0/firebase-iid-interop-15.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/customtabs/26.1.0/customtabs-26.1.0.aar
 Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-dash/r2.4.2/exoplayer-dash-r2.4.2.aar
-Download https://jcenter.bintray.com/com/facebook/android/audience-network-sdk/5.0.1/audience-network-sdk-5.0.1.aar
 Download https://dl.google.com/dl/android/maven2/com/android/databinding/library/3.2.0-alpha12/library-3.2.0-alpha12.aar
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/adapters/3.2.0-alpha12/adapters-3.2.0-alpha12.aar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/glide/4.7.1/glide-4.7.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads-base/15.0.1/play-services-ads-base-15.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-measurement-base/15.0.2/play-services-measurement-base-15.0.2.aar
 Download https://jcenter.bintray.com/com/google/ads/mediation/facebook/5.0.1.0/facebook-5.0.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-ads/15.0.1/play-services-ads-15.0.1.aar
 Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-core/r2.4.2/exoplayer-core-r2.4.2.aar
+Download https://jcenter.bintray.com/com/facebook/android/audience-network-sdk/5.0.1/audience-network-sdk-5.0.1.aar
 :tedadhelper:compileDebugAidl NO-SOURCE
 :app:compileDebugAidl NO-SOURCE
 :tedadhelper:packageDebugRenderscript NO-SOURCE
@@ -90,7 +107,11 @@ Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3
 :tedadhelper:generateDebugBuildConfig
 :tedadhelper:prepareLintJar
 :tedadhelper:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/github/bumptech/glide/annotations/4.7.1/annotations-4.7.1.jar
 Download https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-compiler/3.2.0-alpha12/databinding-compiler-3.2.0-alpha12.jar
+Download https://jcenter.bintray.com/com/android/tools/annotations/24.5.0/annotations-24.5.0.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/compiler/4.7.1/compiler-4.7.1.jar
+Download https://jcenter.bintray.com/com/github/bumptech/glide/disklrucache/4.7.1/disklrucache-4.7.1.jar
 :tedadhelper:processDebugJavaRes NO-SOURCE
 :app:compileDebugNdk NO-SOURCE
 :app:mergeDebugShaders
@@ -113,6 +134,7 @@ Download https://dl.google.com/dl/android/maven2/androidx/databinding/databindin
 :tedadhelper:checkReleaseManifest
 :tedadhelper:processReleaseManifest
 :app:preReleaseBuild
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android-no-op/1.5.1/leakcanary-android-no-op-1.5.1.aar
 :tedadhelper:compileReleaseAidl NO-SOURCE
 :app:compileReleaseAidl NO-SOURCE
 :tedadhelper:packageReleaseRenderscript NO-SOURCE
@@ -158,13 +180,15 @@ Download https://dl.google.com/dl/android/maven2/androidx/databinding/databindin
 :app:generateDebugSources
 :tedadhelper:generateDebugSources
 :tedadhelper:dataBindingExportBuildInfoDebug
-:tedadhelper:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/tedadhelper/src/main/java/gun0912/tedadhelper/backpress/TedBackPressDialog.java uses or overrides a deprecated API.
+:tedadhelper:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/tedadhelper/src/main/java/gun0912/tedadhelper/backpress/TedBackPressDialog.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/tedadhelper/src/main/java/gun0912/tedadhelper/nativead/TedNativeAd.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/tedadhelper/src/main/java/gun0912/tedadhelper/nativead/TedNativeAd.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :tedadhelper:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-analyzer/1.5.1/leakcanary-analyzer-1.5.1.jar
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-watcher/1.5.1/leakcanary-watcher-1.5.1.jar
 :app:compileDebugJavaWithJavac
 :app:compileDebugSources
 :app:transformClassesWithDexBuilderForDebug
@@ -180,9 +204,9 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:generateReleaseSources
 :tedadhelper:generateReleaseSources
 :tedadhelper:dataBindingExportBuildInfoRelease
-:tedadhelper:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/tedadhelper/src/main/java/gun0912/tedadhelper/backpress/TedBackPressDialog.java uses or overrides a deprecated API.
+:tedadhelper:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/tedadhelper/src/main/java/gun0912/tedadhelper/backpress/TedBackPressDialog.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/tedadhelper/src/main/java/gun0912/tedadhelper/nativead/TedNativeAd.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/tedadhelper/src/main/java/gun0912/tedadhelper/nativead/TedNativeAd.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :tedadhelper:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
@@ -190,22 +214,14 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:compileReleaseJavaWithJavac
 :app:compileReleaseSources
 :app:lintVitalRelease
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.0-alpha12/lint-gradle-26.2.0-alpha12.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.0-alpha12/uast-26.2.0-alpha12.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.0-alpha12/lint-26.2.0-alpha12.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.0-alpha12/intellij-core-26.2.0-alpha12.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.0-alpha12/lint-kotlin-26.2.0-alpha12.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-alpha12/kotlin-compiler-26.2.0-alpha12.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.0-alpha12/lint-checks-26.2.0-alpha12.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.0-alpha12/lint-api-26.2.0-alpha12.pom
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.0-alpha12/lint-gradle-26.2.0-alpha12.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.0-alpha12/lint-api-26.2.0-alpha12.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.0-alpha12/lint-checks-26.2.0-alpha12.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.0-alpha12/lint-kotlin-26.2.0-alpha12.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.0-alpha12/lint-26.2.0-alpha12.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-alpha12/kotlin-compiler-26.2.0-alpha12.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.0-alpha12/intellij-core-26.2.0-alpha12.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.0-alpha12/uast-26.2.0-alpha12.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.0-alpha12/lint-api-26.2.0-alpha12.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.0-alpha12/lint-checks-26.2.0-alpha12.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.0-alpha12/intellij-core-26.2.0-alpha12.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-alpha12/kotlin-compiler-26.2.0-alpha12.jar
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 :app:transformDexArchiveWithDexMergerForRelease
@@ -217,7 +233,7 @@ Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 13s
+BUILD SUCCESSFUL in 1m 27s
 97 actionable tasks: 97 executed
 
-2018-10-22 22:48:38,353 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540223224510-0/src/TedAdHelper-master/app/build/outputs/apk/debug/app-debug.apk
+2020-01-02 19:52:17,600 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969432649-0/src/TedAdHelper-master/app/build/outputs/apk/debug/app-debug.apk

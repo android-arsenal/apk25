@@ -1,36 +1,37 @@
-2019-11-10 21:50:29,847 INFO  DownloadService - Downloading "https://github.com/yuyakaido/CardStackView/archive/master.zip", attempt 3
-2019-11-10 21:50:32,581 INFO  DownloadService - Downloaded https://github.com/yuyakaido/CardStackView/archive/master.zip, attempt 3
-2019-11-10 21:50:32,581 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/master.zip": 236 KB
-2019-11-10 21:50:32,581 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-10 21:50:32,586 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/master.zip: true
-2019-11-10 21:50:32,586 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src'.
-2019-11-10 21:50:32,612 INFO  FullProcessService - Size of directory with sources: 309 KB
-2019-11-10 21:50:32,613 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src]
-2019-11-10 21:50:32,648 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/.git/
+2020-01-02 20:56:07,016 INFO  DownloadService - Downloading "https://github.com/yuyakaido/CardStackView/archive/master.zip", attempt 3
+2020-01-02 20:56:07,876 INFO  DownloadService - Downloaded https://github.com/yuyakaido/CardStackView/archive/master.zip, attempt 3
+2020-01-02 20:56:07,876 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/master.zip": 236 KB
+2020-01-02 20:56:07,876 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-02 20:56:07,882 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/master.zip: true
+2020-01-02 20:56:07,883 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src'.
+2020-01-02 20:56:07,902 INFO  FullProcessService - Size of directory with sources: 309 KB
+2020-01-02 20:56:07,902 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src]
+2020-01-02 20:56:07,919 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/.git/
 
-2019-11-10 21:50:32,651 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/gradlew
-2019-11-10 21:50:32,654 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/cardstackview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/build.gradle
-2019-11-10 21:50:32,658 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/cardstackview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/settings.gradle
-2019-11-10 21:50:32,659 INFO  ProjectBuildService - Remote scripts: none
-2019-11-10 21:50:32,659 INFO  ProjectFixService - Fixing project...
-2019-11-10 21:50:32,668 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/cardstackview/local.properties
-2019-11-10 21:50:32,670 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/cardstackview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-10 21:50:32,670 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/cardstackview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-10 21:50:32,671 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/sample/local.properties
-2019-11-10 21:50:32,672 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-10 21:50:32,672 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-10 21:50:32,673 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/local.properties
-2019-11-10 21:50:32,674 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-11-10 21:50:32,674 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-11-10 21:50:32,676 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-10 21:50:32,676 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-11-10 21:50:32,676 INFO  ProjectFixService - Project was maybe fixed
-2019-11-10 21:50:32,677 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-10 21:50:32,677 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/cardstackview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-10 21:50:44,577 INFO  ProjectTaskService - Detected possible tasks: 80
-2019-11-10 21:50:44,577 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-11-10 21:50:44,578 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/cardstackview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-11-10 21:51:01,643 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 20:56:07,921 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/gradlew
+2020-01-02 20:56:07,924 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/cardstackview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/build.gradle
+2020-01-02 20:56:07,925 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/cardstackview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/settings.gradle
+2020-01-02 20:56:07,926 INFO  ProjectBuildService - Remote scripts: none
+2020-01-02 20:56:07,926 INFO  ProjectFixService - Fixing project...
+2020-01-02 20:56:07,930 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/cardstackview/local.properties
+2020-01-02 20:56:07,931 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/cardstackview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-02 20:56:07,931 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/cardstackview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-02 20:56:07,932 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/sample/local.properties
+2020-01-02 20:56:07,932 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-02 20:56:07,932 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-02 20:56:07,933 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/local.properties
+2020-01-02 20:56:07,933 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-02 20:56:07,933 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-02 20:56:07,934 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-02 20:56:07,934 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-02 20:56:07,934 INFO  ProjectFixService - Project was maybe fixed
+2020-01-02 20:56:07,934 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 20:56:07,934 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/cardstackview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 20:56:15,186 INFO  ProjectTaskService - Detected possible tasks: 80
+2020-01-02 20:56:15,186 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-02 20:56:15,186 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/cardstackview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-02 20:56:20,149 INFO  VirusProcessorServiceImpl - Queued project 6078 to scan viruses
+2020-01-02 20:56:24,285 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :cardstackview
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -45,9 +46,9 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :cardstackview:preBuild UP-TO-DATE
 > Task :cardstackview:preDebugBuild UP-TO-DATE
 > Task :cardstackview:checkDebugManifest
-> Task :cardstackview:generateDebugBuildConfig
 > Task :cardstackview:compileDebugAidl NO-SOURCE
 > Task :cardstackview:compileDebugRenderscript NO-SOURCE
+> Task :cardstackview:generateDebugBuildConfig
 > Task :cardstackview:generateDebugResValues
 > Task :cardstackview:generateDebugResources
 > Task :cardstackview:packageDebugResources
@@ -56,9 +57,9 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :cardstackview:generateDebugAssets
 > Task :cardstackview:packageDebugAssets
 > Task :cardstackview:packageDebugRenderscript NO-SOURCE
+> Task :cardstackview:parseDebugLibraryResources
 > Task :cardstackview:processDebugJavaRes NO-SOURCE
 > Task :cardstackview:mergeDebugJniLibFolders
-> Task :cardstackview:parseDebugLibraryResources
 > Task :cardstackview:preReleaseBuild UP-TO-DATE
 > Task :cardstackview:compileReleaseAidl NO-SOURCE
 > Task :cardstackview:compileReleaseRenderscript NO-SOURCE
@@ -67,6 +68,8 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :cardstackview:generateReleaseResValues
 > Task :cardstackview:generateReleaseResources
 > Task :cardstackview:packageReleaseResources
+> Task :cardstackview:processDebugManifest
+> Task :cardstackview:processReleaseManifest
 > Task :cardstackview:mergeReleaseShaders
 > Task :cardstackview:compileReleaseShaders
 > Task :cardstackview:generateReleaseAssets
@@ -74,56 +77,50 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :cardstackview:packageReleaseRenderscript NO-SOURCE
 > Task :cardstackview:processReleaseJavaRes NO-SOURCE
 > Task :cardstackview:mergeReleaseJniLibFolders
-> Task :cardstackview:parseReleaseLibraryResources
-> Task :cardstackview:processDebugManifest
+> Task :cardstackview:prepareLintJarForPublish
+> Task :cardstackview:mergeDebugNativeLibs
+> Task :cardstackview:stripDebugDebugSymbols
+> Task :cardstackview:transformNativeLibsWithSyncJniLibsForDebug
 > Task :cardstackview:javaPreCompileDebug
 > Task :cardstackview:mergeReleaseNativeLibs
 > Task :cardstackview:stripReleaseDebugSymbols
 > Task :cardstackview:transformNativeLibsWithSyncJniLibsForRelease
-> Task :cardstackview:mergeDebugNativeLibs
-> Task :cardstackview:stripDebugDebugSymbols
-> Task :cardstackview:transformNativeLibsWithSyncJniLibsForDebug
-> Task :cardstackview:prepareLintJarForPublish
+> Task :cardstackview:parseReleaseLibraryResources
 > Task :cardstackview:javaPreCompileRelease
-> Task :cardstackview:processReleaseManifest
 > Task :cardstackview:mergeReleaseResources
-> Task :cardstackview:generateDebugRFile
-> Task :cardstackview:compileDebugJavaWithJavac
-> Task :cardstackview:extractDebugAnnotations
-> Task :cardstackview:mergeDebugGeneratedProguardFiles
-> Task :cardstackview:mergeDebugConsumerProguardFiles
-> Task :cardstackview:verifyReleaseResources
-> Task :cardstackview:compileDebugSources
 > Task :cardstackview:generateReleaseRFile
 > Task :cardstackview:compileReleaseJavaWithJavac
 > Task :cardstackview:extractReleaseAnnotations
 > Task :cardstackview:mergeReleaseGeneratedProguardFiles
 > Task :cardstackview:mergeReleaseConsumerProguardFiles
 > Task :cardstackview:compileReleaseSources
-> Task :cardstackview:mergeDebugJavaResource
-> Task :cardstackview:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :cardstackview:bundleDebugAar
-> Task :cardstackview:assembleDebug
+> Task :cardstackview:generateDebugRFile
+> Task :cardstackview:verifyReleaseResources
+> Task :cardstackview:compileDebugJavaWithJavac
+> Task :cardstackview:extractDebugAnnotations
+> Task :cardstackview:mergeDebugGeneratedProguardFiles
+> Task :cardstackview:mergeDebugConsumerProguardFiles
+> Task :cardstackview:compileDebugSources
 > Task :cardstackview:mergeReleaseJavaResource
 > Task :cardstackview:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :cardstackview:bundleReleaseAar
 > Task :cardstackview:assembleRelease
+> Task :cardstackview:mergeDebugJavaResource
+> Task :cardstackview:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :cardstackview:bundleDebugAar
+> Task :cardstackview:assembleDebug
 > Task :cardstackview:assemble
 > Task :cardstackview:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 16s
+BUILD SUCCESSFUL in 8s
 47 actionable tasks: 47 executed
 
-2019-11-10 21:51:01,674 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-10 21:51:01,674 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-10 21:51:12,434 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-11-10 21:51:12,435 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-10 21:51:12,435 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-10 21:52:41,540 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-02 20:56:24,306 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-02 20:56:24,306 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-02 20:56:29,842 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-02 20:56:29,842 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-02 20:56:29,842 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-02 20:57:25,010 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :cardstackview
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -153,8 +150,8 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :cardstackview:packageDebugRenderscript NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
 > Task :cardstackview:bundleLibCompileDebug
 > Task :sample:mainApkListPersistenceDebug
@@ -224,23 +221,23 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :sample:prepareLintJar
 > Task :cardstackview:processReleaseJavaRes NO-SOURCE
 > Task :sample:checkReleaseDuplicateClasses
-> Task :cardstackview:bundleLibResRelease
 > Task :cardstackview:bundleLibRuntimeRelease
+> Task :cardstackview:bundleLibResRelease
 > Task :cardstackview:createFullJarRelease
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 > Task :sample:kaptGenerateStubsReleaseKotlin
 > Task :sample:kaptReleaseKotlin
 > Task :sample:compileReleaseKotlin
+> Task :sample:mergeExtDexDebug
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
 > Task :sample:lintVitalRelease
-> Task :sample:mergeExtDexDebug
-> Task :sample:transformClassesWithDexBuilderForRelease
 > Task :sample:mergeDexDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
+> Task :sample:transformClassesWithDexBuilderForRelease
 > Task :cardstackview:mergeReleaseShaders UP-TO-DATE
 > Task :cardstackview:compileReleaseShaders UP-TO-DATE
 > Task :cardstackview:generateReleaseAssets UP-TO-DATE
@@ -270,7 +267,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 28s
+BUILD SUCCESSFUL in 54s
 96 actionable tasks: 65 executed, 31 up-to-date
 
-2019-11-10 21:52:41,640 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573397429842-0/src/CardStackView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-01-02 20:57:25,094 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577973367014-0/src/CardStackView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
