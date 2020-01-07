@@ -1,33 +1,36 @@
-2018-11-16 12:34:03,102 INFO  DownloadService - Downloading "https://github.com/JessYanCoding/RetrofitUrlManager/archive/master.zip", attempt 3
-2018-11-16 12:34:07,282 INFO  DownloadService - Downloaded https://github.com/JessYanCoding/RetrofitUrlManager/archive/master.zip, attempt 3
-2018-11-16 12:34:07,283 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/master.zip": 3 MB
-2018-11-16 12:34:07,283 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-16 12:34:07,286 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/master.zip: true
-2018-11-16 12:34:07,286 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src'.
-2018-11-16 12:34:07,328 INFO  FullProcessService - Size of directory with sources: 3 MB
-2018-11-16 12:34:07,328 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src]
-2018-11-16 12:34:07,345 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/.git/
+2020-01-06 21:01:03,467 INFO  DownloadService - Downloading "https://github.com/JessYanCoding/RetrofitUrlManager/archive/master.zip", attempt 3
+2020-01-06 21:02:04,122 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-01-06 21:02:05,485 INFO  GithubDownloadService - Default branch of this repository: master
+2020-01-06 21:02:05,485 INFO  DownloadService - Downloading "https://github.com/JessYanCoding/RetrofitUrlManager/archive/master.zip", attempt 3
+2020-01-06 21:03:06,864 DEBUG FullProcessService - Repository https://github.com/JessYanCoding/RetrofitUrlManager available: true
+2020-01-06 21:03:06,864 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-01-06 21:03:06,864 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/JessYanCoding/RetrofitUrlManager, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src]
+2020-01-06 21:03:09,793 INFO  SysUtils - 
+2020-01-06 21:03:09,821 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/.git": true
+2020-01-06 21:03:09,822 INFO  FullProcessService - Size of directory with sources: 3 MB
+2020-01-06 21:03:09,822 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src]
+2020-01-06 21:03:09,841 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/.git/
 
-2018-11-16 12:34:07,347 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/gradlew
-2018-11-16 12:34:07,350 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/manager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/build.gradle
-2018-11-16 12:34:07,352 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/manager/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/manager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/settings.gradle
-2018-11-16 12:34:07,353 INFO  ProjectBuildService - Remote scripts: none
-2018-11-16 12:34:07,353 INFO  ProjectFixService - Fixing project...
-2018-11-16 12:34:07,360 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/app/local.properties
-2018-11-16 12:34:07,361 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-11-16 12:34:07,361 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/manager/local.properties
-2018-11-16 12:34:07,363 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/manager/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-11-16 12:34:07,364 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/local.properties
-2018-11-16 12:34:07,364 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-11-16 12:34:07,365 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-11-16 12:34:07,365 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
-2018-11-16 12:34:07,365 INFO  ProjectFixService - Project was maybe fixed
-2018-11-16 12:34:07,365 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-16 12:34:07,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-16 12:34:13,419 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-11-16 12:34:13,420 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-16 12:34:13,420 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-16 12:34:38,038 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-06 21:03:09,843 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/gradlew
+2020-01-06 21:03:09,845 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/manager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/build.gradle
+2020-01-06 21:03:09,847 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/manager/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/manager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/settings.gradle
+2020-01-06 21:03:09,847 INFO  ProjectBuildService - Remote scripts: none
+2020-01-06 21:03:09,847 INFO  ProjectFixService - Fixing project...
+2020-01-06 21:03:09,852 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/app/local.properties
+2020-01-06 21:03:09,853 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2020-01-06 21:03:09,853 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/manager/local.properties
+2020-01-06 21:03:09,854 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/manager/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2020-01-06 21:03:09,855 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/local.properties
+2020-01-06 21:03:09,855 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2020-01-06 21:03:09,855 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2020-01-06 21:03:09,855 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=9,targetSdkVersion=27]
+2020-01-06 21:03:09,855 INFO  ProjectFixService - Project was maybe fixed
+2020-01-06 21:03:09,855 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-06 21:03:09,856 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-06 21:03:15,140 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-06 21:03:15,141 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-06 21:03:15,141 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-06 21:03:44,974 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :manager:preBuild UP-TO-DATE
 :manager:preDebugBuild UP-TO-DATE
@@ -92,28 +95,6 @@
 :manager:generateReleaseResources
 :manager:packageReleaseResources
 :app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:manager:generateReleaseBuildConfig
-:manager:javaPreCompileRelease
-:manager:processReleaseJavaRes NO-SOURCE
-:app:compileReleaseNdk NO-SOURCE
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:manager:mergeReleaseShaders
-:manager:compileReleaseShaders
-:manager:generateReleaseAssets
-:manager:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:mergeReleaseJniLibFolders
-:manager:compileReleaseNdk NO-SOURCE
-:manager:mergeReleaseJniLibFolders
-:manager:transformNativeLibsWithMergeJniLibsForRelease
-:manager:transformNativeLibsWithStripDebugSymbolForRelease
-:manager:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:processReleaseJavaRes NO-SOURCE
 :manager:generateDebugRFile
 :app:processDebugResources
 :app:generateDebugSources
@@ -121,7 +102,7 @@
 :manager:compileDebugJavaWithJavac
 :manager:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/app/src/main/java/me/jessyan/retrofiturlmanager/demo/MainActivity.java uses or overrides a deprecated API.
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/app/src/main/java/me/jessyan/retrofiturlmanager/demo/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:compileDebugSources
@@ -133,30 +114,52 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:transformResourcesWithMergeJavaResForDebug
 :app:packageDebug
 :app:assembleDebug
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
 :manager:generateReleaseRFile
 :app:processReleaseResources
 :app:generateReleaseSources
+:manager:generateReleaseBuildConfig
 :manager:generateReleaseSources
+:manager:javaPreCompileRelease
 :manager:compileReleaseJavaWithJavac
+:manager:processReleaseJavaRes NO-SOURCE
 :manager:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/app/src/main/java/me/jessyan/retrofiturlmanager/demo/MainActivity.java uses or overrides a deprecated API.
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/app/src/main/java/me/jessyan/retrofiturlmanager/demo/MainActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
+:app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:manager:mergeReleaseShaders
+:manager:compileReleaseShaders
+:manager:generateReleaseAssets
+:manager:packageReleaseAssets
+:app:mergeReleaseAssets
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 :app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:manager:compileReleaseNdk NO-SOURCE
+:manager:mergeReleaseJniLibFolders
+:manager:transformNativeLibsWithMergeJniLibsForRelease
+:manager:transformNativeLibsWithStripDebugSymbolForRelease
+:manager:transformNativeLibsWithIntermediateJniLibsForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
 :app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForRelease
 :app:packageRelease
 :app:assembleRelease
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 24s
+BUILD SUCCESSFUL in 29s
 91 actionable tasks: 91 executed
 
-2018-11-16 12:34:38,103 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542346443098-0/src/RetrofitUrlManager-master/app/build/outputs/apk/debug/app-debug.apk
+2020-01-06 21:03:45,021 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578319263463-0/src/app/build/outputs/apk/debug/app-debug.apk

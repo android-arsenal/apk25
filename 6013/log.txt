@@ -1,161 +1,168 @@
-2018-11-10 21:19:00,330 INFO  DownloadService - Downloading "https://github.com/lolucosmin/PermissionsWrapper/archive/master.zip", attempt 3
-2018-11-10 21:19:00,873 INFO  DownloadService - Downloaded https://github.com/lolucosmin/PermissionsWrapper/archive/master.zip, attempt 3
-2018-11-10 21:19:00,873 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/master.zip": 146 KB
-2018-11-10 21:19:00,873 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-10 21:19:00,879 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/master.zip: true
-2018-11-10 21:19:00,879 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src'.
-2018-11-10 21:19:00,897 INFO  FullProcessService - Size of directory with sources: 167 KB
-2018-11-10 21:19:00,897 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src]
-2018-11-10 21:19:00,914 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/.git/
+2020-01-06 20:49:23,805 INFO  DownloadService - Downloading "https://github.com/lolucosmin/PermissionsWrapper/archive/master.zip", attempt 3
+2020-01-06 20:49:24,325 INFO  DownloadService - Downloaded https://github.com/lolucosmin/PermissionsWrapper/archive/master.zip, attempt 3
+2020-01-06 20:49:24,325 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/master.zip": 146 KB
+2020-01-06 20:49:24,325 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-06 20:49:24,331 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/master.zip: true
+2020-01-06 20:49:24,331 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src'.
+2020-01-06 20:49:24,345 INFO  FullProcessService - Size of directory with sources: 167 KB
+2020-01-06 20:49:24,345 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src]
+2020-01-06 20:49:24,362 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/.git/
 
-2018-11-10 21:19:00,917 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/gradlew
-2018-11-10 21:19:00,920 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/libraries/PermissionsWrapper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/build.gradle
-2018-11-10 21:19:00,922 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/libraries/PermissionsWrapper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/settings.gradle
-2018-11-10 21:19:00,922 INFO  ProjectBuildService - Remote scripts: none
-2018-11-10 21:19:00,922 INFO  ProjectFixService - Fixing project...
-2018-11-10 21:19:00,930 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/app/local.properties
-2018-11-10 21:19:00,931 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2018-11-10 21:19:00,931 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/libraries/PermissionsWrapper/local.properties
-2018-11-10 21:19:00,931 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/libraries/PermissionsWrapper/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2018-11-10 21:19:00,932 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/local.properties
-2018-11-10 21:19:00,932 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-11-10 21:19:00,932 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-11-10 21:19:00,933 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2018-11-10 21:19:00,933 INFO  ProjectFixService - Project was maybe fixed
-2018-11-10 21:19:00,934 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-10 21:19:00,934 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-10 21:19:06,806 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-10 21:19:06,806 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-10 21:19:06,806 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-10 21:19:28,153 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:checkDebugClasspath
-:app:preBuild UP-TO-DATE
-:PermissionsWrapper:preBuild UP-TO-DATE
-:PermissionsWrapper:preDebugBuild UP-TO-DATE
-:PermissionsWrapper:checkDebugManifest
-:PermissionsWrapper:processDebugManifest
-:app:preDebugBuild
-:PermissionsWrapper:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:PermissionsWrapper:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:prepareLintJar
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:PermissionsWrapper:compileDebugRenderscript
-:PermissionsWrapper:generateDebugResValues
-:PermissionsWrapper:generateDebugResources
-:PermissionsWrapper:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:PermissionsWrapper:generateDebugRFile
-:app:processDebugResources
-:app:generateDebugSources
-:PermissionsWrapper:generateDebugBuildConfig
-:PermissionsWrapper:prepareLintJar
-:PermissionsWrapper:generateDebugSources
-:PermissionsWrapper:javaPreCompileDebug
-:PermissionsWrapper:compileDebugJavaWithJavac
-:PermissionsWrapper:processDebugJavaRes NO-SOURCE
-:PermissionsWrapper:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:PermissionsWrapper:mergeDebugShaders
-:PermissionsWrapper:compileDebugShaders
-:PermissionsWrapper:generateDebugAssets
-:PermissionsWrapper:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:PermissionsWrapper:compileDebugNdk NO-SOURCE
-:PermissionsWrapper:mergeDebugJniLibFolders
-:PermissionsWrapper:transformNativeLibsWithMergeJniLibsForDebug
-:PermissionsWrapper:transformNativeLibsWithStripDebugSymbolForDebug
-:PermissionsWrapper:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:PermissionsWrapper:preReleaseBuild UP-TO-DATE
-:PermissionsWrapper:checkReleaseManifest
-:PermissionsWrapper:processReleaseManifest
-:app:preReleaseBuild
-:PermissionsWrapper:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:PermissionsWrapper:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:PermissionsWrapper:compileReleaseRenderscript
-:PermissionsWrapper:generateReleaseResValues
-:PermissionsWrapper:generateReleaseResources
-:PermissionsWrapper:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:PermissionsWrapper:generateReleaseRFile
-:app:processReleaseResources
-:app:generateReleaseSources
-:PermissionsWrapper:generateReleaseBuildConfig
-:PermissionsWrapper:generateReleaseSources
-:PermissionsWrapper:javaPreCompileRelease
-:PermissionsWrapper:compileReleaseJavaWithJavac
-:PermissionsWrapper:processReleaseJavaRes NO-SOURCE
-:PermissionsWrapper:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:PermissionsWrapper:mergeReleaseShaders
-:PermissionsWrapper:compileReleaseShaders
-:PermissionsWrapper:generateReleaseAssets
-:PermissionsWrapper:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:PermissionsWrapper:compileReleaseNdk NO-SOURCE
-:PermissionsWrapper:mergeReleaseJniLibFolders
-:PermissionsWrapper:transformNativeLibsWithMergeJniLibsForRelease
-:PermissionsWrapper:transformNativeLibsWithStripDebugSymbolForRelease
-:PermissionsWrapper:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+2020-01-06 20:49:24,365 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/gradlew
+2020-01-06 20:49:24,368 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/libraries/PermissionsWrapper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/build.gradle
+2020-01-06 20:49:24,370 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/libraries/PermissionsWrapper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/settings.gradle
+2020-01-06 20:49:24,370 INFO  ProjectBuildService - Remote scripts: none
+2020-01-06 20:49:24,370 INFO  ProjectFixService - Fixing project...
+2020-01-06 20:49:24,375 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/app/local.properties
+2020-01-06 20:49:24,376 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-01-06 20:49:24,376 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/libraries/PermissionsWrapper/local.properties
+2020-01-06 20:49:24,376 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/libraries/PermissionsWrapper/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-01-06 20:49:24,377 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/local.properties
+2020-01-06 20:49:24,377 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-06 20:49:24,377 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-06 20:49:24,378 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-01-06 20:49:24,378 INFO  ProjectFixService - Project was maybe fixed
+2020-01-06 20:49:24,378 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-06 20:49:24,378 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-06 20:49:29,485 INFO  VirusProcessorServiceImpl - Queued project 6017 to scan viruses
+2020-01-06 20:49:29,912 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-06 20:49:29,912 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-06 20:49:29,912 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-06 20:49:58,143 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :PermissionsWrapper:preBuild UP-TO-DATE
+> Task :PermissionsWrapper:preDebugBuild UP-TO-DATE
+> Task :PermissionsWrapper:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :PermissionsWrapper:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :PermissionsWrapper:compileDebugRenderscript NO-SOURCE
+> Task :PermissionsWrapper:checkDebugManifest
+> Task :PermissionsWrapper:generateDebugBuildConfig
+> Task :PermissionsWrapper:generateDebugResValues
+> Task :PermissionsWrapper:generateDebugResources
+> Task :PermissionsWrapper:packageDebugResources
+> Task :PermissionsWrapper:parseDebugLibraryResources
+> Task :PermissionsWrapper:javaPreCompileDebug
+> Task :PermissionsWrapper:processDebugManifest
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :PermissionsWrapper:generateDebugRFile
+> Task :PermissionsWrapper:compileDebugJavaWithJavac
+> Task :app:mergeDebugResources
+> Task :PermissionsWrapper:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :PermissionsWrapper:mergeDebugShaders
+> Task :PermissionsWrapper:compileDebugShaders
+> Task :PermissionsWrapper:generateDebugAssets
+> Task :PermissionsWrapper:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :PermissionsWrapper:processDebugJavaRes NO-SOURCE
+> Task :PermissionsWrapper:bundleLibResDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:checkDebugDuplicateClasses
+> Task :PermissionsWrapper:bundleLibRuntimeDebug
+> Task :PermissionsWrapper:createFullJarDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :PermissionsWrapper:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :PermissionsWrapper:preReleaseBuild UP-TO-DATE
+> Task :PermissionsWrapper:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :PermissionsWrapper:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :PermissionsWrapper:compileReleaseRenderscript NO-SOURCE
+> Task :PermissionsWrapper:checkReleaseManifest
+> Task :PermissionsWrapper:generateReleaseBuildConfig
+> Task :PermissionsWrapper:generateReleaseResValues
+> Task :PermissionsWrapper:generateReleaseResources
+> Task :PermissionsWrapper:packageReleaseResources
+> Task :PermissionsWrapper:mergeDebugNativeLibs
+> Task :PermissionsWrapper:stripDebugDebugSymbols
+> Task :PermissionsWrapper:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :PermissionsWrapper:parseReleaseLibraryResources
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :PermissionsWrapper:javaPreCompileRelease
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:prepareLintJar
+> Task :PermissionsWrapper:prepareLintJarForPublish
+> Task :PermissionsWrapper:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :PermissionsWrapper:mergeReleaseShaders
+> Task :PermissionsWrapper:compileReleaseShaders
+> Task :PermissionsWrapper:generateReleaseAssets
+> Task :PermissionsWrapper:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :PermissionsWrapper:mergeReleaseJniLibFolders
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :PermissionsWrapper:mergeReleaseNativeLibs
+> Task :PermissionsWrapper:stripReleaseDebugSymbols
+> Task :PermissionsWrapper:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseResources
+> Task :app:mergeProjectDexDebug
+> Task :PermissionsWrapper:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :PermissionsWrapper:generateReleaseRFile
+> Task :PermissionsWrapper:compileReleaseJavaWithJavac
+> Task :app:processReleaseResources
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :PermissionsWrapper:bundleLibCompileRelease
+> Task :PermissionsWrapper:bundleLibResRelease
+> Task :PermissionsWrapper:bundleLibRuntimeRelease
+> Task :PermissionsWrapper:createFullJarRelease
+> Task :app:mergeExtDexRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
 
-BUILD SUCCESSFUL in 21s
-90 actionable tasks: 90 executed
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/579fe06842e86639e9c38ff046763201/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-2018-11-10 21:19:28,237 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859540327-0/src/PermissionsWrapper-master/app/build/outputs/apk/debug/app-debug.apk
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 28s
+91 actionable tasks: 91 executed
+
+2020-01-06 20:49:58,199 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/app/build/outputs/apk/debug/app-debug.apk

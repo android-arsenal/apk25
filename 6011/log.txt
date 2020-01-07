@@ -1,41 +1,41 @@
-2019-07-05 02:42:36,612 INFO  DownloadService - Downloading "https://github.com/isuPatches/WiseFy/archive/master.zip", attempt 3
-2019-07-05 02:42:43,000 INFO  DownloadService - Downloading "https://github.com/isuPatches/WiseFy/archive/master.zip", attempt 2
-2019-07-05 02:42:48,992 INFO  DownloadService - Downloading "https://github.com/isuPatches/WiseFy/archive/master.zip", attempt 1
-2019-07-05 02:43:49,285 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-07-05 02:43:50,189 INFO  GithubDownloadService - Default branch of this repository: 4.x
-2019-07-05 02:43:50,189 INFO  DownloadService - Downloading "https://github.com/isuPatches/WiseFy/archive/4.x.zip", attempt 3
-2019-07-05 02:44:51,484 DEBUG FullProcessService - Repository https://github.com/isuPatches/WiseFy available: true
-2019-07-05 02:44:51,484 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-07-05 02:44:51,484 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/isuPatches/WiseFy, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src]
-2019-07-05 02:44:54,800 INFO  SysUtils - 
-2019-07-05 02:44:54,813 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/.git": true
-2019-07-05 02:44:54,825 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-07-05 02:44:54,826 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src]
-2019-07-05 02:44:54,842 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/.git/
+2020-01-06 20:50:28,993 INFO  DownloadService - Downloading "https://github.com/isuPatches/WiseFy/archive/master.zip", attempt 3
+2020-01-06 20:50:34,868 INFO  DownloadService - Downloading "https://github.com/isuPatches/WiseFy/archive/master.zip", attempt 2
+2020-01-06 20:50:40,978 INFO  DownloadService - Downloading "https://github.com/isuPatches/WiseFy/archive/master.zip", attempt 1
+2020-01-06 20:51:41,246 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-01-06 20:51:42,345 INFO  GithubDownloadService - Default branch of this repository: 4.x
+2020-01-06 20:51:42,345 INFO  DownloadService - Downloading "https://github.com/isuPatches/WiseFy/archive/4.x.zip", attempt 3
+2020-01-06 20:52:43,989 DEBUG FullProcessService - Repository https://github.com/isuPatches/WiseFy available: true
+2020-01-06 20:52:43,989 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-01-06 20:52:43,989 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/isuPatches/WiseFy, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src]
+2020-01-06 20:52:46,328 INFO  SysUtils - 
+2020-01-06 20:52:46,341 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/.git": true
+2020-01-06 20:52:46,354 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-01-06 20:52:46,354 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src]
+2020-01-06 20:52:46,372 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/.git/
 
-2019-07-05 02:44:54,852 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradlew
-2019-07-05 02:44:54,861 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefysample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/build.gradle
-2019-07-05 02:44:54,870 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradle/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradle/gradle-bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradle/dokka.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradle/static-analysis.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradle/code-coverage.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradle/detekt.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradle/cpd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradle/dexcount.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradle/gradle-bintray-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradle/ktlint.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradle/pmd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefysample/build.gradle
-2019-07-05 02:44:54,871 INFO  ProjectBuildService - Remote scripts: none
-2019-07-05 02:44:54,871 INFO  ProjectFixService - Fixing project...
-2019-07-05 02:44:54,892 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefy/local.properties
-2019-07-05 02:44:54,898 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefy/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 02:44:54,898 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefy/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 02:44:54,899 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefysample/local.properties
-2019-07-05 02:44:54,906 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefysample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 02:44:54,906 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefysample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 02:44:54,907 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/local.properties
-2019-07-05 02:44:54,907 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-07-05 02:44:54,907 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-07-05 02:44:54,913 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 02:44:54,913 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 02:44:54,914 INFO  ProjectFixService - Project was maybe fixed
-2019-07-05 02:44:54,914 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 02:44:54,914 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefy/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 02:45:05,612 INFO  ProjectTaskService - Detected possible tasks: 97
-2019-07-05 02:45:05,612 INFO  ProjectTaskService - Excluded tasks (17): pmd lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-05 02:45:05,612 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefy/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-05 02:45:48,675 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+2020-01-06 20:52:46,382 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradlew
+2020-01-06 20:52:46,392 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefysample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/build.gradle
+2020-01-06 20:52:46,401 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefy/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradle/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradle/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradle/gradle-bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradle/dokka.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradle/static-analysis.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradle/code-coverage.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradle/detekt.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradle/cpd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradle/dexcount.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradle/gradle-bintray-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradle/ktlint.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradle/pmd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefysample/build.gradle
+2020-01-06 20:52:46,402 INFO  ProjectBuildService - Remote scripts: none
+2020-01-06 20:52:46,402 INFO  ProjectFixService - Fixing project...
+2020-01-06 20:52:46,425 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefy/local.properties
+2020-01-06 20:52:46,433 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefy/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-06 20:52:46,433 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefy/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-06 20:52:46,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefysample/local.properties
+2020-01-06 20:52:46,443 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefysample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-06 20:52:46,443 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefysample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-06 20:52:46,444 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/local.properties
+2020-01-06 20:52:46,444 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-06 20:52:46,444 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-06 20:52:46,456 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-06 20:52:46,456 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-06 20:52:46,457 INFO  ProjectFixService - Project was maybe fixed
+2020-01-06 20:52:46,458 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-06 20:52:46,458 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefy/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-06 20:52:58,670 INFO  ProjectTaskService - Detected possible tasks: 97
+2020-01-06 20:52:58,670 INFO  ProjectTaskService - Excluded tasks (17): pmd lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-06 20:52:58,670 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefy/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-06 20:53:42,526 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -57,8 +57,8 @@ gpg_passphrase: null
 > Task :wisefy:packageDebugResources
 > Task :wisefy:generateDebugRFile
 > Task :wisefy:prepareLintJar
-> Task :wisefy:compileDebugKotlin
 > Task :wisefy:generateDebugSources
+> Task :wisefy:compileDebugKotlin
 > Task :wisefy:javaPreCompileDebug
 > Task :wisefy:compileDebugJavaWithJavac
 > Task :wisefy:extractDebugAnnotations
@@ -434,12 +434,12 @@ See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 42s
 54 actionable tasks: 54 executed
 
-2019-07-05 02:45:48,707 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 02:45:48,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefysample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 02:45:56,796 INFO  ProjectTaskService - Detected possible tasks: 95
-2019-07-05 02:45:56,796 INFO  ProjectTaskService - Excluded tasks (20): pmd lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-05 02:45:56,796 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefysample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-05 02:47:32,575 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+2020-01-06 20:53:42,560 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-06 20:53:42,560 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefysample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-06 20:53:50,568 INFO  ProjectTaskService - Detected possible tasks: 95
+2020-01-06 20:53:50,568 INFO  ProjectTaskService - Excluded tasks (20): pmd lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-06 20:53:50,568 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefysample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-06 20:55:10,390 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -468,16 +468,16 @@ gpg_passphrase: null
 > Task :wisefy:bundleLibCompileDebug
 > Task :wisefysample:preBuild UP-TO-DATE
 > Task :wisefysample:extractProguardFiles
+> Task :wisefy:packageDebugRenderscript NO-SOURCE
 > Task :wisefysample:preDebugBuild
 > Task :wisefysample:compileDebugAidl NO-SOURCE
-> Task :wisefy:packageDebugRenderscript NO-SOURCE
 > Task :wisefysample:compileDebugRenderscript NO-SOURCE
 > Task :wisefysample:checkDebugManifest
 > Task :wisefysample:generateDebugBuildConfig
 > Task :wisefysample:mainApkListPersistenceDebug
 > Task :wisefysample:generateDebugResValues
 > Task :wisefysample:generateDebugResources
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefysample/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:931: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefysample/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:931: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
 > Task :wisefysample:mergeDebugResources
 > Task :wisefysample:createDebugCompatibleScreenManifests
@@ -551,7 +551,7 @@ D8: Missing class: java.lang.instrument.ClassFileTransformer
 > Task :wisefysample:mainApkListPersistenceRelease
 > Task :wisefysample:generateReleaseResValues
 > Task :wisefysample:generateReleaseResources
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefysample/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:931: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefysample/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:931: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
 > Task :wisefysample:mergeReleaseResources
 > Task :wisefysample:createReleaseCompatibleScreenManifests
@@ -565,11 +565,11 @@ D8: Missing class: java.lang.instrument.ClassFileTransformer
 > Task :wisefysample:compileReleaseJavaWithJavac
 > Task :wisefysample:compileReleaseSources
 > Task :wisefy:prepareLintJarForPublish UP-TO-DATE
+> Task :wisefy:mergeReleaseShaders UP-TO-DATE
 
 > Task :wisefysample:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f6888d7d7026971f1b5a6efd9221176b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :wisefy:mergeReleaseShaders UP-TO-DATE
 > Task :wisefy:compileReleaseShaders UP-TO-DATE
 > Task :wisefy:generateReleaseAssets UP-TO-DATE
 > Task :wisefy:packageReleaseAssets UP-TO-DATE
@@ -608,7 +608,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 35s
+BUILD SUCCESSFUL in 1m 19s
 97 actionable tasks: 61 executed, 36 up-to-date
 
-2019-07-05 02:47:32,688 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269356610-0/src/wisefysample/build/outputs/apk/release/wisefysample-release-unsigned.apk
+2020-01-06 20:55:10,505 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318628990-0/src/wisefysample/build/outputs/apk/release/wisefysample-release-unsigned.apk

@@ -1,67 +1,94 @@
-2019-10-08 13:33:20,369 INFO  DownloadService - Downloading "https://github.com/dkzwm/SmoothRefreshLayout/archive/master.zip", attempt 3
-2019-10-08 13:33:33,915 INFO  DownloadService - Downloaded https://github.com/dkzwm/SmoothRefreshLayout/archive/master.zip, attempt 3
-2019-10-08 13:33:33,915 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/master.zip": 17 MB
-2019-10-08 13:33:33,916 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-08 13:33:33,916 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/master.zip: true
-2019-10-08 13:33:33,916 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src'.
-2019-10-08 13:33:34,134 INFO  FullProcessService - Size of directory with sources: 19 MB
-2019-10-08 13:33:34,134 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src]
-2019-10-08 13:33:34,163 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/.git/
+2020-01-06 20:35:46,357 INFO  DownloadService - Downloading "https://github.com/dkzwm/SmoothRefreshLayout/archive/master.zip", attempt 3
+2020-01-06 20:35:50,999 INFO  DownloadService - Downloaded https://github.com/dkzwm/SmoothRefreshLayout/archive/master.zip, attempt 3
+2020-01-06 20:35:51,000 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/master.zip": 17 MB
+2020-01-06 20:35:51,000 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-06 20:35:51,001 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/master.zip: true
+2020-01-06 20:35:51,001 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src'.
+2020-01-06 20:35:51,186 INFO  FullProcessService - Size of directory with sources: 20 MB
+2020-01-06 20:35:51,186 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src]
+2020-01-06 20:35:51,205 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/.git/
 
-2019-10-08 13:33:34,170 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/gradlew
-2019-10-08 13:33:34,176 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-classics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-horizontal/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-material/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-two-level/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-util/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/build.gradle
-2019-10-08 13:33:34,182 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-classics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-two-level/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-util/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-horizontal/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-material/build.gradle
-2019-10-08 13:33:34,182 INFO  ProjectBuildService - Remote scripts: none
-2019-10-08 13:33:34,182 INFO  ProjectFixService - Fixing project...
-2019-10-08 13:33:34,199 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/app/local.properties
-2019-10-08 13:33:34,205 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-08 13:33:34,205 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-08 13:33:34,206 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/core/local.properties
-2019-10-08 13:33:34,212 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-08 13:33:34,212 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-08 13:33:34,214 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-classics/local.properties
-2019-10-08 13:33:34,218 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-classics/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-08 13:33:34,219 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-classics/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-08 13:33:34,220 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-horizontal/local.properties
-2019-10-08 13:33:34,225 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-horizontal/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-08 13:33:34,225 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-horizontal/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-08 13:33:34,226 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-material/local.properties
-2019-10-08 13:33:34,232 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-material/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-08 13:33:34,232 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-material/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-08 13:33:34,233 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-two-level/local.properties
-2019-10-08 13:33:34,238 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-two-level/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-08 13:33:34,238 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-two-level/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-08 13:33:34,240 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-util/local.properties
-2019-10-08 13:33:34,245 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-util/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-08 13:33:34,245 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-util/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-08 13:33:34,247 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/local.properties
-2019-10-08 13:33:34,247 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-10-08 13:33:34,247 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-10-08 13:33:34,253 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-08 13:33:34,253 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-08 13:33:34,253 INFO  ProjectFixService - Project was maybe fixed
-2019-10-08 13:33:34,254 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-08 13:33:34,254 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-08 13:33:43,579 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-10-08 13:33:43,579 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-08 13:33:43,579 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-08 13:34:38,776 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-06 20:35:51,210 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/gradlew
+2020-01-06 20:35:51,217 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-classics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-horizontal/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-material/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-two-level/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-util/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/build.gradle
+2020-01-06 20:35:51,222 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-classics/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-two-level/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-util/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-horizontal/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-material/build.gradle
+2020-01-06 20:35:51,222 INFO  ProjectBuildService - Remote scripts: none
+2020-01-06 20:35:51,222 INFO  ProjectFixService - Fixing project...
+2020-01-06 20:35:51,235 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/app/local.properties
+2020-01-06 20:35:51,240 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2020-01-06 20:35:51,240 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-06 20:35:51,241 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/core/local.properties
+2020-01-06 20:35:51,247 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2020-01-06 20:35:51,247 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-06 20:35:51,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-classics/local.properties
+2020-01-06 20:35:51,253 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-classics/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2020-01-06 20:35:51,254 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-classics/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-06 20:35:51,255 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-horizontal/local.properties
+2020-01-06 20:35:51,260 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-horizontal/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2020-01-06 20:35:51,260 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-horizontal/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-06 20:35:51,261 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-material/local.properties
+2020-01-06 20:35:51,266 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-material/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2020-01-06 20:35:51,267 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-material/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-06 20:35:51,268 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-two-level/local.properties
+2020-01-06 20:35:51,273 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-two-level/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2020-01-06 20:35:51,273 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-two-level/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-06 20:35:51,275 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-util/local.properties
+2020-01-06 20:35:51,280 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-util/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2020-01-06 20:35:51,280 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/ext-util/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-06 20:35:51,281 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/local.properties
+2020-01-06 20:35:51,281 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-06 20:35:51,282 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-06 20:35:51,287 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2020-01-06 20:35:51,287 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-06 20:35:51,288 INFO  ProjectFixService - Project was maybe fixed
+2020-01-06 20:35:51,288 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-06 20:35:51,288 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-06 20:36:05,468 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-01-06 20:36:05,469 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-06 20:36:05,469 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-06 20:36:29,262 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-06 20:36:29,262 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :core:preBuild UP-TO-DATE
 > Task :core:preDebugBuild UP-TO-DATE
-> Task :core:compileDebugAidl NO-SOURCE
 > Task :ext-classics:preBuild UP-TO-DATE
+> Task :core:compileDebugAidl NO-SOURCE
 > Task :ext-classics:preDebugBuild UP-TO-DATE
-> Task :ext-classics:compileDebugAidl NO-SOURCE
 > Task :ext-horizontal:preBuild UP-TO-DATE
 > Task :ext-horizontal:preDebugBuild UP-TO-DATE
-> Task :ext-horizontal:compileDebugAidl NO-SOURCE
 > Task :ext-material:preBuild UP-TO-DATE
 > Task :ext-material:preDebugBuild UP-TO-DATE
-> Task :ext-material:compileDebugAidl NO-SOURCE
 > Task :ext-two-level:preBuild UP-TO-DATE
 > Task :ext-two-level:preDebugBuild UP-TO-DATE
+> Task :ext-classics:compileDebugAidl NO-SOURCE
+> Task :ext-horizontal:compileDebugAidl NO-SOURCE
+> Task :ext-material:compileDebugAidl NO-SOURCE
 > Task :ext-two-level:compileDebugAidl NO-SOURCE
 > Task :ext-util:preBuild UP-TO-DATE
 > Task :ext-util:preDebugBuild UP-TO-DATE
@@ -76,405 +103,204 @@
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Task :core:compileDebugRenderscript NO-SOURCE
 > Task :core:checkDebugManifest
+> Task :core:compileDebugRenderscript NO-SOURCE
 > Task :core:generateDebugBuildConfig
 > Task :core:generateDebugResValues
 > Task :core:generateDebugResources
 > Task :core:packageDebugResources
-> Task :ext-classics:compileDebugRenderscript NO-SOURCE
+> Task :core:parseDebugLibraryResources
 > Task :ext-classics:checkDebugManifest
+> Task :ext-classics:compileDebugRenderscript NO-SOURCE
 > Task :ext-classics:generateDebugBuildConfig
 > Task :ext-classics:generateDebugResValues
 > Task :ext-classics:generateDebugResources
 > Task :ext-classics:packageDebugResources
 > Task :core:processDebugManifest
 > Task :core:javaPreCompileDebug
-> Task :ext-horizontal:compileDebugRenderscript NO-SOURCE
+> Task :ext-classics:parseDebugLibraryResources
 > Task :ext-horizontal:checkDebugManifest
+> Task :ext-horizontal:compileDebugRenderscript NO-SOURCE
 > Task :ext-horizontal:generateDebugBuildConfig
 > Task :ext-horizontal:generateDebugResValues
 > Task :ext-horizontal:generateDebugResources
 > Task :ext-horizontal:packageDebugResources
 > Task :ext-classics:processDebugManifest
-> Task :ext-material:compileDebugRenderscript NO-SOURCE
-> Task :ext-material:checkDebugManifest
-> Task :ext-material:generateDebugBuildConfig
-> Task :ext-material:generateDebugResValues
-> Task :ext-material:generateDebugResources
-> Task :ext-material:packageDebugResources
 > Task :ext-horizontal:parseDebugLibraryResources
-> Task :ext-horizontal:processDebugManifest
-> Task :ext-classics:parseDebugLibraryResources
-> Task :ext-material:processDebugManifest
-> Task :ext-two-level:compileDebugRenderscript NO-SOURCE
-> Task :ext-two-level:checkDebugManifest
-> Task :ext-two-level:generateDebugBuildConfig
-> Task :ext-two-level:generateDebugResValues
-> Task :ext-two-level:generateDebugResources
-> Task :ext-two-level:packageDebugResources
-> Task :ext-material:parseDebugLibraryResources
-> Task :ext-classics:generateDebugRFile
-> Task :core:parseDebugLibraryResources
-> Task :ext-horizontal:generateDebugRFile
-> Task :ext-util:compileDebugRenderscript NO-SOURCE
-> Task :ext-util:checkDebugManifest
-> Task :ext-util:generateDebugBuildConfig
-> Task :ext-util:generateDebugResValues
-> Task :ext-util:generateDebugResources
-> Task :ext-util:packageDebugResources
-> Task :ext-material:generateDebugRFile
-> Task :ext-two-level:parseDebugLibraryResources
-> Task :ext-util:parseDebugLibraryResources
-> Task :ext-two-level:processDebugManifest
 > Task :core:generateDebugRFile
 
-> Task :core:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/core/src/main/java/me/dkzwm/widget/srl/util/ScrollCompat.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+> Task :core:compileDebugJavaWithJavac FAILED
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/core/src/main/java/me/dkzwm/widget/srl/SmoothRefreshLayout.java:3541: error: cannot find symbol
+            group.transformPointToViewLocal(point, child);
+                 ^
+  symbol:   method transformPointToViewLocal(float[],View)
+  location: variable group of type ViewGroup
+1 error
 
-> Task :ext-two-level:generateDebugRFile
-> Task :ext-util:processDebugManifest
-> Task :ext-util:generateDebugRFile
-> Task :core:bundleLibCompileDebug
-> Task :ext-classics:javaPreCompileDebug
-> Task :ext-classics:compileDebugJavaWithJavac
-> Task :ext-material:javaPreCompileDebug
-> Task :ext-material:compileDebugJavaWithJavac
-> Task :app:mainApkListPersistenceDebug
-> Task :ext-horizontal:javaPreCompileDebug
+> Task :ext-horizontal:processDebugManifest
+> Task :ext-classics:generateDebugRFile
 
-> Task :ext-horizontal:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-horizontal/src/main/java/me/dkzwm/widget/srl/util/HorizontalScrollCompat.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+FAILURE: Build failed with an exception.
 
-> Task :ext-two-level:javaPreCompileDebug
-> Task :ext-two-level:compileDebugJavaWithJavac
-> Task :ext-classics:bundleLibCompileDebug
-> Task :ext-material:bundleLibCompileDebug
-> Task :ext-horizontal:bundleLibCompileDebug
-> Task :ext-two-level:bundleLibCompileDebug
-> Task :ext-util:javaPreCompileDebug
-> Task :ext-util:compileDebugJavaWithJavac
-> Task :ext-util:bundleLibCompileDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:javaPreCompileDebug
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:mergeDebugResources
-> Task :app:processDebugResources
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
-> Task :core:mergeDebugShaders
-> Task :core:compileDebugShaders
-> Task :core:generateDebugAssets
-> Task :core:packageDebugAssets
-> Task :ext-classics:mergeDebugShaders
-> Task :ext-classics:compileDebugShaders
-> Task :ext-classics:generateDebugAssets
-> Task :ext-classics:packageDebugAssets
-> Task :ext-horizontal:mergeDebugShaders
-> Task :ext-horizontal:compileDebugShaders
-> Task :ext-horizontal:generateDebugAssets
-> Task :ext-horizontal:packageDebugAssets
-> Task :ext-material:mergeDebugShaders
-> Task :ext-material:compileDebugShaders
-> Task :ext-material:generateDebugAssets
-> Task :ext-material:packageDebugAssets
-> Task :ext-two-level:mergeDebugShaders
-> Task :ext-two-level:compileDebugShaders
-> Task :ext-two-level:generateDebugAssets
-> Task :ext-two-level:packageDebugAssets
-> Task :ext-util:mergeDebugShaders
-> Task :ext-util:compileDebugShaders
-> Task :ext-util:generateDebugAssets
-> Task :ext-util:packageDebugAssets
-> Task :app:mergeDebugAssets
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :core:processDebugJavaRes NO-SOURCE
-> Task :ext-classics:processDebugJavaRes NO-SOURCE
-> Task :ext-horizontal:processDebugJavaRes NO-SOURCE
-> Task :ext-material:processDebugJavaRes NO-SOURCE
-> Task :ext-two-level:processDebugJavaRes NO-SOURCE
-> Task :ext-util:processDebugJavaRes NO-SOURCE
-> Task :core:bundleLibResDebug
-> Task :ext-classics:bundleLibResDebug
-> Task :ext-material:bundleLibResDebug
-> Task :ext-util:bundleLibRuntimeDebug
-> Task :ext-util:bundleLibResDebug
-> Task :ext-util:createFullJarDebug
-> Task :ext-classics:bundleLibRuntimeDebug
-> Task :ext-classics:createFullJarDebug
-> Task :ext-two-level:bundleLibRuntimeDebug
-> Task :ext-horizontal:bundleLibResDebug
-> Task :ext-horizontal:bundleLibRuntimeDebug
-> Task :ext-horizontal:createFullJarDebug
-> Task :ext-material:bundleLibRuntimeDebug
-> Task :ext-material:createFullJarDebug
-> Task :core:bundleLibRuntimeDebug
-> Task :core:createFullJarDebug
-> Task :ext-two-level:bundleLibResDebug
-> Task :ext-two-level:createFullJarDebug
-> Task :app:checkDebugDuplicateClasses
-> Task :app:mergeDebugJavaResource
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
-> Task :app:mergeDebugJniLibFolders
-> Task :core:mergeDebugJniLibFolders
-> Task :ext-classics:mergeDebugJniLibFolders
-> Task :ext-horizontal:mergeDebugJniLibFolders
-> Task :ext-classics:mergeDebugNativeLibs
-> Task :ext-classics:stripDebugDebugSymbols
-> Task :ext-classics:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :ext-material:mergeDebugJniLibFolders
-> Task :ext-horizontal:mergeDebugNativeLibs
-> Task :ext-horizontal:stripDebugDebugSymbols
-> Task :ext-horizontal:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :ext-two-level:mergeDebugJniLibFolders
-> Task :ext-material:mergeDebugNativeLibs
-> Task :ext-material:stripDebugDebugSymbols
-> Task :ext-material:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :ext-util:mergeDebugJniLibFolders
-> Task :ext-two-level:mergeDebugNativeLibs
-> Task :ext-two-level:stripDebugDebugSymbols
-> Task :ext-two-level:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:preReleaseBuild UP-TO-DATE
-> Task :core:preReleaseBuild UP-TO-DATE
-> Task :core:compileReleaseAidl NO-SOURCE
-> Task :ext-classics:preReleaseBuild UP-TO-DATE
-> Task :ext-classics:compileReleaseAidl NO-SOURCE
-> Task :ext-horizontal:preReleaseBuild UP-TO-DATE
-> Task :ext-horizontal:compileReleaseAidl NO-SOURCE
-> Task :ext-material:preReleaseBuild UP-TO-DATE
-> Task :ext-material:compileReleaseAidl NO-SOURCE
-> Task :ext-two-level:preReleaseBuild UP-TO-DATE
-> Task :ext-two-level:compileReleaseAidl NO-SOURCE
-> Task :ext-util:preReleaseBuild UP-TO-DATE
-> Task :ext-util:compileReleaseAidl NO-SOURCE
-> Task :app:compileReleaseAidl NO-SOURCE
-> Task :core:packageReleaseRenderscript NO-SOURCE
-> Task :ext-classics:packageReleaseRenderscript NO-SOURCE
-> Task :ext-horizontal:packageReleaseRenderscript NO-SOURCE
-> Task :ext-material:packageReleaseRenderscript NO-SOURCE
-> Task :ext-two-level:packageReleaseRenderscript NO-SOURCE
-> Task :ext-util:packageReleaseRenderscript NO-SOURCE
-> Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
-> Task :app:generateReleaseBuildConfig
-> Task :core:compileReleaseRenderscript NO-SOURCE
-> Task :core:checkReleaseManifest
-> Task :core:generateReleaseBuildConfig
-> Task :core:generateReleaseResValues
-> Task :core:generateReleaseResources
-> Task :core:packageReleaseResources
-> Task :core:mergeDebugNativeLibs
-> Task :core:stripDebugDebugSymbols
-> Task :core:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :ext-util:mergeDebugNativeLibs
-> Task :ext-util:stripDebugDebugSymbols
-> Task :ext-util:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :core:parseReleaseLibraryResources
-> Task :core:processReleaseManifest
-> Task :core:javaPreCompileRelease
-> Task :ext-classics:compileReleaseRenderscript NO-SOURCE
-> Task :ext-classics:checkReleaseManifest
-> Task :ext-classics:generateReleaseBuildConfig
-> Task :ext-classics:generateReleaseResValues
-> Task :ext-classics:generateReleaseResources
-> Task :ext-classics:packageReleaseResources
-> Task :core:generateReleaseRFile
+* What went wrong:
+Execution failed for task ':core:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
 
-> Task :core:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/core/src/main/java/me/dkzwm/widget/srl/util/ScrollCompat.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :ext-horizontal:compileReleaseRenderscript NO-SOURCE
-> Task :ext-horizontal:checkReleaseManifest
-> Task :ext-horizontal:generateReleaseBuildConfig
-> Task :ext-horizontal:generateReleaseResValues
-> Task :ext-horizontal:generateReleaseResources
-> Task :ext-horizontal:packageReleaseResources
-> Task :ext-classics:parseReleaseLibraryResources
-> Task :ext-classics:processReleaseManifest
-> Task :ext-horizontal:parseReleaseLibraryResources
-> Task :ext-material:compileReleaseRenderscript NO-SOURCE
-> Task :ext-material:checkReleaseManifest
-> Task :ext-material:generateReleaseBuildConfig
-> Task :ext-material:generateReleaseResValues
-> Task :ext-material:generateReleaseResources
-> Task :ext-material:packageReleaseResources
-> Task :ext-classics:generateReleaseRFile
-> Task :core:bundleLibCompileRelease
-> Task :ext-horizontal:processReleaseManifest
-> Task :ext-material:parseReleaseLibraryResources
-> Task :ext-horizontal:generateReleaseRFile
-> Task :ext-horizontal:javaPreCompileRelease
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':core:compileDebugJavaWithJavac'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:151)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:148)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:191)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:141)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionStateTaskExecuter.execute(ResolveBeforeExecutionStateTaskExecuter.java:75)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:108)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionOutputsTaskExecuter.execute(ResolveBeforeExecutionOutputsTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.ResolveAfterPreviousExecutionStateTaskExecuter.execute(ResolveAfterPreviousExecutionStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:36)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:100)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:38)
+	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:51)
+	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:37)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:39)
+We need invoke the hidden api, so we must keep the custom jar in front of the android.jar
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory$2.execute(IncrementalCompilerFactory.java:110)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory$2.execute(IncrementalCompilerFactory.java:106)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:60)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:44)
+	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler$2.call(CompileJavaBuildOperationReportingCompiler.java:59)
+	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler$2.call(CompileJavaBuildOperationReportingCompiler.java:51)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler.execute(CompileJavaBuildOperationReportingCompiler.java:51)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:154)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:122)
+	at com.android.build.gradle.tasks.AndroidJavaCompile.compile(AndroidJavaCompile.kt:237)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskInputsTaskAction.doExecute(IncrementalTaskInputsTaskAction.java:46)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
+	at org.gradle.api.internal.project.taskfactory.AbstractIncrementalTaskAction.execute(AbstractIncrementalTaskAction.java:25)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$5.run(ExecuteActionsTaskExecuter.java:404)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:393)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:376)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:213)
+	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$0(ExecuteStep.java:32)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:32)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:58)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:35)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:48)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:33)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:39)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
+	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:35)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:51)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:45)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:31)
+	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:201)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:70)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:45)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:43)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:32)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:54)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:38)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:77)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:90)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:48)
+	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:120)
+	... 35 more
 
-> Task :ext-horizontal:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/ext-horizontal/src/main/java/me/dkzwm/widget/srl/util/HorizontalScrollCompat.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
 
-> Task :ext-two-level:compileReleaseRenderscript NO-SOURCE
-> Task :ext-two-level:checkReleaseManifest
-> Task :ext-two-level:generateReleaseBuildConfig
-> Task :ext-two-level:generateReleaseResValues
-> Task :ext-two-level:generateReleaseResources
-> Task :ext-two-level:packageReleaseResources
-> Task :ext-horizontal:bundleLibCompileRelease
-> Task :ext-two-level:parseReleaseLibraryResources
-> Task :ext-util:compileReleaseRenderscript NO-SOURCE
-> Task :ext-util:checkReleaseManifest
-> Task :ext-util:generateReleaseBuildConfig
-> Task :ext-util:generateReleaseResValues
-> Task :ext-util:generateReleaseResources
-> Task :ext-util:packageReleaseResources
-> Task :ext-two-level:processReleaseManifest
-> Task :ext-util:processReleaseManifest
-> Task :ext-material:processReleaseManifest
-> Task :ext-two-level:generateReleaseRFile
-> Task :app:mainApkListPersistenceRelease
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
-> Task :ext-util:javaPreCompileRelease
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
-> Task :ext-material:generateReleaseRFile
-> Task :ext-util:parseReleaseLibraryResources
-> Task :ext-classics:javaPreCompileRelease
-> Task :ext-classics:compileReleaseJavaWithJavac
-> Task :ext-material:javaPreCompileRelease
-> Task :ext-material:compileReleaseJavaWithJavac
-> Task :ext-classics:bundleLibCompileRelease
-> Task :ext-two-level:javaPreCompileRelease
-> Task :ext-two-level:compileReleaseJavaWithJavac
-> Task :ext-material:bundleLibCompileRelease
-> Task :ext-util:generateReleaseRFile
-> Task :ext-util:compileReleaseJavaWithJavac
-> Task :app:mergeReleaseResources
-> Task :app:processReleaseResources
-> Task :ext-util:bundleLibCompileRelease
-> Task :ext-two-level:bundleLibCompileRelease
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-> Task :app:prepareLintJar
-> Task :ext-horizontal:prepareLintJarForPublish
-> Task :core:prepareLintJarForPublish
-> Task :ext-util:prepareLintJarForPublish
-> Task :ext-util:processReleaseJavaRes NO-SOURCE
-> Task :ext-classics:prepareLintJarForPublish
-> Task :ext-material:prepareLintJarForPublish
-> Task :ext-material:processReleaseJavaRes NO-SOURCE
-> Task :ext-util:bundleLibResRelease
-> Task :app:mergeExtDexDebug
-> Task :ext-material:bundleLibRuntimeRelease
-> Task :ext-classics:processReleaseJavaRes NO-SOURCE
-> Task :ext-horizontal:processReleaseJavaRes NO-SOURCE
-> Task :ext-material:bundleLibResRelease
-> Task :ext-material:createFullJarRelease
-> Task :ext-util:bundleLibRuntimeRelease
-> Task :ext-util:createFullJarRelease
-> Task :ext-classics:bundleLibRuntimeRelease
-> Task :ext-two-level:prepareLintJarForPublish
-
-> Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f9ceb09ca60515b3c70181f93ab252ea/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
-> Task :ext-two-level:processReleaseJavaRes NO-SOURCE
-> Task :ext-horizontal:bundleLibResRelease
-> Task :ext-horizontal:bundleLibRuntimeRelease
-> Task :ext-horizontal:createFullJarRelease
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :core:processReleaseJavaRes NO-SOURCE
-> Task :app:checkReleaseDuplicateClasses
-> Task :core:bundleLibResRelease
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
-> Task :core:mergeReleaseShaders
-> Task :core:compileReleaseShaders
-> Task :core:generateReleaseAssets
-> Task :core:packageReleaseAssets
-> Task :ext-classics:mergeReleaseShaders
-> Task :ext-classics:compileReleaseShaders
-> Task :ext-classics:generateReleaseAssets
-> Task :ext-classics:packageReleaseAssets
-> Task :ext-horizontal:mergeReleaseShaders
-> Task :ext-horizontal:compileReleaseShaders
-> Task :ext-horizontal:generateReleaseAssets
-> Task :ext-horizontal:packageReleaseAssets
-> Task :ext-material:mergeReleaseShaders
-> Task :ext-material:compileReleaseShaders
-> Task :ext-material:generateReleaseAssets
-> Task :ext-material:packageReleaseAssets
-> Task :ext-two-level:mergeReleaseShaders
-> Task :ext-two-level:compileReleaseShaders
-> Task :ext-two-level:generateReleaseAssets
-> Task :ext-two-level:packageReleaseAssets
-> Task :ext-util:mergeReleaseShaders
-> Task :ext-util:compileReleaseShaders
-> Task :ext-util:generateReleaseAssets
-> Task :ext-util:packageReleaseAssets
-> Task :app:mergeReleaseAssets
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:signingConfigWriterRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :core:mergeReleaseJniLibFolders
-> Task :ext-classics:mergeReleaseJniLibFolders
-> Task :core:mergeReleaseNativeLibs
-> Task :core:stripReleaseDebugSymbols
-> Task :core:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :ext-horizontal:mergeReleaseJniLibFolders
-> Task :ext-classics:mergeReleaseNativeLibs
-> Task :ext-classics:stripReleaseDebugSymbols
-> Task :ext-classics:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :ext-material:mergeReleaseJniLibFolders
-> Task :core:bundleLibRuntimeRelease
-> Task :core:createFullJarRelease
-> Task :ext-material:mergeReleaseNativeLibs
-> Task :ext-material:stripReleaseDebugSymbols
-> Task :ext-classics:bundleLibResRelease
-> Task :ext-classics:createFullJarRelease
-> Task :ext-material:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :ext-two-level:bundleLibResRelease
-> Task :ext-two-level:mergeReleaseJniLibFolders
-> Task :ext-horizontal:mergeReleaseNativeLibs
-> Task :ext-horizontal:stripReleaseDebugSymbols
-> Task :ext-horizontal:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :ext-util:mergeReleaseJniLibFolders
-> Task :ext-two-level:bundleLibRuntimeRelease
-> Task :ext-two-level:createFullJarRelease
-> Task :ext-two-level:mergeReleaseNativeLibs
-> Task :ext-two-level:stripReleaseDebugSymbols
-> Task :ext-util:mergeReleaseNativeLibs
-> Task :ext-two-level:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :ext-util:stripReleaseDebugSymbols
-> Task :ext-util:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
-> Task :app:mergeReleaseJavaResource
-> Task :app:mergeExtDexRelease
-> Task :app:mergeDexRelease
-> Task :app:packageRelease
-> Task :app:assembleRelease
-> Task :app:assemble
-> Task :app:build
+* Get more help at https://help.gradle.org
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 54s
-295 actionable tasks: 295 executed
+BUILD FAILED in 23s
+24 actionable tasks: 24 executed
+java.io.FileNotFoundException: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/core/core.iml (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at groovy.util.XmlParser.parse(XmlParser.java:186)
+	at groovy.util.XmlParser$parse.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:115)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:127)
+	at build_32kva7lcdvy18jpywnxpsk9u7$_run_closure9$_closure22.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/core/build.gradle:116)
+	at build_32kva7lcdvy18jpywnxpsk9u7$_run_closure9$_closure22.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/core/build.gradle)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:104)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:326)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:264)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1041)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:405)
+	at groovy.lang.Closure.run(Closure.java:492)
+	at java.lang.Thread.run(Thread.java:748)
 
-2019-10-08 13:34:38,889 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516400366-0/src/SmoothRefreshLayout-master/app/build/outputs/apk/debug/app-debug.apk
+2020-01-06 20:36:29,276 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317746352-0/src/SmoothRefreshLayout-master/apk/demo.apk
