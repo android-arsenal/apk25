@@ -1,37 +1,37 @@
-2020-01-06 20:34:42,863 INFO  DownloadService - Downloading "https://github.com/BROUDING/BlockButton/archive/master.zip", attempt 3
-2020-01-06 20:34:43,975 INFO  DownloadService - Downloaded https://github.com/BROUDING/BlockButton/archive/master.zip, attempt 3
-2020-01-06 20:34:43,975 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/master.zip": 3 MB
-2020-01-06 20:34:43,975 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-06 20:34:43,976 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/master.zip: true
-2020-01-06 20:34:43,976 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src'.
-2020-01-06 20:34:44,015 INFO  FullProcessService - Size of directory with sources: 3 MB
-2020-01-06 20:34:44,015 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src]
-2020-01-06 20:34:44,033 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/.git/
+2020-01-19 21:06:24,977 INFO  DownloadService - Downloading "https://github.com/BROUDING/BlockButton/archive/master.zip", attempt 3
+2020-01-19 21:06:26,049 INFO  DownloadService - Downloaded https://github.com/BROUDING/BlockButton/archive/master.zip, attempt 3
+2020-01-19 21:06:26,049 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/master.zip": 3 MB
+2020-01-19 21:06:26,049 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-19 21:06:26,050 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/master.zip: true
+2020-01-19 21:06:26,051 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src'.
+2020-01-19 21:06:26,085 INFO  FullProcessService - Size of directory with sources: 3 MB
+2020-01-19 21:06:26,085 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src]
+2020-01-19 21:06:26,104 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/.git/
 
-2020-01-06 20:34:44,035 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/gradlew
-2020-01-06 20:34:44,038 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/blockbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/build.gradle
-2020-01-06 20:34:44,040 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/blockbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/settings.gradle
-2020-01-06 20:34:44,041 INFO  ProjectBuildService - Remote scripts: none
-2020-01-06 20:34:44,041 INFO  ProjectFixService - Fixing project...
-2020-01-06 20:34:44,047 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/app/local.properties
-2020-01-06 20:34:44,048 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-06 20:34:44,048 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-06 20:34:44,049 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/blockbutton/local.properties
-2020-01-06 20:34:44,050 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/blockbutton/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-06 20:34:44,050 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/blockbutton/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-06 20:34:44,051 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/local.properties
-2020-01-06 20:34:44,052 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2020-01-06 20:34:44,052 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2020-01-06 20:34:44,053 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-06 20:34:44,053 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-06 20:34:44,054 INFO  ProjectFixService - Project was maybe fixed
-2020-01-06 20:34:44,054 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:34:44,054 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:34:50,785 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:34:50,785 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-06 20:34:50,785 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-06 20:34:50,785 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-06 20:34:56,068 ERROR SysUtils - Could not process external command
+2020-01-19 21:06:26,106 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/gradlew
+2020-01-19 21:06:26,109 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/blockbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/build.gradle
+2020-01-19 21:06:26,111 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/blockbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/settings.gradle
+2020-01-19 21:06:26,111 INFO  ProjectBuildService - Remote scripts: none
+2020-01-19 21:06:26,111 INFO  ProjectFixService - Fixing project...
+2020-01-19 21:06:26,117 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/app/local.properties
+2020-01-19 21:06:26,119 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-19 21:06:26,119 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-19 21:06:26,120 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/blockbutton/local.properties
+2020-01-19 21:06:26,121 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/blockbutton/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-19 21:06:26,121 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/blockbutton/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-19 21:06:26,122 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/local.properties
+2020-01-19 21:06:26,122 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2020-01-19 21:06:26,122 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2020-01-19 21:06:26,124 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-19 21:06:26,124 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-19 21:06:26,124 INFO  ProjectFixService - Project was maybe fixed
+2020-01-19 21:06:26,124 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:06:26,125 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:06:32,077 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:06:32,077 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:06:32,077 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:06:32,078 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:06:37,646 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,7 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:34:56,068 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:06:37,646 INFO  SysUtils - Configuration on demand is an incubating feature.
 The CompileOptions.bootClasspath property has been deprecated and is scheduled to be removed in Gradle 5.0. Please use the CompileOptions.bootstrapClasspath property instead.
 	at org.gradle.api.tasks.compile.CompileOptions.setBootClasspath(CompileOptions.java:273)
 	at org.gradle.api.tasks.compile.CompileOptions_Decorated.setBootClasspath(Unknown Source)
@@ -467,4 +467,4 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2020-01-06 20:34:56,072 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317682858-0/src/BlockButton-master/sample/BlockButtonSample.apk
+2020-01-19 21:06:37,652 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442784975-0/src/BlockButton-master/sample/BlockButtonSample.apk

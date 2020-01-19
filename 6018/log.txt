@@ -1,37 +1,37 @@
-2020-01-06 20:48:35,352 INFO  DownloadService - Downloading "https://github.com/mnayef95/UReflection/archive/master.zip", attempt 3
-2020-01-06 20:48:35,918 INFO  DownloadService - Downloaded https://github.com/mnayef95/UReflection/archive/master.zip, attempt 3
-2020-01-06 20:48:35,919 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/master.zip": 188 KB
-2020-01-06 20:48:35,919 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-06 20:48:35,920 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/master.zip: true
-2020-01-06 20:48:35,921 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src'.
-2020-01-06 20:48:35,943 INFO  FullProcessService - Size of directory with sources: 249 KB
-2020-01-06 20:48:35,943 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src]
-2020-01-06 20:48:35,959 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/.git/
+2020-01-19 21:19:24,416 INFO  DownloadService - Downloading "https://github.com/mnayef95/UReflection/archive/master.zip", attempt 3
+2020-01-19 21:19:24,989 INFO  DownloadService - Downloaded https://github.com/mnayef95/UReflection/archive/master.zip, attempt 3
+2020-01-19 21:19:24,989 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/master.zip": 188 KB
+2020-01-19 21:19:24,989 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-19 21:19:24,995 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/master.zip: true
+2020-01-19 21:19:24,995 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src'.
+2020-01-19 21:19:25,018 INFO  FullProcessService - Size of directory with sources: 249 KB
+2020-01-19 21:19:25,019 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src]
+2020-01-19 21:19:25,036 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/.git/
 
-2020-01-06 20:48:35,962 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/gradlew
-2020-01-06 20:48:35,964 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/compiler/build.gradle
-2020-01-06 20:48:35,967 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/compiler/build.gradle
-2020-01-06 20:48:35,967 INFO  ProjectBuildService - Remote scripts: none
-2020-01-06 20:48:35,967 INFO  ProjectFixService - Fixing project...
-2020-01-06 20:48:35,973 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/app/local.properties
-2020-01-06 20:48:35,973 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2020-01-06 20:48:35,973 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/utils/local.properties
-2020-01-06 20:48:35,974 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/utils/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2020-01-06 20:48:35,974 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/local.properties
-2020-01-06 20:48:35,974 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-bin.zip
-2020-01-06 20:48:35,974 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2020-01-06 20:48:35,975 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/annotations/local.properties
-2020-01-06 20:48:35,975 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/annotations/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2020-01-06 20:48:35,976 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/compiler/local.properties
-2020-01-06 20:48:35,976 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/compiler/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2020-01-06 20:48:35,976 INFO  ProjectFixService - Project was maybe fixed
-2020-01-06 20:48:35,976 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:48:35,976 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:48:40,925 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:48:40,925 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-06 20:48:40,925 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-06 20:48:40,925 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-06 20:48:45,752 ERROR SysUtils - Could not process external command
+2020-01-19 21:19:25,038 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/gradlew
+2020-01-19 21:19:25,041 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/compiler/build.gradle
+2020-01-19 21:19:25,043 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/compiler/build.gradle
+2020-01-19 21:19:25,044 INFO  ProjectBuildService - Remote scripts: none
+2020-01-19 21:19:25,044 INFO  ProjectFixService - Fixing project...
+2020-01-19 21:19:25,049 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/app/local.properties
+2020-01-19 21:19:25,050 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2020-01-19 21:19:25,050 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/utils/local.properties
+2020-01-19 21:19:25,050 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/utils/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2020-01-19 21:19:25,051 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/local.properties
+2020-01-19 21:19:25,051 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-bin.zip
+2020-01-19 21:19:25,051 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2020-01-19 21:19:25,052 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/annotations/local.properties
+2020-01-19 21:19:25,052 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/annotations/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2020-01-19 21:19:25,052 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/compiler/local.properties
+2020-01-19 21:19:25,053 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/compiler/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2020-01-19 21:19:25,053 INFO  ProjectFixService - Project was maybe fixed
+2020-01-19 21:19:25,053 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:19:25,053 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:19:30,075 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:19:30,075 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:19:30,075 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:19:30,075 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:19:35,119 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,7 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:48:45,752 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:19:35,119 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -244,15 +244,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.524 secs
+Total time: 4.686 secs
 
-2020-01-06 20:48:45,757 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:48:45,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/utils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:48:50,341 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:48:50,341 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-06 20:48:50,341 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-06 20:48:50,341 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/utils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-06 20:48:54,950 ERROR SysUtils - Could not process external command
+2020-01-19 21:19:35,122 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:19:35,122 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/utils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:19:40,073 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:19:40,074 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:19:40,074 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:19:40,074 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/utils/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:19:44,870 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -265,7 +265,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -279,7 +279,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:48:54,951 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:19:44,870 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -387,15 +387,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.265 secs
+Total time: 4.469 secs
 
-2020-01-06 20:48:54,954 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:48:54,954 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:48:59,882 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:48:59,882 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-06 20:48:59,882 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-06 20:48:59,882 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-06 20:49:04,814 ERROR SysUtils - Could not process external command
+2020-01-19 21:19:44,873 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:19:44,874 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:19:50,116 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:19:50,116 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:19:50,116 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:19:50,116 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:19:55,336 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -408,7 +408,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -422,7 +422,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:49:04,814 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:19:55,336 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -608,14 +608,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.607 secs
+Total time: 4.815 secs
 
-2020-01-06 20:49:04,818 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:49:04,818 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:49:07,647 INFO  ProjectTaskService - Detected possible tasks: 39
-2020-01-06 20:49:07,647 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2020-01-06 20:49:07,647 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2020-01-06 20:49:10,803 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:19:55,339 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:19:55,339 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:19:58,730 INFO  ProjectTaskService - Detected possible tasks: 39
+2020-01-19 21:19:58,730 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2020-01-19 21:19:58,730 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/annotations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2020-01-19 21:20:01,910 INFO  SysUtils - Configuration on demand is an incubating feature.
 :annotations:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
 1 warning
 
@@ -627,14 +627,14 @@ Total time: 4.607 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.015 secs
+Total time: 3.041 secs
 
-2020-01-06 20:49:10,807 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:49:10,807 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:49:13,766 INFO  ProjectTaskService - Detected possible tasks: 39
-2020-01-06 20:49:13,766 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2020-01-06 20:49:13,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318515350-0/src/UReflection-master/compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2020-01-06 20:49:17,308 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:20:01,914 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:20:01,914 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:20:04,768 INFO  ProjectTaskService - Detected possible tasks: 39
+2020-01-19 21:20:04,768 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2020-01-19 21:20:04,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443564413-0/src/UReflection-master/compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2020-01-19 21:20:08,468 INFO  SysUtils - Configuration on demand is an incubating feature.
 :annotations:compileJava UP-TO-DATE
 :annotations:processResources UP-TO-DATE
 :annotations:classes UP-TO-DATE
@@ -649,7 +649,7 @@ Total time: 3.015 secs
 
 BUILD SUCCESSFUL
 
-Total time: 3.383 secs
+Total time: 3.556 secs
 
-2020-01-06 20:49:17,313 ERROR FullProcessService - Project build has not produced APK file
-2020-01-06 20:49:17,317 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-19 21:20:08,473 ERROR FullProcessService - Project build has not produced APK file
+2020-01-19 21:20:08,477 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,36 +1,36 @@
-2020-01-06 20:47:11,851 INFO  DownloadService - Downloading "https://github.com/KwabenBerko/OpenWeatherMap-Android-Library/archive/master.zip", attempt 3
-2020-01-06 20:47:12,399 INFO  DownloadService - Downloaded https://github.com/KwabenBerko/OpenWeatherMap-Android-Library/archive/master.zip, attempt 3
-2020-01-06 20:47:12,399 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/master.zip": 216 KB
-2020-01-06 20:47:12,399 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-06 20:47:12,405 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/master.zip: true
-2020-01-06 20:47:12,405 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src'.
-2020-01-06 20:47:12,430 INFO  FullProcessService - Size of directory with sources: 710 KB
-2020-01-06 20:47:12,430 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src]
-2020-01-06 20:47:12,447 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/.git/
+2020-01-19 21:18:00,152 INFO  DownloadService - Downloading "https://github.com/KwabenBerko/OpenWeatherMap-Android-Library/archive/master.zip", attempt 3
+2020-01-19 21:18:00,736 INFO  DownloadService - Downloaded https://github.com/KwabenBerko/OpenWeatherMap-Android-Library/archive/master.zip, attempt 3
+2020-01-19 21:18:00,737 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/master.zip": 216 KB
+2020-01-19 21:18:00,737 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-19 21:18:00,742 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/master.zip: true
+2020-01-19 21:18:00,743 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src'.
+2020-01-19 21:18:00,769 INFO  FullProcessService - Size of directory with sources: 710 KB
+2020-01-19 21:18:00,769 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src]
+2020-01-19 21:18:00,785 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/.git/
 
-2020-01-06 20:47:12,450 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/gradlew
-2020-01-06 20:47:12,454 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/openweathermaphelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/build.gradle
-2020-01-06 20:47:12,456 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/openweathermaphelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/settings.gradle
-2020-01-06 20:47:12,457 INFO  ProjectBuildService - Remote scripts: none
-2020-01-06 20:47:12,457 INFO  ProjectFixService - Fixing project...
-2020-01-06 20:47:12,463 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/openweathermaphelper/local.properties
-2020-01-06 20:47:12,464 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/openweathermaphelper/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-06 20:47:12,464 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/openweathermaphelper/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-06 20:47:12,465 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/sample/local.properties
-2020-01-06 20:47:12,465 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-06 20:47:12,465 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-06 20:47:12,466 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/local.properties
-2020-01-06 20:47:12,466 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2020-01-06 20:47:12,466 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2020-01-06 20:47:12,467 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-06 20:47:12,467 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-06 20:47:12,468 INFO  ProjectFixService - Project was maybe fixed
-2020-01-06 20:47:12,468 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:47:12,468 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/openweathermaphelper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:47:18,719 INFO  ProjectTaskService - Detected possible tasks: 63
-2020-01-06 20:47:18,719 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-01-06 20:47:18,719 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/openweathermaphelper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-01-06 20:47:28,850 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:18:00,790 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/gradlew
+2020-01-19 21:18:00,794 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/openweathermaphelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/build.gradle
+2020-01-19 21:18:00,797 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/openweathermaphelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/settings.gradle
+2020-01-19 21:18:00,797 INFO  ProjectBuildService - Remote scripts: none
+2020-01-19 21:18:00,797 INFO  ProjectFixService - Fixing project...
+2020-01-19 21:18:00,805 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/openweathermaphelper/local.properties
+2020-01-19 21:18:00,805 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/openweathermaphelper/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-01-19 21:18:00,805 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/openweathermaphelper/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-01-19 21:18:00,806 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/sample/local.properties
+2020-01-19 21:18:00,807 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-01-19 21:18:00,807 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-01-19 21:18:00,808 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/local.properties
+2020-01-19 21:18:00,808 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-01-19 21:18:00,808 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-01-19 21:18:00,809 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-01-19 21:18:00,809 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-01-19 21:18:00,809 INFO  ProjectFixService - Project was maybe fixed
+2020-01-19 21:18:00,809 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:18:00,810 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/openweathermaphelper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:18:07,490 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-01-19 21:18:07,490 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-19 21:18:07,490 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/openweathermaphelper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-19 21:18:18,102 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :openweathermaphelper:preBuild UP-TO-DATE
 > Task :openweathermaphelper:preDebugBuild UP-TO-DATE
 > Task :openweathermaphelper:compileDebugAidl NO-SOURCE
@@ -103,15 +103,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 9s
+BUILD SUCCESSFUL in 10s
 44 actionable tasks: 44 executed
 
-2020-01-06 20:47:28,883 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:47:28,884 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:47:34,701 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-06 20:47:34,701 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-06 20:47:34,701 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-06 20:48:12,983 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:18:18,135 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:18:18,136 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:18:24,168 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-19 21:18:24,168 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-19 21:18:24,168 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-19 21:19:01,676 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild
 > Task :sample:compileDebugAidl NO-SOURCE
@@ -190,7 +190,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 38s
+BUILD SUCCESSFUL in 37s
 51 actionable tasks: 51 executed
 
-2020-01-06 20:48:13,062 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318431849-0/src/OpenWeatherMap-Android-Library-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-01-19 21:19:01,753 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443480148-0/src/OpenWeatherMap-Android-Library-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

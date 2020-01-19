@@ -1,40 +1,40 @@
-2020-01-06 20:40:26,051 INFO  DownloadService - Downloading "https://github.com/sahoosunilkumar/OpenSourceLibrary/archive/master.zip", attempt 3
-2020-01-06 20:40:26,629 INFO  DownloadService - Downloaded https://github.com/sahoosunilkumar/OpenSourceLibrary/archive/master.zip, attempt 3
-2020-01-06 20:40:26,629 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/master.zip": 325 KB
-2020-01-06 20:40:26,629 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-06 20:40:26,635 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/master.zip: true
-2020-01-06 20:40:26,635 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src'.
-2020-01-06 20:40:26,663 INFO  FullProcessService - Size of directory with sources: 357 KB
-2020-01-06 20:40:26,664 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src]
-2020-01-06 20:40:26,681 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/.git/
+2020-01-19 21:11:58,770 INFO  DownloadService - Downloading "https://github.com/sahoosunilkumar/OpenSourceLibrary/archive/master.zip", attempt 3
+2020-01-19 21:11:59,339 INFO  DownloadService - Downloaded https://github.com/sahoosunilkumar/OpenSourceLibrary/archive/master.zip, attempt 3
+2020-01-19 21:11:59,339 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/master.zip": 325 KB
+2020-01-19 21:11:59,339 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-19 21:11:59,345 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/master.zip: true
+2020-01-19 21:11:59,346 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src'.
+2020-01-19 21:11:59,375 INFO  FullProcessService - Size of directory with sources: 357 KB
+2020-01-19 21:11:59,375 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src]
+2020-01-19 21:11:59,392 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/.git/
 
-2020-01-06 20:40:26,684 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/gradlew
-2020-01-06 20:40:26,687 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/viewmodelbinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/build.gradle
-2020-01-06 20:40:26,690 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/viewmodelbinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/settings.gradle
-2020-01-06 20:40:26,691 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2020-01-06 20:40:26,761 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2020-01-06 20:40:26,761 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
-2020-01-06 20:40:26,761 INFO  ProjectFixService - Fixing project...
-2020-01-06 20:40:26,773 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/app/local.properties
-2020-01-06 20:40:26,773 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=23,targetSdkVersion=24]
-2020-01-06 20:40:26,774 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/viewmodelbinding/local.properties
-2020-01-06 20:40:26,774 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/viewmodelbinding/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2020-01-06 20:40:26,774 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/local.properties
-2020-01-06 20:40:26,775 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2020-01-06 20:40:26,775 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2020-01-06 20:40:26,776 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=23,targetSdkVersion=24]
-2020-01-06 20:40:26,776 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/local.properties
-2020-01-06 20:40:26,776 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2020-01-06 20:40:26,777 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2020-01-06 20:40:26,777 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=23,targetSdkVersion=24]
-2020-01-06 20:40:26,778 INFO  ProjectFixService - Project was maybe fixed
-2020-01-06 20:40:26,778 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:40:26,778 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/gradlew, -b, "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/app/build.gradle", -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:40:27,829 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:40:27,829 INFO  ProjectTaskService - Detected possible tasks: 4
-2020-01-06 20:40:27,830 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2020-01-06 20:40:27,830 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/gradlew, -b, "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/app/build.gradle", -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2020-01-06 20:40:28,876 ERROR SysUtils - Could not process external command
+2020-01-19 21:11:59,396 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/gradlew
+2020-01-19 21:11:59,399 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/viewmodelbinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/build.gradle
+2020-01-19 21:11:59,402 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/viewmodelbinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/settings.gradle
+2020-01-19 21:11:59,403 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2020-01-19 21:11:59,475 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2020-01-19 21:11:59,475 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2020-01-19 21:11:59,475 INFO  ProjectFixService - Fixing project...
+2020-01-19 21:11:59,483 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/app/local.properties
+2020-01-19 21:11:59,484 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=23,targetSdkVersion=24]
+2020-01-19 21:11:59,484 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/viewmodelbinding/local.properties
+2020-01-19 21:11:59,484 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/viewmodelbinding/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2020-01-19 21:11:59,484 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/local.properties
+2020-01-19 21:11:59,485 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2020-01-19 21:11:59,485 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2020-01-19 21:11:59,486 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=23,targetSdkVersion=24]
+2020-01-19 21:11:59,486 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/local.properties
+2020-01-19 21:11:59,486 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2020-01-19 21:11:59,486 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2020-01-19 21:11:59,487 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=23,targetSdkVersion=24]
+2020-01-19 21:11:59,487 INFO  ProjectFixService - Project was maybe fixed
+2020-01-19 21:11:59,487 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:11:59,487 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/gradlew, -b, "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/app/build.gradle", -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:12:00,550 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:12:00,551 INFO  ProjectTaskService - Detected possible tasks: 4
+2020-01-19 21:12:00,551 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2020-01-19 21:12:00,551 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/gradlew, -b, "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/app/build.gradle", -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2020-01-19 21:12:01,638 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,7 +47,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -61,17 +61,17 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:40:28,876 INFO  SysUtils - 
+2020-01-19 21:12:01,638 INFO  SysUtils - 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Build file '/Users/vbauer/Documents/workspace/java/bloodhound/"/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/app/build.gradle"' does not exist.
+Build file '/Users/vbauer/Documents/workspace/java/bloodhound/"/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/app/build.gradle"' does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.api.InvalidUserDataException: Build file '/Users/vbauer/Documents/workspace/java/bloodhound/"/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/app/build.gradle"' does not exist.
+org.gradle.api.InvalidUserDataException: Build file '/Users/vbauer/Documents/workspace/java/bloodhound/"/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/app/build.gradle"' does not exist.
 	at org.gradle.initialization.BuildFileProjectSpec.checkPreconditions(BuildFileProjectSpec.java:52)
 	at org.gradle.initialization.AbstractProjectSpec.containsProject(AbstractProjectSpec.java:27)
 	at org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSettingsLoader.java:51)
@@ -111,15 +111,15 @@ org.gradle.api.InvalidUserDataException: Build file '/Users/vbauer/Documents/wor
 
 BUILD FAILED
 
-Total time: 0.937 secs
+Total time: 0.979 secs
 
-2020-01-06 20:40:28,880 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:40:28,880 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/viewmodelbinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:40:43,559 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:40:43,560 INFO  ProjectTaskService - Detected possible tasks: 4
-2020-01-06 20:40:43,560 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2020-01-06 20:40:43,560 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/viewmodelbinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2020-01-06 20:40:48,864 ERROR SysUtils - Could not process external command
+2020-01-19 21:12:01,643 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:12:01,643 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/viewmodelbinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:12:07,843 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:12:07,844 INFO  ProjectTaskService - Detected possible tasks: 4
+2020-01-19 21:12:07,844 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2020-01-19 21:12:07,844 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/viewmodelbinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2020-01-19 21:12:13,937 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -132,7 +132,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -146,7 +146,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:40:48,865 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:12:13,937 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -242,15 +242,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.053 secs
+Total time: 5.688 secs
 
-2020-01-06 20:40:48,869 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:40:48,869 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/gradlew, -b, "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/build.gradle", -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:40:49,915 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:40:49,915 INFO  ProjectTaskService - Detected possible tasks: 4
-2020-01-06 20:40:49,915 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2020-01-06 20:40:49,915 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/gradlew, -b, "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/build.gradle", -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2020-01-06 20:40:50,964 ERROR SysUtils - Could not process external command
+2020-01-19 21:12:13,942 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:12:13,942 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/gradlew, -b, "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/build.gradle", -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:12:15,052 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:12:15,052 INFO  ProjectTaskService - Detected possible tasks: 4
+2020-01-19 21:12:15,052 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2020-01-19 21:12:15,053 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/gradlew, -b, "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/build.gradle", -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2020-01-19 21:12:16,113 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -263,7 +263,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -277,17 +277,17 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:40:50,964 INFO  SysUtils - 
+2020-01-19 21:12:16,113 INFO  SysUtils - 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Build file '/Users/vbauer/Documents/workspace/java/bloodhound/"/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/build.gradle"' does not exist.
+Build file '/Users/vbauer/Documents/workspace/java/bloodhound/"/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/build.gradle"' does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.api.InvalidUserDataException: Build file '/Users/vbauer/Documents/workspace/java/bloodhound/"/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/build.gradle"' does not exist.
+org.gradle.api.InvalidUserDataException: Build file '/Users/vbauer/Documents/workspace/java/bloodhound/"/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/Test/MVVM Orientation Handle/build.gradle"' does not exist.
 	at org.gradle.initialization.BuildFileProjectSpec.checkPreconditions(BuildFileProjectSpec.java:52)
 	at org.gradle.initialization.AbstractProjectSpec.containsProject(AbstractProjectSpec.java:27)
 	at org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSettingsLoader.java:51)
@@ -327,15 +327,15 @@ org.gradle.api.InvalidUserDataException: Build file '/Users/vbauer/Documents/wor
 
 BUILD FAILED
 
-Total time: 0.943 secs
+Total time: 0.955 secs
 
-2020-01-06 20:40:50,968 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:40:50,968 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:40:56,484 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:40:56,485 INFO  ProjectTaskService - Detected possible tasks: 4
-2020-01-06 20:40:56,485 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2020-01-06 20:40:56,485 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318026047-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2020-01-06 20:41:02,351 ERROR SysUtils - Could not process external command
+2020-01-19 21:12:16,117 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:12:16,118 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:12:21,823 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:12:21,823 INFO  ProjectTaskService - Detected possible tasks: 4
+2020-01-19 21:12:21,824 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2020-01-19 21:12:21,824 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443118767-0/src/OpenSourceLibrary-master/ViewModelBindingLibrary/ViewModelBinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2020-01-19 21:12:27,439 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -348,7 +348,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -362,7 +362,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:41:02,351 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:12:27,439 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -460,7 +460,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.575 secs
+Total time: 5.372 secs
 
-2020-01-06 20:41:02,356 ERROR FullProcessService - Project build has not produced APK file
-2020-01-06 20:41:02,360 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-19 21:12:27,443 ERROR FullProcessService - Project build has not produced APK file
+2020-01-19 21:12:27,447 ERROR FullProcessService - Could not find generated or existed APK file

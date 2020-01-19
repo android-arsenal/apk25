@@ -1,34 +1,34 @@
-2020-01-04 22:54:19,524 INFO  DownloadService - Downloading "https://github.com/Credntia/AndroidVisionPipeline/archive/master.zip", attempt 3
-2020-01-04 22:54:20,051 INFO  DownloadService - Downloaded https://github.com/Credntia/AndroidVisionPipeline/archive/master.zip, attempt 3
-2020-01-04 22:54:20,051 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/master.zip": 169 KB
-2020-01-04 22:54:20,051 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-04 22:54:20,056 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/master.zip: true
-2020-01-04 22:54:20,057 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src'.
-2020-01-04 22:54:20,078 INFO  FullProcessService - Size of directory with sources: 236 KB
-2020-01-04 22:54:20,078 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src]
-2020-01-04 22:54:20,101 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/.git/
+2020-01-19 21:02:14,555 INFO  DownloadService - Downloading "https://github.com/Credntia/AndroidVisionPipeline/archive/master.zip", attempt 3
+2020-01-19 21:02:16,658 INFO  DownloadService - Downloaded https://github.com/Credntia/AndroidVisionPipeline/archive/master.zip, attempt 3
+2020-01-19 21:02:16,659 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/master.zip": 169 KB
+2020-01-19 21:02:16,659 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-19 21:02:16,664 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/master.zip: true
+2020-01-19 21:02:16,664 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src'.
+2020-01-19 21:02:16,683 INFO  FullProcessService - Size of directory with sources: 236 KB
+2020-01-19 21:02:16,683 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src]
+2020-01-19 21:02:16,704 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/.git/
 
-2020-01-04 22:54:20,104 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/gradlew
-2020-01-04 22:54:20,108 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/build.gradle
-2020-01-04 22:54:20,110 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/settings.gradle
-2020-01-04 22:54:20,111 INFO  ProjectBuildService - Remote scripts: none
-2020-01-04 22:54:20,111 INFO  ProjectFixService - Fixing project...
-2020-01-04 22:54:20,119 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/local.properties
-2020-01-04 22:54:20,119 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2020-01-04 22:54:20,120 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/sample/local.properties
-2020-01-04 22:54:20,120 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2020-01-04 22:54:20,121 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/local.properties
-2020-01-04 22:54:20,121 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2020-01-04 22:54:20,122 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2020-01-04 22:54:20,123 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2020-01-04 22:54:20,123 INFO  ProjectFixService - Project was maybe fixed
-2020-01-04 22:54:20,123 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-04 22:54:20,123 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-04 22:54:25,695 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-04 22:54:25,695 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-04 22:54:25,695 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-04 22:54:25,695 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-04 22:54:28,689 ERROR SysUtils - Could not process external command
+2020-01-19 21:02:16,708 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/gradlew
+2020-01-19 21:02:16,712 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/build.gradle
+2020-01-19 21:02:16,715 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/settings.gradle
+2020-01-19 21:02:16,715 INFO  ProjectBuildService - Remote scripts: none
+2020-01-19 21:02:16,715 INFO  ProjectFixService - Fixing project...
+2020-01-19 21:02:16,722 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/local.properties
+2020-01-19 21:02:16,722 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2020-01-19 21:02:16,722 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/sample/local.properties
+2020-01-19 21:02:16,723 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2020-01-19 21:02:16,723 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/local.properties
+2020-01-19 21:02:16,723 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2020-01-19 21:02:16,724 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2020-01-19 21:02:16,725 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2020-01-19 21:02:16,725 INFO  ProjectFixService - Project was maybe fixed
+2020-01-19 21:02:16,725 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:02:16,725 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:02:21,880 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:02:21,880 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:02:21,880 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:02:21,880 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/mobilevision-pipeline/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:02:24,125 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,7 +41,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-04 22:54:28,689 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:02:24,125 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -211,13 +212,14 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2020-01-04 22:54:28,694 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-04 22:54:28,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-04 22:54:31,396 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-04 22:54:31,397 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-04 22:54:31,397 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-04 22:54:31,397 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-04 22:54:33,952 ERROR SysUtils - Could not process external command
+2020-01-19 21:02:24,129 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:02:24,129 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:02:25,960 INFO  VirusProcessorServiceImpl - Queued project 6100 to scan viruses
+2020-01-19 21:02:26,613 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:02:26,617 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:02:26,618 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:02:26,618 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:02:28,860 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -230,7 +232,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -244,7 +247,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-04 22:54:33,952 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:02:28,860 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -400,13 +403,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2020-01-04 22:54:33,956 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-04 22:54:33,956 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-04 22:54:36,373 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-04 22:54:36,374 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-04 22:54:36,374 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-04 22:54:36,374 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578153259521-0/src/AndroidVisionPipeline-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-04 22:54:39,116 ERROR SysUtils - Could not process external command
+2020-01-19 21:02:28,864 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:02:28,864 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:02:31,029 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:02:31,029 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:02:31,029 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:02:31,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442534547-0/src/AndroidVisionPipeline-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:02:33,416 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -419,7 +422,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -433,7 +437,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-04 22:54:39,116 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:02:33,416 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -589,5 +593,5 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2020-01-04 22:54:39,120 ERROR FullProcessService - Project build has not produced APK file
-2020-01-04 22:54:39,123 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-19 21:02:33,420 ERROR FullProcessService - Project build has not produced APK file
+2020-01-19 21:02:33,423 ERROR FullProcessService - Could not find generated or existed APK file

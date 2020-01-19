@@ -1,37 +1,37 @@
-2020-01-06 20:35:10,550 INFO  DownloadService - Downloading "https://github.com/S64/android-outside-activity/archive/master.zip", attempt 3
-2020-01-06 20:35:11,083 INFO  DownloadService - Downloaded https://github.com/S64/android-outside-activity/archive/master.zip, attempt 3
-2020-01-06 20:35:11,083 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/master.zip": 279 KB
-2020-01-06 20:35:11,083 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-06 20:35:11,089 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/master.zip: true
-2020-01-06 20:35:11,089 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src'.
-2020-01-06 20:35:11,111 INFO  FullProcessService - Size of directory with sources: 361 KB
-2020-01-06 20:35:11,111 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src]
-2020-01-06 20:35:11,130 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/.git/
+2020-01-19 21:06:51,333 INFO  DownloadService - Downloading "https://github.com/S64/android-outside-activity/archive/master.zip", attempt 3
+2020-01-19 21:06:51,918 INFO  DownloadService - Downloaded https://github.com/S64/android-outside-activity/archive/master.zip, attempt 3
+2020-01-19 21:06:51,918 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/master.zip": 279 KB
+2020-01-19 21:06:51,918 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-19 21:06:51,924 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/master.zip: true
+2020-01-19 21:06:51,924 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src'.
+2020-01-19 21:06:51,947 INFO  FullProcessService - Size of directory with sources: 361 KB
+2020-01-19 21:06:51,947 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src]
+2020-01-19 21:06:51,964 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/.git/
 
-2020-01-06 20:35:11,133 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/gradlew
-2020-01-06 20:35:11,135 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/outsideactivity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/build.gradle
-2020-01-06 20:35:11,138 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/outsideactivity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/settings.gradle
-2020-01-06 20:35:11,138 INFO  ProjectBuildService - Remote scripts: none
-2020-01-06 20:35:11,138 INFO  ProjectFixService - Fixing project...
-2020-01-06 20:35:11,145 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/local.properties
-2020-01-06 20:35:11,147 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-06 20:35:11,147 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-06 20:35:11,148 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/outsideactivity/local.properties
-2020-01-06 20:35:11,150 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/outsideactivity/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-06 20:35:11,150 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/outsideactivity/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-06 20:35:11,151 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/local.properties
-2020-01-06 20:35:11,152 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2020-01-06 20:35:11,152 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2020-01-06 20:35:11,154 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-06 20:35:11,154 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-06 20:35:11,155 INFO  ProjectFixService - Project was maybe fixed
-2020-01-06 20:35:11,155 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:35:11,155 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:35:22,116 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:35:22,116 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-06 20:35:22,116 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-06 20:35:22,116 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-06 20:35:26,543 ERROR SysUtils - Could not process external command
+2020-01-19 21:06:51,967 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/gradlew
+2020-01-19 21:06:51,970 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/outsideactivity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/build.gradle
+2020-01-19 21:06:51,972 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/outsideactivity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/settings.gradle
+2020-01-19 21:06:51,972 INFO  ProjectBuildService - Remote scripts: none
+2020-01-19 21:06:51,972 INFO  ProjectFixService - Fixing project...
+2020-01-19 21:06:51,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/local.properties
+2020-01-19 21:06:51,981 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-19 21:06:51,981 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-19 21:06:51,982 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/outsideactivity/local.properties
+2020-01-19 21:06:51,984 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/outsideactivity/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-19 21:06:51,985 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/outsideactivity/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-19 21:06:51,986 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/local.properties
+2020-01-19 21:06:51,986 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2020-01-19 21:06:51,986 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2020-01-19 21:06:51,988 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-19 21:06:51,988 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-19 21:06:51,989 INFO  ProjectFixService - Project was maybe fixed
+2020-01-19 21:06:51,989 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:06:51,989 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:06:56,449 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:06:56,449 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:06:56,449 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:06:56,449 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:07:00,925 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,7 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,12 +58,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:35:26,543 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:07:00,925 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/build.gradle' line: 34
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/build.gradle' line: 34
 
 * What went wrong:
 A problem occurred evaluating project ':example'.
@@ -160,7 +160,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:405)
 	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
-	at build_6lghlu8atz4aoxk51fhwlxhyj$_run_closure1$_closure5$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/build.gradle:34)
+	at build_bunviykkz3huqy96j5j4rio3n$_run_closure1$_closure5$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/build.gradle:34)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -169,7 +169,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:57)
 	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:40)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:68)
-	at build_6lghlu8atz4aoxk51fhwlxhyj$_run_closure1$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/build.gradle:33)
+	at build_bunviykkz3huqy96j5j4rio3n$_run_closure1$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/build.gradle:33)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:148)
@@ -184,7 +184,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_6lghlu8atz4aoxk51fhwlxhyj$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/build.gradle:22)
+	at build_bunviykkz3huqy96j5j4rio3n$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/build.gradle:22)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -196,22 +196,22 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
-	at build_6lghlu8atz4aoxk51fhwlxhyj.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/build.gradle:4)
+	at build_bunviykkz3huqy96j5j4rio3n.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/build.gradle:4)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 67 more
 
 
 BUILD FAILED
 
-Total time: 4.186 secs
+Total time: 4.222 secs
 
-2020-01-06 20:35:26,547 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:35:26,547 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/outsideactivity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:35:32,036 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:35:32,036 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-06 20:35:32,036 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-06 20:35:32,036 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/outsideactivity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-06 20:35:37,432 ERROR SysUtils - Could not process external command
+2020-01-19 21:07:00,929 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:07:00,929 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/outsideactivity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:07:06,355 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:07:06,355 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:07:06,355 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:07:06,355 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/outsideactivity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:07:11,871 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -224,7 +224,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -238,7 +238,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:35:37,432 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:07:11,871 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -346,15 +346,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.109 secs
+Total time: 5.181 secs
 
-2020-01-06 20:35:37,436 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:35:37,436 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:35:41,839 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:35:41,840 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-06 20:35:41,840 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-06 20:35:41,840 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-06 20:35:46,322 ERROR SysUtils - Could not process external command
+2020-01-19 21:07:11,876 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:07:11,876 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:07:16,635 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:07:16,635 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:07:16,635 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:07:16,635 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:07:21,273 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -367,7 +367,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -381,12 +381,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:35:46,322 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:07:21,274 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/build.gradle' line: 34
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/build.gradle' line: 34
 
 * What went wrong:
 A problem occurred evaluating project ':example'.
@@ -483,7 +483,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:405)
 	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
-	at build_6lghlu8atz4aoxk51fhwlxhyj$_run_closure1$_closure5$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/build.gradle:34)
+	at build_bunviykkz3huqy96j5j4rio3n$_run_closure1$_closure5$_closure7.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/build.gradle:34)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -492,7 +492,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:57)
 	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:40)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:68)
-	at build_6lghlu8atz4aoxk51fhwlxhyj$_run_closure1$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/build.gradle:33)
+	at build_bunviykkz3huqy96j5j4rio3n$_run_closure1$_closure5.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/build.gradle:33)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:148)
@@ -507,7 +507,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_6lghlu8atz4aoxk51fhwlxhyj$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/build.gradle:22)
+	at build_bunviykkz3huqy96j5j4rio3n$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/build.gradle:22)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -519,14 +519,14 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
-	at build_6lghlu8atz4aoxk51fhwlxhyj.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317710546-0/src/android-outside-activity-master/example/build.gradle:4)
+	at build_bunviykkz3huqy96j5j4rio3n.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442811331-0/src/android-outside-activity-master/example/build.gradle:4)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 67 more
 
 
 BUILD FAILED
 
-Total time: 4.237 secs
+Total time: 4.359 secs
 
-2020-01-06 20:35:46,326 ERROR FullProcessService - Project build has not produced APK file
-2020-01-06 20:35:46,329 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-19 21:07:21,278 ERROR FullProcessService - Project build has not produced APK file
+2020-01-19 21:07:21,281 ERROR FullProcessService - Could not find generated or existed APK file

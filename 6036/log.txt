@@ -1,34 +1,35 @@
-2020-01-06 20:39:27,192 INFO  DownloadService - Downloading "https://github.com/alshell7/VokaturiAndroid/archive/master.zip", attempt 3
-2020-01-06 20:39:28,243 INFO  DownloadService - Downloaded https://github.com/alshell7/VokaturiAndroid/archive/master.zip, attempt 3
-2020-01-06 20:39:28,243 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/master.zip": 2 MB
-2020-01-06 20:39:28,243 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-06 20:39:28,245 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/master.zip: true
-2020-01-06 20:39:28,245 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src'.
-2020-01-06 20:39:28,286 INFO  FullProcessService - Size of directory with sources: 2 MB
-2020-01-06 20:39:28,286 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src]
-2020-01-06 20:39:28,308 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/.git/
+2020-01-19 21:10:50,011 INFO  DownloadService - Downloading "https://github.com/alshell7/VokaturiAndroid/archive/master.zip", attempt 3
+2020-01-19 21:10:51,587 INFO  DownloadService - Downloaded https://github.com/alshell7/VokaturiAndroid/archive/master.zip, attempt 3
+2020-01-19 21:10:51,587 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/master.zip": 2 MB
+2020-01-19 21:10:51,587 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-19 21:10:51,588 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/master.zip: true
+2020-01-19 21:10:51,588 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src'.
+2020-01-19 21:10:51,627 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-01-19 21:10:51,627 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src]
+2020-01-19 21:10:51,649 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/.git/
 
-2020-01-06 20:39:28,311 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/gradlew
-2020-01-06 20:39:28,314 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/vokaturi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/build.gradle
-2020-01-06 20:39:28,317 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/vokaturi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/settings.gradle
-2020-01-06 20:39:28,317 INFO  ProjectBuildService - Remote scripts: none
-2020-01-06 20:39:28,317 INFO  ProjectFixService - Fixing project...
-2020-01-06 20:39:28,324 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/app/local.properties
-2020-01-06 20:39:28,324 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2020-01-06 20:39:28,324 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/vokaturi/local.properties
-2020-01-06 20:39:28,325 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/vokaturi/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2020-01-06 20:39:28,325 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/local.properties
-2020-01-06 20:39:28,325 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2020-01-06 20:39:28,325 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2020-01-06 20:39:28,326 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2020-01-06 20:39:28,326 INFO  ProjectFixService - Project was maybe fixed
-2020-01-06 20:39:28,326 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:39:28,326 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:39:32,975 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:39:32,975 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-06 20:39:32,976 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-06 20:39:32,976 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-06 20:39:37,712 ERROR SysUtils - Could not process external command
+2020-01-19 21:10:51,653 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/gradlew
+2020-01-19 21:10:51,657 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/vokaturi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/build.gradle
+2020-01-19 21:10:51,660 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/vokaturi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/settings.gradle
+2020-01-19 21:10:51,660 INFO  ProjectBuildService - Remote scripts: none
+2020-01-19 21:10:51,660 INFO  ProjectFixService - Fixing project...
+2020-01-19 21:10:51,668 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/app/local.properties
+2020-01-19 21:10:51,668 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2020-01-19 21:10:51,669 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/vokaturi/local.properties
+2020-01-19 21:10:51,669 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/vokaturi/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2020-01-19 21:10:51,669 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/local.properties
+2020-01-19 21:10:51,670 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2020-01-19 21:10:51,670 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2020-01-19 21:10:51,671 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2020-01-19 21:10:51,671 INFO  ProjectFixService - Project was maybe fixed
+2020-01-19 21:10:51,671 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:10:51,671 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:10:56,881 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:10:56,881 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:10:56,881 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:10:56,882 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:11:02,146 INFO  VirusProcessorServiceImpl - Queued project 6037 to scan viruses
+2020-01-19 21:11:02,187 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,7 +42,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:39:37,712 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:11:02,187 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -241,6 +242,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.488 secs
+Total time: 4.937 secs
 
-2020-01-06 20:39:37,716 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317967184-0/src/VokaturiAndroid-master/app-debug.apk
+2020-01-19 21:11:02,193 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443050002-0/src/VokaturiAndroid-master/app-debug.apk

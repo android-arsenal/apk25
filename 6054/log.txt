@@ -1,38 +1,38 @@
-2020-01-06 20:32:59,919 INFO  DownloadService - Downloading "https://github.com/CysionLiu/SelfAdjointView/archive/master.zip", attempt 3
-2020-01-06 20:33:03,466 INFO  DownloadService - Downloaded https://github.com/CysionLiu/SelfAdjointView/archive/master.zip, attempt 3
-2020-01-06 20:33:03,467 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/master.zip": 20 MB
-2020-01-06 20:33:03,467 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-06 20:33:03,474 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/master.zip: true
-2020-01-06 20:33:03,474 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src'.
-2020-01-06 20:33:03,623 INFO  FullProcessService - Size of directory with sources: 20 MB
-2020-01-06 20:33:03,623 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src]
-2020-01-06 20:33:03,641 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/.git/
+2020-01-19 21:04:38,161 INFO  DownloadService - Downloading "https://github.com/CysionLiu/SelfAdjointView/archive/master.zip", attempt 3
+2020-01-19 21:04:43,896 INFO  DownloadService - Downloaded https://github.com/CysionLiu/SelfAdjointView/archive/master.zip, attempt 3
+2020-01-19 21:04:43,897 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/master.zip": 20 MB
+2020-01-19 21:04:43,897 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-19 21:04:43,898 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/master.zip: true
+2020-01-19 21:04:43,898 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src'.
+2020-01-19 21:04:44,051 INFO  FullProcessService - Size of directory with sources: 20 MB
+2020-01-19 21:04:44,051 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src]
+2020-01-19 21:04:44,074 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/.git/
 
-2020-01-06 20:33:03,643 INFO  ProjectBuildService - Gradle wrapper(s): none
-2020-01-06 20:33:03,643 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2020-01-06 20:33:03,645 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/AdjointLib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/build.gradle
-2020-01-06 20:33:03,647 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/AdjointLib/build.gradle
-2020-01-06 20:33:03,647 INFO  ProjectBuildService - Remote scripts: none
-2020-01-06 20:33:03,647 INFO  ProjectFixService - Fixing project...
-2020-01-06 20:33:03,653 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/AdjointLib/local.properties
-2020-01-06 20:33:03,653 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/AdjointLib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2020-01-06 20:33:03,653 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/AdjointLib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2020-01-06 20:33:03,654 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/sample/local.properties
-2020-01-06 20:33:03,655 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2020-01-06 20:33:03,655 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2020-01-06 20:33:03,656 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/local.properties
-2020-01-06 20:33:03,656 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2020-01-06 20:33:03,656 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2020-01-06 20:33:03,657 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2020-01-06 20:33:03,657 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2020-01-06 20:33:03,658 INFO  ProjectFixService - Project was maybe fixed
-2020-01-06 20:33:03,658 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:33:03,658 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/AdjointLib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:33:11,251 INFO  VirusProcessorServiceImpl - Queued project 6055 to scan viruses
-2020-01-06 20:33:21,158 INFO  ProjectTaskService - Detected possible tasks: 70
-2020-01-06 20:33:21,158 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-01-06 20:33:21,158 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/AdjointLib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-01-06 20:33:36,688 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.0.1/userguide/gradle_daemon.html.
+2020-01-19 21:04:44,076 INFO  ProjectBuildService - Gradle wrapper(s): none
+2020-01-19 21:04:44,076 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2020-01-19 21:04:44,078 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/AdjointLib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/build.gradle
+2020-01-19 21:04:44,081 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/AdjointLib/build.gradle
+2020-01-19 21:04:44,081 INFO  ProjectBuildService - Remote scripts: none
+2020-01-19 21:04:44,081 INFO  ProjectFixService - Fixing project...
+2020-01-19 21:04:44,086 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/AdjointLib/local.properties
+2020-01-19 21:04:44,087 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/AdjointLib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2020-01-19 21:04:44,087 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/AdjointLib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2020-01-19 21:04:44,087 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/sample/local.properties
+2020-01-19 21:04:44,089 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2020-01-19 21:04:44,089 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2020-01-19 21:04:44,089 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/local.properties
+2020-01-19 21:04:44,090 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2020-01-19 21:04:44,090 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2020-01-19 21:04:44,091 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2020-01-19 21:04:44,091 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2020-01-19 21:04:44,092 INFO  ProjectFixService - Project was maybe fixed
+2020-01-19 21:04:44,092 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:04:44,092 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/AdjointLib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:04:49,879 INFO  VirusProcessorServiceImpl - Queued project 6055 to scan viruses
+2020-01-19 21:04:58,165 INFO  ProjectTaskService - Detected possible tasks: 70
+2020-01-19 21:04:58,166 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-19 21:04:58,166 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/AdjointLib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-19 21:05:14,636 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :AdjointLib:preBuild UP-TO-DATE
@@ -106,9 +106,9 @@ Configuration on demand is an incubating feature.
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 15s
 45 actionable tasks: 45 executed
 
-2020-01-06 20:33:36,701 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317579914-0/src/SelfAdjointView-master/apk/sample-debug.apk
+2020-01-19 21:05:14,649 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442678153-0/src/SelfAdjointView-master/apk/sample-debug.apk

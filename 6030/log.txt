@@ -1,34 +1,34 @@
-2020-01-06 20:42:29,656 INFO  DownloadService - Downloading "https://github.com/shaz-tech/StoreAppPuller/archive/master.zip", attempt 3
-2020-01-06 20:42:30,575 INFO  DownloadService - Downloaded https://github.com/shaz-tech/StoreAppPuller/archive/master.zip, attempt 3
-2020-01-06 20:42:30,576 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/master.zip": 139 KB
-2020-01-06 20:42:30,576 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-06 20:42:30,577 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/master.zip: true
-2020-01-06 20:42:30,577 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src'.
-2020-01-06 20:42:30,595 INFO  FullProcessService - Size of directory with sources: 160 KB
-2020-01-06 20:42:30,595 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src]
-2020-01-06 20:42:30,611 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/.git/
+2020-01-19 21:13:58,854 INFO  DownloadService - Downloading "https://github.com/shaz-tech/StoreAppPuller/archive/master.zip", attempt 3
+2020-01-19 21:13:59,480 INFO  DownloadService - Downloaded https://github.com/shaz-tech/StoreAppPuller/archive/master.zip, attempt 3
+2020-01-19 21:13:59,480 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/master.zip": 139 KB
+2020-01-19 21:13:59,480 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-19 21:13:59,480 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/master.zip: true
+2020-01-19 21:13:59,481 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src'.
+2020-01-19 21:13:59,498 INFO  FullProcessService - Size of directory with sources: 160 KB
+2020-01-19 21:13:59,498 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src]
+2020-01-19 21:13:59,518 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/.git/
 
-2020-01-06 20:42:30,614 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/gradlew
-2020-01-06 20:42:30,618 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/puller/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/build.gradle
-2020-01-06 20:42:30,621 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/puller/build.gradle
-2020-01-06 20:42:30,621 INFO  ProjectBuildService - Remote scripts: none
-2020-01-06 20:42:30,621 INFO  ProjectFixService - Fixing project...
-2020-01-06 20:42:30,627 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/app/local.properties
-2020-01-06 20:42:30,628 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2020-01-06 20:42:30,628 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/puller/local.properties
-2020-01-06 20:42:30,628 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/puller/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2020-01-06 20:42:30,629 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/local.properties
-2020-01-06 20:42:30,629 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2020-01-06 20:42:30,629 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2020-01-06 20:42:30,630 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
-2020-01-06 20:42:30,630 INFO  ProjectFixService - Project was maybe fixed
-2020-01-06 20:42:30,630 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:42:30,630 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:42:36,021 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:42:36,021 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-06 20:42:36,021 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-06 20:42:36,021 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-06 20:42:41,179 ERROR SysUtils - Could not process external command
+2020-01-19 21:13:59,521 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/gradlew
+2020-01-19 21:13:59,524 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/puller/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/build.gradle
+2020-01-19 21:13:59,527 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/puller/build.gradle
+2020-01-19 21:13:59,528 INFO  ProjectBuildService - Remote scripts: none
+2020-01-19 21:13:59,528 INFO  ProjectFixService - Fixing project...
+2020-01-19 21:13:59,534 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/app/local.properties
+2020-01-19 21:13:59,534 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2020-01-19 21:13:59,534 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/puller/local.properties
+2020-01-19 21:13:59,535 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/puller/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2020-01-19 21:13:59,535 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/local.properties
+2020-01-19 21:13:59,535 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2020-01-19 21:13:59,536 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2020-01-19 21:13:59,536 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2020-01-19 21:13:59,536 INFO  ProjectFixService - Project was maybe fixed
+2020-01-19 21:13:59,536 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:13:59,537 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:14:05,212 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:14:05,212 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:14:05,212 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:14:05,213 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:14:10,942 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,7 +41,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:42:41,179 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:14:10,942 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -241,16 +241,16 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.841 secs
+Total time: 5.358 secs
 
-2020-01-06 20:42:41,184 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:42:41,184 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/puller/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:42:43,922 INFO  VirusProcessorServiceImpl - Queued project 6031 to scan viruses
-2020-01-06 20:42:46,220 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:42:46,220 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-06 20:42:46,220 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-06 20:42:46,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/puller/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-06 20:42:51,177 ERROR SysUtils - Could not process external command
+2020-01-19 21:14:10,947 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:14:10,947 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/puller/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:14:13,915 INFO  VirusProcessorServiceImpl - Queued project 6031 to scan viruses
+2020-01-19 21:14:16,346 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:14:16,346 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:14:16,346 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:14:16,346 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/puller/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:14:21,752 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -263,7 +263,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -277,7 +277,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:42:51,177 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:14:21,752 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -385,15 +385,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.686 secs
+Total time: 5.119 secs
 
-2020-01-06 20:42:51,181 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:42:51,181 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:42:56,252 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:42:56,253 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-06 20:42:56,253 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-06 20:42:56,253 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318149652-0/src/StoreAppPuller-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-06 20:43:01,320 ERROR SysUtils - Could not process external command
+2020-01-19 21:14:21,755 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:14:21,755 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:14:27,252 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:14:27,252 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:14:27,252 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:14:27,252 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443238850-0/src/StoreAppPuller-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:14:32,612 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -406,7 +406,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -420,7 +420,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:43:01,320 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:14:32,612 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -606,7 +606,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.808 secs
+Total time: 5.096 secs
 
-2020-01-06 20:43:01,325 ERROR FullProcessService - Project build has not produced APK file
-2020-01-06 20:43:01,328 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-19 21:14:32,615 ERROR FullProcessService - Project build has not produced APK file
+2020-01-19 21:14:32,618 ERROR FullProcessService - Could not find generated or existed APK file

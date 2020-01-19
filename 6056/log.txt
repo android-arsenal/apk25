@@ -1,34 +1,34 @@
-2020-01-06 20:31:16,587 INFO  DownloadService - Downloading "https://github.com/rahulkapoor1/ZommableLoadingImageView/archive/master.zip", attempt 3
-2020-01-06 20:31:17,278 INFO  DownloadService - Downloaded https://github.com/rahulkapoor1/ZommableLoadingImageView/archive/master.zip, attempt 3
-2020-01-06 20:31:17,278 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/master.zip": 117 KB
-2020-01-06 20:31:17,278 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-06 20:31:17,281 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/master.zip: true
-2020-01-06 20:31:17,281 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src'.
-2020-01-06 20:31:17,296 INFO  FullProcessService - Size of directory with sources: 130 KB
-2020-01-06 20:31:17,296 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src]
-2020-01-06 20:31:17,313 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/.git/
+2020-01-19 21:03:06,758 INFO  DownloadService - Downloading "https://github.com/rahulkapoor1/ZommableLoadingImageView/archive/master.zip", attempt 3
+2020-01-19 21:03:07,352 INFO  DownloadService - Downloaded https://github.com/rahulkapoor1/ZommableLoadingImageView/archive/master.zip, attempt 3
+2020-01-19 21:03:07,352 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/master.zip": 117 KB
+2020-01-19 21:03:07,352 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-19 21:03:07,358 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/master.zip: true
+2020-01-19 21:03:07,358 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src'.
+2020-01-19 21:03:07,375 INFO  FullProcessService - Size of directory with sources: 130 KB
+2020-01-19 21:03:07,375 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src]
+2020-01-19 21:03:07,392 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/.git/
 
-2020-01-06 20:31:17,315 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/gradlew
-2020-01-06 20:31:17,318 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/libzoomableimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/build.gradle
-2020-01-06 20:31:17,320 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/libzoomableimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/settings.gradle
-2020-01-06 20:31:17,320 INFO  ProjectBuildService - Remote scripts: none
-2020-01-06 20:31:17,320 INFO  ProjectFixService - Fixing project...
-2020-01-06 20:31:17,325 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/app/local.properties
-2020-01-06 20:31:17,325 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2020-01-06 20:31:17,326 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/libzoomableimageview/local.properties
-2020-01-06 20:31:17,326 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/libzoomableimageview/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2020-01-06 20:31:17,326 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/local.properties
-2020-01-06 20:31:17,326 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2020-01-06 20:31:17,327 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2020-01-06 20:31:17,327 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2020-01-06 20:31:17,328 INFO  ProjectFixService - Project was maybe fixed
-2020-01-06 20:31:17,328 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:31:17,328 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:31:35,844 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:31:35,845 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-06 20:31:35,845 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-06 20:31:35,845 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-06 20:31:41,567 ERROR SysUtils - Could not process external command
+2020-01-19 21:03:07,394 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/gradlew
+2020-01-19 21:03:07,396 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/libzoomableimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/build.gradle
+2020-01-19 21:03:07,398 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/libzoomableimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/settings.gradle
+2020-01-19 21:03:07,399 INFO  ProjectBuildService - Remote scripts: none
+2020-01-19 21:03:07,399 INFO  ProjectFixService - Fixing project...
+2020-01-19 21:03:07,404 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/app/local.properties
+2020-01-19 21:03:07,404 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2020-01-19 21:03:07,404 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/libzoomableimageview/local.properties
+2020-01-19 21:03:07,405 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/libzoomableimageview/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2020-01-19 21:03:07,405 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/local.properties
+2020-01-19 21:03:07,405 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2020-01-19 21:03:07,405 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2020-01-19 21:03:07,406 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2020-01-19 21:03:07,406 INFO  ProjectFixService - Project was maybe fixed
+2020-01-19 21:03:07,406 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:03:07,406 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:03:13,421 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:03:13,421 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:03:13,421 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:03:13,422 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:03:19,373 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -56,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:31:41,567 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:03:19,373 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -167,15 +167,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.102 secs
+Total time: 5.382 secs
 
-2020-01-06 20:31:41,569 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:31:41,569 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/libzoomableimageview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:31:47,450 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:31:47,450 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-06 20:31:47,450 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-06 20:31:47,450 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/libzoomableimageview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-06 20:31:57,506 ERROR SysUtils - Could not process external command
+2020-01-19 21:03:19,377 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:03:19,377 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/libzoomableimageview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:03:25,438 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:03:25,438 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:03:25,438 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:03:25,439 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/libzoomableimageview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:03:35,662 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -203,7 +203,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:31:57,506 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:03:35,662 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :libzoomableimageview:preBuild UP-TO-DATE
 :libzoomableimageview:preDebugBuild UP-TO-DATE
@@ -385,15 +385,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 9.43 secs
+Total time: 9.623 secs
 
-2020-01-06 20:31:57,558 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:31:57,558 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:32:03,376 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 20:32:03,377 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-06 20:32:03,377 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-06 20:32:03,377 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578317476579-0/src/ZommableLoadingImageView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-06 20:32:09,389 ERROR SysUtils - Could not process external command
+2020-01-19 21:03:35,715 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:03:35,715 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:03:42,080 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 21:03:42,080 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 21:03:42,080 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 21:03:42,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442586749-0/src/ZommableLoadingImageView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 21:03:48,163 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -421,7 +421,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 20:32:09,389 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:03:48,164 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -525,14 +525,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 5.37 secs
+Total time: 5.507 secs
 
-2020-01-06 20:32:09,442 ERROR FullProcessService - Project build has not produced APK file
-2020-01-06 20:32:09,487 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-19 21:03:48,218 ERROR FullProcessService - Project build has not produced APK file
+2020-01-19 21:03:48,266 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,34 +1,34 @@
-2020-01-06 20:49:23,805 INFO  DownloadService - Downloading "https://github.com/lolucosmin/PermissionsWrapper/archive/master.zip", attempt 3
-2020-01-06 20:49:24,325 INFO  DownloadService - Downloaded https://github.com/lolucosmin/PermissionsWrapper/archive/master.zip, attempt 3
-2020-01-06 20:49:24,325 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/master.zip": 146 KB
-2020-01-06 20:49:24,325 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-06 20:49:24,331 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/master.zip: true
-2020-01-06 20:49:24,331 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src'.
-2020-01-06 20:49:24,345 INFO  FullProcessService - Size of directory with sources: 167 KB
-2020-01-06 20:49:24,345 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src]
-2020-01-06 20:49:24,362 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/.git/
+2020-01-19 21:20:15,133 INFO  DownloadService - Downloading "https://github.com/lolucosmin/PermissionsWrapper/archive/master.zip", attempt 3
+2020-01-19 21:20:15,719 INFO  DownloadService - Downloaded https://github.com/lolucosmin/PermissionsWrapper/archive/master.zip, attempt 3
+2020-01-19 21:20:15,719 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/master.zip": 146 KB
+2020-01-19 21:20:15,719 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-19 21:20:15,721 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/master.zip: true
+2020-01-19 21:20:15,721 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src'.
+2020-01-19 21:20:15,735 INFO  FullProcessService - Size of directory with sources: 167 KB
+2020-01-19 21:20:15,736 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src]
+2020-01-19 21:20:15,755 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/.git/
 
-2020-01-06 20:49:24,365 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/gradlew
-2020-01-06 20:49:24,368 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/libraries/PermissionsWrapper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/build.gradle
-2020-01-06 20:49:24,370 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/libraries/PermissionsWrapper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/settings.gradle
-2020-01-06 20:49:24,370 INFO  ProjectBuildService - Remote scripts: none
-2020-01-06 20:49:24,370 INFO  ProjectFixService - Fixing project...
-2020-01-06 20:49:24,375 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/app/local.properties
-2020-01-06 20:49:24,376 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-06 20:49:24,376 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/libraries/PermissionsWrapper/local.properties
-2020-01-06 20:49:24,376 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/libraries/PermissionsWrapper/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-06 20:49:24,377 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/local.properties
-2020-01-06 20:49:24,377 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-06 20:49:24,377 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-06 20:49:24,378 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-06 20:49:24,378 INFO  ProjectFixService - Project was maybe fixed
-2020-01-06 20:49:24,378 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 20:49:24,378 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 20:49:29,485 INFO  VirusProcessorServiceImpl - Queued project 6017 to scan viruses
-2020-01-06 20:49:29,912 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-06 20:49:29,912 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-06 20:49:29,912 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-06 20:49:58,143 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 21:20:15,757 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/gradlew
+2020-01-19 21:20:15,759 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/libraries/PermissionsWrapper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/build.gradle
+2020-01-19 21:20:15,761 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/libraries/PermissionsWrapper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/settings.gradle
+2020-01-19 21:20:15,761 INFO  ProjectBuildService - Remote scripts: none
+2020-01-19 21:20:15,761 INFO  ProjectFixService - Fixing project...
+2020-01-19 21:20:15,766 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/app/local.properties
+2020-01-19 21:20:15,766 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-01-19 21:20:15,767 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/libraries/PermissionsWrapper/local.properties
+2020-01-19 21:20:15,767 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/libraries/PermissionsWrapper/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-01-19 21:20:15,767 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/local.properties
+2020-01-19 21:20:15,767 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-19 21:20:15,768 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-19 21:20:15,768 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-01-19 21:20:15,768 INFO  ProjectFixService - Project was maybe fixed
+2020-01-19 21:20:15,768 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 21:20:15,769 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 21:20:20,804 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-19 21:20:20,804 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-19 21:20:20,804 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-19 21:20:20,948 INFO  VirusProcessorServiceImpl - Queued project 6017 to scan viruses
+2020-01-19 21:20:48,936 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :PermissionsWrapper:preBuild UP-TO-DATE
@@ -51,14 +51,14 @@
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
 > Task :PermissionsWrapper:generateDebugRFile
 > Task :PermissionsWrapper:compileDebugJavaWithJavac
+> Task :app:processDebugManifest
 > Task :app:mergeDebugResources
+> Task :app:processDebugResources
 > Task :PermissionsWrapper:bundleLibCompileDebug
 > Task :app:javaPreCompileDebug
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:processDebugResources
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
@@ -103,12 +103,16 @@
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :PermissionsWrapper:javaPreCompileRelease
+> Task :app:mergeProjectDexDebug
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :PermissionsWrapper:javaPreCompileRelease
 > Task :app:prepareLintJar
-> Task :PermissionsWrapper:prepareLintJarForPublish
 > Task :PermissionsWrapper:processReleaseJavaRes NO-SOURCE
 > Task :app:checkReleaseDuplicateClasses
+> Task :PermissionsWrapper:processReleaseManifest
+> Task :app:processReleaseManifest
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -121,26 +125,15 @@
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :PermissionsWrapper:mergeReleaseJniLibFolders
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
+> Task :PermissionsWrapper:prepareLintJarForPublish
+> Task :PermissionsWrapper:generateReleaseRFile
+> Task :PermissionsWrapper:compileReleaseJavaWithJavac
+> Task :PermissionsWrapper:bundleLibCompileRelease
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
 > Task :PermissionsWrapper:mergeReleaseNativeLibs
 > Task :PermissionsWrapper:stripReleaseDebugSymbols
 > Task :PermissionsWrapper:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:mergeReleaseResources
-> Task :app:mergeProjectDexDebug
-> Task :PermissionsWrapper:processReleaseManifest
-> Task :app:processReleaseManifest
-> Task :PermissionsWrapper:generateReleaseRFile
-> Task :PermissionsWrapper:compileReleaseJavaWithJavac
-> Task :app:processReleaseResources
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :PermissionsWrapper:bundleLibCompileRelease
-> Task :PermissionsWrapper:bundleLibResRelease
-> Task :PermissionsWrapper:bundleLibRuntimeRelease
-> Task :PermissionsWrapper:createFullJarRelease
-> Task :app:mergeExtDexRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
@@ -149,6 +142,13 @@
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/579fe06842e86639e9c38ff046763201/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
 > Task :app:transformClassesWithDexBuilderForRelease
+> Task :PermissionsWrapper:bundleLibResRelease
+> Task :app:mergeExtDexRelease
+> Task :PermissionsWrapper:bundleLibRuntimeRelease
+> Task :PermissionsWrapper:createFullJarRelease
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseJavaResource
@@ -162,7 +162,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 28s
+BUILD SUCCESSFUL in 27s
 91 actionable tasks: 91 executed
 
-2020-01-06 20:49:58,199 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578318563803-0/src/PermissionsWrapper-master/app/build/outputs/apk/debug/app-debug.apk
+2020-01-19 21:20:48,996 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579443615130-0/src/PermissionsWrapper-master/app/build/outputs/apk/debug/app-debug.apk
