@@ -3,7 +3,7 @@
     "packageName" : "io.noties.markwon",
     "label" : "Markwon",
     "icon" : "res/mipmap-hdpi-v4/ic_launcher.png",
-    "versionName" : "4.2.0",
+    "versionName" : "4.3.0",
     "versionCode" : 1,
     "revisionCode" : null,
     "sharedUserId" : null,
@@ -26,7 +26,7 @@
     "smallScreens" : false,
     "normalScreens" : false,
     "largeScreens" : false,
-    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_ALL_DOWNLOADS" ],
+    "usesPermissions" : [ "android.permission.INTERNET" ],
     "usesFeatures" : [ ],
     "permissions" : [ ],
     "featureSplit" : false,
@@ -38,11 +38,11 @@
     "data" : "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",
     "file" : true
   },
-  "dexClasses" : 1226,
+  "dexClasses" : 1231,
   "locales" : [ "" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"4.2.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"io.noties.markwon\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_ALL_DOWNLOADS\" />\n\t<application android:theme=\"resourceId:0x7f090003\" android:label=\"Markwon\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"io.noties.markwon.app.App\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\">\n\t\t<activity android:name=\"io.noties.markwon.app.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.VIEW\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<category android:name=\"android.intent.category.BROWSABLE\" />\n\t\t\t\t<data android:scheme=\"http\" android:host=\"*\" />\n\t\t\t\t<data android:scheme=\"file\" android:host=\"*\" />\n\t\t\t\t<data android:scheme=\"https\" android:host=\"*\" />\n\t\t\t\t<data android:pathPattern=\".*\\.markdown\" />\n\t\t\t\t<data android:pathPattern=\".*\\.mdown\" />\n\t\t\t\t<data android:pathPattern=\".*\\.mkdn\" />\n\t\t\t\t<data android:pathPattern=\".*\\.mdwn\" />\n\t\t\t\t<data android:pathPattern=\".*\\.mkd\" />\n\t\t\t\t<data android:pathPattern=\".*\\.md\" />\n\t\t\t\t<data android:pathPattern=\".*\\.text\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 680427,
-  "crc32" : 1753039187,
-  "sha256" : "48355ef79a8be6f59c01f913548fb14e9249fc936248813bd7117ce5dc62d99a",
-  "buildTime" : 1579442346000
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"4.3.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"io.noties.markwon\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f090003\" android:label=\"Markwon\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"io.noties.markwon.app.App\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\">\n\t\t<activity android:name=\"io.noties.markwon.app.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.VIEW\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<category android:name=\"android.intent.category.BROWSABLE\" />\n\t\t\t\t<data android:scheme=\"http\" android:host=\"*\" />\n\t\t\t\t<data android:scheme=\"file\" android:host=\"*\" />\n\t\t\t\t<data android:scheme=\"https\" android:host=\"*\" />\n\t\t\t\t<data android:pathPattern=\".*\\.markdown\" />\n\t\t\t\t<data android:pathPattern=\".*\\.mdown\" />\n\t\t\t\t<data android:pathPattern=\".*\\.mkdn\" />\n\t\t\t\t<data android:pathPattern=\".*\\.mdwn\" />\n\t\t\t\t<data android:pathPattern=\".*\\.mkd\" />\n\t\t\t\t<data android:pathPattern=\".*\\.md\" />\n\t\t\t\t<data android:pathPattern=\".*\\.text\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 681139,
+  "crc32" : 36393434,
+  "sha256" : "be2242ff543f220acb69f052b189aa7031bf24aae60b8d8dfc2f2ae1d728a0ac",
+  "buildTime" : 1585505120000
 }

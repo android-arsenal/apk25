@@ -1,38 +1,39 @@
-2020-01-02 20:25:59,454 INFO  DownloadService - Downloading "https://github.com/samanzamani/PersianDate/archive/master.zip", attempt 3
-2020-01-02 20:26:01,789 INFO  DownloadService - Downloaded https://github.com/samanzamani/PersianDate/archive/master.zip, attempt 3
-2020-01-02 20:26:01,789 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/master.zip": 250 KB
-2020-01-02 20:26:01,789 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-02 20:26:01,789 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/master.zip: true
-2020-01-02 20:26:01,790 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src'.
-2020-01-02 20:26:01,806 INFO  FullProcessService - Size of directory with sources: 434 KB
-2020-01-02 20:26:01,806 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src]
-2020-01-02 20:26:01,824 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/.git/
+2020-03-30 01:03:48,760 INFO  DownloadService - Downloading "https://github.com/samanzamani/PersianDate/archive/master.zip", attempt 3
+2020-03-30 01:03:50,822 INFO  DownloadService - Downloaded https://github.com/samanzamani/PersianDate/archive/master.zip, attempt 3
+2020-03-30 01:03:50,822 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/master.zip": 250 KB
+2020-03-30 01:03:50,822 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-30 01:03:50,828 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/master.zip: true
+2020-03-30 01:03:50,828 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src'.
+2020-03-30 01:03:50,848 INFO  FullProcessService - Size of directory with sources: 436 KB
+2020-03-30 01:03:50,848 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src]
+2020-03-30 01:03:50,867 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/.git/
 
-2020-01-02 20:26:01,825 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/gradlew
-2020-01-02 20:26:01,827 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/persiandate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/build.gradle
-2020-01-02 20:26:01,829 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/persiandate/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/persiandate/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/persiandate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/settings.gradle
-2020-01-02 20:26:01,829 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2020-01-02 20:26:02,619 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2020-01-02 20:26:02,619 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2020-01-02 20:26:02,619 INFO  ProjectFixService - Fixing project...
-2020-01-02 20:26:02,626 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/app/local.properties
-2020-01-02 20:26:02,628 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2020-01-02 20:26:02,628 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2020-01-02 20:26:02,628 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/persiandate/local.properties
-2020-01-02 20:26:02,633 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/persiandate/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2020-01-02 20:26:02,633 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/persiandate/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2020-01-02 20:26:02,634 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/local.properties
-2020-01-02 20:26:02,635 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2020-01-02 20:26:02,635 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2020-01-02 20:26:02,636 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2020-01-02 20:26:02,637 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2020-01-02 20:26:02,637 INFO  ProjectFixService - Project was maybe fixed
-2020-01-02 20:26:02,637 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-02 20:26:02,637 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-02 20:26:11,465 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-02 20:26:11,465 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-02 20:26:11,465 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-02 20:26:50,670 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-30 01:03:50,870 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/gradlew
+2020-03-30 01:03:50,872 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/persiandate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/build.gradle
+2020-03-30 01:03:50,875 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/persiandate/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/persiandate/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/persiandate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/settings.gradle
+2020-03-30 01:03:50,880 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2020-03-30 01:03:51,265 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2020-03-30 01:03:51,265 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2020-03-30 01:03:51,265 INFO  ProjectFixService - Fixing project...
+2020-03-30 01:03:51,275 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/app/local.properties
+2020-03-30 01:03:51,276 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-03-30 01:03:51,277 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-03-30 01:03:51,278 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/persiandate/local.properties
+2020-03-30 01:03:51,281 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/persiandate/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-03-30 01:03:51,281 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/persiandate/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-03-30 01:03:51,282 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/local.properties
+2020-03-30 01:03:51,283 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-30 01:03:51,283 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-30 01:03:51,285 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-03-30 01:03:51,285 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-03-30 01:03:51,285 INFO  ProjectFixService - Project was maybe fixed
+2020-03-30 01:03:51,285 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 01:03:51,285 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 01:03:56,930 INFO  VirusProcessorServiceImpl - Queued project 6152 to scan viruses
+2020-03-30 01:03:57,517 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-30 01:03:57,517 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-30 01:03:57,517 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-30 01:04:32,911 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :persiandate
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -45,37 +46,41 @@ For more information, see https://d.android.com/r/tools/task-configuration-avoid
 To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :persiandate:preBuild UP-TO-DATE
 > Task :persiandate:preDebugBuild UP-TO-DATE
-> Task :persiandate:checkDebugManifest
-> Task :persiandate:processDebugManifest
 > Task :persiandate:compileDebugAidl NO-SOURCE
-> Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :persiandate:packageDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
 > Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
 > Task :persiandate:compileDebugRenderscript NO-SOURCE
+> Task :persiandate:checkDebugManifest
 > Task :persiandate:generateDebugBuildConfig
 > Task :persiandate:generateDebugResValues
 > Task :persiandate:generateDebugResources
-> Task :persiandate:prepareLintJar
-> Task :persiandate:generateDebugSources
+> Task :persiandate:packageDebugResources
 > Task :persiandate:javaPreCompileDebug
+> Task :persiandate:parseDebugLibraryResources
 > Task :app:mainApkListPersistenceDebug
+> Task :persiandate:processDebugManifest
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :persiandate:packageDebugResources
 > Task :persiandate:generateDebugRFile
 > Task :persiandate:compileDebugJavaWithJavac
-> Task :persiandate:bundleLibCompileDebug
 > Task :app:mergeDebugResources
+> Task :persiandate:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
 > Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -84,49 +89,68 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :persiandate:generateDebugAssets
 > Task :persiandate:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
-> Task :persiandate:bundleLibRuntimeDebug
-> Task :app:checkDebugDuplicateClasses
-> Task :app:mergeDebugJniLibFolders
+> Task :app:processDebugJavaRes NO-SOURCE
 > Task :persiandate:processDebugJavaRes NO-SOURCE
 > Task :persiandate:bundleLibResDebug
+> Task :persiandate:bundleLibRuntimeDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:desugarDebugFileDependencies
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
 > Task :persiandate:mergeDebugJniLibFolders
-> Task :persiandate:transformNativeLibsWithMergeJniLibsForDebug
-> Task :persiandate:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :persiandate:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :persiandate:preReleaseBuild UP-TO-DATE
-> Task :persiandate:checkReleaseManifest
-> Task :persiandate:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :persiandate:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :persiandate:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:generateReleaseSources
 > Task :persiandate:compileReleaseRenderscript NO-SOURCE
+> Task :persiandate:checkReleaseManifest
 > Task :persiandate:generateReleaseBuildConfig
 > Task :persiandate:generateReleaseResValues
 > Task :persiandate:generateReleaseResources
 > Task :persiandate:packageReleaseResources
-> Task :persiandate:generateReleaseRFile
-> Task :persiandate:generateReleaseSources
-> Task :persiandate:javaPreCompileRelease
-> Task :persiandate:compileReleaseJavaWithJavac
-> Task :persiandate:bundleLibCompileRelease
+> Task :persiandate:mergeDebugNativeLibs
+> Task :persiandate:stripDebugDebugSymbols
+> Task :persiandate:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :persiandate:parseReleaseLibraryResources
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
-> Task :app:processReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:prepareLintJar
+> Task :persiandate:processReleaseManifest
 > Task :persiandate:prepareLintJarForPublish
+> Task :app:processReleaseManifest
+> Task :app:checkReleaseDuplicateClasses
+> Task :persiandate:javaPreCompileRelease
+> Task :app:mergeReleaseResources
+> Task :persiandate:generateReleaseRFile
+> Task :persiandate:compileReleaseJavaWithJavac
+> Task :app:processReleaseResources
+> Task :persiandate:bundleLibCompileRelease
+> Task :persiandate:bundleLibRuntimeRelease
+> Task :app:javaPreCompileRelease
+
+> Task :app:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/ea64fb63d43a92ca5e878579cf7c5db1/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:mergeExtDexDebug
+> Task :app:desugarReleaseFileDependencies
+> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -135,53 +159,23 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :persiandate:generateReleaseAssets
 > Task :persiandate:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :app:signingConfigWriterRelease
-> Task :app:checkReleaseDuplicateClasses
-> Task :persiandate:bundleLibRuntimeRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :persiandate:processReleaseJavaRes NO-SOURCE
-> Task :persiandate:bundleLibResRelease
-> Task :persiandate:mergeReleaseJniLibFolders
-> Task :persiandate:transformNativeLibsWithMergeJniLibsForRelease
-> Task :persiandate:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :persiandate:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:javaPreCompileDebug
-
-> Task :app:compileDebugJavaWithJavac
-Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-10.0.0.jar (com.jakewharton:butterknife-compiler:10.0.0).
-Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :app:compileDebugSources
-D8: synthesized for lambda desugaring: Type `butterknife.Unbinder$-CC` was not found, it is required for default or static interface methods desugaring of `void butterknife.-$$Lambda$Unbinder$aAZZEjRDCcxQlrGZAdKWmLXqruY.unbind()`
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :app:transformDexArchiveWithDexMergerForDebug
-> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :persiandate:processReleaseJavaRes NO-SOURCE
+> Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :app:javaPreCompileRelease
-
-> Task :app:compileReleaseJavaWithJavac
-Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-10.0.0.jar (com.jakewharton:butterknife-compiler:10.0.0).
-Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :app:compileReleaseSources
-
-> Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f7b9c17051a9de1d76a6cc634864e11b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-D8: synthesized for lambda desugaring: Type `butterknife.Unbinder$-CC` was not found, it is required for default or static interface methods desugaring of `void butterknife.-$$Lambda$Unbinder$aAZZEjRDCcxQlrGZAdKWmLXqruY.unbind()`
-
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :app:transformDexArchiveWithDexMergerForRelease
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :persiandate:mergeReleaseJniLibFolders
+> Task :persiandate:bundleLibResRelease
+> Task :persiandate:mergeReleaseNativeLibs
+> Task :persiandate:stripReleaseDebugSymbols
+> Task :persiandate:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
@@ -189,9 +183,9 @@ D8: synthesized for lambda desugaring: Type `butterknife.Unbinder$-CC` was not f
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 38s
-89 actionable tasks: 89 executed
+BUILD SUCCESSFUL in 35s
+90 actionable tasks: 90 executed
 
-2020-01-02 20:26:50,733 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971559452-0/src/PersianDate-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-30 01:04:33,008 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585505028752-0/src/PersianDate-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,33 +1,34 @@
-2020-01-02 20:16:40,696 INFO  DownloadService - Downloading "https://github.com/GuilhE/android-circular-progress-view/archive/master.zip", attempt 3
-2020-01-02 20:16:44,436 INFO  DownloadService - Downloaded https://github.com/GuilhE/android-circular-progress-view/archive/master.zip, attempt 3
-2020-01-02 20:16:44,436 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/master.zip": 2 MB
-2020-01-02 20:16:44,436 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-02 20:16:44,437 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/master.zip: true
-2020-01-02 20:16:44,437 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src'.
-2020-01-02 20:16:44,470 INFO  FullProcessService - Size of directory with sources: 2 MB
-2020-01-02 20:16:44,470 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src]
-2020-01-02 20:16:44,488 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/.git/
+2020-03-30 01:02:44,453 INFO  DownloadService - Downloading "https://github.com/GuilhE/android-circular-progress-view/archive/master.zip", attempt 3
+2020-03-30 01:02:47,633 INFO  VirusProcessorServiceImpl - Queued project 6192 to scan viruses
+2020-03-30 01:02:47,775 INFO  DownloadService - Downloaded https://github.com/GuilhE/android-circular-progress-view/archive/master.zip, attempt 3
+2020-03-30 01:02:47,776 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/master.zip": 2 MB
+2020-03-30 01:02:47,776 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-30 01:02:47,781 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/master.zip: true
+2020-03-30 01:02:47,782 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src'.
+2020-03-30 01:02:47,819 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-03-30 01:02:47,819 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src]
+2020-03-30 01:02:47,839 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/.git/
 
-2020-01-02 20:16:44,490 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/gradlew
-2020-01-02 20:16:44,491 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/build.gradle
-2020-01-02 20:16:44,493 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/settings.gradle
-2020-01-02 20:16:44,493 INFO  ProjectBuildService - Remote scripts: none
-2020-01-02 20:16:44,493 INFO  ProjectFixService - Fixing project...
-2020-01-02 20:16:44,498 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/local.properties
-2020-01-02 20:16:44,500 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-01-02 20:16:44,500 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/sample/local.properties
-2020-01-02 20:16:44,502 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-01-02 20:16:44,502 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/local.properties
-2020-01-02 20:16:44,503 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-02 20:16:44,503 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-02 20:16:44,503 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-01-02 20:16:44,503 INFO  ProjectFixService - Project was maybe fixed
-2020-01-02 20:16:44,503 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-02 20:16:44,503 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-02 20:16:52,796 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-02 20:16:52,796 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-01-02 20:16:52,797 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-01-02 20:17:02,530 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-30 01:02:47,841 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/gradlew
+2020-03-30 01:02:47,844 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/build.gradle
+2020-03-30 01:02:47,846 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/settings.gradle
+2020-03-30 01:02:47,847 INFO  ProjectBuildService - Remote scripts: none
+2020-03-30 01:02:47,847 INFO  ProjectFixService - Fixing project...
+2020-03-30 01:02:47,853 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/local.properties
+2020-03-30 01:02:47,855 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-03-30 01:02:47,856 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/sample/local.properties
+2020-03-30 01:02:47,858 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-03-30 01:02:47,858 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/local.properties
+2020-03-30 01:02:47,859 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-30 01:02:47,859 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-30 01:02:47,860 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-03-30 01:02:47,860 INFO  ProjectFixService - Project was maybe fixed
+2020-03-30 01:02:47,860 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 01:02:47,860 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 01:02:54,688 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-30 01:02:54,688 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-30 01:02:54,689 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-30 01:03:04,386 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :circular-progress-view:preBuild UP-TO-DATE
 > Task :circular-progress-view:preDebugBuild UP-TO-DATE
 > Task :circular-progress-view:compileDebugAidl NO-SOURCE
@@ -39,11 +40,13 @@
 > Task :circular-progress-view:packageDebugResources
 > Task :circular-progress-view:mergeDebugShaders
 > Task :circular-progress-view:compileDebugShaders
+> Task :circular-progress-view:javaPreCompileDebug
 > Task :circular-progress-view:generateDebugAssets
 > Task :circular-progress-view:packageDebugAssets
 > Task :circular-progress-view:packageDebugRenderscript NO-SOURCE
 > Task :circular-progress-view:processDebugJavaRes NO-SOURCE
 > Task :circular-progress-view:mergeDebugJniLibFolders
+> Task :circular-progress-view:processDebugManifest
 > Task :circular-progress-view:preReleaseBuild UP-TO-DATE
 > Task :circular-progress-view:compileReleaseAidl NO-SOURCE
 > Task :circular-progress-view:compileReleaseRenderscript NO-SOURCE
@@ -52,10 +55,8 @@
 > Task :circular-progress-view:generateReleaseResValues
 > Task :circular-progress-view:generateReleaseResources
 > Task :circular-progress-view:packageReleaseResources
-> Task :circular-progress-view:javaPreCompileDebug
-> Task :circular-progress-view:parseDebugLibraryResources
-> Task :circular-progress-view:processDebugManifest
-> Task :circular-progress-view:javaPreCompileRelease
+> Task :circular-progress-view:prepareLintJarForPublish
+> Task :circular-progress-view:parseReleaseLibraryResources
 > Task :circular-progress-view:mergeReleaseShaders
 > Task :circular-progress-view:compileReleaseShaders
 > Task :circular-progress-view:generateReleaseAssets
@@ -63,123 +64,121 @@
 > Task :circular-progress-view:packageReleaseRenderscript NO-SOURCE
 > Task :circular-progress-view:processReleaseJavaRes NO-SOURCE
 > Task :circular-progress-view:mergeReleaseJniLibFolders
-> Task :circular-progress-view:mergeDebugNativeLibs
-> Task :circular-progress-view:stripDebugDebugSymbols
-> Task :circular-progress-view:transformNativeLibsWithSyncJniLibsForDebug
+> Task :circular-progress-view:javaPreCompileRelease
 > Task :circular-progress-view:mergeReleaseResources
 
 > Task :circular-progress-view:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:12: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:12: error: package android.support.annotation does not exist
 import android.support.annotation.ColorInt;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:13: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:13: error: package android.support.annotation does not exist
 import android.support.annotation.ColorRes;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:14: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:14: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:15: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:15: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:16: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:16: error: package android.support.annotation does not exist
 import android.support.annotation.RequiresApi;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:102: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:102: error: cannot find symbol
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
      ^
   symbol:   class RequiresApi
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:237: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:237: error: cannot find symbol
     public void setColorResource(@ColorRes int resId) {
                                   ^
   symbol:   class ColorRes
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:236: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:236: error: cannot find symbol
     @RequiresApi(api = Build.VERSION_CODES.M)
      ^
   symbol:   class RequiresApi
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:241: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:241: error: cannot find symbol
     @RequiresApi(api = Build.VERSION_CODES.O)
      ^
   symbol:   class RequiresApi
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:261: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:261: error: cannot find symbol
     public void setProgressColorResource(@ColorRes int resId) {
                                           ^
   symbol:   class ColorRes
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:260: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:260: error: cannot find symbol
     @RequiresApi(api = Build.VERSION_CODES.M)
      ^
   symbol:   class RequiresApi
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:265: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:265: error: cannot find symbol
     @RequiresApi(api = Build.VERSION_CODES.O)
      ^
   symbol:   class RequiresApi
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:283: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:283: error: cannot find symbol
     public void setProgressColors(@NonNull @ColorInt int[] colors, @Nullable float[] positions, boolean duplicateFirst) {
                                    ^
   symbol:   class NonNull
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:283: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:283: error: cannot find symbol
     public void setProgressColors(@NonNull @ColorInt int[] colors, @Nullable float[] positions, boolean duplicateFirst) {
                                             ^
   symbol:   class ColorInt
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:283: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:283: error: cannot find symbol
     public void setProgressColors(@NonNull @ColorInt int[] colors, @Nullable float[] positions, boolean duplicateFirst) {
                                                                     ^
   symbol:   class Nullable
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:293: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:293: error: cannot find symbol
     public void setProgressColors(@NonNull @ColorInt int[] colors, @Nullable float[] positions) {
                                    ^
   symbol:   class NonNull
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:293: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:293: error: cannot find symbol
     public void setProgressColors(@NonNull @ColorInt int[] colors, @Nullable float[] positions) {
                                             ^
   symbol:   class ColorInt
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:293: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:293: error: cannot find symbol
     public void setProgressColors(@NonNull @ColorInt int[] colors, @Nullable float[] positions) {
                                                                     ^
   symbol:   class Nullable
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:297: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:297: error: cannot find symbol
     private int[] duplicateFirstColor(@ColorInt @NonNull int[] colors) {
                                        ^
   symbol:   class ColorInt
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:297: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:297: error: cannot find symbol
     private int[] duplicateFirstColor(@ColorInt @NonNull int[] colors) {
                                                  ^
   symbol:   class NonNull
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:354: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:354: error: cannot find symbol
     public void setShadowColorResource(@ColorRes int resId) {
                                         ^
   symbol:   class ColorRes
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:353: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:353: error: cannot find symbol
     @RequiresApi(api = Build.VERSION_CODES.M)
      ^
   symbol:   class RequiresApi
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:358: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:358: error: cannot find symbol
     @RequiresApi(api = Build.VERSION_CODES.O)
      ^
   symbol:   class RequiresApi
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:434: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:434: error: cannot find symbol
     public void setProgress(@NonNull List<Float> progressList, @NonNull List<Integer> progressColorList) throws RuntimeException {
                              ^
   symbol:   class NonNull
   location: class CircularProgressView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:434: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/circular-progress-view/src/main/java/com/github/guilhe/views/CircularProgressView.java:434: error: cannot find symbol
     public void setProgress(@NonNull List<Float> progressList, @NonNull List<Integer> progressColorList) throws RuntimeException {
                                                                 ^
   symbol:   class NonNull
@@ -240,29 +239,31 @@ javadoc: warning - Class RequiresApi not found.
 
 > Task :circular-progress-view:javadocJar
 > Task :circular-progress-view:sourcesJar
+> Task :circular-progress-view:mergeReleaseNativeLibs
+> Task :circular-progress-view:stripReleaseDebugSymbols
+> Task :circular-progress-view:transformNativeLibsWithSyncJniLibsForRelease
+> Task :circular-progress-view:parseDebugLibraryResources
+> Task :circular-progress-view:mergeDebugNativeLibs
+> Task :circular-progress-view:stripDebugDebugSymbols
+> Task :circular-progress-view:transformNativeLibsWithSyncJniLibsForDebug
+> Task :circular-progress-view:processReleaseManifest
 > Task :circular-progress-view:generateDebugRFile
 > Task :circular-progress-view:compileDebugJavaWithJavac
 > Task :circular-progress-view:extractDebugAnnotations
 > Task :circular-progress-view:mergeDebugGeneratedProguardFiles
 > Task :circular-progress-view:mergeDebugConsumerProguardFiles
 > Task :circular-progress-view:compileDebugSources
-> Task :circular-progress-view:mergeReleaseNativeLibs
-> Task :circular-progress-view:stripReleaseDebugSymbols
-> Task :circular-progress-view:transformNativeLibsWithSyncJniLibsForRelease
-> Task :circular-progress-view:prepareLintJarForPublish
-> Task :circular-progress-view:processReleaseManifest
-> Task :circular-progress-view:parseReleaseLibraryResources
-> Task :circular-progress-view:mergeDebugJavaResource
-> Task :circular-progress-view:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :circular-progress-view:bundleDebugAar
-> Task :circular-progress-view:assembleDebug
+> Task :circular-progress-view:verifyReleaseResources
 > Task :circular-progress-view:generateReleaseRFile
 > Task :circular-progress-view:compileReleaseJavaWithJavac
 > Task :circular-progress-view:extractReleaseAnnotations
 > Task :circular-progress-view:mergeReleaseGeneratedProguardFiles
 > Task :circular-progress-view:mergeReleaseConsumerProguardFiles
+> Task :circular-progress-view:mergeDebugJavaResource
+> Task :circular-progress-view:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :circular-progress-view:bundleDebugAar
+> Task :circular-progress-view:assembleDebug
 > Task :circular-progress-view:compileReleaseSources
-> Task :circular-progress-view:verifyReleaseResources
 > Task :circular-progress-view:mergeReleaseJavaResource
 > Task :circular-progress-view:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :circular-progress-view:bundleReleaseAar
@@ -277,12 +278,12 @@ See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 9s
 50 actionable tasks: 50 executed
 
-2020-01-02 20:17:02,542 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-02 20:17:02,542 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-02 20:17:08,000 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-02 20:17:08,000 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-02 20:17:08,001 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-02 20:17:45,743 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-30 01:03:04,401 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 01:03:04,401 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 01:03:10,002 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-30 01:03:10,002 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-30 01:03:10,002 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-30 01:03:48,004 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :circular-progress-view:preBuild UP-TO-DATE
 > Task :circular-progress-view:preDebugBuild UP-TO-DATE
 > Task :circular-progress-view:compileDebugAidl NO-SOURCE
@@ -297,14 +298,14 @@ BUILD SUCCESSFUL in 9s
 > Task :circular-progress-view:generateDebugRFile UP-TO-DATE
 > Task :circular-progress-view:javaPreCompileDebug UP-TO-DATE
 > Task :circular-progress-view:compileDebugJavaWithJavac UP-TO-DATE
-> Task :circular-progress-view:bundleLibCompileDebug
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
+> Task :circular-progress-view:bundleLibCompileDebug
 > Task :circular-progress-view:packageDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
-> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:prepareLintJar
 > Task :sample:prepareLintJarForPublish
 > Task :sample:generateDebugSources
@@ -372,20 +373,20 @@ BUILD SUCCESSFUL in 9s
 > Task :sample:dataBindingExportFeaturePackageIdsRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
+> Task :sample:dataBindingMergeGenClassesRelease
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
 > Task :sample:javaPreCompileRelease
-> Task :sample:mergeReleaseResources
-> Task :sample:processReleaseResources
 > Task :sample:dataBindingMergeDependencyArtifactsRelease
-> Task :sample:dataBindingMergeGenClassesRelease
+> Task :sample:mergeReleaseResources
 > Task :sample:dataBindingGenBaseClassesRelease
+> Task :sample:processReleaseResources
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
 > Task :sample:mergeExtDexDebug
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
 > Task :circular-progress-view:prepareLintJarForPublish UP-TO-DATE
 > Task :circular-progress-view:processReleaseJavaRes NO-SOURCE
 
@@ -393,11 +394,11 @@ BUILD SUCCESSFUL in 9s
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/47adb01d405b95a158f18ec7d8564fc0/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
 > Task :sample:checkReleaseDuplicateClasses
-> Task :circular-progress-view:bundleLibRuntimeRelease
+> Task :circular-progress-view:bundleLibResRelease
 > Task :sample:mergeDexDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
-> Task :circular-progress-view:bundleLibResRelease
+> Task :circular-progress-view:bundleLibRuntimeRelease
 > Task :circular-progress-view:createFullJarRelease
 > Task :sample:desugarReleaseFileDependencies
 > Task :sample:transformClassesWithDexBuilderForRelease
@@ -433,4 +434,4 @@ See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 37s
 103 actionable tasks: 72 executed, 31 up-to-date
 
-2020-01-02 20:17:45,824 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577971000690-0/src/android-circular-progress-view-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-03-30 01:03:48,113 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504964444-0/src/android-circular-progress-view-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

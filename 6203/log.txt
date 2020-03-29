@@ -1,35 +1,37 @@
-2020-01-02 19:43:24,455 INFO  DownloadService - Downloading "https://github.com/pwittchen/ReactiveAirplaneMode/archive/master.zip", attempt 3
-2020-01-02 19:43:24,978 INFO  DownloadService - Downloaded https://github.com/pwittchen/ReactiveAirplaneMode/archive/master.zip, attempt 3
-2020-01-02 19:43:24,979 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/master.zip": 157 KB
-2020-01-02 19:43:24,979 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-02 19:43:24,982 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/master.zip: true
-2020-01-02 19:43:24,982 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src'.
-2020-01-02 19:43:25,001 INFO  FullProcessService - Size of directory with sources: 185 KB
-2020-01-02 19:43:25,001 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src]
-2020-01-02 19:43:25,022 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/.git/
+2020-03-30 00:59:03,583 INFO  DownloadService - Downloading "https://github.com/pwittchen/ReactiveAirplaneMode/archive/master.zip", attempt 3
+2020-03-30 00:59:04,534 INFO  DownloadService - Downloaded https://github.com/pwittchen/ReactiveAirplaneMode/archive/master.zip, attempt 3
+2020-03-30 00:59:04,535 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/master.zip": 160 KB
+2020-03-30 00:59:04,535 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-30 00:59:04,540 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/master.zip: true
+2020-03-30 00:59:04,540 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src'.
+2020-03-30 00:59:04,561 INFO  FullProcessService - Size of directory with sources: 187 KB
+2020-03-30 00:59:04,561 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src]
+2020-03-30 00:59:04,586 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/.git/
 
-2020-01-02 19:43:25,025 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/gradlew
-2020-01-02 19:43:25,027 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/build.gradle
-2020-01-02 19:43:25,030 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/config/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/settings.gradle
-2020-01-02 19:43:25,031 INFO  ProjectBuildService - Remote scripts: none
-2020-01-02 19:43:25,031 INFO  ProjectFixService - Fixing project...
-2020-01-02 19:43:25,047 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/app/local.properties
-2020-01-02 19:43:25,052 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=<null>]
-2020-01-02 19:43:25,052 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=29]
-2020-01-02 19:43:25,054 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/library/local.properties
-2020-01-02 19:43:25,057 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=<null>]
-2020-01-02 19:43:25,057 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=29]
-2020-01-02 19:43:25,058 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/local.properties
-2020-01-02 19:43:25,059 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-bin.zip
-2020-01-02 19:43:25,060 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=<null>]
-2020-01-02 19:43:25,060 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=29]
-2020-01-02 19:43:25,061 INFO  ProjectFixService - Project was maybe fixed
-2020-01-02 19:43:25,061 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-02 19:43:25,061 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-02 19:43:33,648 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-01-02 19:43:33,648 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-02 19:43:33,648 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-02 19:44:15,281 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+2020-03-30 00:59:04,590 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/gradlew
+2020-03-30 00:59:04,593 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/build.gradle
+2020-03-30 00:59:04,596 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/config/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/settings.gradle
+2020-03-30 00:59:04,597 INFO  ProjectBuildService - Remote scripts: none
+2020-03-30 00:59:04,597 INFO  ProjectFixService - Fixing project...
+2020-03-30 00:59:04,609 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/app/local.properties
+2020-03-30 00:59:04,612 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=<null>]
+2020-03-30 00:59:04,613 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=29]
+2020-03-30 00:59:04,614 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/library/local.properties
+2020-03-30 00:59:04,617 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=<null>]
+2020-03-30 00:59:04,618 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=29]
+2020-03-30 00:59:04,619 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/local.properties
+2020-03-30 00:59:04,619 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.2.1-all.zip
+2020-03-30 00:59:04,619 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.2.1-bin.zip)
+2020-03-30 00:59:04,621 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=<null>]
+2020-03-30 00:59:04,621 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=23,targetSdkVersion=29]
+2020-03-30 00:59:04,621 INFO  ProjectFixService - Project was maybe fixed
+2020-03-30 00:59:04,621 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 00:59:04,622 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 00:59:16,976 INFO  VirusProcessorServiceImpl - Queued project 6227 to scan viruses
+2020-03-30 00:59:20,361 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-03-30 00:59:20,362 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-30 00:59:20,362 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-30 01:00:00,656 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.2.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
@@ -39,29 +41,30 @@ Configuration on demand is an incubating feature.
 > Task :library:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
-> Task :library:compileDebugRenderscript NO-SOURCE
-> Task :library:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugBuildConfig
+> Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResValues
 > Task :library:generateDebugResources
 > Task :library:packageDebugResources
 > Task :library:javaPreCompileDebug
-> Task :library:parseDebugLibraryResources
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
+> Task :library:parseDebugLocalResources
 > Task :library:processDebugManifest
 > Task :library:generateDebugRFile
 > Task :library:compileDebugJavaWithJavac
-> Task :app:mergeDebugResources
+> Task :app:mainApkListPersistenceDebug
 > Task :library:bundleLibCompileDebug
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:processDebugResources
 > Task :app:javaPreCompileDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :library:extractDeepLinksDebug
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :library:compileDebugLibraryResources
+> Task :app:processDebugResources
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
@@ -76,66 +79,59 @@ Configuration on demand is an incubating feature.
 > Task :library:processDebugJavaRes NO-SOURCE
 > Task :library:bundleLibResDebug
 > Task :app:mergeDebugJavaResource
-> Task :app:desugarDebugFileDependencies
 > Task :app:checkDebugDuplicateClasses
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
+> Task :app:desugarDebugFileDependencies
 > Task :app:mergeDebugJniLibFolders
 > Task :library:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :library:compileReleaseRenderscript NO-SOURCE
-> Task :library:checkReleaseManifest
 > Task :library:generateReleaseBuildConfig
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
+> Task :library:jacocoDebug
 > Task :library:mergeDebugNativeLibs
 > Task :library:stripDebugDebugSymbols
-> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :library:parseReleaseLibraryResources
+> Task :library:copyDebugJniLibsProjectOnly
+> Task :library:parseReleaseLocalResources
+> Task :library:bundleLibRuntimeDebug
 > Task :library:processReleaseManifest
-> Task :library:generateReleaseRFile
-> Task :library:javaPreCompileRelease
-> Task :library:compileReleaseJavaWithJavac
+> Task :app:dexBuilderDebug
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
+> Task :app:mergeLibDexDebug
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :library:jacocoDebug
-> Task :library:bundleLibRuntimeDebug
-> Task :library:createFullJarDebug
-> Task :library:bundleLibCompileRelease
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:mergeReleaseResources
+> Task :app:mergeProjectDexDebug
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :library:extractDeepLinksRelease
 > Task :app:processReleaseManifest
+> Task :app:mergeReleaseResources
+> Task :library:javaPreCompileRelease
+> Task :library:compileReleaseLibraryResources
+> Task :library:generateReleaseRFile
+> Task :library:compileReleaseJavaWithJavac
 > Task :app:processReleaseResources
+> Task :library:bundleLibCompileRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :app:mergeLibDexDebug
-> Task :app:mergeProjectDexDebug
 > Task :app:prepareLintJar
-> Task :library:processReleaseJavaRes NO-SOURCE
 > Task :app:checkReleaseDuplicateClasses
-> Task :library:prepareLintJarForPublish
-
-> Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/6365c8f9a60921723ff6ff4c85a48381/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :library:bundleLibRuntimeRelease
-> Task :library:bundleLibResRelease
-> Task :library:createFullJarRelease
+> Task :library:prepareLintJarForPublish
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
 > Task :app:desugarReleaseFileDependencies
-> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -145,12 +141,13 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :library:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:signingConfigWriterRelease
+> Task :library:processReleaseJavaRes NO-SOURCE
 > Task :app:mergeReleaseJniLibFolders
 > Task :library:mergeReleaseJniLibFolders
+> Task :library:bundleLibResRelease
 > Task :library:mergeReleaseNativeLibs
 > Task :library:stripReleaseDebugSymbols
-> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :library:copyReleaseJniLibsProjectOnly
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseJavaResource
@@ -164,11 +161,11 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.2.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 40s
-94 actionable tasks: 94 executed
+BUILD SUCCESSFUL in 39s
+92 actionable tasks: 92 executed
 
-2020-01-02 19:44:15,357 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577969004451-0/src/ReactiveAirplaneMode-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-30 01:00:00,716 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504743579-0/src/ReactiveAirplaneMode-master/app/build/outputs/apk/debug/app-debug.apk
