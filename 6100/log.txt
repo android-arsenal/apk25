@@ -1,37 +1,37 @@
-2020-01-19 21:01:03,852 INFO  DownloadService - Downloading "https://github.com/natario1/CameraView/archive/master.zip", attempt 3
-2020-01-19 21:01:05,580 INFO  DownloadService - Downloaded https://github.com/natario1/CameraView/archive/master.zip, attempt 3
-2020-01-19 21:01:05,580 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/master.zip": 6 MB
-2020-01-19 21:01:05,580 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-19 21:01:05,581 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/master.zip: true
-2020-01-19 21:01:05,581 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src'.
-2020-01-19 21:01:05,697 INFO  FullProcessService - Size of directory with sources: 7 MB
-2020-01-19 21:01:05,697 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src]
-2020-01-19 21:01:05,720 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/.git/
+2020-03-30 01:24:39,468 INFO  DownloadService - Downloading "https://github.com/natario1/CameraView/archive/master.zip", attempt 3
+2020-03-30 01:24:41,847 INFO  DownloadService - Downloaded https://github.com/natario1/CameraView/archive/master.zip, attempt 3
+2020-03-30 01:24:41,848 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/master.zip": 6 MB
+2020-03-30 01:24:41,848 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-30 01:24:41,849 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/master.zip: true
+2020-03-30 01:24:41,849 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src'.
+2020-03-30 01:24:41,999 INFO  FullProcessService - Size of directory with sources: 7 MB
+2020-03-30 01:24:41,999 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src]
+2020-03-30 01:24:42,018 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/.git/
 
-2020-01-19 21:01:05,729 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/gradlew
-2020-01-19 21:01:05,737 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/build.gradle
-2020-01-19 21:01:05,746 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/settings.gradle
-2020-01-19 21:01:05,746 INFO  ProjectBuildService - Remote scripts: none
-2020-01-19 21:01:05,746 INFO  ProjectFixService - Fixing project...
-2020-01-19 21:01:05,766 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/local.properties
-2020-01-19 21:01:05,769 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-19 21:01:05,769 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-19 21:01:05,771 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/demo/local.properties
-2020-01-19 21:01:05,774 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-19 21:01:05,774 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-19 21:01:05,775 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/local.properties
-2020-01-19 21:01:05,776 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-19 21:01:05,776 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-19 21:01:05,777 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-19 21:01:05,777 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-19 21:01:05,778 INFO  ProjectFixService - Project was maybe fixed
-2020-01-19 21:01:05,778 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-19 21:01:05,778 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-19 21:01:10,131 INFO  VirusProcessorServiceImpl - Queued project 6115 to scan viruses
-2020-01-19 21:01:12,697 INFO  ProjectTaskService - Detected possible tasks: 73
-2020-01-19 21:01:12,697 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-01-19 21:01:12,697 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-01-19 21:01:34,412 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-30 01:24:42,029 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/gradlew
+2020-03-30 01:24:42,040 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/build.gradle
+2020-03-30 01:24:42,051 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/settings.gradle
+2020-03-30 01:24:42,052 INFO  ProjectBuildService - Remote scripts: none
+2020-03-30 01:24:42,052 INFO  ProjectFixService - Fixing project...
+2020-03-30 01:24:42,077 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/local.properties
+2020-03-30 01:24:42,081 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-30 01:24:42,082 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-30 01:24:42,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/demo/local.properties
+2020-03-30 01:24:42,088 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-30 01:24:42,088 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-30 01:24:42,089 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/local.properties
+2020-03-30 01:24:42,090 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-30 01:24:42,090 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-30 01:24:42,092 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-30 01:24:42,092 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-30 01:24:42,093 INFO  ProjectFixService - Project was maybe fixed
+2020-03-30 01:24:42,093 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 01:24:42,093 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 01:24:46,139 INFO  VirusProcessorServiceImpl - Queued project 6115 to scan viruses
+2020-03-30 01:24:50,146 INFO  ProjectTaskService - Detected possible tasks: 73
+2020-03-30 01:24:50,146 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-30 01:24:50,146 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-30 01:25:18,084 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :cameraview
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -51,25 +51,11 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :cameraview:packageDebugRenderscript NO-SOURCE
 > Task :cameraview:processDebugJavaRes NO-SOURCE
 > Task :cameraview:mergeDebugJniLibFolders
-> Task :cameraview:prepareLintJarForPublish
-> Task :cameraview:processDebugManifest
-> Task :cameraview:compileDebugAidl NO-SOURCE
-> Task :cameraview:compileDebugRenderscript NO-SOURCE
-> Task :cameraview:javaPreCompileDebug
-> Task :cameraview:generateDebugResources
-> Task :cameraview:packageDebugResources
 > Task :cameraview:preReleaseBuild UP-TO-DATE
-> Task :cameraview:compileReleaseAidl NO-SOURCE
-> Task :cameraview:compileReleaseRenderscript NO-SOURCE
 > Task :cameraview:checkReleaseManifest
 > Task :cameraview:generateReleaseBuildConfig
 > Task :cameraview:generateReleaseResValues
-> Task :cameraview:generateReleaseResources
-> Task :cameraview:packageReleaseResources
-> Task :cameraview:mergeDebugNativeLibs
-> Task :cameraview:stripDebugDebugSymbols
-> Task :cameraview:transformNativeLibsWithSyncJniLibsForDebug
-> Task :cameraview:parseReleaseLibraryResources
+> Task :cameraview:prepareLintJarForPublish
 > Task :cameraview:mergeReleaseShaders
 > Task :cameraview:compileReleaseShaders
 > Task :cameraview:generateReleaseAssets
@@ -77,14 +63,28 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :cameraview:packageReleaseRenderscript NO-SOURCE
 > Task :cameraview:processReleaseJavaRes NO-SOURCE
 > Task :cameraview:mergeReleaseJniLibFolders
-> Task :cameraview:parseDebugLibraryResources
+> Task :cameraview:processReleaseManifest
+> Task :cameraview:processDebugManifest
 > Task :cameraview:mergeReleaseNativeLibs
 > Task :cameraview:stripReleaseDebugSymbols
 > Task :cameraview:transformNativeLibsWithSyncJniLibsForRelease
-> Task :cameraview:javaPreCompileRelease
-> Task :cameraview:processReleaseManifest
+> Task :cameraview:mergeDebugNativeLibs
+> Task :cameraview:stripDebugDebugSymbols
+> Task :cameraview:transformNativeLibsWithSyncJniLibsForDebug
 > Task :cameraview:sourcesJar
+> Task :cameraview:compileDebugAidl NO-SOURCE
+> Task :cameraview:compileDebugRenderscript NO-SOURCE
+> Task :cameraview:generateDebugResources
+> Task :cameraview:packageDebugResources
+> Task :cameraview:javaPreCompileDebug
+> Task :cameraview:compileReleaseAidl NO-SOURCE
+> Task :cameraview:compileReleaseRenderscript NO-SOURCE
+> Task :cameraview:generateReleaseResources
+> Task :cameraview:packageReleaseResources
 > Task :cameraview:mergeReleaseResources
+> Task :cameraview:parseDebugLibraryResources
+> Task :cameraview:javaPreCompileRelease
+> Task :cameraview:parseReleaseLibraryResources
 > Task :cameraview:generateReleaseRFile
 
 > Task :cameraview:compileReleaseJavaWithJavac
@@ -94,8 +94,6 @@ Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :cameraview:extractReleaseAnnotations
-> Task :cameraview:mergeReleaseGeneratedProguardFiles
-> Task :cameraview:mergeReleaseConsumerProguardFiles
 > Task :cameraview:generateDebugRFile
 
 > Task :cameraview:compileDebugJavaWithJavac
@@ -107,186 +105,80 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :cameraview:extractDebugAnnotations
 > Task :cameraview:mergeDebugGeneratedProguardFiles
 > Task :cameraview:mergeDebugConsumerProguardFiles
-> Task :cameraview:verifyReleaseResources
 > Task :cameraview:compileDebugSources
+> Task :cameraview:mergeReleaseGeneratedProguardFiles
+> Task :cameraview:mergeReleaseConsumerProguardFiles
 > Task :cameraview:compileReleaseSources
 
 > Task :cameraview:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:288: warning: no @param for unrecoverably
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:175: warning: no @param for surfaceTexture
+    protected void takeFrame(@NonNull SurfaceTexture surfaceTexture,
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:175: warning: no @param for eglContext
+    protected void takeFrame(@NonNull SurfaceTexture surfaceTexture,
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/CameraEngine.java:287: warning: no @param for unrecoverably
     public void destroy(boolean unrecoverably) {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java:1154: warning: no @param for builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java:1156: warning: no @param for builder
     protected boolean applyFlash(@NonNull CaptureRequest.Builder builder,
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java:1154: warning: no @param for oldFlash
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java:1156: warning: no @param for oldFlash
     protected boolean applyFlash(@NonNull CaptureRequest.Builder builder,
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java:1154: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/engine/Camera2Engine.java:1156: warning: no @return
     protected boolean applyFlash(@NonNull CaptureRequest.Builder builder,
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/utils/ExifHelper.java:14: warning: no @param for exifOrientation
-    public static int getOrientation(int exifOrientation) {
-                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/utils/ExifHelper.java:14: warning: no @return
-    public static int getOrientation(int exifOrientation) {
-                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/utils/ExifHelper.java:41: warning: no @param for orientation
-    public static int getExifOrientation(int orientation) {
-                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/utils/ExifHelper.java:41: warning: no @return
-    public static int getExifOrientation(int orientation) {
-                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/utils/WorkerHandler.java:147: warning: no @param for <T>
-    public <T> Task<T> run(@NonNull Callable<T> callable) {
-                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/utils/WorkerHandler.java:147: warning: no @return
-    public <T> Task<T> run(@NonNull Callable<T> callable) {
-                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/utils/WorkerHandler.java:171: warning: no @param for <T>
-    public <T> Task<T> post(@NonNull final Callable<T> callable) {
-                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/utils/WorkerHandler.java:171: warning: no @return
-    public <T> Task<T> post(@NonNull final Callable<T> callable) {
-                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/frame/Frame.java:112: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/frame/Frame.java:112: warning: no @param for <T>
     public <T> T getData() {
                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/frame/Frame.java:144: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/frame/Frame.java:144: warning: no @return
     public int getRotation() {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/frame/FrameManager.java:50: warning: no @param for dataClass
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/frame/FrameManager.java:50: warning: no @param for dataClass
     protected FrameManager(int poolSize, @NonNull Class<T> dataClass) {
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/DeviceEncoders.java:317: warning: no @param for size
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/DeviceEncoders.java:317: warning: no @param for size
     public int getSupportedVideoFrameRate(@NonNull Size size, int frameRate) {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglBaseSurface.java:79: warning: no @param for width
-    public void createOffscreenSurface(int width, int height) {
-                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglBaseSurface.java:79: warning: no @param for height
-    public void createOffscreenSurface(int width, int height) {
-                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglBaseSurface.java:95: warning: no @return
-    public int getWidth() {
-               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglBaseSurface.java:106: warning: no @return
-    public int getHeight() {
-               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglBaseSurface.java:134: warning: no @param for readSurface
-    public void makeCurrentReadFrom(EglBaseSurface readSurface) {
-                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglBaseSurface.java:166: warning: no @param for file
-    public void saveFrameToFile(File file) throws IOException {
-                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglBaseSurface.java:166: warning: no @throws for java.io.IOException
-    public void saveFrameToFile(File file) throws IOException {
-                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglBaseSurface.java:211: warning: no @param for compressFormat
-    public byte[] saveFrameTo(Bitmap.CompressFormat compressFormat) {
-                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglBaseSurface.java:211: warning: no @return
-    public byte[] saveFrameTo(Bitmap.CompressFormat compressFormat) {
-                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:226: warning: no @param for eglSurface
-    public void releaseSurface(EGLSurface eglSurface) {
-                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:235: warning: no @param for surface
-    public EGLSurface createWindowSurface(Object surface) {
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/ExifHelper.java:14: warning: no @param for exifOrientation
+    public static int getOrientation(int exifOrientation) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:235: warning: no @return
-    public EGLSurface createWindowSurface(Object surface) {
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/ExifHelper.java:14: warning: no @return
+    public static int getOrientation(int exifOrientation) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:256: warning: no @param for width
-    public EGLSurface createOffscreenSurface(int width, int height) {
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/ExifHelper.java:41: warning: no @param for orientation
+    public static int getExifOrientation(int orientation) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:256: warning: no @param for height
-    public EGLSurface createOffscreenSurface(int width, int height) {
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/ExifHelper.java:41: warning: no @return
+    public static int getExifOrientation(int orientation) {
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:256: warning: no @return
-    public EGLSurface createOffscreenSurface(int width, int height) {
-                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:274: warning: no @param for eglSurface
-    public void makeCurrent(EGLSurface eglSurface) {
-                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:287: warning: no @param for drawSurface
-    public void makeCurrent(EGLSurface drawSurface, EGLSurface readSurface) {
-                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:287: warning: no @param for readSurface
-    public void makeCurrent(EGLSurface drawSurface, EGLSurface readSurface) {
-                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:312: warning: no @param for eglSurface
-    public boolean swapBuffers(EGLSurface eglSurface) {
-                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:320: warning: no @param for eglSurface
-    public void setPresentationTime(EGLSurface eglSurface, long nsecs) {
-                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:320: warning: no @param for nsecs
-    public void setPresentationTime(EGLSurface eglSurface, long nsecs) {
-                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:327: warning: no @param for eglSurface
-    public boolean isCurrent(EGLSurface eglSurface) {
-                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:327: warning: no @return
-    public boolean isCurrent(EGLSurface eglSurface) {
-                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:335: warning: no @param for eglSurface
-    public int querySurface(EGLSurface eglSurface, int what) {
-               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:335: warning: no @param for what
-    public int querySurface(EGLSurface eglSurface, int what) {
-               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:335: warning: no @return
-    public int querySurface(EGLSurface eglSurface, int what) {
-               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:344: warning: no @param for what
-    public String queryString(int what) {
-                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:344: warning: no @return
-    public String queryString(int what) {
-                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglCore.java:351: warning: no @return
-    public int getGlVersion() {
-               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglWindowSurface.java:60: warning: no @param for eglCore
-    public EglWindowSurface(EglCore eglCore, Surface surface) {
-           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglWindowSurface.java:60: warning: no @param for surface
-    public EglWindowSurface(EglCore eglCore, Surface surface) {
-           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglWindowSurface.java:42: warning: no @param for eglCore
-    public EglWindowSurface(EglCore eglCore, Surface surface, boolean releaseSurface) {
-           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglWindowSurface.java:42: warning: no @param for surface
-    public EglWindowSurface(EglCore eglCore, Surface surface, boolean releaseSurface) {
-           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglWindowSurface.java:42: warning: no @param for releaseSurface
-    public EglWindowSurface(EglCore eglCore, Surface surface, boolean releaseSurface) {
-           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglWindowSurface.java:52: warning: no @param for eglCore
-    public EglWindowSurface(EglCore eglCore, SurfaceTexture surfaceTexture) {
-           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/egl/EglWindowSurface.java:52: warning: no @param for surfaceTexture
-    public EglWindowSurface(EglCore eglCore, SurfaceTexture surfaceTexture) {
-           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoderEngine.java:57: warning - Tag @link: can't find prepare(Controller, long) in com.otaliastudios.cameraview.video.encoding.MediaEncoder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:184: warning: no @param for surfaceTexture
-    protected void takeFrame(@NonNull SurfaceTexture surfaceTexture,
-                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/picture/SnapshotGlPictureRecorder.java:184: warning: no @param for eglContext
-    protected void takeFrame(@NonNull SurfaceTexture surfaceTexture,
-                   ^
-55 warnings
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/WorkerHandler.java:147: warning: no @param for <T>
+    public <T> Task<T> run(@NonNull Callable<T> callable) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/WorkerHandler.java:147: warning: no @return
+    public <T> Task<T> run(@NonNull Callable<T> callable) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/WorkerHandler.java:171: warning: no @param for <T>
+    public <T> Task<T> post(@NonNull final Callable<T> callable) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/internal/WorkerHandler.java:171: warning: no @return
+    public <T> Task<T> post(@NonNull final Callable<T> callable) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/cameraview/src/main/java/com/otaliastudios/cameraview/video/encoding/MediaEncoderEngine.java:56: warning - Tag @link: can't find prepare(Controller, long) in com.otaliastudios.cameraview.video.encoding.MediaEncoder
+19 warnings
 
 > Task :cameraview:javadocJar
 > Task :cameraview:jacocoDebug
+> Task :cameraview:mergeReleaseJavaResource
+> Task :cameraview:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :cameraview:bundleReleaseAar
+> Task :cameraview:verifyReleaseResources
+> Task :cameraview:assembleRelease
 > Task :cameraview:mergeDebugJavaResource
 > Task :cameraview:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :cameraview:bundleDebugAar
 > Task :cameraview:assembleDebug
-> Task :cameraview:mergeReleaseJavaResource
-> Task :cameraview:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :cameraview:bundleReleaseAar
-> Task :cameraview:assembleRelease
 > Task :cameraview:assemble
 > Task :cameraview:build
 
@@ -294,15 +186,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 21s
+BUILD SUCCESSFUL in 27s
 51 actionable tasks: 51 executed
 
-2020-01-19 21:01:34,456 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-19 21:01:34,456 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-19 21:01:39,423 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-19 21:01:39,424 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-19 21:01:39,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-19 21:02:13,660 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-30 01:25:18,153 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 01:25:18,153 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 01:25:23,871 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-30 01:25:23,871 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-30 01:25:23,871 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-30 01:26:09,043 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :cameraview
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -312,8 +204,8 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 
 > Task :cameraview:preBuild UP-TO-DATE
 > Task :cameraview:preDebugBuild UP-TO-DATE
-> Task :cameraview:checkDebugManifest UP-TO-DATE
 > Task :cameraview:compileDebugAidl NO-SOURCE
+> Task :cameraview:checkDebugManifest UP-TO-DATE
 > Task :cameraview:compileDebugRenderscript NO-SOURCE
 > Task :cameraview:generateDebugBuildConfig UP-TO-DATE
 > Task :cameraview:generateDebugResValues UP-TO-DATE
@@ -329,17 +221,17 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :demo:compileDebugAidl NO-SOURCE
 > Task :cameraview:packageDebugRenderscript NO-SOURCE
 > Task :demo:checkDebugManifest
-> Task :demo:generateDebugBuildConfig
 > Task :demo:compileDebugRenderscript NO-SOURCE
+> Task :demo:generateDebugBuildConfig
 > Task :demo:mainApkListPersistenceDebug
 > Task :demo:generateDebugResValues
 > Task :demo:generateDebugResources
 > Task :cameraview:bundleLibCompileDebug
+> Task :demo:javaPreCompileDebug
 > Task :demo:createDebugCompatibleScreenManifests
 > Task :demo:processDebugManifest
 > Task :demo:mergeDebugResources
 > Task :demo:processDebugResources
-> Task :demo:javaPreCompileDebug
 
 > Task :demo:compileDebugJavaWithJavac
 Note: Some input files use unchecked or unsafe operations.
@@ -395,28 +287,25 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :demo:processReleaseManifest
 > Task :demo:mergeDebugNativeLibs
 > Task :demo:stripDebugDebugSymbols
-> Task :demo:mergeReleaseResources
-> Task :demo:processReleaseResources
 > Task :cameraview:bundleLibCompileRelease
 > Task :demo:javaPreCompileRelease
+> Task :cameraview:prepareLintJarForPublish UP-TO-DATE
+> Task :demo:prepareLintJar
+> Task :demo:checkReleaseDuplicateClasses
+> Task :cameraview:bundleLibRuntimeRelease
+> Task :demo:mergeReleaseResources
+> Task :demo:processReleaseResources
 
 > Task :demo:compileReleaseJavaWithJavac
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :demo:compileReleaseSources
-> Task :cameraview:prepareLintJarForPublish UP-TO-DATE
-> Task :demo:prepareLintJar
 
 > Task :demo:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/eca8c4101c2bf272161f11366e71edc5/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :demo:checkReleaseDuplicateClasses
 > Task :demo:mergeExtDexDebug
-> Task :cameraview:bundleLibRuntimeRelease
-> Task :demo:mergeDexDebug
-> Task :demo:packageDebug
-> Task :demo:assembleDebug
 > Task :demo:transformClassesWithDexBuilderForRelease
 > Task :cameraview:mergeReleaseShaders UP-TO-DATE
 > Task :cameraview:compileReleaseShaders UP-TO-DATE
@@ -437,7 +326,10 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :cameraview:bundleLibResRelease
 > Task :demo:mergeReleaseNativeLibs
 > Task :demo:stripReleaseDebugSymbols
+> Task :demo:mergeDexDebug
+> Task :demo:packageDebug
 > Task :demo:mergeReleaseJavaResource
+> Task :demo:assembleDebug
 > Task :demo:mergeExtDexRelease
 > Task :demo:mergeDexRelease
 > Task :demo:packageRelease
@@ -449,7 +341,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 33s
+BUILD SUCCESSFUL in 44s
 89 actionable tasks: 57 executed, 32 up-to-date
 
-2020-01-19 21:02:13,755 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579442463843-0/src/CameraView-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2020-03-30 01:26:09,193 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506279459-0/src/CameraView-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
