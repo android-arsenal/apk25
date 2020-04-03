@@ -1,34 +1,34 @@
-2020-03-30 01:23:39,083 INFO  DownloadService - Downloading "https://github.com/GuilhE/android-seekbar-ranged-view/archive/master.zip", attempt 3
-2020-03-30 01:23:41,594 INFO  DownloadService - Downloaded https://github.com/GuilhE/android-seekbar-ranged-view/archive/master.zip, attempt 3
-2020-03-30 01:23:41,594 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/master.zip": 600 KB
-2020-03-30 01:23:41,594 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-30 01:23:41,595 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/master.zip: true
-2020-03-30 01:23:41,595 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src'.
-2020-03-30 01:23:41,620 INFO  FullProcessService - Size of directory with sources: 712 KB
-2020-03-30 01:23:41,620 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src]
-2020-03-30 01:23:41,643 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/.git/
+2020-04-03 22:46:04,783 INFO  DownloadService - Downloading "https://github.com/GuilhE/android-seekbar-ranged-view/archive/master.zip", attempt 3
+2020-04-03 22:46:13,720 INFO  VirusProcessorServiceImpl - Queued project 6158 to scan viruses
+2020-04-03 22:46:56,267 INFO  DownloadService - Downloaded https://github.com/GuilhE/android-seekbar-ranged-view/archive/master.zip, attempt 3
+2020-04-03 22:46:56,268 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/master.zip": 600 KB
+2020-04-03 22:46:56,268 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-04-03 22:46:56,273 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/master.zip: true
+2020-04-03 22:46:56,274 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src'.
+2020-04-03 22:46:56,294 INFO  FullProcessService - Size of directory with sources: 712 KB
+2020-04-03 22:46:56,294 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src]
+2020-04-03 22:46:56,313 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/.git/
 
-2020-03-30 01:23:41,648 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/gradlew
-2020-03-30 01:23:41,651 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/seekbar-ranged-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/build.gradle
-2020-03-30 01:23:41,654 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/seekbar-ranged-view/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/seekbar-ranged-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/settings.gradle
-2020-03-30 01:23:41,655 INFO  ProjectBuildService - Remote scripts: none
-2020-03-30 01:23:41,655 INFO  ProjectFixService - Fixing project...
-2020-03-30 01:23:41,665 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/sample/local.properties
-2020-03-30 01:23:41,669 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-03-30 01:23:41,669 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/seekbar-ranged-view/local.properties
-2020-03-30 01:23:41,672 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/seekbar-ranged-view/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-03-30 01:23:41,672 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/local.properties
-2020-03-30 01:23:41,673 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-03-30 01:23:41,673 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-03-30 01:23:41,674 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-03-30 01:23:41,674 INFO  ProjectFixService - Project was maybe fixed
-2020-03-30 01:23:41,674 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-30 01:23:41,674 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-30 01:23:50,483 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-30 01:23:50,483 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-30 01:23:50,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-30 01:23:55,906 INFO  VirusProcessorServiceImpl - Queued project 7854 to scan viruses
-2020-03-30 01:24:39,051 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-04-03 22:46:56,316 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/gradlew
+2020-04-03 22:46:56,319 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/seekbar-ranged-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/build.gradle
+2020-04-03 22:46:56,322 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/seekbar-ranged-view/deploy.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/seekbar-ranged-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/settings.gradle
+2020-04-03 22:46:56,322 INFO  ProjectBuildService - Remote scripts: none
+2020-04-03 22:46:56,322 INFO  ProjectFixService - Fixing project...
+2020-04-03 22:46:56,330 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/sample/local.properties
+2020-04-03 22:46:56,333 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-04-03 22:46:56,334 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/seekbar-ranged-view/local.properties
+2020-04-03 22:46:56,336 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/seekbar-ranged-view/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-04-03 22:46:56,337 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/local.properties
+2020-04-03 22:46:56,337 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-04-03 22:46:56,338 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-04-03 22:46:56,338 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-04-03 22:46:56,338 INFO  ProjectFixService - Project was maybe fixed
+2020-04-03 22:46:56,338 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-03 22:46:56,338 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-03 22:47:04,337 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-04-03 22:47:04,337 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-03 22:47:04,337 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-03 22:47:32,339 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :seekbar-ranged-view:preBuild UP-TO-DATE
@@ -51,29 +51,26 @@
 > Task :seekbar-ranged-view:generateDebugResources
 > Task :seekbar-ranged-view:packageDebugResources
 > Task :seekbar-ranged-view:generateDebugBuildConfig
+> Task :seekbar-ranged-view:parseDebugLocalResources
 > Task :sample:dataBindingMergeGenClassesDebug
+> Task :seekbar-ranged-view:javaPreCompileDebug
 > Task :sample:mergeDebugResources
 > Task :sample:dataBindingGenBaseClassesDebug
-> Task :seekbar-ranged-view:parseDebugLocalResources
 > Task :seekbar-ranged-view:processDebugManifest
-> Task :seekbar-ranged-view:javaPreCompileDebug
-> Task :seekbar-ranged-view:generateDebugRFile
-
-> Task :seekbar-ranged-view:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/seekbar-ranged-view/src/main/java/com/github/guilhe/views/SeekBarRangedView.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:extractDeepLinksDebug
 > Task :seekbar-ranged-view:extractDeepLinksDebug
-> Task :sample:processDebugManifest
-> Task :seekbar-ranged-view:bundleLibCompileDebug
 > Task :seekbar-ranged-view:compileDebugLibraryResources
+> Task :seekbar-ranged-view:generateDebugRFile
+
+> Task :seekbar-ranged-view:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/seekbar-ranged-view/src/main/java/com/github/guilhe/views/SeekBarRangedView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :sample:processDebugManifest
 > Task :sample:processDebugResources
-> Task :sample:javaPreCompileDebug
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
+> Task :seekbar-ranged-view:bundleLibCompileDebug
 > Task :sample:mergeDebugShaders
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
@@ -82,14 +79,16 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :seekbar-ranged-view:generateDebugAssets
 > Task :seekbar-ranged-view:packageDebugAssets
 > Task :sample:mergeDebugAssets
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :seekbar-ranged-view:processDebugJavaRes NO-SOURCE
 > Task :seekbar-ranged-view:bundleLibResDebug
-> Task :sample:mergeDebugJavaResource
-> Task :sample:checkDebugDuplicateClasses
-> Task :seekbar-ranged-view:bundleLibRuntimeDebug
-> Task :sample:mergeLibDexDebug
 > Task :sample:dexBuilderDebug
+> Task :seekbar-ranged-view:bundleLibRuntimeDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeDebugJavaResource
 > Task :sample:mergeDebugJniLibFolders
 > Task :seekbar-ranged-view:mergeDebugJniLibFolders
 > Task :sample:validateSigningDebug
@@ -102,46 +101,38 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :sample:generateReleaseBuildConfig
 > Task :sample:generateReleaseSources
 > Task :sample:dataBindingExportBuildInfoRelease
-> Task :seekbar-ranged-view:mergeDebugNativeLibs
-> Task :seekbar-ranged-view:stripDebugDebugSymbols
-> Task :seekbar-ranged-view:copyDebugJniLibsProjectOnly
 > Task :sample:dataBindingExportFeaturePackageIdsRelease
-> Task :sample:dataBindingMergeDependencyArtifactsRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
 > Task :seekbar-ranged-view:compileReleaseRenderscript NO-SOURCE
 > Task :seekbar-ranged-view:generateReleaseResValues
 > Task :seekbar-ranged-view:generateReleaseResources
 > Task :seekbar-ranged-view:packageReleaseResources
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
-> Task :seekbar-ranged-view:generateReleaseBuildConfig
 > Task :sample:dataBindingMergeGenClassesRelease
+> Task :seekbar-ranged-view:mergeDebugNativeLibs
+> Task :seekbar-ranged-view:stripDebugDebugSymbols
+> Task :seekbar-ranged-view:copyDebugJniLibsProjectOnly
+> Task :seekbar-ranged-view:generateReleaseBuildConfig
+> Task :sample:mergeExtDexDebug
+> Task :seekbar-ranged-view:processReleaseManifest
+> Task :seekbar-ranged-view:javaPreCompileRelease
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:extractDeepLinksRelease
 > Task :seekbar-ranged-view:extractDeepLinksRelease
-> Task :seekbar-ranged-view:parseReleaseLocalResources
-> Task :seekbar-ranged-view:processReleaseManifest
-> Task :seekbar-ranged-view:compileReleaseLibraryResources
 > Task :sample:processReleaseManifest
 > Task :sample:mergeProjectDexDebug
-> Task :seekbar-ranged-view:javaPreCompileRelease
+> Task :sample:dataBindingMergeDependencyArtifactsRelease
+> Task :seekbar-ranged-view:compileReleaseLibraryResources
+> Task :sample:mergeLibDexDebug
 > Task :sample:mergeReleaseResources
 > Task :sample:dataBindingGenBaseClassesRelease
-> Task :seekbar-ranged-view:generateReleaseRFile
-
-> Task :seekbar-ranged-view:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/seekbar-ranged-view/src/main/java/com/github/guilhe/views/SeekBarRangedView.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :sample:processReleaseResources
-> Task :seekbar-ranged-view:bundleLibCompileRelease
-> Task :sample:javaPreCompileRelease
-> Task :sample:compileReleaseJavaWithJavac
-> Task :sample:compileReleaseSources
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :seekbar-ranged-view:parseReleaseLocalResources
 > Task :sample:checkReleaseDuplicateClasses
-> Task :sample:dexBuilderRelease
 > Task :sample:mergeReleaseShaders
 > Task :sample:compileReleaseShaders
 > Task :sample:generateReleaseAssets
@@ -152,19 +143,28 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :sample:mergeReleaseAssets
 > Task :sample:processReleaseJavaRes NO-SOURCE
 > Task :seekbar-ranged-view:processReleaseJavaRes NO-SOURCE
+> Task :seekbar-ranged-view:generateReleaseRFile
+
+> Task :seekbar-ranged-view:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/seekbar-ranged-view/src/main/java/com/github/guilhe/views/SeekBarRangedView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :sample:processReleaseResources
+> Task :seekbar-ranged-view:bundleLibCompileRelease
+> Task :seekbar-ranged-view:prepareLintJarForPublish
 > Task :sample:mergeReleaseJniLibFolders
 > Task :seekbar-ranged-view:mergeReleaseJniLibFolders
-> Task :seekbar-ranged-view:bundleLibRuntimeRelease
-> Task :sample:mergeExtDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
-> Task :seekbar-ranged-view:prepareLintJarForPublish
-> Task :sample:lintVitalRelease
 > Task :seekbar-ranged-view:bundleLibResRelease
 > Task :sample:mergeExtDexRelease
+> Task :seekbar-ranged-view:bundleLibRuntimeRelease
 > Task :seekbar-ranged-view:mergeReleaseNativeLibs
 > Task :seekbar-ranged-view:stripReleaseDebugSymbols
 > Task :seekbar-ranged-view:copyReleaseJniLibsProjectOnly
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :sample:lintVitalRelease
+> Task :sample:dexBuilderRelease
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols
 > Task :sample:mergeReleaseJavaResource
@@ -174,7 +174,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 48s
+BUILD SUCCESSFUL in 27s
 100 actionable tasks: 100 executed
 
-2020-03-30 01:24:39,116 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506219080-0/src/android-seekbar-ranged-view-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-04-03 22:47:32,397 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585928764774-0/src/android-seekbar-ranged-view-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
