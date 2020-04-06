@@ -1,37 +1,37 @@
-2020-03-30 00:58:09,013 INFO  DownloadService - Downloading "https://github.com/KingJA/LoadSir/archive/master.zip", attempt 3
-2020-03-30 00:58:10,343 INFO  DownloadService - Downloaded https://github.com/KingJA/LoadSir/archive/master.zip, attempt 3
-2020-03-30 00:58:10,344 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/master.zip": 1 MB
-2020-03-30 00:58:10,344 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-30 00:58:10,344 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/master.zip: true
-2020-03-30 00:58:10,344 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src'.
-2020-03-30 00:58:10,392 INFO  FullProcessService - Size of directory with sources: 1 MB
-2020-03-30 00:58:10,393 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src]
-2020-03-30 00:58:10,412 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/.git/
+2020-04-06 12:57:38,299 INFO  DownloadService - Downloading "https://github.com/KingJA/LoadSir/archive/master.zip", attempt 3
+2020-04-06 12:57:39,538 INFO  DownloadService - Downloaded https://github.com/KingJA/LoadSir/archive/master.zip, attempt 3
+2020-04-06 12:57:39,539 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/master.zip": 1 MB
+2020-04-06 12:57:39,539 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-04-06 12:57:39,545 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/master.zip: true
+2020-04-06 12:57:39,545 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src'.
+2020-04-06 12:57:39,593 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-04-06 12:57:39,594 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src]
+2020-04-06 12:57:39,612 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/.git/
 
-2020-03-30 00:58:10,417 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/gradlew
-2020-03-30 00:58:10,421 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/loadsir/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/build.gradle
-2020-03-30 00:58:10,425 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/loadsir/build.gradle
-2020-03-30 00:58:10,425 INFO  ProjectBuildService - Remote scripts: none
-2020-03-30 00:58:10,425 INFO  ProjectFixService - Fixing project...
-2020-03-30 00:58:10,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/app/local.properties
-2020-03-30 00:58:10,437 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:58:10,437 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:58:10,438 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/loadsir/local.properties
-2020-03-30 00:58:10,440 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/loadsir/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:58:10,440 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/loadsir/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:58:10,441 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/local.properties
-2020-03-30 00:58:10,442 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-03-30 00:58:10,442 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-03-30 00:58:10,444 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:58:10,444 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:58:10,445 INFO  ProjectFixService - Project was maybe fixed
-2020-03-30 00:58:10,445 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-30 00:58:10,445 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-30 00:58:16,910 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-30 00:58:16,910 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-30 00:58:16,910 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-30 00:58:20,222 INFO  VirusProcessorServiceImpl - Queued project 6228 to scan viruses
-2020-03-30 00:59:02,898 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-04-06 12:57:39,616 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/gradlew
+2020-04-06 12:57:39,621 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/loadsir/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/build.gradle
+2020-04-06 12:57:39,625 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/loadsir/build.gradle
+2020-04-06 12:57:39,626 INFO  ProjectBuildService - Remote scripts: none
+2020-04-06 12:57:39,626 INFO  ProjectFixService - Fixing project...
+2020-04-06 12:57:39,635 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/app/local.properties
+2020-04-06 12:57:39,637 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-06 12:57:39,637 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-06 12:57:39,638 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/loadsir/local.properties
+2020-04-06 12:57:39,639 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/loadsir/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-06 12:57:39,639 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/loadsir/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-06 12:57:39,640 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/local.properties
+2020-04-06 12:57:39,640 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-04-06 12:57:39,641 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-04-06 12:57:39,642 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-06 12:57:39,642 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-06 12:57:39,643 INFO  ProjectFixService - Project was maybe fixed
+2020-04-06 12:57:39,643 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-06 12:57:39,643 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-06 12:57:45,113 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-04-06 12:57:45,114 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-06 12:57:45,114 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-06 12:57:49,299 INFO  VirusProcessorServiceImpl - Queued project 6228 to scan viruses
+2020-04-06 12:58:26,153 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -48,7 +48,7 @@
 > Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/app/src/main/java/sample/kingja/loadsir/target/MultiFragmentWithViewPagerActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/app/src/main/java/sample/kingja/loadsir/target/MultiFragmentWithViewPagerActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -92,7 +92,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:processReleaseResources
 
 > Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/app/src/main/java/sample/kingja/loadsir/target/MultiFragmentWithViewPagerActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/app/src/main/java/sample/kingja/loadsir/target/MultiFragmentWithViewPagerActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -120,7 +120,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 45s
+BUILD SUCCESSFUL in 40s
 49 actionable tasks: 49 executed
 
-2020-03-30 00:59:02,988 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504689005-0/src/LoadSir-master/app/build/outputs/apk/debug/app-debug.apk
+2020-04-06 12:58:26,238 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152658297-0/src/LoadSir-master/app/build/outputs/apk/debug/app-debug.apk

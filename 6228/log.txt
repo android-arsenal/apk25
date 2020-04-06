@@ -1,34 +1,33 @@
-2020-03-30 00:57:15,693 INFO  DownloadService - Downloading "https://github.com/RafalManka/ScrollCalendar/archive/master.zip", attempt 3
-2020-03-30 00:57:18,145 INFO  DownloadService - Downloaded https://github.com/RafalManka/ScrollCalendar/archive/master.zip, attempt 3
-2020-03-30 00:57:18,145 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/master.zip": 578 KB
-2020-03-30 00:57:18,145 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-30 00:57:18,145 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/master.zip: true
-2020-03-30 00:57:18,146 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src'.
-2020-03-30 00:57:18,192 INFO  FullProcessService - Size of directory with sources: 986 KB
-2020-03-30 00:57:18,192 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src]
-2020-03-30 00:57:18,211 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/.git/
+2020-04-06 12:56:45,020 INFO  DownloadService - Downloading "https://github.com/RafalManka/ScrollCalendar/archive/master.zip", attempt 3
+2020-04-06 12:56:47,575 INFO  DownloadService - Downloaded https://github.com/RafalManka/ScrollCalendar/archive/master.zip, attempt 3
+2020-04-06 12:56:47,575 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/master.zip": 578 KB
+2020-04-06 12:56:47,575 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-04-06 12:56:47,580 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/master.zip: true
+2020-04-06 12:56:47,581 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src'.
+2020-04-06 12:56:47,628 INFO  FullProcessService - Size of directory with sources: 986 KB
+2020-04-06 12:56:47,628 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src]
+2020-04-06 12:56:47,648 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/.git/
 
-2020-03-30 00:57:18,217 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/gradlew
-2020-03-30 00:57:18,223 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/scrollcalendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/build.gradle
-2020-03-30 00:57:18,228 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/scrollcalendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/settings.gradle
-2020-03-30 00:57:18,228 INFO  ProjectBuildService - Remote scripts: none
-2020-03-30 00:57:18,228 INFO  ProjectFixService - Fixing project...
-2020-03-30 00:57:18,240 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/examples/local.properties
-2020-03-30 00:57:18,241 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/examples/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-03-30 00:57:18,241 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/scrollcalendar/local.properties
-2020-03-30 00:57:18,241 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/scrollcalendar/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-03-30 00:57:18,242 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/local.properties
-2020-03-30 00:57:18,242 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-03-30 00:57:18,242 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-03-30 00:57:18,243 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-03-30 00:57:18,243 INFO  ProjectFixService - Project was maybe fixed
-2020-03-30 00:57:18,243 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-30 00:57:18,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-30 00:57:22,736 INFO  VirusProcessorServiceImpl - Queued project 6259 to scan viruses
-2020-03-30 00:57:24,307 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-30 00:57:24,307 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-30 00:57:24,307 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-30 00:58:08,248 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-04-06 12:56:47,654 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/gradlew
+2020-04-06 12:56:47,659 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/scrollcalendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/build.gradle
+2020-04-06 12:56:47,664 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/scrollcalendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/examples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/settings.gradle
+2020-04-06 12:56:47,665 INFO  ProjectBuildService - Remote scripts: none
+2020-04-06 12:56:47,665 INFO  ProjectFixService - Fixing project...
+2020-04-06 12:56:47,677 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/examples/local.properties
+2020-04-06 12:56:47,677 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/examples/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-04-06 12:56:47,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/scrollcalendar/local.properties
+2020-04-06 12:56:47,678 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/scrollcalendar/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-04-06 12:56:47,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/local.properties
+2020-04-06 12:56:47,679 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-04-06 12:56:47,679 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-04-06 12:56:47,680 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-04-06 12:56:47,680 INFO  ProjectFixService - Project was maybe fixed
+2020-04-06 12:56:47,680 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-06 12:56:47,680 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-06 12:56:54,817 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-04-06 12:56:54,817 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-06 12:56:54,817 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/examples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-06 12:57:37,569 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :scrollcalendar
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -47,8 +46,8 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :scrollcalendar:compileDebugAidl NO-SOURCE
 > Task :examples:compileDebugAidl NO-SOURCE
 > Task :scrollcalendar:packageDebugRenderscript NO-SOURCE
-> Task :examples:compileDebugRenderscript NO-SOURCE
 > Task :examples:checkDebugManifest
+> Task :examples:compileDebugRenderscript NO-SOURCE
 > Task :examples:generateDebugBuildConfig
 > Task :scrollcalendar:compileDebugRenderscript NO-SOURCE
 > Task :scrollcalendar:checkDebugManifest
@@ -56,20 +55,20 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :scrollcalendar:generateDebugResValues
 > Task :scrollcalendar:generateDebugResources
 > Task :scrollcalendar:packageDebugResources
-> Task :scrollcalendar:javaPreCompileDebug
-> Task :scrollcalendar:parseDebugLibraryResources
 > Task :scrollcalendar:processDebugManifest
+> Task :scrollcalendar:parseDebugLibraryResources
+> Task :scrollcalendar:javaPreCompileDebug
 > Task :examples:mainApkListPersistenceDebug
 > Task :examples:generateDebugResValues
 > Task :examples:generateDebugResources
-> Task :examples:createDebugCompatibleScreenManifests
-> Task :examples:processDebugManifest
 > Task :scrollcalendar:generateDebugRFile
 > Task :scrollcalendar:compileDebugJavaWithJavac
 > Task :examples:mergeDebugResources
-> Task :examples:processDebugResources
 > Task :scrollcalendar:bundleLibCompileDebug
+> Task :examples:createDebugCompatibleScreenManifests
 > Task :examples:javaPreCompileDebug
+> Task :examples:processDebugManifest
+> Task :examples:processDebugResources
 > Task :examples:compileDebugJavaWithJavac
 > Task :examples:compileDebugSources
 > Task :examples:mergeDebugShaders
@@ -108,31 +107,20 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :scrollcalendar:mergeDebugNativeLibs
 > Task :scrollcalendar:stripDebugDebugSymbols
 > Task :scrollcalendar:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :scrollcalendar:parseReleaseLibraryResources
 > Task :scrollcalendar:processReleaseManifest
-> Task :scrollcalendar:javaPreCompileRelease
 > Task :examples:mainApkListPersistenceRelease
 > Task :examples:generateReleaseResValues
 > Task :examples:generateReleaseResources
-> Task :examples:createReleaseCompatibleScreenManifests
-> Task :examples:processReleaseManifest
 > Task :examples:mergeDebugNativeLibs
 > Task :examples:stripDebugDebugSymbols
-> Task :scrollcalendar:generateReleaseRFile
-> Task :scrollcalendar:compileReleaseJavaWithJavac
-> Task :examples:mergeReleaseResources
-> Task :examples:processReleaseResources
-> Task :scrollcalendar:bundleLibCompileRelease
-> Task :examples:javaPreCompileRelease
-> Task :examples:compileReleaseJavaWithJavac
-> Task :examples:compileReleaseSources
+> Task :examples:createReleaseCompatibleScreenManifests
+> Task :examples:processReleaseManifest
+> Task :scrollcalendar:javaPreCompileRelease
+> Task :scrollcalendar:parseReleaseLibraryResources
 > Task :examples:prepareLintJar
 > Task :examples:checkReleaseDuplicateClasses
-> Task :examples:transformClassesWithDexBuilderForRelease
 > Task :examples:mergeReleaseShaders
 > Task :examples:compileReleaseShaders
-> Task :scrollcalendar:prepareLintJarForPublish
-> Task :examples:lintVitalRelease
 > Task :examples:generateReleaseAssets
 > Task :scrollcalendar:mergeReleaseShaders
 > Task :scrollcalendar:compileReleaseShaders
@@ -144,19 +132,33 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :examples:signingConfigWriterRelease
 > Task :examples:mergeReleaseJniLibFolders
 > Task :scrollcalendar:mergeReleaseJniLibFolders
-> Task :scrollcalendar:bundleLibResRelease
+> Task :scrollcalendar:generateReleaseRFile
+> Task :scrollcalendar:compileReleaseJavaWithJavac
+> Task :scrollcalendar:prepareLintJarForPublish
+> Task :examples:mergeReleaseResources
+> Task :examples:processReleaseResources
 > Task :scrollcalendar:bundleLibRuntimeRelease
-> Task :examples:mergeExtDexRelease
 > Task :examples:mergeExtDexDebug
+> Task :scrollcalendar:bundleLibResRelease
+> Task :scrollcalendar:bundleLibCompileRelease
+> Task :examples:mergeExtDexRelease
 > Task :scrollcalendar:mergeReleaseNativeLibs
 > Task :scrollcalendar:stripReleaseDebugSymbols
 > Task :scrollcalendar:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :examples:mergeReleaseNativeLibs
-> Task :examples:stripReleaseDebugSymbols
-> Task :examples:mergeReleaseJavaResource
+> Task :examples:javaPreCompileRelease
+> Task :examples:compileReleaseJavaWithJavac
+> Task :examples:compileReleaseSources
+
+> Task :examples:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/3d5b72111afa69b1393127beeb9b8857/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :examples:transformClassesWithDexBuilderForRelease
 > Task :examples:mergeDexDebug
 > Task :examples:packageDebug
 > Task :examples:assembleDebug
+> Task :examples:mergeReleaseJavaResource
+> Task :examples:mergeReleaseNativeLibs
+> Task :examples:stripReleaseDebugSymbols
 > Task :examples:mergeDexRelease
 > Task :examples:packageRelease
 > Task :examples:assembleRelease
@@ -167,7 +169,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 43s
+BUILD SUCCESSFUL in 42s
 88 actionable tasks: 88 executed
 
-2020-03-30 00:58:08,350 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504635690-0/src/ScrollCalendar-master/examples/build/outputs/apk/release/examples-release-unsigned.apk
+2020-04-06 12:57:37,667 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586152605011-0/src/ScrollCalendar-master/examples/build/outputs/apk/release/examples-release-unsigned.apk
