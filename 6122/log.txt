@@ -1,33 +1,37 @@
-2020-01-02 20:36:49,562 INFO  DownloadService - Downloading "https://github.com/AviranAbady/CookieBar2/archive/master.zip", attempt 3
-2020-01-02 20:36:50,267 INFO  DownloadService - Downloaded https://github.com/AviranAbady/CookieBar2/archive/master.zip, attempt 3
-2020-01-02 20:36:50,268 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/master.zip": 316 KB
-2020-01-02 20:36:50,268 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-02 20:36:50,273 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/master.zip: true
-2020-01-02 20:36:50,273 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src'.
-2020-01-02 20:36:50,298 INFO  FullProcessService - Size of directory with sources: 360 KB
-2020-01-02 20:36:50,298 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src]
-2020-01-02 20:36:50,314 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/.git/
+2020-04-12 22:54:22,888 INFO  DownloadService - Downloading "https://github.com/AviranAbady/CookieBar2/archive/master.zip", attempt 3
+2020-04-12 22:54:26,623 INFO  VirusProcessorServiceImpl - Queued project 6138 to scan viruses
+2020-04-12 22:55:23,966 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-04-12 22:55:25,104 INFO  GithubDownloadService - Default branch of this repository: master
+2020-04-12 22:55:25,105 INFO  DownloadService - Downloading "https://github.com/AviranAbady/CookieBar2/archive/master.zip", attempt 3
+2020-04-12 22:56:28,550 DEBUG FullProcessService - Repository https://github.com/AviranAbady/CookieBar2 available: true
+2020-04-12 22:56:28,551 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-04-12 22:56:28,552 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/AviranAbady/CookieBar2, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src]
+2020-04-12 22:56:33,259 INFO  SysUtils - 
+2020-04-12 22:56:33,279 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/.git": true
+2020-04-12 22:56:33,289 INFO  FullProcessService - Size of directory with sources: 360 KB
+2020-04-12 22:56:33,290 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src]
+2020-04-12 22:56:33,347 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/.git/
 
-2020-01-02 20:36:50,317 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/gradlew
-2020-01-02 20:36:50,320 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/cookiebar2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/build.gradle
-2020-01-02 20:36:50,322 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/cookiebar2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/settings.gradle
-2020-01-02 20:36:50,322 INFO  ProjectBuildService - Remote scripts: none
-2020-01-02 20:36:50,322 INFO  ProjectFixService - Fixing project...
-2020-01-02 20:36:50,329 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/app/local.properties
-2020-01-02 20:36:50,329 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-02 20:36:50,329 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/cookiebar2/local.properties
-2020-01-02 20:36:50,329 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/cookiebar2/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-02 20:36:50,330 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/local.properties
-2020-01-02 20:36:50,330 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2020-01-02 20:36:50,330 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2020-01-02 20:36:50,331 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-02 20:36:50,331 INFO  ProjectFixService - Project was maybe fixed
-2020-01-02 20:36:50,331 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-02 20:36:50,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-02 20:36:56,392 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-02 20:36:56,392 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-02 20:36:56,392 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-02 20:37:31,542 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-04-12 22:56:33,357 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/gradlew
+2020-04-12 22:56:33,367 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/cookiebar2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/build.gradle
+2020-04-12 22:56:33,374 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/cookiebar2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/settings.gradle
+2020-04-12 22:56:33,374 INFO  ProjectBuildService - Remote scripts: none
+2020-04-12 22:56:33,374 INFO  ProjectFixService - Fixing project...
+2020-04-12 22:56:33,392 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/app/local.properties
+2020-04-12 22:56:33,394 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-04-12 22:56:33,396 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/cookiebar2/local.properties
+2020-04-12 22:56:33,396 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/cookiebar2/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-04-12 22:56:33,397 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/local.properties
+2020-04-12 22:56:33,398 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-04-12 22:56:33,401 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-04-12 22:56:33,402 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-04-12 22:56:33,403 INFO  ProjectFixService - Project was maybe fixed
+2020-04-12 22:56:33,403 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-12 22:56:33,404 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-12 22:56:56,401 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-04-12 22:56:56,401 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-12 22:56:56,401 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-12 22:58:07,463 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :cookiebar2:preBuild UP-TO-DATE
 > Task :cookiebar2:preDebugBuild UP-TO-DATE
@@ -163,7 +167,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 34s
+BUILD SUCCESSFUL in 1m 10s
 91 actionable tasks: 91 executed
 
-2020-01-02 20:37:31,599 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577972209560-0/src/CookieBar2-master/app/build/outputs/apk/debug/app-debug.apk
+2020-04-12 22:58:07,555 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586706862885-0/src/app/build/outputs/apk/debug/app-debug.apk
